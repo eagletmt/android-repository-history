@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-14 17:33:11.502121 with ADRT.-->
+	<!--Generated on 2017-03-15 15:40:03.419478 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -335,6 +335,42 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:ndk>
+	<sdk:lldb>
+		<!--Generated from bid:3744198, branch:git_lldb-2.3-release-->
+		<sdk:description>LLDB 2.4</sdk:description>
+		<sdk:revision>
+			<sdk:major>2</sdk:major>
+			<sdk:minor>4</sdk:minor>
+			<sdk:micro>3744198</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Fri Feb 17 14:19:09 2017.-->
+				<sdk:size>42701795</sdk:size>
+				<sdk:checksum type="sha1">2a5f2117b5ef79db77cf71e42d8ef1da449cfe66</sdk:checksum>
+				<sdk:url>lldb-2.4.3744198-darwin-x86_64.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+				<sdk:host-bits>64</sdk:host-bits>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Fri Feb 17 14:18:54 2017.-->
+				<sdk:size>50790562</sdk:size>
+				<sdk:checksum type="sha1">2fed478a1cc7f886dee5e8f74735fe130ecc7638</sdk:checksum>
+				<sdk:url>lldb-2.4.3744198-linux-x86_64.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+				<sdk:host-bits>64</sdk:host-bits>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Fri Feb 17 14:19:01 2017.-->
+				<sdk:size>39795638</sdk:size>
+				<sdk:checksum type="sha1">cd724475c80b1d4288e31c0782aaef484cc1c092</sdk:checksum>
+				<sdk:url>lldb-2.4.3744198-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:lldb>
 	<sdk:lldb>
 		<!--Generated from bid:3614996, branch:git_lldb-2.3-release-->
 		<sdk:description>LLDB 2.3</sdk:description>

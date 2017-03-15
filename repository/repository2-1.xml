@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-14 17:33:01.802266 with ADRT.-->
+	<!--Generated on 2017-03-15 15:39:51.605947 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1382,6 +1382,52 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="lldb;2.4">
+		<!--Generated from bid:3744198, branch:git_lldb-2.3-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>2</major>
+			<minor>4</minor>
+			<micro>3744198</micro>
+		</revision>
+		<display-name>LLDB 2.4</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Feb 17 14:19:09 2017.-->
+				<complete>
+					<size>42701795</size>
+					<checksum>2a5f2117b5ef79db77cf71e42d8ef1da449cfe66</checksum>
+					<url>lldb-2.4.3744198-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri Feb 17 14:18:54 2017.-->
+				<complete>
+					<size>50790562</size>
+					<checksum>2fed478a1cc7f886dee5e8f74735fe130ecc7638</checksum>
+					<url>lldb-2.4.3744198-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri Feb 17 14:19:01 2017.-->
+				<complete>
+					<size>39795638</size>
+					<checksum>cd724475c80b1d4288e31c0782aaef484cc1c092</checksum>
+					<url>lldb-2.4.3744198-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
