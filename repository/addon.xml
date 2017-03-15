@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-07 10:51:44.228814 with ADRT.-->
+	<!--Generated on 2017-03-10 17:50:06.835945 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1262,18 +1262,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:libs/>
 	</sdk:add-on>
 	<sdk:extra>
-		<!--Generated from bid:3723230, branch:git_nyc-support-release-->
+		<!--Generated from bid:3794951, branch:git_nyc-support-release-->
 		<sdk:revision>
-			<sdk:major>44</sdk:major>
+			<sdk:major>45</sdk:major>
 			<sdk:minor>0</sdk:minor>
 			<sdk:micro>0</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Feb 10 12:31:53 2017.-->
-				<sdk:size>329789867</sdk:size>
-				<sdk:checksum type="sha1">e1489c3a1201a2ab38ea62eb978a0a1ef839242e</sdk:checksum>
-				<sdk:url>android_m2repository_r44.zip</sdk:url>
+				<!--Built on: Wed Mar  8 14:49:32 2017.-->
+				<sdk:size>338411420</sdk:size>
+				<sdk:checksum type="sha1">88df24cc778f3cd6464e605dc82aed5bd2dfbed4</sdk:checksum>
+				<sdk:url>android_m2repository_r45.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>

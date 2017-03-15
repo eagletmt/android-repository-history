@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-07 10:51:45.377521 with ADRT.-->
+	<!--Generated on 2017-03-10 17:50:07.905948 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1485,7 +1485,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;android;m2repository">
-		<!--Generated from bid:3723230, branch:git_nyc-support-release-->
+		<!--Generated from bid:3794951, branch:git_nyc-support-release-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>android</id>
@@ -1493,7 +1493,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			</vendor>
 		</type-details>
 		<revision>
-			<major>44</major>
+			<major>45</major>
 			<minor>0</minor>
 			<micro>0</micro>
 		</revision>
@@ -1502,11 +1502,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 10 12:31:53 2017.-->
+				<!--Built on: Wed Mar  8 14:49:32 2017.-->
 				<complete>
-					<size>329789867</size>
-					<checksum>e1489c3a1201a2ab38ea62eb978a0a1ef839242e</checksum>
-					<url>android_m2repository_r44.zip</url>
+					<size>338411420</size>
+					<checksum>88df24cc778f3cd6464e605dc82aed5bd2dfbed4</checksum>
+					<url>android_m2repository_r45.zip</url>
 				</complete>
 			</archive>
 		</archives>
