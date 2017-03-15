@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-10 17:50:10.021007 with ADRT.-->
+	<!--Generated on 2017-03-14 17:33:01.802266 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3026,6 +3026,55 @@ June 2014.</license>
 					<size>3573642</size>
 					<checksum>b6774fe6927893f5f8e94ae44de82a68b2f6669f</checksum>
 					<url>platform-tools_r25.0.3-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="emulator">
+		<!--Generated from:ab bid:3798399 branch:aosp-emu-2.3-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>25</major>
+			<minor>3</minor>
+			<micro>2</micro>
+		</revision>
+		<display-name>Android Emulator</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools">
+				<min-revision>
+					<major>25</major>
+					<minor>3</minor>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar  9 12:03:15 2017.-->
+				<complete>
+					<size>123108552</size>
+					<checksum>0b1a4b627a02010806c5315dd4bbbe7636e5496d</checksum>
+					<url>emulator-darwin-3798399.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar  9 12:02:54 2017.-->
+				<complete>
+					<size>154063075</size>
+					<checksum>7bb605b40e105b919348a650de1f9d29c08aab2a</checksum>
+					<url>emulator-linux-3798399.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar  9 12:03:48 2017.-->
+				<complete>
+					<size>184732986</size>
+					<checksum>b029ce1b8d235e6f29a51855793cf38d48d074c8</checksum>
+					<url>emulator-windows-3798399.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
