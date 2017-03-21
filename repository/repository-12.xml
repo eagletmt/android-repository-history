@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-03-16 12:39:22.411040 with ADRT.-->
+	<!--Generated on 2017-03-21 11:13:07.186754 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -336,36 +336,36 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:ndk>
 	<sdk:lldb>
-		<!--Generated from bid:3744198, branch:git_lldb-2.3-release-->
+		<!--Generated from bid:3801524, branch:git_lldb-2.4-release-->
 		<sdk:description>LLDB 2.4</sdk:description>
 		<sdk:revision>
 			<sdk:major>2</sdk:major>
 			<sdk:minor>4</sdk:minor>
-			<sdk:micro>3744198</sdk:micro>
+			<sdk:micro>3801524</sdk:micro>
 			<sdk:preview>1</sdk:preview>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Feb 17 14:19:09 2017.-->
-				<sdk:size>42701795</sdk:size>
-				<sdk:checksum type="sha1">2a5f2117b5ef79db77cf71e42d8ef1da449cfe66</sdk:checksum>
-				<sdk:url>lldb-2.4.3744198-darwin-x86_64.zip</sdk:url>
+				<!--Built on: Thu Mar 16 18:26:15 2017.-->
+				<sdk:size>32896837</sdk:size>
+				<sdk:checksum type="sha1">716c7cf110fbdc56b3b03bb1aeff5c8f846e48ed</sdk:checksum>
+				<sdk:url>lldb-2.4.3801524-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Feb 17 14:18:54 2017.-->
-				<sdk:size>50790562</sdk:size>
-				<sdk:checksum type="sha1">2fed478a1cc7f886dee5e8f74735fe130ecc7638</sdk:checksum>
-				<sdk:url>lldb-2.4.3744198-linux-x86_64.zip</sdk:url>
+				<!--Built on: Thu Mar 16 18:26:02 2017.-->
+				<sdk:size>40986444</sdk:size>
+				<sdk:checksum type="sha1">3b37dcee216749bd5445274bf7406a7c8d13a3d0</sdk:checksum>
+				<sdk:url>lldb-2.4.3801524-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Feb 17 14:19:01 2017.-->
-				<sdk:size>39795638</sdk:size>
-				<sdk:checksum type="sha1">cd724475c80b1d4288e31c0782aaef484cc1c092</sdk:checksum>
-				<sdk:url>lldb-2.4.3744198-windows.zip</sdk:url>
+				<!--Built on: Thu Mar 16 18:26:08 2017.-->
+				<sdk:size>30599848</sdk:size>
+				<sdk:checksum type="sha1">92ab30aea3af5c2713753c213618ff9c53ac14b2</sdk:checksum>
+				<sdk:url>lldb-2.4.3801524-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
@@ -1340,6 +1340,39 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
 	<sdk:build-tool>
+		<!--Generated from bid:3821161, branch:git_oc-preview-release-->
+		<sdk:revision>
+			<sdk:major>26</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>0</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Tue Mar 21 10:10:45 2017.-->
+				<sdk:size>53648603</sdk:size>
+				<sdk:checksum type="sha1">8cd6388dc96db2d7a49d06159cf990d3bbc78d04</sdk:checksum>
+				<sdk:url>build-tools_r26-rc1-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Mar 21 10:10:34 2017.-->
+				<sdk:size>52821129</sdk:size>
+				<sdk:checksum type="sha1">5c5a1de7d5f4f000d36ae349229fe0be846d6137</sdk:checksum>
+				<sdk:url>build-tools_r26-rc1-macosx.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Mar 21 10:10:25 2017.-->
+				<sdk:size>54379108</sdk:size>
+				<sdk:checksum type="sha1">43c2ddad3b67a5c33712ae14331a60673e69be91</sdk:checksum>
+				<sdk:url>build-tools_r26-rc1-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-preview-license"/>
+	</sdk:build-tool>
+	<sdk:build-tool>
 		<!--Generated from bid:3544217, branch:git_nyc-mr1-sdk-dev-->
 		<sdk:revision>
 			<sdk:major>25</sdk:major>
@@ -2313,6 +2346,39 @@ June 2014.</sdk:license>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:platform-tool>
+	<sdk:platform-tool>
+		<!--Generated from bid:3821161, branch:git_oc-preview-release-->
+		<sdk:revision>
+			<sdk:major>26</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>0</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Fri Mar 17 16:49:33 2017.-->
+				<sdk:size>7290917</sdk:size>
+				<sdk:checksum type="sha1">e3e6ff0deaaf9473f2b5f308d94863da0ed2af28</sdk:checksum>
+				<sdk:url>platform-tools_r26.0.0-rc1-darwin.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Fri Mar 17 16:49:29 2017.-->
+				<sdk:size>7370947</sdk:size>
+				<sdk:checksum type="sha1">00d08376fcff437d17b2157eb91c7ae1ad760cc9</sdk:checksum>
+				<sdk:url>platform-tools_r26.0.0-rc1-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Fri Mar 17 16:49:31 2017.-->
+				<sdk:size>7045473</sdk:size>
+				<sdk:checksum type="sha1">92d6a21271b3665a330a57567bda60ea13be4500</sdk:checksum>
+				<sdk:url>platform-tools_r26.0.0-rc1-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-preview-license"/>
 	</sdk:platform-tool>
 	<sdk:tool>
 		<!--Generated from bid:3567187, branch:aosp-emu-2.2-release-->
