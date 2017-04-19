@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-04-03 14:52:46.264467 with ADRT.-->
+	<!--Generated on 2017-04-19 11:07:53.785169 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -577,6 +577,38 @@ August 15, 2011</license>
 					<size>804788860</size>
 					<checksum>37ac16343f994df3d6bb8b36cac15735c7ed86e0</checksum>
 					<url>x86-24_r12.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-O;google_apis_playstore;x86">
+		<!--Generated from bid:3834619, branch:oc-emu-release-playstore-x86-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>25</api-level>
+			<codename>O</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>2</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-2"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 23 14:01:01 2017.-->
+				<complete>
+					<size>843821985</size>
+					<checksum>b43a874685f850915794718c1344af7aaca06f88</checksum>
+					<url>x86-O_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
