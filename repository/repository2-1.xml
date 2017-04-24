@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-04-19 11:07:54.028819 with ADRT.-->
+	<!--Generated on 2017-04-21 17:47:49.103842 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2266,6 +2266,47 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="build-tools;25.0.3">
+		<!--Generated from bid:3907386, branch:git_nyc-mr1-sdk-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>25</major>
+			<minor>0</minor>
+			<micro>3</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 25.0.3</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Apr 13 13:27:23 2017.-->
+				<complete>
+					<size>50757258</size>
+					<checksum>db95f3a0ae376534d4d69f4cdb6fad20649f3509</checksum>
+					<url>build-tools_r25.0.3-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Apr 13 13:27:21 2017.-->
+				<complete>
+					<size>50545085</size>
+					<checksum>160d2fefb5ce68e443427fc30a793a703b63e26e</checksum>
+					<url>build-tools_r25.0.3-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Apr 13 13:27:19 2017.-->
+				<complete>
+					<size>51337442</size>
+					<checksum>1edcb109ae5133aebfed573cf0bc84e0c353c28d</checksum>
+					<url>build-tools_r25.0.3-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="build-tools;25.0.2">
 		<!--Generated from bid:3544217, branch:git_nyc-mr1-sdk-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -3540,41 +3581,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:3808125 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:3926373 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>25</major>
 			<minor>0</minor>
-			<micro>4</micro>
+			<micro>5</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Mar 13 17:54:54 2017.-->
+				<!--Built on: Wed Apr 19 15:18:21 2017.-->
 				<complete>
-					<size>7545134</size>
-					<checksum>e129a1cb9f5e03807e19881bf0b02f0971cb1dc2</checksum>
-					<url>platform-tools_r25.0.4-darwin.zip</url>
+					<size>7545723</size>
+					<checksum>9bbf65f80b05303a3576682d3350b087c4802283</checksum>
+					<url>platform-tools_r25.0.5-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Mar 13 17:54:51 2017.-->
+				<!--Built on: Wed Apr 19 15:18:18 2017.-->
 				<complete>
-					<size>7640283</size>
-					<checksum>adbc8742f20295bc640860028d63cf57b6e4a58e</checksum>
-					<url>platform-tools_r25.0.4-linux.zip</url>
+					<size>7641257</size>
+					<checksum>4c026e2445e8b898cb0fd5dedf710a666a78aaa7</checksum>
+					<url>platform-tools_r25.0.5-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Mar 13 17:54:52 2017.-->
+				<!--Built on: Wed Apr 19 15:18:19 2017.-->
 				<complete>
-					<size>7294050</size>
-					<checksum>dcfd95dc2358079daa154f58a6608cba2cd9dacb</checksum>
-					<url>platform-tools_r25.0.4-windows.zip</url>
+					<size>7293656</size>
+					<checksum>a59b3747414e3002e826f84470dc1a7ceeb1c6d4</checksum>
+					<url>platform-tools_r25.0.5-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
