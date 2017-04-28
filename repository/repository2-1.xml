@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-04-25 18:38:23.895113 with ADRT.-->
+	<!--Generated on 2017-04-27 15:49:20.794374 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3863,21 +3863,21 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>26190146</size>
-						<checksum>066f893d9ba428451ee1c13e61db6401fabea306</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-macosx-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>25902817</size>
 						<checksum>91c4e6e1b66f69a8190abbf6111a5e2b66b51846</checksum>
 						<url>sdk-generic-62dcba13829cc15ab6f87177ee0bb28a011159b6-f67c32cea039b9df27e79b5416a42a6a18ca65f1-macosx-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>26190146</size>
+						<checksum>066f893d9ba428451ee1c13e61db6401fabea306</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-macosx-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -3924,21 +3924,21 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>8504971</size>
-						<checksum>3ae5e7306ef086801e8188fa8536807d405d752c</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-linux-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>8071107</size>
 						<checksum>3a3647cd3d831e513586ed99fa583224c3526bb9</checksum>
 						<url>sdk-generic-62dcba13829cc15ab6f87177ee0bb28a011159b6-f67c32cea039b9df27e79b5416a42a6a18ca65f1-linux-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>8504971</size>
+						<checksum>3ae5e7306ef086801e8188fa8536807d405d752c</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-linux-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -3985,21 +3985,21 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>36845035</size>
-						<checksum>f57c044dfa2d9b76d2d28c0588eef76541ba1f2f</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>36169750</size>
 						<checksum>1012424ab8d32f229618e9a50e9b948556cc134c</checksum>
 						<url>sdk-generic-62dcba13829cc15ab6f87177ee0bb28a011159b6-f67c32cea039b9df27e79b5416a42a6a18ca65f1-windows-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>36845035</size>
+						<checksum>f57c044dfa2d9b76d2d28c0588eef76541ba1f2f</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-f67c32cea039b9df27e79b5416a42a6a18ca65f1-windows-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>

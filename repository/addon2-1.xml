@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-04-25 18:41:59.429217 with ADRT.-->
+	<!--Generated on 2017-04-27 15:49:12.151078 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1512,7 +1512,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;m2repository">
-		<!--Generated from p4 cl:150920218-->
+		<!--Generated from p4 cl:154288509-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -1520,7 +1520,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			</vendor>
 		</type-details>
 		<revision>
-			<major>46</major>
+			<major>47</major>
 		</revision>
 		<display-name>Google Repository</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1530,100 +1530,108 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar 22 14:00:19 2017.-->
+				<!--Built on: Wed Apr 26 12:47:37 2017.-->
 				<complete>
-					<size>170493896</size>
-					<checksum>21ebb86d0943b3105eea6f2b29896df7a149b276</checksum>
-					<url>google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip</url>
+					<size>178082103</size>
+					<checksum>c8c81ecdc87fc28d34783112400f642f4adf038c</checksum>
+					<url>google_m2repository_gms_v9_2_rc08_wear_2_0_1_rc3.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>34</major>
 						</based-on>
-						<size>48297654</size>
-						<checksum>fbbd2a5629ec6120e288fc68975152c73b8cc7bb</checksum>
-						<url>extra_p4-133861716-P-be3838ffc850f6e30a9603fdab4e3d09da564b0a-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
+						<size>55996604</size>
+						<checksum>622ef31af92ae1e60f50a842d3079b66a21c585a</checksum>
+						<url>extra_p4-133861716-P-be3838ffc850f6e30a9603fdab4e3d09da564b0a-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>46</major>
+						</based-on>
+						<size>7791839</size>
+						<checksum>34bc74dbda28f83229c4099f3e0bf49c0ab174af</checksum>
+						<url>extra_p4-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>36</major>
 						</based-on>
-						<size>40140318</size>
-						<checksum>c62992648968a98eefe9c8cb5a76cdef6d650219</checksum>
-						<url>extra_p4-134454089-P-81ffd14786e17d41ca0789fbbdb01a5023220aff-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>32</major>
-						</based-on>
-						<size>55883874</size>
-						<checksum>c04c14bb2debd1a0547af78f523fcda2e3c35e30</checksum>
-						<url>extra_p4-128809501-P-ab7afdd4af28d8663e777b7076c3151183d7d637-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>41</major>
-						</based-on>
-						<size>17069034</size>
-						<checksum>1ca943df5ca81c874bc934ff99767dcb07878a66</checksum>
-						<url>extra_p4-141567089-P-1eb5f3a01f61ab95e7fefa59a021fc92e8494472-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>40</major>
-						</based-on>
-						<size>17566515</size>
-						<checksum>19cc044107d1a3716c470d3d4b7f7489b6c63f83</checksum>
-						<url>extra_p4-140037564-P-a8cdfeee379466b129d6a86627e8f5549339529e-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>43</major>
-						</based-on>
-						<size>16011636</size>
-						<checksum>25b1cdeaa7328b46183e350a068c8ad351d21b5b</checksum>
-						<url>extra_p4-146833429-P-4e03147937f2b40ac0ae2bbdc07c363ac8973828-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>35</major>
-						</based-on>
-						<size>40575538</size>
-						<checksum>07961cc14c81c44a6fe3482ccd23683788660116</checksum>
-						<url>extra_p4-134127039-P-ba1f946bfdab58acd291c70157e023868bcdbcc7-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>45</major>
-						</based-on>
-						<size>615814</size>
-						<checksum>f47d1775c465b63df14cd4953dd4693145b16dc0</checksum>
-						<url>extra_p4-150146370-P-3dc9e4eff97df7e3779be67cac63b62442020173-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>42</major>
-						</based-on>
-						<size>16543422</size>
-						<checksum>51667d800465c944e67b48de1a364910fa6b8b3a</checksum>
-						<url>extra_p4-144789539-P-9dfe8133d1243ddd64d93bfe500ea4d6548b0c8a-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
+						<size>47970134</size>
+						<checksum>e0af912facc18c74dfd9d2c423e2be8a1662b34d</checksum>
+						<url>extra_p4-134454089-P-81ffd14786e17d41ca0789fbbdb01a5023220aff-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>38</major>
 						</based-on>
-						<size>32566889</size>
-						<checksum>851a6930c0b49a97804025ffcef9babe144fc34b</checksum>
-						<url>extra_p4-137063810-P-3c8c030cb7f7bc343a28ddfcdfc2019cdaa0be31-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
+						<size>40396461</size>
+						<checksum>d8df7aa04986c79de22a04b5bea657f5c3e620ae</checksum>
+						<url>extra_p4-137063810-P-3c8c030cb7f7bc343a28ddfcdfc2019cdaa0be31-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>32</major>
+						</based-on>
+						<size>63438812</size>
+						<checksum>4fe2cd424f89d805170df3ad3883f78fc86a4e8a</checksum>
+						<url>extra_p4-128809501-P-ab7afdd4af28d8663e777b7076c3151183d7d637-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>45</major>
+						</based-on>
+						<size>8334148</size>
+						<checksum>b3ff17e86bb4adf6a98e6fa05ca02885416fe0f6</checksum>
+						<url>extra_p4-150146370-P-3dc9e4eff97df7e3779be67cac63b62442020173-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>41</major>
+						</based-on>
+						<size>24665057</size>
+						<checksum>564f5fef404f9f0035e407f6ba992607bdd003a0</checksum>
+						<url>extra_p4-141567089-P-1eb5f3a01f61ab95e7fefa59a021fc92e8494472-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>42</major>
+						</based-on>
+						<size>24139368</size>
+						<checksum>c06c338480f5d21e4d3e159a4419835cf1fb47d8</checksum>
+						<url>extra_p4-144789539-P-9dfe8133d1243ddd64d93bfe500ea4d6548b0c8a-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>35</major>
+						</based-on>
+						<size>48405654</size>
+						<checksum>66fad58cd5d342de44dfaac5d83968a8dd2302f9</checksum>
+						<url>extra_p4-134127039-P-ba1f946bfdab58acd291c70157e023868bcdbcc7-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>43</major>
+						</based-on>
+						<size>23607772</size>
+						<checksum>e44f927fa418be6e94808fd822ff9980bead056a</checksum>
+						<url>extra_p4-146833429-P-4e03147937f2b40ac0ae2bbdc07c363ac8973828-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>40</major>
+						</based-on>
+						<size>25163036</size>
+						<checksum>8b864099a89678674016342b776245d23a426679</checksum>
+						<url>extra_p4-140037564-P-a8cdfeee379466b129d6a86627e8f5549339529e-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>44</major>
 						</based-on>
-						<size>8331724</size>
-						<checksum>8d2433376641f1ae0b609fc0fa99e7ad001eab18</checksum>
-						<url>extra_p4-147594020-P-87ac18dc383d9573641bcf82bd12f80852495efe-150920218-P-13c171b07a0e50e85e02ef3f9c2688ad841fc6c0-patch.jar</url>
+						<size>15928121</size>
+						<checksum>72acdfa528dbc6bbb2c3c3415622ec74a96a22e1</checksum>
+						<url>extra_p4-147594020-P-87ac18dc383d9573641bcf82bd12f80852495efe-154288509-P-52dd3536b46672812c58f92bdb6fc86d35a6587b-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>

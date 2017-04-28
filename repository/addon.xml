@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-04-25 18:41:17.890057 with ADRT.-->
+	<!--Generated on 2017-04-27 15:49:09.281890 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1284,16 +1284,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>m2repository</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:150920218, branch:perforce-->
+		<!--Generated from bid:154288509, branch:perforce-->
 		<sdk:revision>
-			<sdk:major>46</sdk:major>
+			<sdk:major>47</sdk:major>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Mar 22 14:00:19 2017.-->
-				<sdk:size>170493896</sdk:size>
-				<sdk:checksum type="sha1">21ebb86d0943b3105eea6f2b29896df7a149b276</sdk:checksum>
-				<sdk:url>google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip</sdk:url>
+				<!--Built on: Wed Apr 26 12:47:37 2017.-->
+				<sdk:size>178082103</sdk:size>
+				<sdk:checksum type="sha1">c8c81ecdc87fc28d34783112400f642f4adf038c</sdk:checksum>
+				<sdk:url>google_m2repository_gms_v9_2_rc08_wear_2_0_1_rc3.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
