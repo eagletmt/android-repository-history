@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-05-16 12:40:43.604352 with ADRT.-->
+	<!--Generated on 2017-05-16 16:39:45.635452 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1296,6 +1296,48 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="add-ons;addon-google_apis-google-23">
+		<!--Generated from bid:3756122, branch:git_nyc-mr1-emu-release-->
+		<type-details xsi:type="addon:addonDetailsType">
+			<api-level>23</api-level>
+			<codename></codename>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<libraries>
+				<library localJarPath="maps.jar" name="com.google.android.maps">
+					<description>API for Google Maps</description>
+				</library>
+				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+					<description>API for USB Accessories</description>
+				</library>
+				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+					<description>Collection of video effects</description>
+				</library>
+			</libraries>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Apr 25 23:37:40 2017.-->
+				<complete>
+					<size>154871</size>
+					<checksum>550e83eea9513ab11c44919ac6da54b36084a9f3</checksum>
+					<url>google_apis-25_r1.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="add-ons;addon-google_apis-google-21">
 		<!--Generated from p4 cl:77907680-->
 		<type-details xsi:type="addon:addonDetailsType">
@@ -2008,6 +2050,33 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					<url>desktop-head-unit-windows_r01.1.zip</url>
 				</complete>
 				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="extras;google;instantapps">
+		<!--Generated from p4 cl:155747253-->
+		<type-details xsi:type="addon:extraDetailsType">
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+		</type-details>
+		<revision>
+			<major>1</major>
+			<minor>0</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Instant Apps Development SDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May 11 08:10:37 2017.-->
+				<complete>
+					<size>450468876</size>
+					<checksum>50074a0f0312ee1d0d81d2cddc3d84a8a9e97a53</checksum>
+					<url>aiasdk-1.0.0.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
