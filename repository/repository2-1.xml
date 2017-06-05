@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-05-16 16:39:22.372308 with ADRT.-->
+	<!--Generated on 2017-06-04 09:27:28.322741 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3733,11 +3733,11 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Dec  1 13:34:44 2016.-->
+				<!--Built on: Fri May 26 10:14:34 2017.-->
 				<complete>
 					<size>1827327</size>
 					<checksum>046699c5e2716ae11d77e0bad814f7f33fab261e</checksum>
-					<url>3534162-studio.sdk-patcher.zip</url>
+					<url>3534162-studio.sdk-patcher.zip.bak</url>
 				</complete>
 			</archive>
 		</archives>

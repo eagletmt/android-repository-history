@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-05-16 16:39:44.259545 with ADRT.-->
+	<!--Generated on 2017-06-04 09:27:27.859955 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1670,7 +1670,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  9 21:49:35 2017.-->
+				<!--Built on: Fri May 26 09:46:13 2017.-->
 				<complete>
 					<size>803838653</size>
 					<checksum>97c58016af95136f3ec1548b2c5dfe975b671988</checksum>
@@ -1681,8 +1681,8 @@ August 15, 2011</license>
 						<based-on>
 							<major>2</major>
 						</based-on>
-						<size>388543579</size>
-						<checksum>1e03fba8fb282dcca93007cfdc2f0b1fa6eb64d5</checksum>
+						<size>388543194</size>
+						<checksum>8c01868838b4f793e8c3793832508d903c90af03</checksum>
 						<url>sys-img-3834619-sdk_gphone_x86-sdk_addon-3991286-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>

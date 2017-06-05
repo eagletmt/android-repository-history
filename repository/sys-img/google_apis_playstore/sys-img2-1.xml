@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-05-16 16:39:44.623879 with ADRT.-->
+	<!--Generated on 2017-06-04 09:27:28.245220 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -551,7 +551,7 @@ August 15, 2011</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="system-images;android-24;google_apis_playstore;x86">
-		<!--Generated from bid:3830816, branch:nyc-emu-release-->
+		<!--Generated from bid:4013928, branch:nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -565,19 +565,32 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 23 10:47:49 2017.-->
+				<!--Built on: Thu May 18 11:51:57 2017.-->
 				<complete>
-					<size>804788860</size>
-					<checksum>37ac16343f994df3d6bb8b36cac15735c7ed86e0</checksum>
-					<url>x86-24_r12.zip</url>
+					<size>805515509</size>
+					<checksum>6a39354341ed99d873832ded8c586aa023b17d99</checksum>
+					<url>x86-24_r13.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>12</major>
+						</based-on>
+						<size>36924404</size>
+						<checksum>5930023769667d3f535c516d84a6b58c4db23103</checksum>
+						<url>sys-img-3830816-sdk_google_phone_x86-user-4013928-sdk_google_phone_x86-user-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -607,7 +620,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 10 10:41:14 2017.-->
+				<!--Built on: Fri May 26 10:07:56 2017.-->
 				<complete>
 					<size>792465847</size>
 					<checksum>83b3d28faf426dff36a4e3b203d4ed805aef823a</checksum>
@@ -618,8 +631,8 @@ August 15, 2011</license>
 						<based-on>
 							<major>2</major>
 						</based-on>
-						<size>389817741</size>
-						<checksum>10a5a3d8f7723670fea99a644ecb7c1da65cf0f5</checksum>
+						<size>389817850</size>
+						<checksum>408e92f05e0876e125d556eb3e373f54db71a0d8</checksum>
 						<url>sys-img-3834619-sdk_google_phone_x86-user-3991286-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
