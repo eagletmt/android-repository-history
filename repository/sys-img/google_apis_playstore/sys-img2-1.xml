@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-06-04 09:27:28.245220 with ADRT.-->
+	<!--Generated on 2017-06-07 21:05:02.896820 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -594,11 +594,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-O;google_apis_playstore;x86">
-		<!--Generated from bid:3991286, branch:oc-emu-release-playstore-x86-->
+	<remotePackage path="system-images;android-26;google_apis_playstore;x86">
+		<!--Generated from bid:4074420, branch:oc-emu-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
-			<codename>O</codename>
+			<api-level>26</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -610,30 +609,30 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-2"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 26 10:07:56 2017.-->
+				<!--Built on: Wed Jun  7 08:28:43 2017.-->
 				<complete>
-					<size>792465847</size>
-					<checksum>83b3d28faf426dff36a4e3b203d4ed805aef823a</checksum>
-					<url>x86-O_r03.zip</url>
+					<size>758386383</size>
+					<checksum>e3cf39afb4646249468dd6631f970d9fc6dd19a7</checksum>
+					<url>x86-26_r04.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>2</major>
+							<major>3</major>
 						</based-on>
-						<size>389817850</size>
-						<checksum>408e92f05e0876e125d556eb3e373f54db71a0d8</checksum>
-						<url>sys-img-3834619-sdk_google_phone_x86-user-3991286-sdk_gphone_x86-user-patch.jar</url>
+						<size>262616746</size>
+						<checksum>e0b2b66a03f996a8e3d0e840c1b418291305477d</checksum>
+						<url>sys-img-3991286-sdk_gphone_x86-user-4074420-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
