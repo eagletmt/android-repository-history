@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-06-07 21:04:52.364524 with ADRT.-->
+	<!--Generated on 2017-06-22 18:02:45.918142 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -659,76 +659,9 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;android-tv;x86">
-		<!--Generated from bid:3738108, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4088240, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
-			<tag>
-				<id>android-tv</id>
-				<display>Android TV</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>9</major>
-		</revision>
-		<display-name>Android TV Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Feb 15 13:45:20 2017.-->
-				<complete>
-					<size>329872576</size>
-					<checksum>c2a56116db217acca7170df313020ae2906127eb</checksum>
-					<url>x86-23_r09.zip</url>
-				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>8</major>
-						</based-on>
-						<size>47133581</size>
-						<checksum>4b5ff34873e7e1a67fee46963a8215884ec673c0</checksum>
-						<url>sys-img-3512684-sdk_google_atv_x86-sdk-3738108-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-23;android-tv;armeabi-v7a">
-		<!--Generated from bid:2593021, branch:git_mnc-emu-dev-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>23</api-level>
-			<tag>
-				<id>android-tv</id>
-				<display>Android TV</display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>3</major>
-		</revision>
-		<display-name>Android TV ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Aug 19 14:44:10 2016.-->
-				<complete>
-					<size>299805100</size>
-					<checksum>b2f8ecaa952481be259228779a12be3516f9e843</checksum>
-					<url>armeabi-v7a-23_r03.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-24;android-tv;x86">
-		<!--Generated from bid:3761695, branch:git_nyc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>24</api-level>
 			<tag>
 				<id>android-tv</id>
 				<display>Android TV</display>
@@ -746,27 +679,110 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 23 16:23:53 2017.-->
+				<!--Built on: Tue Jun 13 11:55:20 2017.-->
 				<complete>
-					<size>381599153</size>
-					<checksum>bd8e73f46d1ad0d8db20e53280fb673f7937bbce</checksum>
-					<url>x86-24_r10.zip</url>
+					<size>331305763</size>
+					<checksum>516fd1c1951bd3fff1c91e314e588d7014c20ec8</checksum>
+					<url>x86-23_r10.zip</url>
+				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>8</major>
+						</based-on>
+						<size>61703079</size>
+						<checksum>8553ab40305e52b4876abea0a3050a2a04fd0a8b</checksum>
+						<url>sys-img-3512684-sdk_google_atv_x86-sdk-4088240-sdk_google_atv_x86-sdk-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>9</major>
+						</based-on>
+						<size>51661838</size>
+						<checksum>9c50231bba88ccaded5a46de08f4cb4589b41a6a</checksum>
+						<url>sys-img-3738108-sdk_google_atv_x86-sdk-4088240-sdk_google_atv_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-23;android-tv;armeabi-v7a">
+		<!--Generated from bid:4088240, branch:git_mnc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>23</api-level>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>armeabi-v7a</abi>
+		</type-details>
+		<revision>
+			<major>10</major>
+		</revision>
+		<display-name>Android TV ARM EABI v7a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Jun 13 12:01:27 2017.-->
+				<complete>
+					<size>303901912</size>
+					<checksum>211016665fdb8e6e32b052f114684521bf9d3ee4</checksum>
+					<url>armeabi-v7a-23_r10.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-24;android-tv;x86">
+		<!--Generated from bid:4088244, branch:git_nyc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>24</api-level>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>11</major>
+		</revision>
+		<display-name>Android TV Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Jun 13 14:16:53 2017.-->
+				<complete>
+					<size>391540912</size>
+					<checksum>876f8aac0810d9cc8b5792c087080a140a565916</checksum>
+					<url>x86-24_r11.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>9</major>
 						</based-on>
-						<size>54213374</size>
-						<checksum>3fd5af4b29ba464c187f954bc934a61e27b7a9fa</checksum>
-						<url>sys-img-3513876-sdk_google_atv_x86-sdk-3761695-sdk_google_atv_x86-sdk-patch.jar</url>
+						<size>95865916</size>
+						<checksum>79963c17a6a166da9015f3f4bdb03e8784317b22</checksum>
+						<url>sys-img-3513876-sdk_google_atv_x86-sdk-4088244-sdk_google_atv_x86-sdk-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>10</major>
+						</based-on>
+						<size>92558051</size>
+						<checksum>b0a4488df846953e65d80abf7f0b51b2857b5507</checksum>
+						<url>sys-img-3761695-sdk_google_atv_x86-sdk-4088244-sdk_google_atv_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;android-tv;x86">
-		<!--Generated from bid:3756122, branch:git_nyc-mr1-emu-release-->
+		<!--Generated from bid:4088268, branch:git_nyc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
@@ -776,19 +792,32 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 22 11:01:24 2017.-->
+				<!--Built on: Tue Jun 13 12:45:53 2017.-->
 				<complete>
-					<size>395505229</size>
-					<checksum>535e2655d569f1a6e18f334baf7ad7492652f7ef</checksum>
-					<url>x86-25_r03.zip</url>
+					<size>399847649</size>
+					<checksum>57a252ba91a2e8da389859026dba6fb4a9fed957</checksum>
+					<url>x86-25_r04.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>121300748</size>
+						<checksum>d0b7159ef71d32c2bda415049509b48892a6dd50</checksum>
+						<url>sys-img-3756122-sdk_google_atv_x86-sdk-4088268-sdk_google_atv_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
