@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-06 10:22:33.857817 with ADRT.-->
+	<!--Generated on 2017-07-20 10:03:43.735803 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1212,7 +1212,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-19;default;x86">
-		<!--Generated from bid:3462041, branch:git_klp-emu-release-->
+		<!--Generated from bid:4174703, branch:git_klp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>19</api-level>
 			<tag>
@@ -1222,7 +1222,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1232,27 +1232,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Nov 10 17:21:38 2016.-->
+				<!--Built on: Thu Jul 13 12:41:20 2017.-->
 				<complete>
-					<size>183968605</size>
-					<checksum>1d98426467580abfd03c724c5344450f5d0df379</checksum>
-					<url>x86-19_r05.zip</url>
+					<size>185886274</size>
+					<checksum>2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
+					<url>x86-19_r06.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>5</major>
 						</based-on>
-						<size>1339843</size>
-						<checksum>4fadb2642b9219f88c3e28945b1625f52cf3594f</checksum>
-						<url>sys-img-2872501-sdk_x86-sdk-3462041-sdk_x86-sdk-patch.jar</url>
+						<size>19129436</size>
+						<checksum>06512df7a125f8879dbc0774d2c3770c7d1f5084</checksum>
+						<url>sys-img-3462041-sdk_x86-sdk-4174703-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-21;default;x86">
-		<!--Generated from bid:3079185, branch:git_lmp-emu-release-->
+		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>21</api-level>
 			<tag>
@@ -1262,7 +1262,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1272,27 +1272,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 16 16:12:20 2016.-->
+				<!--Built on: Thu Jul 13 12:42:18 2017.-->
 				<complete>
-					<size>206305926</size>
-					<checksum>c7732f45c931c0eaa064e57e8c054bce86c30e54</checksum>
-					<url>x86-21_r04.zip</url>
+					<size>208212529</size>
+					<checksum>00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
+					<url>x86-21_r05.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>4</major>
 						</based-on>
-						<size>18055206</size>
-						<checksum>5cd9b01662dd76c3e85d7dea21aed4ea9700fccf</checksum>
-						<url>sys-img-2781484-sdk_phone_x86-sdk-3079185-sdk_phone_x86-sdk-patch.jar</url>
+						<size>29240934</size>
+						<checksum>a6021e4d699438268f60c79c76504b9a1639b7c9</checksum>
+						<url>sys-img-3079185-sdk_phone_x86-sdk-4174711-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-22;default;x86">
-		<!--Generated from bid:3079158, branch:git_lmp-mr1-emu-release-->
+		<!--Generated from bid:4174727, branch:git_lmp-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>22</api-level>
 			<tag>
@@ -1302,7 +1302,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1312,27 +1312,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 16 16:12:40 2016.-->
+				<!--Built on: Thu Jul 13 12:43:18 2017.-->
 				<complete>
-					<size>212327460</size>
-					<checksum>7e2c93891ea9efec07dccccf6b9ab051a014dbdf</checksum>
-					<url>x86-22_r05.zip</url>
+					<size>214268954</size>
+					<checksum>e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
+					<url>x86-22_r06.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>5</major>
 						</based-on>
-						<size>4385421</size>
-						<checksum>10de76e76c976777cd3f4b91ae4dd0e90f85539e</checksum>
-						<url>sys-img-2780077-sdk_phone_x86-sdk-3079158-sdk_phone_x86-sdk-patch.jar</url>
+						<size>23754040</size>
+						<checksum>a5daff4fc2105b1ed386a6ff3a7ebf54e90ccec5</checksum>
+						<url>sys-img-3079158-sdk_phone_x86-sdk-4174727-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;default;x86">
-		<!--Generated from bid:3079352, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4174734, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -1342,7 +1342,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1352,27 +1352,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 16 16:13:52 2016.-->
+				<!--Built on: Thu Jul 13 12:44:25 2017.-->
 				<complete>
-					<size>260241399</size>
-					<checksum>d7ee1118a73eb5c3e803d4dd3b96a124ac909ee1</checksum>
-					<url>x86-23_r09.zip</url>
+					<size>260804863</size>
+					<checksum>f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
+					<url>x86-23_r10.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>9</major>
 						</based-on>
-						<size>12631057</size>
-						<checksum>0f7d7173018f1b65844c853dfe088718eeae6ac2</checksum>
-						<url>sys-img-2780065-sdk_phone_x86-sdk-3079352-sdk_phone_x86-sdk-patch.jar</url>
+						<size>23794025</size>
+						<checksum>08e3d95d578fee71002aee432d784b97250f8aae</checksum>
+						<url>sys-img-3079352-sdk_phone_x86-sdk-4174734-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;default;x86">
-		<!--Generated from bid:3245079, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4174735, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1382,24 +1382,37 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep  6 08:29:27 2016.-->
+				<!--Built on: Thu Jul 13 12:45:47 2017.-->
 				<complete>
-					<size>302213276</size>
-					<checksum>566fdee283a907854bfa3c174265bc31f396eabd</checksum>
-					<url>x86-24_r07.zip</url>
+					<size>313489224</size>
+					<checksum>c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
+					<url>x86-24_r08.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>7</major>
+						</based-on>
+						<size>81135808</size>
+						<checksum>733ddd7440e023a386a51d61cfbd7c099d885ee0</checksum>
+						<url>sys-img-3245079-sdk_phone_x86-sdk-4174735-sdk_phone_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-21;default;x86_64">
-		<!--Generated from bid:3079185, branch:git_lmp-emu-release-->
+		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>21</api-level>
 			<tag>
@@ -1409,46 +1422,6 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86 Atom_64 System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Sep 16 16:08:22 2016.-->
-				<complete>
-					<size>290608820</size>
-					<checksum>9b2d64a69a72fa596c386899a742a404308f2c92</checksum>
-					<url>x86_64-21_r04.zip</url>
-				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>4</major>
-						</based-on>
-						<size>30834391</size>
-						<checksum>94cd8d29d0ac15c2a3807c199c3aa0ed7e65b7f6</checksum>
-						<url>sys-img-2781484-sdk_phone_x86_64-sdk-3079185-sdk_phone_x86_64-sdk-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-22;default;x86_64">
-		<!--Generated from bid:3079158, branch:git_lmp_mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>22</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
 			<major>5</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
@@ -1459,27 +1432,67 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 16 16:08:46 2016.-->
+				<!--Built on: Thu Jul 13 12:46:57 2017.-->
 				<complete>
-					<size>297850561</size>
-					<checksum>99d1d6c77e92284b4210640edf6c81eceb28520d</checksum>
-					<url>x86_64-22_r05.zip</url>
+					<size>292623982</size>
+					<checksum>9078a095825a69e5e215713f0866c83cef65a342</checksum>
+					<url>x86_64-21_r05.zip</url>
+				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>4</major>
+						</based-on>
+						<size>42158621</size>
+						<checksum>aba948dc01a89d633ca0f7009576da6fe28a8737</checksum>
+						<url>sys-img-3079185-sdk_phone_x86_64-sdk-4174711-sdk_phone_x86_64-sdk-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-22;default;x86_64">
+		<!--Generated from bid:4174727, branch:git_lmp-mr1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>22</api-level>
+			<tag>
+				<id>default</id>
+				<display></display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>6</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jul 13 12:48:15 2017.-->
+				<complete>
+					<size>299976630</size>
+					<checksum>5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
+					<url>x86_64-22_r06.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>5</major>
 						</based-on>
-						<size>5694395</size>
-						<checksum>caeda3c47f1d35cf61d54d37000dd84e6b8797b0</checksum>
-						<url>sys-img-2780077-sdk_phone_x86_64-sdk-3079158-sdk_phone_x86_64-sdk-patch.jar</url>
+						<size>32646111</size>
+						<checksum>0227dfd16634690161e72d279a4f5b9fa00bb543</checksum>
+						<url>sys-img-3079158-sdk_phone_x86_64-sdk-4174727-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;default;x86_64">
-		<!--Generated from bid:3079352, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4174734, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -1489,7 +1502,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1499,27 +1512,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 16 16:09:15 2016.-->
+				<!--Built on: Thu Jul 13 12:49:37 2017.-->
 				<complete>
-					<size>363794271</size>
-					<checksum>84cc076eacec043c8e88382c6ab391b0cd5c0695</checksum>
-					<url>x86_64-23_r09.zip</url>
+					<size>365009313</size>
+					<checksum>7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
+					<url>x86_64-23_r10.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>9</major>
 						</based-on>
-						<size>25350647</size>
-						<checksum>2422dc822b588ae15e267b2f96f4d68176915745</checksum>
-						<url>sys-img-2780065-sdk_phone_x86_64-sdk-3079352-sdk_phone_x86_64-sdk-patch.jar</url>
+						<size>32254646</size>
+						<checksum>4f3fb594280a6862388cb79c9bf723f6b159ec4c</checksum>
+						<url>sys-img-3079352-sdk_phone_x86_64-sdk-4174734-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;default;x86_64">
-		<!--Generated from bid:3245079, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4174735, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1529,7 +1542,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1539,12 +1552,22 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep  6 08:29:51 2016.-->
+				<!--Built on: Thu Jul 13 12:51:15 2017.-->
 				<complete>
-					<size>407148033</size>
-					<checksum>a379932395ced0a8f572b39c396d86e08827a9ba</checksum>
-					<url>x86_64-24_r07.zip</url>
+					<size>419261998</size>
+					<checksum>f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
+					<url>x86_64-24_r08.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>7</major>
+						</based-on>
+						<size>123686146</size>
+						<checksum>53317172a649205dfb6c0233f835fd012450d1e2</checksum>
+						<url>sys-img-3245079-sdk_phone_x86_64-sdk-4174735-sdk_phone_x86_64-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
