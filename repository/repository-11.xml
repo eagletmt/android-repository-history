@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-20 10:04:20.561795 with ADRT.-->
+	<!--Generated on 2017-07-24 15:54:18.023648 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -336,17 +336,17 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:ndk>
 	<sdk:platform>
-		<!--Generated from bid:4062713, branch:git_oc-preview3-sdk-->
+		<!--Generated from bid:4187382, branch:git_oc-release-->
 		<sdk:version>8.0.0</sdk:version>
 		<sdk:api-level>26</sdk:api-level>
 		<sdk:description>Android SDK Platform 26</sdk:description>
-		<sdk:revision>1</sdk:revision>
+		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Jun  2 13:22:35 2017.-->
-				<sdk:size>63467872</sdk:size>
-				<sdk:checksum type="sha1">33a4f9788bfd7123e712906b2d7e5d54a729e14a</sdk:checksum>
-				<sdk:url>platform-26_r01.zip</sdk:url>
+				<!--Built on: Tue Jul 18 10:38:38 2017.-->
+				<sdk:size>63623734</sdk:size>
+				<sdk:checksum type="sha1">e4ae5d7aa557a3c827135838ee400da8443ac4ef</sdk:checksum>
+				<sdk:url>platform-26_r02.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
@@ -1170,32 +1170,32 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
 	<sdk:build-tool>
-		<!--Generated from bid:4062713, branch:git_oc-preview3-sdk-->
+		<!--Generated from bid:4187382, branch:git_oc-release-->
 		<sdk:revision>
 			<sdk:major>26</sdk:major>
 			<sdk:minor>0</sdk:minor>
-			<sdk:micro>0</sdk:micro>
+			<sdk:micro>1</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Jun  2 13:22:18 2017.-->
-				<sdk:size>53854197</sdk:size>
-				<sdk:checksum type="sha1">1cbe72929876f8a872ab1f1b1040a9f720261f59</sdk:checksum>
-				<sdk:url>build-tools_r26-linux.zip</sdk:url>
+				<!--Built on: Tue Jul 18 10:38:26 2017.-->
+				<sdk:size>54113329</sdk:size>
+				<sdk:checksum type="sha1">5378c2c78091b414d0eac40a6bd37f2faa31a365</sdk:checksum>
+				<sdk:url>build-tools_r26.0.1-linux.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Jun  2 13:22:15 2017.-->
-				<sdk:size>53010814</sdk:size>
-				<sdk:checksum type="sha1">d01a1aeca03747245f1f5936b3cb01759c66d086</sdk:checksum>
-				<sdk:url>build-tools_r26-macosx.zip</sdk:url>
+				<!--Built on: Tue Jul 18 10:38:23 2017.-->
+				<sdk:size>53266653</sdk:size>
+				<sdk:checksum type="sha1">cbde59de198916b390777dd0227921bfa2120832</sdk:checksum>
+				<sdk:url>build-tools_r26.0.1-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Jun  2 13:22:13 2017.-->
-				<sdk:size>54681641</sdk:size>
-				<sdk:checksum type="sha1">896ebd31117c09db220f7a3116cc0e5121c78b9d</sdk:checksum>
-				<sdk:url>build-tools_r26-windows.zip</sdk:url>
+				<!--Built on: Tue Jul 18 10:38:21 2017.-->
+				<sdk:size>54936185</sdk:size>
+				<sdk:checksum type="sha1">02494c80ffbe65bfff0aaa7463c9692693327b7d</sdk:checksum>
+				<sdk:url>build-tools_r26.0.1-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
