@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-24 15:53:51.258590 with ADRT.-->
+	<!--Generated on 2017-07-25 16:23:08.088195 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2178,6 +2178,47 @@ June 2014.</license>
 					<size>54936185</size>
 					<checksum>02494c80ffbe65bfff0aaa7463c9692693327b7d</checksum>
 					<url>build-tools_r26.0.1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;26.0.0">
+		<!--Generated from bid:4062713, branch:git_oc-preview3-sdk-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>26</major>
+			<minor>0</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 26</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jun  2 13:22:18 2017.-->
+				<complete>
+					<size>53854197</size>
+					<checksum>1cbe72929876f8a872ab1f1b1040a9f720261f59</checksum>
+					<url>build-tools_r26-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun  2 13:22:15 2017.-->
+				<complete>
+					<size>53010814</size>
+					<checksum>d01a1aeca03747245f1f5936b3cb01759c66d086</checksum>
+					<url>build-tools_r26-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun  2 13:22:13 2017.-->
+				<complete>
+					<size>54681641</size>
+					<checksum>896ebd31117c09db220f7a3116cc0e5121c78b9d</checksum>
+					<url>build-tools_r26-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
