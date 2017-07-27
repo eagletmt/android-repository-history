@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-24 15:54:28.903807 with ADRT.-->
+	<!--Generated on 2017-07-26 17:22:28.916149 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1823,6 +1823,46 @@ August 15, 2011</license>
 						<url>sys-img-3991286-sdk_gphone_x86-sdk_addon-4074420-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-26;google_apis;x86">
+		<!--Generated from bid:4205617, branch:git_oc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>26</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>5</major>
+		</revision>
+		<display-name>Google APIs Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>26</major>
+					<minor>1</minor>
+					<micro>3</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Sat Jul 22 22:00:29 2017.-->
+				<complete>
+					<size>758054035</size>
+					<checksum>fad40cd82abe08cdcb1ea98cdf6fd9d579e2928f</checksum>
+					<url>x86-26_r05.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
