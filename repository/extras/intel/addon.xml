@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-26 17:22:50.375201 with ADRT.-->
+	<!--Generated on 2017-08-09 15:04:49.915968 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -582,18 +582,18 @@ Redistribution. Redistribution and use in binary form, without modification, are
 DISCLAIMER.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE  POSSIBILITY OF SUCH DAMAGE.</sdk:license>
 	<sdk:extra>
-		<!--Generated from bid:151055438, branch:perforce-->
+		<!--Generated from bid:164739328, branch:perforce-->
 		<sdk:revision>
 			<sdk:major>6</sdk:major>
-			<sdk:minor>1</sdk:minor>
-			<sdk:micro>1</sdk:micro>
+			<sdk:minor>2</sdk:minor>
+			<sdk:micro>0</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Mar 23 14:51:13 2017.-->
-				<sdk:size>233477</sdk:size>
-				<sdk:checksum type="sha1">8e2d79760be88bb551323f8a685f3d841a560cdb</sdk:checksum>
-				<sdk:url>haxm-macosx_r6_1_1.zip</sdk:url>
+				<!--Built on: Wed Aug  9 14:22:56 2017.-->
+				<sdk:size>221681</sdk:size>
+				<sdk:checksum type="sha1">0273d82698876c07269e3f67f1bf774020082884</sdk:checksum>
+				<sdk:url>haxm-macosx_r6_2_0.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
@@ -606,18 +606,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>Hardware_Accelerated_Execution_Manager</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:151055438, branch:perforce-->
+		<!--Generated from bid:164739328, branch:perforce-->
 		<sdk:revision>
 			<sdk:major>6</sdk:major>
-			<sdk:minor>0</sdk:minor>
-			<sdk:micro>6</sdk:micro>
+			<sdk:minor>2</sdk:minor>
+			<sdk:micro>0</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Mar 23 14:45:31 2017.-->
-				<sdk:size>2641544</sdk:size>
-				<sdk:checksum type="sha1">d5096efd5f7cd71a65cf319344258da3d72c5b21</sdk:checksum>
-				<sdk:url>haxm-windows_r6_0_6.zip</sdk:url>
+				<!--Built on: Wed Aug  9 14:23:03 2017.-->
+				<sdk:size>2707069</sdk:size>
+				<sdk:checksum type="sha1">d2820f075964643ab55d06abc294ef5223f35409</sdk:checksum>
+				<sdk:url>haxm-windows_r6_2_0.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
