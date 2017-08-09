@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-26 17:21:48.461681 with ADRT.-->
+	<!--Generated on 2017-08-09 10:29:57.807911 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1669,12 +1669,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="lldb;3.0">
-		<!--Generated from bid:3970975, branch:git_lldb-2.4-release-->
+		<!--Generated from bid:4213617, branch:git_lldb-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
 			<minor>0</minor>
-			<micro>3970975</micro>
+			<micro>4213617</micro>
 		</revision>
 		<display-name>LLDB 3.0</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1684,129 +1684,33 @@ June 2014.</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May  4 23:44:49 2017.-->
+				<!--Built on: Tue Jul 25 15:40:43 2017.-->
 				<complete>
-					<size>32896071</size>
-					<checksum>42bfb37bc799b9266bd8e5de845afea416f03ede</checksum>
-					<url>lldb-3.0.3970975-darwin-x86_64.zip</url>
+					<size>34424273</size>
+					<checksum>2492651690a215317b86c755cd4d584ec9838677</checksum>
+					<url>lldb-3.0.4213617-darwin-x86_64.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3420744</micro>
-						</based-on>
-						<size>29343816</size>
-						<checksum>5dcd20a3c2953488d8cc0e5c4f5e28c1d391b8b0</checksum>
-						<url>sdk-lldb-3420744-3970975-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3549278</micro>
-						</based-on>
-						<size>29279398</size>
-						<checksum>3473673ee5b94e6bf96e3a76c82b09cf9f4ad29b</checksum>
-						<url>sdk-lldb-3549278-3970975-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>4</minor>
-							<micro>3848484</micro>
-						</based-on>
-						<size>2875822</size>
-						<checksum>bb037d25084042f4db2939ab8afff755e61efef4</checksum>
-						<url>sdk-lldb-3848484-3970975-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Thu May  4 23:44:46 2017.-->
+				<!--Built on: Tue Jul 25 15:40:37 2017.-->
 				<complete>
-					<size>40985901</size>
-					<checksum>bf4b3e3b74f21dee8dae8d5fba73f1a094bcd787</checksum>
-					<url>lldb-3.0.3970975-linux-x86_64.zip</url>
+					<size>42550577</size>
+					<checksum>61d49b6a58953faa61546d631409af5f60d8d9db</checksum>
+					<url>lldb-3.0.4213617-linux-x86_64.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3420744</micro>
-						</based-on>
-						<size>29555266</size>
-						<checksum>ef2407b905af8dff3480893df97026376b01c506</checksum>
-						<url>sdk-lldb-3420744-3970975-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3549278</micro>
-						</based-on>
-						<size>29482414</size>
-						<checksum>4501e8d49b971e1bc7ded04d3a98fd6277184454</checksum>
-						<url>sdk-lldb-3549278-3970975-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>4</minor>
-							<micro>3848484</micro>
-						</based-on>
-						<size>2685188</size>
-						<checksum>3cbc0d47fcaac1ad5683d890c2092b0cda699ab9</checksum>
-						<url>sdk-lldb-3848484-3970975-linux-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Thu May  4 23:44:48 2017.-->
+				<!--Built on: Tue Jul 25 15:40:41 2017.-->
 				<complete>
-					<size>30601181</size>
-					<checksum>b8eeae92a3c2acc0dcde8edb167158156fe050ba</checksum>
-					<url>lldb-3.0.3970975-windows.zip</url>
+					<size>35631071</size>
+					<checksum>3939e78a1a63e6d8006b4ef939007886d66cc3f6</checksum>
+					<url>lldb-3.0.4213617-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
-				<patches>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3420744</micro>
-						</based-on>
-						<size>15440438</size>
-						<checksum>16c689af78461564edb15020edea8028c98494e7</checksum>
-						<url>sdk-lldb-3420744-3970975-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>3</minor>
-							<micro>3549278</micro>
-						</based-on>
-						<size>15169317</size>
-						<checksum>8ecde951fce9524698654916da9f6d7f8d26f98c</checksum>
-						<url>sdk-lldb-3549278-3970975-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-							<minor>4</minor>
-							<micro>3848484</micro>
-						</based-on>
-						<size>277138</size>
-						<checksum>8dd199c6d500abc3f6058bc74c52674fe33e6181</checksum>
-						<url>sdk-lldb-3848484-3970975-windows-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

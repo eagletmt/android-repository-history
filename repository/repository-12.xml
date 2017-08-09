@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-07-26 17:22:11.710642 with ADRT.-->
+	<!--Generated on 2017-08-09 10:30:15.725406 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -336,36 +336,36 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:ndk>
 	<sdk:lldb>
-		<!--Generated from bid:3970975, branch:git_lldb-2.4-release-->
+		<!--Generated from bid:4213617, branch:git_lldb-master-dev-->
 		<sdk:description>LLDB 3.0</sdk:description>
 		<sdk:revision>
 			<sdk:major>3</sdk:major>
 			<sdk:minor>0</sdk:minor>
-			<sdk:micro>3970975</sdk:micro>
+			<sdk:micro>4213617</sdk:micro>
 			<sdk:preview>1</sdk:preview>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu May  4 23:44:49 2017.-->
-				<sdk:size>32896071</sdk:size>
-				<sdk:checksum type="sha1">42bfb37bc799b9266bd8e5de845afea416f03ede</sdk:checksum>
-				<sdk:url>lldb-3.0.3970975-darwin-x86_64.zip</sdk:url>
+				<!--Built on: Tue Jul 25 15:40:43 2017.-->
+				<sdk:size>34424273</sdk:size>
+				<sdk:checksum type="sha1">2492651690a215317b86c755cd4d584ec9838677</sdk:checksum>
+				<sdk:url>lldb-3.0.4213617-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu May  4 23:44:46 2017.-->
-				<sdk:size>40985901</sdk:size>
-				<sdk:checksum type="sha1">bf4b3e3b74f21dee8dae8d5fba73f1a094bcd787</sdk:checksum>
-				<sdk:url>lldb-3.0.3970975-linux-x86_64.zip</sdk:url>
+				<!--Built on: Tue Jul 25 15:40:37 2017.-->
+				<sdk:size>42550577</sdk:size>
+				<sdk:checksum type="sha1">61d49b6a58953faa61546d631409af5f60d8d9db</sdk:checksum>
+				<sdk:url>lldb-3.0.4213617-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu May  4 23:44:48 2017.-->
-				<sdk:size>30601181</sdk:size>
-				<sdk:checksum type="sha1">b8eeae92a3c2acc0dcde8edb167158156fe050ba</sdk:checksum>
-				<sdk:url>lldb-3.0.3970975-windows.zip</sdk:url>
+				<!--Built on: Tue Jul 25 15:40:41 2017.-->
+				<sdk:size>35631071</sdk:size>
+				<sdk:checksum type="sha1">3939e78a1a63e6d8006b4ef939007886d66cc3f6</sdk:checksum>
+				<sdk:url>lldb-3.0.4213617-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
