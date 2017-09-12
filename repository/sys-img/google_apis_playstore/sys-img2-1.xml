@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-08-28 14:45:11.136170 with ADRT.-->
+	<!--Generated on 2017-09-12 10:31:02.452695 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -599,6 +599,40 @@ August 15, 2011</license>
 						<url>sys-img-4013928-sdk_google_phone_x86-user-4290868-sdk_google_phone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-25;google_apis_playstore;x86">
+		<!--Generated from bid:4316688, branch:nyc-mr1-emu-release-play-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>25</api-level>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>9</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Sep  7 10:19:49 2017.-->
+				<complete>
+					<size>972461719</size>
+					<checksum>6f6668954f7fd52f896fe7528aa122028c9b026c</checksum>
+					<url>x86-25_r09.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
