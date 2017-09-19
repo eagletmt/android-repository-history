@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-09-08 08:19:28.153828 with ADRT.-->
+	<!--Generated on 2017-09-19 14:19:59.440759 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1401,16 +1401,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>google_play_services_froyo</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:164902609, branch:perforce-->
+		<!--Generated from bid:169238238, branch:perforce-->
 		<sdk:revision>
-			<sdk:major>44</sdk:major>
+			<sdk:major>45</sdk:major>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Aug 10 14:27:42 2017.-->
-				<sdk:size>13796755</sdk:size>
-				<sdk:checksum type="sha1">d2bb583a3f62b068d448df10544c1852d910526f</sdk:checksum>
-				<sdk:url>google_play_services_v12_1_rc11.zip</sdk:url>
+				<!--Built on: Tue Sep 19 07:56:58 2017.-->
+				<sdk:size>14137109</sdk:size>
+				<sdk:checksum type="sha1">a5326759b10c19aebed63b190915e5ba9c541385</sdk:checksum>
+				<sdk:url>google_play_services_v13_1_rc07.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
@@ -1442,28 +1442,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:desc-url>http://developer.android.com/</sdk:desc-url>
 		<sdk:name-display>Google USB Driver</sdk:name-display>
 		<sdk:path>usb_driver</sdk:path>
-	</sdk:extra>
-	<sdk:extra>
-		<!--Generated from bid:53928043, branch:perforce-->
-		<sdk:revision>
-			<sdk:major>5</sdk:major>
-		</sdk:revision>
-		<sdk:archives>
-			<sdk:archive>
-				<!--Built on: Tue Apr  5 11:39:11 2016.-->
-				<sdk:size>436654</sdk:size>
-				<sdk:checksum type="sha1">bd2ac5ce7127070ac3229003eb69cfb806628ac9</sdk:checksum>
-				<sdk:url>play_billing_r05.zip</sdk:url>
-			</sdk:archive>
-		</sdk:archives>
-		<sdk:uses-license ref="android-sdk-license"/>
-		<sdk:vendor-id>google</sdk:vendor-id>
-		<sdk:vendor-display>Google Inc.</sdk:vendor-display>
-		<sdk:description>Google Play Billing files and sample code</sdk:description>
-		<sdk:desc-url>http://developer.android.com/google/play/billing/index.html</sdk:desc-url>
-		<sdk:name-display>Google Play Billing Library</sdk:name-display>
-		<sdk:path>play_billing</sdk:path>
-		<sdk:old-paths>market_billing</sdk:old-paths>
 	</sdk:extra>
 	<sdk:extra>
 		<!--Generated from bid:45484492, branch:perforce-->
