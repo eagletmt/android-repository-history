@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-09-19 16:37:27.872064 with ADRT.-->
+	<!--Generated on 2017-09-27 10:26:21.574339 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -743,7 +743,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-26;android-wear;x86">
-		<!--Generated from bid:4073471, branch:git_oc-wear-preview3-release-->
+		<!--Generated from bid:4322534, branch:git_oc-wear-preview4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>26</api-level>
 			<tag>
@@ -753,7 +753,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android Wear Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -763,12 +763,22 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun  6 15:55:45 2017.-->
+				<!--Built on: Mon Sep 11 14:21:53 2017.-->
 				<complete>
-					<size>355908764</size>
-					<checksum>d8b3c6412c495c5bf8146504304a47a0a14ed46a</checksum>
-					<url>x86-26_r01.zip</url>
+					<size>356633232</size>
+					<checksum>38ecbc0d216338d88a1715d59dba41b56e9fc0a2</checksum>
+					<url>x86-26_r02.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>1</major>
+						</based-on>
+						<size>124283483</size>
+						<checksum>cdb648a00ad13cfaa8589a628cda1f919025588c</checksum>
+						<url>sys-img-4073471-sdk_google_aw_x86-sdk-4322534-sdk_gwear_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
