@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-09-27 10:26:21.680962 with ADRT.-->
+	<!--Generated on 2017-09-28 14:47:41.030574 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3794,41 +3794,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:4062713a branch:git_oc-preview3-sdk-->
+		<!--Generated from:ab bid:4062713b branch:git_oc-preview3-sdk-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>26</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jun  2 13:22:20 2017.-->
+				<!--Built on: Thu Sep 21 11:07:24 2017.-->
 				<complete>
-					<size>7771750</size>
-					<checksum>e75b6137dc444f777eb02f44a6d9819b3aabff82</checksum>
-					<url>platform-tools_r26.0.0-darwin.zip</url>
+					<size>7862201</size>
+					<checksum>cc7000d5b474a9df761485a8f9c572d0bf7e986e</checksum>
+					<url>platform-tools_r26.0.1-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Jun  2 13:22:19 2017.-->
+				<!--Built on: Thu Sep 21 11:07:25 2017.-->
 				<complete>
-					<size>7859155</size>
-					<checksum>00de8a6631405b617c10f68cd11ff2e1cd528e23</checksum>
-					<url>platform-tools_r26.0.0-linux.zip</url>
+					<size>7859209</size>
+					<checksum>4d30fd6185c3d00d3b3288cb9003f7be32783b39</checksum>
+					<url>platform-tools_r26.0.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Jun  2 13:22:20 2017.-->
+				<!--Built on: Thu Sep 21 11:07:25 2017.-->
 				<complete>
-					<size>7511554</size>
-					<checksum>a4128ebc3d1b6372d981810920e3fa01637f891a</checksum>
-					<url>platform-tools_r26.0.0-windows.zip</url>
+					<size>7511608</size>
+					<checksum>608c059c4ac6ee4fcddfe3733a14916b5f3435c6</checksum>
+					<url>platform-tools_r26.0.1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
