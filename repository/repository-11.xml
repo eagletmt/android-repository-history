@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-09-28 14:48:01.111858 with ADRT.-->
+	<!--Generated on 2017-10-02 11:49:26.226085 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1000,6 +1000,20 @@ June 2014.</sdk:license>
 			<sdk:api>4</sdk:api>
 		</sdk:layoutlib>
 	</sdk:platform>
+	<sdk:source>
+		<!--Generated from bid:4187382, branch:git_oc-release-->
+		<sdk:api-level>26</sdk:api-level>
+		<sdk:revision>1</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Wed Sep 20 20:13:44 2017.-->
+				<sdk:size>35138547</sdk:size>
+				<sdk:checksum type="sha1">2af701ee3223d580409288540b1d06932fd8f9b9</sdk:checksum>
+				<sdk:url>sources-26_r01.zip</sdk:url>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:source>
 	<sdk:source>
 		<!--Generated from bid:3544217, branch:git_nyc-mr1-sdk-dev-->
 		<sdk:api-level>25</sdk:api-level>
