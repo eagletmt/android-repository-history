@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-10-18 16:13:20.463115 with ADRT.-->
+	<!--Generated on 2017-10-24 13:59:11.419255 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -381,6 +381,30 @@ June 2014.</license>
 						<url>sdk-tools-3534729-3567187-windows-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="platforms;android-27">
+		<!--Generated from bid:4402310, branch:git_oc-mr1-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>27</api-level>
+			<codename></codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android SDK Platform 27</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Oct 18 05:49:22 2017.-->
+				<complete>
+					<size>65738431</size>
+					<checksum>dfda0862550768ed04a4fb0e03c322230aff9fdc</checksum>
+					<url>platform-27_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2292,6 +2316,47 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;27.0.0">
+		<!--Generated from bid:4402310, branch:git_oc-mr1-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>27</major>
+			<minor>0</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 27</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Oct 18 05:49:13 2017.-->
+				<complete>
+					<size>54441725</size>
+					<checksum>28542332ba97cf4a08c3eddfcf5edd70e3cf1260</checksum>
+					<url>build-tools_r27-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Oct 18 05:49:10 2017.-->
+				<complete>
+					<size>53831513</size>
+					<checksum>fb4e8d7e6b8d29a77090e34024077a80458d5ae1</checksum>
+					<url>build-tools_r27-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Oct 18 05:49:07 2017.-->
+				<complete>
+					<size>55163097</size>
+					<checksum>4f1df22a6d99261d2160d624b81445da0a027dbe</checksum>
+					<url>build-tools_r27-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>

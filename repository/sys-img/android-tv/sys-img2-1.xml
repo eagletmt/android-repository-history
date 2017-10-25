@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-10-10 17:06:48.696921 with ADRT.-->
+	<!--Generated on 2017-10-24 14:01:35.770503 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -893,6 +893,33 @@ August 15, 2011</license>
 					<size>387164980</size>
 					<checksum>7e6d60a933285b6fba38ec8c3efb675fb62f7975</checksum>
 					<url>x86-26_r05.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-27;android-tv;x86">
+		<!--Generated from bid:4376136, branch:oc-mr1-release-tv-x86-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>27</api-level>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android TV Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Oct 12 15:46:21 2017.-->
+				<complete>
+					<size>397304785</size>
+					<checksum>29f539d4ab9410ff7e0da2a22a5017c2cfd1f10c</checksum>
+					<url>x86-27_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
