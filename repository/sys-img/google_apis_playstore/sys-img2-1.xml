@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-10-24 14:02:28.784105 with ADRT.-->
+	<!--Generated on 2017-11-06 12:04:38.971564 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -551,7 +551,7 @@ August 15, 2011</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="system-images;android-24;google_apis_playstore;x86">
-		<!--Generated from bid:4290868, branch:nyc-emu-release-->
+		<!--Generated from bid:4409132, branch:nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -565,7 +565,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>16</major>
+			<major>19</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -575,28 +575,36 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 24 22:49:21 2017.-->
+				<!--Built on: Mon Nov  6 10:22:25 2017.-->
 				<complete>
-					<size>806904301</size>
-					<checksum>4bacd6ca6bcc075c0453023be624abc43b152bb2</checksum>
-					<url>x86-24_r16.zip</url>
+					<size>812724041</size>
+					<checksum>b52e9593ffdde65c1a0970256a32e8967c89cc22</checksum>
+					<url>x86-24_r19.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>12</major>
 						</based-on>
-						<size>43519574</size>
-						<checksum>a1583aa53b88a23e0c4bfac0a5ec76b5fbdfc333</checksum>
-						<url>sys-img-3830816-sdk_google_phone_x86-user-4290868-sdk_google_phone_x86-user-patch.jar</url>
+						<size>114867010</size>
+						<checksum>3459dd8a4ed42435a728ac75bdcf32d4f8b9114e</checksum>
+						<url>sys-img-3830816-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>13</major>
 						</based-on>
-						<size>14596822</size>
-						<checksum>9673aa370ee9af16913fa6cd7ba186c356c18074</checksum>
-						<url>sys-img-4013928-sdk_google_phone_x86-user-4290868-sdk_google_phone_x86-user-patch.jar</url>
+						<size>103478246</size>
+						<checksum>0db53cc9aef97f32dddd329791525f8992b508f1</checksum>
+						<url>sys-img-4013928-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>16</major>
+						</based-on>
+						<size>95038884</size>
+						<checksum>13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
+						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -627,7 +635,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep  7 10:19:49 2017.-->
+				<!--Built on: Mon Nov  6 10:51:07 2017.-->
 				<complete>
 					<size>972461719</size>
 					<checksum>6f6668954f7fd52f896fe7528aa122028c9b026c</checksum>
@@ -661,7 +669,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  7 08:28:43 2017.-->
+				<!--Built on: Mon Nov  6 10:57:12 2017.-->
 				<complete>
 					<size>758386383</size>
 					<checksum>e3cf39afb4646249468dd6631f970d9fc6dd19a7</checksum>
@@ -711,7 +719,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 22 22:01:16 2017.-->
+				<!--Built on: Mon Nov  6 10:51:08 2017.-->
 				<complete>
 					<size>745656783</size>
 					<checksum>31967c71a7f1b91c36b33ffb14584a5d1ccbc08c</checksum>
@@ -751,7 +759,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 19 09:54:03 2017.-->
+				<!--Built on: Mon Nov  6 10:50:34 2017.-->
 				<complete>
 					<size>772591194</size>
 					<checksum>7ea953640f808400ef52fd863582841b395d6674</checksum>
