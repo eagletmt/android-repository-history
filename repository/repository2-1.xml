@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-06 12:04:21.863395 with ADRT.-->
+	<!--Generated on 2017-11-14 12:41:50.811137 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -320,7 +320,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>277894900</size>
 					<checksum>72df3aa1988c0a9003ccdfd7a13a7b8bd0f47fc1</checksum>
@@ -341,7 +341,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>200529982</size>
 					<checksum>d2168d963ac5b616e3d3ddaf21511d084baf3659</checksum>
@@ -362,7 +362,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>306785944</size>
 					<checksum>a7f7ebeae1c8d8f62d3a8466e9c81baee7cc31ca</checksum>
@@ -399,7 +399,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:15 2017.-->
 				<complete>
 					<size>65738431</size>
 					<checksum>dfda0862550768ed04a4fb0e03c322230aff9fdc</checksum>
@@ -423,7 +423,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>63623734</size>
 					<checksum>e4ae5d7aa557a3c827135838ee400da8443ac4ef</checksum>
@@ -447,7 +447,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>85424763</size>
 					<checksum>00c2c5765e8988504be10a1eb66ed71fcdbd7fe8</checksum>
@@ -471,7 +471,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>82648154</size>
 					<checksum>8912da3d4bfe7a9f28f0e5ce92d3a8dc96342aee</checksum>
@@ -495,7 +495,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:18 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>70433421</size>
 					<checksum>027fede3de6aa1649115bbd0bffff30ccd51c9a0</checksum>
@@ -519,7 +519,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>66852371</size>
 					<checksum>5d1bd10fea962b216a0dece1247070164760a9fc</checksum>
@@ -543,7 +543,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>65897960</size>
 					<checksum>53536556059bb29ae82f414fd2e14bc335a4eb4c</checksum>
@@ -567,7 +567,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>63567784</size>
 					<checksum>a9251f8a3f313ab05834a07a963000927637e01d</checksum>
@@ -591,7 +591,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>63871092</size>
 					<checksum>2ff20d89e68f2f5390981342e009db5a2d456aaa</checksum>
@@ -615,7 +615,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>57771739</size>
 					<checksum>e6b09b3505754cbbeb4a5622008b907262ee91cb</checksum>
@@ -639,7 +639,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>57030216</size>
 					<checksum>dbe14101c06e6cdb34e300393e64e64f8c92168a</checksum>
@@ -663,7 +663,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>48128695</size>
 					<checksum>12a5ce6235a76bc30f62c26bda1b680e336abd07</checksum>
@@ -687,7 +687,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>44533475</size>
 					<checksum>69ab4c443b37184b2883af1fd38cc20cbeffd0f3</checksum>
@@ -711,7 +711,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>46038082</size>
 					<checksum>d4f1d8fbca25225b5f0e7a0adf0d39c3d6e60b3c</checksum>
@@ -735,7 +735,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>108426536</size>
 					<checksum>6189a500a8c44ae73a439604363de93591163cd9</checksum>
@@ -759,7 +759,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>106472351</size>
 					<checksum>4a50a6679cd95bb68bb5fc032e754cd7c5e2b1bf</checksum>
@@ -783,7 +783,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>104513908</size>
 					<checksum>2c7d4bd13f276e76f6bbd87315fe27aba351dd37</checksum>
@@ -807,7 +807,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>85470907</size>
 					<checksum>887e37783ec32f541ea33c2c649dda648e8e6fb3</checksum>
@@ -831,7 +831,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>78732563</size>
 					<checksum>209f8a7a8b2cb093fce858b8b55fed3ba5206773</checksum>
@@ -855,7 +855,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>74652366</size>
 					<checksum>231262c63eefdff8fd0386e9ccfefeb27a8f9202</checksum>
@@ -879,7 +879,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>70142829</size>
 					<checksum>5ce51b023ac19f8738500b1007a1da5de2349a1e</checksum>
@@ -903,7 +903,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>79192618</size>
 					<checksum>ce2c971dce352aa28af06bda92a070116aa5ae1a</checksum>
@@ -912,7 +912,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>79035527</size>
 					<checksum>c3096f80d75a6fc8cb38ef8a18aec920e53d42c0</checksum>
@@ -921,7 +921,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>80385601</size>
 					<checksum>255781ebe4509d9707d0e77edda2815e2bc216e6</checksum>
@@ -946,7 +946,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>75095268</size>
 					<checksum>be9be6a99ca32875c96ec7f91160ca9fce7e3c7d</checksum>
@@ -955,7 +955,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>74956356</size>
 					<checksum>2a866d0870dbba18e0503cd41e5fae988a21b314</checksum>
@@ -964,7 +964,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>76288040</size>
 					<checksum>aeb623217ff88b87216d6eb7dbc846ed53f68f57</checksum>
@@ -989,7 +989,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>63454485</size>
 					<checksum>483ed088e45bbdf3444baaf9250c8b02e5383cb0</checksum>
@@ -998,7 +998,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>62418496</size>
 					<checksum>bdafad44f5df9f127979bdb21a1fdd87ee3cd625</checksum>
@@ -1007,7 +1007,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>64654625</size>
 					<checksum>ce0b5e4ffaf12ca4fd07c2da71a8a1ab4a03dc22</checksum>
@@ -1032,7 +1032,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>53348669</size>
 					<checksum>5c134b7df5f4b8bd5b61ba93bdaebada8fa3468c</checksum>
@@ -1041,7 +1041,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>52440607</size>
 					<checksum>d3a67c2369afa48b6c3c7624de5031c262018d1e</checksum>
@@ -1050,7 +1050,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:03 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>54624370</size>
 					<checksum>5bb106d2e40d481edd337b0833093843e15fe49a</checksum>
@@ -1075,7 +1075,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>45476658</size>
 					<checksum>c054d25c9b4c6251fa49c2f9c54336998679d3fe</checksum>
@@ -1084,7 +1084,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>45584305</size>
 					<checksum>e21dbcff45b7356657449ebb3c7e941be2bb5ebe</checksum>
@@ -1093,7 +1093,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>46828615</size>
 					<checksum>a4060f29ed39fc929c302836d488998c53c3002e</checksum>
@@ -1117,7 +1117,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:15 2017.-->
+				<!--Built on: Wed Nov  8 11:00:34 2017.-->
 				<complete>
 					<size>35138547</size>
 					<checksum>2af701ee3223d580409288540b1d06932fd8f9b9</checksum>
@@ -1140,7 +1140,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>30822685</size>
 					<checksum>bbc72efd1a9bad87cc507e308f0d29aad438c52c</checksum>
@@ -1163,7 +1163,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>30270410</size>
 					<checksum>6b96115830a83d654479f32ce4b724ca9011148b</checksum>
@@ -1186,7 +1186,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>31771965</size>
 					<checksum>b0f15da2762b42f543c5e364c2b15b198cc99cc2</checksum>
@@ -1209,7 +1209,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>28861236</size>
 					<checksum>98320e13976d11597a4a730a8d203ac9a03ed5a6</checksum>
@@ -1232,7 +1232,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>28274751</size>
 					<checksum>137a5044915d32bea297a8c1552684802bbc2e25</checksum>
@@ -1255,7 +1255,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>23367603</size>
 					<checksum>8da3e40f2625f9f7ef38b7e403f49f67226c0d76</checksum>
@@ -1278,7 +1278,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>21819439</size>
 					<checksum>433a1d043ef77561571250e94cb7a0ef24a202e7</checksum>
@@ -1301,7 +1301,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>20226735</size>
 					<checksum>8b49fdf7433f4881a2bfb559b5dd05d8ec65fb78</checksum>
@@ -1324,7 +1324,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>18976816</size>
 					<checksum>6f1f18cd2d2b1852d7f6892df9cee3823349d43a</checksum>
@@ -1347,7 +1347,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>17876720</size>
 					<checksum>0f83c14ed333c45d962279ab5d6bc98a0269ef84</checksum>
@@ -1370,7 +1370,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>16468746</size>
 					<checksum>e5992a5747c9590783fbbdd700337bf0c9f6b1fa</checksum>
@@ -1393,7 +1393,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>16152383</size>
 					<checksum>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</checksum>
@@ -1403,242 +1403,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="ndk-bundle">
-		<!--Generated from bid:4414007, branch:aosp-ndk-release-r16-->
+		<!--Generated from bid:4442984, branch:aosp-ndk-release-r16-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>16</major>
 			<minor>0</minor>
-			<micro>4414007</micro>
-			<preview>2</preview>
-		</revision>
-		<display-name>NDK</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-1"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Nov  6 10:50:36 2017.-->
-				<complete>
-					<size>840162946</size>
-					<checksum>e0691ed9f4d062e2c5e287ac3e6d57b4c5be865e</checksum>
-					<url>android-ndk-r16-beta2-darwin-x86_64.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>138091431</size>
-						<checksum>c8cbace8c9dd5152b190ffc4f0a800e3b1761b5b</checksum>
-						<url>sdk-ndk-4119039-4414007-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>138062078</size>
-						<checksum>3b276cbc705e91f48b25dd206c81d80899d18ce8</checksum>
-						<url>sdk-ndk-4075724-4414007-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>2</minor>
-							<micro>4203891</micro>
-						</based-on>
-						<size>132104349</size>
-						<checksum>4a267c05439342b884d74606b9cfcb5d2c72beb3</checksum>
-						<url>sdk-ndk-4203891-4414007-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>0</minor>
-							<micro>4293906</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>114825897</size>
-						<checksum>f052d6f8b5d98db6b248b4ece51057800c2aee96</checksum>
-						<url>sdk-ndk-4293906-4414007-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-			<archive>
-				<!--Built on: Mon Nov  6 10:50:36 2017.-->
-				<complete>
-					<size>852668017</size>
-					<checksum>de74f3e73dc48bd18fe29454d08b19bd2e067241</checksum>
-					<url>android-ndk-r16-beta2-linux-x86_64.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>135190524</size>
-						<checksum>1ca50297e0f91e420dfcb5a9b3ac73de9415b20a</checksum>
-						<url>sdk-ndk-4119039-4414007-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>135169263</size>
-						<checksum>8eee6b834b99f51bd76635acd401f9ec7b92434b</checksum>
-						<url>sdk-ndk-4075724-4414007-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>2</minor>
-							<micro>4203891</micro>
-						</based-on>
-						<size>129459101</size>
-						<checksum>ab1d527cfa3389fa886c52c9c7c5af098ae2856c</checksum>
-						<url>sdk-ndk-4203891-4414007-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>0</minor>
-							<micro>4293906</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>111706141</size>
-						<checksum>82bc5186c0c95d507b64b80f01727289a193c746</checksum>
-						<url>sdk-ndk-4293906-4414007-linux-64-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-			<archive>
-				<!--Built on: Mon Nov  6 10:50:36 2017.-->
-				<complete>
-					<size>657237189</size>
-					<checksum>4cecd0d3420b3497077e8144b54d0a5cc053ea03</checksum>
-					<url>android-ndk-r16-beta2-windows-x86.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-				<host-bits>32</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>114176066</size>
-						<checksum>eb6bf46367063ca68f0e863c94c4d6f6fa5d9215</checksum>
-						<url>sdk-ndk-4119039-4414007-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>114270789</size>
-						<checksum>c5ec0ef9f88806f6615d3823cc9f410b8d57bcbd</checksum>
-						<url>sdk-ndk-4075724-4414007-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>2</minor>
-							<micro>4203891</micro>
-						</based-on>
-						<size>110292774</size>
-						<checksum>8b82c5d151f13f9730fc05db73371d57b60ddc92</checksum>
-						<url>sdk-ndk-4203891-4414007-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>0</minor>
-							<micro>4293906</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>93577273</size>
-						<checksum>3b4337877fb839a7ff82865fe478c0cc1335e793</checksum>
-						<url>sdk-ndk-4293906-4414007-windows-32-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-			<archive>
-				<!--Built on: Mon Nov  6 10:50:36 2017.-->
-				<complete>
-					<size>723823158</size>
-					<checksum>9045c528037cb0164bf9e8b668e39b11fc83e9d5</checksum>
-					<url>android-ndk-r16-beta2-windows-x86_64.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>130784747</size>
-						<checksum>7bd15c6431cffae8ff9fafe9baa64305a71b52d6</checksum>
-						<url>sdk-ndk-4119039-4414007-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>130710301</size>
-						<checksum>6ce5e0fa26c9fe54cbe21da429cdbc6eef477dab</checksum>
-						<url>sdk-ndk-4075724-4414007-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>2</minor>
-							<micro>4203891</micro>
-						</based-on>
-						<size>126696109</size>
-						<checksum>3c575bf910e01c8725d1f630df1dd6800e0aa6ed</checksum>
-						<url>sdk-ndk-4203891-4414007-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>0</minor>
-							<micro>4293906</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>110075623</size>
-						<checksum>f3dd5b869364deb36c7ab04b1286294c86eb84b7</checksum>
-						<url>sdk-ndk-4293906-4414007-windows-64-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="ndk-bundle">
-		<!--Generated from bid:4203891, branch:aosp-ndk-r15-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>15</major>
-			<minor>2</minor>
-			<micro>4203891</micro>
+			<micro>4442984</micro>
 		</revision>
 		<display-name>NDK</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1648,56 +1418,46 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:59 2017.-->
+				<!--Built on: Thu Nov  9 16:41:04 2017.-->
 				<complete>
-					<size>960251267</size>
-					<checksum>ea4b5d76475db84745aa8828000d009625fc1f98</checksum>
-					<url>android-ndk-r15c-darwin-x86_64.zip</url>
+					<size>839297758</size>
+					<checksum>8c24cabc65634701e92ec1422cc658605f51bd33</checksum>
+					<url>android-ndk-r16-darwin-x86_64.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 				<patches>
 					<patch>
 						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>3996722</micro>
+							<micro>4414007</micro>
 							<preview>2</preview>
 						</based-on>
-						<size>37071169</size>
-						<checksum>fc6f3b946f9724d80e32ec9eb681e6fd38f928f6</checksum>
-						<url>sdk-ndk-3996722-4203891-macosx-64-patch.jar</url>
+						<size>2286717</size>
+						<checksum>40f4eabfa269baabfcd84094be0932a1c1c47fe0</checksum>
+						<url>sdk-ndk-4414007-4442984-macosx-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>12</major>
-							<minor>1</minor>
-							<micro>2977051</micro>
-						</based-on>
-						<size>402182643</size>
-						<checksum>a47799a7f3f0ddfc36bc4ab04a848db31b07276f</checksum>
-						<url>sdk-ndk-2977051-4203891-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>16153956</size>
-						<checksum>2338d1dbbd3052bae398788acb6db90c71e7b156</checksum>
-						<url>sdk-ndk-4075724-4203891-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>3869609</micro>
+							<micro>4293906</micro>
 							<preview>1</preview>
 						</based-on>
-						<size>280471506</size>
-						<checksum>ac586321c345bbd804cb706a970e3c29ac49fef2</checksum>
-						<url>sdk-ndk-3869609-4203891-macosx-64-patch.jar</url>
+						<size>115449582</size>
+						<checksum>f8e6b7985854262c5d704b21e60c3da92be037ad</checksum>
+						<url>sdk-ndk-4293906-4442984-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>15</major>
+							<minor>2</minor>
+							<micro>4203891</micro>
+						</based-on>
+						<size>131765480</size>
+						<checksum>56e575cb8748ec356a7272f7a38e78c512fb9789</checksum>
+						<url>sdk-ndk-4203891-4442984-macosx-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1705,19 +1465,9 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3816874</micro>
 						</based-on>
-						<size>316581044</size>
-						<checksum>3c06921bedcc1d7d8fe9067ea1de285a65e1d2ca</checksum>
-						<url>sdk-ndk-3816874-4203891-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>16176133</size>
-						<checksum>21998a7d091ae587c696c6770969abed32369234</checksum>
-						<url>sdk-ndk-4119039-4203891-macosx-64-patch.jar</url>
+						<size>413094620</size>
+						<checksum>bd5b37e0f5fea70278a71af828635ad2a0bca131</checksum>
+						<url>sdk-ndk-3816874-4442984-macosx-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1725,63 +1475,53 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3345770</micro>
 						</based-on>
-						<size>387220205</size>
-						<checksum>687fc2733745db924c08fe4f364a1e99e0261d73</checksum>
-						<url>sdk-ndk-3345770-4203891-macosx-64-patch.jar</url>
+						<size>474085326</size>
+						<checksum>cccea27318699c439e2e3db17a5b539d5b892165</checksum>
+						<url>sdk-ndk-3345770-4442984-macosx-64-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:59 2017.-->
+				<!--Built on: Thu Nov  9 16:41:33 2017.-->
 				<complete>
-					<size>974976754</size>
-					<checksum>0bf02d4e8b85fd770fd7b9b2cdec57f9441f27a2</checksum>
-					<url>android-ndk-r15c-linux-x86_64.zip</url>
+					<size>852190054</size>
+					<checksum>b7dcb08fa9fa403e3c0bc3f741a445d7f0399e93</checksum>
+					<url>android-ndk-r16-linux-x86_64.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 				<patches>
 					<patch>
 						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>3996722</micro>
+							<micro>4414007</micro>
 							<preview>2</preview>
 						</based-on>
-						<size>47788806</size>
-						<checksum>1082b229fb16adaad36a8372506c1bfe1f748096</checksum>
-						<url>sdk-ndk-3996722-4203891-linux-64-patch.jar</url>
+						<size>2726085</size>
+						<checksum>f453eb3820c9360125114471d7c3489753698a40</checksum>
+						<url>sdk-ndk-4414007-4442984-linux-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>12</major>
-							<minor>1</minor>
-							<micro>2977051</micro>
-						</based-on>
-						<size>405431907</size>
-						<checksum>be9d4945e6c4a4e68067fea027b0b94cefb71e2b</checksum>
-						<url>sdk-ndk-2977051-4203891-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>16015416</size>
-						<checksum>6a2fbbdc7560038fd8962ce1cdab8c333fcc8851</checksum>
-						<url>sdk-ndk-4075724-4203891-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>3869609</micro>
+							<micro>4293906</micro>
 							<preview>1</preview>
 						</based-on>
-						<size>290619553</size>
-						<checksum>aa31551a25dc49d8c53c6b8bb0c1974fcf8e7a1d</checksum>
-						<url>sdk-ndk-3869609-4203891-linux-64-patch.jar</url>
+						<size>112666283</size>
+						<checksum>5f38f78879df8c985d2de73c9d9c684f8ff8f523</checksum>
+						<url>sdk-ndk-4293906-4442984-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>15</major>
+							<minor>2</minor>
+							<micro>4203891</micro>
+						</based-on>
+						<size>129515226</size>
+						<checksum>be3289c8ebedaa32668a63666caa75d49e3da466</checksum>
+						<url>sdk-ndk-4203891-4442984-linux-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1789,19 +1529,9 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3816874</micro>
 						</based-on>
-						<size>327797555</size>
-						<checksum>0046631df7bad59d60a7c2efac895e4d0fbe280e</checksum>
-						<url>sdk-ndk-3816874-4203891-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>16033671</size>
-						<checksum>7ae26757e8c73c56ab3ebb5447e830da14fcb3fb</checksum>
-						<url>sdk-ndk-4119039-4203891-linux-64-patch.jar</url>
+						<size>420585300</size>
+						<checksum>02c42138d0c24c6f5c5d299e288f50cb4a017ed7</checksum>
+						<url>sdk-ndk-3816874-4442984-linux-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1809,63 +1539,53 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3345770</micro>
 						</based-on>
-						<size>390095092</size>
-						<checksum>802bd8ecf8e7bd3b3e47f0f5dd96ee87b364493e</checksum>
-						<url>sdk-ndk-3345770-4203891-linux-64-patch.jar</url>
+						<size>472642027</size>
+						<checksum>35943e843d856aa42d66a67ce88fca295a1eedfc</checksum>
+						<url>sdk-ndk-3345770-4442984-linux-64-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:59 2017.-->
+				<!--Built on: Thu Nov  9 16:40:07 2017.-->
 				<complete>
-					<size>784778144</size>
-					<checksum>f2e47121feb73ec34ced5e947cbf1adc6b56246e</checksum>
-					<url>android-ndk-r15c-windows-x86.zip</url>
+					<size>656389892</size>
+					<checksum>dc1f53607df74917d1c8528029d265b7dbed5d61</checksum>
+					<url>android-ndk-r16-windows-x86.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
 				<patches>
 					<patch>
 						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>3996722</micro>
+							<micro>4414007</micro>
 							<preview>2</preview>
 						</based-on>
-						<size>23158658</size>
-						<checksum>bcf637e2ea28e7cbe42542681cbab4c681a1a05d</checksum>
-						<url>sdk-ndk-3996722-4203891-windows-32-patch.jar</url>
+						<size>2045080</size>
+						<checksum>22cfd89a1b5db26b8213f9c8ce5ca9d7be5281b8</checksum>
+						<url>sdk-ndk-4414007-4442984-windows-32-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>12</major>
-							<minor>1</minor>
-							<micro>2977051</micro>
-						</based-on>
-						<size>255865591</size>
-						<checksum>5f570a119cc875761a603645f316ac2be2219a06</checksum>
-						<url>sdk-ndk-2977051-4203891-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>17127883</size>
-						<checksum>c288cfa08ca629e9e6fb7164b958539b0047676b</checksum>
-						<url>sdk-ndk-4075724-4203891-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>3869609</micro>
+							<micro>4293906</micro>
 							<preview>1</preview>
 						</based-on>
-						<size>141682866</size>
-						<checksum>cb104689672e987bf643cb3e4eed014ddbd6dd52</checksum>
-						<url>sdk-ndk-3869609-4203891-windows-32-patch.jar</url>
+						<size>94093960</size>
+						<checksum>a7e13e6411d9d8568446e7225c5dda5c461ff0d6</checksum>
+						<url>sdk-ndk-4293906-4442984-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>15</major>
+							<minor>2</minor>
+							<micro>4203891</micro>
+						</based-on>
+						<size>109916214</size>
+						<checksum>88d742590a6e00a78ebbda365815c471a8403d60</checksum>
+						<url>sdk-ndk-4203891-4442984-windows-32-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1873,19 +1593,9 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3816874</micro>
 						</based-on>
-						<size>176493437</size>
-						<checksum>8b4f83d2d991c80008b500f0d167a54f4852ed3e</checksum>
-						<url>sdk-ndk-3816874-4203891-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>16069831</size>
-						<checksum>e58533769f2f1d357f512687d2864a44678e30e5</checksum>
-						<url>sdk-ndk-4119039-4203891-windows-32-patch.jar</url>
+						<size>248518078</size>
+						<checksum>a041b004fb9fbd83250af1a3034e88d1d54864aa</checksum>
+						<url>sdk-ndk-3816874-4442984-windows-32-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1893,63 +1603,53 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3345770</micro>
 						</based-on>
-						<size>238801871</size>
-						<checksum>f54fc6a53e9c57e3dc0a04a50c5968d53e105d92</checksum>
-						<url>sdk-ndk-3345770-4203891-windows-32-patch.jar</url>
+						<size>302016621</size>
+						<checksum>53b7238bd60c31be3f8edec4a670f66ba1f72813</checksum>
+						<url>sdk-ndk-3345770-4442984-windows-32-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:01 2017.-->
+				<!--Built on: Thu Nov  9 16:40:34 2017.-->
 				<complete>
-					<size>849733996</size>
-					<checksum>970bb2496de0eada74674bb1b06d79165f725696</checksum>
-					<url>android-ndk-r15c-windows-x86_64.zip</url>
+					<size>722970621</size>
+					<checksum>0aaa1f772a0998ba78d516f877f256c84fc5e56b</checksum>
+					<url>android-ndk-r16-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
 				<patches>
 					<patch>
 						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>3996722</micro>
+							<micro>4414007</micro>
 							<preview>2</preview>
 						</based-on>
-						<size>31454438</size>
-						<checksum>e4b96bb08a8766d45b28553ce201982e60114163</checksum>
-						<url>sdk-ndk-3996722-4203891-windows-64-patch.jar</url>
+						<size>1981344</size>
+						<checksum>48624f9bf02352b6a94265e4d7298ee885d05e89</checksum>
+						<url>sdk-ndk-4414007-4442984-windows-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>12</major>
-							<minor>1</minor>
-							<micro>2977051</micro>
-						</based-on>
-						<size>274581410</size>
-						<checksum>4349e806001015be8eadeec074d3b0d5a0c874e0</checksum>
-						<url>sdk-ndk-2977051-4203891-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
+							<major>16</major>
 							<minor>0</minor>
-							<micro>4075724</micro>
-						</based-on>
-						<size>15988004</size>
-						<checksum>fb8a1bcc26db3da1bb924337fa81a4371a8cb4c5</checksum>
-						<url>sdk-ndk-4075724-4203891-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>0</minor>
-							<micro>3869609</micro>
+							<micro>4293906</micro>
 							<preview>1</preview>
 						</based-on>
-						<size>159860298</size>
-						<checksum>b38440f749871fc7bf768d09f927a86398bd5d00</checksum>
-						<url>sdk-ndk-3869609-4203891-windows-64-patch.jar</url>
+						<size>110588389</size>
+						<checksum>0003293c42c529763add1f52ca0747a8738e65dd</checksum>
+						<url>sdk-ndk-4293906-4442984-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>15</major>
+							<minor>2</minor>
+							<micro>4203891</micro>
+						</based-on>
+						<size>126325856</size>
+						<checksum>210128c55541d60d315b9678d1371d15fb345dfd</checksum>
+						<url>sdk-ndk-4203891-4442984-windows-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1957,19 +1657,9 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3816874</micro>
 						</based-on>
-						<size>195712055</size>
-						<checksum>605bd246bf3e2b9c27840cae9ad55d311ca0af24</checksum>
-						<url>sdk-ndk-3816874-4203891-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>15</major>
-							<minor>1</minor>
-							<micro>4119039</micro>
-						</based-on>
-						<size>17076848</size>
-						<checksum>d6c2a956d7a0740cec0acd0f72706b9f1b65e40c</checksum>
-						<url>sdk-ndk-4119039-4203891-windows-64-patch.jar</url>
+						<size>284073942</size>
+						<checksum>b08eb16167926fbee8ea01eeb4e940aa5af5f610</checksum>
+						<url>sdk-ndk-3816874-4442984-windows-64-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -1977,9 +1667,9 @@ June 2014.</license>
 							<minor>1</minor>
 							<micro>3345770</micro>
 						</based-on>
-						<size>259521675</size>
-						<checksum>156a374180447e8f241e422e13d1da1d6264876b</checksum>
-						<url>sdk-ndk-3345770-4203891-windows-64-patch.jar</url>
+						<size>339497124</size>
+						<checksum>64d56eedfe5aa162967b7c8bdc8014b9f3345599</checksum>
+						<url>sdk-ndk-3345770-4442984-windows-64-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -2001,7 +1691,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:17 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>34424273</size>
 					<checksum>2492651690a215317b86c755cd4d584ec9838677</checksum>
@@ -2011,7 +1701,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:18 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>42550577</size>
 					<checksum>61d49b6a58953faa61546d631409af5f60d8d9db</checksum>
@@ -2021,7 +1711,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:18 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>35631071</size>
 					<checksum>3939e78a1a63e6d8006b4ef939007886d66cc3f6</checksum>
@@ -2047,7 +1737,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:33 2017.-->
 				<complete>
 					<size>42696025</size>
 					<checksum>6b0df112c7b9fa41654497fde2fcce990c831e52</checksum>
@@ -2079,7 +1769,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:34 2017.-->
 				<complete>
 					<size>50785194</size>
 					<checksum>d7abe655650efe9f6989df31835fa3b3f95c2d13</checksum>
@@ -2111,7 +1801,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:34 2017.-->
 				<complete>
 					<size>39794792</size>
 					<checksum>f1ade0f54a6af82ef0cebde03ebf0bb12ae9767d</checksum>
@@ -2159,7 +1849,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>46265029</size>
 					<checksum>62089f4e35775e6cedb82d1fa377fdc1de898005</checksum>
@@ -2191,7 +1881,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>49929306</size>
 					<checksum>413649617d97dd9ef163528f64c0500e1b7c4113</checksum>
@@ -2223,7 +1913,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>38944200</size>
 					<checksum>7ee86628e6e25d84f2b4244efe587f2ca2e3af79</checksum>
@@ -2268,7 +1958,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>72306262</size>
 					<checksum>d1e33880a53f1aa8c7e73534adef83a06f091185</checksum>
@@ -2278,7 +1968,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>73168196</size>
 					<checksum>eb9b96d320210fdfe82495b0597ad43e77f1c240</checksum>
@@ -2288,7 +1978,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>64979959</size>
 					<checksum>1d9c7d3db1e90587be15c9e79db6bd2881c65387</checksum>
@@ -2298,7 +1988,7 @@ June 2014.</license>
 				<host-bits>32</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>64979959</size>
 					<checksum>1d9c7d3db1e90587be15c9e79db6bd2881c65387</checksum>
@@ -2322,7 +2012,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>69262856</size>
 					<checksum>d92e2f4c8284413eed4f27986e62b167d947033c</checksum>
@@ -2332,7 +2022,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>73674658</size>
 					<checksum>e7060d9b2ba58b28fd7b1a0ea85a151c8371a326</checksum>
@@ -2342,7 +2032,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>65648183</size>
 					<checksum>86fd4676dfb587efe8e84face780d6e8241c0b3a</checksum>
@@ -2352,7 +2042,7 @@ June 2014.</license>
 				<host-bits>32</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>65648183</size>
 					<checksum>86fd4676dfb587efe8e84face780d6e8241c0b3a</checksum>
@@ -2376,7 +2066,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:43 2017.-->
+				<!--Built on: Wed Nov  8 11:00:17 2017.-->
 				<complete>
 					<size>54450260</size>
 					<checksum>7f4eedb1077ef948b848040dcd15de9e8a759f4a</checksum>
@@ -2385,7 +2075,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:43 2017.-->
+				<!--Built on: Wed Nov  8 11:00:18 2017.-->
 				<complete>
 					<size>53838762</size>
 					<checksum>1edd07bfdbadd95652d093040e16d858f7489594</checksum>
@@ -2394,7 +2084,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:43 2017.-->
+				<!--Built on: Wed Nov  8 11:00:18 2017.-->
 				<complete>
 					<size>55171114</size>
 					<checksum>18109db020c6d088d0157d1df201d31bc6970875</checksum>
@@ -2417,7 +2107,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:40 2017.-->
+				<!--Built on: Wed Nov  8 11:00:17 2017.-->
 				<complete>
 					<size>54441725</size>
 					<checksum>28542332ba97cf4a08c3eddfcf5edd70e3cf1260</checksum>
@@ -2426,7 +2116,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:40 2017.-->
+				<!--Built on: Wed Nov  8 11:00:17 2017.-->
 				<complete>
 					<size>53831513</size>
 					<checksum>fb4e8d7e6b8d29a77090e34024077a80458d5ae1</checksum>
@@ -2435,7 +2125,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:41 2017.-->
+				<!--Built on: Wed Nov  8 11:00:17 2017.-->
 				<complete>
 					<size>55163097</size>
 					<checksum>4f1df22a6d99261d2160d624b81445da0a027dbe</checksum>
@@ -2458,7 +2148,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:16 2017.-->
 				<complete>
 					<size>54449983</size>
 					<checksum>8a2e6c1bcd845844523a68aa17e5442f0dce328c</checksum>
@@ -2467,7 +2157,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:16 2017.-->
 				<complete>
 					<size>53839758</size>
 					<checksum>5bb90ed935d99e5bc90686f43b852e68c5ad40df</checksum>
@@ -2476,7 +2166,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:40 2017.-->
+				<!--Built on: Wed Nov  8 11:00:16 2017.-->
 				<complete>
 					<size>55170919</size>
 					<checksum>460e511a9616b4661cc8dba0102d9d990ae60160</checksum>
@@ -2499,7 +2189,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:04 2017.-->
+				<!--Built on: Wed Nov  8 11:00:37 2017.-->
 				<complete>
 					<size>54440678</size>
 					<checksum>5b2b7b66c7bf2151f2af183b5b50a17808850592</checksum>
@@ -2508,7 +2198,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:04 2017.-->
+				<!--Built on: Wed Nov  8 11:00:37 2017.-->
 				<complete>
 					<size>53830573</size>
 					<checksum>d9ed7c7f149ce38be5dc08979aea8acec1459ca0</checksum>
@@ -2517,7 +2207,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:04 2017.-->
+				<!--Built on: Wed Nov  8 11:00:38 2017.-->
 				<complete>
 					<size>55161474</size>
 					<checksum>39ca02d3faa49859cd9d1bc0adc2f331017b699b</checksum>
@@ -2540,7 +2230,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>54113329</size>
 					<checksum>5378c2c78091b414d0eac40a6bd37f2faa31a365</checksum>
@@ -2549,7 +2239,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>53266653</size>
 					<checksum>cbde59de198916b390777dd0227921bfa2120832</checksum>
@@ -2558,7 +2248,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>54936185</size>
 					<checksum>02494c80ffbe65bfff0aaa7463c9692693327b7d</checksum>
@@ -2581,7 +2271,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>53854197</size>
 					<checksum>1cbe72929876f8a872ab1f1b1040a9f720261f59</checksum>
@@ -2590,7 +2280,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>53010814</size>
 					<checksum>d01a1aeca03747245f1f5936b3cb01759c66d086</checksum>
@@ -2599,7 +2289,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>54681641</size>
 					<checksum>896ebd31117c09db220f7a3116cc0e5121c78b9d</checksum>
@@ -2623,7 +2313,7 @@ June 2014.</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>53847560</size>
 					<checksum>629bbd8d2e415bf64871fb0b4c0540fd6d0347a0</checksum>
@@ -2632,7 +2322,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>53003874</size>
 					<checksum>cb1eb738a1f7003025af267a9b8cc2d259533c70</checksum>
@@ -2641,7 +2331,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>54678375</size>
 					<checksum>ddaba77db0557a98f6330fbd579ad0bd12cbb152</checksum>
@@ -2665,7 +2355,7 @@ June 2014.</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>53648603</size>
 					<checksum>8cd6388dc96db2d7a49d06159cf990d3bbc78d04</checksum>
@@ -2674,7 +2364,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>52821129</size>
 					<checksum>5c5a1de7d5f4f000d36ae349229fe0be846d6137</checksum>
@@ -2683,7 +2373,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>54379108</size>
 					<checksum>43c2ddad3b67a5c33712ae14331a60673e69be91</checksum>
@@ -2706,7 +2396,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>50757258</size>
 					<checksum>db95f3a0ae376534d4d69f4cdb6fad20649f3509</checksum>
@@ -2715,7 +2405,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>50545085</size>
 					<checksum>160d2fefb5ce68e443427fc30a793a703b63e26e</checksum>
@@ -2724,7 +2414,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>51337442</size>
 					<checksum>1edcb109ae5133aebfed573cf0bc84e0c353c28d</checksum>
@@ -2747,7 +2437,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>49880329</size>
 					<checksum>ff953c0177e317618fda40516f3e9d95fd43c7ae</checksum>
@@ -2756,7 +2446,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>49667185</size>
 					<checksum>12a5204bb3b6e39437535469fde7ddf42da46b16</checksum>
@@ -2765,7 +2455,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>50458908</size>
 					<checksum>2fee3c0704d6ecc480570450d8b8069b2c4a2dd4</checksum>
@@ -2788,7 +2478,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>49880178</size>
 					<checksum>ff063d252ab750d339f5947d06ff782836f22bac</checksum>
@@ -2797,7 +2487,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>49667353</size>
 					<checksum>7bf7f22d7d48ef20b6ab0e3d7a2912e5c088340f</checksum>
@@ -2806,7 +2496,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>50458759</size>
 					<checksum>c6c61393565ccf46349e7f44511e5db7c1c6169d</checksum>
@@ -2829,7 +2519,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:03 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>49872921</size>
 					<checksum>f2bbda60403e75cabd0f238598c3b4dfca56ea44</checksum>
@@ -2838,7 +2528,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:03 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>49659466</size>
 					<checksum>273c5c29a65cbed00e44f3aa470bbd7dce556606</checksum>
@@ -2847,7 +2537,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>50451378</size>
 					<checksum>f9258f2308ff8b62cfc4513d40cb961612d07b6a</checksum>
@@ -2870,7 +2560,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>49779151</size>
 					<checksum>9e8cc49d66e03fa1a8ecc1ac3e58f1324f5da304</checksum>
@@ -2879,7 +2569,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:16 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>49568967</size>
 					<checksum>a01c15f1b105c34595681075e1895d58b3fff48c</checksum>
@@ -2888,7 +2578,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:16 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>50354788</size>
 					<checksum>8b960d693fd4163caeb8dc5f5f5f80b10987089c</checksum>
@@ -2911,7 +2601,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>48936295</size>
 					<checksum>f199a7a788c3fefbed102eea34d6007737b803cf</checksum>
@@ -2920,7 +2610,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>48726190</size>
 					<checksum>8bb8fc575477491d5957de743089df412de55cda</checksum>
@@ -2929,7 +2619,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>49512513</size>
 					<checksum>09586a1f1c39bcfa7db5205c9a07837247deb67e</checksum>
@@ -2952,7 +2642,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>48936286</size>
 					<checksum>84f18c392919a074fcbb9b1d967984e6b2fef8b4</checksum>
@@ -2961,7 +2651,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>48726085</size>
 					<checksum>5c6457fcdfa07724fb086d8ff4e8316fc0742848</checksum>
@@ -2970,7 +2660,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>49511883</size>
 					<checksum>ac4a7cea42c3ef74d7fbf1b992fad311c550034e</checksum>
@@ -2993,7 +2683,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:34 2017.-->
 				<complete>
 					<size>48960919</size>
 					<checksum>c6271c4d78a5612ea6c7150688bcd5b7313de8d1</checksum>
@@ -3002,7 +2692,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>48747930</size>
 					<checksum>97fc4ed442f23989cc488d02c1d1de9bdde241de</checksum>
@@ -3011,7 +2701,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>49535326</size>
 					<checksum>dc61b9e5b451a0c3ec42ae2b1ce27c4d3c8da9f7</checksum>
@@ -3034,7 +2724,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:50 2017.-->
 				<complete>
 					<size>39071201</size>
 					<checksum>8a9f2b37f6fcf7a9fa784dc21aeaeb41bbb9f2c3</checksum>
@@ -3043,7 +2733,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:50 2017.-->
 				<complete>
 					<size>38060914</size>
 					<checksum>482c4cbceef8ff58aefd92d8155a38610158fdaf</checksum>
@@ -3052,7 +2742,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:50 2017.-->
 				<complete>
 					<size>38217626</size>
 					<checksum>fc3a92c744d3ba0a16ccb5d2b41eea5974ce0a96</checksum>
@@ -3075,7 +2765,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:51 2017.-->
 				<complete>
 					<size>40733174</size>
 					<checksum>368f2600feac7e9b511b82f53d1f2240ae4a91a3</checksum>
@@ -3084,7 +2774,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:51 2017.-->
 				<complete>
 					<size>39679533</size>
 					<checksum>fbc98cd303fd15a31d472de6c03bd707829f00b0</checksum>
@@ -3093,7 +2783,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:34 2017.-->
 				<complete>
 					<size>39869945</size>
 					<checksum>c6d8266c6a3243c8f1e41b786c0e3cee4c781263</checksum>
@@ -3116,7 +2806,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>39069295</size>
 					<checksum>b6ba7c399d5fa487d95289d8832e4ad943aed556</checksum>
@@ -3125,7 +2815,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>38059328</size>
 					<checksum>d96ec1522721e9a179ae2c591c99f75d31d39718</checksum>
@@ -3134,7 +2824,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:48 2017.-->
 				<complete>
 					<size>38558889</size>
 					<checksum>cc1d37231d228f7a6f130e1f8d8c940052f0f8ab</checksum>
@@ -3157,7 +2847,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>39080519</size>
 					<checksum>c1d6209212b01469f80fa804e0c1d39a06bc9060</checksum>
@@ -3166,7 +2856,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>38070540</size>
 					<checksum>90ba6e716f7703a236cd44b2e71c5ff430855a03</checksum>
@@ -3175,7 +2865,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>38570715</size>
 					<checksum>3874948f35f2f8946597679cc6e9151449f23b5d</checksum>
@@ -3198,7 +2888,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>33104577</size>
 					<checksum>da8b9c5c3ede39298e6cf0283c000c2ee9029646</checksum>
@@ -3207,7 +2897,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>33646102</size>
 					<checksum>53dad7f608e01d53b17176ba11165acbfccc5bbf</checksum>
@@ -3216,7 +2906,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>33254137</size>
 					<checksum>61d8cbe069d9e0a57872a83e5e5abe164b7d52cf</checksum>
@@ -3239,7 +2929,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>33104280</size>
 					<checksum>a8a1619dd090e44fac957bce6842e62abf87965b</checksum>
@@ -3248,7 +2938,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>33646090</size>
 					<checksum>af95429b24088d704bc5db9bd606e34ac1b82c0d</checksum>
@@ -3257,7 +2947,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>33254114</size>
 					<checksum>08fcca41e81b172bd9f570963b90d3a84929e043</checksum>
@@ -3280,7 +2970,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>32637678</size>
 					<checksum>5e35259843bf2926113a38368b08458735479658</checksum>
@@ -3289,7 +2979,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>33152878</size>
 					<checksum>e7c906b4ba0eea93b32ba36c610dbd6b204bff48</checksum>
@@ -3298,7 +2988,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:07 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>32792587</size>
 					<checksum>1d944759c47f60e634d2b8a1f3a4259be2f8d652</checksum>
@@ -3321,7 +3011,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>32642454</size>
 					<checksum>1c712ee3a1ba5a8b0548f9c32f17d4a0ddfd727d</checksum>
@@ -3330,7 +3020,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>33157676</size>
 					<checksum>836a146eab0504aa9387a5132e986fe7c7381571</checksum>
@@ -3339,7 +3029,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:43 2017.-->
 				<complete>
 					<size>32797356</size>
 					<checksum>53fc4201237f899d5cd92f0b76ad41fb89da188b</checksum>
@@ -3362,7 +3052,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>32642820</size>
 					<checksum>b7455e543784d52a8925f960bc880493ed1478cb</checksum>
@@ -3371,7 +3061,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>33158159</size>
 					<checksum>df619356c2359aa5eacdd48699d15b335d9bd246</checksum>
@@ -3380,7 +3070,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:42 2017.-->
 				<complete>
 					<size>32797810</size>
 					<checksum>c79d63ac6b713a1e326ad4dae43f2ee76708a2f4</checksum>
@@ -3403,7 +3093,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>22153122</size>
 					<checksum>e1236ab8897b62b57414adcf04c132567b2612a5</checksum>
@@ -3412,7 +3102,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:06 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>22668597</size>
 					<checksum>f17471c154058f3734729ef3cc363399b1cd3de1</checksum>
@@ -3421,7 +3111,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:41 2017.-->
 				<complete>
 					<size>22306371</size>
 					<checksum>37496141b23cbe633167927b7abe6e22d9f1a1c1</checksum>
@@ -3444,7 +3134,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>22153013</size>
 					<checksum>e573069eea3e5255e7a65bedeb767f4fd0a5f49a</checksum>
@@ -3453,7 +3143,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>22668616</size>
 					<checksum>b60c8f9b810c980abafa04896706f3911be1ade7</checksum>
@@ -3462,7 +3152,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:40 2017.-->
 				<complete>
 					<size>22306243</size>
 					<checksum>d68e7e6fd7a48c8759aa41d713c9d4f0e4c1c1df</checksum>
@@ -3485,7 +3175,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>22153145</size>
 					<checksum>4933328fdeecbd554a29528f254f4993468e1cf4</checksum>
@@ -3494,7 +3184,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>22668456</size>
 					<checksum>9bef7989b51436bd4e5114d8a0330359f077cbfa</checksum>
@@ -3503,7 +3193,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:39 2017.-->
 				<complete>
 					<size>22306371</size>
 					<checksum>5bc8fd399bc0135a9bc91eec78ddc5af4f54bf32</checksum>
@@ -3526,7 +3216,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:16 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>21445463</size>
 					<checksum>b688905526a5584d1327a662d871a635ff502758</checksum>
@@ -3535,7 +3225,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:03 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>21650508</size>
 					<checksum>1240f629411c108a714c4ddd756937c7fab93f83</checksum>
@@ -3544,7 +3234,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:04 2017.-->
+				<!--Built on: Wed Nov  8 11:07:38 2017.-->
 				<complete>
 					<size>20828006</size>
 					<checksum>cf20720e452b642d5eb59dabe05c0c729b36ec75</checksum>
@@ -3567,7 +3257,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>21490972</size>
 					<checksum>1ff20ac15fa47a75d00346ec12f180d531b3ca89</checksum>
@@ -3576,7 +3266,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:16 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>21590160</size>
 					<checksum>0d11aae3417de1efb4b9a0e0a7855904a61bcec1</checksum>
@@ -3585,7 +3275,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:16 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>20812533</size>
 					<checksum>13b367fbdbff8132cb4356f716e8dc8a8df745c5</checksum>
@@ -3608,7 +3298,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>21462150</size>
 					<checksum>c2d6055478e9d2d4fba476ee85f99181ddd1160c</checksum>
@@ -3617,7 +3307,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>21563992</size>
 					<checksum>651cf8754373b2d52e7f6aab2c52eabffe4e9ea4</checksum>
@@ -3626,7 +3316,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:15 2017.-->
+				<!--Built on: Wed Nov  8 11:07:37 2017.-->
 				<complete>
 					<size>20730715</size>
 					<checksum>cb46b433b67a0a6910ff00db84be8b527ea3102f</checksum>
@@ -3649,7 +3339,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:34 2017.-->
 				<complete>
 					<size>21352552</size>
 					<checksum>a03a6bdea0091aea32e1b35b90a7294c9f04e3dd</checksum>
@@ -3658,7 +3348,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>21453726</size>
 					<checksum>145bc43065d45f756d99d87329d899052b9a9288</checksum>
@@ -3667,7 +3357,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:14 2017.-->
+				<!--Built on: Wed Nov  8 11:07:36 2017.-->
 				<complete>
 					<size>20621117</size>
 					<checksum>af664672d0d709c9ae30937b1062317d3ade7f95</checksum>
@@ -3690,7 +3380,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:33 2017.-->
 				<complete>
 					<size>21229048</size>
 					<checksum>18d2312dc4368858914213087f4e61445aca4517</checksum>
@@ -3699,7 +3389,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:33 2017.-->
 				<complete>
 					<size>21450597</size>
 					<checksum>efaf50fb19a3edb8d03efbff76f89a249ad2920b</checksum>
@@ -3708,7 +3398,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:13 2017.-->
+				<!--Built on: Wed Nov  8 11:07:33 2017.-->
 				<complete>
 					<size>20500648</size>
 					<checksum>5ef422bac5b28f4ced108319ed4a6bc7050a6234</checksum>
@@ -3731,7 +3421,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:48 2017.-->
 				<complete>
 					<size>21339943</size>
 					<checksum>55c1a6cf632e7d346f0002b275ec41fd3137fd83</checksum>
@@ -3740,7 +3430,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:49 2017.-->
 				<complete>
 					<size>21441270</size>
 					<checksum>86ec1c12db1bc446b7bcaefc5cc14eb361044e90</checksum>
@@ -3749,7 +3439,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:49 2017.-->
 				<complete>
 					<size>20611447</size>
 					<checksum>6edf505c20f5ece9c48fa0aff9a90488f9654d52</checksum>
@@ -3772,7 +3462,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>20229760</size>
 					<checksum>68c9acbfc0cec2d51b19efaed39831a17055d998</checksum>
@@ -3781,7 +3471,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>20452157</size>
 					<checksum>a9d9d37f6ddf859e57abc78802a77aaa166e48d4</checksum>
@@ -3790,7 +3480,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>19660000</size>
 					<checksum>c4605066e2f851387ea70bc1442b1968bd7b4a15</checksum>
@@ -3813,7 +3503,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>20229298</size>
 					<checksum>f314a0599e51397f0886fe888b50dd98f2f050d8</checksum>
@@ -3822,7 +3512,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>20451524</size>
 					<checksum>16ddb299b8b43063e5bb3387ec17147c5053dfd8</checksum>
@@ -3831,7 +3521,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>19659547</size>
 					<checksum>3a9810fc8559ab03c09378f07531e8cae2f1db30</checksum>
@@ -3854,7 +3544,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>16627330</size>
 					<checksum>f11618492b0d2270c332325d45d752d3656a9640</checksum>
@@ -3863,7 +3553,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>16633121</size>
 					<checksum>d84f5692fb44d60fc53e5b2507cebf9f24626902</checksum>
@@ -3872,7 +3562,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:10 2017.-->
+				<!--Built on: Wed Nov  8 11:07:45 2017.-->
 				<complete>
 					<size>15413527</size>
 					<checksum>a6c2afd0b6289d589351956d2f5212b37014ca7d</checksum>
@@ -3895,7 +3585,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:08 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>11696007</size>
 					<checksum>2c2872bc3806aabf16a12e3959c2183ddc866e6d</checksum>
@@ -3904,7 +3594,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>12208114</size>
 					<checksum>602ee709be9dbb8f179b1e4075148a57f9419930</checksum>
@@ -3913,7 +3603,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:09 2017.-->
+				<!--Built on: Wed Nov  8 11:07:44 2017.-->
 				<complete>
 					<size>11004914</size>
 					<checksum>899897d327b0bad492d3a40d3db4d96119c15bc0</checksum>
@@ -3934,7 +3624,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:12 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>419477967</size>
 					<checksum>eef58238949ee9544876cb3e002f2d58e4ee7b5d</checksum>
@@ -3954,7 +3644,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:05 2017.-->
+				<!--Built on: Wed Nov  8 11:07:35 2017.-->
 				<complete>
 					<size>1827327</size>
 					<checksum>046699c5e2716ae11d77e0bad814f7f33fab261e</checksum>
@@ -3976,7 +3666,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>12295830</size>
 					<checksum>c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
@@ -3986,7 +3676,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:46 2017.-->
 				<complete>
 					<size>13980243</size>
 					<checksum>71c539b9c33f0943e9ad6251fea0b161c0b70782</checksum>
@@ -3996,7 +3686,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:58:11 2017.-->
+				<!--Built on: Wed Nov  8 11:07:47 2017.-->
 				<complete>
 					<size>10428915</size>
 					<checksum>4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
@@ -4020,7 +3710,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:15 2017.-->
 				<complete>
 					<size>7910754</size>
 					<checksum>161ca26461d4caec6cbbef513891fcd04a4fcf52</checksum>
@@ -4029,7 +3719,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:15 2017.-->
 				<complete>
 					<size>9678833</size>
 					<checksum>668ff8e319715175ff628ad52b124f154275fe2d</checksum>
@@ -4038,7 +3728,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:40 2017.-->
+				<!--Built on: Wed Nov  8 11:00:16 2017.-->
 				<complete>
 					<size>9764828</size>
 					<checksum>aa3ef6f18eff4b8f12dbdf980647a6ce6c2ebe8c</checksum>
@@ -4070,7 +3760,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:56:08 2017.-->
+				<!--Built on: Wed Nov  8 11:05:43 2017.-->
 				<complete>
 					<size>106553102</size>
 					<checksum>ca9701ae16add01f7f05d70592bd82f9deeaa836</checksum>
@@ -4132,16 +3822,6 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>40030461</size>
-						<checksum>029c442825e56ff8233a8caef1bbee54c8586d85</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-macosx-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>39939058</size>
@@ -4170,6 +3850,16 @@ June 2014.</license>
 					</patch>
 					<patch>
 						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>40030461</size>
+						<checksum>029c442825e56ff8233a8caef1bbee54c8586d85</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-macosx-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>26</major>
 							<minor>1</minor>
 							<micro>3</micro>
@@ -4191,7 +3881,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:56:12 2017.-->
+				<!--Built on: Wed Nov  8 11:05:28 2017.-->
 				<complete>
 					<size>135978248</size>
 					<checksum>8aa134091b01190d5bc7df2a1b831c49df2f0cbd</checksum>
@@ -4253,16 +3943,6 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>19439999</size>
-						<checksum>0a0b9941705cca296332728f7d5fe4006cbca1a9</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-linux-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>19343778</size>
@@ -4291,6 +3971,16 @@ June 2014.</license>
 					</patch>
 					<patch>
 						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>19439999</size>
+						<checksum>0a0b9941705cca296332728f7d5fe4006cbca1a9</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-linux-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>26</major>
 							<minor>1</minor>
 							<micro>3</micro>
@@ -4312,7 +4002,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:55:59 2017.-->
+				<!--Built on: Wed Nov  8 11:05:32 2017.-->
 				<complete>
 					<size>154634524</size>
 					<checksum>cb33c1127f5e6803c1c9d4c60d8718ca5b7f1f6c</checksum>
@@ -4374,16 +4064,6 @@ June 2014.</license>
 						<based-on>
 							<major>25</major>
 							<minor>3</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>51075810</size>
-						<checksum>0892a9bc9612376fbf1862fa629400162d1405cd</checksum>
-						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>3</minor>
 							<micro>1</micro>
 						</based-on>
 						<size>50951155</size>
@@ -4409,6 +4089,16 @@ June 2014.</license>
 						<size>26866644</size>
 						<checksum>113f8b2e01542f0fc937fa4c50914f57c9ddbf37</checksum>
 						<url>sdk-generic-f67c32cea039b9df27e79b5416a42a6a18ca65f1-0faeb122a544163393508cc68af8675395ec0ee1-windows-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>25</major>
+							<minor>3</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>51075810</size>
+						<checksum>0892a9bc9612376fbf1862fa629400162d1405cd</checksum>
+						<url>sdk-generic-a7ee3fedc4d2c1e2b5cbfe91f86025392085ccbe-0faeb122a544163393508cc68af8675395ec0ee1-windows-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -4456,7 +4146,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:49:42 2017.-->
+				<!--Built on: Wed Nov  8 10:58:58 2017.-->
 				<complete>
 					<size>188684488</size>
 					<checksum>9fc06d704630580f68d133f5c234a077b10c1f56</checksum>
@@ -4487,7 +4177,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:49:28 2017.-->
+				<!--Built on: Wed Nov  8 10:59:03 2017.-->
 				<complete>
 					<size>247914696</size>
 					<checksum>fd5c846b31def60f72b765fb0be2976573bfeb5d</checksum>
@@ -4548,7 +4238,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:49:36 2017.-->
+				<!--Built on: Wed Nov  8 10:59:12 2017.-->
 				<complete>
 					<size>171528516</size>
 					<checksum>94fc1e65f5c173992480d888e3de58f02f0a95a1</checksum>
@@ -4602,7 +4292,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:07 2017.-->
+				<!--Built on: Wed Nov  8 11:00:40 2017.-->
 				<complete>
 					<size>103022432</size>
 					<checksum>ed85ea7b59bc3483ce0af4c198523ba044e083ad</checksum>
@@ -4663,7 +4353,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:09 2017.-->
+				<!--Built on: Wed Nov  8 11:00:42 2017.-->
 				<complete>
 					<size>154582459</size>
 					<checksum>8c7c28554a32318461802c1291d76fccfafde054</checksum>
@@ -4724,7 +4414,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:11 2017.-->
+				<!--Built on: Wed Nov  8 11:00:44 2017.-->
 				<complete>
 					<size>156136858</size>
 					<checksum>aa298b5346ee0d63940d13609fe6bec621384510</checksum>
