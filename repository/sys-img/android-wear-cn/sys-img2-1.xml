@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-06 12:04:38.460027 with ADRT.-->
+	<!--Generated on 2017-11-21 08:10:55.261862 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -551,19 +551,19 @@ August 15, 2011</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="system-images;android-25;android-wear-cn;armeabi-v7a">
-		<!--Generated from bid:4192450, branch:partner-feldspar-stable-release-->
+		<!--Generated from bid:4460961, branch:partner-feldspar-le-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
 				<id>android-wear</id>
-				<display>Android Wear for China</display>
+				<display>China version of Android Wear</display>
 			</tag>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
-		<display-name>Android Wear for China ARM EABI v7a System Image</display-name>
+		<display-name>China version of Android Wear ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
@@ -571,29 +571,79 @@ August 15, 2011</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:56:14 2017.-->
+				<!--Built on: Mon Nov 20 11:43:55 2017.-->
 				<complete>
-					<size>321071388</size>
-					<checksum>9c9e56b2a795274f4860fd2e76b3f6758dca063e</checksum>
-					<url>armeabi-v7a-25_r03.zip</url>
+					<size>321079964</size>
+					<checksum>02d7bc86df054d1e89fe5856b3af1d2c142cab41</checksum>
+					<url>armeabi-v7a-25_r04.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>1377903</size>
+						<checksum>0432f9e036b89c9a4969328d463433bb408fdad0</checksum>
+						<url>sys-img-4192450-sdk_google_aw_sw_armv7-sdk-4460961-sdk_google_aw_sw_armv7-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;android-wear-cn;x86">
-		<!--Generated from bid:4192450, branch:partner-feldspar-stable-release-->
+		<!--Generated from bid:4460961, branch:partner-feldspar-le-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
 				<id>android-wear</id>
-				<display>Android Wear for China</display>
+				<display>China version of Android Wear</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>4</major>
+		</revision>
+		<display-name>China version of Android Wear Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-2"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Nov 20 11:44:48 2017.-->
+				<complete>
+					<size>338352786</size>
+					<checksum>73eab14c7cf2f6941e1fee61e0038ead7a2c7f4d</checksum>
+					<url>x86-25_r04.zip</url>
+				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>1936829</size>
+						<checksum>1cefafc999f3a1860875208bf9468ed433504800</checksum>
+						<url>sys-img-4192450-sdk_google_aw_sw_x86-sdk-4460961-sdk_google_aw_sw_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-26;android-wear-cn;x86">
+		<!--Generated from bid:4460987, branch:git_oc-wear-preview4-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>26</api-level>
+			<tag>
+				<id>android-wear</id>
+				<display>China version of Android Wear</display>
 			</tag>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
 			<major>3</major>
 		</revision>
-		<display-name>Android Wear for China Intel x86 Atom System Image</display-name>
+		<display-name>China version of Android Wear Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
@@ -601,42 +651,22 @@ August 15, 2011</license>
 		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:56:15 2017.-->
+				<!--Built on: Mon Nov 20 11:45:37 2017.-->
 				<complete>
-					<size>338361910</size>
-					<checksum>20f3da25fa5c016f3f6c7612933a6fdc096b993c</checksum>
-					<url>x86-25_r03.zip</url>
+					<size>323257357</size>
+					<checksum>5b0fabf84d47a993ebc54d22b4a553227501ca06</checksum>
+					<url>x86-26_r03.zip</url>
 				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-26;android-wear-cn;x86">
-		<!--Generated from bid:4322534, branch:git_oc-wear-preview4-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>26</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>Android Wear for China</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>Android Wear for China Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-2"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Nov  6 10:56:14 2017.-->
-				<complete>
-					<size>323249337</size>
-					<checksum>49c67aba017ad75dbba2cf63a952381429b323be</checksum>
-					<url>x86-26_r02.zip</url>
-				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>2</major>
+						</based-on>
+						<size>5302934</size>
+						<checksum>74caa4e6c13df33099a656edf1af1b50815b8137</checksum>
+						<url>sys-img-4322534-sdk_gwear_sw_x86-sdk-4460987-sdk_gwear_sw_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
