@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-06 12:04:38.617312 with ADRT.-->
+	<!--Generated on 2017-11-22 00:05:06.311830 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -572,7 +572,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:07 2017.-->
+				<!--Built on: Wed Nov  8 11:06:30 2017.-->
 				<complete>
 					<size>110716848</size>
 					<checksum>cb60221d4ff6686ae96560970d48d9aa60e80b3f</checksum>
@@ -603,7 +603,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:11 2017.-->
+				<!--Built on: Wed Nov  8 11:06:31 2017.-->
 				<complete>
 					<size>118648586</size>
 					<checksum>b8e8a4ab26890c4a395fb796bf9cb7ceb51c880e</checksum>
@@ -634,7 +634,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:08 2017.-->
+				<!--Built on: Wed Nov  8 11:06:30 2017.-->
 				<complete>
 					<size>148410647</size>
 					<checksum>1ec4e6f9014fcbe694511280f5b497aaf7dd750f</checksum>
@@ -668,7 +668,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:11 2017.-->
+				<!--Built on: Wed Nov  8 11:06:32 2017.-->
 				<complete>
 					<size>163102902</size>
 					<checksum>f2b98baaf847ff5b82b82fdc6c396b229067307b</checksum>
@@ -712,7 +712,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:12 2017.-->
+				<!--Built on: Wed Nov  8 11:06:28 2017.-->
 				<complete>
 					<size>186375868</size>
 					<checksum>7edc5c0836fa32f8d453788c002ca0ee1bc5a0a2</checksum>
@@ -753,7 +753,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:06 2017.-->
+				<!--Built on: Wed Nov  8 11:06:32 2017.-->
 				<complete>
 					<size>174430788</size>
 					<checksum>c990f2a81c24a61f9f1da5d5d205f2924ce548ae</checksum>
@@ -784,7 +784,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:12 2017.-->
+				<!--Built on: Wed Nov  8 11:06:33 2017.-->
 				<complete>
 					<size>194550080</size>
 					<checksum>d89591526b66d7c475056b755dd20348bd6e5d75</checksum>
@@ -815,7 +815,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:07 2017.-->
+				<!--Built on: Wed Nov  8 11:06:32 2017.-->
 				<complete>
 					<size>178803998</size>
 					<checksum>c4e69a96d4584f7e311e358fe4ad0e5d1bf1605b</checksum>
@@ -846,7 +846,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:13 2017.-->
+				<!--Built on: Wed Nov  8 11:06:33 2017.-->
 				<complete>
 					<size>199522085</size>
 					<checksum>2b34741693eba9419cb6bf1a467596783234d37a</checksum>
@@ -880,7 +880,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:07 2017.-->
+				<!--Built on: Wed Nov  8 10:49:27 2017.-->
 				<complete>
 					<size>283677422</size>
 					<checksum>11aba3be823e58485d63cfd833f10632c244f8f3</checksum>
@@ -932,7 +932,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:58 2017.-->
+				<!--Built on: Wed Nov  8 10:49:39 2017.-->
 				<complete>
 					<size>239334286</size>
 					<checksum>1a48643fb381894526047df889ba9ec66ea2ed06</checksum>
@@ -976,7 +976,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:08 2017.-->
+				<!--Built on: Wed Nov  8 10:49:28 2017.-->
 				<complete>
 					<size>323045590</size>
 					<checksum>af0937124690f29ffd51f03a26b09327409e988b</checksum>
@@ -1028,7 +1028,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:57 2017.-->
+				<!--Built on: Wed Nov  8 10:49:34 2017.-->
 				<complete>
 					<size>462827250</size>
 					<checksum>7a893b28f14460e8212300ff5ce3d4fc0a5af0ae</checksum>
@@ -1080,7 +1080,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:59 2017.-->
+				<!--Built on: Wed Nov  8 10:49:40 2017.-->
 				<complete>
 					<size>292307998</size>
 					<checksum>8c44545cdd69e3e1232c41d80943677ec467f9cf</checksum>
@@ -1124,7 +1124,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:09 2017.-->
+				<!--Built on: Wed Nov  8 10:49:29 2017.-->
 				<complete>
 					<size>376565672</size>
 					<checksum>bff35da7c24131daa277be7d1f9e7673e4501953</checksum>
@@ -1176,7 +1176,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:01 2017.-->
+				<!--Built on: Wed Nov  8 10:49:25 2017.-->
 				<complete>
 					<size>349665195</size>
 					<checksum>cd6eb71036a632c5248ee635c900813161fad811</checksum>
@@ -1220,7 +1220,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:58 2017.-->
+				<!--Built on: Wed Nov  8 10:49:35 2017.-->
 				<complete>
 					<size>518288585</size>
 					<checksum>cc2fa54899883f7ee02f16a9639a0e1802d728f3</checksum>
@@ -1272,7 +1272,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:10 2017.-->
+				<!--Built on: Wed Nov  8 10:49:30 2017.-->
 				<complete>
 					<size>453425675</size>
 					<checksum>af9c137814b6175d9847998089a9350cc467eadb</checksum>
@@ -1324,7 +1324,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:59 2017.-->
+				<!--Built on: Wed Nov  8 10:49:36 2017.-->
 				<complete>
 					<size>602148578</size>
 					<checksum>98a141bb8e93e465904a9b799f9cdee2c3f6bdbc</checksum>
@@ -1376,7 +1376,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:02 2017.-->
+				<!--Built on: Wed Nov  8 10:49:26 2017.-->
 				<complete>
 					<size>421604236</size>
 					<checksum>1221abd103781b52f6859ba0a2df3ffe1e499541</checksum>
@@ -1420,7 +1420,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:52 2017.-->
+				<!--Built on: Wed Nov  8 10:49:31 2017.-->
 				<complete>
 					<size>822008071</size>
 					<checksum>f6448de99938966b158ccd59c2783309add5a3e1</checksum>
@@ -1472,7 +1472,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:01 2017.-->
+				<!--Built on: Wed Nov  8 10:49:37 2017.-->
 				<complete>
 					<size>1019438705</size>
 					<checksum>4f2ed494cc149a11d6a17cd810197b1ffce559a3</checksum>
@@ -1524,7 +1524,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:03 2017.-->
+				<!--Built on: Wed Nov  8 10:49:27 2017.-->
 				<complete>
 					<size>736996770</size>
 					<checksum>9b09ba204a03fa1f97208e736ab8b459e54a45ef</checksum>
@@ -1568,7 +1568,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:53 2017.-->
+				<!--Built on: Wed Nov  8 10:49:35 2017.-->
 				<complete>
 					<size>966887875</size>
 					<checksum>193b75e3721b5847630bbefd01021dac0f506f68</checksum>
@@ -1612,7 +1612,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:52 2017.-->
+				<!--Built on: Wed Nov  8 10:49:32 2017.-->
 				<complete>
 					<size>958629589</size>
 					<checksum>8001638e9bb5a31286ef9fd00e596f28d1583539</checksum>
@@ -1664,7 +1664,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:02 2017.-->
+				<!--Built on: Wed Nov  8 10:49:37 2017.-->
 				<complete>
 					<size>1207545260</size>
 					<checksum>f95e0d61dda1027c9cd7a9aad579b00c75ae5604</checksum>
@@ -1708,7 +1708,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:03 2017.-->
+				<!--Built on: Wed Nov  8 10:49:28 2017.-->
 				<complete>
 					<size>901493093</size>
 					<checksum>23adaff6f3b30fafd5d18613b5dfb6d5615b8d61</checksum>
@@ -1752,7 +1752,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:54 2017.-->
+				<!--Built on: Wed Nov  8 10:49:36 2017.-->
 				<complete>
 					<size>1029426117</size>
 					<checksum>1033c77be33ea629b057e4e4163f82be14244213</checksum>
@@ -1796,7 +1796,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:03 2017.-->
+				<!--Built on: Wed Nov  8 11:06:35 2017.-->
 				<complete>
 					<size>769552811</size>
 					<checksum>d3945081a412d3ac3627c3e102276b018ef874bc</checksum>
@@ -1846,7 +1846,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:53 2017.-->
+				<!--Built on: Wed Nov  8 10:49:33 2017.-->
 				<complete>
 					<size>778685156</size>
 					<checksum>10a544d7f6ec11df876bb2efb9e8de9f648f682e</checksum>
@@ -1886,7 +1886,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:39 2017.-->
+				<!--Built on: Wed Nov  8 11:00:18 2017.-->
 				<complete>
 					<size>788473947</size>
 					<checksum>92bdd1edfbca487258ab4b8ab6da9c68ac6ce773</checksum>

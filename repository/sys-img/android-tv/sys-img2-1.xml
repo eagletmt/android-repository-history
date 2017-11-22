@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-06 12:04:38.271371 with ADRT.-->
+	<!--Generated on 2017-11-22 00:04:21.226297 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -568,7 +568,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:09 2017.-->
+				<!--Built on: Wed Nov  8 11:06:33 2017.-->
 				<complete>
 					<size>268946785</size>
 					<checksum>2f8a1988188d6abfd6c6395baeb4471a034dc1e8</checksum>
@@ -595,7 +595,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:04 2017.-->
+				<!--Built on: Wed Nov  8 11:06:37 2017.-->
 				<complete>
 					<size>249428246</size>
 					<checksum>b63e28a47f11b639dd94981a458b7abfa89ac331</checksum>
@@ -622,7 +622,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:09 2017.-->
+				<!--Built on: Wed Nov  8 11:06:34 2017.-->
 				<complete>
 					<size>293118949</size>
 					<checksum>c78efd5a155622eb490be9d326f5783993375c35</checksum>
@@ -649,7 +649,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:57:05 2017.-->
+				<!--Built on: Wed Nov  8 11:06:38 2017.-->
 				<complete>
 					<size>269095973</size>
 					<checksum>557b7934170caa94f9dcac174f411b747ad62328</checksum>
@@ -679,7 +679,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:56 2017.-->
+				<!--Built on: Wed Nov  8 10:49:35 2017.-->
 				<complete>
 					<size>332298929</size>
 					<checksum>909add209778766b81e1f3a2c5b5be5495938c6a</checksum>
@@ -716,7 +716,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:51:08 2017.-->
+				<!--Built on: Wed Nov  8 11:00:44 2017.-->
 				<complete>
 					<size>304269268</size>
 					<checksum>bd84678ae8caf71d584f5210e866b2807e7b4b52</checksum>
@@ -746,7 +746,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:58 2017.-->
+				<!--Built on: Wed Nov  8 10:49:36 2017.-->
 				<complete>
 					<size>386808390</size>
 					<checksum>f3d7a860c443442a7160fbf962cb1ba20d3700bf</checksum>
@@ -786,7 +786,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:40:59 2017.-->
+				<!--Built on: Wed Nov  8 10:49:37 2017.-->
 				<complete>
 					<size>401145958</size>
 					<checksum>5c64ada033777735714e72d60fb92bffe9e41e45</checksum>
@@ -826,7 +826,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:56:54 2017.-->
+				<!--Built on: Wed Nov  8 11:06:29 2017.-->
 				<complete>
 					<size>378904057</size>
 					<checksum>b298f9eba1616db38d770da76e201b35e12269e2</checksum>
@@ -872,7 +872,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:41:00 2017.-->
+				<!--Built on: Wed Nov  8 10:49:37 2017.-->
 				<complete>
 					<size>387274107</size>
 					<checksum>2a89a3c0099ae82e737b5bc9be61ef1fd6da4a54</checksum>
@@ -899,7 +899,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 10:50:31 2017.-->
+				<!--Built on: Wed Nov  8 11:00:05 2017.-->
 				<complete>
 					<size>397304785</size>
 					<checksum>29f539d4ab9410ff7e0da2a22a5017c2cfd1f10c</checksum>
