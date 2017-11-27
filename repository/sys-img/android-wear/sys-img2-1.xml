@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-22 10:35:46.040434 with ADRT.-->
+	<!--Generated on 2017-11-27 08:44:16.344063 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -660,7 +660,7 @@ August 15, 2011</license>
 			<major>3</major>
 		</revision>
 		<display-name>Android Wear ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
@@ -708,7 +708,7 @@ August 15, 2011</license>
 			<major>3</major>
 		</revision>
 		<display-name>Android Wear Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
