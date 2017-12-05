@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-27 08:44:16.452996 with ADRT.-->
+	<!--Generated on 2017-12-01 11:27:35.821156 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -381,6 +381,30 @@ June 2014.</license>
 						<url>sdk-tools-3534729-3567187-windows-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="platforms;android-27">
+		<!--Generated from bid:4458339, branch:git_oc-mr1-sdk-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>27</api-level>
+			<codename></codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android SDK Platform 27</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Nov 17 16:30:06 2017.-->
+				<complete>
+					<size>65606517</size>
+					<checksum>4a96116ef84ce7b10745b31715d2ee2b92ed70ae</checksum>
+					<url>platform-27_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2053,6 +2077,47 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="build-tools;27.0.2">
+		<!--Generated from bid:4458339, branch:git_oc-mr1-sdk-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>27</major>
+			<minor>0</minor>
+			<micro>2</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 27.0.2</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Nov 17 16:29:38 2017.-->
+				<complete>
+					<size>54458153</size>
+					<checksum>b687ddf6be84f11607871138aad32cf857d0b837</checksum>
+					<url>build-tools_r27.0.2-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Nov 17 16:29:35 2017.-->
+				<complete>
+					<size>53846615</size>
+					<checksum>6d5d9cf2a47877f273f4b742b19e712a051a31be</checksum>
+					<url>build-tools_r27.0.2-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Nov 17 16:29:32 2017.-->
+				<complete>
+					<size>55173070</size>
+					<checksum>b80466c13b75e3ebf3c546964f40775db5898b2a</checksum>
+					<url>build-tools_r27.0.2-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="build-tools;27.0.1">
 		<!--Generated from bid:4429804, branch:git_oc-mr1-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -3698,41 +3763,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:4062713c branch:git_oc-preview3-sdk-->
+		<!--Generated from:ab bid:4455170 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>26</major>
+			<major>27</major>
 			<minor>0</minor>
-			<micro>2</micro>
+			<micro>0</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:15 2017.-->
+				<!--Built on: Fri Nov 17 16:29:55 2017.-->
 				<complete>
-					<size>7910754</size>
-					<checksum>161ca26461d4caec6cbbef513891fcd04a4fcf52</checksum>
-					<url>platform-tools_r26.0.2-darwin.zip</url>
+					<size>5053427</size>
+					<checksum>c9b0bd13ee982eecf17f20a048a35ab2a0897145</checksum>
+					<url>platform-tools_r27.0.0-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:15 2017.-->
+				<!--Built on: Fri Nov 17 16:29:53 2017.-->
 				<complete>
-					<size>9678833</size>
-					<checksum>668ff8e319715175ff628ad52b124f154275fe2d</checksum>
-					<url>platform-tools_r26.0.2-linux.zip</url>
+					<size>5110562</size>
+					<checksum>a17e59713fa41477aaec9c31189e4647d17579e8</checksum>
+					<url>platform-tools_r27.0.0-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:16 2017.-->
+				<!--Built on: Fri Nov 17 16:29:54 2017.-->
 				<complete>
-					<size>9764828</size>
-					<checksum>aa3ef6f18eff4b8f12dbdf980647a6ce6c2ebe8c</checksum>
-					<url>platform-tools_r26.0.2-windows.zip</url>
+					<size>4519155</size>
+					<checksum>a55f205343b70d9577acab846b6ed2caf5947065</checksum>
+					<url>platform-tools_r27.0.0-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

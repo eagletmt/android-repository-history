@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-10-24 14:03:47.346528 with ADRT.-->
+	<!--Generated on 2017-12-01 11:32:05.049559 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -586,7 +586,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>11</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Mon Aug 15 05:06:45 2016.-->
+				<!--Built on: Wed Nov  8 11:06:50 2017.-->
 				<sdk:size>72978</sdk:size>
 				<sdk:checksum type="sha1">52cadbec4d42ce68a667e7e4ea461ef8b81924ef</sdk:checksum>
 				<sdk:url>google-gdk.zip</sdk:url>

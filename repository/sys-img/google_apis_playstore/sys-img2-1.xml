@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-11-22 10:36:29.944124 with ADRT.-->
+	<!--Generated on 2017-12-01 11:30:15.341181 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -693,26 +693,26 @@ August 15, 2011</license>
 					</patch>
 					<patch>
 						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>339528314</size>
-						<checksum>5a479cc6b36fb6e801f659375c3e558dde1eb1f0</checksum>
-						<url>sys-img-3991286-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>5</major>
 						</based-on>
 						<size>142889514</size>
 						<checksum>7395828f9de6697df49c432f61a7f48a3b8b036b</checksum>
 						<url>sys-img-4205617-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
+					<patch>
+						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>339528314</size>
+						<checksum>5a479cc6b36fb6e801f659375c3e558dde1eb1f0</checksum>
+						<url>sys-img-3991286-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
+					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-27;google_apis_playstore;x86">
-		<!--Generated from bid:4376136, branch:oc-mr1-release-playstore-x86-->
+		<!--Generated from bid:4458339, branch:oc-mr1-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<tag>
@@ -726,11 +726,12 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
+			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>26</major>
@@ -742,12 +743,22 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:12 2017.-->
+				<!--Built on: Fri Nov 17 16:22:38 2017.-->
 				<complete>
-					<size>772591194</size>
-					<checksum>7ea953640f808400ef52fd863582841b395d6674</checksum>
-					<url>x86-27_r01.zip</url>
+					<size>772318200</size>
+					<checksum>7f7d0c178895a6a09a98e9523464d92d8cd1fd5a</checksum>
+					<url>x86-27_r02.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>1</major>
+						</based-on>
+						<size>65732218</size>
+						<checksum>ec7752d41ca7718e5abe828ae1a7ef7faf360aa5</checksum>
+						<url>sys-img-4376136-sdk_gphone_x86-user-4458339-sdk_gphone_x86-user-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

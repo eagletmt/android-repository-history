@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-10-24 14:03:47.316502 with ADRT.-->
+	<!--Generated on 2017-12-01 11:32:05.026211 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -601,7 +601,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="extras;intel;Hardware_Accelerated_Execution_Manager">
-		<!--Generated from p4 cl:168384862-->
+		<!--Generated from p4 cl:175083374-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>intel</id>
@@ -618,10 +618,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 12 09:33:40 2017.-->
+				<!--Built on: Fri Nov 10 15:55:58 2017.-->
 				<complete>
-					<size>221848</size>
-					<checksum>8d787efadcf518e94de080ad5919424b1afc84af</checksum>
+					<size>222319</size>
+					<checksum>7a0e7f47b6e4266b61359f9aa9e0e6e2d6fc91ea</checksum>
 					<url>haxm-macosx_r6_2_1.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
@@ -646,7 +646,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 12 09:33:46 2017.-->
+				<!--Built on: Wed Nov  8 10:59:59 2017.-->
 				<complete>
 					<size>2694959</size>
 					<checksum>b943fee2ed8e10a5d9ed7d4368650cbf93522908</checksum>
