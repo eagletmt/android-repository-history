@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-12-01 11:30:53.860071 with ADRT.-->
+	<!--Generated on 2017-12-21 14:20:03.393082 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1645,19 +1645,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					</patch>
 					<patch>
 						<based-on>
-							<major>38</major>
-						</based-on>
-						<size>76915648</size>
-						<checksum>6f7bded6aa5b905ef8974cf1167508d52f905e5e</checksum>
-						<url>extra_p4-137063810-P-3c8c030cb7f7bc343a28ddfcdfc2019cdaa0be31-167710051-P-c7e12199134871e77a62f57dbb988c087a0ca722-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>52</major>
 						</based-on>
 						<size>21665751</size>
 						<checksum>a89ccd854f297e31aef5aa24a6c53dc7d13d5248</checksum>
 						<url>extra_p4-158301569-P-f3ead9efa098ae63cca8f2d579d7cc35eb549de7-167710051-P-c7e12199134871e77a62f57dbb988c087a0ca722-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>38</major>
+						</based-on>
+						<size>76915648</size>
+						<checksum>6f7bded6aa5b905ef8974cf1167508d52f905e5e</checksum>
+						<url>extra_p4-137063810-P-3c8c030cb7f7bc343a28ddfcdfc2019cdaa0be31-167710051-P-c7e12199134871e77a62f57dbb988c087a0ca722-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
