@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-01-04 11:18:11.268899 with ADRT.-->
+	<!--Generated on 2018-01-05 13:12:06.176919 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -335,6 +335,42 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:ndk>
+	<sdk:lldb>
+		<!--Generated from bid:4508709, branch:git_lldb-3.1-release-->
+		<sdk:description>LLDB 3.1</sdk:description>
+		<sdk:revision>
+			<sdk:major>3</sdk:major>
+			<sdk:minor>1</sdk:minor>
+			<sdk:micro>4508709</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Mon Dec 18 13:54:39 2017.-->
+				<sdk:size>35355966</sdk:size>
+				<sdk:checksum type="sha1">2b37aa55b81a7e5b8a369febf1ac0bad6c7c5d58</sdk:checksum>
+				<sdk:url>lldb-3.1.4508709-darwin-x86_64.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+				<sdk:host-bits>64</sdk:host-bits>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Mon Dec 18 13:54:35 2017.-->
+				<sdk:size>43545750</sdk:size>
+				<sdk:checksum type="sha1">462711c9ee94fec9ff8be5fa8180afec04d1af6f</sdk:checksum>
+				<sdk:url>lldb-3.1.4508709-linux-x86_64.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+				<sdk:host-bits>64</sdk:host-bits>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Mon Dec 18 13:54:37 2017.-->
+				<sdk:size>35619130</sdk:size>
+				<sdk:checksum type="sha1">8e54b7123084fa9e4e3b890626c5671b7552450f</sdk:checksum>
+				<sdk:url>lldb-3.1.4508709-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:lldb>
 	<sdk:lldb>
 		<!--Generated from bid:4213617, branch:git_lldb-master-dev-->
 		<sdk:description>LLDB 3.0</sdk:description>
