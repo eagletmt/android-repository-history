@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-12-21 14:19:25.336833 with ADRT.-->
+	<!--Generated on 2018-01-25 14:05:40.029760 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -571,7 +571,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 20 11:43:55 2017.-->
+				<!--Built on: Mon Nov 20 19:43:55 2017.-->
 				<complete>
 					<size>321079964</size>
 					<checksum>02d7bc86df054d1e89fe5856b3af1d2c142cab41</checksum>
@@ -611,7 +611,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 20 11:44:48 2017.-->
+				<!--Built on: Mon Nov 20 19:44:48 2017.-->
 				<complete>
 					<size>338352786</size>
 					<checksum>73eab14c7cf2f6941e1fee61e0038ead7a2c7f4d</checksum>
@@ -631,7 +631,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-26;android-wear-cn;x86">
-		<!--Generated from bid:4460987, branch:git_oc-wear-preview4-release-->
+		<!--Generated from bid:4560627, branch:git_oc-wear-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>26</api-level>
 			<tag>
@@ -641,30 +641,38 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>China version of Android Wear Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 20 11:45:37 2017.-->
+				<!--Built on: Tue Jan 23 18:58:19 2018.-->
 				<complete>
-					<size>323257357</size>
-					<checksum>5b0fabf84d47a993ebc54d22b4a553227501ca06</checksum>
-					<url>x86-26_r03.zip</url>
+					<size>340481762</size>
+					<checksum>fdc8a313f889a2d6522de1fbc00ee9e13547d096</checksum>
+					<url>x86-26_r04.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>86993537</size>
+						<checksum>fe665ef62d8da48c33abc4d894ab387e4984c077</checksum>
+						<url>sys-img-4460987-sdk_gwear_sw_x86-sdk-4560627-sdk_gwear_sw_x86-sdk-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>2</major>
 						</based-on>
-						<size>5302934</size>
-						<checksum>74caa4e6c13df33099a656edf1af1b50815b8137</checksum>
-						<url>sys-img-4322534-sdk_gwear_sw_x86-sdk-4460987-sdk_gwear_sw_x86-sdk-patch.jar</url>
+						<size>86943328</size>
+						<checksum>49a9c26276f4d257547648dfe041dd5f90388ade</checksum>
+						<url>sys-img-4322534-sdk_gwear_sw_x86-sdk-4560627-sdk_gwear_sw_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
