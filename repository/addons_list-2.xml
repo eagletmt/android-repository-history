@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addons-list xmlns:sdk="http://schemas.android.com/sdk/android/addons-list/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-01-25 14:05:39.922212 with ADRT.-->
+	<!--Generated on 2018-02-09 15:47:25.494485 with ADRT.-->
 	<sdk:addon-site>
 		<sdk:name>Google Inc.</sdk:name>
 		<sdk:url>addon.xml</sdk:url>
