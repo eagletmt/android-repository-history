@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-02-09 15:50:53.348231 with ADRT.-->
+	<!--Generated on 2018-02-14 10:34:39.711407 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -712,7 +712,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-27;google_apis_playstore;x86">
-		<!--Generated from bid:4458339, branch:oc-mr1-release-playstore-x86-->
+		<!--Generated from bid:4586646, branch:oc-mr1-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<tag>
@@ -726,10 +726,10 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
@@ -743,20 +743,20 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Nov 17 16:22:38 2017.-->
+				<!--Built on: Tue Feb 13 16:37:34 2018.-->
 				<complete>
-					<size>772318200</size>
-					<checksum>7f7d0c178895a6a09a98e9523464d92d8cd1fd5a</checksum>
-					<url>x86-27_r02.zip</url>
+					<size>758636016</size>
+					<checksum>eb5a944ceb691ca0648d0a6f0d93893a47223b5d</checksum>
+					<url>x86-27_r03.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>1</major>
+							<major>2</major>
 						</based-on>
-						<size>65732218</size>
-						<checksum>ec7752d41ca7718e5abe828ae1a7ef7faf360aa5</checksum>
-						<url>sys-img-4376136-sdk_gphone_x86-user-4458339-sdk_gphone_x86-user-patch.jar</url>
+						<size>59920144</size>
+						<checksum>980faad3654eac3a29e166127ec4231431505840</checksum>
+						<url>sys-img-4458339-sdk_gphone_x86-user-4586646-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>

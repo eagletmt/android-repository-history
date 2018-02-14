@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-02-09 15:47:12.009017 with ADRT.-->
+	<!--Generated on 2018-02-14 10:34:17.449144 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4447,16 +4447,6 @@ June 2014.</license>
 					</patch>
 					<patch>
 						<based-on>
-							<major>27</major>
-							<minor>0</minor>
-							<micro>3</micro>
-						</based-on>
-						<size>43152590</size>
-						<checksum>662dc062e59f351989c3f40e0caa55785814a7e8</checksum>
-						<url>sdk-generic-27f81bff4d817887879a203750f6683f77949a1f-ae0294dab34b30b7449b7573f93cc42773c48fc6-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>26</major>
 							<minor>2</minor>
 							<micro>2</micro>
@@ -4514,6 +4504,16 @@ June 2014.</license>
 						<size>17723859</size>
 						<checksum>dfd117db9cf9a6668125b6b22aefdbc346df3fb5</checksum>
 						<url>sdk-generic-9d0fa9c3dac3e0bfcafb1f22192ca7b1231ac878-ae0294dab34b30b7449b7573f93cc42773c48fc6-windows-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>27</major>
+							<minor>0</minor>
+							<micro>3</micro>
+						</based-on>
+						<size>43152590</size>
+						<checksum>662dc062e59f351989c3f40e0caa55785814a7e8</checksum>
+						<url>sdk-generic-27f81bff4d817887879a203750f6683f77949a1f-ae0294dab34b30b7449b7573f93cc42773c48fc6-windows-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -4704,6 +4704,16 @@ June 2014.</license>
 						<based-on>
 							<major>27</major>
 							<minor>1</minor>
+							<micro>6</micro>
+						</based-on>
+						<size>7941571</size>
+						<checksum>093141d96f1b18afbf433113b50ec6382d54ae47</checksum>
+						<url>sdk-generic-b843142ecbc35c0e23c64408fb71911d1ccf96ff-f29afbdcf7687109ed1810532c63032d59ccc758-macosx-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>27</major>
+							<minor>1</minor>
 							<micro>8</micro>
 						</based-on>
 						<size>6858438</size>
@@ -4749,16 +4759,6 @@ June 2014.</license>
 						<size>12597299</size>
 						<checksum>60a2ecfddbc59426849e872922568ff9d4b6afa4</checksum>
 						<url>sdk-generic-22ad31a14f562cc960944e6301a793639e0cae0b-f29afbdcf7687109ed1810532c63032d59ccc758-macosx-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>27</major>
-							<minor>1</minor>
-							<micro>6</micro>
-						</based-on>
-						<size>7941571</size>
-						<checksum>093141d96f1b18afbf433113b50ec6382d54ae47</checksum>
-						<url>sdk-generic-b843142ecbc35c0e23c64408fb71911d1ccf96ff-f29afbdcf7687109ed1810532c63032d59ccc758-macosx-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
