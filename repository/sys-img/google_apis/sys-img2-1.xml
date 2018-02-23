@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-02-14 10:34:36.483935 with ADRT.-->
+	<!--Generated on 2018-02-22 14:59:48.845084 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1133,19 +1133,19 @@ August 15, 2011</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>18</major>
-						</based-on>
-						<size>65900186</size>
-						<checksum>481550c63010a17d6e5b3cf49dcec158cd02a47e</checksum>
-						<url>sys-img-4409265-sdk_google_phone_x86-sdk_addon-4499313-sdk_google_phone_x86-sdk_addon-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>17</major>
 						</based-on>
 						<size>70991549</size>
 						<checksum>66597b8de475cce64a0625c9778313f736b90658</checksum>
 						<url>sys-img-4309840-sdk_google_phone_x86-sdk_addon-4499313-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+						</based-on>
+						<size>65900186</size>
+						<checksum>481550c63010a17d6e5b3cf49dcec158cd02a47e</checksum>
+						<url>sys-img-4409265-sdk_google_phone_x86-sdk_addon-4499313-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -1871,7 +1871,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-27;google_apis;x86">
-		<!--Generated from bid:4586646, branch:git_oc-mr1-emu-release-->
+		<!--Generated from bid:4613442, branch:oc-mr1-release-googleapi-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<tag>
@@ -1885,7 +1885,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1893,29 +1893,29 @@ August 15, 2011</license>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>26</major>
+					<major>27</major>
 					<minor>1</minor>
-					<micro>3</micro>
+					<micro>7</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb  5 22:59:33 2018.-->
+				<!--Built on: Wed Feb 21 10:12:39 2018.-->
 				<complete>
-					<size>773295177</size>
-					<checksum>fb8ac969fa022d5f8c684b72b9241adc9366e3f1</checksum>
-					<url>x86-27_r03.zip</url>
+					<size>777038727</size>
+					<checksum>0771704f8c12ef86d02278659694ba543354b097</checksum>
+					<url>x86-27_r04.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>2</major>
+							<major>3</major>
 						</based-on>
-						<size>51058840</size>
-						<checksum>7374f209a56acf8df644109be21bcd0d9ea16b2b</checksum>
-						<url>sys-img-4458339-sdk_gphone_x86-sdk_addon-4586646-sdk_gphone_x86-sdk_addon-patch.jar</url>
+						<size>12019186</size>
+						<checksum>241913b307585e7639aae541c153fb90838ff583</checksum>
+						<url>sys-img-4586646-sdk_gphone_x86-sdk_addon-4613442-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
