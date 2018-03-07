@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-05 11:55:37.839716 with ADRT.-->
+	<!--Generated on 2018-03-05 19:30:47.749146 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -381,6 +381,30 @@ June 2014.</license>
 						<url>sdk-tools-3534729-3567187-windows-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="platforms;android-P">
+		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>27</api-level>
+			<codename>P</codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android SDK Platform P</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Feb 27 20:33:22 2018.-->
+				<complete>
+					<size>67130599</size>
+					<checksum>48c47af70b2e4a78eb577b043c843f5131eabdf4</checksum>
+					<url>platform-P_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2183,6 +2207,48 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;28.0.0-rc1">
+		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>28</major>
+			<minor>0</minor>
+			<micro>0</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>Android SDK Build-Tools 28-rc1</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Feb 27 20:19:36 2018.-->
+				<complete>
+					<size>38703535</size>
+					<checksum>1601977fae25fd478bcfaa0481ca5ea3c609d840</checksum>
+					<url>build-tools_r28-rc1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Feb 27 20:19:35 2018.-->
+				<complete>
+					<size>38004795</size>
+					<checksum>2c77821967a2330b7b227072d0b1c02ef19fe2fc</checksum>
+					<url>build-tools_r28-rc1-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Feb 27 20:19:33 2018.-->
+				<complete>
+					<size>39273232</size>
+					<checksum>fbf46c33d1268f6532911707b2a05033fd5c5b41</checksum>
+					<url>build-tools_r28-rc1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>

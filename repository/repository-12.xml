@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-05 11:55:47.043423 with ADRT.-->
+	<!--Generated on 2018-03-05 19:34:59.270409 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -564,6 +564,31 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:lldb>
+	<sdk:platform>
+		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<sdk:version>P</sdk:version>
+		<sdk:codename>P</sdk:codename>
+		<sdk:api-level>27</sdk:api-level>
+		<sdk:description>Android SDK Platform P</sdk:description>
+		<sdk:revision>1</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Tue Feb 27 20:33:22 2018.-->
+				<sdk:size>67130599</sdk:size>
+				<sdk:checksum type="sha1">48c47af70b2e4a78eb577b043c843f5131eabdf4</sdk:checksum>
+				<sdk:url>platform-P_r01.zip</sdk:url>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+		<sdk:min-tools-rev>
+			<sdk:major>22</sdk:major>
+		</sdk:min-tools-rev>
+		<sdk:desc-url>http://developer.android.com/sdk/</sdk:desc-url>
+		<sdk:layoutlib>
+			<sdk:api>15</sdk:api>
+			<sdk:revision>1</sdk:revision>
+		</sdk:layoutlib>
+	</sdk:platform>
 	<sdk:platform>
 		<!--Generated from bid:4458339, branch:git_oc-mr1-sdk-release-->
 		<sdk:version>8.1.0</sdk:version>
@@ -1474,6 +1499,39 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
+	<sdk:build-tool>
+		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<sdk:revision>
+			<sdk:major>28</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>0</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Tue Feb 27 20:19:36 2018.-->
+				<sdk:size>38703535</sdk:size>
+				<sdk:checksum type="sha1">1601977fae25fd478bcfaa0481ca5ea3c609d840</sdk:checksum>
+				<sdk:url>build-tools_r28-rc1-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Feb 27 20:19:35 2018.-->
+				<sdk:size>38004795</sdk:size>
+				<sdk:checksum type="sha1">2c77821967a2330b7b227072d0b1c02ef19fe2fc</sdk:checksum>
+				<sdk:url>build-tools_r28-rc1-macosx.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Feb 27 20:19:33 2018.-->
+				<sdk:size>39273232</sdk:size>
+				<sdk:checksum type="sha1">fbf46c33d1268f6532911707b2a05033fd5c5b41</sdk:checksum>
+				<sdk:url>build-tools_r28-rc1-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:build-tool>
 	<sdk:build-tool>
 		<!--Generated from bid:4507799, branch:git_oc-mr1-sdk-release-->
 		<sdk:revision>

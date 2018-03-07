@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2017-12-21 14:19:59.449231 with ADRT.-->
+	<!--Generated on 2018-03-05 19:38:18.236336 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1401,16 +1401,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>google_play_services_froyo</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:170731283, branch:perforce-->
+		<!--Generated from bid:179554859, branch:perforce-->
 		<sdk:revision>
-			<sdk:major>46</sdk:major>
+			<sdk:major>48</sdk:major>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
-				<sdk:size>14339122</sdk:size>
-				<sdk:checksum type="sha1">534c63f30170d55329210d140bc29ca4e909e399</sdk:checksum>
-				<sdk:url>google_play_services_v13_2_rc09.zip</sdk:url>
+				<!--Built on: Tue Dec 19 15:31:37 2017.-->
+				<sdk:size>15048356</sdk:size>
+				<sdk:checksum type="sha1">4bf33f904ef11b50493a55cfddbcd3138f72f681</sdk:checksum>
+				<sdk:url>google_play_services_v15_1_rc12.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
