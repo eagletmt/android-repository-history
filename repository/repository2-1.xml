@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-05 19:30:47.749146 with ADRT.-->
+	<!--Generated on 2018-03-09 00:37:17.519206 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1781,6 +1781,112 @@ June 2014.</license>
 						<size>339673850</size>
 						<checksum>9ddbc1c688e0312f0559d54296bc0ed7083f20d9</checksum>
 						<url>sdk-ndk-3345770-4479499-windows-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:4640043, branch:aosp-ndk-release-r17-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>17</major>
+			<minor>0</minor>
+			<micro>4640043</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Mar  7 21:39:08 2018.-->
+				<complete>
+					<size>679061122</size>
+					<checksum>883d7d1be3007637de7f2f2cb1f1bb66193d89e0</checksum>
+					<url>android-ndk-r17-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>16</major>
+							<minor>1</minor>
+							<micro>4479499</micro>
+						</based-on>
+						<size>432940052</size>
+						<checksum>baae94107422e4695bd0e4b3c5ff138930d95d1d</checksum>
+						<url>sdk-ndk-4479499-4640043-macosx-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed Mar  7 21:39:25 2018.-->
+				<complete>
+					<size>715889701</size>
+					<checksum>a33bcaff39821fe6d6270387e63d87f27bb4e56c</checksum>
+					<url>android-ndk-r17-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>16</major>
+							<minor>1</minor>
+							<micro>4479499</micro>
+						</based-on>
+						<size>467867626</size>
+						<checksum>70db4737ee1bb11c923b732f6628595b25973418</checksum>
+						<url>sdk-ndk-4479499-4640043-linux-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed Mar  7 21:38:32 2018.-->
+				<complete>
+					<size>602792381</size>
+					<checksum>aefad1083f3171980694513902de99099371d1ab</checksum>
+					<url>android-ndk-r17-beta1-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>16</major>
+							<minor>1</minor>
+							<micro>4479499</micro>
+						</based-on>
+						<size>474993548</size>
+						<checksum>e8dbea5eb266fd3ad76d1bca02c41e1dbed98315</checksum>
+						<url>sdk-ndk-4479499-4640043-windows-32-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed Mar  7 21:38:53 2018.-->
+				<complete>
+					<size>645025891</size>
+					<checksum>a511166709995304059a4c804af62b237cb0f19d</checksum>
+					<url>android-ndk-r17-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>16</major>
+							<minor>1</minor>
+							<micro>4479499</micro>
+						</based-on>
+						<size>414969776</size>
+						<checksum>6a7d936b8eb8308b948884b8412bc2f3e4099966</checksum>
+						<url>sdk-ndk-4479499-4640043-windows-64-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
