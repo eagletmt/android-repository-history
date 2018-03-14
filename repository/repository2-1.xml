@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-09 16:44:01.488639 with ADRT.-->
+	<!--Generated on 2018-03-13 17:48:52.671133 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -385,49 +385,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-P">
-		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<!--Generated from bid:4651975, branch:git_pi-preview1-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>27</api-level>
 			<codename>P</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android SDK Platform P</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 27 20:33:22 2018.-->
+				<!--Built on: Tue Mar 13 13:35:27 2018.-->
 				<complete>
-					<size>67130599</size>
-					<checksum>48c47af70b2e4a78eb577b043c843f5131eabdf4</checksum>
-					<url>platform-P_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="platforms;android-27">
-		<!--Generated from bid:4458339, branch:git_oc-mr1-sdk-release-->
-		<type-details xsi:type="sdk:platformDetailsType">
-			<api-level>27</api-level>
-			<codename></codename>
-			<layoutlib api="15"/>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Android SDK Platform 27</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Nov 17 16:30:06 2017.-->
-				<complete>
-					<size>65606517</size>
-					<checksum>4a96116ef84ce7b10745b31715d2ee2b92ed70ae</checksum>
-					<url>platform-27_r01.zip</url>
+					<size>67072037</size>
+					<checksum>eb5558b824a2e24e3c1d7a7db7431a9c056c25ab</checksum>
+					<url>platform-P_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>

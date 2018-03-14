@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-09 16:44:11.319271 with ADRT.-->
+	<!--Generated on 2018-03-13 17:49:01.043919 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -565,42 +565,18 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:lldb>
 	<sdk:platform>
-		<!--Generated from bid:4614665, branch:git_pi-release-->
+		<!--Generated from bid:4651975, branch:git_pi-preview1-release-->
 		<sdk:version>P</sdk:version>
 		<sdk:codename>P</sdk:codename>
 		<sdk:api-level>27</sdk:api-level>
 		<sdk:description>Android SDK Platform P</sdk:description>
-		<sdk:revision>1</sdk:revision>
+		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Feb 27 20:33:22 2018.-->
-				<sdk:size>67130599</sdk:size>
-				<sdk:checksum type="sha1">48c47af70b2e4a78eb577b043c843f5131eabdf4</sdk:checksum>
-				<sdk:url>platform-P_r01.zip</sdk:url>
-			</sdk:archive>
-		</sdk:archives>
-		<sdk:uses-license ref="android-sdk-license"/>
-		<sdk:min-tools-rev>
-			<sdk:major>22</sdk:major>
-		</sdk:min-tools-rev>
-		<sdk:desc-url>http://developer.android.com/sdk/</sdk:desc-url>
-		<sdk:layoutlib>
-			<sdk:api>15</sdk:api>
-			<sdk:revision>1</sdk:revision>
-		</sdk:layoutlib>
-	</sdk:platform>
-	<sdk:platform>
-		<!--Generated from bid:4458339, branch:git_oc-mr1-sdk-release-->
-		<sdk:version>8.1.0</sdk:version>
-		<sdk:api-level>27</sdk:api-level>
-		<sdk:description>Android SDK Platform 27</sdk:description>
-		<sdk:revision>1</sdk:revision>
-		<sdk:archives>
-			<sdk:archive>
-				<!--Built on: Fri Nov 17 16:30:06 2017.-->
-				<sdk:size>65606517</sdk:size>
-				<sdk:checksum type="sha1">4a96116ef84ce7b10745b31715d2ee2b92ed70ae</sdk:checksum>
-				<sdk:url>platform-27_r01.zip</sdk:url>
+				<!--Built on: Tue Mar 13 13:35:27 2018.-->
+				<sdk:size>67072037</sdk:size>
+				<sdk:checksum type="sha1">eb5558b824a2e24e3c1d7a7db7431a9c056c25ab</sdk:checksum>
+				<sdk:url>platform-P_r02.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
