@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-27 13:55:41.097902 with ADRT.-->
+	<!--Generated on 2018-04-26 14:04:35.598790 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -856,7 +856,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-19;google_apis;x86">
-		<!--Generated from bid:4662035, branch:git_klp-emu-release-->
+		<!--Generated from bid:4729339, branch:git_klp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>19</api-level>
 			<tag>
@@ -870,7 +870,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>34</major>
+			<major>35</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -880,35 +880,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:34:32 2018.-->
+				<!--Built on: Wed Apr 18 17:06:49 2018.-->
 				<complete>
-					<size>286957933</size>
-					<checksum>95989e5f834b3ff215137e15f5f81d297a59f069</checksum>
-					<url>x86-19_r34.zip</url>
+					<size>287819316</size>
+					<checksum>ebd07775c19ff8b54b4afb5a5ce9321320381f99</checksum>
+					<url>x86-19_r35.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>33</major>
 						</based-on>
-						<size>29691273</size>
-						<checksum>e9e70152e592d2e402034c1463da0b3f802e6a75</checksum>
-						<url>sys-img-4498769-google_sdk_x86-sdk_addon-4662035-google_sdk_x86-sdk_addon-patch.jar</url>
+						<size>31292211</size>
+						<checksum>0755de068979946b57a48046c35588f789b20ce0</checksum>
+						<url>sys-img-4498769-google_sdk_x86-sdk_addon-4729339-google_sdk_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>32</major>
+							<major>34</major>
 						</based-on>
-						<size>31686498</size>
-						<checksum>f9763e111eeff588462f1c5595b7d9e20d83b07f</checksum>
-						<url>sys-img-4409133-google_sdk_x86-sdk_addon-4662035-google_sdk_x86-sdk_addon-patch.jar</url>
+						<size>30192225</size>
+						<checksum>2f74b32d6395823b7800f7777084afc1160d7c8a</checksum>
+						<url>sys-img-4662035-google_sdk_x86-sdk_addon-4729339-google_sdk_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-19;google_apis;armeabi-v7a">
-		<!--Generated from bid:4662035, branch:git_klp-emu-release-->
+		<!--Generated from bid:4729339, branch:git_klp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>19</api-level>
 			<tag>
@@ -922,7 +922,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>34</major>
+			<major>35</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -932,27 +932,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:38:18 2018.-->
+				<!--Built on: Wed Apr 18 17:10:05 2018.-->
 				<complete>
-					<size>242615501</size>
-					<checksum>cdcf62fae17f4cc380622b06c69f1a4da4e06c71</checksum>
-					<url>armeabi-v7a-19_r34.zip</url>
+					<size>243489335</size>
+					<checksum>71321733fbf4492a54e197c8700bcab1884b72b4</checksum>
+					<url>armeabi-v7a-19_r35.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>33</major>
+							<major>34</major>
 						</based-on>
-						<size>29253650</size>
-						<checksum>838571844d41286e227e6fece29ecca14e8c2887</checksum>
-						<url>sys-img-4498769-google_sdk-sdk_addon-4662035-google_sdk-sdk_addon-patch.jar</url>
+						<size>29964933</size>
+						<checksum>946809a519652833a0644bcf8a73d508581f6e89</checksum>
+						<url>sys-img-4662035-google_sdk-sdk_addon-4729339-google_sdk-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-21;google_apis;x86">
-		<!--Generated from bid:4660508, branch:git_lmp-emu-release-->
+		<!--Generated from bid:4729340, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>21</api-level>
 			<tag>
@@ -966,7 +966,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>26</major>
+			<major>27</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -976,35 +976,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:40:57 2018.-->
+				<!--Built on: Wed Apr 18 17:12:11 2018.-->
 				<complete>
-					<size>338166849</size>
-					<checksum>ea0b1713fc0a391874dd403e65b9735b65e4050a</checksum>
-					<url>x86-21_r26.zip</url>
+					<size>339505046</size>
+					<checksum>429eb2560848d7a86695313bca77b7a9af57600c</checksum>
+					<url>x86-21_r27.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>24</major>
+							<major>26</major>
 						</based-on>
-						<size>90196181</size>
-						<checksum>fa584f2361cfa6a66da92de9870ec961b8d01d41</checksum>
-						<url>sys-img-4409217-sdk_google_phone_x86-sdk_addon-4660508-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>71920833</size>
+						<checksum>132105a514e8bf1c7f7283e0875f8c0e63478288</checksum>
+						<url>sys-img-4660508-sdk_google_phone_x86-sdk_addon-4729340-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>25</major>
 						</based-on>
-						<size>78539760</size>
-						<checksum>915cf00fbceae5257b4bcba2d7e0781d952a9f72</checksum>
-						<url>sys-img-4499349-sdk_google_phone_x86-sdk_addon-4660508-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>82536441</size>
+						<checksum>c6af697f595076e71a331ccfadfc949311a7062c</checksum>
+						<url>sys-img-4499349-sdk_google_phone_x86-sdk_addon-4729340-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-21;google_apis;x86_64">
-		<!--Generated from bid:4660508, branch:git_lmp-emu-release-->
+		<!--Generated from bid:4729340, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>21</api-level>
 			<tag>
@@ -1018,7 +1018,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>26</major>
+			<major>27</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1028,35 +1028,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:45:50 2018.-->
+				<!--Built on: Wed Apr 18 17:17:19 2018.-->
 				<complete>
-					<size>482005659</size>
-					<checksum>d054401d0bb5c02bf0cd2b19f4a18517501e8d77</checksum>
-					<url>x86_64-21_r26.zip</url>
+					<size>484201031</size>
+					<checksum>b70d2ebd9d0a972d0f746e325d66914bc059af09</checksum>
+					<url>x86_64-21_r27.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>24</major>
+							<major>26</major>
 						</based-on>
-						<size>140531939</size>
-						<checksum>9fdf836b03440d585b8c6ba4454f2407e54dc3ce</checksum>
-						<url>sys-img-4409217-sdk_google_phone_x86_64-sdk_addon-4660508-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>123737372</size>
+						<checksum>5115e6b22fe7e0b43f61457797b5ce191ddc5424</checksum>
+						<url>sys-img-4660508-sdk_google_phone_x86_64-sdk_addon-4729340-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>25</major>
 						</based-on>
-						<size>129742577</size>
-						<checksum>409a60c623da206542b65ba582a33aac11ef4872</checksum>
-						<url>sys-img-4499349-sdk_google_phone_x86_64-sdk_addon-4660508-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>136743889</size>
+						<checksum>880785c257409492aea93298a34f8ecdc2fcbac3</checksum>
+						<url>sys-img-4499349-sdk_google_phone_x86_64-sdk_addon-4729340-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-21;google_apis;armeabi-v7a">
-		<!--Generated from bid:4660508, branch:git_lmp-emu-release-->
+		<!--Generated from bid:4729340, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>21</api-level>
 			<tag>
@@ -1070,7 +1070,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>26</major>
+			<major>27</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1080,27 +1080,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:49:50 2018.-->
+				<!--Built on: Wed Apr 18 17:23:22 2018.-->
 				<complete>
-					<size>307310015</size>
-					<checksum>5661077fccb30ef460437b1bf258200e8bdd577c</checksum>
-					<url>armeabi-v7a-21_r26.zip</url>
+					<size>308685845</size>
+					<checksum>89fc31c17d9cb933dc68f4cae23858f3eb057c15</checksum>
+					<url>armeabi-v7a-21_r27.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>25</major>
+							<major>26</major>
 						</based-on>
-						<size>76535500</size>
-						<checksum>56b99f32f06a5571fef3023041050f1acc70bbf7</checksum>
-						<url>sys-img-4499349-sdk_google_phone_armv7-sdk_addon-4660508-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
+						<size>70394408</size>
+						<checksum>bd5ac1bbe68c62fc12d286857ad5ec273328e168</checksum>
+						<url>sys-img-4660508-sdk_google_phone_armv7-sdk_addon-4729340-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-22;google_apis;x86">
-		<!--Generated from bid:4660545, branch:git_lmp-mr1-emu-release-->
+		<!--Generated from bid:4729341, branch:git_lmp-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>22</api-level>
 			<tag>
@@ -1114,7 +1114,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>20</major>
+			<major>21</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1124,35 +1124,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:52:11 2018.-->
+				<!--Built on: Wed Apr 18 17:27:06 2018.-->
 				<complete>
-					<size>400515197</size>
-					<checksum>66c55429713e98bc965c7672d3ec37aebdb5fec7</checksum>
-					<url>x86-22_r20.zip</url>
+					<size>401899652</size>
+					<checksum>bef3c76ecb61b7e1a8d483d83a7ca9852f47a7ab</checksum>
+					<url>x86-22_r21.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>18</major>
+							<major>20</major>
 						</based-on>
-						<size>80637593</size>
-						<checksum>25cf7c790087c21f8f7b19b94ce52fd3cb7244ea</checksum>
-						<url>sys-img-4409265-sdk_google_phone_x86-sdk_addon-4660545-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>54407099</size>
+						<checksum>3209d30f42054cead034acb7ec7a114b62d1d672</checksum>
+						<url>sys-img-4660545-sdk_google_phone_x86-sdk_addon-4729341-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>19</major>
 						</based-on>
-						<size>63602852</size>
-						<checksum>d014a6e2c9e39feac1539666fd4d69d52586f72e</checksum>
-						<url>sys-img-4499313-sdk_google_phone_x86-sdk_addon-4660545-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>67690843</size>
+						<checksum>8aab6b19b611f8fd25b0304b861580cab3b81db1</checksum>
+						<url>sys-img-4499313-sdk_google_phone_x86-sdk_addon-4729341-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-22;google_apis;armeabi-v7a">
-		<!--Generated from bid:4660545, branch:git_lmp-mr1-emu-release-->
+		<!--Generated from bid:4729341, branch:git_lmp-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>22</api-level>
 			<tag>
@@ -1166,7 +1166,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>20</major>
+			<major>21</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1176,27 +1176,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 16:56:44 2018.-->
+				<!--Built on: Wed Apr 18 17:32:29 2018.-->
 				<complete>
-					<size>374093136</size>
-					<checksum>3f6a6b24a9df72bea79564823929b1468bfcd60a</checksum>
-					<url>armeabi-v7a-22_r20.zip</url>
+					<size>375694038</size>
+					<checksum>d75d02bd4999d8972b9b0233570eed4a8556ded5</checksum>
+					<url>armeabi-v7a-22_r21.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>19</major>
+							<major>20</major>
 						</based-on>
-						<size>64456103</size>
-						<checksum>32336264c0155b958c2110a3b61aaaf65f04fa97</checksum>
-						<url>sys-img-4499313-sdk_google_phone_armv7-sdk_addon-4660545-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
+						<size>56221722</size>
+						<checksum>67c490bc699f06ece0c01c81d90d05f84b9612e1</checksum>
+						<url>sys-img-4660545-sdk_google_phone_armv7-sdk_addon-4729341-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-22;google_apis;x86_64">
-		<!--Generated from bid:4660545, branch:git_lmp-mr1-emu-release-->
+		<!--Generated from bid:4729341, branch:git_lmp-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>22</api-level>
 			<tag>
@@ -1210,7 +1210,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>20</major>
+			<major>21</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1220,27 +1220,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:00:33 2018.-->
+				<!--Built on: Wed Apr 18 17:36:46 2018.-->
 				<complete>
-					<size>546286874</size>
-					<checksum>c3d2d84a912550b31457454cf73323070d274c1c</checksum>
-					<url>x86_64-22_r20.zip</url>
+					<size>548382204</size>
+					<checksum>01642012c397a3211dbbf3c1f564774f752d61da</checksum>
+					<url>x86_64-22_r21.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
+							<major>20</major>
+						</based-on>
+						<size>95571986</size>
+						<checksum>37158f7a82202d40a9a1ec8076e03ed6138aa81b</checksum>
+						<url>sys-img-4660545-sdk_google_phone_x86_64-sdk_addon-4729341-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>19</major>
 						</based-on>
-						<size>103647743</size>
-						<checksum>392f9e1cccb33c33236ff7596ca7d13855ae726d</checksum>
-						<url>sys-img-4499313-sdk_google_phone_x86_64-sdk_addon-4660545-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>110248280</size>
+						<checksum>0503e10106caf1ebea3c333774294f2759c609c1</checksum>
+						<url>sys-img-4499313-sdk_google_phone_x86_64-sdk_addon-4729341-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;google_apis;x86">
-		<!--Generated from bid:4660549, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4729342, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -1254,7 +1262,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>27</major>
+			<major>28</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1264,35 +1272,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:04:00 2018.-->
+				<!--Built on: Wed Apr 18 17:42:41 2018.-->
 				<complete>
-					<size>480565738</size>
-					<checksum>4ac5b05fa5b51a76f097caf3eb927b94fcab0101</checksum>
-					<url>x86-23_r27.zip</url>
+					<size>481891856</size>
+					<checksum>22ccc4ec6f0b1354ce1869e5b3a7b9230a1593ee</checksum>
+					<url>x86-23_r28.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>25</major>
+							<major>27</major>
 						</based-on>
-						<size>85011328</size>
-						<checksum>8dc6f88a10a4f23024734b839732b432d8fe5449</checksum>
-						<url>sys-img-4409279-sdk_google_phone_x86-sdk_addon-4660549-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>56476928</size>
+						<checksum>a773967905ab0c46f4c1d48431e0750524e697d6</checksum>
+						<url>sys-img-4660549-sdk_google_phone_x86-sdk_addon-4729342-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>26</major>
 						</based-on>
-						<size>65651475</size>
-						<checksum>00ba19192065f0c29dc51e330cc074abdd1b5cf4</checksum>
-						<url>sys-img-4499259-sdk_google_phone_x86-sdk_addon-4660549-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>70785883</size>
+						<checksum>8e943000991497a34872f61190a3e485df0445ce</checksum>
+						<url>sys-img-4499259-sdk_google_phone_x86-sdk_addon-4729342-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;google_apis;x86_64">
-		<!--Generated from bid:4660549, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4729342, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -1306,7 +1314,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>27</major>
+			<major>28</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1316,35 +1324,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:09:29 2018.-->
+				<!--Built on: Wed Apr 18 17:47:51 2018.-->
 				<complete>
-					<size>633248601</size>
-					<checksum>afcfc03c1f041a20b179ca01840be7290f1ed383</checksum>
-					<url>x86_64-23_r27.zip</url>
+					<size>635295719</size>
+					<checksum>02cef917bfd52bb921d12518b10f0f6ecc1817d6</checksum>
+					<url>x86_64-23_r28.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>25</major>
+							<major>26</major>
 						</based-on>
-						<size>128224116</size>
-						<checksum>77340afe4886d50fadfb16f355255ac85bc0edca</checksum>
-						<url>sys-img-4409279-sdk_google_phone_x86_64-sdk_addon-4660549-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>117878288</size>
+						<checksum>6ff84595a0099fabaa3e6006b768037af771de22</checksum>
+						<url>sys-img-4499259-sdk_google_phone_x86_64-sdk_addon-4729342-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>26</major>
+							<major>27</major>
 						</based-on>
-						<size>107326804</size>
-						<checksum>c43af7d941615fbcfd7715cf4f12172f1cbcac8c</checksum>
-						<url>sys-img-4499259-sdk_google_phone_x86_64-sdk_addon-4660549-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>101439083</size>
+						<checksum>d354a9ec605426f4aa017bb89398a3919e7767d1</checksum>
+						<url>sys-img-4660549-sdk_google_phone_x86_64-sdk_addon-4729342-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;google_apis;armeabi-v7a">
-		<!--Generated from bid:4660549, branch:git_mnc-emu-release-->
+		<!--Generated from bid:4729342, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -1358,7 +1366,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>27</major>
+			<major>28</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1368,27 +1376,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:17:09 2018.-->
+				<!--Built on: Wed Apr 18 17:54:43 2018.-->
 				<complete>
-					<size>448671357</size>
-					<checksum>b365b84342e913024bfd797a3ea1283c1094fc07</checksum>
-					<url>armeabi-v7a-23_r27.zip</url>
+					<size>450088093</size>
+					<checksum>ab487d416a8b4cad5ab0232557225d10c027741f</checksum>
+					<url>armeabi-v7a-23_r28.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>26</major>
+							<major>27</major>
 						</based-on>
-						<size>61774473</size>
-						<checksum>45abee32c7a0f1f8f640e58c249bfec700600292</checksum>
-						<url>sys-img-4499259-sdk_google_phone_armv7-sdk_addon-4660549-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
+						<size>55888059</size>
+						<checksum>ffaae1ed10d946597b70324c863975d8e1b4b9ea</checksum>
+						<url>sys-img-4660549-sdk_google_phone_armv7-sdk_addon-4729342-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;google_apis;x86">
-		<!--Generated from bid:4662066, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4729343, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1402,7 +1410,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>21</major>
+			<major>22</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1412,35 +1420,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:22:09 2018.-->
+				<!--Built on: Wed Apr 18 17:59:54 2018.-->
 				<complete>
-					<size>829943155</size>
-					<checksum>4e7800bce384a8b60f8b2cf33459119c27404b6d</checksum>
-					<url>x86-24_r21.zip</url>
+					<size>831812729</size>
+					<checksum>00581c7a21b314d72095a7d6caca531c0439fbae</checksum>
+					<url>x86-24_r22.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>19</major>
+							<major>20</major>
 						</based-on>
-						<size>72803254</size>
-						<checksum>4b8d48cf05cda9753b9dd7f605e44983fbeaf51d</checksum>
-						<url>sys-img-4409132-sdk_google_phone_x86-sdk_addon-4662066-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>72263889</size>
+						<checksum>8973a4bf6afe2a83f837d85d8e9d861f160cde1d</checksum>
+						<url>sys-img-4499218-sdk_google_phone_x86-sdk_addon-4729343-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>20</major>
+							<major>21</major>
 						</based-on>
-						<size>65721436</size>
-						<checksum>4f93f9896f478b71307b7fb3d081bd475e45f52f</checksum>
-						<url>sys-img-4499218-sdk_google_phone_x86-sdk_addon-4662066-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>63359444</size>
+						<checksum>9a2fc7f26913745ebe259bac77d631e0de03da92</checksum>
+						<url>sys-img-4662066-sdk_google_phone_x86-sdk_addon-4729343-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;google_apis;x86_64">
-		<!--Generated from bid:4662066, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4729343, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1454,7 +1462,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>21</major>
+			<major>22</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1464,35 +1472,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:29:05 2018.-->
+				<!--Built on: Wed Apr 18 18:07:18 2018.-->
 				<complete>
-					<size>1032680451</size>
-					<checksum>4a58c4ae3219594764b5b0e9c989dcab6d72bc6a</checksum>
-					<url>x86_64-24_r21.zip</url>
+					<size>1035738802</size>
+					<checksum>f76da38d9788ddfc4c8dd5bd3cdf8dfa92302d24</checksum>
+					<url>x86_64-24_r22.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>20</major>
 						</based-on>
-						<size>117319089</size>
-						<checksum>4aa997c7b654cc0bd4df3b46a641af51d92a78a7</checksum>
-						<url>sys-img-4499218-sdk_google_phone_x86_64-sdk_addon-4662066-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>126663583</size>
+						<checksum>41d172512e476987edd607106476a9d2233a22c8</checksum>
+						<url>sys-img-4499218-sdk_google_phone_x86_64-sdk_addon-4729343-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>19</major>
+							<major>21</major>
 						</based-on>
-						<size>126841774</size>
-						<checksum>a99f9ef7c5cce7b9695b08832773075b5bd3648c</checksum>
-						<url>sys-img-4409132-sdk_google_phone_x86_64-sdk_addon-4662066-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>116237942</size>
+						<checksum>05c9371c6901eb8387e87ec2b28671c624a26fa7</checksum>
+						<url>sys-img-4662066-sdk_google_phone_x86_64-sdk_addon-4729343-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;google_apis;armeabi-v7a">
-		<!--Generated from bid:4662066, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4729343, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1506,7 +1514,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>21</major>
+			<major>22</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1516,27 +1524,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:35:49 2018.-->
+				<!--Built on: Wed Apr 18 18:15:15 2018.-->
 				<complete>
-					<size>744818131</size>
-					<checksum>bf39edbf055df87fa01b8b66b9f002b6460d7653</checksum>
-					<url>armeabi-v7a-24_r21.zip</url>
+					<size>746685154</size>
+					<checksum>e592d21ec870af46d435f467c99cd4e7755a1a4d</checksum>
+					<url>armeabi-v7a-24_r22.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>20</major>
+							<major>21</major>
 						</based-on>
-						<size>62585120</size>
-						<checksum>b7db9ec686b734356a5802bb3f285b25b1c2c643</checksum>
-						<url>sys-img-4499218-sdk_google_phone_armv7-sdk_addon-4662066-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
+						<size>62424844</size>
+						<checksum>5775ea54a581b9816b08e5e35906954680622977</checksum>
+						<url>sys-img-4662066-sdk_google_phone_armv7-sdk_addon-4729343-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-24;google_apis;arm64-v8a">
-		<!--Generated from bid:4662066, branch:git_nyc-emu-release-->
+		<!--Generated from bid:4729343, branch:git_nyc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>24</api-level>
 			<tag>
@@ -1550,7 +1558,7 @@ August 15, 2011</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>21</major>
+			<major>22</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1560,27 +1568,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:40:29 2018.-->
+				<!--Built on: Wed Apr 18 18:20:54 2018.-->
 				<complete>
-					<size>979866694</size>
-					<checksum>556c663ce734b14eff00c2b12737366a35edb862</checksum>
-					<url>arm64-v8a-24_r21.zip</url>
+					<size>982923875</size>
+					<checksum>d6dba0050e2df975e002c4767020516060f2105a</checksum>
+					<url>arm64-v8a-24_r22.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>20</major>
+							<major>21</major>
 						</based-on>
-						<size>109973497</size>
-						<checksum>79c9711103498dd86deb48af481d2ea8430bc24d</checksum>
-						<url>sys-img-4499218-sdk_google_phone_arm64-sdk_addon-4662066-sdk_google_phone_arm64-sdk_addon-patch.jar</url>
+						<size>113332544</size>
+						<checksum>9199b6f08e35787181ef4676ec70978e5eab953a</checksum>
+						<url>sys-img-4662066-sdk_google_phone_arm64-sdk_addon-4729343-sdk_google_phone_arm64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;google_apis;x86">
-		<!--Generated from bid:4660551, branch:git_nyc-mr1-emu-release-->
+		<!--Generated from bid:4729347, branch:git_nyc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
@@ -1594,7 +1602,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1604,35 +1612,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:46:10 2018.-->
+				<!--Built on: Wed Apr 18 18:27:15 2018.-->
 				<complete>
-					<size>965523187</size>
-					<checksum>0566913d354ffb7a8fc539cc36ce2eb0ed2e2050</checksum>
-					<url>x86-25_r12.zip</url>
+					<size>967612724</size>
+					<checksum>88582cc1d0233dc8566dc6858eba4115af9b5fdb</checksum>
+					<url>x86-25_r13.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>11</major>
+							<major>12</major>
 						</based-on>
-						<size>83360401</size>
-						<checksum>ffc09336b50f64ec9434b38385043fe57653c87a</checksum>
-						<url>sys-img-4498512-sdk_google_phone_x86-sdk_addon-4660551-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>73760573</size>
+						<checksum>f0939f17dc853aef8f32dc31743a706a88a00404</checksum>
+						<url>sys-img-4660551-sdk_google_phone_x86-sdk_addon-4729347-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
-							<major>10</major>
+							<major>11</major>
 						</based-on>
-						<size>142659463</size>
-						<checksum>352a19a38d5f87d96d9d23ed75d2f3f29ffe36b0</checksum>
-						<url>sys-img-4414732-sdk_google_phone_x86-sdk_addon-4660551-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+						<size>89241456</size>
+						<checksum>aa9c444eb275e1c21c7cf4aa26e9422effb03780</checksum>
+						<url>sys-img-4498512-sdk_google_phone_x86-sdk_addon-4729347-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;google_apis;x86_64">
-		<!--Generated from bid:4660551, branch:git_nyc-mr1-emu-release-->
+		<!--Generated from bid:4729347, branch:git_nyc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
@@ -1646,7 +1654,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1656,27 +1664,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:52:32 2018.-->
+				<!--Built on: Wed Apr 18 18:35:21 2018.-->
 				<complete>
-					<size>1222772566</size>
-					<checksum>d2b387d3022dd6a981cade7be57269cc7c53d202</checksum>
-					<url>x86_64-25_r12.zip</url>
+					<size>1226208400</size>
+					<checksum>a8d2c41f8baf35d9ec2ded9836dafad3000e8d1e</checksum>
+					<url>x86_64-25_r13.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>11</major>
+							<major>12</major>
 						</based-on>
-						<size>145499607</size>
-						<checksum>d274001f92d921376a2b9d45f051c3487ed83c18</checksum>
-						<url>sys-img-4498512-sdk_google_phone_x86_64-sdk_addon-4660551-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
+						<size>134581320</size>
+						<checksum>b8b3db22f1f587593fc8406f49ad09e5a449c8ff</checksum>
+						<url>sys-img-4660551-sdk_google_phone_x86_64-sdk_addon-4729347-sdk_google_phone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;google_apis;armeabi-v7a">
-		<!--Generated from bid:4660551, branch:git_nyc-mr1-emu-release-->
+		<!--Generated from bid:4729347, branch:git_nyc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
@@ -1690,7 +1698,7 @@ August 15, 2011</license>
 			<abi>armeabi-v7a</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google APIs ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1700,27 +1708,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 17:59:17 2018.-->
+				<!--Built on: Wed Apr 18 18:43:12 2018.-->
 				<complete>
-					<size>909701230</size>
-					<checksum>4f012c03bd919bfa18c15c9139b5a4f77d2ff015</checksum>
-					<url>armeabi-v7a-25_r12.zip</url>
+					<size>911797917</size>
+					<checksum>6b5db2fe690e61f9059af1a2f13c630594cc8b02</checksum>
+					<url>armeabi-v7a-25_r13.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>11</major>
+							<major>12</major>
 						</based-on>
-						<size>77368890</size>
-						<checksum>8bdb4dd05c5dafc89159665105027cc5b3ad74c3</checksum>
-						<url>sys-img-4498512-sdk_google_phone_armv7-sdk_addon-4660551-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
+						<size>72714860</size>
+						<checksum>209faf11653089b62808dc7d102bcd5a2a4d370a</checksum>
+						<url>sys-img-4660551-sdk_google_phone_armv7-sdk_addon-4729347-sdk_google_phone_armv7-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-25;google_apis;arm64-v8a">
-		<!--Generated from bid:4660551, branch:git_nyc-mr1-emu-release-->
+		<!--Generated from bid:4729347, branch:git_nyc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>25</api-level>
 			<tag>
@@ -1734,7 +1742,7 @@ August 15, 2011</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1744,27 +1752,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 18:04:19 2018.-->
+				<!--Built on: Wed Apr 18 18:48:56 2018.-->
 				<complete>
-					<size>1044489582</size>
-					<checksum>59e2d51a09f13fb5f9da88b9bc27da56a68feb07</checksum>
-					<url>arm64-v8a-25_r12.zip</url>
+					<size>1047972130</size>
+					<checksum>77e046aa2bd4c705c51dceaab1524e11fc973ab1</checksum>
+					<url>arm64-v8a-25_r13.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>11</major>
+							<major>12</major>
 						</based-on>
-						<size>135919959</size>
-						<checksum>bf8d645e644dc51b6b8a74ba0ec945da444182a9</checksum>
-						<url>sys-img-4498512-sdk_google_phone_arm64-sdk_addon-4660551-sdk_google_phone_arm64-sdk_addon-patch.jar</url>
+						<size>132087570</size>
+						<checksum>e75f144fb8cf0bd7c618f0031d18b5568b00bdbb</checksum>
+						<url>sys-img-4660551-sdk_google_phone_arm64-sdk_addon-4729347-sdk_google_phone_arm64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-26;google_apis;x86">
-		<!--Generated from bid:4662038, branch:git_oc-emu-release-->
+		<!--Generated from bid:4741120, branch:git_oc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>26</api-level>
 			<tag>
@@ -1778,7 +1786,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1795,35 +1803,35 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 18:10:08 2018.-->
+				<!--Built on: Tue Apr 24 13:22:41 2018.-->
 				<complete>
-					<size>785069006</size>
-					<checksum>8cdc4defc95c1d5946f8bc1c2558a8254bceeb68</checksum>
-					<url>x86-26_r09.zip</url>
+					<size>786182294</size>
+					<checksum>cdef9b36549d156c417c91929eb8e205de8825c9</checksum>
+					<url>x86-26_r10.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>7</major>
+							<major>9</major>
 						</based-on>
-						<size>91536927</size>
-						<checksum>c44ca7f9b7fd2508be5d119583ac6995cbf7bd86</checksum>
-						<url>sys-img-4409600-sdk_gphone_x86-sdk_addon-4662038-sdk_gphone_x86-sdk_addon-patch.jar</url>
+						<size>66814652</size>
+						<checksum>ebe6c1062891b7dade2dcac9b5a6c21e06d5dca2</checksum>
+						<url>sys-img-4662038-sdk_gphone_x86-sdk_addon-4741120-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>8</major>
 						</based-on>
-						<size>88141595</size>
-						<checksum>5b7a89e0b3332303078add9a935e4fa6f023b1b4</checksum>
-						<url>sys-img-4497355-sdk_gphone_x86-sdk_addon-4662038-sdk_gphone_x86-sdk_addon-patch.jar</url>
+						<size>94603545</size>
+						<checksum>17d257e8a009dc3b935f0c0c06af0469d0672878</checksum>
+						<url>sys-img-4497355-sdk_gphone_x86-sdk_addon-4741120-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-26;google_apis;x86_64">
-		<!--Generated from bid:4662038, branch:git_oc-emu-release-->
+		<!--Generated from bid:4741120, branch:git_oc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>26</api-level>
 			<tag>
@@ -1837,7 +1845,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1854,27 +1862,27 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 20:00:43 2018.-->
+				<!--Built on: Tue Apr 24 13:28:48 2018.-->
 				<complete>
-					<size>959735008</size>
-					<checksum>753261b73577c52d23650422b51c32e787c2f171</checksum>
-					<url>x86_64-26_r09.zip</url>
+					<size>961180000</size>
+					<checksum>032ab56d67d0799a4f299eee8de9eab341e4865b</checksum>
+					<url>x86_64-26_r10.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>8</major>
+							<major>9</major>
 						</based-on>
-						<size>132825438</size>
-						<checksum>3631b8cfff066d4a06cbdedc14d0c7a04246c845</checksum>
-						<url>sys-img-4497355-sdk_gphone_x86_64-sdk_addon-4662038-sdk_gphone_x86_64-sdk_addon-patch.jar</url>
+						<size>102259270</size>
+						<checksum>91f38cf559d12be7eeef629b1f4280b1dd77a06c</checksum>
+						<url>sys-img-4662038-sdk_gphone_x86_64-sdk_addon-4741120-sdk_gphone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-27;google_apis;x86">
-		<!--Generated from bid:4662058, branch:oc-mr1-emu-release-->
+		<!--Generated from bid:4741582, branch:oc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<tag>
@@ -1888,7 +1896,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1905,20 +1913,20 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Mar 17 20:04:32 2018.-->
+				<!--Built on: Tue Apr 24 18:09:16 2018.-->
 				<complete>
-					<size>777878650</size>
-					<checksum>1ea7ae43c8a1a32cbaea0ab3edac7add6146da12</checksum>
-					<url>x86-27_r05.zip</url>
+					<size>779594323</size>
+					<checksum>b86a2dab47156005ff7aa5784562220a0335306d</checksum>
+					<url>x86-27_r06.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>4</major>
+							<major>5</major>
 						</based-on>
-						<size>40480175</size>
-						<checksum>46232ed2e44400b5014a0db3f38c69bc3a5bdf13</checksum>
-						<url>sys-img-4613442-sdk_gphone_x86-sdk_addon-4662058-sdk_gphone_x86-sdk_addon-patch.jar</url>
+						<size>41252897</size>
+						<checksum>ae3b50dfa48f45679d0d1de5bd2ce01a73bfb55c</checksum>
+						<url>sys-img-4662058-sdk_gphone_x86-sdk_addon-4741582-sdk_gphone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
