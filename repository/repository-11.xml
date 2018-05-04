@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-04-27 13:51:58.294728 with ADRT.-->
+	<!--Generated on 2018-05-04 13:15:26.161561 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -747,7 +747,7 @@ June 2014.</sdk:license>
 		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:44 2017.-->
+				<!--Built on: Fri May  4 12:52:06 2018.-->
 				<sdk:size>104513908</sdk:size>
 				<sdk:checksum type="sha1">2c7d4bd13f276e76f6bbd87315fe27aba351dd37</sdk:checksum>
 				<sdk:url>android-3.0_r02.zip</sdk:url>
@@ -770,7 +770,7 @@ June 2014.</sdk:license>
 		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:43 2017.-->
+				<!--Built on: Fri May  4 07:07:59 2018.-->
 				<sdk:size>85470907</sdk:size>
 				<sdk:checksum type="sha1">887e37783ec32f541ea33c2c649dda648e8e6fb3</sdk:checksum>
 				<sdk:url>android-2.3.3_r02.zip</sdk:url>
@@ -1097,7 +1097,7 @@ June 2014.</sdk:license>
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:44 2017.-->
+				<!--Built on: Fri May  4 08:10:35 2018.-->
 				<sdk:size>30270410</sdk:size>
 				<sdk:checksum type="sha1">6b96115830a83d654479f32ce4b724ca9011148b</sdk:checksum>
 				<sdk:url>sources-24_r01.zip</sdk:url>
@@ -1352,7 +1352,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:00:17 2017.-->
+				<!--Built on: Fri May  4 06:43:54 2018.-->
 				<sdk:size>54450260</sdk:size>
 				<sdk:checksum type="sha1">7f4eedb1077ef948b848040dcd15de9e8a759f4a</sdk:checksum>
 				<sdk:url>build-tools_r27.0.1-linux.zip</sdk:url>
@@ -1937,7 +1937,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:47 2017.-->
+				<!--Built on: Thu May  3 11:49:57 2018.-->
 				<sdk:size>38059328</sdk:size>
 				<sdk:checksum type="sha1">d96ec1522721e9a179ae2c591c99f75d31d39718</sdk:checksum>
 				<sdk:url>build-tools_r23.0.1-macosx.zip</sdk:url>
@@ -2560,7 +2560,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:44 2017.-->
+				<!--Built on: Thu May  3 10:22:47 2018.-->
 				<sdk:size>12208114</sdk:size>
 				<sdk:checksum type="sha1">602ee709be9dbb8f179b1e4075148a57f9419930</sdk:checksum>
 				<sdk:url>build-tools_r17-macosx.zip</sdk:url>
@@ -2599,7 +2599,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Mon Dec 18 15:30:55 2017.-->
+				<!--Built on: Thu May  3 11:27:40 2018.-->
 				<sdk:size>4737241</sdk:size>
 				<sdk:checksum type="sha1">11505582e66ef81730cc5150a7566a3ca5c677b7</sdk:checksum>
 				<sdk:url>platform-tools_r27.0.1-windows.zip</sdk:url>
