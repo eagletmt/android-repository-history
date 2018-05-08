@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-04-26 14:04:35.177557 with ADRT.-->
+	<!--Generated on 2018-05-07 11:44:10.131374 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -568,7 +568,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Sun May  6 00:04:22 2018.-->
 				<complete>
 					<size>268946785</size>
 					<checksum>2f8a1988188d6abfd6c6395baeb4471a034dc1e8</checksum>
@@ -893,7 +893,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-P;android-tv;x86">
-		<!--Generated from bid:4624533, branch:git_pi-preview1-release-->
+		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<codename>P</codename>
@@ -904,19 +904,32 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 27 14:30:03 2018.-->
+				<!--Built on: Thu May  3 10:43:18 2018.-->
 				<complete>
-					<size>434929303</size>
-					<checksum>29491d62bf5ea6f1779aafdc98c5dbd5f5ebc816</checksum>
-					<url>x86-P_r01.zip</url>
+					<size>453206462</size>
+					<checksum>e55f18e60cfe2829002e4460f4bbd04f357e89a7</checksum>
+					<url>x86-P_r02.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>1</major>
+						</based-on>
+						<size>227621551</size>
+						<checksum>0e7f3f04fea5e59c0b8b8de3fb1ccb3b8f77c282</checksum>
+						<url>sys-img-4624533-sdk_google_atv_x86-sdk-4758566-sdk_google_atv_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

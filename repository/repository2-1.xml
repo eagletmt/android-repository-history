@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-04 13:15:12.867507 with ADRT.-->
+	<!--Generated on 2018-05-07 11:43:31.078457 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -385,25 +385,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-P">
-		<!--Generated from bid:4651975, branch:git_pi-preview1-release-->
+		<!--Generated from bid:4758566, branch:pi-preview2-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>27</api-level>
 			<codename>P</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Android SDK Platform P</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 13 13:35:27 2018.-->
+				<!--Built on: Thu May  3 14:26:43 2018.-->
 				<complete>
-					<size>67072037</size>
-					<checksum>eb5558b824a2e24e3c1d7a7db7431a9c056c25ab</checksum>
-					<url>platform-P_r02.zip</url>
+					<size>67452310</size>
+					<checksum>c6c389246e00c3fc9f7a94cf91d9fcfea7a4252f</checksum>
+					<url>platform-P_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -855,7 +855,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:42 2017.-->
+				<!--Built on: Fri May  4 20:32:28 2018.-->
 				<complete>
 					<size>78732563</size>
 					<checksum>209f8a7a8b2cb093fce858b8b55fed3ba5206773</checksum>
@@ -879,7 +879,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:42 2017.-->
+				<!--Built on: Sat May  5 21:34:12 2018.-->
 				<complete>
 					<size>74652366</size>
 					<checksum>231262c63eefdff8fd0386e9ccfefeb27a8f9202</checksum>
@@ -1440,7 +1440,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:41 2017.-->
+				<!--Built on: Sun May  6 23:36:00 2018.-->
 				<complete>
 					<size>16152383</size>
 					<checksum>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</checksum>
@@ -1687,7 +1687,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Fri Dec  1 16:45:44 2017.-->
+				<!--Built on: Sat May  5 12:52:43 2018.-->
 				<complete>
 					<size>723301086</size>
 					<checksum>f3f1909ed1052e98dda2c79d11c22f3da28daf25</checksum>
@@ -2164,7 +2164,7 @@ June 2014.</license>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:47 2017.-->
+				<!--Built on: Sun May  6 23:40:30 2018.-->
 				<complete>
 					<size>49929306</size>
 					<checksum>413649617d97dd9ef163528f64c0500e1b7c4113</checksum>
@@ -2241,7 +2241,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:42 2017.-->
+				<!--Built on: Sat May  5 18:24:13 2018.-->
 				<complete>
 					<size>72306262</size>
 					<checksum>d1e33880a53f1aa8c7e73534adef83a06f091185</checksum>
@@ -2336,6 +2336,48 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="build-tools;28.0.0-rc2">
+		<!--Generated from bid:4758566, branch:pi-preview2-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>28</major>
+			<minor>0</minor>
+			<micro>0</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>Android SDK Build-Tools 28-rc2</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  3 14:26:31 2018.-->
+				<complete>
+					<size>37151124</size>
+					<checksum>efe9c0dde0646a07544c864276390ca6e96b24dc</checksum>
+					<url>build-tools_r28-rc2-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  3 14:26:27 2018.-->
+				<complete>
+					<size>36449480</size>
+					<checksum>0d0314b353589feb10e528b44c5a685b6658d797</checksum>
+					<url>build-tools_r28-rc2-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  3 14:26:24 2018.-->
+				<complete>
+					<size>37716459</size>
+					<checksum>a94bfb52b4ec74b95c116236c3e382e923cad6c4</checksum>
+					<url>build-tools_r28-rc2-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="build-tools;28.0.0-rc1">
 		<!--Generated from bid:4614665, branch:git_pi-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -2359,7 +2401,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 27 20:19:35 2018.-->
+				<!--Built on: Sun May  6 11:10:06 2018.-->
 				<complete>
 					<size>38004795</size>
 					<checksum>2c77821967a2330b7b227072d0b1c02ef19fe2fc</checksum>
@@ -2409,7 +2451,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Dec 18 15:30:33 2017.-->
+				<!--Built on: Fri May  4 16:01:32 2018.-->
 				<complete>
 					<size>55194255</size>
 					<checksum>0df61e11713a2838d2cc9a911219dddf5e6a2749</checksum>
@@ -2523,7 +2565,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:17 2017.-->
+				<!--Built on: Sat May  5 05:36:34 2018.-->
 				<complete>
 					<size>53831513</size>
 					<checksum>fb4e8d7e6b8d29a77090e34024077a80458d5ae1</checksum>
@@ -3017,7 +3059,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:37 2017.-->
+				<!--Built on: Sat May  5 15:32:57 2018.-->
 				<complete>
 					<size>48726190</size>
 					<checksum>8bb8fc575477491d5957de743089df412de55cda</checksum>
@@ -3099,7 +3141,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:35 2017.-->
+				<!--Built on: Sun May  6 08:20:50 2018.-->
 				<complete>
 					<size>48747930</size>
 					<checksum>97fc4ed442f23989cc488d02c1d1de9bdde241de</checksum>
@@ -3149,7 +3191,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:50 2017.-->
+				<!--Built on: Mon May  7 02:50:28 2018.-->
 				<complete>
 					<size>38217626</size>
 					<checksum>fc3a92c744d3ba0a16ccb5d2b41eea5974ce0a96</checksum>
@@ -3181,7 +3223,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:51 2017.-->
+				<!--Built on: Sun May  6 01:21:17 2018.-->
 				<complete>
 					<size>39679533</size>
 					<checksum>fbc98cd303fd15a31d472de6c03bd707829f00b0</checksum>
@@ -3459,7 +3501,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:41 2017.-->
+				<!--Built on: Sun May  6 12:19:54 2018.-->
 				<complete>
 					<size>32642820</size>
 					<checksum>b7455e543784d52a8925f960bc880493ed1478cb</checksum>
@@ -3509,7 +3551,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:41 2017.-->
+				<!--Built on: Sat May  5 16:33:03 2018.-->
 				<complete>
 					<size>22668597</size>
 					<checksum>f17471c154058f3734729ef3cc363399b1cd3de1</checksum>
@@ -3796,7 +3838,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:33 2017.-->
+				<!--Built on: Sat May  5 17:53:12 2018.-->
 				<complete>
 					<size>21450597</size>
 					<checksum>efaf50fb19a3edb8d03efbff76f89a249ad2920b</checksum>
@@ -3805,7 +3847,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:33 2017.-->
+				<!--Built on: Sun May  6 21:30:36 2018.-->
 				<complete>
 					<size>20500648</size>
 					<checksum>5ef422bac5b28f4ced108319ed4a6bc7050a6234</checksum>
@@ -4010,7 +4052,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:44 2017.-->
+				<!--Built on: Sat May  5 10:16:36 2018.-->
 				<complete>
 					<size>11004914</size>
 					<checksum>899897d327b0bad492d3a40d3db4d96119c15bc0</checksum>
@@ -4639,7 +4681,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb 26 18:00:53 2018.-->
+				<!--Built on: Sun May  6 17:54:52 2018.-->
 				<complete>
 					<size>265512664</size>
 					<checksum>75e9d9d5bab2f072e3d0327e1114fffe278e7d8d</checksum>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-04-26 14:04:35.012113 with ADRT.-->
+	<!--Generated on 2018-05-07 11:44:08.764585 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -692,7 +692,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Sat May  5 09:01:05 2018.-->
 				<complete>
 					<size>124238679</size>
 					<checksum>7460e8110f4a87f9644f1bdb5511a66872d50fd9</checksum>
@@ -732,7 +732,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Mon May  7 04:42:11 2018.-->
 				<complete>
 					<size>130394401</size>
 					<checksum>0bf34ecf4ddd53f6b1b7fe7dfa12f2887c17e642</checksum>
@@ -1411,6 +1411,34 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-P;default;x86">
+		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>27</api-level>
+			<codename>P</codename>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  3 10:36:27 2018.-->
+				<complete>
+					<size>405538915</size>
+					<checksum>1221bc819534c8210d549f91d46f1bdacf528a98</checksum>
+					<url>x86-P_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-21;default;x86_64">
 		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -1568,6 +1596,34 @@ August 15, 2011</license>
 						<url>sys-img-3245079-sdk_phone_x86_64-sdk-4174735-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-P;default;x86_64">
+		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>27</api-level>
+			<codename>P</codename>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  3 10:39:41 2018.-->
+				<complete>
+					<size>515067583</size>
+					<checksum>1dc0be539a5dcc20a990ec475c7dc4dbb8e3748d</checksum>
+					<url>x86_64-P_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>

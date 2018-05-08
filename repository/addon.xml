@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-03-13 17:49:01.836287 with ADRT.-->
+	<!--Generated on 2018-05-07 11:44:17.135000 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -722,7 +722,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:08 2017.-->
+				<!--Built on: Sun May  6 09:21:30 2018.-->
 				<sdk:size>59505020</sdk:size>
 				<sdk:checksum type="sha1">3079958e7ec87222cac1e6b27bc471b27bf2c352</sdk:checksum>
 				<sdk:url>google_apis-8_r02.zip</sdk:url>
@@ -925,7 +925,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>3</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Fri May  4 21:27:27 2018.-->
 				<sdk:size>106624396</sdk:size>
 				<sdk:checksum type="sha1">d0d2bf26805eb271693570a1aaec33e7dc3f45e9</sdk:checksum>
 				<sdk:url>google_apis-15_r03.zip</sdk:url>
@@ -1189,7 +1189,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Mon May  7 00:10:03 2018.-->
 				<sdk:size>179259</sdk:size>
 				<sdk:checksum type="sha1">5def0f42160cba8acff51b9c0c7e8be313de84f5</sdk:checksum>
 				<sdk:url>google_apis-22_r01.zip</sdk:url>
@@ -1401,16 +1401,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>google_play_services_froyo</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:179554859, branch:perforce-->
+		<!--Generated from bid:189640690, branch:perforce-->
 		<sdk:revision>
-			<sdk:major>48</sdk:major>
+			<sdk:major>49</sdk:major>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Dec 19 15:31:37 2017.-->
-				<sdk:size>15048356</sdk:size>
-				<sdk:checksum type="sha1">4bf33f904ef11b50493a55cfddbcd3138f72f681</sdk:checksum>
-				<sdk:url>google_play_services_v15_1_rc12.zip</sdk:url>
+				<!--Built on: Mon Mar 19 14:56:00 2018.-->
+				<sdk:size>15456884</sdk:size>
+				<sdk:checksum type="sha1">f95bf19634e2ab0430923247fe2c50246432d2e9</sdk:checksum>
+				<sdk:url>google_play_services_v16_1_rc09.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
