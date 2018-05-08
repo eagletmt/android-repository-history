@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-07 11:44:18.507267 with ADRT.-->
+	<!--Generated on 2018-05-08 13:47:54.339506 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1371,7 +1371,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Mon May  7 12:49:55 2018.-->
 				<complete>
 					<size>179499</size>
 					<checksum>66a754efb24e9bb07cc51648426443c7586c9d4a</checksum>
@@ -1517,7 +1517,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Mon May  7 13:33:57 2018.-->
 				<complete>
 					<size>87721879</size>
 					<checksum>b73f7c66011ac8180b44aa4e83b8d78c66ea9a09</checksum>
@@ -2149,7 +2149,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;instantapps">
-		<!--Generated from p4 cl:168705508-->
+		<!--Generated from p4 cl:195789842-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -2158,7 +2158,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</type-details>
 		<revision>
 			<major>1</major>
-			<minor>1</minor>
+			<minor>2</minor>
 			<micro>0</micro>
 		</revision>
 		<display-name>Instant Apps Development SDK</display-name>
@@ -2166,11 +2166,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Tue May  8 02:04:32 2018.-->
 				<complete>
-					<size>17383250</size>
-					<checksum>c29db977db46ce727e11ac0882ef30f19cc34a5c</checksum>
-					<url>aiasdk-1.1.0.zip</url>
+					<size>22293762</size>
+					<checksum>ebb1b1f7b3a44cdf240fdd5bc759fdcbd59806ac</checksum>
+					<url>aiasdk-1.2.0-final.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2417,7 +2417,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue May  8 01:14:00 2018.-->
 				<complete>
 					<size>95406</size>
 					<checksum>2aa2aceecc6ba172742d0af0b43f11d03924eeb8</checksum>
@@ -2763,7 +2763,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:08 2017.-->
+				<!--Built on: Mon May  7 16:27:39 2018.-->
 				<complete>
 					<size>31812</size>
 					<checksum>623939865ede2e5c2c975dc55963e0d182bcce95</checksum>

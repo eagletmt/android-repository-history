@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-07 11:44:17.135000 with ADRT.-->
+	<!--Generated on 2018-05-08 13:47:53.717166 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1156,7 +1156,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Mon May  7 12:49:55 2018.-->
 				<sdk:size>179499</sdk:size>
 				<sdk:checksum type="sha1">66a754efb24e9bb07cc51648426443c7586c9d4a</sdk:checksum>
 				<sdk:url>google_apis-21_r01.zip</sdk:url>
@@ -1278,7 +1278,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Mon May  7 13:33:57 2018.-->
 				<sdk:size>87721879</sdk:size>
 				<sdk:checksum type="sha1">b73f7c66011ac8180b44aa4e83b8d78c66ea9a09</sdk:checksum>
 				<sdk:url>google_tv-13_r01.zip</sdk:url>
@@ -1589,18 +1589,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>auto</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:168705508, branch:perforce-->
+		<!--Generated from bid:195789842, branch:perforce-->
 		<sdk:revision>
 			<sdk:major>1</sdk:major>
-			<sdk:minor>1</sdk:minor>
+			<sdk:minor>2</sdk:minor>
 			<sdk:micro>0</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
-				<sdk:size>17383250</sdk:size>
-				<sdk:checksum type="sha1">c29db977db46ce727e11ac0882ef30f19cc34a5c</sdk:checksum>
-				<sdk:url>aiasdk-1.1.0.zip</sdk:url>
+				<!--Built on: Tue May  8 02:04:32 2018.-->
+				<sdk:size>22293762</sdk:size>
+				<sdk:checksum type="sha1">ebb1b1f7b3a44cdf240fdd5bc759fdcbd59806ac</sdk:checksum>
+				<sdk:url>aiasdk-1.2.0-final.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>

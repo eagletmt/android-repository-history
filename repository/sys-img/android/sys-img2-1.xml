@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-07 11:44:08.764585 with ADRT.-->
+	<!--Generated on 2018-05-08 13:47:48.083768 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1192,7 +1192,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:34 2017.-->
+				<!--Built on: Mon May  7 17:26:45 2018.-->
 				<complete>
 					<size>149657535</size>
 					<checksum>03a0cb23465c3de15215934a1dbc9715b56e9458</checksum>
