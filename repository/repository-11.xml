@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-07 11:44:07.809499 with ADRT.-->
+	<!--Generated on 2018-05-08 11:14:58.427145 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -296,39 +296,39 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 June 2014.</sdk:license>
 	<sdk:ndk>
-		<!--Generated from bid:4479499, branch:aosp-ndk-release-r16-->
+		<!--Generated from bid:4754217, branch:aosp-ndk-release-r17-->
 		<sdk:description>NDK</sdk:description>
-		<sdk:revision>16</sdk:revision>
+		<sdk:revision>17</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Dec  1 16:46:05 2017.-->
-				<sdk:size>839630771</sdk:size>
-				<sdk:checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</sdk:checksum>
-				<sdk:url>android-ndk-r16b-darwin-x86_64.zip</sdk:url>
+				<!--Built on: Tue May  1 11:07:36 2018.-->
+				<sdk:size>672193611</sdk:size>
+				<sdk:checksum type="sha1">08015290bf88ba8fb348d7f5380929c2106524b3</sdk:checksum>
+				<sdk:url>android-ndk-r17-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Dec  1 16:46:26 2017.-->
-				<sdk:size>852525873</sdk:size>
-				<sdk:checksum type="sha1">42aa43aae89a50d1c66c3f9fdecd676936da6128</sdk:checksum>
-				<sdk:url>android-ndk-r16b-linux-x86_64.zip</sdk:url>
+				<!--Built on: Tue May  1 11:07:58 2018.-->
+				<sdk:size>706134114</sdk:size>
+				<sdk:checksum type="sha1">1d886a64483adf3f3a3e3aaf7ac5084184006ac7</sdk:checksum>
+				<sdk:url>android-ndk-r17-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Dec  1 16:45:27 2017.-->
-				<sdk:size>656720029</sdk:size>
-				<sdk:checksum type="sha1">becaf3d445a4877ca1a9300a62f0934a4838c7fa</sdk:checksum>
-				<sdk:url>android-ndk-r16b-windows-x86.zip</sdk:url>
+				<!--Built on: Tue May  1 11:06:59 2018.-->
+				<sdk:size>605250211</sdk:size>
+				<sdk:checksum type="sha1">22018a545e3e1f4236f65a2074ab2d66ef3f9a92</sdk:checksum>
+				<sdk:url>android-ndk-r17-windows-x86.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>32</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sat May  5 12:52:43 2018.-->
-				<sdk:size>723301086</sdk:size>
-				<sdk:checksum type="sha1">f3f1909ed1052e98dda2c79d11c22f3da28daf25</sdk:checksum>
-				<sdk:url>android-ndk-r16b-windows-x86_64.zip</sdk:url>
+				<!--Built on: Tue May  1 11:07:20 2018.-->
+				<sdk:size>647471060</sdk:size>
+				<sdk:checksum type="sha1">7856db171bd58a99d77158b9828c6c43453ae12d</sdk:checksum>
+				<sdk:url>android-ndk-r17-windows-x86_64.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
@@ -994,7 +994,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:36 2017.-->
+				<!--Built on: Tue May  8 06:10:15 2018.-->
 				<sdk:size>54624370</sdk:size>
 				<sdk:checksum type="sha1">5bb106d2e40d481edd337b0833093843e15fe49a</sdk:checksum>
 				<sdk:url>android-1.5_r04-windows.zip</sdk:url>
@@ -1520,7 +1520,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:46 2017.-->
+				<!--Built on: Mon May  7 17:06:28 2018.-->
 				<sdk:size>53266653</sdk:size>
 				<sdk:checksum type="sha1">cbde59de198916b390777dd0227921bfa2120832</sdk:checksum>
 				<sdk:url>build-tools_r26.0.1-macosx.zip</sdk:url>
@@ -1592,7 +1592,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:45 2017.-->
+				<!--Built on: Mon May  7 19:45:16 2018.-->
 				<sdk:size>54678375</sdk:size>
 				<sdk:checksum type="sha1">ddaba77db0557a98f6330fbd579ad0bd12cbb152</sdk:checksum>
 				<sdk:url>build-tools_r26-rc2-windows.zip</sdk:url>
