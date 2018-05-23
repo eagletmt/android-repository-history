@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-08 13:47:54.339506 with ADRT.-->
+	<!--Generated on 2018-05-22 17:34:07.727119 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -627,7 +627,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Sat May 19 22:41:19 2018.-->
 				<complete>
 					<size>34908058</size>
 					<checksum>1f92abf3a76be66ae8032257fc7620acbd2b2e3a</checksum>
@@ -1902,6 +1902,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					</patch>
 					<patch>
 						<based-on>
+							<major>44</major>
+						</based-on>
+						<size>2132340</size>
+						<checksum>7c78cae682580b2d064613712826448696a845c2</checksum>
+						<url>extra_p4-164902609-P-c01dd9720b82d4789e99657a811dcbdfebf5d736-189640690-P-06966e5c2a345f5f1abe401e95b827f1ad0b82c4-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>43</major>
 						</based-on>
 						<size>3226742</size>
@@ -1915,14 +1923,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 						<size>673768</size>
 						<checksum>375130a5401e4d2a9d20efbd64569254e1a187b3</checksum>
 						<url>extra_p4-179554859-P-c8e04d9adda776efd28abcf4441382d73d6dd44a-189640690-P-06966e5c2a345f5f1abe401e95b827f1ad0b82c4-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>44</major>
-						</based-on>
-						<size>2132340</size>
-						<checksum>7c78cae682580b2d064613712826448696a845c2</checksum>
-						<url>extra_p4-164902609-P-c01dd9720b82d4789e99657a811dcbdfebf5d736-189640690-P-06966e5c2a345f5f1abe401e95b827f1ad0b82c4-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -2202,7 +2202,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:00 2017.-->
+				<!--Built on: Sat May 19 08:47:48 2018.-->
 				<complete>
 					<size>15824058</size>
 					<checksum>597eb271349d890566274861eba2770a84ee4c69</checksum>
@@ -2257,7 +2257,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
+				<!--Built on: Tue May 22 01:10:55 2018.-->
 				<complete>
 					<size>31656325</size>
 					<checksum>0383903a9a9e61ecb3a339f7981857ddb667cc61</checksum>
@@ -2311,7 +2311,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Fri May 18 06:00:30 2018.-->
 				<complete>
 					<size>86115</size>
 					<checksum>2e7fd5d8d158f4517ba52af824f84466ffede879</checksum>
@@ -2364,7 +2364,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue May 22 15:30:39 2018.-->
 				<complete>
 					<size>86365</size>
 					<checksum>cd1cbbb2621c9034b835e9b69243dc558cdee4dc</checksum>
@@ -2392,7 +2392,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:06 2017.-->
+				<!--Built on: Sun May 20 18:33:09 2018.-->
 				<complete>
 					<size>15554</size>
 					<checksum>645a9be1f0c1177301e71cd0ddccf1dd67c554fe</checksum>
@@ -2445,7 +2445,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:07 2017.-->
+				<!--Built on: Mon May 21 01:45:05 2018.-->
 				<complete>
 					<size>16125</size>
 					<checksum>24f78daf491dcad74bcb2acfa79ea2d8e906f53b</checksum>
@@ -2470,7 +2470,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Fri May 18 17:40:48 2018.-->
 				<complete>
 					<size>95430</size>
 					<checksum>7ba6c82c7645ac023cf45c1e27a6ae3added308a</checksum>
@@ -2869,7 +2869,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:00 2017.-->
+				<!--Built on: Tue May 22 02:28:03 2018.-->
 				<complete>
 					<size>32687</size>
 					<checksum>dc60844aab93a09a54a3c107685a77b18d7c1c39</checksum>
@@ -2975,7 +2975,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:00 2017.-->
+				<!--Built on: Fri May 18 20:41:02 2018.-->
 				<complete>
 					<size>39153</size>
 					<checksum>70acf99689b933bc6735645d5c3d92b91954b6cb</checksum>

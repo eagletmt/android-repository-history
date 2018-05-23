@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-08 13:47:53.717166 with ADRT.-->
+	<!--Generated on 2018-05-22 17:34:06.979119 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -587,7 +587,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>3</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Sat May 19 22:41:19 2018.-->
 				<sdk:size>34908058</sdk:size>
 				<sdk:checksum type="sha1">1f92abf3a76be66ae8032257fc7620acbd2b2e3a</sdk:checksum>
 				<sdk:url>google_apis-3-r03.zip</sdk:url>
