@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-22 17:33:53.656732 with ADRT.-->
+	<!--Generated on 2018-05-25 08:42:41.575439 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -345,7 +345,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Mon Dec 18 13:54:39 2017.-->
+				<!--Built on: Thu May 24 00:52:42 2018.-->
 				<sdk:size>35355966</sdk:size>
 				<sdk:checksum type="sha1">2b37aa55b81a7e5b8a369febf1ac0bad6c7c5d58</sdk:checksum>
 				<sdk:url>lldb-3.1.4508709-darwin-x86_64.zip</sdk:url>
@@ -361,7 +361,7 @@ June 2014.</sdk:license>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Mon Dec 18 13:54:37 2017.-->
+				<!--Built on: Tue May 22 22:19:24 2018.-->
 				<sdk:size>35619130</sdk:size>
 				<sdk:checksum type="sha1">8e54b7123084fa9e4e3b890626c5671b7552450f</sdk:checksum>
 				<sdk:url>lldb-3.1.4508709-windows.zip</sdk:url>
@@ -529,7 +529,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:46 2017.-->
+				<!--Built on: Wed May 23 06:56:51 2018.-->
 				<sdk:size>69262856</sdk:size>
 				<sdk:checksum type="sha1">d92e2f4c8284413eed4f27986e62b167d947033c</sdk:checksum>
 				<sdk:url>lldb-2.0.2558144-darwin-x86_64.zip</sdk:url>
@@ -620,7 +620,7 @@ June 2014.</sdk:license>
 		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:37 2017.-->
+				<!--Built on: Wed May 23 00:35:53 2018.-->
 				<sdk:size>63623734</sdk:size>
 				<sdk:checksum type="sha1">e4ae5d7aa557a3c827135838ee400da8443ac4ef</sdk:checksum>
 				<sdk:url>platform-26_r02.zip</sdk:url>
@@ -860,7 +860,7 @@ June 2014.</sdk:license>
 		<sdk:revision>5</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:39 2017.-->
+				<!--Built on: Wed May 23 08:20:21 2018.-->
 				<sdk:size>48128695</sdk:size>
 				<sdk:checksum type="sha1">12a5ce6235a76bc30f62c26bda1b680e336abd07</sdk:checksum>
 				<sdk:url>android-16_r05.zip</sdk:url>
@@ -952,7 +952,7 @@ June 2014.</sdk:license>
 		<sdk:revision>3</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:45 2017.-->
+				<!--Built on: Thu May 24 23:42:26 2018.-->
 				<sdk:size>106472351</sdk:size>
 				<sdk:checksum type="sha1">4a50a6679cd95bb68bb5fc032e754cd7c5e2b1bf</sdk:checksum>
 				<sdk:url>android-3.1_r03.zip</sdk:url>
@@ -1709,7 +1709,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:00:37 2017.-->
+				<!--Built on: Wed May 23 14:33:19 2018.-->
 				<sdk:size>54440678</sdk:size>
 				<sdk:checksum type="sha1">5b2b7b66c7bf2151f2af183b5b50a17808850592</sdk:checksum>
 				<sdk:url>build-tools_r26.0.2-linux.zip</sdk:url>
@@ -2715,7 +2715,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:46 2017.-->
+				<!--Built on: Thu May 24 00:01:04 2018.-->
 				<sdk:size>20229760</sdk:size>
 				<sdk:checksum type="sha1">68c9acbfc0cec2d51b19efaed39831a17055d998</sdk:checksum>
 				<sdk:url>build-tools_r18.1.1-linux.zip</sdk:url>
