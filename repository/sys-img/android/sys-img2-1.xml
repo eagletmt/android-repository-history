@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-05-22 17:33:56.666127 with ADRT.-->
+	<!--Generated on 2018-06-01 12:54:15.448212 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -595,7 +595,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:40 2017.-->
+				<!--Built on: Fri May 25 21:39:05 2018.-->
 				<complete>
 					<size>99621822</size>
 					<checksum>d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
@@ -772,7 +772,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Wed May 23 17:22:12 2018.-->
 				<complete>
 					<size>159871567</size>
 					<checksum>d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
@@ -933,7 +933,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:35 2017.-->
+				<!--Built on: Wed May 23 03:42:29 2018.-->
 				<complete>
 					<size>283677512</size>
 					<checksum>3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
@@ -1068,7 +1068,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Wed May 30 07:28:15 2018.-->
 				<complete>
 					<size>75382637</size>
 					<checksum>655ffc5cc89dd45a3aca154b254009016e473aeb</checksum>
@@ -1152,7 +1152,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:34 2017.-->
+				<!--Built on: Thu May 31 04:30:33 2018.-->
 				<complete>
 					<size>142951842</size>
 					<checksum>eb30274460ff0d61f3ed37862b567811bebd8270</checksum>
@@ -1500,7 +1500,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:42 2017.-->
+				<!--Built on: Sun May 27 01:45:29 2018.-->
 				<complete>
 					<size>299976630</size>
 					<checksum>5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
