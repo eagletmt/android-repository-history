@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-01 12:55:59.925362 with ADRT.-->
+	<!--Generated on 2018-06-05 17:09:13.019505 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -550,47 +550,6 @@ August 15, 2011</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="system-images;android-P;google_apis;x86">
-		<!--Generated from bid:4624533, branch:git_pi-preview1-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<codename>P</codename>
-			<tag>
-				<id>google_apis</id>
-				<display>Google APIs</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Google APIs Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>27</major>
-					<minor>1</minor>
-					<micro>7</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat May 26 14:13:03 2018.-->
-				<complete>
-					<size>846543196</size>
-					<checksum>600faa78b507f1fd8fb15064e6042f755f112bfd</checksum>
-					<url>x86-P_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
 	<remotePackage path="system-images;android-10;google_apis;armeabi-v7a">
 		<!--Generated from bid:3093079, branch:git_gb-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -1973,11 +1932,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-P;google_apis;x86">
-		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+	<remotePackage path="system-images;android-28;google_apis;x86">
+		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<codename>P</codename>
+			<api-level>28</api-level>
 			<tag>
 				<id>google_apis</id>
 				<display>Google APIs</display>
@@ -1989,7 +1947,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2006,30 +1964,19 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May  3 10:53:06 2018.-->
+				<!--Built on: Wed May 23 16:38:08 2018.-->
 				<complete>
-					<size>848788803</size>
-					<checksum>fe257632b92929260c92c823f61c89594f840437</checksum>
-					<url>x86-P_r02.zip</url>
+					<size>863958320</size>
+					<checksum>4eed36d72c46990a94618e499870ddac4d6e51ef</checksum>
+					<url>x86-28_r03.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>1</major>
-						</based-on>
-						<size>380835483</size>
-						<checksum>d30be3c8bd9438bbafcd787cdf86d3a0a363663c</checksum>
-						<url>sys-img-4624533-sdk_gphone_x86-sdk_addon-4758566-sdk_gphone_x86-sdk_addon-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-P;google_apis;x86_64">
-		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+	<remotePackage path="system-images;android-28;google_apis;x86_64">
+		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<codename>P</codename>
+			<api-level>28</api-level>
 			<tag>
 				<id>google_apis</id>
 				<display>Google APIs</display>
@@ -2041,7 +1988,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2058,11 +2005,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May  3 11:03:16 2018.-->
+				<!--Built on: Wed May 23 16:39:23 2018.-->
 				<complete>
-					<size>979302172</size>
-					<checksum>e6bcfd7e9938ba90ff0d745a5234976197bd9d53</checksum>
-					<url>x86_64-P_r02.zip</url>
+					<size>1005456968</size>
+					<checksum>114c908ba6bf876e20437635092c3d930f28b8d6</checksum>
+					<url>x86_64-28_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

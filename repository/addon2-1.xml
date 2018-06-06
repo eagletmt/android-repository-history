@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-01 12:57:20.025424 with ADRT.-->
+	<!--Generated on 2018-06-05 17:10:35.310221 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -663,7 +663,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Sun Jun  3 14:03:04 2018.-->
 				<complete>
 					<size>42435735</size>
 					<checksum>9b6e86d8568558de4d606a7debc4f6049608dbd0</checksum>
@@ -1245,7 +1245,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Sat Jun  2 14:21:02 2018.-->
 				<complete>
 					<size>147081</size>
 					<checksum>5b933abe830b2f25b4c0f171d45e9e0651e56311</checksum>
@@ -2019,7 +2019,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue Jun  5 05:29:27 2018.-->
 				<complete>
 					<size>211432</size>
 					<checksum>dc14026bf0ce78315cb5dd00552607de0894de83</checksum>
@@ -2094,7 +2094,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue Jun  5 14:06:56 2018.-->
 				<complete>
 					<size>2167286</size>
 					<checksum>4fb5344e34e8faab4db18af07dace44c50db26a7</checksum>
@@ -2248,7 +2248,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
+				<!--Built on: Fri Jun  1 13:07:53 2018.-->
 				<complete>
 					<size>32388467</size>
 					<checksum>ad86a2350b7b9908300277bf03d41649659de384</checksum>
@@ -2523,7 +2523,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Fri Jun  1 16:34:05 2018.-->
 				<complete>
 					<size>95488</size>
 					<checksum>b7e390f940704f4f78e1eaa5f5a5dba3bc3e81ad</checksum>
@@ -2788,7 +2788,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
+				<!--Built on: Sun Jun  3 03:12:13 2018.-->
 				<complete>
 					<size>107335</size>
 					<checksum>28492fd42b20ae1586591ff906556d459cfdaae8</checksum>
@@ -3000,7 +3000,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Mon Jun  4 22:35:06 2018.-->
 				<complete>
 					<size>91207</size>
 					<checksum>b621b9d5adf273bb0725948589863e60e96eeaf1</checksum>

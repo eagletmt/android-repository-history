@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-01 12:56:53.834404 with ADRT.-->
+	<!--Generated on 2018-06-05 17:10:04.113383 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -614,7 +614,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Sun Jun  3 14:03:04 2018.-->
 				<sdk:size>42435735</sdk:size>
 				<sdk:checksum type="sha1">9b6e86d8568558de4d606a7debc4f6049608dbd0</sdk:checksum>
 				<sdk:url>google_apis-4_r02.zip</sdk:url>
@@ -1057,7 +1057,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:revision>20</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Sat Jun  2 14:21:02 2018.-->
 				<sdk:size>147081</sdk:size>
 				<sdk:checksum type="sha1">5b933abe830b2f25b4c0f171d45e9e0651e56311</sdk:checksum>
 				<sdk:url>google_apis-19_r20.zip</sdk:url>
@@ -1473,7 +1473,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue Jun  5 05:29:27 2018.-->
 				<sdk:size>211432</sdk:size>
 				<sdk:checksum type="sha1">dc14026bf0ce78315cb5dd00552607de0894de83</sdk:checksum>
 				<sdk:url>GoogleAnalyticsAndroid_2.0beta5.zip</sdk:url>
@@ -1537,7 +1537,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Tue Jun  5 14:06:56 2018.-->
 				<sdk:size>2167286</sdk:size>
 				<sdk:checksum type="sha1">4fb5344e34e8faab4db18af07dace44c50db26a7</sdk:checksum>
 				<sdk:url>simulator_r01.zip</sdk:url>

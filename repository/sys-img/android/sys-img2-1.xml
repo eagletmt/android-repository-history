@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-01 12:54:15.448212 with ADRT.-->
+	<!--Generated on 2018-06-05 17:07:52.699704 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -568,7 +568,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:35 2017.-->
+				<!--Built on: Sun Jun  3 11:29:59 2018.-->
 				<complete>
 					<size>67918042</size>
 					<checksum>54680383118eb5c95a11e1cc2a14aa572c86ee69</checksum>
@@ -662,7 +662,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:42 2017.-->
+				<!--Built on: Sun Jun  3 20:29:34 2018.-->
 				<complete>
 					<size>112608076</size>
 					<checksum>39c093ea755098f0ee79f607be7df9e54ba4943f</checksum>
@@ -1411,11 +1411,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-P;default;x86">
-		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+	<remotePackage path="system-images;android-28;default;x86">
+		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<codename>P</codename>
+			<api-level>28</api-level>
 			<tag>
 				<id>default</id>
 				<display>Default Android System Image</display>
@@ -1423,18 +1422,18 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May  3 10:36:27 2018.-->
+				<!--Built on: Wed May 23 16:35:31 2018.-->
 				<complete>
-					<size>405538915</size>
-					<checksum>1221bc819534c8210d549f91d46f1bdacf528a98</checksum>
-					<url>x86-P_r01.zip</url>
+					<size>412370448</size>
+					<checksum>91cfacbd9a95b2e805950a18c6ad9e3b851ea445</checksum>
+					<url>x86-28_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1599,11 +1598,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-P;default;x86_64">
-		<!--Generated from bid:4758566, branch:git_pi-preview2-release-->
+	<remotePackage path="system-images;android-28;default;x86_64">
+		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<codename>P</codename>
+			<api-level>28</api-level>
 			<tag>
 				<id>default</id>
 				<display>Default Android System Image</display>
@@ -1611,18 +1609,18 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May  3 10:39:41 2018.-->
+				<!--Built on: Wed May 23 16:36:08 2018.-->
 				<complete>
-					<size>515067583</size>
-					<checksum>1dc0be539a5dcc20a990ec475c7dc4dbb8e3748d</checksum>
-					<url>x86_64-P_r01.zip</url>
+					<size>532334499</size>
+					<checksum>57feae43c2042ae90016f572421b76d44fd317c4</checksum>
+					<url>x86_64-28_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
