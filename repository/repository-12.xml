@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-08 11:17:14.106886 with ADRT.-->
+	<!--Generated on 2018-06-12 11:39:11.860967 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -296,39 +296,39 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 June 2014.</sdk:license>
 	<sdk:ndk>
-		<!--Generated from bid:4754217, branch:aosp-ndk-release-r17-->
+		<!--Generated from bid:4828580, branch:aosp-ndk-release-r17-->
 		<sdk:description>NDK</sdk:description>
 		<sdk:revision>17</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue May  1 11:07:36 2018.-->
-				<sdk:size>672193611</sdk:size>
-				<sdk:checksum type="sha1">08015290bf88ba8fb348d7f5380929c2106524b3</sdk:checksum>
-				<sdk:url>android-ndk-r17-darwin-x86_64.zip</sdk:url>
+				<!--Built on: Thu Jun  7 20:41:22 2018.-->
+				<sdk:size>675091244</sdk:size>
+				<sdk:checksum type="sha1">f990aafaffec0b583d2c5420bfa622e52ac14248</sdk:checksum>
+				<sdk:url>android-ndk-r17b-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue May  1 11:07:58 2018.-->
-				<sdk:size>706134114</sdk:size>
-				<sdk:checksum type="sha1">1d886a64483adf3f3a3e3aaf7ac5084184006ac7</sdk:checksum>
-				<sdk:url>android-ndk-r17-linux-x86_64.zip</sdk:url>
+				<!--Built on: Thu Jun  7 20:41:42 2018.-->
+				<sdk:size>709381607</sdk:size>
+				<sdk:checksum type="sha1">dd5762ee7ef4995ad04fe0c45a608c344d99ca9f</sdk:checksum>
+				<sdk:url>android-ndk-r17b-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue May  1 11:06:59 2018.-->
-				<sdk:size>605250211</sdk:size>
-				<sdk:checksum type="sha1">22018a545e3e1f4236f65a2074ab2d66ef3f9a92</sdk:checksum>
-				<sdk:url>android-ndk-r17-windows-x86.zip</sdk:url>
+				<!--Built on: Thu Jun  7 20:40:47 2018.-->
+				<sdk:size>608351759</sdk:size>
+				<sdk:checksum type="sha1">41e4720fc10a993a336c7b416474bc3e1f8fb1e9</sdk:checksum>
+				<sdk:url>android-ndk-r17b-windows-x86.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>32</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue May  1 11:07:20 2018.-->
-				<sdk:size>647471060</sdk:size>
-				<sdk:checksum type="sha1">7856db171bd58a99d77158b9828c6c43453ae12d</sdk:checksum>
-				<sdk:url>android-ndk-r17-windows-x86_64.zip</sdk:url>
+				<!--Built on: Thu Jun  7 20:41:05 2018.-->
+				<sdk:size>650619341</sdk:size>
+				<sdk:checksum type="sha1">71d2ba2f1618a27a629ce019fc8e46f28ffdd49f</sdk:checksum>
+				<sdk:url>android-ndk-r17b-windows-x86_64.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
@@ -485,7 +485,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Sat May  5 18:24:13 2018.-->
+				<!--Built on: Sun Jun 10 15:55:29 2018.-->
 				<sdk:size>72306262</sdk:size>
 				<sdk:checksum type="sha1">d1e33880a53f1aa8c7e73534adef83a06f091185</sdk:checksum>
 				<sdk:url>lldb-2.1.2852477-darwin-x86_64.zip</sdk:url>
@@ -493,7 +493,7 @@ June 2014.</sdk:license>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:42 2017.-->
+				<!--Built on: Sun Jun 10 02:12:10 2018.-->
 				<sdk:size>73168196</sdk:size>
 				<sdk:checksum type="sha1">eb9b96d320210fdfe82495b0597ad43e77f1c240</sdk:checksum>
 				<sdk:url>lldb-2.1.2852477-linux-x86_64.zip</sdk:url>
@@ -1043,7 +1043,7 @@ June 2014.</sdk:license>
 		<sdk:revision>3</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Sat May  5 21:34:12 2018.-->
+				<!--Built on: Mon Jun 11 13:26:30 2018.-->
 				<sdk:size>74652366</sdk:size>
 				<sdk:checksum type="sha1">231262c63eefdff8fd0386e9ccfefeb27a8f9202</sdk:checksum>
 				<sdk:url>android-2.2_r03.zip</sdk:url>
@@ -1104,7 +1104,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:40 2017.-->
+				<!--Built on: Fri Jun  8 14:23:45 2018.-->
 				<sdk:size>80385601</sdk:size>
 				<sdk:checksum type="sha1">255781ebe4509d9707d0e77edda2815e2bc216e6</sdk:checksum>
 				<sdk:url>android-2.0.1_r01-windows.zip</sdk:url>
@@ -1260,7 +1260,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:35 2017.-->
+				<!--Built on: Fri Jun  8 18:57:19 2018.-->
 				<sdk:size>46828615</sdk:size>
 				<sdk:checksum type="sha1">a4060f29ed39fc929c302836d488998c53c3002e</sdk:checksum>
 				<sdk:url>android-1.1_r1-windows.zip</sdk:url>
@@ -1324,7 +1324,7 @@ June 2014.</sdk:license>
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri May  4 08:10:35 2018.-->
+				<!--Built on: Fri Jun  8 14:43:03 2018.-->
 				<sdk:size>30270410</sdk:size>
 				<sdk:checksum type="sha1">6b96115830a83d654479f32ce4b724ca9011148b</sdk:checksum>
 				<sdk:url>sources-24_r01.zip</sdk:url>
@@ -1338,7 +1338,7 @@ June 2014.</sdk:license>
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:43 2017.-->
+				<!--Built on: Sun Jun 10 14:12:23 2018.-->
 				<sdk:size>31771965</sdk:size>
 				<sdk:checksum type="sha1">b0f15da2762b42f543c5e364c2b15b198cc99cc2</sdk:checksum>
 				<sdk:url>sources-23_r01.zip</sdk:url>
@@ -1465,7 +1465,7 @@ June 2014.</sdk:license>
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Sun May  6 23:36:00 2018.-->
+				<!--Built on: Sat Jun  9 09:00:50 2018.-->
 				<sdk:size>16152383</sdk:size>
 				<sdk:checksum type="sha1">eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</sdk:checksum>
 				<sdk:url>sources-14_r01.zip</sdk:url>
@@ -1555,14 +1555,14 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sun May  6 11:10:06 2018.-->
+				<!--Built on: Sun Jun 10 21:05:54 2018.-->
 				<sdk:size>38004795</sdk:size>
 				<sdk:checksum type="sha1">2c77821967a2330b7b227072d0b1c02ef19fe2fc</sdk:checksum>
 				<sdk:url>build-tools_r28-rc1-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Feb 27 20:19:33 2018.-->
+				<!--Built on: Sat Jun  9 11:13:53 2018.-->
 				<sdk:size>39273232</sdk:size>
 				<sdk:checksum type="sha1">fbf46c33d1268f6532911707b2a05033fd5c5b41</sdk:checksum>
 				<sdk:url>build-tools_r28-rc1-windows.zip</sdk:url>
@@ -1619,7 +1619,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Nov 17 16:29:35 2017.-->
+				<!--Built on: Mon Jun 11 15:49:30 2018.-->
 				<sdk:size>53846615</sdk:size>
 				<sdk:checksum type="sha1">6d5d9cf2a47877f273f4b742b19e712a051a31be</sdk:checksum>
 				<sdk:url>build-tools_r27.0.2-macosx.zip</sdk:url>
@@ -1658,7 +1658,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:00:18 2017.-->
+				<!--Built on: Sun Jun 10 07:28:26 2018.-->
 				<sdk:size>55171114</sdk:size>
 				<sdk:checksum type="sha1">18109db020c6d088d0157d1df201d31bc6970875</sdk:checksum>
 				<sdk:url>build-tools_r27.0.1-windows.zip</sdk:url>
@@ -1683,7 +1683,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sat May  5 05:36:34 2018.-->
+				<!--Built on: Sat Jun  9 15:50:22 2018.-->
 				<sdk:size>53831513</sdk:size>
 				<sdk:checksum type="sha1">fb4e8d7e6b8d29a77090e34024077a80458d5ae1</sdk:checksum>
 				<sdk:url>build-tools_r27-macosx.zip</sdk:url>
@@ -1754,7 +1754,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:00:38 2017.-->
+				<!--Built on: Mon Jun 11 07:41:38 2018.-->
 				<sdk:size>55161474</sdk:size>
 				<sdk:checksum type="sha1">39ca02d3faa49859cd9d1bc0adc2f331017b699b</sdk:checksum>
 				<sdk:url>build-tools_r26.0.2-windows.zip</sdk:url>
@@ -1772,7 +1772,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:45 2017.-->
+				<!--Built on: Fri Jun  8 18:48:52 2018.-->
 				<sdk:size>54113329</sdk:size>
 				<sdk:checksum type="sha1">5378c2c78091b414d0eac40a6bd37f2faa31a365</sdk:checksum>
 				<sdk:url>build-tools_r26.0.1-linux.zip</sdk:url>
@@ -1811,7 +1811,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:42 2017.-->
+				<!--Built on: Sat Jun  9 20:38:32 2018.-->
 				<sdk:size>53010814</sdk:size>
 				<sdk:checksum type="sha1">d01a1aeca03747245f1f5936b3cb01759c66d086</sdk:checksum>
 				<sdk:url>build-tools_r26-macosx.zip</sdk:url>
@@ -2030,7 +2030,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:36 2017.-->
+				<!--Built on: Sun Jun 10 09:52:06 2018.-->
 				<sdk:size>49779151</sdk:size>
 				<sdk:checksum type="sha1">9e8cc49d66e03fa1a8ecc1ac3e58f1324f5da304</sdk:checksum>
 				<sdk:url>build-tools_r24.0.3-linux.zip</sdk:url>
@@ -2133,14 +2133,14 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sun May  6 08:20:50 2018.-->
+				<!--Built on: Sun Jun 10 20:05:01 2018.-->
 				<sdk:size>48747930</sdk:size>
 				<sdk:checksum type="sha1">97fc4ed442f23989cc488d02c1d1de9bdde241de</sdk:checksum>
 				<sdk:url>build-tools_r24-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:35 2017.-->
+				<!--Built on: Sun Jun 10 15:13:01 2018.-->
 				<sdk:size>49535326</sdk:size>
 				<sdk:checksum type="sha1">dc61b9e5b451a0c3ec42ae2b1ce27c4d3c8da9f7</sdk:checksum>
 				<sdk:url>build-tools_r24-windows.zip</sdk:url>
@@ -2197,14 +2197,14 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sun May  6 01:21:17 2018.-->
+				<!--Built on: Fri Jun  8 14:28:55 2018.-->
 				<sdk:size>39679533</sdk:size>
 				<sdk:checksum type="sha1">fbc98cd303fd15a31d472de6c03bd707829f00b0</sdk:checksum>
 				<sdk:url>build-tools_r23.0.3-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:34 2017.-->
+				<!--Built on: Sat Jun  9 16:05:42 2018.-->
 				<sdk:size>39869945</sdk:size>
 				<sdk:checksum type="sha1">c6d8266c6a3243c8f1e41b786c0e3cee4c781263</sdk:checksum>
 				<sdk:url>build-tools_r23.0.3-windows.zip</sdk:url>
@@ -2229,7 +2229,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu May  3 11:49:57 2018.-->
+				<!--Built on: Tue Jun 12 04:52:07 2018.-->
 				<sdk:size>38059328</sdk:size>
 				<sdk:checksum type="sha1">d96ec1522721e9a179ae2c591c99f75d31d39718</sdk:checksum>
 				<sdk:url>build-tools_r23.0.1-macosx.zip</sdk:url>
@@ -2294,7 +2294,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:44 2017.-->
+				<!--Built on: Mon Jun 11 09:42:44 2018.-->
 				<sdk:size>33646102</sdk:size>
 				<sdk:checksum type="sha1">53dad7f608e01d53b17176ba11165acbfccc5bbf</sdk:checksum>
 				<sdk:url>build-tools_r22.0.1-macosx.zip</sdk:url>
@@ -2458,7 +2458,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sat May  5 16:33:03 2018.-->
+				<!--Built on: Sun Jun 10 08:07:31 2018.-->
 				<sdk:size>22668597</sdk:size>
 				<sdk:checksum type="sha1">f17471c154058f3734729ef3cc363399b1cd3de1</sdk:checksum>
 				<sdk:url>build-tools_r21.0.2-macosx.zip</sdk:url>
@@ -2491,14 +2491,14 @@ June 2014.</sdk:license>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:40 2017.-->
+				<!--Built on: Sat Jun  9 12:04:35 2018.-->
 				<sdk:size>22668616</sdk:size>
 				<sdk:checksum type="sha1">b60c8f9b810c980abafa04896706f3911be1ade7</sdk:checksum>
 				<sdk:url>build-tools_r21.0.1-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:40 2017.-->
+				<!--Built on: Mon Jun 11 17:48:54 2018.-->
 				<sdk:size>22306243</sdk:size>
 				<sdk:checksum type="sha1">d68e7e6fd7a48c8759aa41d713c9d4f0e4c1c1df</sdk:checksum>
 				<sdk:url>build-tools_r21.0.1-windows.zip</sdk:url>
@@ -2694,7 +2694,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sun May  6 21:30:36 2018.-->
+				<!--Built on: Sun Jun 10 05:45:57 2018.-->
 				<sdk:size>20500648</sdk:size>
 				<sdk:checksum type="sha1">5ef422bac5b28f4ced108319ed4a6bc7050a6234</sdk:checksum>
 				<sdk:url>build-tools_r19.0.1-windows.zip</sdk:url>
@@ -2812,7 +2812,7 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed Nov  8 11:07:45 2017.-->
+				<!--Built on: Sun Jun 10 13:17:31 2018.-->
 				<sdk:size>16627330</sdk:size>
 				<sdk:checksum type="sha1">f11618492b0d2270c332325d45d752d3656a9640</sdk:checksum>
 				<sdk:url>build-tools_r18.0.1-linux.zip</sdk:url>
@@ -2859,7 +2859,7 @@ June 2014.</sdk:license>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Sat May  5 10:16:36 2018.-->
+				<!--Built on: Fri Jun  8 13:26:17 2018.-->
 				<sdk:size>11004914</sdk:size>
 				<sdk:checksum type="sha1">899897d327b0bad492d3a40d3db4d96119c15bc0</sdk:checksum>
 				<sdk:url>build-tools_r17-windows.zip</sdk:url>
