@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-05 17:07:52.699704 with ADRT.-->
+	<!--Generated on 2018-06-29 16:04:30.717684 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -625,7 +625,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:32 2017.-->
+				<!--Built on: Fri Jun  8 22:23:30 2018.-->
 				<complete>
 					<size>102079727</size>
 					<checksum>363223bd62f5afc0b2bd760b54ce9d26b31eacf1</checksum>
@@ -692,7 +692,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat May  5 09:01:05 2018.-->
+				<!--Built on: Wed Jun 13 19:46:58 2018.-->
 				<complete>
 					<size>124238679</size>
 					<checksum>7460e8110f4a87f9644f1bdb5511a66872d50fd9</checksum>
@@ -732,7 +732,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 04:42:11 2018.-->
+				<!--Built on: Fri Jun  8 10:40:26 2018.-->
 				<complete>
 					<size>130394401</size>
 					<checksum>0bf34ecf4ddd53f6b1b7fe7dfa12f2887c17e642</checksum>
@@ -812,7 +812,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Mon Jun 18 04:46:38 2018.-->
 				<complete>
 					<size>187163871</size>
 					<checksum>8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
@@ -892,7 +892,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:34 2017.-->
+				<!--Built on: Wed Jun  6 16:47:01 2018.-->
 				<complete>
 					<size>238333358</size>
 					<checksum>7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
@@ -960,7 +960,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:32 2017.-->
+				<!--Built on: Sat Jun  9 05:09:08 2018.-->
 				<complete>
 					<size>384556503</size>
 					<checksum>e8ab2e49e4efe4b064232b33b5eeaded61437d7f</checksum>
@@ -987,7 +987,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:43 2017.-->
+				<!--Built on: Tue Jun  5 22:01:30 2018.-->
 				<complete>
 					<size>117503178</size>
 					<checksum>a753bb4a6783124dad726c500ce9aec9d2c1b2d9</checksum>
@@ -1014,7 +1014,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:43 2017.-->
+				<!--Built on: Thu Jun  7 22:00:55 2018.-->
 				<complete>
 					<size>122482530</size>
 					<checksum>67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
@@ -1095,7 +1095,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:33 2017.-->
+				<!--Built on: Thu Jun 14 06:46:17 2018.-->
 				<complete>
 					<size>115324561</size>
 					<checksum>e45c728b64881c0e86529a8f7ea9c103a3cd14c1</checksum>
@@ -1192,7 +1192,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 17:26:45 2018.-->
+				<!--Built on: Tue Jun 12 08:31:17 2018.-->
 				<complete>
 					<size>149657535</size>
 					<checksum>03a0cb23465c3de15215934a1dbc9715b56e9458</checksum>
@@ -1232,7 +1232,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:38 2017.-->
+				<!--Built on: Wed Jun 13 18:42:22 2018.-->
 				<complete>
 					<size>185886274</size>
 					<checksum>2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
@@ -1352,7 +1352,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:40 2017.-->
+				<!--Built on: Tue Jun  5 22:05:27 2018.-->
 				<complete>
 					<size>260804863</size>
 					<checksum>f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
@@ -1412,7 +1412,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;default;x86">
-		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
+		<!--Generated from bid:4860066, branch:git_pi-preview4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -1422,18 +1422,18 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 23 16:35:31 2018.-->
+				<!--Built on: Mon Jun 25 21:26:40 2018.-->
 				<complete>
-					<size>412370448</size>
-					<checksum>91cfacbd9a95b2e805950a18c6ad9e3b851ea445</checksum>
-					<url>x86-28_r02.zip</url>
+					<size>435712155</size>
+					<checksum>4e082136c8b9d152ef08479a5e295f23fd360b7a</checksum>
+					<url>x86-28_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1459,7 +1459,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:42 2017.-->
+				<!--Built on: Wed Jun  6 04:05:38 2018.-->
 				<complete>
 					<size>292623982</size>
 					<checksum>9078a095825a69e5e215713f0866c83cef65a342</checksum>
@@ -1539,7 +1539,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:43 2017.-->
+				<!--Built on: Tue Jun 12 05:59:42 2018.-->
 				<complete>
 					<size>365009313</size>
 					<checksum>7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
@@ -1579,7 +1579,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:00:43 2017.-->
+				<!--Built on: Sat Jun 16 05:29:19 2018.-->
 				<complete>
 					<size>419261998</size>
 					<checksum>f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
@@ -1599,7 +1599,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;default;x86_64">
-		<!--Generated from bid:4799589, branch:git_pi-preview3-release-->
+		<!--Generated from bid:4860066, branch:git_pi-preview4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -1609,18 +1609,18 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 23 16:36:08 2018.-->
+				<!--Built on: Mon Jun 25 21:30:55 2018.-->
 				<complete>
-					<size>532334499</size>
-					<checksum>57feae43c2042ae90016f572421b76d44fd317c4</checksum>
-					<url>x86_64-28_r02.zip</url>
+					<size>563238774</size>
+					<checksum>f0c0fbcc6a73aeedc1934d5cb22285c526cf081c</checksum>
+					<url>x86_64-28_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

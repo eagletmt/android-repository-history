@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-05 17:10:35.310221 with ADRT.-->
+	<!--Generated on 2018-06-29 16:06:43.643341 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -699,7 +699,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:06 2017.-->
+				<!--Built on: Tue Jun  5 17:50:33 2018.-->
 				<complete>
 					<size>49123776</size>
 					<checksum>46eaeb56b645ee7ffa24ede8fa17f3df70db0503</checksum>
@@ -735,7 +735,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:06 2017.-->
+				<!--Built on: Sun Jun 10 12:37:49 2018.-->
 				<complete>
 					<size>53382941</size>
 					<checksum>5ff545d96e031e09580a6cf55713015c7d4936b2</checksum>
@@ -807,7 +807,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun May  6 09:21:30 2018.-->
+				<!--Built on: Mon Jun 11 03:39:55 2018.-->
 				<complete>
 					<size>59505020</size>
 					<checksum>3079958e7ec87222cac1e6b27bc471b27bf2c352</checksum>
@@ -918,7 +918,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Thu Jun 14 15:13:30 2018.-->
 				<complete>
 					<size>83477179</size>
 					<checksum>5eab5e81addee9f3576d456d205208314b5146a5</checksum>
@@ -957,7 +957,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Mon Jun 11 10:52:20 2018.-->
 				<complete>
 					<size>86099835</size>
 					<checksum>e9999f4fa978812174dfeceec0721c793a636e5d</checksum>
@@ -1035,7 +1035,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Wed Jun 13 22:44:43 2018.-->
 				<complete>
 					<size>106533714</size>
 					<checksum>f8eb4d96ad0492b4c0db2d7e4f1a1a3836664d39</checksum>
@@ -1077,7 +1077,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May  4 21:27:27 2018.-->
+				<!--Built on: Fri Jun 15 19:37:58 2018.-->
 				<complete>
 					<size>106624396</size>
 					<checksum>d0d2bf26805eb271693570a1aaec33e7dc3f45e9</checksum>
@@ -1119,7 +1119,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Sun Jun 10 20:07:39 2018.-->
 				<complete>
 					<size>127341982</size>
 					<checksum>ee6acf1b01020bfa8a8e24725dbc4478bee5e792</checksum>
@@ -1329,7 +1329,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Tue Jun 12 20:09:06 2018.-->
 				<complete>
 					<size>154871</size>
 					<checksum>550e83eea9513ab11c44919ac6da54b36084a9f3</checksum>
@@ -1371,7 +1371,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 12:49:55 2018.-->
+				<!--Built on: Mon Jun 11 05:08:59 2018.-->
 				<complete>
 					<size>179499</size>
 					<checksum>66a754efb24e9bb07cc51648426443c7586c9d4a</checksum>
@@ -1413,7 +1413,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 00:10:03 2018.-->
+				<!--Built on: Fri Jun 15 06:11:24 2018.-->
 				<complete>
 					<size>179259</size>
 					<checksum>5def0f42160cba8acff51b9c0c7e8be313de84f5</checksum>
@@ -1455,7 +1455,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Sun Jun 10 08:57:09 2018.-->
 				<complete>
 					<size>179900</size>
 					<checksum>04c5cc1a7c88967250ebba9561d81e24104167db</checksum>
@@ -1517,7 +1517,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 13:33:57 2018.-->
+				<!--Built on: Tue Jun 19 05:04:20 2018.-->
 				<complete>
 					<size>87721879</size>
 					<checksum>b73f7c66011ac8180b44aa4e83b8d78c66ea9a09</checksum>
@@ -1544,7 +1544,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:05 2017.-->
+				<!--Built on: Mon Jun 11 04:51:54 2018.-->
 				<complete>
 					<size>355529608</size>
 					<checksum>a0d22beacc106a6977321f2b07d692ce4979e96a</checksum>
@@ -1572,7 +1572,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:10 2017.-->
+				<!--Built on: Mon Jun 11 11:10:27 2018.-->
 				<complete>
 					<size>215426029</size>
 					<checksum>05086add9e3a0eb1b67111108d7757a4337c3f10</checksum>
@@ -1759,7 +1759,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Sun Jun 10 01:20:16 2018.-->
 				<complete>
 					<size>75109</size>
 					<checksum>355e8dc304a92a5616db235af8ee7bd554356254</checksum>
@@ -1784,7 +1784,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Sun Jun 17 19:31:02 2018.-->
 				<complete>
 					<size>110201</size>
 					<checksum>5305399dc1a56814e86b8459ce24871916f78b8c</checksum>
@@ -1837,7 +1837,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Mar 19 14:56:00 2018.-->
+				<!--Built on: Mon Jun 11 08:08:54 2018.-->
 				<complete>
 					<size>15456884</size>
 					<checksum>f95bf19634e2ab0430923247fe2c50246432d2e9</checksum>
@@ -1968,7 +1968,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:02 2017.-->
+				<!--Built on: Thu Jun  7 01:53:27 2018.-->
 				<complete>
 					<size>8682859</size>
 					<checksum>dc8a2ed2fbd7246d4caf9ab10ffe7749dc35d1cc</checksum>
@@ -1994,7 +1994,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Thu Jun  7 11:48:51 2018.-->
 				<complete>
 					<size>704512</size>
 					<checksum>0102859d9575baa0bf4fd5eb422af2ad0fe6cb82</checksum>
@@ -2120,7 +2120,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Sat Jun 16 20:44:31 2018.-->
 				<complete>
 					<size>1346009</size>
 					<checksum>202a6e1b3009a0eb815f8c672d2d5b3717de6169</checksum>
@@ -2129,7 +2129,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Tue Jun 12 06:56:07 2018.-->
 				<complete>
 					<size>2375533</size>
 					<checksum>8179cbb3914493ebc5eb65b731cba061582f2e84</checksum>
@@ -2138,7 +2138,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:04 2017.-->
+				<!--Built on: Tue Jun 12 13:47:09 2018.-->
 				<complete>
 					<size>2691901</size>
 					<checksum>99c4a7172d73673552119347bc24c58b47da177b</checksum>
@@ -2211,7 +2211,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:00 2017.-->
+				<!--Built on: Fri Jun  8 16:55:53 2018.-->
 				<complete>
 					<size>13220091</size>
 					<checksum>82c9b3eb1b281f27f58fe55025227148b3deb12e</checksum>
@@ -2239,7 +2239,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:58 2017.-->
+				<!--Built on: Fri Jun  8 01:05:42 2018.-->
 				<complete>
 					<size>31528127</size>
 					<checksum>e40371ba191f617e4e79bc760d0ab2948ba8cf46</checksum>
@@ -2339,7 +2339,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:06 2017.-->
+				<!--Built on: Sun Jun 17 13:50:00 2018.-->
 				<complete>
 					<size>18288</size>
 					<checksum>1a26fb79d98421f315ead7ad15be167727533026</checksum>
@@ -2417,7 +2417,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  8 01:14:00 2018.-->
+				<!--Built on: Mon Jun 18 05:27:08 2018.-->
 				<complete>
 					<size>95406</size>
 					<checksum>2aa2aceecc6ba172742d0af0b43f11d03924eeb8</checksum>
@@ -2576,7 +2576,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat May  5 15:51:58 2018.-->
+				<!--Built on: Mon Jun 11 21:54:52 2018.-->
 				<complete>
 					<size>95487</size>
 					<checksum>f08be3c306bf878de31c465e46a266c52014a13f</checksum>
@@ -2604,7 +2604,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:08 2017.-->
+				<!--Built on: Thu Jun 14 20:39:27 2018.-->
 				<complete>
 					<size>24797</size>
 					<checksum>7912ba03b04831f918f523648f118c4ee4da7604</checksum>
@@ -2629,7 +2629,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:58 2017.-->
+				<!--Built on: Mon Jun 11 11:49:59 2018.-->
 				<complete>
 					<size>97549</size>
 					<checksum>cd13d16a8f0198c1d6040ec8b1d0d4e5bb7feb6a</checksum>
@@ -2682,7 +2682,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
+				<!--Built on: Thu Jun  7 00:18:28 2018.-->
 				<complete>
 					<size>103824</size>
 					<checksum>2c52ddd883d83230a17042b8f4ba03669f0f5f40</checksum>
@@ -2710,7 +2710,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:08 2017.-->
+				<!--Built on: Mon Jun 18 05:57:31 2018.-->
 				<complete>
 					<size>31750</size>
 					<checksum>11f2f5cec4ff02986bad75435e5be77b704b4c64</checksum>
@@ -2735,7 +2735,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:06:59 2017.-->
+				<!--Built on: Sun Jun 10 06:06:23 2018.-->
 				<complete>
 					<size>104706</size>
 					<checksum>042c25575e7650e96f0f5f5d1d3c54ed38eb821a</checksum>
@@ -2763,7 +2763,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 16:27:39 2018.-->
+				<!--Built on: Tue Jun 12 19:23:55 2018.-->
 				<complete>
 					<size>31812</size>
 					<checksum>623939865ede2e5c2c975dc55963e0d182bcce95</checksum>
@@ -2816,7 +2816,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:09 2017.-->
+				<!--Built on: Tue Jun 12 19:32:43 2018.-->
 				<complete>
 					<size>32622</size>
 					<checksum>d78bb6a8ce92005fb1e4ed55d892a65b4258c60b</checksum>
@@ -2922,7 +2922,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  7 06:41:27 2018.-->
+				<!--Built on: Thu Jun 14 19:27:43 2018.-->
 				<complete>
 					<size>39266</size>
 					<checksum>4660f6c7a576ea1364f0c3225db71c29ca660d9a</checksum>
@@ -2947,7 +2947,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Sun Jun 17 07:33:52 2018.-->
 				<complete>
 					<size>92284</size>
 					<checksum>3918cfef73e64048d0b3e048068e208b414e7e91</checksum>
@@ -3028,7 +3028,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Sun Jun 10 19:19:18 2018.-->
 				<complete>
 					<size>39547</size>
 					<checksum>342b0894b8651fff37586f80f383733e97aba9f9</checksum>
@@ -3053,7 +3053,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:03 2017.-->
+				<!--Built on: Mon Jun 11 08:44:59 2018.-->
 				<complete>
 					<size>91823</size>
 					<checksum>76f8823def9a6da8954a54737762a6820bc1d043</checksum>
@@ -3081,7 +3081,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov  8 11:07:01 2017.-->
+				<!--Built on: Fri Jun 15 18:25:12 2018.-->
 				<complete>
 					<size>39625</size>
 					<checksum>3d9688a50fe0ed7348275f85d1b02278f616d8a4</checksum>

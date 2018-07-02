@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-21 08:12:22.814207 with ADRT.-->
+	<!--Generated on 2018-06-29 16:01:23.310051 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2183,6 +2183,47 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;28.0.1">
+		<!--Generated from bid:4860066, branch:pi-preview4-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>28</major>
+			<minor>0</minor>
+			<micro>1</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 28.0.1</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Jun 26 16:23:22 2018.-->
+				<complete>
+					<size>57610954</size>
+					<checksum>ee70dfa1fccb58b37cebc9544830511f36a137a0</checksum>
+					<url>build-tools_r28.0.1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Jun 26 16:23:20 2018.-->
+				<complete>
+					<size>56913869</size>
+					<checksum>aeef42ad953f1630dd6f5d71eefdc0b825211462</checksum>
+					<url>build-tools_r28.0.1-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Jun 26 16:23:17 2018.-->
+				<complete>
+					<size>58173989</size>
+					<checksum>29c6342835734be25b9e458ab3fad5750ad6a355</checksum>
+					<url>build-tools_r28.0.1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>

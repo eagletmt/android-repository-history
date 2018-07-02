@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-21 08:12:38.385130 with ADRT.-->
+	<!--Generated on 2018-06-29 16:04:06.519736 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1473,6 +1473,38 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
+	<sdk:build-tool>
+		<!--Generated from bid:4860066, branch:pi-preview4-release-->
+		<sdk:revision>
+			<sdk:major>28</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>1</sdk:micro>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Tue Jun 26 16:23:22 2018.-->
+				<sdk:size>57610954</sdk:size>
+				<sdk:checksum type="sha1">ee70dfa1fccb58b37cebc9544830511f36a137a0</sdk:checksum>
+				<sdk:url>build-tools_r28.0.1-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Jun 26 16:23:20 2018.-->
+				<sdk:size>56913869</sdk:size>
+				<sdk:checksum type="sha1">aeef42ad953f1630dd6f5d71eefdc0b825211462</sdk:checksum>
+				<sdk:url>build-tools_r28.0.1-macosx.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Tue Jun 26 16:23:17 2018.-->
+				<sdk:size>58173989</sdk:size>
+				<sdk:checksum type="sha1">29c6342835734be25b9e458ab3fad5750ad6a355</sdk:checksum>
+				<sdk:url>build-tools_r28.0.1-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:build-tool>
 	<sdk:build-tool>
 		<!--Generated from bid:4799589, branch:pi-preview3-release-->
 		<sdk:revision>
