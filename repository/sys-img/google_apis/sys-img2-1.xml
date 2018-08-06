@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-29 16:05:40.479273 with ADRT.-->
+	<!--Generated on 2018-08-03 15:31:14.398719 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -572,7 +572,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun 19 14:47:44 2018.-->
+				<!--Built on: Fri Jul 27 08:50:42 2018.-->
 				<complete>
 					<size>110716848</size>
 					<checksum>cb60221d4ff6686ae96560970d48d9aa60e80b3f</checksum>
@@ -603,7 +603,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 18 22:09:44 2018.-->
+				<!--Built on: Fri Jul 27 08:50:43 2018.-->
 				<complete>
 					<size>118648586</size>
 					<checksum>b8e8a4ab26890c4a395fb796bf9cb7ceb51c880e</checksum>
@@ -634,7 +634,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 25 05:43:36 2018.-->
+				<!--Built on: Fri Jul 27 08:50:49 2018.-->
 				<complete>
 					<size>148410647</size>
 					<checksum>1ec4e6f9014fcbe694511280f5b497aaf7dd750f</checksum>
@@ -668,7 +668,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 18 00:24:11 2018.-->
+				<!--Built on: Fri Jul 27 08:55:05 2018.-->
 				<complete>
 					<size>163102902</size>
 					<checksum>f2b98baaf847ff5b82b82fdc6c396b229067307b</checksum>
@@ -712,7 +712,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 24 22:09:19 2018.-->
+				<!--Built on: Fri Jul 27 08:58:18 2018.-->
 				<complete>
 					<size>186375868</size>
 					<checksum>7edc5c0836fa32f8d453788c002ca0ee1bc5a0a2</checksum>
@@ -753,7 +753,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 18 16:07:05 2018.-->
+				<!--Built on: Fri Jul 27 08:50:56 2018.-->
 				<complete>
 					<size>174430788</size>
 					<checksum>c990f2a81c24a61f9f1da5d5d205f2924ce548ae</checksum>
@@ -784,7 +784,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jun  8 19:51:12 2018.-->
+				<!--Built on: Fri Jul 27 08:50:57 2018.-->
 				<complete>
 					<size>194550080</size>
 					<checksum>d89591526b66d7c475056b755dd20348bd6e5d75</checksum>
@@ -815,7 +815,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun 19 14:45:45 2018.-->
+				<!--Built on: Fri Jul 27 08:51:02 2018.-->
 				<complete>
 					<size>178803998</size>
 					<checksum>c4e69a96d4584f7e311e358fe4ad0e5d1bf1605b</checksum>
@@ -846,7 +846,7 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 30 00:01:56 2018.-->
+				<!--Built on: Fri Jul 27 08:51:04 2018.-->
 				<complete>
 					<size>199522085</size>
 					<checksum>2b34741693eba9419cb6bf1a467596783234d37a</checksum>
@@ -1933,7 +1933,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;google_apis;x86">
-		<!--Generated from bid:4860066, branch:pi-release-addon-x86-->
+		<!--Generated from bid:4923214, branch:git_pi-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -1947,7 +1947,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1964,27 +1964,17 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 25 15:56:05 2018.-->
+				<!--Built on: Tue Jul 31 17:45:46 2018.-->
 				<complete>
-					<size>861974302</size>
-					<checksum>742434f37e4c8936bf2e6f6d3d8dee1d6f9cb50a</checksum>
-					<url>x86-28_r04.zip</url>
+					<size>892067442</size>
+					<checksum>71bd18190f227077fff8012113d75e76dda1303d</checksum>
+					<url>x86-28_r05.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>251103084</size>
-						<checksum>9d5ebf17b1145ba4fde039feda85f07027ce91b6</checksum>
-						<url>sys-img-4799589-sdk_gphone_x86-sdk_addon-4860066-sdk_gphone_x86-sdk_addon-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;google_apis;x86_64">
-		<!--Generated from bid:4860066, branch:pi-release-addon-x86_64-->
+		<!--Generated from bid:4923214, branch:git_pi-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -1998,7 +1988,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2015,11 +2005,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 25 16:09:16 2018.-->
+				<!--Built on: Tue Jul 31 17:47:01 2018.-->
 				<complete>
-					<size>1005727048</size>
-					<checksum>64a5ba4754d6b06d0bc54d881ffc66477515e44a</checksum>
-					<url>x86_64-28_r04.zip</url>
+					<size>1041340212</size>
+					<checksum>cd10ec70971b37d6aca9a0aa07475a604b8186ee</checksum>
+					<url>x86_64-28_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>

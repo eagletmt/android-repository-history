@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-06-29 16:06:13.104671 with ADRT.-->
+	<!--Generated on 2018-08-03 15:31:58.177508 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -763,7 +763,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;google_apis_playstore;x86">
-		<!--Generated from bid:4860066, branch:pi-release-playstore-x86-->
+		<!--Generated from bid:4923214, branch:pi-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -777,7 +777,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -794,27 +794,17 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 25 22:02:46 2018.-->
+				<!--Built on: Tue Jul 31 17:47:53 2018.-->
 				<complete>
-					<size>857724544</size>
-					<checksum>d6626782785e8d7b40598db8f949e42d020a6cf1</checksum>
-					<url>x86-28_r04.zip</url>
+					<size>872969448</size>
+					<checksum>4c570d259e93b0b27f97bad1aca2ac47f1e9b51a</checksum>
+					<url>x86-28_r05.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>256809988</size>
-						<checksum>406a72d711b7624b3fd18f6d9ed00eb6a9222626</checksum>
-						<url>sys-img-4799589-sdk_gphone_x86-user-4860066-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;google_apis_playstore;x86_64">
-		<!--Generated from bid:4860066, branch:pi-release-playstore-x86_64-->
+		<!--Generated from bid:4923214, branch:pi-release-playstore-x86_64-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
@@ -828,7 +818,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -845,11 +835,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 25 22:11:30 2018.-->
+				<!--Built on: Tue Jul 31 17:48:25 2018.-->
 				<complete>
-					<size>985903407</size>
-					<checksum>792db242bade913a8f6094c80c3d3ebaa48651a9</checksum>
-					<url>x86_64-28_r04.zip</url>
+					<size>1001166017</size>
+					<checksum>5f6b238e4c7de41fd2a1c66841093bcf517255a1</checksum>
+					<url>x86_64-28_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
