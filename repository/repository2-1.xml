@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-03 15:29:04.699960 with ADRT.-->
+	<!--Generated on 2018-08-09 10:53:29.319854 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1124,6 +1124,29 @@ June 2014.</license>
 					<url>android-1.1_r1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="sources;android-28">
+		<!--Generated from bid:4898911, branch:git_pi-release-->
+		<type-details xsi:type="sdk:sourceDetailsType">
+			<api-level>28</api-level>
+			<codename></codename>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Sources for Android 28</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Aug  8 15:54:23 2018.-->
+				<complete>
+					<size>42552241</size>
+					<checksum>5610e0c24235ee3fa343c899ddd551be30315255</checksum>
+					<url>sources-28_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
