@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-03 15:29:49.133630 with ADRT.-->
+	<!--Generated on 2018-08-17 14:17:11.018639 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1364,6 +1364,96 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-25;default;x86">
+		<!--Generated from bid:4931657, branch:git_nyc-mr1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>25</api-level>
+			<tag>
+				<id>default</id>
+				<display></display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:04:45 2018.-->
+				<complete>
+					<size>316695942</size>
+					<checksum>78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
+					<url>x86-25_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-26;default;x86">
+		<!--Generated from bid:4931640, branch:git_oc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>26</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:05:14 2018.-->
+				<complete>
+					<size>350195807</size>
+					<checksum>e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
+					<url>x86-26_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-27;default;x86">
+		<!--Generated from bid:4931629, branch:git_oc-mr1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>27</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:05:43 2018.-->
+				<complete>
+					<size>360984187</size>
+					<checksum>4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
+					<url>x86-27_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-28;default;x86">
 		<!--Generated from bid:4923214, branch:git_pi-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -1548,6 +1638,96 @@ August 15, 2011</license>
 						<url>sys-img-3245079-sdk_phone_x86_64-sdk-4174735-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-25;default;x86_64">
+		<!--Generated from bid:4931657, branch:git_nyc-mr1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>25</api-level>
+			<tag>
+				<id>default</id>
+				<display></display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:06:13 2018.-->
+				<complete>
+					<size>422702097</size>
+					<checksum>7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
+					<url>x86_64-25_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-26;default;x86_64">
+		<!--Generated from bid:4931640, branch:git_oc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>26</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:06:52 2018.-->
+				<complete>
+					<size>474178332</size>
+					<checksum>432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
+					<url>x86_64-26_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-27;default;x86_64">
+		<!--Generated from bid:4931629, branch:git_oc-mr1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>27</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Aug  7 14:07:35 2018.-->
+				<complete>
+					<size>491675204</size>
+					<checksum>2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
+					<url>x86_64-27_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
