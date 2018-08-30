@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-03 15:32:34.668262 with ADRT.-->
+	<!--Generated on 2018-08-29 15:53:26.914355 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2149,7 +2149,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;instantapps">
-		<!--Generated from p4 cl:195897583-->
+		<!--Generated from p4 cl:210450188-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -2158,19 +2158,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</type-details>
 		<revision>
 			<major>1</major>
-			<minor>3</minor>
+			<minor>4</minor>
 			<micro>0</micro>
 		</revision>
-		<display-name>Instant Apps Development SDK</display-name>
+		<display-name>Google Play Instant Development SDK</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  8 16:47:56 2018.-->
+				<!--Built on: Mon Aug 27 16:25:06 2018.-->
 				<complete>
-					<size>22561735</size>
-					<checksum>83da81493dc7e95e0200b7da53f0bd66c8f143e2</checksum>
-					<url>aiasdk-1.3.0-1525823131.zip</url>
+					<size>32485472</size>
+					<checksum>8137a2a17ba78ff16221aaafb9b25ec268a25b48</checksum>
+					<url>iasdk-1.4.0-1535411267.zip</url>
 				</complete>
 			</archive>
 		</archives>
