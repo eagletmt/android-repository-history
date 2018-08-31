@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-31 08:37:18.406930 with ADRT.-->
+	<!--Generated on 2018-08-31 15:20:07.852755 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4293,41 +4293,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:4797878 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:4986621 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 23 16:23:18 2018.-->
+				<!--Built on: Fri Aug 31 09:51:45 2018.-->
 				<complete>
-					<size>5437513</size>
-					<checksum>18bd62818aef3ce91dec438121a9a7b836b23c9f</checksum>
-					<url>platform-tools_r28.0.0-darwin.zip</url>
+					<size>6848749</size>
+					<checksum>ed1edad4a48c27655ce98d0a5821e7296e9de145</checksum>
+					<url>platform-tools_r28.0.1-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 23 16:23:14 2018.-->
+				<!--Built on: Fri Aug 31 09:51:40 2018.-->
 				<complete>
-					<size>5469856</size>
-					<checksum>f944e69bc96ad2984a7e19febb3f3569b216699f</checksum>
-					<url>platform-tools_r28.0.0-linux.zip</url>
+					<size>6843966</size>
+					<checksum>74ff83bc203f01c4f04bd9316ab5a2573f023fd1</checksum>
+					<url>platform-tools_r28.0.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 23 16:23:16 2018.-->
+				<!--Built on: Fri Aug 31 09:51:43 2018.-->
 				<complete>
-					<size>4775185</size>
-					<checksum>64e130b2c3bab7b000db52a39a2e72f648633f47</checksum>
-					<url>platform-tools_r28.0.0-windows.zip</url>
+					<size>6183783</size>
+					<checksum>5a44d10d41725aa718c71b6e44bc2dea6f1a7f49</checksum>
+					<url>platform-tools_r28.0.1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

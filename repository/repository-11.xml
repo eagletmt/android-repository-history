@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-31 08:41:26.970969 with ADRT.-->
+	<!--Generated on 2018-08-31 15:24:25.352245 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2719,32 +2719,32 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:build-tool>
 	<sdk:platform-tool>
-		<!--Generated from bid:4797878, branch:aosp-sdk-release-->
+		<!--Generated from bid:4986621, branch:aosp-sdk-release-->
 		<sdk:revision>
 			<sdk:major>28</sdk:major>
 			<sdk:minor>0</sdk:minor>
-			<sdk:micro>0</sdk:micro>
+			<sdk:micro>1</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Wed May 23 16:23:18 2018.-->
-				<sdk:size>5437513</sdk:size>
-				<sdk:checksum type="sha1">18bd62818aef3ce91dec438121a9a7b836b23c9f</sdk:checksum>
-				<sdk:url>platform-tools_r28.0.0-darwin.zip</sdk:url>
+				<!--Built on: Fri Aug 31 09:51:45 2018.-->
+				<sdk:size>6848749</sdk:size>
+				<sdk:checksum type="sha1">ed1edad4a48c27655ce98d0a5821e7296e9de145</sdk:checksum>
+				<sdk:url>platform-tools_r28.0.1-darwin.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed May 23 16:23:14 2018.-->
-				<sdk:size>5469856</sdk:size>
-				<sdk:checksum type="sha1">f944e69bc96ad2984a7e19febb3f3569b216699f</sdk:checksum>
-				<sdk:url>platform-tools_r28.0.0-linux.zip</sdk:url>
+				<!--Built on: Fri Aug 31 09:51:40 2018.-->
+				<sdk:size>6843966</sdk:size>
+				<sdk:checksum type="sha1">74ff83bc203f01c4f04bd9316ab5a2573f023fd1</sdk:checksum>
+				<sdk:url>platform-tools_r28.0.1-linux.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Wed May 23 16:23:16 2018.-->
-				<sdk:size>4775185</sdk:size>
-				<sdk:checksum type="sha1">64e130b2c3bab7b000db52a39a2e72f648633f47</sdk:checksum>
-				<sdk:url>platform-tools_r28.0.0-windows.zip</sdk:url>
+				<!--Built on: Fri Aug 31 09:51:43 2018.-->
+				<sdk:size>6183783</sdk:size>
+				<sdk:checksum type="sha1">5a44d10d41725aa718c71b6e44bc2dea6f1a7f49</sdk:checksum>
+				<sdk:url>platform-tools_r28.0.1-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
