@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-09-21 15:05:10.750087 with ADRT.-->
+	<!--Generated on 2018-09-24 13:01:03.322157 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4217,6 +4217,50 @@ June 2014.</license>
 					<size>10428915</size>
 					<checksum>4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
 					<url>cmake-3.6.4111459-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="cmake;3.10.2.4988404">
+		<!--Generated from:ab bid:4988404 branch:aosp-cmake-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>3</major>
+			<minor>10</minor>
+			<micro>2</micro>
+		</revision>
+		<display-name>CMake 3.10.2.4988404</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Sep  4 08:22:53 2018.-->
+				<complete>
+					<size>13447295</size>
+					<checksum>f227a85cb53dcb927ac52a5a717f647c4a29bf3b</checksum>
+					<url>cmake-3.10.2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Sep  4 08:22:51 2018.-->
+				<complete>
+					<size>14275684</size>
+					<checksum>439e8799bf59f724f104bf62784b2985f1bfe561</checksum>
+					<url>cmake-3.10.2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Sep  4 08:22:55 2018.-->
+				<complete>
+					<size>11899659</size>
+					<checksum>0a75b9c5bf558dc31caad7241a44515064656486</checksum>
+					<url>cmake-3.10.2-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
