@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-29 15:53:23.588055 with ADRT.-->
+	<!--Generated on 2018-09-27 12:07:52.392378 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -763,7 +763,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-17;google_apis;x86">
-		<!--Generated from bid:3093082, branch:git_jb-mr1.1-emu-release-->
+		<!--Generated from bid:4875371, branch:git_jb-mr1.1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>17</api-level>
 			<tag>
@@ -777,19 +777,32 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:50:57 2018.-->
+				<!--Built on: Tue Jul 17 16:41:15 2018.-->
 				<complete>
-					<size>194550080</size>
-					<checksum>d89591526b66d7c475056b755dd20348bd6e5d75</checksum>
-					<url>x86-17_r05.zip</url>
+					<size>194816808</size>
+					<checksum>7864c34faf0402b8923d8c6e609a5339f74cc8d6</checksum>
+					<url>x86-17_r06.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>5</major>
+						</based-on>
+						<size>12485418</size>
+						<checksum>1feba0035c89ded9ed8bf5cd6bea0b076734f7b1</checksum>
+						<url>sys-img-3093082-google_sdk_x86-sdk_addon-4875371-google_sdk_x86-sdk_addon-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

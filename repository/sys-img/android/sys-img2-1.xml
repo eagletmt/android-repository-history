@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-08-29 15:53:20.221671 with ADRT.-->
+	<!--Generated on 2018-09-27 12:07:51.605831 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1058,7 +1058,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-16;default;x86">
-		<!--Generated from bid:3462064, branch:git_jb-emu-release-->
+		<!--Generated from bid:4875369, branch:git_jb-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>16</api-level>
 			<tag>
@@ -1068,34 +1068,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 08:53:34 2018.-->
-				<complete>
-					<size>134339698</size>
-					<checksum>7ea16da3a8fdb880b1b290190fcc1bde2821c1e0</checksum>
-					<url>x86-16_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-17;default;x86">
-		<!--Generated from bid:3453820, branch:git_jb-mr1.1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>17</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>3</major>
+			<major>6</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1105,20 +1078,60 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:53:04 2018.-->
+				<!--Built on: Tue Jul 17 16:27:13 2018.-->
 				<complete>
-					<size>142951842</size>
-					<checksum>eb30274460ff0d61f3ed37862b567811bebd8270</checksum>
-					<url>x86-17_r03.zip</url>
+					<size>134926152</size>
+					<checksum>bf1bf8c5591346118d2235da1ad20e7be8a3e9cd</checksum>
+					<url>x86-16_r06.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>2</major>
+							<major>5</major>
 						</based-on>
-						<size>15384599</size>
-						<checksum>6828d5d219edcbd66753af7eb5a6676e022559b8</checksum>
-						<url>sys-img-1742939-sdk_phone_x86-3453820-sdk_x86-sdk-patch.jar</url>
+						<size>12289283</size>
+						<checksum>03a0b6e82b1b24d18d3d5a40dc50165814ca5cf7</checksum>
+						<url>sys-img-3462064-sdk_x86-sdk-4875369-sdk_x86-sdk-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-17;default;x86">
+		<!--Generated from bid:4875371, branch:git_jb-mr1.1-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>17</api-level>
+			<tag>
+				<id>default</id>
+				<display></display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>4</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Jul 17 16:30:45 2018.-->
+				<complete>
+					<size>143278662</size>
+					<checksum>03c6d022ab2dcbbcf655d78ba5ccb0431cadcaec</checksum>
+					<url>x86-17_r04.zip</url>
+				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>3</major>
+						</based-on>
+						<size>12526628</size>
+						<checksum>48438ef537d4bc3a2dd892925982eeda64b787ed</checksum>
+						<url>sys-img-3453820-sdk_x86-sdk-4875371-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
