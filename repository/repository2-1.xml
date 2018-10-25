@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-10-17 16:21:09.352985 with ADRT.-->
+	<!--Generated on 2018-10-25 10:17:41.985748 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4272,8 +4272,8 @@ June 2014.</license>
 			<micro>2</micro>
 		</revision>
 		<display-name>CMake 3.10.2.4988404</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-3"/>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
 				<!--Built on: Tue Sep  4 08:22:53 2018.-->
