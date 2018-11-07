@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-11-05 12:37:18.442064 with ADRT.-->
+	<!--Generated on 2018-11-07 13:37:13.034790 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1469,6 +1469,112 @@ June 2014.</license>
 					<checksum>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</checksum>
 					<url>sources-14_r01.zip</url>
 				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5106443, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>0</minor>
+			<micro>5106443</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Nov  2 10:51:49 2018.-->
+				<complete>
+					<size>843747434</size>
+					<checksum>1d87704cc57627a76645db3b7f951510ca8809f6</checksum>
+					<url>android-ndk-r19-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>452809282</size>
+						<checksum>20fff3a6909a2c0faa9f284609a9b6df76857393</checksum>
+						<url>sdk-ndk-5063045-5106443-macosx-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Fri Nov  2 10:52:17 2018.-->
+				<complete>
+					<size>835069622</size>
+					<checksum>73e750310ad695ac937e2fd3026ce60338a2ff94</checksum>
+					<url>android-ndk-r19-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>484864421</size>
+						<checksum>32b300a9c77bfbdead8ad07ad59bc1fd788aa03e</checksum>
+						<url>sdk-ndk-5063045-5106443-linux-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Fri Nov  2 10:50:58 2018.-->
+				<complete>
+					<size>772700612</size>
+					<checksum>d57eeafae6083ef5db5e1e30ce89dcef069d74cc</checksum>
+					<url>android-ndk-r19-beta1-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>396399299</size>
+						<checksum>10ff1a6ae64b988d4d7f3ea01f2604a11ff070aa</checksum>
+						<url>sdk-ndk-5063045-5106443-windows-32-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Fri Nov  2 10:51:23 2018.-->
+				<complete>
+					<size>801200809</size>
+					<checksum>13a97040b9e2e1f117eb4b7b3be7fe8f962cb7d7</checksum>
+					<url>android-ndk-r19-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>414621864</size>
+						<checksum>c613e440d6e51085d5ebe97940a350f0c5cc9096</checksum>
+						<url>sdk-ndk-5063045-5106443-windows-64-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
