@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2018-12-06 10:05:46.136853 with ADRT.-->
+	<!--Generated on 2018-12-07 08:30:40.554090 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4991,12 +4991,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5148482 branch:aosp-emu-3.0-release-->
+		<!--Generated from:ab bid:5167701 branch:aosp-emu-3.0-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>0</minor>
-			<micro>18</micro>
+			<micro>19</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -5012,11 +5012,11 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 26 16:00:03 2018.-->
+				<!--Built on: Fri Dec  7 07:33:40 2018.-->
 				<complete>
-					<size>173193050</size>
-					<checksum>f2353fef9e1f1a705ee181fdd47d1ad3f3a1a0bb</checksum>
-					<url>emulator-linux-5148482.zip</url>
+					<size>173190768</size>
+					<checksum>0f84ee5ef01119385e3f866cb9f04e49cb1bac16</checksum>
+					<url>emulator-linux-5167701.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<patches>
@@ -5024,11 +5024,11 @@ June 2014.</license>
 						<based-on>
 							<major>28</major>
 							<minor>0</minor>
-							<micro>17</micro>
+							<micro>18</micro>
 						</based-on>
-						<size>4446963</size>
-						<checksum>91be1a8d54512d25d8d4ae33a8d67aeb45f74921</checksum>
-						<url>sdk-generic-e927d62551ceb3827b0266157f45cd12b07a9a7a-15fc38b46edc3d8c8fe4bfb097253295b09c9345-linux-patch.jar</url>
+						<size>3290907</size>
+						<checksum>669d0465c2db60ed2e2af8fb025141e532959825</checksum>
+						<url>sdk-generic-15fc38b46edc3d8c8fe4bfb097253295b09c9345-b779077008c9295b355751f8ab18aac15ad726b4-linux-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -5036,21 +5036,21 @@ June 2014.</license>
 							<minor>0</minor>
 							<micro>16</micro>
 						</based-on>
-						<size>6678034</size>
-						<checksum>14ad5a3ebc5284dc5d18e8d19ec74f2fa67d3a4e</checksum>
-						<url>sdk-generic-6376d5b1ab3858dbb5d90a4a088cfec9e0a69104-15fc38b46edc3d8c8fe4bfb097253295b09c9345-linux-patch.jar</url>
+						<size>6483751</size>
+						<checksum>3e8c29a2df177081d9414f27a79f6dfcadec4fda</checksum>
+						<url>sdk-generic-6376d5b1ab3858dbb5d90a4a088cfec9e0a69104-b779077008c9295b355751f8ab18aac15ad726b4-linux-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5148482 branch:aosp-emu-3.0-release-->
+		<!--Generated from:ab bid:5167701 branch:aosp-emu-3.0-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>0</minor>
-			<micro>18</micro>
+			<micro>19</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -5066,11 +5066,11 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 26 16:00:17 2018.-->
+				<!--Built on: Fri Dec  7 07:33:57 2018.-->
 				<complete>
-					<size>176279261</size>
-					<checksum>89c03f3962f8b4266ab75ee0a99f4c5fb5f811a4</checksum>
-					<url>emulator-darwin-5148482.zip</url>
+					<size>176281388</size>
+					<checksum>bbbc88cf5d1078593cafe10417c2d2175cfd8be8</checksum>
+					<url>emulator-darwin-5167701.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<patches>
@@ -5078,11 +5078,11 @@ June 2014.</license>
 						<based-on>
 							<major>28</major>
 							<minor>0</minor>
-							<micro>17</micro>
+							<micro>18</micro>
 						</based-on>
-						<size>2782054</size>
-						<checksum>af3c293e9cc0fd3c58a73afaea333d0f7d7d8353</checksum>
-						<url>sdk-generic-7c26e72f090fdea8eea9865cc5542712ece9a19e-a74f0b25350093411dff6f6d81a26a0117c664b8-macosx-patch.jar</url>
+						<size>3692681</size>
+						<checksum>f7f25c8bd9bb429e1b68ae0894198ddda26115b9</checksum>
+						<url>sdk-generic-a74f0b25350093411dff6f6d81a26a0117c664b8-e37f1cca8f370f4e9fc03f4745e8b9cbacdd864a-macosx-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -5090,21 +5090,21 @@ June 2014.</license>
 							<minor>0</minor>
 							<micro>16</micro>
 						</based-on>
-						<size>7352657</size>
-						<checksum>5702f018b13dae8a5aa90888dd930730cc865e3f</checksum>
-						<url>sdk-generic-f396df816dff01ae2055988771e87151e9928038-a74f0b25350093411dff6f6d81a26a0117c664b8-macosx-patch.jar</url>
+						<size>7522570</size>
+						<checksum>a6694888fa976cae760143159a786de61664d936</checksum>
+						<url>sdk-generic-f396df816dff01ae2055988771e87151e9928038-e37f1cca8f370f4e9fc03f4745e8b9cbacdd864a-macosx-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5148482 branch:aosp-emu-3.0-release-->
+		<!--Generated from:ab bid:5167701 branch:aosp-emu-3.0-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>0</minor>
-			<micro>18</micro>
+			<micro>19</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -5120,11 +5120,11 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 26 16:00:39 2018.-->
+				<!--Built on: Fri Dec  7 07:34:18 2018.-->
 				<complete>
-					<size>270430612</size>
-					<checksum>fa800779eabaafa40fa5b3b733eb58e81acf4966</checksum>
-					<url>emulator-windows-5148482.zip</url>
+					<size>270425654</size>
+					<checksum>f28591f80948ee72db4c7cfe5b11c8f86f80980c</checksum>
+					<url>emulator-windows-5167701.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<patches>
@@ -5132,21 +5132,21 @@ June 2014.</license>
 						<based-on>
 							<major>28</major>
 							<minor>0</minor>
-							<micro>16</micro>
+							<micro>18</micro>
 						</based-on>
-						<size>13592942</size>
-						<checksum>1ace481a3e16963a9a8f5eb84c13c9a33fe85ba3</checksum>
-						<url>sdk-generic-7006a336ec56c7ca3b269aa7da2dc14cdf52b6f6-d98c1e1d5c88b2768bd97fde793c76b84e050d35-windows-patch.jar</url>
+						<size>7579674</size>
+						<checksum>76d75643a5f26a82f5603c4efef5d8ca98537558</checksum>
+						<url>sdk-generic-d98c1e1d5c88b2768bd97fde793c76b84e050d35-28c8f9dd87783f250713c432da656144c91b2c89-windows-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
 							<major>28</major>
 							<minor>0</minor>
-							<micro>17</micro>
+							<micro>16</micro>
 						</based-on>
-						<size>9314260</size>
-						<checksum>3c1195b4030052aca98e420a8f789302726ddcba</checksum>
-						<url>sdk-generic-408caf7b8254de1c3c913ae6fc4eba129834ae72-d98c1e1d5c88b2768bd97fde793c76b84e050d35-windows-patch.jar</url>
+						<size>12957944</size>
+						<checksum>8031b94fe588a2bbae425099b2b508176ed95290</checksum>
+						<url>sdk-generic-7006a336ec56c7ca3b269aa7da2dc14cdf52b6f6-28c8f9dd87783f250713c432da656144c91b2c89-windows-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
