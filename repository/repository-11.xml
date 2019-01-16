@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-01-11 14:23:57.333609 with ADRT.-->
+	<!--Generated on 2019-01-15 16:01:18.089414 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -296,39 +296,39 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 June 2014.</sdk:license>
 	<sdk:ndk>
-		<!--Generated from bid:5063045, branch:aosp-ndk-release-r18-->
+		<!--Generated from bid:5232133, branch:aosp-ndk-release-r19-->
 		<sdk:description>NDK</sdk:description>
-		<sdk:revision>18</sdk:revision>
+		<sdk:revision>19</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Oct 11 14:06:10 2018.-->
-				<sdk:size>542911996</sdk:size>
-				<sdk:checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</sdk:checksum>
-				<sdk:url>android-ndk-r18b-darwin-x86_64.zip</sdk:url>
+				<!--Built on: Mon Jan 14 20:18:26 2019.-->
+				<sdk:size>807592927</sdk:size>
+				<sdk:checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</sdk:checksum>
+				<sdk:url>android-ndk-r19-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu Oct 11 14:06:26 2018.-->
-				<sdk:size>557038702</sdk:size>
-				<sdk:checksum type="sha1">500679655da3a86aecf67007e8ab230ea9b4dd7b</sdk:checksum>
-				<sdk:url>android-ndk-r18b-linux-x86_64.zip</sdk:url>
+				<!--Built on: Mon Jan 14 20:18:52 2019.-->
+				<sdk:size>823337344</sdk:size>
+				<sdk:checksum type="sha1">f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</sdk:checksum>
+				<sdk:url>android-ndk-r19-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu Oct 11 14:05:37 2018.-->
-				<sdk:size>504605336</sdk:size>
-				<sdk:checksum type="sha1">4b8b6a4edc0fa967b429c1d6d25adf69acc28803</sdk:checksum>
-				<sdk:url>android-ndk-r18b-windows-x86.zip</sdk:url>
+				<!--Built on: Mon Jan 14 20:17:39 2019.-->
+				<sdk:size>778544468</sdk:size>
+				<sdk:checksum type="sha1">281175a42b312d630f864a02a31c5806ada5663b</sdk:checksum>
+				<sdk:url>android-ndk-r19-windows-x86.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>32</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu Oct 11 14:05:53 2018.-->
-				<sdk:size>522489470</sdk:size>
-				<sdk:checksum type="sha1">6b6d4138aaaad7166679fdfa4780e177f95cee6f</sdk:checksum>
-				<sdk:url>android-ndk-r18b-windows-x86_64.zip</sdk:url>
+				<!--Built on: Mon Jan 14 20:18:02 2019.-->
+				<sdk:size>795986424</sdk:size>
+				<sdk:checksum type="sha1">37906e8e79a9dddf6805325f706a072055e4136c</sdk:checksum>
+				<sdk:url>android-ndk-r19-windows-x86_64.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
