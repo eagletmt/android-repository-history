@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-02-22 10:45:45.595405 with ADRT.-->
+	<!--Generated on 2019-03-01 08:55:20.235156 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4821,12 +4821,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5329922 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:5346014 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>1</minor>
-			<micro>8</micro>
+			<micro>9</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -4842,23 +4842,23 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 22 09:56:39 2019.-->
+				<!--Built on: Fri Mar  1 08:20:47 2019.-->
 				<complete>
-					<size>162772187</size>
-					<checksum>0185afb03313738bc3a3b150965558e4b274aca1</checksum>
-					<url>emulator-linux-5329922.zip</url>
+					<size>163752681</size>
+					<checksum>1b6bbdc219b1c5ecf013caa9b3cfc07e302cf2e6</checksum>
+					<url>emulator-linux-5346014.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5329922 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:5346014 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>1</minor>
-			<micro>8</micro>
+			<micro>9</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -4874,23 +4874,23 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 22 09:56:53 2019.-->
+				<!--Built on: Fri Mar  1 08:21:01 2019.-->
 				<complete>
-					<size>148490975</size>
-					<checksum>bdcf43938105edc8419ae5c871f6fc9d7024eac8</checksum>
-					<url>emulator-darwin-5329922.zip</url>
+					<size>154871205</size>
+					<checksum>eaf5099f3c9c2d0003635736095817d31bf52e23</checksum>
+					<url>emulator-darwin-5346014.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:5329922 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:5346014 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>1</minor>
-			<micro>8</micro>
+			<micro>9</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -4906,11 +4906,11 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 22 09:57:16 2019.-->
+				<!--Built on: Fri Mar  1 08:21:28 2019.-->
 				<complete>
-					<size>319515760</size>
-					<checksum>1aa8067e288f97307d173c0169c735ae0934d028</checksum>
-					<url>emulator-windows-5329922.zip</url>
+					<size>321681768</size>
+					<checksum>4c6ab1ac1600256ddca35bdaa5b3ab8619cf1162</checksum>
+					<url>emulator-windows-5346014.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
