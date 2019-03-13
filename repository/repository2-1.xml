@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-08 08:34:02.392609 with ADRT.-->
+	<!--Generated on 2019-03-12 21:13:34.316248 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -381,6 +381,30 @@ June 2014.</license>
 						<url>sdk-tools-3534729-3567187-windows-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="platforms;android-Q">
+		<!--Generated from bid:5345599, branch:qt-preview1-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android SDK Platform Q</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:00:21 2019.-->
+				<complete>
+					<size>78552721</size>
+					<checksum>aa7696570651e7f6e2f414fdff0eaeeec3c0ebed</checksum>
+					<url>platform-Q_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -1473,6 +1497,112 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5344622, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5344622</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Feb 28 18:37:55 2019.-->
+				<complete>
+					<size>840717230</size>
+					<checksum>81128edb666af06cd0668d40a0be731bb4ba85a8</checksum>
+					<url>android-ndk-r20-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>1</minor>
+							<micro>5304403</micro>
+						</based-on>
+						<size>398668634</size>
+						<checksum>9afa6838110a22c98fc0731a7d1f9ae7a6aeaa31</checksum>
+						<url>sdk-ndk-5304403-5344622-macosx-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb 28 18:38:22 2019.-->
+				<complete>
+					<size>857289311</size>
+					<checksum>8aff5c9079bff4f7cf77c34d3795cf498aced8cb</checksum>
+					<url>android-ndk-r20-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>1</minor>
+							<micro>5304403</micro>
+						</based-on>
+						<size>420301762</size>
+						<checksum>325a64f381e705db001ed84815c6a43ae36b4adf</checksum>
+						<url>sdk-ndk-5304403-5344622-linux-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb 28 18:36:57 2019.-->
+				<complete>
+					<size>811968945</size>
+					<checksum>38c295e53e24200ce042ed8f715fd1ec85faa4d1</checksum>
+					<url>android-ndk-r20-beta1-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>1</minor>
+							<micro>5304403</micro>
+						</based-on>
+						<size>356027079</size>
+						<checksum>bd8488004fd01e8731bd8f6b7f1fb4f0b94839b4</checksum>
+						<url>sdk-ndk-5304403-5344622-windows-32-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb 28 18:37:27 2019.-->
+				<complete>
+					<size>829982091</size>
+					<checksum>8be070e0539c6e251164edc0912dd5fb293a73c7</checksum>
+					<url>android-ndk-r20-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>1</minor>
+							<micro>5304403</micro>
+						</based-on>
+						<size>362448105</size>
+						<checksum>83fcaa2e52ba49ccc7ed11b0bdb2a59072fd3e7f</checksum>
+						<url>sdk-ndk-5304403-5344622-windows-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5304403, branch:aosp-ndk-release-r19-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2206,6 +2336,48 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;29.0.0-rc1">
+		<!--Generated from bid:5345599, branch:qt-preview1-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>29</major>
+			<minor>0</minor>
+			<micro>0</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>Android SDK Build-Tools 29-rc1</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:00:06 2019.-->
+				<complete>
+					<size>58516671</size>
+					<checksum>1c897f5885ac5468613e40e1ea598c21c05d345d</checksum>
+					<url>build-tools_r29-rc1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Mar  1 15:00:03 2019.-->
+				<complete>
+					<size>57704927</size>
+					<checksum>f066c0d9ea2f0d8a0a9cc7b2ca0a467a570ab034</checksum>
+					<url>build-tools_r29-rc1-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Mar  1 15:00:00 2019.-->
+				<complete>
+					<size>56933956</size>
+					<checksum>8887ee791a143f92694a0908130354142a903b17</checksum>
+					<url>build-tools_r29-rc1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -4228,41 +4400,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:4986621 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:5303910 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>28</major>
 			<minor>0</minor>
-			<micro>1</micro>
+			<micro>2</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Aug 31 09:51:45 2018.-->
+				<!--Built on: Wed Feb 13 13:38:36 2019.-->
 				<complete>
-					<size>6848749</size>
-					<checksum>ed1edad4a48c27655ce98d0a5821e7296e9de145</checksum>
-					<url>platform-tools_r28.0.1-darwin.zip</url>
+					<size>11756457</size>
+					<checksum>f5d0b6ff6b83bee72dc680c63a6dc8a203a8476a</checksum>
+					<url>platform-tools_r28.0.2-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Aug 31 09:51:40 2018.-->
+				<!--Built on: Wed Feb 13 13:38:28 2019.-->
 				<complete>
-					<size>6843966</size>
-					<checksum>74ff83bc203f01c4f04bd9316ab5a2573f023fd1</checksum>
-					<url>platform-tools_r28.0.1-linux.zip</url>
+					<size>11850727</size>
+					<checksum>46a4c02a9b8e4e2121eddf6025da3c979bf02e28</checksum>
+					<url>platform-tools_r28.0.2-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Aug 31 09:51:43 2018.-->
+				<!--Built on: Wed Feb 13 13:38:31 2019.-->
 				<complete>
-					<size>6183783</size>
-					<checksum>5a44d10d41725aa718c71b6e44bc2dea6f1a7f49</checksum>
-					<url>platform-tools_r28.0.1-windows.zip</url>
+					<size>11067637</size>
+					<checksum>484e1b6d27b3f484c2865d0d0f36c1d4e204d03d</checksum>
+					<url>platform-tools_r28.0.2-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

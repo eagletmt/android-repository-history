@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-04 14:40:34.196889 with ADRT.-->
+	<!--Generated on 2019-03-12 17:08:58.486999 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2254,6 +2254,90 @@ August 15, 2011</license>
 						<url>sys-img-5075414-sdk_gphone_x86_64-sdk_addon-5124027-sdk_gphone_x86_64-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Q;google_apis;x86">
+		<!--Generated from bid:5345599, branch:git_qt-preview1-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>27</major>
+					<minor>1</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:06:41 2019.-->
+				<complete>
+					<size>1030936942</size>
+					<checksum>11233b66b891ce7b3e8e26eaef2f2e35e80d401b</checksum>
+					<url>x86-Q_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Q;google_apis;x86_64">
+		<!--Generated from bid:5345599, branch:git_qt-preview1-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>27</major>
+					<minor>1</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:08:13 2019.-->
+				<complete>
+					<size>1224182193</size>
+					<checksum>fa3578811a52cadf2535da7b64d0a67889c8edb3</checksum>
+					<url>x86_64-Q_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>

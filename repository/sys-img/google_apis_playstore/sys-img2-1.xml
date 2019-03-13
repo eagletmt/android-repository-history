@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-04 14:41:48.668235 with ADRT.-->
+	<!--Generated on 2019-03-12 17:09:22.436388 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -840,6 +840,90 @@ August 15, 2011</license>
 					<size>1037659724</size>
 					<checksum>a767da996fdea7a1f5632a9206fa5c009d6e580c</checksum>
 					<url>x86_64-28_r08.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Q;google_apis_playstore;x86">
+		<!--Generated from bid:5345599, branch:pi-release-playstore-x86-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>27</major>
+					<minor>1</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:38:51 2019.-->
+				<complete>
+					<size>993716965</size>
+					<checksum>118d080a85eb110e6da24e394602f18604255243</checksum>
+					<url>x86-Q_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Q;google_apis_playstore;x86_64">
+		<!--Generated from bid:5345599, branch:pi-release-playstore-x86_64-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>27</major>
+					<minor>1</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Mar  1 15:39:27 2019.-->
+				<complete>
+					<size>1161039854</size>
+					<checksum>c4455d75549c595e0d3cfaf122ecedf359e10483</checksum>
+					<url>x86_64-Q_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
