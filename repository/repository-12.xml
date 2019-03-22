@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-15 08:04:37.678003 with ADRT.-->
+	<!--Generated on 2019-03-22 08:17:18.668957 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3077,21 +3077,21 @@ June 2014.</sdk:license>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Mon May 21 14:06:04 2018.-->
+				<!--Built on: Wed Mar 20 22:36:01 2019.-->
 				<sdk:size>277894900</sdk:size>
 				<sdk:checksum type="sha1">72df3aa1988c0a9003ccdfd7a13a7b8bd0f47fc1</sdk:checksum>
 				<sdk:url>tools_r25.2.5-linux.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu May 31 17:55:03 2018.-->
+				<!--Built on: Wed Mar 20 22:35:47 2019.-->
 				<sdk:size>200529982</sdk:size>
 				<sdk:checksum type="sha1">d2168d963ac5b616e3d3ddaf21511d084baf3659</sdk:checksum>
 				<sdk:url>tools_r25.2.5-macosx.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Thu Jun  7 09:09:48 2018.-->
+				<!--Built on: Wed Mar 20 22:35:36 2019.-->
 				<sdk:size>306785944</sdk:size>
 				<sdk:checksum type="sha1">a7f7ebeae1c8d8f62d3a8466e9c81baee7cc31ca</sdk:checksum>
 				<sdk:url>tools_r25.2.5-windows.zip</sdk:url>
@@ -3109,7 +3109,7 @@ June 2014.</sdk:license>
 		<sdk:revision>1</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Jun 14 09:35:24 2018.-->
+				<!--Built on: Wed Mar 20 22:36:44 2019.-->
 				<sdk:size>419477967</sdk:size>
 				<sdk:checksum type="sha1">eef58238949ee9544876cb3e002f2d58e4ee7b5d</sdk:checksum>
 				<sdk:url>docs-24_r01.zip</sdk:url>
