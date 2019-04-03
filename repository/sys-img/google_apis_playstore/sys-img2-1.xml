@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-12 17:09:22.436388 with ADRT.-->
+	<!--Generated on 2019-04-02 17:00:57.957474 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -584,6 +584,14 @@ August 15, 2011</license>
 				<patches>
 					<patch>
 						<based-on>
+							<major>16</major>
+						</based-on>
+						<size>95038884</size>
+						<checksum>13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
+						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
 							<major>12</major>
 						</based-on>
 						<size>114867010</size>
@@ -597,14 +605,6 @@ August 15, 2011</license>
 						<size>103478246</size>
 						<checksum>0db53cc9aef97f32dddd329791525f8992b508f1</checksum>
 						<url>sys-img-4013928-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-						</based-on>
-						<size>95038884</size>
-						<checksum>13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
-						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -693,19 +693,19 @@ August 15, 2011</license>
 					</patch>
 					<patch>
 						<based-on>
-							<major>5</major>
-						</based-on>
-						<size>142889514</size>
-						<checksum>7395828f9de6697df49c432f61a7f48a3b8b036b</checksum>
-						<url>sys-img-4205617-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>3</major>
 						</based-on>
 						<size>339528314</size>
 						<checksum>5a479cc6b36fb6e801f659375c3e558dde1eb1f0</checksum>
 						<url>sys-img-3991286-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>5</major>
+						</based-on>
+						<size>142889514</size>
+						<checksum>7395828f9de6697df49c432f61a7f48a3b8b036b</checksum>
+						<url>sys-img-4205617-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -845,7 +845,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis_playstore;x86">
-		<!--Generated from bid:5345599, branch:pi-release-playstore-x86-->
+		<!--Generated from bid:5415296, branch:qt-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -860,7 +860,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -868,26 +868,26 @@ August 15, 2011</license>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>27</major>
+					<major>28</major>
 					<minor>1</minor>
-					<micro>7</micro>
+					<micro>9</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar  1 15:38:51 2019.-->
+				<!--Built on: Thu Mar 28 14:42:34 2019.-->
 				<complete>
-					<size>993716965</size>
-					<checksum>118d080a85eb110e6da24e394602f18604255243</checksum>
-					<url>x86-Q_r01.zip</url>
+					<size>982376404</size>
+					<checksum>003a37f6062e5e90c6c2cd42ad35e47193cb0f7f</checksum>
+					<url>x86-Q_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis_playstore;x86_64">
-		<!--Generated from bid:5345599, branch:pi-release-playstore-x86_64-->
+		<!--Generated from bid:5415296, branch:qt-release-playstore-x86_64-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -902,7 +902,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -910,20 +910,20 @@ August 15, 2011</license>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>27</major>
+					<major>28</major>
 					<minor>1</minor>
-					<micro>7</micro>
+					<micro>9</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar  1 15:39:27 2019.-->
+				<!--Built on: Thu Mar 28 14:43:13 2019.-->
 				<complete>
-					<size>1161039854</size>
-					<checksum>c4455d75549c595e0d3cfaf122ecedf359e10483</checksum>
-					<url>x86_64-Q_r01.zip</url>
+					<size>1138974083</size>
+					<checksum>fa6c4396a78241808bc8e316da0b6aa208d68239</checksum>
+					<url>x86_64-Q_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>

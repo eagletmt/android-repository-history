@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-03-29 10:26:13.426965 with ADRT.-->
+	<!--Generated on 2019-04-02 16:57:16.457386 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -564,18 +564,18 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:lldb>
 	<sdk:platform>
-		<!--Generated from bid:5345599, branch:qt-preview1-release-->
+		<!--Generated from bid:5415296, branch:qt-preview2-release-->
 		<sdk:version>Q</sdk:version>
 		<sdk:codename>Q</sdk:codename>
 		<sdk:api-level>28</sdk:api-level>
 		<sdk:description>Android SDK Platform Q</sdk:description>
-		<sdk:revision>1</sdk:revision>
+		<sdk:revision>2</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Mar  1 15:00:21 2019.-->
-				<sdk:size>78552721</sdk:size>
-				<sdk:checksum type="sha1">aa7696570651e7f6e2f414fdff0eaeeec3c0ebed</sdk:checksum>
-				<sdk:url>platform-Q_r01.zip</sdk:url>
+				<!--Built on: Thu Mar 28 14:12:54 2019.-->
+				<sdk:size>78865506</sdk:size>
+				<sdk:checksum type="sha1">2e8f00a089741c9d1a8bb4003da4f4adac821743</sdk:checksum>
+				<sdk:url>platform-Q_r02.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
@@ -1512,6 +1512,39 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
+	<sdk:build-tool>
+		<!--Generated from bid:5415296, branch:qt-preview2-release-->
+		<sdk:revision>
+			<sdk:major>29</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>0</sdk:micro>
+			<sdk:preview>2</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Thu Mar 28 14:12:36 2019.-->
+				<sdk:size>58602830</sdk:size>
+				<sdk:checksum type="sha1">b4b41d429c35b42db07b6c65d4aa998ba8c4093c</sdk:checksum>
+				<sdk:url>build-tools_r29-rc2-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Thu Mar 28 14:12:25 2019.-->
+				<sdk:size>57785717</sdk:size>
+				<sdk:checksum type="sha1">7a960367999169ccac5dbc60817e5f1725c4c738</sdk:checksum>
+				<sdk:url>build-tools_r29-rc2-macosx.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Thu Mar 28 14:12:17 2019.-->
+				<sdk:size>57000706</sdk:size>
+				<sdk:checksum type="sha1">2de2a3e290cae4ce35e82c8a5abed49b1cdd24e3</sdk:checksum>
+				<sdk:url>build-tools_r29-rc2-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+	</sdk:build-tool>
 	<sdk:build-tool>
 		<!--Generated from bid:5345599, branch:qt-preview1-release-->
 		<sdk:revision>
