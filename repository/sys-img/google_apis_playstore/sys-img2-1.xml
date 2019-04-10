@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-04-03 14:49:52.859836 with ADRT.-->
+	<!--Generated on 2019-04-09 17:14:29.748417 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -845,7 +845,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis_playstore;x86">
-		<!--Generated from bid:5415296, branch:qt-release-playstore-x86-->
+		<!--Generated from bid:5437700, branch:qt-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -860,7 +860,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -877,17 +877,17 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:42:34 2019.-->
+				<!--Built on: Thu Apr  4 18:07:10 2019.-->
 				<complete>
-					<size>982376404</size>
-					<checksum>003a37f6062e5e90c6c2cd42ad35e47193cb0f7f</checksum>
-					<url>x86-Q_r02.zip</url>
+					<size>983711733</size>
+					<checksum>c317a9319503d35a30052909c3977eb72beb408e</checksum>
+					<url>x86-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis_playstore;x86_64">
-		<!--Generated from bid:5415296, branch:qt-release-playstore-x86_64-->
+		<!--Generated from bid:5437700, branch:qt-release-playstore-x86_64-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -902,7 +902,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -919,11 +919,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:43:13 2019.-->
+				<!--Built on: Thu Apr  4 18:08:02 2019.-->
 				<complete>
-					<size>1138974083</size>
-					<checksum>fa6c4396a78241808bc8e316da0b6aa208d68239</checksum>
-					<url>x86_64-Q_r02.zip</url>
+					<size>1141086772</size>
+					<checksum>97e27deec592f63e9e9e2745142e753d3ccc4671</checksum>
+					<url>x86_64-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

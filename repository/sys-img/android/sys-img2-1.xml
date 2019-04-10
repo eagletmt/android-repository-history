@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-04-03 14:48:09.614707 with ADRT.-->
+	<!--Generated on 2019-04-09 17:13:19.536160 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1557,7 +1557,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;default;x86">
-		<!--Generated from bid:5415296, branch:git_qt-preview2-release-->
+		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -1568,7 +1568,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1585,11 +1585,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:33:58 2019.-->
+				<!--Built on: Thu Apr  4 17:58:22 2019.-->
 				<complete>
-					<size>502396702</size>
-					<checksum>2dff7c19c37b14b58dec7b999dd5a64fc0d8e252</checksum>
-					<url>x86-Q_r02.zip</url>
+					<size>503772663</size>
+					<checksum>48bdc8fa6ef3920f5aa7b1cf973737396a88a700</checksum>
+					<url>x86-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1872,7 +1872,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;default;x86_64">
-		<!--Generated from bid:5415296, branch:git_qt-preview2-release-->
+		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -1883,7 +1883,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1900,11 +1900,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:34:49 2019.-->
+				<!--Built on: Thu Apr  4 17:59:28 2019.-->
 				<complete>
-					<size>663446219</size>
-					<checksum>e6f0d30efa6ef7baddb5dd229fefad9344424fec</checksum>
-					<url>x86_64-Q_r02.zip</url>
+					<size>665549911</size>
+					<checksum>aea9b5d90cf3ad0ef7fae1f409220310e29b5912</checksum>
+					<url>x86_64-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

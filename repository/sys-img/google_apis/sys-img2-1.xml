@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-04-03 14:49:05.210043 with ADRT.-->
+	<!--Generated on 2019-04-09 17:13:58.143938 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2258,7 +2258,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis;x86">
-		<!--Generated from bid:5415296, branch:git_qt-preview2-release-->
+		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -2273,7 +2273,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2290,17 +2290,17 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:38:40 2019.-->
+				<!--Built on: Thu Apr  4 18:02:46 2019.-->
 				<complete>
-					<size>1012043860</size>
-					<checksum>661fb6c408c3ba4bbfcd83cec1728e553adca14a</checksum>
-					<url>x86-Q_r02.zip</url>
+					<size>1013436996</size>
+					<checksum>197c3cf283449d052f4702314fae94c5c10c5ede</checksum>
+					<url>x86-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;google_apis;x86_64">
-		<!--Generated from bid:5415296, branch:git_qt-preview2-release-->
+		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -2315,7 +2315,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2332,11 +2332,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 28 14:40:08 2019.-->
+				<!--Built on: Thu Apr  4 18:04:22 2019.-->
 				<complete>
-					<size>1186769391</size>
-					<checksum>d16b5f17b78a2059a4ee90de78d899e38d5d77e0</checksum>
-					<url>x86_64-Q_r02.zip</url>
+					<size>1188914666</size>
+					<checksum>3adcf64763dea5963c7f20b43ba8415a28d4ce15</checksum>
+					<url>x86_64-Q_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

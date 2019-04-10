@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-04-05 08:06:01.736671 with ADRT.-->
+	<!--Generated on 2019-04-09 17:10:42.293114 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2036,6 +2036,177 @@ June 2014.</license>
 						<url>sdk-ndk-5160253-5345600-windows-64-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5063045, branch:aosp-ndk-release-r18-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>18</major>
+			<minor>1</minor>
+			<micro>5063045</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-2"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Oct 11 14:06:10 2018.-->
+				<complete>
+					<size>542911996</size>
+					<checksum>98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
+					<url>android-ndk-r18b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu Oct 11 14:06:26 2018.-->
+				<complete>
+					<size>557038702</size>
+					<checksum>500679655da3a86aecf67007e8ab230ea9b4dd7b</checksum>
+					<url>android-ndk-r18b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu Oct 11 14:05:37 2018.-->
+				<complete>
+					<size>504605336</size>
+					<checksum>4b8b6a4edc0fa967b429c1d6d25adf69acc28803</checksum>
+					<url>android-ndk-r18b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu Oct 11 14:05:53 2018.-->
+				<complete>
+					<size>522489470</size>
+					<checksum>6b6d4138aaaad7166679fdfa4780e177f95cee6f</checksum>
+					<url>android-ndk-r18b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:4988734, branch:aosp-ndk-release-r17-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>17</major>
+			<minor>2</minor>
+			<micro>4988734</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-2"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Sep  4 11:37:32 2018.-->
+				<complete>
+					<size>675091485</size>
+					<checksum>f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
+					<url>android-ndk-r17c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Sep  4 11:38:15 2018.-->
+				<complete>
+					<size>709387703</size>
+					<checksum>12cacc70c3fd2f40574015631c00f41fb8a39048</checksum>
+					<url>android-ndk-r17c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Sep  4 11:36:09 2018.-->
+				<complete>
+					<size>608358310</size>
+					<checksum>5bb25bf13fa494ee6c3433474c7aa90009f9f6a9</checksum>
+					<url>android-ndk-r17c-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Sep  4 11:36:55 2018.-->
+				<complete>
+					<size>650626501</size>
+					<checksum>3e3b8d1650f9d297d130be2b342db956003f5992</checksum>
+					<url>android-ndk-r17c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:4479499, branch:aosp-ndk-release-r16-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>16</major>
+			<minor>1</minor>
+			<micro>4479499</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-2"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed May 23 06:08:56 2018.-->
+				<complete>
+					<size>839630771</size>
+					<checksum>e51e615449b98c716cf912057e2682e75d55e2de</checksum>
+					<url>android-ndk-r16b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon May 28 07:37:36 2018.-->
+				<complete>
+					<size>852525873</size>
+					<checksum>42aa43aae89a50d1c66c3f9fdecd676936da6128</checksum>
+					<url>android-ndk-r16b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Sun Jun  3 11:35:34 2018.-->
+				<complete>
+					<size>656720029</size>
+					<checksum>becaf3d445a4877ca1a9300a62f0934a4838c7fa</checksum>
+					<url>android-ndk-r16b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Jun 19 09:39:18 2018.-->
+				<complete>
+					<size>723301086</size>
+					<checksum>f3f1909ed1052e98dda2c79d11c22f3da28daf25</checksum>
+					<url>android-ndk-r16b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
