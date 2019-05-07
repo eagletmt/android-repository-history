@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-03 15:50:25.725333 with ADRT.-->
+	<!--Generated on 2019-05-06 12:05:57.056588 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1594,6 +1594,44 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-Q;default;x86">
+		<!--Generated from bid:5506116, branch:git_qt-preview3-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<codename>Q</codename>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>4</major>
+		</revision>
+		<display-name>Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>9</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Apr 26 14:08:53 2019.-->
+				<complete>
+					<size>507234283</size>
+					<checksum>6169ab748481ee2fd7a38f31853f119af6040093</checksum>
+					<url>x86-Q_r04.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-21;default;x86_64">
 		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -1872,7 +1910,7 @@ August 15, 2011</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Q;default;x86_64">
-		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
+		<!--Generated from bid:5506116, branch:git_qt-preview3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<codename>Q</codename>
@@ -1883,7 +1921,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1900,11 +1938,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr  4 17:59:28 2019.-->
+				<!--Built on: Fri Apr 26 14:09:46 2019.-->
 				<complete>
-					<size>665549911</size>
-					<checksum>aea9b5d90cf3ad0ef7fae1f409220310e29b5912</checksum>
-					<url>x86_64-Q_r03.zip</url>
+					<size>681340670</size>
+					<checksum>ab9520dabe0fe5c21867a10954e6b13a68fff8c1</checksum>
+					<url>x86_64-Q_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
