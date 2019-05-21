@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-17 14:55:29.563491 with ADRT.-->
+	<!--Generated on 2019-05-21 10:50:20.990247 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2094,6 +2094,63 @@ June 2014.</license>
 						<url>sdk-ndk-5160253-5345600-windows-64-patch.jar</url>
 					</patch>
 				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5232133, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>0</minor>
+			<micro>5232133</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 14 20:18:26 2019.-->
+				<complete>
+					<size>807592927</size>
+					<checksum>86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
+					<url>android-ndk-r19-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 14 20:18:52 2019.-->
+				<complete>
+					<size>823337344</size>
+					<checksum>f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</checksum>
+					<url>android-ndk-r19-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 14 20:17:39 2019.-->
+				<complete>
+					<size>778544468</size>
+					<checksum>281175a42b312d630f864a02a31c5806ada5663b</checksum>
+					<url>android-ndk-r19-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 14 20:18:02 2019.-->
+				<complete>
+					<size>795986424</size>
+					<checksum>37906e8e79a9dddf6805325f706a072055e4136c</checksum>
+					<url>android-ndk-r19-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
