@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-24 06:50:19.730141 with ADRT.-->
+	<!--Generated on 2019-05-24 18:56:27.420485 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2325,7 +2325,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5471264, branch:ndk-release-r20-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2515,7 +2515,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5392854, branch:ndk-release-r20-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2573,7 +2573,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5345600, branch:aosp-ndk-release-r19-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2926,7 +2926,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5232133, branch:aosp-ndk-release-r19-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2983,7 +2983,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5063045, branch:aosp-ndk-release-r18-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3040,7 +3040,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:4988734, branch:aosp-ndk-release-r17-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3097,7 +3097,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage obsolete="true" path="ndk-bundle">
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:4479499, branch:aosp-ndk-release-r16-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
