@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-06 12:12:55.451394 with ADRT.-->
+	<!--Generated on 2019-05-29 06:11:43.062643 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -606,18 +606,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>Hardware_Accelerated_Execution_Manager</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:215270191, branch:perforce-->
+		<!--Generated from bid:249830217, branch:perforce-->
 		<sdk:revision>
 			<sdk:major>7</sdk:major>
-			<sdk:minor>3</sdk:minor>
-			<sdk:micro>2</sdk:micro>
+			<sdk:minor>5</sdk:minor>
+			<sdk:micro>1</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Mon Oct  1 15:33:40 2018.-->
-				<sdk:size>2750127</sdk:size>
-				<sdk:checksum type="sha1">c721f900fde9059048afa8f860be5372a3060f56</sdk:checksum>
-				<sdk:url>haxm-windows_v7_3_2.zip</sdk:url>
+				<!--Built on: Fri May 24 08:03:46 2019.-->
+				<sdk:size>2742944</sdk:size>
+				<sdk:checksum type="sha1">bae9faed7dd3ec943fb9ccad219dda3ebd375fd3</sdk:checksum>
+				<sdk:url>haxm-windows_v7_5_1.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>

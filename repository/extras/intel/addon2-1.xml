@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-06 12:12:58.630116 with ADRT.-->
+	<!--Generated on 2019-05-29 06:11:43.324630 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -629,7 +629,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;intel;Hardware_Accelerated_Execution_Manager">
-		<!--Generated from p4 cl:215270191-->
+		<!--Generated from p4 cl:249830217-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>intel</id>
@@ -638,19 +638,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</type-details>
 		<revision>
 			<major>7</major>
-			<minor>3</minor>
-			<micro>2</micro>
+			<minor>5</minor>
+			<micro>1</micro>
 		</revision>
 		<display-name>Intel x86 Emulator Accelerator (HAXM installer)</display-name>
 		<uses-license ref="intel-android-extra-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  1 15:33:40 2018.-->
+				<!--Built on: Fri May 24 08:03:46 2019.-->
 				<complete>
-					<size>2750127</size>
-					<checksum>c721f900fde9059048afa8f860be5372a3060f56</checksum>
-					<url>haxm-windows_v7_3_2.zip</url>
+					<size>2742944</size>
+					<checksum>bae9faed7dd3ec943fb9ccad219dda3ebd375fd3</checksum>
+					<url>haxm-windows_v7_5_1.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
