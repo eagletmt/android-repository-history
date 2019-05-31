@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-29 08:42:11.099524 with ADRT.-->
+	<!--Generated on 2019-05-31 06:39:11.088783 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5846,6 +5846,59 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="emulator">
+		<!--Generated from:ab bid:5613046 branch:aosp-emu-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>29</major>
+			<minor>0</minor>
+			<micro>12</micro>
+		</revision>
+		<display-name>Android Emulator</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="tools">
+				<min-revision>
+					<major>25</major>
+					<minor>3</minor>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed May 29 10:55:19 2019.-->
+				<complete>
+					<size>201213325</size>
+					<checksum>9dc2d9af70415d82c32b2d4dbc02a9e26710b04b</checksum>
+					<url>emulator-darwin-5613046.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 29 10:55:12 2019.-->
+				<complete>
+					<size>409069696</size>
+					<checksum>6605ee2c34078a696f7502f01a2983e4ea418d44</checksum>
+					<url>emulator-linux-5613046.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 29 10:55:28 2019.-->
+				<complete>
+					<size>352551355</size>
+					<checksum>f2a142910c07fddaefc6841123b9e1092a516688</checksum>
+					<url>emulator-windows-5613046.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
