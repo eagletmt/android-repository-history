@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-31 06:39:11.088783 with ADRT.-->
+	<!--Generated on 2019-06-04 22:03:25.610090 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -384,26 +384,26 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="platforms;android-Q">
-		<!--Generated from bid:5506116, branch:qt-preview3-release-->
+	<remotePackage path="platforms;android-29">
+		<!--Generated from bid:5616371, branch:qt-preview4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
-			<api-level>28</api-level>
-			<codename>Q</codename>
+			<api-level>29</api-level>
+			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>1</major>
 		</revision>
-		<display-name>Android SDK Platform Q</display-name>
+		<display-name>Android SDK Platform 29</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Apr 26 14:06:43 2019.-->
+				<!--Built on: Thu May 30 14:15:45 2019.-->
 				<complete>
-					<size>77940380</size>
-					<checksum>1f0682961077d72c4ae8debe861f7bf3bc46a813</checksum>
-					<url>platform-Q_r03.zip</url>
+					<size>78117502</size>
+					<checksum>b1e10d134ac69f5e746e9be8015122b18d43c235</checksum>
+					<url>platform-29_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1496,6 +1496,323 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="ndk;20.0.5594570">
+		<!--Generated from bid:5594570, branch:aosp-ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5594570</micro>
+		</revision>
+		<display-name>NDK (Side by side) 20.0.5594570</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed May 22 15:42:30 2019.-->
+				<complete>
+					<size>843152912</size>
+					<checksum>96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>23139347</size>
+						<checksum>c6966ed8dc3607d29a95d2ceea343c13aff1a3e5</checksum>
+						<url>sdk-ndk-5471264-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>672638543</size>
+						<checksum>93546463032ca77b759cce6f1084edcbab3b20fe</checksum>
+						<url>sdk-ndk-5063045-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>107122633</size>
+						<checksum>70c96b91a39b0155e9c3fe470bd2fd0c6e945182</checksum>
+						<url>sdk-ndk-5392854-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>416057772</size>
+						<checksum>7b789f87569035761cf9f1f23370579e47d83eda</checksum>
+						<url>sdk-ndk-5345600-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>679734024</size>
+						<checksum>7b86881a5eb934fa8ac1c28a4d448f8f1e02bf29</checksum>
+						<url>sdk-ndk-4988734-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109459624</size>
+						<checksum>bda31d2d7a3388e472f3cb7f78dfe73ec35ddf60</checksum>
+						<url>sdk-ndk-5344622-5594570-macosx-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:43:04 2019.-->
+				<complete>
+					<size>859737910</size>
+					<checksum>8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
+					<url>android-ndk-r20-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>23092298</size>
+						<checksum>9fb0cc677fe6fcf5f8f8d7d6343e94201bc688e7</checksum>
+						<url>sdk-ndk-5471264-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>713390726</size>
+						<checksum>78ebc6d713caf299d8efb1ebe942dea2de63786c</checksum>
+						<url>sdk-ndk-5063045-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106971572</size>
+						<checksum>69728c92012185df7636c7d0f982d5768db31b52</checksum>
+						<url>sdk-ndk-5392854-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>437569112</size>
+						<checksum>4dae111bff1c0dd50e9ed389f7dde0d1bb34f362</checksum>
+						<url>sdk-ndk-5345600-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>715356678</size>
+						<checksum>d1526c838d1734e94087f7463c5c399c04d9cced</checksum>
+						<url>sdk-ndk-4988734-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109293422</size>
+						<checksum>f2ddc6cd9c8edc9e3cdbf54a382bc7e0b1afc9fc</checksum>
+						<url>sdk-ndk-5344622-5594570-linux-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:41:21 2019.-->
+				<complete>
+					<size>814417431</size>
+					<checksum>b605f7e2e7585af2fc9d59fe9ddad86b64b2bf03</checksum>
+					<url>android-ndk-r20-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>22872583</size>
+						<checksum>38ce45b2e9dedf8ce07aa35f12bc6a0513453acd</checksum>
+						<url>sdk-ndk-5471264-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>633460607</size>
+						<checksum>cf1d6bb0f1082ab2a323be23dae292625f9b9037</checksum>
+						<url>sdk-ndk-5063045-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106696763</size>
+						<checksum>1808bcd296ff96e295341d7f1768f73e9e7dcf7a</checksum>
+						<url>sdk-ndk-5392854-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>373942048</size>
+						<checksum>e4e9903aabe8f8ac392e0fe1b07c7d3fbbb1e9f4</checksum>
+						<url>sdk-ndk-5345600-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>659973111</size>
+						<checksum>c069d7ac8e070b82310d6918ed3281464090c68e</checksum>
+						<url>sdk-ndk-4988734-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109131173</size>
+						<checksum>49097affcd45760dd28b835ce5d97588cc9cecc7</checksum>
+						<url>sdk-ndk-5344622-5594570-windows-32-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:41:55 2019.-->
+				<complete>
+					<size>832429986</size>
+					<checksum>36e1dc77fad08ad2498fb94b13ad8caf26bbd9df</checksum>
+					<url>android-ndk-r20-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>22920702</size>
+						<checksum>0d816348316d0135ded464f84d22ef7203b63086</checksum>
+						<url>sdk-ndk-5471264-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>650130193</size>
+						<checksum>a0af3b3f35b183baa812139e7d18c8c4fe104d04</checksum>
+						<url>sdk-ndk-5063045-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106683543</size>
+						<checksum>82caecb979ff734e2305c019d1539619fbe73683</checksum>
+						<url>sdk-ndk-5392854-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>380107493</size>
+						<checksum>f653bd338dff53ba88e386a279b0d5df73d312ec</checksum>
+						<url>sdk-ndk-5345600-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>655159619</size>
+						<checksum>e180e3c0fd1701b1dac2513709ac3d46ab7bdab6</checksum>
+						<url>sdk-ndk-4988734-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109133243</size>
+						<checksum>f78e256c8b41ff3904898a4bbf74920ebb652543</checksum>
+						<url>sdk-ndk-5344622-5594570-windows-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="ndk;20.0.5471264">
 		<!--Generated from bid:5471264, branch:ndk-release-r20-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -1510,7 +1827,7 @@ June 2014.</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
 				<!--Built on: Mon Apr 15 17:18:18 2019.-->
@@ -1521,39 +1838,6 @@ June 2014.</license>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>417498383</size>
-						<checksum>534323bc0101695aaecb4d7bee4cdb2bfad91157</checksum>
-						<url>sdk-ndk-5304403-5471264-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98284379</size>
-						<checksum>c7eec746e8f43e9bde60812e52a31d1f9e797804</checksum>
-						<url>sdk-ndk-5392854-5471264-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>417498290</size>
-						<checksum>15f7348b20cc139da9170d96f64011f1732eb5b8</checksum>
-						<url>sdk-ndk-5345600-5471264-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:18:48 2019.-->
@@ -1564,39 +1848,6 @@ June 2014.</license>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>439333491</size>
-						<checksum>9023ff095654338bfa9d521ab973c50143f0d053</checksum>
-						<url>sdk-ndk-5304403-5471264-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>99171442</size>
-						<checksum>8ac61056150625edaff9f0fcd105588967515304</checksum>
-						<url>sdk-ndk-5392854-5471264-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>438975638</size>
-						<checksum>da237c8a4e483569aab05dbdb7c8fb2f1d2419de</checksum>
-						<url>sdk-ndk-5345600-5471264-linux-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:17:18 2019.-->
@@ -1607,39 +1858,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>374897736</size>
-						<checksum>7967fad0e89e0243118c2719554bbba2c7873d13</checksum>
-						<url>sdk-ndk-5304403-5471264-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98871619</size>
-						<checksum>2c23a5c2d86d8b73dfbeac4b4694921fbe7b1b32</checksum>
-						<url>sdk-ndk-5392854-5471264-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>374860441</size>
-						<checksum>e44b2e389ce1ed33e81d86b0a7ed6baaf3d38f1e</checksum>
-						<url>sdk-ndk-5345600-5471264-windows-32-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:17:48 2019.-->
@@ -1650,39 +1868,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>381230574</size>
-						<checksum>46b0faef7ecb9ef0c3a63a30eee558dfd8bd27cf</checksum>
-						<url>sdk-ndk-5304403-5471264-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98205384</size>
-						<checksum>31b62a5f85566a571de24e7d4c6d17f0120c3fcc</checksum>
-						<url>sdk-ndk-5392854-5471264-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>381201847</size>
-						<checksum>2a9317ccdcab87de32e4dcb6f860aef2a2b0b919</checksum>
-						<url>sdk-ndk-5345600-5471264-windows-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -1757,7 +1942,7 @@ June 2014.</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-0"/>
+		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
 				<!--Built on: Fri Mar  1 02:13:13 2019.-->
@@ -1768,80 +1953,6 @@ June 2014.</license>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>146647810</size>
-						<checksum>698941e8986c498218926de48704cb4462d987f7</checksum>
-						<url>sdk-ndk-5106443-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>741243603</size>
-						<checksum>3dcc711951bcb0235e89742d4378c64ea3966e81</checksum>
-						<url>sdk-ndk-4479499-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>322402</size>
-						<checksum>03cc1b8700df928729c5358ff1807b54d9633b16</checksum>
-						<url>sdk-ndk-5304403-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>509807675</size>
-						<checksum>269158fbc47b7a3a62799c612b9553191708851e</checksum>
-						<url>sdk-ndk-5063045-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>386420</size>
-						<checksum>3f371af8d1e33e29ce30021ca8f972befad81f23</checksum>
-						<url>sdk-ndk-5232133-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>500621160</size>
-						<checksum>236787d99adc98fc0c454d9abbb16dfc0808256d</checksum>
-						<url>sdk-ndk-4988734-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>5569559</size>
-						<checksum>e7aed8d107408961aed26b3b816807da68438b0b</checksum>
-						<url>sdk-ndk-5160253-5345600-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:13:43 2019.-->
@@ -1852,80 +1963,6 @@ June 2014.</license>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>143368524</size>
-						<checksum>d2c9c277f205b6eed15b1778366baa85819e0291</checksum>
-						<url>sdk-ndk-5106443-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>769114850</size>
-						<checksum>bce85101f6322850ef05139dde293fbb2a355b60</checksum>
-						<url>sdk-ndk-4479499-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>1542681</size>
-						<checksum>2916cb975ba25da6fca160be687c33728d9266cb</checksum>
-						<url>sdk-ndk-5304403-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>553472054</size>
-						<checksum>fa88d78ec14ee253b41e4ac6a2d217c588cd04bc</checksum>
-						<url>sdk-ndk-5063045-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>386653</size>
-						<checksum>71d2cd3e23195b257cf1d0c3fde5b73bded25d1f</checksum>
-						<url>sdk-ndk-5232133-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>536055046</size>
-						<checksum>29abddb37ebacf41483ee97d3fdafccc1cf7e074</checksum>
-						<url>sdk-ndk-4988734-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>9206819</size>
-						<checksum>76a27e3c4a0ad88a904f9faf2c3acf955117adc6</checksum>
-						<url>sdk-ndk-5160253-5345600-linux-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:12:19 2019.-->
@@ -1936,80 +1973,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>132179384</size>
-						<checksum>f323ab4e32ddec6e9111b5574184e8d6dc54aef6</checksum>
-						<url>sdk-ndk-5106443-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>767212484</size>
-						<checksum>9bdcaa222d11b9428eae6185a156e3eff6c30985</checksum>
-						<url>sdk-ndk-4479499-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>324427</size>
-						<checksum>49d45aee993e04b50fc1c4fb76e808429151d109</checksum>
-						<url>sdk-ndk-5304403-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>468230937</size>
-						<checksum>9f0f84ebd14aa12f26eab3f03c6e584133e45142</checksum>
-						<url>sdk-ndk-5063045-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>1335402</size>
-						<checksum>e89a3665fb4982b713fe1b741a0ae389eaf9d0ce</checksum>
-						<url>sdk-ndk-5232133-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>476789314</size>
-						<checksum>45ec3c4854ed4a9dd9325e4557b28479b4b257b9</checksum>
-						<url>sdk-ndk-4988734-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>10749259</size>
-						<checksum>55c70c0a7dfc150c78f4d52767cbb520dea2e039</checksum>
-						<url>sdk-ndk-5160253-5345600-windows-32-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:12:45 2019.-->
@@ -2020,80 +1983,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>139397277</size>
-						<checksum>7b132eb4be556b4edc9f23fb31305aaacea9520d</checksum>
-						<url>sdk-ndk-5106443-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>739952448</size>
-						<checksum>bd2ad193b68aa8bc47601afd0e57000fe54763f7</checksum>
-						<url>sdk-ndk-4479499-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>327546</size>
-						<checksum>45fd098b0c1e006456a5b4c1d229a2f634a8dc22</checksum>
-						<url>sdk-ndk-5304403-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>484042979</size>
-						<checksum>8fd882284e285268e17325550015e4a77aea855f</checksum>
-						<url>sdk-ndk-5063045-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>1435879</size>
-						<checksum>c45cbc05e5cf7fdbd57bb800099f5da5dc2224f1</checksum>
-						<url>sdk-ndk-5232133-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>470818542</size>
-						<checksum>79948fa67bebdb9904c5a93a1b29a02f387d4af3</checksum>
-						<url>sdk-ndk-4988734-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>9906102</size>
-						<checksum>7515121f5c6e0380cd318e21d0035095e5e12372</checksum>
-						<url>sdk-ndk-5160253-5345600-windows-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2326,6 +2215,323 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5594570, branch:aosp-ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5594570</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed May 22 15:42:30 2019.-->
+				<complete>
+					<size>843152912</size>
+					<checksum>96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>23139347</size>
+						<checksum>c6966ed8dc3607d29a95d2ceea343c13aff1a3e5</checksum>
+						<url>sdk-ndk-5471264-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>672638543</size>
+						<checksum>93546463032ca77b759cce6f1084edcbab3b20fe</checksum>
+						<url>sdk-ndk-5063045-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>107122633</size>
+						<checksum>70c96b91a39b0155e9c3fe470bd2fd0c6e945182</checksum>
+						<url>sdk-ndk-5392854-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>416057772</size>
+						<checksum>7b789f87569035761cf9f1f23370579e47d83eda</checksum>
+						<url>sdk-ndk-5345600-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>679734024</size>
+						<checksum>7b86881a5eb934fa8ac1c28a4d448f8f1e02bf29</checksum>
+						<url>sdk-ndk-4988734-5594570-macosx-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109459624</size>
+						<checksum>bda31d2d7a3388e472f3cb7f78dfe73ec35ddf60</checksum>
+						<url>sdk-ndk-5344622-5594570-macosx-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:43:04 2019.-->
+				<complete>
+					<size>859737910</size>
+					<checksum>8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
+					<url>android-ndk-r20-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>23092298</size>
+						<checksum>9fb0cc677fe6fcf5f8f8d7d6343e94201bc688e7</checksum>
+						<url>sdk-ndk-5471264-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>713390726</size>
+						<checksum>78ebc6d713caf299d8efb1ebe942dea2de63786c</checksum>
+						<url>sdk-ndk-5063045-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106971572</size>
+						<checksum>69728c92012185df7636c7d0f982d5768db31b52</checksum>
+						<url>sdk-ndk-5392854-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>437569112</size>
+						<checksum>4dae111bff1c0dd50e9ed389f7dde0d1bb34f362</checksum>
+						<url>sdk-ndk-5345600-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>715356678</size>
+						<checksum>d1526c838d1734e94087f7463c5c399c04d9cced</checksum>
+						<url>sdk-ndk-4988734-5594570-linux-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109293422</size>
+						<checksum>f2ddc6cd9c8edc9e3cdbf54a382bc7e0b1afc9fc</checksum>
+						<url>sdk-ndk-5344622-5594570-linux-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:41:21 2019.-->
+				<complete>
+					<size>814417431</size>
+					<checksum>b605f7e2e7585af2fc9d59fe9ddad86b64b2bf03</checksum>
+					<url>android-ndk-r20-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>32</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>22872583</size>
+						<checksum>38ce45b2e9dedf8ce07aa35f12bc6a0513453acd</checksum>
+						<url>sdk-ndk-5471264-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>633460607</size>
+						<checksum>cf1d6bb0f1082ab2a323be23dae292625f9b9037</checksum>
+						<url>sdk-ndk-5063045-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106696763</size>
+						<checksum>1808bcd296ff96e295341d7f1768f73e9e7dcf7a</checksum>
+						<url>sdk-ndk-5392854-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>373942048</size>
+						<checksum>e4e9903aabe8f8ac392e0fe1b07c7d3fbbb1e9f4</checksum>
+						<url>sdk-ndk-5345600-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>659973111</size>
+						<checksum>c069d7ac8e070b82310d6918ed3281464090c68e</checksum>
+						<url>sdk-ndk-4988734-5594570-windows-32-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109131173</size>
+						<checksum>49097affcd45760dd28b835ce5d97588cc9cecc7</checksum>
+						<url>sdk-ndk-5344622-5594570-windows-32-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+			<archive>
+				<!--Built on: Wed May 22 15:41:55 2019.-->
+				<complete>
+					<size>832429986</size>
+					<checksum>36e1dc77fad08ad2498fb94b13ad8caf26bbd9df</checksum>
+					<url>android-ndk-r20-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+				<patches>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5471264</micro>
+							<preview>3</preview>
+						</based-on>
+						<size>22920702</size>
+						<checksum>0d816348316d0135ded464f84d22ef7203b63086</checksum>
+						<url>sdk-ndk-5471264-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>18</major>
+							<minor>1</minor>
+							<micro>5063045</micro>
+						</based-on>
+						<size>650130193</size>
+						<checksum>a0af3b3f35b183baa812139e7d18c8c4fe104d04</checksum>
+						<url>sdk-ndk-5063045-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5392854</micro>
+							<preview>2</preview>
+						</based-on>
+						<size>106683543</size>
+						<checksum>82caecb979ff734e2305c019d1539619fbe73683</checksum>
+						<url>sdk-ndk-5392854-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>19</major>
+							<minor>2</minor>
+							<micro>5345600</micro>
+						</based-on>
+						<size>380107493</size>
+						<checksum>f653bd338dff53ba88e386a279b0d5df73d312ec</checksum>
+						<url>sdk-ndk-5345600-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>17</major>
+							<minor>2</minor>
+							<micro>4988734</micro>
+						</based-on>
+						<size>655159619</size>
+						<checksum>e180e3c0fd1701b1dac2513709ac3d46ab7bdab6</checksum>
+						<url>sdk-ndk-4988734-5594570-windows-64-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>20</major>
+							<minor>0</minor>
+							<micro>5344622</micro>
+							<preview>1</preview>
+						</based-on>
+						<size>109133243</size>
+						<checksum>f78e256c8b41ff3904898a4bbf74920ebb652543</checksum>
+						<url>sdk-ndk-5344622-5594570-windows-64-patch.jar</url>
+					</patch>
+				</patches>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:5471264, branch:ndk-release-r20-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -2339,7 +2545,7 @@ June 2014.</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
 				<!--Built on: Mon Apr 15 17:18:18 2019.-->
@@ -2350,39 +2556,6 @@ June 2014.</license>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>417498383</size>
-						<checksum>534323bc0101695aaecb4d7bee4cdb2bfad91157</checksum>
-						<url>sdk-ndk-5304403-5471264-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98284379</size>
-						<checksum>c7eec746e8f43e9bde60812e52a31d1f9e797804</checksum>
-						<url>sdk-ndk-5392854-5471264-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>417498290</size>
-						<checksum>15f7348b20cc139da9170d96f64011f1732eb5b8</checksum>
-						<url>sdk-ndk-5345600-5471264-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:18:48 2019.-->
@@ -2393,39 +2566,6 @@ June 2014.</license>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>439333491</size>
-						<checksum>9023ff095654338bfa9d521ab973c50143f0d053</checksum>
-						<url>sdk-ndk-5304403-5471264-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>99171442</size>
-						<checksum>8ac61056150625edaff9f0fcd105588967515304</checksum>
-						<url>sdk-ndk-5392854-5471264-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>438975638</size>
-						<checksum>da237c8a4e483569aab05dbdb7c8fb2f1d2419de</checksum>
-						<url>sdk-ndk-5345600-5471264-linux-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:17:18 2019.-->
@@ -2436,39 +2576,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>374897736</size>
-						<checksum>7967fad0e89e0243118c2719554bbba2c7873d13</checksum>
-						<url>sdk-ndk-5304403-5471264-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98871619</size>
-						<checksum>2c23a5c2d86d8b73dfbeac4b4694921fbe7b1b32</checksum>
-						<url>sdk-ndk-5392854-5471264-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>374860441</size>
-						<checksum>e44b2e389ce1ed33e81d86b0a7ed6baaf3d38f1e</checksum>
-						<url>sdk-ndk-5345600-5471264-windows-32-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Mon Apr 15 17:17:48 2019.-->
@@ -2479,39 +2586,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>381230574</size>
-						<checksum>46b0faef7ecb9ef0c3a63a30eee558dfd8bd27cf</checksum>
-						<url>sdk-ndk-5304403-5471264-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>20</major>
-							<minor>0</minor>
-							<micro>5392854</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>98205384</size>
-						<checksum>31b62a5f85566a571de24e7d4c6d17f0120c3fcc</checksum>
-						<url>sdk-ndk-5392854-5471264-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>2</minor>
-							<micro>5345600</micro>
-						</based-on>
-						<size>381201847</size>
-						<checksum>2a9317ccdcab87de32e4dcb6f860aef2a2b0b919</checksum>
-						<url>sdk-ndk-5345600-5471264-windows-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2586,7 +2660,7 @@ June 2014.</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-0"/>
+		<channelRef ref="channel-2"/>
 		<archives>
 			<archive>
 				<!--Built on: Fri Mar  1 02:13:13 2019.-->
@@ -2597,80 +2671,6 @@ June 2014.</license>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>146647810</size>
-						<checksum>698941e8986c498218926de48704cb4462d987f7</checksum>
-						<url>sdk-ndk-5106443-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>741243603</size>
-						<checksum>3dcc711951bcb0235e89742d4378c64ea3966e81</checksum>
-						<url>sdk-ndk-4479499-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>322402</size>
-						<checksum>03cc1b8700df928729c5358ff1807b54d9633b16</checksum>
-						<url>sdk-ndk-5304403-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>509807675</size>
-						<checksum>269158fbc47b7a3a62799c612b9553191708851e</checksum>
-						<url>sdk-ndk-5063045-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>386420</size>
-						<checksum>3f371af8d1e33e29ce30021ca8f972befad81f23</checksum>
-						<url>sdk-ndk-5232133-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>500621160</size>
-						<checksum>236787d99adc98fc0c454d9abbb16dfc0808256d</checksum>
-						<url>sdk-ndk-4988734-5345600-macosx-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>5569559</size>
-						<checksum>e7aed8d107408961aed26b3b816807da68438b0b</checksum>
-						<url>sdk-ndk-5160253-5345600-macosx-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:13:43 2019.-->
@@ -2681,80 +2681,6 @@ June 2014.</license>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>143368524</size>
-						<checksum>d2c9c277f205b6eed15b1778366baa85819e0291</checksum>
-						<url>sdk-ndk-5106443-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>769114850</size>
-						<checksum>bce85101f6322850ef05139dde293fbb2a355b60</checksum>
-						<url>sdk-ndk-4479499-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>1542681</size>
-						<checksum>2916cb975ba25da6fca160be687c33728d9266cb</checksum>
-						<url>sdk-ndk-5304403-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>553472054</size>
-						<checksum>fa88d78ec14ee253b41e4ac6a2d217c588cd04bc</checksum>
-						<url>sdk-ndk-5063045-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>386653</size>
-						<checksum>71d2cd3e23195b257cf1d0c3fde5b73bded25d1f</checksum>
-						<url>sdk-ndk-5232133-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>536055046</size>
-						<checksum>29abddb37ebacf41483ee97d3fdafccc1cf7e074</checksum>
-						<url>sdk-ndk-4988734-5345600-linux-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>9206819</size>
-						<checksum>76a27e3c4a0ad88a904f9faf2c3acf955117adc6</checksum>
-						<url>sdk-ndk-5160253-5345600-linux-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:12:19 2019.-->
@@ -2765,80 +2691,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>132179384</size>
-						<checksum>f323ab4e32ddec6e9111b5574184e8d6dc54aef6</checksum>
-						<url>sdk-ndk-5106443-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>767212484</size>
-						<checksum>9bdcaa222d11b9428eae6185a156e3eff6c30985</checksum>
-						<url>sdk-ndk-4479499-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>324427</size>
-						<checksum>49d45aee993e04b50fc1c4fb76e808429151d109</checksum>
-						<url>sdk-ndk-5304403-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>468230937</size>
-						<checksum>9f0f84ebd14aa12f26eab3f03c6e584133e45142</checksum>
-						<url>sdk-ndk-5063045-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>1335402</size>
-						<checksum>e89a3665fb4982b713fe1b741a0ae389eaf9d0ce</checksum>
-						<url>sdk-ndk-5232133-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>476789314</size>
-						<checksum>45ec3c4854ed4a9dd9325e4557b28479b4b257b9</checksum>
-						<url>sdk-ndk-4988734-5345600-windows-32-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>10749259</size>
-						<checksum>55c70c0a7dfc150c78f4d52767cbb520dea2e039</checksum>
-						<url>sdk-ndk-5160253-5345600-windows-32-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 			<archive>
 				<!--Built on: Fri Mar  1 02:12:45 2019.-->
@@ -2849,80 +2701,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5106443</micro>
-							<preview>1</preview>
-						</based-on>
-						<size>139397277</size>
-						<checksum>7b132eb4be556b4edc9f23fb31305aaacea9520d</checksum>
-						<url>sdk-ndk-5106443-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-							<minor>1</minor>
-							<micro>4479499</micro>
-						</based-on>
-						<size>739952448</size>
-						<checksum>bd2ad193b68aa8bc47601afd0e57000fe54763f7</checksum>
-						<url>sdk-ndk-4479499-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>1</minor>
-							<micro>5304403</micro>
-						</based-on>
-						<size>327546</size>
-						<checksum>45fd098b0c1e006456a5b4c1d229a2f634a8dc22</checksum>
-						<url>sdk-ndk-5304403-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>18</major>
-							<minor>1</minor>
-							<micro>5063045</micro>
-						</based-on>
-						<size>484042979</size>
-						<checksum>8fd882284e285268e17325550015e4a77aea855f</checksum>
-						<url>sdk-ndk-5063045-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5232133</micro>
-						</based-on>
-						<size>1435879</size>
-						<checksum>c45cbc05e5cf7fdbd57bb800099f5da5dc2224f1</checksum>
-						<url>sdk-ndk-5232133-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>17</major>
-							<minor>2</minor>
-							<micro>4988734</micro>
-						</based-on>
-						<size>470818542</size>
-						<checksum>79948fa67bebdb9904c5a93a1b29a02f387d4af3</checksum>
-						<url>sdk-ndk-4988734-5345600-windows-64-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>19</major>
-							<minor>0</minor>
-							<micro>5160253</micro>
-							<preview>2</preview>
-						</based-on>
-						<size>9906102</size>
-						<checksum>7515121f5c6e0380cd318e21d0035095e5e12372</checksum>
-						<url>sdk-ndk-5160253-5345600-windows-64-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -3578,7 +3356,48 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;29.0.0-rc3">
+	<remotePackage path="build-tools;29.0.0">
+		<!--Generated from bid:5616371, branch:qt-preview4-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>29</major>
+			<minor>0</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 29</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May 30 14:15:28 2019.-->
+				<complete>
+					<size>58650449</size>
+					<checksum>ad314caf1802209c4b00a5f3517af5ceb0d48eae</checksum>
+					<url>build-tools_r29-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu May 30 14:15:18 2019.-->
+				<complete>
+					<size>57820193</size>
+					<checksum>35dc6bc7a53bd9d206847e72f02cab21cfdaa869</checksum>
+					<url>build-tools_r29-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu May 30 14:15:09 2019.-->
+				<complete>
+					<size>57098799</size>
+					<checksum>1799f7f975416098e5a5bf280eb97c8f77cf7f79</checksum>
+					<url>build-tools_r29-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="build-tools;29.0.0-rc3">
 		<!--Generated from bid:5506116, branch:qt-preview3-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3620,7 +3439,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;29.0.0-rc2">
+	<remotePackage obsolete="true" path="build-tools;29.0.0-rc2">
 		<!--Generated from bid:5415296, branch:qt-preview2-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3662,7 +3481,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;29.0.0-rc1">
+	<remotePackage obsolete="true" path="build-tools;29.0.0-rc1">
 		<!--Generated from bid:5345599, branch:qt-preview1-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3868,7 +3687,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;28.0.0-rc2">
+	<remotePackage obsolete="true" path="build-tools;28.0.0-rc2">
 		<!--Generated from bid:4758566, branch:pi-preview2-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3910,7 +3729,7 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;28.0.0-rc1">
+	<remotePackage obsolete="true" path="build-tools;28.0.0-rc1">
 		<!--Generated from bid:4614665, branch:git_pi-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -5723,41 +5542,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:5475833 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:5611747 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>28</major>
+			<major>29</major>
 			<minor>0</minor>
-			<micro>3</micro>
+			<micro>0</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 17 15:58:26 2019.-->
+				<!--Built on: Wed May 29 10:27:10 2019.-->
 				<complete>
-					<size>11762607</size>
-					<checksum>763a4070c2557f78882a0f511b6f73e28f367e3b</checksum>
-					<url>platform-tools_r28.0.3-darwin.zip</url>
+					<size>12282893</size>
+					<checksum>00e1975211ed8128d34ffba8b3d15d22905b87df</checksum>
+					<url>platform-tools_r29.0.0-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 17 15:58:20 2019.-->
+				<!--Built on: Wed May 29 10:26:58 2019.-->
 				<complete>
-					<size>11825449</size>
-					<checksum>3d39beebda1ee919520077ebc8f7694e1c6d6e41</checksum>
-					<url>platform-tools_r28.0.3-linux.zip</url>
+					<size>12343021</size>
+					<checksum>0561e28beb79b93cb46babeccf42be41ee2b4553</checksum>
+					<url>platform-tools_r29.0.0-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 17 15:58:22 2019.-->
+				<!--Built on: Wed May 29 10:27:05 2019.-->
 				<complete>
-					<size>11050659</size>
-					<checksum>6d2db43c69a71bcd7b897b5386e065dfa713b340</checksum>
-					<url>platform-tools_r28.0.3-windows.zip</url>
+					<size>11699465</size>
+					<checksum>cab7dbee69814654f9c8a9859919354c07a8de1d</checksum>
+					<url>platform-tools_r29.0.0-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-30 13:32:17.128476 with ADRT.-->
+	<!--Generated on 2019-06-04 22:04:57.295960 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1556,11 +1556,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Q;default;x86">
-		<!--Generated from bid:5437700, branch:git_qt-preview2-release-->
+	<remotePackage path="system-images;android-29;default;x86">
+		<!--Generated from bid:5616371, branch:git_qt-preview4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<codename>Q</codename>
+			<api-level>29</api-level>
 			<tag>
 				<id>default</id>
 				<display>Default Android System Image</display>
@@ -1568,7 +1567,7 @@ August 15, 2011</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>5</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1585,49 +1584,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr  4 17:58:22 2019.-->
+				<!--Built on: Thu May 30 14:17:55 2019.-->
 				<complete>
-					<size>503772663</size>
-					<checksum>48bdc8fa6ef3920f5aa7b1cf973737396a88a700</checksum>
-					<url>x86-Q_r03.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-Q;default;x86">
-		<!--Generated from bid:5506116, branch:git_qt-preview3-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<codename>Q</codename>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="emulator">
-				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Apr 26 14:08:53 2019.-->
-				<complete>
-					<size>507234283</size>
-					<checksum>6169ab748481ee2fd7a38f31853f119af6040093</checksum>
-					<url>x86-Q_r04.zip</url>
+					<size>507250475</size>
+					<checksum>dd656492a1e91132d44d7fdda69c00e1a5cb4211</checksum>
+					<url>x86-29_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1909,11 +1870,10 @@ August 15, 2011</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Q;default;x86_64">
-		<!--Generated from bid:5506116, branch:git_qt-preview3-release-->
+	<remotePackage path="system-images;android-29;default;x86_64">
+		<!--Generated from bid:5616371, branch:git_qt-preview4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<codename>Q</codename>
+			<api-level>29</api-level>
 			<tag>
 				<id>default</id>
 				<display>Default Android System Image</display>
@@ -1921,7 +1881,7 @@ August 15, 2011</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1938,11 +1898,11 @@ August 15, 2011</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Apr 26 14:09:46 2019.-->
+				<!--Built on: Thu May 30 14:18:59 2019.-->
 				<complete>
-					<size>681340670</size>
-					<checksum>ab9520dabe0fe5c21867a10954e6b13a68fff8c1</checksum>
-					<url>x86_64-Q_r04.zip</url>
+					<size>677780361</size>
+					<checksum>d79df6337805e222c07411da048487de2695e8d5</checksum>
+					<url>x86_64-29_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
