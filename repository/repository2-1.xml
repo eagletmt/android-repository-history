@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-06-10 06:21:43.907055 with ADRT.-->
+	<!--Generated on 2019-06-10 18:16:41.421652 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5542,41 +5542,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:5611747 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:5644136 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>29</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 29 10:27:10 2019.-->
+				<!--Built on: Mon Jun 10 14:05:25 2019.-->
 				<complete>
-					<size>12282893</size>
-					<checksum>00e1975211ed8128d34ffba8b3d15d22905b87df</checksum>
-					<url>platform-tools_r29.0.0-darwin.zip</url>
+					<size>12282891</size>
+					<checksum>30ffb0416e0a1204bc181d7270ecc93dd367c799</checksum>
+					<url>platform-tools_r29.0.1-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 29 10:26:58 2019.-->
+				<!--Built on: Mon Jun 10 14:05:11 2019.-->
 				<complete>
-					<size>12343021</size>
-					<checksum>0561e28beb79b93cb46babeccf42be41ee2b4553</checksum>
-					<url>platform-tools_r29.0.0-linux.zip</url>
+					<size>12343049</size>
+					<checksum>698e43552531f92f7662f7cb1a47d0fd89adfb21</checksum>
+					<url>platform-tools_r29.0.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 29 10:27:05 2019.-->
+				<!--Built on: Mon Jun 10 14:05:17 2019.-->
 				<complete>
-					<size>11699465</size>
-					<checksum>cab7dbee69814654f9c8a9859919354c07a8de1d</checksum>
-					<url>platform-tools_r29.0.0-windows.zip</url>
+					<size>11564604</size>
+					<checksum>1d188363d7f30751c60805885cc5c4924c363927</checksum>
+					<url>platform-tools_r29.0.1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
