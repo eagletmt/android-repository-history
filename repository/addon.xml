@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-06 12:09:52.344624 with ADRT.-->
+	<!--Generated on 2020-03-06 08:41:53.052673 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1422,23 +1422,23 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>google_play_services</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:75820409, branch:perforce-->
+		<!--Generated from bid:274646126, branch:perforce-->
 		<sdk:revision>
-			<sdk:major>11</sdk:major>
+			<sdk:major>12</sdk:major>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Thu Jun  7 01:53:27 2018.-->
-				<sdk:size>8682859</sdk:size>
-				<sdk:checksum type="sha1">dc8a2ed2fbd7246d4caf9ab10ffe7749dc35d1cc</sdk:checksum>
-				<sdk:url>usb_driver_r11-windows.zip</sdk:url>
+				<!--Built on: Mon Oct 14 13:57:14 2019.-->
+				<sdk:size>8682886</sdk:size>
+				<sdk:checksum type="sha1">36e26ac0bf27e49c64a8f5262dc97c0d530d1778</sdk:checksum>
+				<sdk:url>usb_driver_r12-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 		<sdk:vendor-id>google</sdk:vendor-id>
 		<sdk:vendor-display>Google Inc.</sdk:vendor-display>
-		<sdk:description>USB Driver for Windows, revision 11</sdk:description>
+		<sdk:description>USB Driver for Windows</sdk:description>
 		<sdk:desc-url>http://developer.android.com/</sdk:desc-url>
 		<sdk:name-display>Google USB Driver</sdk:name-display>
 		<sdk:path>usb_driver</sdk:path>
@@ -1589,18 +1589,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<sdk:path>auto</sdk:path>
 	</sdk:extra>
 	<sdk:extra>
-		<!--Generated from bid:241064596, branch:perforce-->
+		<!--Generated from bid:264940023, branch:perforce-->
 		<sdk:revision>
 			<sdk:major>1</sdk:major>
-			<sdk:minor>7</sdk:minor>
+			<sdk:minor>9</sdk:minor>
 			<sdk:micro>0</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Mar 29 16:18:43 2019.-->
-				<sdk:size>38862120</sdk:size>
-				<sdk:checksum type="sha1">d05e1aa15fcc9c8c69189452ab1724c82aedfcce</sdk:checksum>
-				<sdk:url>iasdk-1.7.0-1553898687.zip</sdk:url>
+				<!--Built on: Thu Aug 22 16:09:24 2019.-->
+				<sdk:size>39524850</sdk:size>
+				<sdk:checksum type="sha1">c498367dcd7db30154b3e70c4ddbb1b0ea4b8d20</sdk:checksum>
+				<sdk:url>iasdk-1.9.0-1566514721.zip</sdk:url>
 			</sdk:archive>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>

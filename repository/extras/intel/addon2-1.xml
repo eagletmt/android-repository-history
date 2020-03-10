@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-29 06:11:43.324630 with ADRT.-->
+	<!--Generated on 2020-03-06 08:42:10.414061 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -601,35 +601,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="extras;intel;Hardware_Accelerated_Execution_Manager">
-		<!--Generated from p4 cl:215270191-->
-		<type-details xsi:type="addon:extraDetailsType">
-			<vendor>
-				<id>intel</id>
-				<display>Intel Corporation</display>
-			</vendor>
-		</type-details>
-		<revision>
-			<major>7</major>
-			<minor>3</minor>
-			<micro>2</micro>
-		</revision>
-		<display-name>Intel x86 Emulator Accelerator (HAXM installer)</display-name>
-		<uses-license ref="intel-android-extra-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Oct  1 15:33:29 2018.-->
-				<complete>
-					<size>225073</size>
-					<checksum>c20bd9156e34dc55a724da4656a8158253986800</checksum>
-					<url>haxm-macosx_v7_3_2.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="extras;intel;Hardware_Accelerated_Execution_Manager">
-		<!--Generated from p4 cl:249830217-->
+		<!--Generated from p4 cl:259746929-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>intel</id>
@@ -646,11 +618,39 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 24 08:03:46 2019.-->
+				<!--Built on: Thu Jul 25 08:04:33 2019.-->
 				<complete>
-					<size>2742944</size>
-					<checksum>bae9faed7dd3ec943fb9ccad219dda3ebd375fd3</checksum>
-					<url>haxm-windows_v7_5_1.zip</url>
+					<size>633583</size>
+					<checksum>5a628d9507b8cd90f211670ea4513f2e52f44975</checksum>
+					<url>haxm-macosx_v7_5_1.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="extras;intel;Hardware_Accelerated_Execution_Manager">
+		<!--Generated from p4 cl:297404543-->
+		<type-details xsi:type="addon:extraDetailsType">
+			<vendor>
+				<id>intel</id>
+				<display>Intel Corporation</display>
+			</vendor>
+		</type-details>
+		<revision>
+			<major>7</major>
+			<minor>5</minor>
+			<micro>6</micro>
+		</revision>
+		<display-name>Intel x86 Emulator Accelerator (HAXM installer)</display-name>
+		<uses-license ref="intel-android-extra-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Feb 26 11:28:47 2020.-->
+				<complete>
+					<size>2761309</size>
+					<checksum>a99c36e2c0394a4053c5f9a3afe9b2ec408ce6b8</checksum>
+					<url>haxm-windows_v7_5_6.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

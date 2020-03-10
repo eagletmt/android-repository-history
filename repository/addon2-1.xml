@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2019-05-06 12:10:54.218439 with ADRT.-->
+	<!--Generated on 2020-03-06 08:41:56.696894 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1953,7 +1953,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;usb_driver">
-		<!--Generated from p4 cl:75820409-->
+		<!--Generated from p4 cl:274646126-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -1961,18 +1961,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			</vendor>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google USB Driver</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun  7 01:53:27 2018.-->
+				<!--Built on: Mon Oct 14 13:57:14 2019.-->
 				<complete>
-					<size>8682859</size>
-					<checksum>dc8a2ed2fbd7246d4caf9ab10ffe7749dc35d1cc</checksum>
-					<url>usb_driver_r11-windows.zip</url>
+					<size>8682886</size>
+					<checksum>36e26ac0bf27e49c64a8f5262dc97c0d530d1778</checksum>
+					<url>usb_driver_r12-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -2149,7 +2149,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;instantapps">
-		<!--Generated from p4 cl:241064596-->
+		<!--Generated from p4 cl:264940023-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -2158,7 +2158,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</type-details>
 		<revision>
 			<major>1</major>
-			<minor>7</minor>
+			<minor>9</minor>
 			<micro>0</micro>
 		</revision>
 		<display-name>Google Play Instant Development SDK</display-name>
@@ -2166,11 +2166,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 29 16:18:43 2019.-->
+				<!--Built on: Thu Aug 22 16:09:24 2019.-->
 				<complete>
-					<size>38862120</size>
-					<checksum>d05e1aa15fcc9c8c69189452ab1724c82aedfcce</checksum>
-					<url>iasdk-1.7.0-1553898687.zip</url>
+					<size>39524850</size>
+					<checksum>c498367dcd7db30154b3e70c4ddbb1b0ea4b8d20</checksum>
+					<url>iasdk-1.9.0-1566514721.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2262,6 +2262,34 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					<size>31656325</size>
 					<checksum>0383903a9a9e61ecb3a339f7981857ddb667cc61</checksum>
 					<url>gapid_2994895_windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="extras;google;Android_Emulator_Hypervisor_Driver">
+		<!--Generated from p4 cl:294756913-->
+		<type-details xsi:type="addon:extraDetailsType">
+			<vendor>
+				<id>google</id>
+				<display>Google LLC.</display>
+			</vendor>
+		</type-details>
+		<revision>
+			<major>1</major>
+			<minor>4</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android Emulator Hypervisor Driver for AMD Processors (installer)</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Feb 12 14:41:12 2020.-->
+				<complete>
+					<size>168087</size>
+					<checksum>058af632c6e4a1ec8942887901f3b80136684809</checksum>
+					<url>gvm-windows_v1_4_0.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
