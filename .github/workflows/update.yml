@@ -47,11 +47,9 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: update
-    - name: Debug
-      run: |
-        ls -l update
     - name: Update repository
       run: |
+        chmod +x update/android-repository-history
         update/android-repository-history
     - name: Publish
       env:
