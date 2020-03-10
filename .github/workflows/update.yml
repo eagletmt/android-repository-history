@@ -33,10 +33,10 @@ jobs:
     steps:
     - name: Setup deploy key
       env:
-        DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        DEPLOY_PRIVATE_KEY_BASE64: ${{ secrets.DEPLOY_PRIVATE_KEY_BASE64 }}
       run: |
         mkdir -p -m700 ~/.ssh
-        echo $DEPLOY_PRIVATE_KEY > ~/.ssh/deploy-key.pem
+        echo $DEPLOY_PRIVATE_KEY_BASE64 | base64 -d > ~/.ssh/deploy-key.pem
         chmod 600 ~/.ssh/deploy-key.pem
     - name: Check out
       env:
