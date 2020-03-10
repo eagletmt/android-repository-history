@@ -18,3 +18,23 @@ jobs:
       uses: actions/checkout@v2
     - name: Build
       run: go build -v .
+    - name: Upload executable
+      uses: actions/upload-artifact@v1
+      with:
+        name: update
+        path: android-repository-history
+  update:
+    name: Update
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download executable
+      uses: actions/download-artifact@v1
+      with:
+        name: update
+    - name: Update repository
+      run: |
+        ./android-repository-history
+    - name: Publish
+      run: |
+        git remote -v
