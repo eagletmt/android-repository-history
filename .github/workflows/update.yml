@@ -3,9 +3,10 @@ name: update
 on:
   schedule:
   - cron: '0 * * * *'
-  push:
-    branches:
-    - master
+  # Enable on: push when debug
+  # push:
+  #   branches:
+  #   - master
 
 jobs:
   build:
@@ -60,7 +61,6 @@ jobs:
         GIT_COMMITTER_NAME: Kohei Suzuki (bot)
         GIT_COMMITTER_EMAIL: github-bot@wanko.cc
       run: |
-        git remote -v
         git add repository
         if git commit -m "Update repository $(date --rfc-3339=seconds)"; then
           git push origin master
