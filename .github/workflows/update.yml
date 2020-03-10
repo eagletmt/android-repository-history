@@ -32,6 +32,9 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: update
+    - name: Debug
+      run: |
+        ls -l
     - name: Update repository
       run: |
         ./android-repository-history
