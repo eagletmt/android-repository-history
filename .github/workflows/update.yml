@@ -31,16 +31,39 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - name: Setup deploy key
+      env:
+        DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+      run: |
+        mkdir -p -m700 ~/.ssh
+        echo $DEPLOY_PRIVATE_KEY > ~/.ssh/deploy-key.pem
+        chmod 600 ~/.ssh/deploy-key.pem
+    - name: Check out
+      env:
+        GIT_SSH_COMMAND: ssh -i ~/.ssh/deploy-key.pem -o StrictHostKeyChecking=no
+      run: |
+        git clone git@github.com:eagletmt/android-repository-history .
     - name: Download executable
       uses: actions/download-artifact@v1
       with:
         name: update
     - name: Debug
       run: |
-        ls -l
+        ls -l update
     - name: Update repository
       run: |
-        ./android-repository-history
+        update/android-repository-history
     - name: Publish
+      env:
+        TZ: Asia/Tokyo
+        GIT_SSH_COMMAND: ssh -i ~/.ssh/deploy-key.pem -o StrictHostKeyChecking=no
+        GIT_AUTHOR_NAME: Kohei Suzuki (bot)
+        GIT_AUTHOR_EMAIL: github-bot@wanko.cc
+        GIT_COMMITTER_NAME: Kohei Suzuki (bot)
+        GIT_COMMITTER_EMAIL: github-bot@wanko.cc
       run: |
         git remote -v
+        git add repository
+        if git commit -m "Update repository $(date --rfc-3339=seconds)"; then
+          git push origin master
+        fi
