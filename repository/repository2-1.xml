@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-17 19:03:28.086128 with ADRT.-->
+	<!--Generated on 2020-03-19 16:50:54.752237 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1750,9 +1750,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 10:44:30 2020.-->
+				<!--Built on: Thu Mar 19 16:01:28 2020.-->
 				<complete>
-					<size>805251079</size>
+					<size>843201217</size>
 					<checksum>b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
 					<url>android-ndk-r20b-darwin-x86_64.zip</url>
 				</complete>
@@ -1760,9 +1760,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 10:45:09 2020.-->
+				<!--Built on: Thu Mar 19 16:02:33 2020.-->
 				<complete>
-					<size>821277245</size>
+					<size>859780564</size>
 					<checksum>d903fdf077039ad9331fb6c3bee78aa46d45527b</checksum>
 					<url>android-ndk-r20b-linux-x86_64.zip</url>
 				</complete>
@@ -1807,9 +1807,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 10:55:13 2020.-->
+				<!--Built on: Thu Mar 19 15:58:47 2020.-->
 				<complete>
-					<size>805206151</size>
+					<size>843152912</size>
 					<checksum>96d5f1c50452596912d1982439c514194b5751e6</checksum>
 					<url>android-ndk-r20-darwin-x86_64.zip</url>
 				</complete>
@@ -1817,9 +1817,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 10:55:53 2020.-->
+				<!--Built on: Thu Mar 19 15:59:53 2020.-->
 				<complete>
-					<size>821235875</size>
+					<size>859737910</size>
 					<checksum>8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
 					<url>android-ndk-r20-linux-x86_64.zip</url>
 				</complete>
@@ -1865,9 +1865,9 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:05:38 2020.-->
+				<!--Built on: Thu Mar 19 15:56:02 2020.-->
 				<complete>
-					<size>805619355</size>
+					<size>843617071</size>
 					<checksum>665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
 					<url>android-ndk-r20-beta3-darwin-x86_64.zip</url>
 				</complete>
@@ -1875,9 +1875,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:06:15 2020.-->
+				<!--Built on: Thu Mar 19 15:57:05 2020.-->
 				<complete>
-					<size>821648191</size>
+					<size>860198768</size>
 					<checksum>674d8fb0e0df8e8be1c31fa321eb176548a19ba3</checksum>
 					<url>android-ndk-r20-beta3-linux-x86_64.zip</url>
 				</complete>
@@ -1923,9 +1923,9 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:16:08 2020.-->
+				<!--Built on: Thu Mar 19 15:53:17 2020.-->
 				<complete>
-					<size>803097551</size>
+					<size>840834121</size>
 					<checksum>cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
 					<url>android-ndk-r20-beta2-darwin-x86_64.zip</url>
 				</complete>
@@ -1933,9 +1933,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:16:46 2020.-->
+				<!--Built on: Thu Mar 19 15:54:22 2020.-->
 				<complete>
-					<size>819120340</size>
+					<size>857406412</size>
 					<checksum>8285ae2e24a7232fd0cbfb55e955c8586ef2ee02</checksum>
 					<url>android-ndk-r20-beta2-linux-x86_64.zip</url>
 				</complete>
@@ -1980,9 +1980,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:26:43 2020.-->
+				<!--Built on: Thu Mar 19 15:50:39 2020.-->
 				<complete>
-					<size>772191063</size>
+					<size>807630656</size>
 					<checksum>f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
 					<url>android-ndk-r19c-darwin-x86_64.zip</url>
 				</complete>
@@ -1990,9 +1990,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:27:20 2020.-->
+				<!--Built on: Thu Mar 19 15:51:42 2020.-->
 				<complete>
-					<size>787394703</size>
+					<size>823376982</size>
 					<checksum>fd94d0be6017c6acbd193eb95e09cf4b6f61b834</checksum>
 					<url>android-ndk-r19c-linux-x86_64.zip</url>
 				</complete>
@@ -2037,9 +2037,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:36:51 2020.-->
+				<!--Built on: Thu Mar 19 15:44:52 2020.-->
 				<complete>
-					<size>772151774</size>
+					<size>807592927</size>
 					<checksum>86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
 					<url>android-ndk-r19-darwin-x86_64.zip</url>
 				</complete>
@@ -2047,9 +2047,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:37:29 2020.-->
+				<!--Built on: Thu Mar 19 15:45:56 2020.-->
 				<complete>
-					<size>787355238</size>
+					<size>823337344</size>
 					<checksum>f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</checksum>
 					<url>android-ndk-r19-linux-x86_64.zip</url>
 				</complete>
@@ -2094,9 +2094,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:44:26 2020.-->
+				<!--Built on: Thu Mar 19 15:35:38 2020.-->
 				<complete>
-					<size>519378752</size>
+					<size>542911996</size>
 					<checksum>98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
 					<url>android-ndk-r18b-darwin-x86_64.zip</url>
 				</complete>
@@ -2104,9 +2104,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:44:53 2020.-->
+				<!--Built on: Thu Mar 19 15:36:18 2020.-->
 				<complete>
-					<size>532728815</size>
+					<size>557038702</size>
 					<checksum>500679655da3a86aecf67007e8ab230ea9b4dd7b</checksum>
 					<url>android-ndk-r18b-linux-x86_64.zip</url>
 				</complete>
@@ -2151,9 +2151,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:53:02 2020.-->
+				<!--Built on: Thu Mar 19 15:33:56 2020.-->
 				<complete>
-					<size>646316958</size>
+					<size>675091485</size>
 					<checksum>f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
 					<url>android-ndk-r17c-darwin-x86_64.zip</url>
 				</complete>
@@ -2161,9 +2161,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:53:34 2020.-->
+				<!--Built on: Thu Mar 19 15:34:46 2020.-->
 				<complete>
-					<size>679219144</size>
+					<size>709387703</size>
 					<checksum>12cacc70c3fd2f40574015631c00f41fb8a39048</checksum>
 					<url>android-ndk-r17c-linux-x86_64.zip</url>
 				</complete>
@@ -2208,9 +2208,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 12:03:24 2020.-->
+				<!--Built on: Thu Mar 19 15:30:39 2020.-->
 				<complete>
-					<size>802096688</size>
+					<size>839630771</size>
 					<checksum>e51e615449b98c716cf912057e2682e75d55e2de</checksum>
 					<url>android-ndk-r16b-darwin-x86_64.zip</url>
 				</complete>
@@ -2218,9 +2218,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 12:04:02 2020.-->
+				<!--Built on: Thu Mar 19 15:31:38 2020.-->
 				<complete>
-					<size>815048096</size>
+					<size>852525873</size>
 					<checksum>42aa43aae89a50d1c66c3f9fdecd676936da6128</checksum>
 					<url>android-ndk-r16b-linux-x86_64.zip</url>
 				</complete>
@@ -2456,9 +2456,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 10:44:30 2020.-->
+				<!--Built on: Thu Mar 19 16:01:28 2020.-->
 				<complete>
-					<size>805251079</size>
+					<size>843201217</size>
 					<checksum>b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
 					<url>android-ndk-r20b-darwin-x86_64.zip</url>
 				</complete>
@@ -2466,9 +2466,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 10:45:09 2020.-->
+				<!--Built on: Thu Mar 19 16:02:33 2020.-->
 				<complete>
-					<size>821277245</size>
+					<size>859780564</size>
 					<checksum>d903fdf077039ad9331fb6c3bee78aa46d45527b</checksum>
 					<url>android-ndk-r20b-linux-x86_64.zip</url>
 				</complete>
@@ -2513,9 +2513,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 10:55:13 2020.-->
+				<!--Built on: Thu Mar 19 15:58:47 2020.-->
 				<complete>
-					<size>805206151</size>
+					<size>843152912</size>
 					<checksum>96d5f1c50452596912d1982439c514194b5751e6</checksum>
 					<url>android-ndk-r20-darwin-x86_64.zip</url>
 				</complete>
@@ -2523,9 +2523,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 10:55:53 2020.-->
+				<!--Built on: Thu Mar 19 15:59:53 2020.-->
 				<complete>
-					<size>821235875</size>
+					<size>859737910</size>
 					<checksum>8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
 					<url>android-ndk-r20-linux-x86_64.zip</url>
 				</complete>
@@ -2571,9 +2571,9 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:05:38 2020.-->
+				<!--Built on: Thu Mar 19 15:56:02 2020.-->
 				<complete>
-					<size>805619355</size>
+					<size>843617071</size>
 					<checksum>665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
 					<url>android-ndk-r20-beta3-darwin-x86_64.zip</url>
 				</complete>
@@ -2581,9 +2581,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:06:15 2020.-->
+				<!--Built on: Thu Mar 19 15:57:05 2020.-->
 				<complete>
-					<size>821648191</size>
+					<size>860198768</size>
 					<checksum>674d8fb0e0df8e8be1c31fa321eb176548a19ba3</checksum>
 					<url>android-ndk-r20-beta3-linux-x86_64.zip</url>
 				</complete>
@@ -2629,9 +2629,9 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:16:08 2020.-->
+				<!--Built on: Thu Mar 19 15:53:17 2020.-->
 				<complete>
-					<size>803097551</size>
+					<size>840834121</size>
 					<checksum>cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
 					<url>android-ndk-r20-beta2-darwin-x86_64.zip</url>
 				</complete>
@@ -2639,9 +2639,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:16:46 2020.-->
+				<!--Built on: Thu Mar 19 15:54:22 2020.-->
 				<complete>
-					<size>819120340</size>
+					<size>857406412</size>
 					<checksum>8285ae2e24a7232fd0cbfb55e955c8586ef2ee02</checksum>
 					<url>android-ndk-r20-beta2-linux-x86_64.zip</url>
 				</complete>
@@ -2686,9 +2686,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:26:43 2020.-->
+				<!--Built on: Thu Mar 19 15:50:39 2020.-->
 				<complete>
-					<size>772191063</size>
+					<size>807630656</size>
 					<checksum>f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
 					<url>android-ndk-r19c-darwin-x86_64.zip</url>
 				</complete>
@@ -2696,9 +2696,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:27:20 2020.-->
+				<!--Built on: Thu Mar 19 15:51:42 2020.-->
 				<complete>
-					<size>787394703</size>
+					<size>823376982</size>
 					<checksum>fd94d0be6017c6acbd193eb95e09cf4b6f61b834</checksum>
 					<url>android-ndk-r19c-linux-x86_64.zip</url>
 				</complete>
@@ -2743,9 +2743,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:36:51 2020.-->
+				<!--Built on: Thu Mar 19 15:44:52 2020.-->
 				<complete>
-					<size>772151774</size>
+					<size>807592927</size>
 					<checksum>86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
 					<url>android-ndk-r19-darwin-x86_64.zip</url>
 				</complete>
@@ -2753,9 +2753,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:37:29 2020.-->
+				<!--Built on: Thu Mar 19 15:45:56 2020.-->
 				<complete>
-					<size>787355238</size>
+					<size>823337344</size>
 					<checksum>f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</checksum>
 					<url>android-ndk-r19-linux-x86_64.zip</url>
 				</complete>
@@ -2800,9 +2800,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:44:26 2020.-->
+				<!--Built on: Thu Mar 19 15:35:38 2020.-->
 				<complete>
-					<size>519378752</size>
+					<size>542911996</size>
 					<checksum>98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
 					<url>android-ndk-r18b-darwin-x86_64.zip</url>
 				</complete>
@@ -2810,9 +2810,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:44:53 2020.-->
+				<!--Built on: Thu Mar 19 15:36:18 2020.-->
 				<complete>
-					<size>532728815</size>
+					<size>557038702</size>
 					<checksum>500679655da3a86aecf67007e8ab230ea9b4dd7b</checksum>
 					<url>android-ndk-r18b-linux-x86_64.zip</url>
 				</complete>
@@ -2857,9 +2857,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 11:53:02 2020.-->
+				<!--Built on: Thu Mar 19 15:33:56 2020.-->
 				<complete>
-					<size>646316958</size>
+					<size>675091485</size>
 					<checksum>f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
 					<url>android-ndk-r17c-darwin-x86_64.zip</url>
 				</complete>
@@ -2867,9 +2867,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 11:53:34 2020.-->
+				<!--Built on: Thu Mar 19 15:34:46 2020.-->
 				<complete>
-					<size>679219144</size>
+					<size>709387703</size>
 					<checksum>12cacc70c3fd2f40574015631c00f41fb8a39048</checksum>
 					<url>android-ndk-r17c-linux-x86_64.zip</url>
 				</complete>
@@ -2914,9 +2914,9 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 12:03:24 2020.-->
+				<!--Built on: Thu Mar 19 15:30:39 2020.-->
 				<complete>
-					<size>802096688</size>
+					<size>839630771</size>
 					<checksum>e51e615449b98c716cf912057e2682e75d55e2de</checksum>
 					<url>android-ndk-r16b-darwin-x86_64.zip</url>
 				</complete>
@@ -2924,9 +2924,9 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 12:04:02 2020.-->
+				<!--Built on: Thu Mar 19 15:31:38 2020.-->
 				<complete>
-					<size>815048096</size>
+					<size>852525873</size>
 					<checksum>42aa43aae89a50d1c66c3f9fdecd676936da6128</checksum>
 					<url>android-ndk-r16b-linux-x86_64.zip</url>
 				</complete>
@@ -5674,7 +5674,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 15:10:08 2020.-->
+				<!--Built on: Wed Mar 18 11:24:02 2020.-->
 				<complete>
 					<size>1827327</size>
 					<checksum>046699c5e2716ae11d77e0bad814f7f33fab261e</checksum>
@@ -6019,12 +6019,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6292740 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6306047 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>4</micro>
+			<micro>5</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6034,31 +6034,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 13 07:57:11 2020.-->
+				<!--Built on: Wed Mar 18 15:21:54 2020.-->
 				<complete>
-					<size>279098013</size>
-					<checksum>ae4330a21a56d77eda25589ebadb746663870ab7</checksum>
-					<url>emulator-darwin-6292740.zip</url>
+					<size>279286442</size>
+					<checksum>6066d8d6ef0ae38e32cc614876e6b01c180c3629</checksum>
+					<url>emulator-darwin-6306047.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar 13 07:56:56 2020.-->
+				<!--Built on: Wed Mar 18 15:21:41 2020.-->
 				<complete>
-					<size>245038256</size>
-					<checksum>e0573a7f9a84f7df1d1fffc32843b19c5505b0ec</checksum>
-					<url>emulator-linux-6292740.zip</url>
+					<size>245141128</size>
+					<checksum>b1c904b75ff96fe041ed3b0050aa6df7ef6ed9c9</checksum>
+					<url>emulator-linux-6306047.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar 13 07:57:22 2020.-->
+				<!--Built on: Wed Mar 18 15:22:04 2020.-->
 				<complete>
-					<size>246344310</size>
-					<checksum>d2e4ee397ac2005b83962798dc64c803f9d1883e</checksum>
-					<url>emulator-windows-6292740.zip</url>
+					<size>246472453</size>
+					<checksum>c891030e47dcdf77ec9cf3c38a0f1d9a14c7dbfa</checksum>
+					<url>emulator-windows-6306047.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>

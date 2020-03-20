@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-13 09:04:10.342242 with ADRT.-->
+	<!--Generated on 2020-03-19 16:52:41.130616 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -600,7 +600,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="add-ons;addon-google_gdk-google-19">
+	<remotePackage obsolete="true" path="add-ons;addon-google_gdk-google-19">
 		<!--Generated from p4 cl:78581975-->
 		<type-details xsi:type="addon:addonDetailsType">
 			<api-level>19</api-level>

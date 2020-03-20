@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-17 19:05:54.584401 with ADRT.-->
+	<!--Generated on 2020-03-19 16:52:09.065041 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -333,16 +333,16 @@ June 2014.</sdk:license>
 		<sdk:revision>20</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 10:44:30 2020.-->
-				<sdk:size>805251079</sdk:size>
+				<!--Built on: Thu Mar 19 16:01:28 2020.-->
+				<sdk:size>843201217</sdk:size>
 				<sdk:checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</sdk:checksum>
 				<sdk:url>android-ndk-r20b-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 10:45:09 2020.-->
-				<sdk:size>821277245</sdk:size>
+				<!--Built on: Thu Mar 19 16:02:33 2020.-->
+				<sdk:size>859780564</sdk:size>
 				<sdk:checksum type="sha1">d903fdf077039ad9331fb6c3bee78aa46d45527b</sdk:checksum>
 				<sdk:url>android-ndk-r20b-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -373,16 +373,16 @@ June 2014.</sdk:license>
 		<sdk:revision>20</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 10:55:13 2020.-->
-				<sdk:size>805206151</sdk:size>
+				<!--Built on: Thu Mar 19 15:58:47 2020.-->
+				<sdk:size>843152912</sdk:size>
 				<sdk:checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</sdk:checksum>
 				<sdk:url>android-ndk-r20-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 10:55:53 2020.-->
-				<sdk:size>821235875</sdk:size>
+				<!--Built on: Thu Mar 19 15:59:53 2020.-->
+				<sdk:size>859737910</sdk:size>
 				<sdk:checksum type="sha1">8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</sdk:checksum>
 				<sdk:url>android-ndk-r20-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -413,16 +413,16 @@ June 2014.</sdk:license>
 		<sdk:revision>19</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:26:43 2020.-->
-				<sdk:size>772191063</sdk:size>
+				<!--Built on: Thu Mar 19 15:50:39 2020.-->
+				<sdk:size>807630656</sdk:size>
 				<sdk:checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</sdk:checksum>
 				<sdk:url>android-ndk-r19c-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:27:20 2020.-->
-				<sdk:size>787394703</sdk:size>
+				<!--Built on: Thu Mar 19 15:51:42 2020.-->
+				<sdk:size>823376982</sdk:size>
 				<sdk:checksum type="sha1">fd94d0be6017c6acbd193eb95e09cf4b6f61b834</sdk:checksum>
 				<sdk:url>android-ndk-r19c-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -454,16 +454,16 @@ June 2014.</sdk:license>
 		<sdk:revision>19</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:36:51 2020.-->
-				<sdk:size>772151774</sdk:size>
+				<!--Built on: Thu Mar 19 15:44:52 2020.-->
+				<sdk:size>807592927</sdk:size>
 				<sdk:checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</sdk:checksum>
 				<sdk:url>android-ndk-r19-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:37:29 2020.-->
-				<sdk:size>787355238</sdk:size>
+				<!--Built on: Thu Mar 19 15:45:56 2020.-->
+				<sdk:size>823337344</sdk:size>
 				<sdk:checksum type="sha1">f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</sdk:checksum>
 				<sdk:url>android-ndk-r19-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -494,16 +494,16 @@ June 2014.</sdk:license>
 		<sdk:revision>18</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:44:26 2020.-->
-				<sdk:size>519378752</sdk:size>
+				<!--Built on: Thu Mar 19 15:35:38 2020.-->
+				<sdk:size>542911996</sdk:size>
 				<sdk:checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</sdk:checksum>
 				<sdk:url>android-ndk-r18b-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:44:53 2020.-->
-				<sdk:size>532728815</sdk:size>
+				<!--Built on: Thu Mar 19 15:36:18 2020.-->
+				<sdk:size>557038702</sdk:size>
 				<sdk:checksum type="sha1">500679655da3a86aecf67007e8ab230ea9b4dd7b</sdk:checksum>
 				<sdk:url>android-ndk-r18b-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -534,16 +534,16 @@ June 2014.</sdk:license>
 		<sdk:revision>17</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:53:02 2020.-->
-				<sdk:size>646316958</sdk:size>
+				<!--Built on: Thu Mar 19 15:33:56 2020.-->
+				<sdk:size>675091485</sdk:size>
 				<sdk:checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</sdk:checksum>
 				<sdk:url>android-ndk-r17c-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 11:53:34 2020.-->
-				<sdk:size>679219144</sdk:size>
+				<!--Built on: Thu Mar 19 15:34:46 2020.-->
+				<sdk:size>709387703</sdk:size>
 				<sdk:checksum type="sha1">12cacc70c3fd2f40574015631c00f41fb8a39048</sdk:checksum>
 				<sdk:url>android-ndk-r17c-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
@@ -574,16 +574,16 @@ June 2014.</sdk:license>
 		<sdk:revision>16</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 12:03:24 2020.-->
-				<sdk:size>802096688</sdk:size>
+				<!--Built on: Thu Mar 19 15:30:39 2020.-->
+				<sdk:size>839630771</sdk:size>
 				<sdk:checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</sdk:checksum>
 				<sdk:url>android-ndk-r16b-darwin-x86_64.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 				<sdk:host-bits>64</sdk:host-bits>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Tue Mar 17 12:04:02 2020.-->
-				<sdk:size>815048096</sdk:size>
+				<!--Built on: Thu Mar 19 15:31:38 2020.-->
+				<sdk:size>852525873</sdk:size>
 				<sdk:checksum type="sha1">42aa43aae89a50d1c66c3f9fdecd676936da6128</sdk:checksum>
 				<sdk:url>android-ndk-r16b-linux-x86_64.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
