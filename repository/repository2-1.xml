@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-19 16:50:54.752237 with ADRT.-->
+	<!--Generated on 2020-03-25 11:01:57.336531 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -299,91 +299,6 @@ June 2014.</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage obsolete="true" path="tools">
-		<!--Generated from bid:3567187, branch:aosp-emu-2.2-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>25</major>
-			<minor>2</minor>
-			<micro>5</micro>
-		</revision>
-		<display-name>Android SDK Tools 25.2.5</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="platform-tools">
-				<min-revision>
-					<major>20</major>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Mar 17 09:48:52 2020.-->
-				<complete>
-					<size>277894900</size>
-					<checksum>72df3aa1988c0a9003ccdfd7a13a7b8bd0f47fc1</checksum>
-					<url>tools_r25.2.5-linux.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-				<patches>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>2</minor>
-							<micro>4</micro>
-						</based-on>
-						<size>19304418</size>
-						<checksum>517a863b959e980f07540c30f86edc480bcfe161</checksum>
-						<url>sdk-tools-3534729-3567187-linux-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-			<archive>
-				<!--Built on: Tue Mar 17 09:48:39 2020.-->
-				<complete>
-					<size>200529982</size>
-					<checksum>d2168d963ac5b616e3d3ddaf21511d084baf3659</checksum>
-					<url>tools_r25.2.5-macosx.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-				<patches>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>2</minor>
-							<micro>4</micro>
-						</based-on>
-						<size>9855665</size>
-						<checksum>e36a420b9709a1281fe1770d86edecb33fcd658e</checksum>
-						<url>sdk-tools-3534729-3567187-macosx-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-			<archive>
-				<!--Built on: Tue Mar 17 09:48:29 2020.-->
-				<complete>
-					<size>306785944</size>
-					<checksum>a7f7ebeae1c8d8f62d3a8466e9c81baee7cc31ca</checksum>
-					<url>tools_r25.2.5-windows.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-				<patches>
-					<patch>
-						<based-on>
-							<major>25</major>
-							<minor>2</minor>
-							<micro>4</micro>
-						</based-on>
-						<size>18827794</size>
-						<checksum>47022e7d6c87f3d481944f622525aee51dc4cda5</checksum>
-						<url>sdk-tools-3534729-3567187-windows-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
 	<remotePackage path="platforms;android-R">
 		<!--Generated from bid:6272899, branch:rvc-preview2-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
@@ -5910,16 +5825,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:23 2020.-->
+				<!--Built on: Tue Mar 24 15:56:08 2020.-->
 				<complete>
-					<size>8195286</size>
-					<checksum>3232179dce22d8a6332018729026ed39f5d5cd0b</checksum>
+					<size>8420241</size>
+					<checksum>dc551007505e06f85ffa0e29640cc82d43446957</checksum>
 					<url>platform-tools_r29.0.6-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:13 2020.-->
+				<!--Built on: Tue Mar 24 15:56:00 2020.-->
 				<complete>
 					<size>8254604</size>
 					<checksum>e95ed28330406705d47fe96bafb589be6c1f2f23</checksum>
@@ -5928,7 +5843,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:18 2020.-->
+				<!--Built on: Tue Mar 24 15:56:06 2020.-->
 				<complete>
 					<size>7278590</size>
 					<checksum>c970e1216ef99abf9fd480b01439998c4780728e</checksum>
@@ -5939,12 +5854,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6203977 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6306047 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>5</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -5954,31 +5869,31 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 12 23:01:28 2020.-->
+				<!--Built on: Wed Mar 18 15:21:54 2020.-->
 				<complete>
-					<size>354684653</size>
-					<checksum>3bb965869577be4e62dec053de34c279f5024a12</checksum>
-					<url>emulator-darwin-6203977.zip</url>
+					<size>279286442</size>
+					<checksum>6066d8d6ef0ae38e32cc614876e6b01c180c3629</checksum>
+					<url>emulator-darwin-6306047.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 23:01:13 2020.-->
+				<!--Built on: Wed Mar 18 15:21:41 2020.-->
 				<complete>
-					<size>309380420</size>
-					<checksum>356cac370c03460ca82166464de7ecd7da1f4a49</checksum>
-					<url>emulator-linux-6203977.zip</url>
+					<size>245141128</size>
+					<checksum>b1c904b75ff96fe041ed3b0050aa6df7ef6ed9c9</checksum>
+					<url>emulator-linux-6306047.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 23:01:39 2020.-->
+				<!--Built on: Wed Mar 18 15:22:04 2020.-->
 				<complete>
-					<size>303131130</size>
-					<checksum>957a3811267b542e6ef4880a7a4128d83b803ea2</checksum>
-					<url>emulator-windows-6203977.zip</url>
+					<size>246472453</size>
+					<checksum>c891030e47dcdf77ec9cf3c38a0f1d9a14c7dbfa</checksum>
+					<url>emulator-windows-6306047.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -6015,53 +5930,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6306047 branch:aosp-emu-master-dev-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>30</major>
-			<minor>0</minor>
-			<micro>5</micro>
-		</revision>
-		<display-name>Android Emulator</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-3"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Mar 18 15:21:54 2020.-->
-				<complete>
-					<size>279286442</size>
-					<checksum>6066d8d6ef0ae38e32cc614876e6b01c180c3629</checksum>
-					<url>emulator-darwin-6306047.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-				<host-bits>64</host-bits>
-			</archive>
-			<archive>
-				<!--Built on: Wed Mar 18 15:21:41 2020.-->
-				<complete>
-					<size>245141128</size>
-					<checksum>b1c904b75ff96fe041ed3b0050aa6df7ef6ed9c9</checksum>
-					<url>emulator-linux-6306047.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-				<host-bits>64</host-bits>
-			</archive>
-			<archive>
-				<!--Built on: Wed Mar 18 15:22:04 2020.-->
-				<complete>
-					<size>246472453</size>
-					<checksum>c891030e47dcdf77ec9cf3c38a0f1d9a14c7dbfa</checksum>
-					<url>emulator-windows-6306047.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
