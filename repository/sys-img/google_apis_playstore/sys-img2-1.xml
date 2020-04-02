@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-27 09:43:40.046980 with ADRT.-->
+	<!--Generated on 2020-04-01 20:30:49.103674 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1219,7 +1219,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-R;google_apis_playstore;x86">
-		<!--Generated from bid:6304234, branch:rvc-emu-release-x86-playstore-->
+		<!--Generated from bid:6348097, branch:rvc-preview2-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
@@ -1251,10 +1251,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 14:55:42 2020.-->
+				<!--Built on: Mon Mar 30 23:13:45 2020.-->
 				<complete>
-					<size>1139361941</size>
-					<checksum>16dd21e8a6d8d7f8f909a93c917746f9535a3cd4</checksum>
+					<size>1139342847</size>
+					<checksum>37a1a9e40b0bf0fff7b43add635127481dd2050b</checksum>
 					<url>x86-R_r02-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -1262,7 +1262,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-R;google_apis_playstore;x86">
-		<!--Generated from bid:6304234, branch:rvc-emu-release-x86-playstore-->
+		<!--Generated from bid:6348097, branch:rvc-preview2-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
@@ -1294,19 +1294,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 14:56:19 2020.-->
+				<!--Built on: Mon Mar 30 23:14:29 2020.-->
 				<complete>
-					<size>1139361941</size>
-					<checksum>16dd21e8a6d8d7f8f909a93c917746f9535a3cd4</checksum>
+					<size>1139342847</size>
+					<checksum>37a1a9e40b0bf0fff7b43add635127481dd2050b</checksum>
 					<url>x86-R_r02-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 14:56:59 2020.-->
+				<!--Built on: Mon Mar 30 23:15:06 2020.-->
 				<complete>
-					<size>1139361941</size>
-					<checksum>16dd21e8a6d8d7f8f909a93c917746f9535a3cd4</checksum>
+					<size>1139342847</size>
+					<checksum>37a1a9e40b0bf0fff7b43add635127481dd2050b</checksum>
 					<url>x86-R_r02-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
@@ -1314,7 +1314,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-R;google_apis_playstore;x86_64">
-		<!--Generated from bid:6304234, branch:rvc-emu-release-x86_64-playstore-->
+		<!--Generated from bid:6348097, branch:rvc-preview2-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
@@ -1346,10 +1346,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 14:57:46 2020.-->
+				<!--Built on: Mon Mar 30 23:15:44 2020.-->
 				<complete>
-					<size>1313831742</size>
-					<checksum>9a93a01979b8e2c2a9c25ed0ad32933e8e20231d</checksum>
+					<size>1313824374</size>
+					<checksum>4dbf3c0eb777e1dbdbf579e76336721f405636a5</checksum>
 					<url>x86_64-R_r02-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -1357,7 +1357,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-R;google_apis_playstore;x86_64">
-		<!--Generated from bid:6304234, branch:rvc-emu-release-x86_64-playstore-->
+		<!--Generated from bid:6348097, branch:rvc-preview2-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
@@ -1389,19 +1389,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 17 14:59:10 2020.-->
+				<!--Built on: Tue Mar 31 00:54:43 2020.-->
 				<complete>
-					<size>1313831742</size>
-					<checksum>9a93a01979b8e2c2a9c25ed0ad32933e8e20231d</checksum>
+					<size>1313824374</size>
+					<checksum>4dbf3c0eb777e1dbdbf579e76336721f405636a5</checksum>
 					<url>x86_64-R_r02-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 17 14:58:26 2020.-->
+				<!--Built on: Tue Mar 31 00:53:56 2020.-->
 				<complete>
-					<size>1313831742</size>
-					<checksum>9a93a01979b8e2c2a9c25ed0ad32933e8e20231d</checksum>
+					<size>1313824374</size>
+					<checksum>4dbf3c0eb777e1dbdbf579e76336721f405636a5</checksum>
 					<url>x86_64-R_r02-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
