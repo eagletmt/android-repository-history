@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-17 13:53:06.671734 with ADRT.-->
+	<!--Generated on 2020-04-22 23:51:38.308512 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,25 +300,25 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-R">
-		<!--Generated from bid:6272899, branch:rvc-preview2-release-->
+		<!--Generated from bid:6372829, branch:rvc-preview3-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Android SDK Platform R</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 10 01:20:38 2020.-->
+				<!--Built on: Tue Apr  7 22:50:39 2020.-->
 				<complete>
-					<size>57078507</size>
-					<checksum>fca9d55711c79056ec6441163e14511228c5ceea</checksum>
-					<url>platform-R_r02.zip</url>
+					<size>56985898</size>
+					<checksum>d2dd7f83b467bef229a514872b5d05de886ab967</checksum>
+					<url>platform-R_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1505,6 +1505,54 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="ndk;21.1.6363665">
+		<!--Generated from bid:6363665, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6363665</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK (Side by side) 21.1.6363665</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:53 2020.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum>767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:08:32 2020.-->
+				<complete>
+					<size>1190809917</size>
+					<checksum>29139085aa402d6b27d4394c30e797f814876d1e</checksum>
+					<url>android-ndk-r21b-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:18 2020.-->
+				<complete>
+					<size>1109667800</size>
+					<checksum>8ecb03c728b8dc814db30c8152c4436cb1536c8d</checksum>
+					<url>android-ndk-r21b-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="ndk;21.1.6273396">
 		<!--Generated from bid:6273396, branch:ndk-release-r21-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -2252,6 +2300,54 @@ June 2014.</license>
 					<size>1079474640</size>
 					<checksum>6809fac4a6e829f4bac64628fa9835d57bbd61a8</checksum>
 					<url>android-ndk-r21b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6363665, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6363665</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:53 2020.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum>767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:08:32 2020.-->
+				<complete>
+					<size>1190809917</size>
+					<checksum>29139085aa402d6b27d4394c30e797f814876d1e</checksum>
+					<url>android-ndk-r21b-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:18 2020.-->
+				<complete>
+					<size>1109667800</size>
+					<checksum>8ecb03c728b8dc814db30c8152c4436cb1536c8d</checksum>
+					<url>android-ndk-r21b-beta3-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -5907,41 +6003,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:6198805 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:6374843 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>29</major>
+			<major>30</major>
 			<minor>0</minor>
-			<micro>6</micro>
+			<micro>0</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:23 2020.-->
+				<!--Built on: Wed Apr  8 00:20:34 2020.-->
 				<complete>
-					<size>8195286</size>
-					<checksum>3232179dce22d8a6332018729026ed39f5d5cd0b</checksum>
-					<url>platform-tools_r29.0.6-darwin.zip</url>
+					<size>9257257</size>
+					<checksum>9776c7612119abe3da1134253bc617295ec97853</checksum>
+					<url>platform-tools_r30.0.0-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:13 2020.-->
+				<!--Built on: Wed Apr  8 00:20:32 2020.-->
 				<complete>
-					<size>8254604</size>
-					<checksum>e95ed28330406705d47fe96bafb589be6c1f2f23</checksum>
-					<url>platform-tools_r29.0.6-linux.zip</url>
+					<size>9337646</size>
+					<checksum>d124084d621a8cb4b3eb1113d9c90be641d40494</checksum>
+					<url>platform-tools_r30.0.0-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Feb 12 13:06:18 2020.-->
+				<!--Built on: Wed Apr  8 00:20:33 2020.-->
 				<complete>
-					<size>7278590</size>
-					<checksum>c970e1216ef99abf9fd480b01439998c4780728e</checksum>
-					<url>platform-tools_r29.0.6-windows.zip</url>
+					<size>8200707</size>
+					<checksum>a2a951f3a306d895b32e0d4d63087388cd7aeac5</checksum>
+					<url>platform-tools_r30.0.0-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
