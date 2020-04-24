@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-22 23:52:21.175691 with ADRT.-->
+	<!--Generated on 2020-04-24 08:18:40.088601 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -860,6 +860,16 @@ January 16, 2019</license>
 					<checksum>6deb76cf34760a6037cb18d89772c9e986d07497</checksum>
 					<url>armeabi-v7a-15_r06.zip</url>
 				</complete>
+				<patches>
+					<patch>
+						<based-on>
+							<major>5</major>
+						</based-on>
+						<size>6108303</size>
+						<checksum>31b8f4330de6d0d9862c966500d692aa24d4511a</checksum>
+						<url>sys-img-3093080-google_sdk-sdk_addon-3876239-google_sdk-sdk_addon-patch.jar</url>
+					</patch>
+				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
