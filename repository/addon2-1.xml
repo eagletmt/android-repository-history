@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-24 08:18:19.727235 with ADRT.-->
+	<!--Generated on 2020-04-30 22:59:44.562044 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2268,7 +2268,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;Android_Emulator_Hypervisor_Driver">
-		<!--Generated from p4 cl:294756913-->
+		<!--Generated from p4 cl:309298659-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -2277,7 +2277,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</type-details>
 		<revision>
 			<major>1</major>
-			<minor>4</minor>
+			<minor>5</minor>
 			<micro>0</micro>
 		</revision>
 		<display-name>Android Emulator Hypervisor Driver for AMD Processors (installer)</display-name>
@@ -2285,11 +2285,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 12 14:41:12 2020.-->
+				<!--Built on: Thu Apr 30 14:29:28 2020.-->
 				<complete>
-					<size>168087</size>
-					<checksum>058af632c6e4a1ec8942887901f3b80136684809</checksum>
-					<url>gvm-windows_v1_4_0.zip</url>
+					<size>166167</size>
+					<checksum>29ca73be1b4ffebc180b8fb34f1656a32a93ca7e</checksum>
+					<url>gvm-windows_v1_5_0.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

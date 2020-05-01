@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-24 08:17:49.865627 with ADRT.-->
+	<!--Generated on 2020-04-30 22:58:41.186871 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3495,6 +3495,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 30-rc2</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3537,6 +3540,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 30-rc1</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3578,6 +3584,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 29.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3619,6 +3628,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 29.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3660,6 +3672,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 29.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3701,6 +3716,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 29</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3742,7 +3760,10 @@ June 2014.</license>
 			<preview>3</preview>
 		</revision>
 		<display-name>Android SDK Build-Tools 29-rc3</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3784,7 +3805,10 @@ June 2014.</license>
 			<preview>2</preview>
 		</revision>
 		<display-name>Android SDK Build-Tools 29-rc2</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3826,7 +3850,10 @@ June 2014.</license>
 			<preview>1</preview>
 		</revision>
 		<display-name>Android SDK Build-Tools 29-rc1</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3868,6 +3895,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 28.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3909,6 +3939,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 28.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3950,6 +3983,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 28.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -3991,6 +4027,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 28</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4032,7 +4071,10 @@ June 2014.</license>
 			<preview>2</preview>
 		</revision>
 		<display-name>Android SDK Build-Tools 28-rc2</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4074,7 +4116,10 @@ June 2014.</license>
 			<preview>1</preview>
 		</revision>
 		<display-name>Android SDK Build-Tools 28-rc1</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4116,6 +4161,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 27.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4157,6 +4205,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 27.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4198,6 +4249,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 27.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4239,6 +4293,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 27</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4280,6 +4337,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 26.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4321,6 +4381,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 26.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4362,6 +4425,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 26.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4403,6 +4469,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 26</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4434,90 +4503,6 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;26.0.0-rc2">
-		<!--Generated from bid:4004883, branch:git_oc-preview2-sdk-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>26</major>
-			<minor>0</minor>
-			<micro>0</micro>
-			<preview>2</preview>
-		</revision>
-		<display-name>Android SDK Build-Tools 26-rc2</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-2"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue May 22 14:01:05 2018.-->
-				<complete>
-					<size>53847560</size>
-					<checksum>629bbd8d2e415bf64871fb0b4c0540fd6d0347a0</checksum>
-					<url>build-tools_r26-rc2-linux.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Sat May 26 08:16:12 2018.-->
-				<complete>
-					<size>53003874</size>
-					<checksum>cb1eb738a1f7003025af267a9b8cc2d259533c70</checksum>
-					<url>build-tools_r26-rc2-macosx.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Mon Jun 18 00:43:07 2018.-->
-				<complete>
-					<size>54678375</size>
-					<checksum>ddaba77db0557a98f6330fbd579ad0bd12cbb152</checksum>
-					<url>build-tools_r26-rc2-windows.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="build-tools;26.0.0-rc1">
-		<!--Generated from bid:3821161, branch:git_oc-preview-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>26</major>
-			<minor>0</minor>
-			<micro>0</micro>
-			<preview>1</preview>
-		</revision>
-		<display-name>Android SDK Build-Tools 26-rc1</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-2"/>
-		<archives>
-			<archive>
-				<!--Built on: Sun May 27 22:43:40 2018.-->
-				<complete>
-					<size>53648603</size>
-					<checksum>8cd6388dc96db2d7a49d06159cf990d3bbc78d04</checksum>
-					<url>build-tools_r26-rc1-linux.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Tue Jun 12 18:41:58 2018.-->
-				<complete>
-					<size>52821129</size>
-					<checksum>5c5a1de7d5f4f000d36ae349229fe0be846d6137</checksum>
-					<url>build-tools_r26-rc1-macosx.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Sat May 26 12:23:48 2018.-->
-				<complete>
-					<size>54379108</size>
-					<checksum>43c2ddad3b67a5c33712ae14331a60673e69be91</checksum>
-					<url>build-tools_r26-rc1-windows.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
 	<remotePackage path="build-tools;25.0.3">
 		<!--Generated from bid:3907386, branch:git_nyc-mr1-sdk-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -4528,6 +4513,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 25.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4569,6 +4557,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 25.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4610,6 +4601,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 25.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4651,6 +4645,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 25</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4692,6 +4689,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 24.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4733,6 +4733,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 24.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4774,6 +4777,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 24.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4815,6 +4821,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 24</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4856,6 +4865,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 23.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4897,6 +4909,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 23.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4938,6 +4953,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 23.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -4979,6 +4997,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 23</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5020,6 +5041,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 22.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5061,6 +5085,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 22</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5102,6 +5129,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21.1.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5143,6 +5173,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21.1.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5184,6 +5217,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5225,6 +5261,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5266,6 +5305,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5307,6 +5349,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 21</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5348,6 +5393,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 20</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5389,6 +5437,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 19.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5430,6 +5481,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 19.0.3</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5471,6 +5525,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 19.0.2</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5512,6 +5569,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 19.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5553,6 +5613,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 19</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5594,6 +5657,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 18.1.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5635,6 +5701,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 18.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5676,6 +5745,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 18.0.1</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5717,6 +5789,9 @@ June 2014.</license>
 		</revision>
 		<display-name>Android SDK Build-Tools 17</display-name>
 		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
@@ -5779,7 +5854,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar 18 11:24:02 2020.-->
+				<!--Built on: Wed Apr 29 10:04:35 2020.-->
 				<complete>
 					<size>1827327</size>
 					<checksum>046699c5e2716ae11d77e0bad814f7f33fab261e</checksum>
@@ -5803,7 +5878,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb 24 15:22:51 2020.-->
+				<!--Built on: Wed Apr 29 10:08:11 2020.-->
 				<complete>
 					<size>81680508</size>
 					<checksum>6ffc5bd72db2c755f9b374ed829202262a6d8aaf</checksum>
@@ -5812,7 +5887,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb 24 15:22:55 2020.-->
+				<!--Built on: Wed Apr 29 10:08:18 2020.-->
 				<complete>
 					<size>81680498</size>
 					<checksum>23f803c07e392bb769507c88b23c2c7868cc7a6f</checksum>
@@ -5821,7 +5896,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb 24 15:23:01 2020.-->
+				<!--Built on: Wed Apr 29 10:08:25 2020.-->
 				<complete>
 					<size>81665410</size>
 					<checksum>a863da8763de2febeb7429e7894fb65a092609db</checksum>
@@ -5846,7 +5921,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb 24 15:23:08 2020.-->
+				<!--Built on: Wed Apr 29 10:08:43 2020.-->
 				<complete>
 					<size>81680508</size>
 					<checksum>6ffc5bd72db2c755f9b374ed829202262a6d8aaf</checksum>
@@ -5855,7 +5930,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb 24 15:23:12 2020.-->
+				<!--Built on: Wed Apr 29 10:08:49 2020.-->
 				<complete>
 					<size>81680498</size>
 					<checksum>23f803c07e392bb769507c88b23c2c7868cc7a6f</checksum>
@@ -5864,7 +5939,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb 24 15:23:15 2020.-->
+				<!--Built on: Wed Apr 29 10:08:56 2020.-->
 				<complete>
 					<size>81665410</size>
 					<checksum>a863da8763de2febeb7429e7894fb65a092609db</checksum>
@@ -5886,7 +5961,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jan 31 08:50:33 2020.-->
+				<!--Built on: Wed Apr 29 10:09:11 2020.-->
 				<complete>
 					<size>5601328</size>
 					<checksum>d2eac6deff2c257d47853251bda5528c96a41720</checksum>
@@ -5895,7 +5970,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Jan 31 08:50:37 2020.-->
+				<!--Built on: Wed Apr 29 10:09:15 2020.-->
 				<complete>
 					<size>14959032</size>
 					<checksum>1e3b8da7a4f5e9887479b4e4186db3cb22422c82</checksum>
@@ -5904,7 +5979,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Jan 31 08:50:41 2020.-->
+				<!--Built on: Wed Apr 29 10:09:19 2020.-->
 				<complete>
 					<size>4765800</size>
 					<checksum>a1091ad3b369f69aad108bf16ed37a6b1459204d</checksum>
@@ -5927,7 +6002,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  6 11:03:40 2018.-->
+				<!--Built on: Wed Apr 29 10:09:34 2020.-->
 				<complete>
 					<size>12295830</size>
 					<checksum>c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
@@ -5937,7 +6012,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Sun Jun  3 12:44:56 2018.-->
+				<!--Built on: Wed Apr 29 10:09:38 2020.-->
 				<complete>
 					<size>13980243</size>
 					<checksum>71c539b9c33f0943e9ad6251fea0b161c0b70782</checksum>
@@ -5947,7 +6022,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Sun Jun  3 17:53:43 2018.-->
+				<!--Built on: Wed Apr 29 10:09:41 2020.-->
 				<complete>
 					<size>10428915</size>
 					<checksum>4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
@@ -5971,7 +6046,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep  4 08:22:53 2018.-->
+				<!--Built on: Wed Apr 29 10:10:02 2020.-->
 				<complete>
 					<size>13447295</size>
 					<checksum>f227a85cb53dcb927ac52a5a717f647c4a29bf3b</checksum>
@@ -5981,7 +6056,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Sep  4 08:22:51 2018.-->
+				<!--Built on: Wed Apr 29 10:10:06 2020.-->
 				<complete>
 					<size>14275684</size>
 					<checksum>439e8799bf59f724f104bf62784b2985f1bfe561</checksum>
@@ -5991,7 +6066,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Sep  4 08:22:55 2018.-->
+				<!--Built on: Wed Apr 29 10:10:10 2020.-->
 				<complete>
 					<size>11899659</size>
 					<checksum>0a75b9c5bf558dc31caad7241a44515064656486</checksum>
@@ -6015,7 +6090,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr  8 00:20:34 2020.-->
+				<!--Built on: Wed Apr 29 10:10:25 2020.-->
 				<complete>
 					<size>9257257</size>
 					<checksum>9776c7612119abe3da1134253bc617295ec97853</checksum>
@@ -6024,7 +6099,7 @@ June 2014.</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr  8 00:20:32 2020.-->
+				<!--Built on: Wed Apr 29 10:10:32 2020.-->
 				<complete>
 					<size>9337646</size>
 					<checksum>d124084d621a8cb4b3eb1113d9c90be641d40494</checksum>
@@ -6033,7 +6108,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr  8 00:20:33 2020.-->
+				<!--Built on: Wed Apr 29 10:10:36 2020.-->
 				<complete>
 					<size>8200707</size>
 					<checksum>a2a951f3a306d895b32e0d4d63087388cd7aeac5</checksum>
@@ -6059,7 +6134,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar 18 15:21:54 2020.-->
+				<!--Built on: Wed Apr 29 10:11:02 2020.-->
 				<complete>
 					<size>279286442</size>
 					<checksum>6066d8d6ef0ae38e32cc614876e6b01c180c3629</checksum>
@@ -6069,7 +6144,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed Mar 18 15:21:41 2020.-->
+				<!--Built on: Wed Apr 29 10:11:15 2020.-->
 				<complete>
 					<size>245141128</size>
 					<checksum>b1c904b75ff96fe041ed3b0050aa6df7ef6ed9c9</checksum>
@@ -6079,7 +6154,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed Mar 18 15:22:04 2020.-->
+				<!--Built on: Wed Apr 29 10:11:29 2020.-->
 				<complete>
 					<size>246472453</size>
 					<checksum>c891030e47dcdf77ec9cf3c38a0f1d9a14c7dbfa</checksum>
@@ -6112,7 +6187,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 21 17:15:23 2019.-->
+				<!--Built on: Wed Apr 29 10:11:53 2020.-->
 				<complete>
 					<size>372563893</size>
 					<checksum>6004fd05db29f8088ec89ba85c273c0bf86ef0be</checksum>
@@ -6124,12 +6199,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6421526 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6449564 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>10</micro>
+			<micro>11</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6139,31 +6214,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr 23 09:03:25 2020.-->
+				<!--Built on: Thu Apr 30 17:50:51 2020.-->
 				<complete>
-					<size>277941943</size>
-					<checksum>ad86032e22fd3e51c9d9de5b5b57025e38c687f7</checksum>
-					<url>emulator-darwin-6421526.zip</url>
+					<size>277941583</size>
+					<checksum>f6951b1d08e7d53a8c408a9f0df774d8bb3e614b</checksum>
+					<url>emulator-darwin-6449564.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Apr 23 09:03:19 2020.-->
+				<!--Built on: Thu Apr 30 17:50:40 2020.-->
 				<complete>
-					<size>244809057</size>
-					<checksum>5da5db8e0a4225be58d340d02917f388cdb8102e</checksum>
-					<url>emulator-linux-6421526.zip</url>
+					<size>245486812</size>
+					<checksum>a2d76653431c4841b00edec141282f1bd4d99921</checksum>
+					<url>emulator-linux-6449564.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Apr 23 09:03:30 2020.-->
+				<!--Built on: Thu Apr 30 17:51:00 2020.-->
 				<complete>
-					<size>246659394</size>
-					<checksum>c7b3ea4254843c8aff7ddf7b1d6f434ecf1aef2c</checksum>
-					<url>emulator-windows-6421526.zip</url>
+					<size>246658147</size>
+					<checksum>86f8f9b97a6c0e601f39512288cddfc132358298</checksum>
+					<url>emulator-windows-6449564.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -6192,7 +6267,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jun  9 02:10:48 2018.-->
+				<!--Built on: Wed Apr 29 10:12:57 2020.-->
 				<complete>
 					<size>103022432</size>
 					<checksum>ed85ea7b59bc3483ce0af4c198523ba044e083ad</checksum>
@@ -6203,32 +6278,12 @@ June 2014.</license>
 					<patch>
 						<based-on>
 							<major>26</major>
-							<minor>0</minor>
-							<micro>2</micro>
-						</based-on>
-						<size>37760916</size>
-						<checksum>9fa4e220d674faea48abf1d8649fd783d66e41a9</checksum>
-						<url>sdk-generic-94cdf04adac5f400ece8dcc1b43749d024b5334f-3fdb234e13e6fdbfbf9a6c814546057526168617-macosx-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
-							<minor>0</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>37761573</size>
-						<checksum>a80c46105ba345ce087a7228a35cf446f5b61238</checksum>
-						<url>sdk-generic-1f6c767a4017bfd1c118a9a08fbf0453790128e2-3fdb234e13e6fdbfbf9a6c814546057526168617-macosx-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
 							<minor>1</minor>
 							<micro>0</micro>
 						</based-on>
 						<size>9712385</size>
 						<checksum>903713f2cd7e12546fb224675a47f375c8a73a0e</checksum>
-						<url>sdk-generic-f1f6d1f1608b412291b9c94ea6bc577eeea39637-3fdb234e13e6fdbfbf9a6c814546057526168617-macosx-patch.jar</url>
+						<url>sdk-generic-bcf8634eec19c3385fbecddfd8796ce425beca3a-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-macosx-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6238,7 +6293,27 @@ June 2014.</license>
 						</based-on>
 						<size>37761426</size>
 						<checksum>8ab2427bff140fa330ff84978ac7732d15b14a4d</checksum>
-						<url>sdk-generic-0300e25084f01d2a015a0f7fdb9e4567e8128fe0-3fdb234e13e6fdbfbf9a6c814546057526168617-macosx-patch.jar</url>
+						<url>sdk-generic-06f232eac1d8f9160f0862d9897d83522d71a044-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-macosx-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>2</micro>
+						</based-on>
+						<size>37760916</size>
+						<checksum>9fa4e220d674faea48abf1d8649fd783d66e41a9</checksum>
+						<url>sdk-generic-4422dfe8492685e36f95ce945c8b44ff98c62186-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-macosx-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>37761573</size>
+						<checksum>a80c46105ba345ce087a7228a35cf446f5b61238</checksum>
+						<url>sdk-generic-0fbc0f8b67dca553b1917fbf721408dccbcd71e5-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-macosx-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6248,12 +6323,12 @@ June 2014.</license>
 						</based-on>
 						<size>37762783</size>
 						<checksum>1aedb736b64430e6f9a968f340f06e6b198c9ee9</checksum>
-						<url>sdk-generic-5d2b37caade80434d7196768df2533867b36ed1b-3fdb234e13e6fdbfbf9a6c814546057526168617-macosx-patch.jar</url>
+						<url>sdk-generic-da31dce23f22ce787cdd9ca4c3efc5010ba1c1fe-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-macosx-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jun  6 06:31:27 2018.-->
+				<!--Built on: Wed Apr 29 10:13:08 2020.-->
 				<complete>
 					<size>154582459</size>
 					<checksum>8c7c28554a32318461802c1291d76fccfafde054</checksum>
@@ -6264,32 +6339,12 @@ June 2014.</license>
 					<patch>
 						<based-on>
 							<major>26</major>
-							<minor>0</minor>
-							<micro>2</micro>
-						</based-on>
-						<size>47560019</size>
-						<checksum>f43d4680f1b5427069317a2ff02027a708527df6</checksum>
-						<url>sdk-generic-94cdf04adac5f400ece8dcc1b43749d024b5334f-3fdb234e13e6fdbfbf9a6c814546057526168617-linux-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
-							<minor>0</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>47560729</size>
-						<checksum>3393f7d16593cc5447cc98e1948dd51518be6c28</checksum>
-						<url>sdk-generic-1f6c767a4017bfd1c118a9a08fbf0453790128e2-3fdb234e13e6fdbfbf9a6c814546057526168617-linux-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
 							<minor>1</minor>
 							<micro>0</micro>
 						</based-on>
 						<size>19787313</size>
 						<checksum>9eb1bed4c65b9d78c2a33c1ee07157f2a912e81a</checksum>
-						<url>sdk-generic-f1f6d1f1608b412291b9c94ea6bc577eeea39637-3fdb234e13e6fdbfbf9a6c814546057526168617-linux-patch.jar</url>
+						<url>sdk-generic-bcf8634eec19c3385fbecddfd8796ce425beca3a-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-linux-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6299,7 +6354,27 @@ June 2014.</license>
 						</based-on>
 						<size>47560556</size>
 						<checksum>6abdab7ad2d64b6530157aa11a40eceaf74eb93a</checksum>
-						<url>sdk-generic-0300e25084f01d2a015a0f7fdb9e4567e8128fe0-3fdb234e13e6fdbfbf9a6c814546057526168617-linux-patch.jar</url>
+						<url>sdk-generic-06f232eac1d8f9160f0862d9897d83522d71a044-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-linux-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>2</micro>
+						</based-on>
+						<size>47560019</size>
+						<checksum>f43d4680f1b5427069317a2ff02027a708527df6</checksum>
+						<url>sdk-generic-4422dfe8492685e36f95ce945c8b44ff98c62186-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-linux-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>47560729</size>
+						<checksum>3393f7d16593cc5447cc98e1948dd51518be6c28</checksum>
+						<url>sdk-generic-0fbc0f8b67dca553b1917fbf721408dccbcd71e5-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-linux-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6309,12 +6384,12 @@ June 2014.</license>
 						</based-on>
 						<size>47561828</size>
 						<checksum>6311803617b3b6bc276c489eda8a236bf705d0b5</checksum>
-						<url>sdk-generic-5d2b37caade80434d7196768df2533867b36ed1b-3fdb234e13e6fdbfbf9a6c814546057526168617-linux-patch.jar</url>
+						<url>sdk-generic-da31dce23f22ce787cdd9ca4c3efc5010ba1c1fe-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-linux-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 			<archive>
-				<!--Built on: Sat May 19 15:12:23 2018.-->
+				<!--Built on: Wed Apr 29 10:13:20 2020.-->
 				<complete>
 					<size>156136858</size>
 					<checksum>aa298b5346ee0d63940d13609fe6bec621384510</checksum>
@@ -6325,32 +6400,12 @@ June 2014.</license>
 					<patch>
 						<based-on>
 							<major>26</major>
-							<minor>0</minor>
-							<micro>2</micro>
-						</based-on>
-						<size>47708994</size>
-						<checksum>3cb6d868953ba365ef2704704f381e59d21d214f</checksum>
-						<url>sdk-generic-94cdf04adac5f400ece8dcc1b43749d024b5334f-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
-							<minor>0</minor>
-							<micro>0</micro>
-						</based-on>
-						<size>47711464</size>
-						<checksum>04b9a10f8b5633441965806643093a2d7eb05eea</checksum>
-						<url>sdk-generic-1f6c767a4017bfd1c118a9a08fbf0453790128e2-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>26</major>
 							<minor>1</minor>
 							<micro>0</micro>
 						</based-on>
 						<size>19720651</size>
 						<checksum>bf219d5f69e13f209b1f0713456f2b916ee3454e</checksum>
-						<url>sdk-generic-f1f6d1f1608b412291b9c94ea6bc577eeea39637-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar</url>
+						<url>sdk-generic-bcf8634eec19c3385fbecddfd8796ce425beca3a-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-windows-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6360,7 +6415,27 @@ June 2014.</license>
 						</based-on>
 						<size>47705445</size>
 						<checksum>60a17cb115af49b50aa07ea3174b6e2ce2412225</checksum>
-						<url>sdk-generic-0300e25084f01d2a015a0f7fdb9e4567e8128fe0-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar</url>
+						<url>sdk-generic-06f232eac1d8f9160f0862d9897d83522d71a044-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-windows-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>2</micro>
+						</based-on>
+						<size>47708994</size>
+						<checksum>3cb6d868953ba365ef2704704f381e59d21d214f</checksum>
+						<url>sdk-generic-4422dfe8492685e36f95ce945c8b44ff98c62186-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-windows-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>26</major>
+							<minor>0</minor>
+							<micro>0</micro>
+						</based-on>
+						<size>47711464</size>
+						<checksum>04b9a10f8b5633441965806643093a2d7eb05eea</checksum>
+						<url>sdk-generic-0fbc0f8b67dca553b1917fbf721408dccbcd71e5-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-windows-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
@@ -6370,7 +6445,7 @@ June 2014.</license>
 						</based-on>
 						<size>47710249</size>
 						<checksum>edf32e68dfe64795667aa65ab251413806d58ea9</checksum>
-						<url>sdk-generic-5d2b37caade80434d7196768df2533867b36ed1b-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar</url>
+						<url>sdk-generic-da31dce23f22ce787cdd9ca4c3efc5010ba1c1fe-fe9ab7715f5a5d87ad0fe975f831e92c3596283e-windows-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
