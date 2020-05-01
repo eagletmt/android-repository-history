@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-30 22:58:41.186871 with ADRT.-->
+	<!--Generated on 2020-05-01 10:57:47.544378 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -3481,6 +3481,51 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;30.0.0-rc3">
+		<!--Generated from bid:6441717, branch:rvc-preview2-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>30</major>
+			<minor>0</minor>
+			<micro>0</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>Android SDK Build-Tools 30-rc3</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Apr 30 00:30:21 2020.-->
+				<complete>
+					<size>72940284</size>
+					<checksum>b4ad3da96575719eedccf9b1f7015816370fcd66</checksum>
+					<url>build-tools_r30-rc3-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Apr 30 00:30:18 2020.-->
+				<complete>
+					<size>70230445</size>
+					<checksum>7cbe29aa670e63e4567f2c0524be090a0efa378f</checksum>
+					<url>build-tools_r30-rc3-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Apr 30 00:30:14 2020.-->
+				<complete>
+					<size>73862077</size>
+					<checksum>5f20bcf07d99382131dc8c2545c0230e4282439e</checksum>
+					<url>build-tools_r30-rc3-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
