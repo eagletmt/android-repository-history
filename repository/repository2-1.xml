@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-05-05 14:45:11.604245 with ADRT.-->
+	<!--Generated on 2020-05-05 18:12:11.865429 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,25 +300,25 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-R">
-		<!--Generated from bid:6372829, branch:rvc-preview3-release-->
+		<!--Generated from bid:6439823, branch:rvc-preview4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>29</api-level>
 			<codename>R</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android SDK Platform R</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr  7 22:50:39 2020.-->
+				<!--Built on: Tue Apr 28 23:05:09 2020.-->
 				<complete>
-					<size>56985898</size>
-					<checksum>d2dd7f83b467bef229a514872b5d05de886ab967</checksum>
-					<url>platform-R_r03.zip</url>
+					<size>51135059</size>
+					<checksum>c225930fa7fc71d31b45cf0be835a5da06f3664d</checksum>
+					<url>platform-R_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -3060,16 +3060,16 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;30.0.0-rc3">
-		<!--Generated from bid:6441717, branch:rvc-preview2-release-->
+	<remotePackage path="build-tools;30.0.0-rc4">
+		<!--Generated from bid:6446678, branch:rvc-preview4-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
 			<micro>0</micro>
-			<preview>3</preview>
+			<preview>4</preview>
 		</revision>
-		<display-name>Android SDK Build-Tools 30-rc3</display-name>
+		<display-name>Android SDK Build-Tools 30-rc4</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="tools"/>
@@ -3077,29 +3077,29 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr 30 00:30:21 2020.-->
+				<!--Built on: Thu Apr 30 13:20:03 2020.-->
 				<complete>
-					<size>72940284</size>
-					<checksum>b4ad3da96575719eedccf9b1f7015816370fcd66</checksum>
-					<url>build-tools_r30-rc3-linux.zip</url>
+					<size>68806138</size>
+					<checksum>3bc98dafe58cb95edda17cb43fe827b407f36305</checksum>
+					<url>build-tools_r30-rc4-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Apr 30 00:30:18 2020.-->
+				<!--Built on: Thu Apr 30 13:19:57 2020.-->
 				<complete>
-					<size>70230445</size>
-					<checksum>7cbe29aa670e63e4567f2c0524be090a0efa378f</checksum>
-					<url>build-tools_r30-rc3-macosx.zip</url>
+					<size>65981983</size>
+					<checksum>5589569805b85002dc109f866ee7b13804a406de</checksum>
+					<url>build-tools_r30-rc4-macosx.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Apr 30 00:30:14 2020.-->
+				<!--Built on: Thu Apr 30 13:19:52 2020.-->
 				<complete>
-					<size>73862077</size>
-					<checksum>5f20bcf07d99382131dc8c2545c0230e4282439e</checksum>
-					<url>build-tools_r30-rc3-windows.zip</url>
+					<size>69686998</size>
+					<checksum>1f2bb961da678bd41b541e00a5b1fa11a978bbcd</checksum>
+					<url>build-tools_r30-rc4-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -5679,41 +5679,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:6374843 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:6435776 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 29 10:10:25 2020.-->
+				<!--Built on: Thu Apr 30 13:20:14 2020.-->
 				<complete>
-					<size>9257257</size>
-					<checksum>9776c7612119abe3da1134253bc617295ec97853</checksum>
-					<url>platform-tools_r30.0.0-darwin.zip</url>
+					<size>9315273</size>
+					<checksum>5f93b7c3262b882083bfe27c87c9ecb6186721d5</checksum>
+					<url>03e20ef07acac3ecac0790dfa946abd98e31bf7e.platform-tools_r30.0.1-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 29 10:10:32 2020.-->
+				<!--Built on: Thu Apr 30 13:20:08 2020.-->
 				<complete>
-					<size>9337646</size>
-					<checksum>d124084d621a8cb4b3eb1113d9c90be641d40494</checksum>
-					<url>platform-tools_r30.0.0-linux.zip</url>
+					<size>9397456</size>
+					<checksum>58393eac83fdc9a1030d81a49731c7c518e043c0</checksum>
+					<url>platform-tools_r30.0.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 29 10:10:36 2020.-->
+				<!--Built on: Thu Apr 30 13:20:11 2020.-->
 				<complete>
-					<size>8200707</size>
-					<checksum>a2a951f3a306d895b32e0d4d63087388cd7aeac5</checksum>
-					<url>platform-tools_r30.0.0-windows.zip</url>
+					<size>8256593</size>
+					<checksum>72c8d5b05a3e78f2817f57a1ab2e4c404259cb99</checksum>
+					<url>platform-tools_r30.0.1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
