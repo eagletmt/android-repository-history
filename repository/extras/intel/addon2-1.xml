@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-04-30 23:00:07.679741 with ADRT.-->
+	<!--Generated on 2020-05-07 13:38:14.991148 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -618,7 +618,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 25 08:04:33 2019.-->
+				<!--Built on: Thu May  7 10:14:48 2020.-->
 				<complete>
 					<size>633583</size>
 					<checksum>5a628d9507b8cd90f211670ea4513f2e52f44975</checksum>
@@ -646,7 +646,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Feb 26 11:28:47 2020.-->
+				<!--Built on: Thu May  7 10:15:06 2020.-->
 				<complete>
 					<size>2761309</size>
 					<checksum>a99c36e2c0394a4053c5f9a3afe9b2ec408ce6b8</checksum>
