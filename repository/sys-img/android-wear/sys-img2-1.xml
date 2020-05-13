@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-05-07 13:39:00.552261 with ADRT.-->
+	<!--Generated on 2020-05-12 18:04:00.820692 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -727,19 +727,19 @@ January 16, 2019</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>5</major>
-						</based-on>
-						<size>15428034</size>
-						<checksum>2c45e6c6d910f37c611539610c9096edac2716bf</checksum>
-						<url>sys-img-3006789-sdk_google_aw_armv7-sdk-3098114-sdk_google_aw_armv7-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>4</major>
 						</based-on>
 						<size>16275431</size>
 						<checksum>7e57be889961206dd1e069d92dadd519c5676d97</checksum>
 						<url>sys-img-2944945-sdk_google_aw_armv7-sdk-3098114-sdk_google_aw_armv7-sdk-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>5</major>
+						</based-on>
+						<size>15428034</size>
+						<checksum>2c45e6c6d910f37c611539610c9096edac2716bf</checksum>
+						<url>sys-img-3006789-sdk_google_aw_armv7-sdk-3098114-sdk_google_aw_armv7-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -775,19 +775,19 @@ January 16, 2019</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>5</major>
-						</based-on>
-						<size>12796311</size>
-						<checksum>eb3e0d93fe4c2f1582b5538b5cd72e61e3c45310</checksum>
-						<url>sys-img-3006789-sdk_google_aw_x86-sdk-3098114-sdk_google_aw_x86-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>4</major>
 						</based-on>
 						<size>14059662</size>
 						<checksum>cc975c3b18d5181dc4a7d12b80b6dee124be1f18</checksum>
 						<url>sys-img-2944945-sdk_google_aw_x86-sdk-3098114-sdk_google_aw_x86-sdk-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>5</major>
+						</based-on>
+						<size>12796311</size>
+						<checksum>eb3e0d93fe4c2f1582b5538b5cd72e61e3c45310</checksum>
+						<url>sys-img-3006789-sdk_google_aw_x86-sdk-3098114-sdk_google_aw_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>

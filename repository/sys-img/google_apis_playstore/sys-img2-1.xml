@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-05-07 13:40:31.689332 with ADRT.-->
+	<!--Generated on 2020-05-12 18:04:31.528117 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -731,14 +731,6 @@ January 16, 2019</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>16</major>
-						</based-on>
-						<size>95038884</size>
-						<checksum>13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
-						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>12</major>
 						</based-on>
 						<size>114867010</size>
@@ -752,6 +744,14 @@ January 16, 2019</license>
 						<size>103478246</size>
 						<checksum>0db53cc9aef97f32dddd329791525f8992b508f1</checksum>
 						<url>sys-img-4013928-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>16</major>
+						</based-on>
+						<size>95038884</size>
+						<checksum>13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
+						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -832,19 +832,19 @@ January 16, 2019</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>4</major>
-						</based-on>
-						<size>270302979</size>
-						<checksum>9d8cda1c34d1f60ee5bf4d37b0e8246d6b69fa05</checksum>
-						<url>sys-img-4074420-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>3</major>
 						</based-on>
 						<size>339528314</size>
 						<checksum>5a479cc6b36fb6e801f659375c3e558dde1eb1f0</checksum>
 						<url>sys-img-3991286-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>4</major>
+						</based-on>
+						<size>270302979</size>
+						<checksum>9d8cda1c34d1f60ee5bf4d37b0e8246d6b69fa05</checksum>
+						<url>sys-img-4074420-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
 					</patch>
 					<patch>
 						<based-on>
