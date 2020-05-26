@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-05-21 08:43:34.669479 with ADRT.-->
+	<!--Generated on 2020-05-26 11:39:08.467407 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1458,6 +1458,53 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="ndk;21.2.6472646">
+		<!--Generated from bid:6472646, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>2</minor>
+			<micro>6472646</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.2.6472646</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  7 14:07:45 2020.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum>c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:08:25 2020.-->
+				<complete>
+					<size>1162375023</size>
+					<checksum>c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8</checksum>
+					<url>android-ndk-r21c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:07:07 2020.-->
+				<complete>
+					<size>1079490351</size>
+					<checksum>93563a1297a60b5da49a48f62340dbf0c878a5f3</checksum>
+					<url>android-ndk-r21c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="ndk;21.1.6352462">
 		<!--Generated from bid:6352462, branch:aosp-ndk-release-r21-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -2253,6 +2300,53 @@ June 2014.</license>
 					<size>723301086</size>
 					<checksum>f3f1909ed1052e98dda2c79d11c22f3da28daf25</checksum>
 					<url>android-ndk-r16b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6472646, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>2</minor>
+			<micro>6472646</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  7 14:07:45 2020.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum>c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:08:25 2020.-->
+				<complete>
+					<size>1162375023</size>
+					<checksum>c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8</checksum>
+					<url>android-ndk-r21c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:07:07 2020.-->
+				<complete>
+					<size>1079490351</size>
+					<checksum>93563a1297a60b5da49a48f62340dbf0c878a5f3</checksum>
+					<url>android-ndk-r21c-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
