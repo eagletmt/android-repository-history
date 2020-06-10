@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-06-04 21:49:25.296026 with ADRT.-->
+	<!--Generated on 2020-06-09 16:40:34.216058 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -722,7 +722,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun  5 18:16:11 2018.-->
+				<!--Built on: Tue Jun  5 11:16:11 2018.-->
 				<complete>
 					<size>812724041</size>
 					<checksum>b52e9593ffdde65c1a0970256a32e8967c89cc22</checksum>
@@ -782,7 +782,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 11 16:03:55 2018.-->
+				<!--Built on: Mon Jun 11 09:03:55 2018.-->
 				<complete>
 					<size>972461719</size>
 					<checksum>6f6668954f7fd52f896fe7528aa122028c9b026c</checksum>
@@ -823,7 +823,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 17 22:22:52 2018.-->
+				<!--Built on: Thu May 17 15:22:52 2018.-->
 				<complete>
 					<size>769390078</size>
 					<checksum>2c8bee7b97a309f099941532e63c42a7d4a06e19</checksum>
@@ -890,7 +890,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 18 01:55:50 2018.-->
+				<!--Built on: Thu May 17 18:55:50 2018.-->
 				<complete>
 					<size>758636016</size>
 					<checksum>eb5a944ceb691ca0648d0a6f0d93893a47223b5d</checksum>
@@ -941,7 +941,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 17:59:21 2018.-->
+				<!--Built on: Mon Nov 12 09:59:21 2018.-->
 				<complete>
 					<size>906607514</size>
 					<checksum>5381f9d52a3bf1967c9c92a25b20012cd68764c8</checksum>
@@ -982,7 +982,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 19 21:00:47 2019.-->
+				<!--Built on: Thu Sep 19 14:00:47 2019.-->
 				<complete>
 					<size>918028186</size>
 					<checksum>97d9d4f4a2afa8b0f5d52e90748e19c10406ca93</checksum>
@@ -1023,7 +1023,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 18:08:51 2018.-->
+				<!--Built on: Mon Nov 12 10:08:51 2018.-->
 				<complete>
 					<size>1037659724</size>
 					<checksum>a767da996fdea7a1f5632a9206fa5c009d6e580c</checksum>
@@ -1064,7 +1064,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 22:58:37 2019.-->
+				<!--Built on: Thu Sep 26 15:58:37 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1106,7 +1106,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 22:59:23 2019.-->
+				<!--Built on: Thu Sep 26 15:59:23 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1115,7 +1115,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Sep 26 23:00:03 2019.-->
+				<!--Built on: Thu Sep 26 16:00:03 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1157,7 +1157,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 17:53:27 2019.-->
+				<!--Built on: Mon Sep 30 10:53:27 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1199,7 +1199,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 17:55:09 2019.-->
+				<!--Built on: Mon Sep 30 10:55:09 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1208,7 +1208,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Sep 30 17:54:18 2019.-->
+				<!--Built on: Mon Sep 30 10:54:18 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1218,11 +1218,10 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-R;google_apis_playstore;x86">
-		<!--Generated from bid:6455311, branch:rvc-preview4-release-x86-playstore-->
+	<remotePackage path="system-images;android-30;google_apis_playstore;x86">
+		<!--Generated from bid:6520161, branch:rvc-beta1-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<codename>R</codename>
+			<api-level>30</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1234,7 +1233,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1251,21 +1250,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  4 23:31:52 2020.-->
+				<!--Built on: Fri May 29 11:11:59 2020.-->
 				<complete>
-					<size>1167317666</size>
-					<checksum>9b72aa49e47405ef75ee31a90bbb67dd2c6fb3a0</checksum>
-					<url>x86-R_r04-windows.zip</url>
+					<size>1183897958</size>
+					<checksum>de8956f69a7c856957c7248878f713b9fe9428c0</checksum>
+					<url>x86-30_r05-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-R;google_apis_playstore;x86">
-		<!--Generated from bid:6455311, branch:rvc-preview4-release-x86-playstore-->
+	<remotePackage path="system-images;android-30;google_apis_playstore;x86">
+		<!--Generated from bid:6520161, branch:rvc-beta1-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<codename>R</codename>
+			<api-level>30</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1277,7 +1275,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1294,30 +1292,29 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  4 23:32:38 2020.-->
+				<!--Built on: Fri May 29 11:12:37 2020.-->
 				<complete>
-					<size>1167317666</size>
-					<checksum>9b72aa49e47405ef75ee31a90bbb67dd2c6fb3a0</checksum>
-					<url>x86-R_r04-darwin.zip</url>
+					<size>1183897958</size>
+					<checksum>de8956f69a7c856957c7248878f713b9fe9428c0</checksum>
+					<url>x86-30_r05-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon May  4 23:33:20 2020.-->
+				<!--Built on: Fri May 29 11:13:11 2020.-->
 				<complete>
-					<size>1167317666</size>
-					<checksum>9b72aa49e47405ef75ee31a90bbb67dd2c6fb3a0</checksum>
-					<url>x86-R_r04-linux.zip</url>
+					<size>1183897958</size>
+					<checksum>de8956f69a7c856957c7248878f713b9fe9428c0</checksum>
+					<url>x86-30_r05-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-R;google_apis_playstore;x86_64">
-		<!--Generated from bid:6455311, branch:rvc-preview4-release-x86_64-playstore-->
+	<remotePackage path="system-images;android-30;google_apis_playstore;x86_64">
+		<!--Generated from bid:6520161, branch:rvc-beta1-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<codename>R</codename>
+			<api-level>30</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1329,7 +1326,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1346,21 +1343,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  4 23:34:12 2020.-->
+				<!--Built on: Fri May 29 11:13:56 2020.-->
 				<complete>
-					<size>1346183315</size>
-					<checksum>ca38523dc677cef46a55b4409da52e91b3800411</checksum>
-					<url>x86_64-R_r04-windows.zip</url>
+					<size>1362987698</size>
+					<checksum>d5eae687cc1629f41aef5475accc034753437796</checksum>
+					<url>x86_64-30_r05-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-R;google_apis_playstore;x86_64">
-		<!--Generated from bid:6455311, branch:rvc-preview4-release-x86_64-playstore-->
+	<remotePackage path="system-images;android-30;google_apis_playstore;x86_64">
+		<!--Generated from bid:6520161, branch:rvc-beta1-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<codename>R</codename>
+			<api-level>30</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1372,7 +1368,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1389,20 +1385,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  4 23:35:57 2020.-->
+				<!--Built on: Fri May 29 11:15:19 2020.-->
 				<complete>
-					<size>1346183315</size>
-					<checksum>ca38523dc677cef46a55b4409da52e91b3800411</checksum>
-					<url>x86_64-R_r04-darwin.zip</url>
+					<size>1362987698</size>
+					<checksum>d5eae687cc1629f41aef5475accc034753437796</checksum>
+					<url>x86_64-30_r05-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon May  4 23:35:06 2020.-->
+				<!--Built on: Fri May 29 11:14:39 2020.-->
 				<complete>
-					<size>1346183315</size>
-					<checksum>ca38523dc677cef46a55b4409da52e91b3800411</checksum>
-					<url>x86_64-R_r04-linux.zip</url>
+					<size>1362987698</size>
+					<checksum>d5eae687cc1629f41aef5475accc034753437796</checksum>
+					<url>x86_64-30_r05-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
