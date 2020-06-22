@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-06-18 17:11:17.411321 with ADRT.-->
+	<!--Generated on 2020-06-22 12:29:04.377532 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5561,7 +5561,87 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="cmdline-tools;2.0">
+	<remotePackage path="cmdline-tools;2.1">
+		<!--Generated from:ab bid:6609375 branch:git_studio-3.7-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>2</major>
+			<minor>1</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:22 2020.-->
+				<complete>
+					<size>86532348</size>
+					<checksum>9172381ff070ee2a416723c1989770cf4b0d1076</checksum>
+					<url>commandlinetools-linux-6609375_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:26 2020.-->
+				<complete>
+					<size>86532338</size>
+					<checksum>c0c6bb9f1970bfadeaac623dfabf22c3e56baaec</checksum>
+					<url>commandlinetools-mac-6609375_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:30 2020.-->
+				<complete>
+					<size>86517250</size>
+					<checksum>e2e19c2ff584efa87ef0cfdd1987f92881323208</checksum>
+					<url>commandlinetools-win-6609375_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="cmdline-tools;latest">
+		<!--Generated from:ab bid:6609375 branch:git_studio-3.7-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>2</major>
+			<minor>1</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools (latest)</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:34 2020.-->
+				<complete>
+					<size>86532348</size>
+					<checksum>9172381ff070ee2a416723c1989770cf4b0d1076</checksum>
+					<url>commandlinetools-linux-6609375_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:38 2020.-->
+				<complete>
+					<size>86532338</size>
+					<checksum>c0c6bb9f1970bfadeaac623dfabf22c3e56baaec</checksum>
+					<url>commandlinetools-mac-6609375_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Jun 19 17:21:41 2020.-->
+				<complete>
+					<size>86517250</size>
+					<checksum>e2e19c2ff584efa87ef0cfdd1987f92881323208</checksum>
+					<url>commandlinetools-win-6609375_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="cmdline-tools;2.0">
 		<!--Generated from:ab bid:6514223 branch:git_studio-3.7-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -5592,46 +5672,6 @@ June 2014.</license>
 			</archive>
 			<archive>
 				<!--Built on: Wed May 27 18:45:13 2020.-->
-				<complete>
-					<size>86506760</size>
-					<checksum>e11b418c1d2d28589e9194915be2561f1e1e7a95</checksum>
-					<url>commandlinetools-win-6514223_latest.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:6514223 branch:git_studio-3.7-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>2</major>
-			<minor>0</minor>
-		</revision>
-		<display-name>Android SDK Command-line Tools (latest)</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed May 27 18:45:17 2020.-->
-				<complete>
-					<size>86521858</size>
-					<checksum>14b2114c6eae9e10686a18138d2bb468c46f8e0c</checksum>
-					<url>commandlinetools-linux-6514223_latest.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Wed May 27 18:45:21 2020.-->
-				<complete>
-					<size>86522172</size>
-					<checksum>a69c4493c4c919698989484bf0ea684550ec5217</checksum>
-					<url>commandlinetools-mac-6514223_latest.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Wed May 27 18:45:24 2020.-->
 				<complete>
 					<size>86506760</size>
 					<checksum>e11b418c1d2d28589e9194915be2561f1e1e7a95</checksum>
