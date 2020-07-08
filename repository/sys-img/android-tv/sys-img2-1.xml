@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-06-18 17:12:34.844521 with ADRT.-->
+	<!--Generated on 2020-07-07 23:30:46.352577 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -779,7 +779,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-23;android-tv;x86">
-		<!--Generated from bid:6352195, branch:git_mnc-emu-release-->
+		<!--Generated from bid:5525988, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>23</api-level>
 			<tag>
@@ -799,22 +799,12 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Apr  5 13:02:03 2020.-->
+				<!--Built on: Thu May  2 11:59:05 2019.-->
 				<complete>
-					<size>339667235</size>
-					<checksum>86ff28deb9d409a9ead4e65c7b8518297aca5d8f</checksum>
+					<size>336820588</size>
+					<checksum>47e8d6b08a337a0672f0f105bf907d39ed9457ec</checksum>
 					<url>x86-23_r19.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-						</based-on>
-						<size>53399115</size>
-						<checksum>29e28f291be86918ea25c104a68544f92a1e4206</checksum>
-						<url>sys-img-5525988-sdk_google_atv_x86-sdk-6352195-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

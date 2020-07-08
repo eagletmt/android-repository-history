@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-06 11:23:23.120478 with ADRT.-->
+	<!--Generated on 2020-07-07 23:30:02.469434 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,25 +300,25 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-30">
-		<!--Generated from bid:6520161, branch:rvc-beta1-release-->
+		<!--Generated from bid:6625208, branch:rvc-beta2-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>30</api-level>
 			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android SDK Platform 30</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May 29 11:05:44 2020.-->
+				<!--Built on: Thu Jun 25 15:56:36 2020.-->
 				<complete>
-					<size>52274136</size>
-					<checksum>63aed027a1aa272ff894545af8106255e84f2140</checksum>
-					<url>platform-30_r01.zip</url>
+					<size>52301653</size>
+					<checksum>0b1102c5f0be7bc629e396fcefd36b9f1edfa0a7</checksum>
+					<url>platform-30_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -3245,6 +3245,50 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;30.0.1">
+		<!--Generated from bid:6625208, branch:rvc-beta2-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>30</major>
+			<minor>0</minor>
+			<micro>1</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 30.0.1</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="tools"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jun 25 15:56:28 2020.-->
+				<complete>
+					<size>52664463</size>
+					<checksum>dae27b63a53f3c71a23a2e9517d435f79ce7975b</checksum>
+					<url>build-tools_r30.0.1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jun 25 15:56:25 2020.-->
+				<complete>
+					<size>51227882</size>
+					<checksum>b62ccd6d6468a374b7c8e641c3751bc929a89397</checksum>
+					<url>build-tools_r30.0.1-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jun 25 15:56:22 2020.-->
+				<complete>
+					<size>53783332</size>
+					<checksum>76197fec228ca9b69086d6dd8a16e4589982bdc6</checksum>
+					<url>build-tools_r30.0.1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
