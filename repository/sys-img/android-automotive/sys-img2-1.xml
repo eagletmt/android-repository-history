@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-07 23:31:01.468415 with ADRT.-->
+	<!--Generated on 2020-07-09 20:04:53.019615 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -697,12 +697,12 @@ January 16, 2019</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="system-images;android-28;android-automotive;x86">
-		<!--Generated from bid:6390047, branch:pi-car-release-playstore-x86-->
+	<remotePackage path="system-images;android-28;android-automotive-playstore;x86">
+		<!--Generated from bid:6637954, branch:pi-car-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
-				<id>android-automotive</id>
+				<id>android-automotive-playstore</id>
 				<display>Automotive</display>
 			</tag>
 			<vendor>
@@ -712,7 +712,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Automotive Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -728,11 +728,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr 30 12:49:35 2020.-->
+				<!--Built on: Tue Jun 30 18:10:26 2020.-->
 				<complete>
-					<size>818493419</size>
-					<checksum>8f18c929d44ff7834966b79e91491a0f10407b9b</checksum>
-					<url>x86-28_r04.zip</url>
+					<size>859616969</size>
+					<checksum>a1f224245056ddaa89651e379efbde7357b15046</checksum>
+					<url>x86-28_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
