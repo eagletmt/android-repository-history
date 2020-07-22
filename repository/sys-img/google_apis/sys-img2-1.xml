@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-10 10:24:00.729161 with ADRT.-->
+	<!--Generated on 2020-07-21 23:14:14.597957 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1407,19 +1407,19 @@ January 16, 2019</license>
 				<patches>
 					<patch>
 						<based-on>
-							<major>23</major>
-						</based-on>
-						<size>134045917</size>
-						<checksum>a488edf3ffdc8c94ed1bab5f71ed742daf41c4d1</checksum>
-						<url>sys-img-5056529-sdk_google_phone_x86-sdk_addon-6377147-sdk_google_phone_x86-sdk_addon-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
 							<major>24</major>
 						</based-on>
 						<size>130449579</size>
 						<checksum>b5c43c56ff45881eb03f08f09b41cf3dd48c767e</checksum>
 						<url>sys-img-5525941-sdk_google_phone_x86-sdk_addon-6377147-sdk_google_phone_x86-sdk_addon-patch.jar</url>
+					</patch>
+					<patch>
+						<based-on>
+							<major>23</major>
+						</based-on>
+						<size>134045917</size>
+						<checksum>a488edf3ffdc8c94ed1bab5f71ed742daf41c4d1</checksum>
+						<url>sys-img-5056529-sdk_google_phone_x86-sdk_addon-6377147-sdk_google_phone_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -2397,7 +2397,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86">
-		<!--Generated from bid:6625208, branch:git_rvc-beta2-release-->
+		<!--Generated from bid:6677315, branch:git_rvc-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2428,17 +2428,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun 25 15:59:15 2020.-->
+				<!--Built on: Tue Jul 14 12:48:23 2020.-->
 				<complete>
-					<size>1220764772</size>
-					<checksum>a0f121bc987b3c1d691387968d42339621df3581</checksum>
+					<size>1220771963</size>
+					<checksum>bae37eac202d0c9c6a20c7ff82b4c9f596604bf4</checksum>
 					<url>x86-30_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86_64">
-		<!--Generated from bid:6625208, branch:git_rvc-beta2-release-->
+		<!--Generated from bid:6677315, branch:git_rvc-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2469,10 +2469,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun 25 16:00:47 2020.-->
+				<!--Built on: Tue Jul 14 12:50:00 2020.-->
 				<complete>
-					<size>1419467408</size>
-					<checksum>d8c3b75053b6d4b826bfcf7391bc3fda6d9636b6</checksum>
+					<size>1419474765</size>
+					<checksum>e054c627da74729786058e2a9f3388be921ff0a3</checksum>
 					<url>x86_64-30_r06.zip</url>
 				</complete>
 			</archive>
