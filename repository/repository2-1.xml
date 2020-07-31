@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-24 14:20:38.753588 with ADRT.-->
+	<!--Generated on 2020-07-30 17:40:36.856903 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5975,41 +5975,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:6597393 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:6686687 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>3</micro>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun 17 11:21:23 2020.-->
+				<!--Built on: Mon Jul 20 12:32:57 2020.-->
 				<complete>
-					<size>9201449</size>
-					<checksum>c0ec4b0177e31eab1ef7f7e04c1ab783d71bb12a</checksum>
-					<url>73f3f0b3034f61563f787bef8ebf51f38df457de.platform-tools_r30.0.3-darwin.zip</url>
+					<size>9520021</size>
+					<checksum>af9b6aaa4b1e39ae3709d6c81857991170111366</checksum>
+					<url>fbad467867e935dce68a0296b00e6d1e76f15b15.platform-tools_r30.0.4-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jun 17 11:21:20 2020.-->
+				<!--Built on: Mon Jul 20 12:32:54 2020.-->
 				<complete>
-					<size>9238434</size>
-					<checksum>3aa611654e163fae7e3dbd73b5c04e12dfe1e07b</checksum>
-					<url>platform-tools_r30.0.3-linux.zip</url>
+					<size>9542280</size>
+					<checksum>ec00457e833806f08ccdf6661273f0696966d947</checksum>
+					<url>platform-tools_r30.0.4-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jun 17 11:21:22 2020.-->
+				<!--Built on: Mon Jul 20 12:32:55 2020.-->
 				<complete>
-					<size>8177013</size>
-					<checksum>d4d170567cc88ac4bc246d33777bda2125d66a54</checksum>
-					<url>platform-tools_r30.0.3-windows.zip</url>
+					<size>8419984</size>
+					<checksum>a54adce3e6cd6adcc67580b35d330e2730848085</checksum>
+					<url>platform-tools_r30.0.4-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
