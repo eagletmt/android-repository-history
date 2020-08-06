@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-21 23:14:14.597957 with ADRT.-->
+	<!--Generated on 2020-08-05 17:24:05.289026 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2397,7 +2397,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86">
-		<!--Generated from bid:6677315, branch:git_rvc-beta2-release-->
+		<!--Generated from bid:6705141, branch:git_rvc-beta3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2411,7 +2411,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2428,17 +2428,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:48:23 2020.-->
+				<!--Built on: Fri Jul 24 16:04:27 2020.-->
 				<complete>
-					<size>1220771963</size>
-					<checksum>bae37eac202d0c9c6a20c7ff82b4c9f596604bf4</checksum>
-					<url>x86-30_r06.zip</url>
+					<size>1221214270</size>
+					<checksum>ebe1b5374abccafa96ffd61eb5ee9ee7b9ba461c</checksum>
+					<url>x86-30_r07.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86_64">
-		<!--Generated from bid:6677315, branch:git_rvc-beta2-release-->
+		<!--Generated from bid:6705141, branch:git_rvc-beta3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2452,7 +2452,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2469,11 +2469,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:50:00 2020.-->
+				<!--Built on: Fri Jul 24 16:05:41 2020.-->
 				<complete>
-					<size>1419474765</size>
-					<checksum>e054c627da74729786058e2a9f3388be921ff0a3</checksum>
-					<url>x86_64-30_r06.zip</url>
+					<size>1414145599</size>
+					<checksum>340f869117d86d0babcfc8d83e96d72f8c1971ef</checksum>
+					<url>x86_64-30_r07.zip</url>
 				</complete>
 			</archive>
 		</archives>

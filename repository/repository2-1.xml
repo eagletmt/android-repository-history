@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-31 11:00:17.146325 with ADRT.-->
+	<!--Generated on 2020-08-05 17:23:10.645481 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -324,25 +324,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-29">
-		<!--Generated from bid:6018849, branch:qt-preview6-release-->
+		<!--Generated from bid:6717639, branch:qt-preview6-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>29</api-level>
 			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Android SDK Platform 29</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Nov 22 10:57:05 2019.-->
+				<!--Built on: Wed Jul 29 10:49:31 2020.-->
 				<complete>
-					<size>78271355</size>
-					<checksum>8d644c39902038e0bd529165d5ba4f5a8607daea</checksum>
-					<url>platform-29_r04.zip</url>
+					<size>78293913</size>
+					<checksum>9d8a7e0ffa5168dbca6c60355b9129c6c7572aff</checksum>
+					<url>platform-29_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>

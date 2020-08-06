@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-07-21 23:14:23.828853 with ADRT.-->
+	<!--Generated on 2020-08-05 17:24:14.728436 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1219,7 +1219,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis_playstore;x86">
-		<!--Generated from bid:6677315, branch:rvc-beta2-release-x86-playstore-->
+		<!--Generated from bid:6705141, branch:rvc-beta3-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -1233,7 +1233,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1250,18 +1250,18 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:51:09 2020.-->
+				<!--Built on: Fri Jul 24 16:08:06 2020.-->
 				<complete>
-					<size>1187263793</size>
-					<checksum>6506075a201b43198bf6bb95a0eb8eb31dcf5cb7</checksum>
-					<url>x86-30_r06-windows.zip</url>
+					<size>1186107303</size>
+					<checksum>af559fc7e2de6e73eecfbc7950388c0e63bde0a5</checksum>
+					<url>x86-30_r07-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis_playstore;x86">
-		<!--Generated from bid:6677315, branch:rvc-beta2-release-x86-playstore-->
+		<!--Generated from bid:6705141, branch:rvc-beta3-release-x86-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -1275,7 +1275,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1292,27 +1292,27 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:51:55 2020.-->
+				<!--Built on: Fri Jul 24 16:08:49 2020.-->
 				<complete>
-					<size>1187263793</size>
-					<checksum>6506075a201b43198bf6bb95a0eb8eb31dcf5cb7</checksum>
-					<url>x86-30_r06-darwin.zip</url>
+					<size>1186107303</size>
+					<checksum>af559fc7e2de6e73eecfbc7950388c0e63bde0a5</checksum>
+					<url>x86-30_r07-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jul 14 12:52:36 2020.-->
+				<!--Built on: Fri Jul 24 16:09:28 2020.-->
 				<complete>
-					<size>1187263793</size>
-					<checksum>6506075a201b43198bf6bb95a0eb8eb31dcf5cb7</checksum>
-					<url>x86-30_r06-linux.zip</url>
+					<size>1186107303</size>
+					<checksum>af559fc7e2de6e73eecfbc7950388c0e63bde0a5</checksum>
+					<url>x86-30_r07-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis_playstore;x86_64">
-		<!--Generated from bid:6677315, branch:rvc-beta2-release-x86_64-playstore-->
+		<!--Generated from bid:6705141, branch:rvc-beta3-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -1326,7 +1326,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1343,18 +1343,18 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:53:25 2020.-->
+				<!--Built on: Fri Jul 24 16:10:15 2020.-->
 				<complete>
-					<size>1363752240</size>
-					<checksum>ddfcfbc42458d7e57e933ec3d263dc381f13d1af</checksum>
-					<url>x86_64-30_r06-windows.zip</url>
+					<size>1357368204</size>
+					<checksum>4770d27f7dc3668fa3de158dc5f1be7d26773424</checksum>
+					<url>x86_64-30_r07-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis_playstore;x86_64">
-		<!--Generated from bid:6677315, branch:rvc-beta2-release-x86_64-playstore-->
+		<!--Generated from bid:6705141, branch:rvc-beta3-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -1368,7 +1368,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1385,20 +1385,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 14 12:55:02 2020.-->
+				<!--Built on: Fri Jul 24 16:11:48 2020.-->
 				<complete>
-					<size>1363752240</size>
-					<checksum>ddfcfbc42458d7e57e933ec3d263dc381f13d1af</checksum>
-					<url>x86_64-30_r06-darwin.zip</url>
+					<size>1357368204</size>
+					<checksum>4770d27f7dc3668fa3de158dc5f1be7d26773424</checksum>
+					<url>x86_64-30_r07-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jul 14 12:54:16 2020.-->
+				<!--Built on: Fri Jul 24 16:11:04 2020.-->
 				<complete>
-					<size>1363752240</size>
-					<checksum>ddfcfbc42458d7e57e933ec3d263dc381f13d1af</checksum>
-					<url>x86_64-30_r06-linux.zip</url>
+					<size>1357368204</size>
+					<checksum>4770d27f7dc3668fa3de158dc5f1be7d26773424</checksum>
+					<url>x86_64-30_r07-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
