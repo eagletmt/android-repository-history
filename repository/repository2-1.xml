@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-08-14 10:09:43.918715 with ADRT.-->
+	<!--Generated on 2020-08-17 19:45:54.164452 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6060,12 +6060,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6466327 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6755297 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>0</minor>
-			<micro>12</micro>
+			<micro>26</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -6075,31 +6075,31 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May  6 10:27:48 2020.-->
+				<!--Built on: Wed Aug 12 11:14:28 2020.-->
 				<complete>
-					<size>277945610</size>
-					<checksum>adc72a012a6092f52a5378f1cf94ec133eb0dfc8</checksum>
-					<url>emulator-darwin-6466327.zip</url>
+					<size>283455885</size>
+					<checksum>1ef789966a8d0ec1b1ae560cd89b41c7cefc19b2</checksum>
+					<url>emulator-darwin-6755297.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed May  6 10:27:38 2020.-->
+				<!--Built on: Wed Aug 12 11:14:18 2020.-->
 				<complete>
-					<size>245488146</size>
-					<checksum>f3fba6f62230625fc5dc4b412ab871e7e427ad1b</checksum>
-					<url>emulator-linux-6466327.zip</url>
+					<size>255267937</size>
+					<checksum>b20bda74ec9656028d9c249bd58512450d71c2b8</checksum>
+					<url>emulator-linux-6755297.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed May  6 10:27:58 2020.-->
+				<!--Built on: Wed Aug 12 11:14:38 2020.-->
 				<complete>
-					<size>246658451</size>
-					<checksum>b39cc2efc2628444d91745be567ffa7be6e6971f</checksum>
-					<url>emulator-windows-6466327.zip</url>
+					<size>250472403</size>
+					<checksum>fc6d87c659c29173f75135e793a83e60686bf255</checksum>
+					<url>emulator-windows-6755297.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -6136,53 +6136,6 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6755297 branch:aosp-emu-master-dev-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>30</major>
-			<minor>0</minor>
-			<micro>26</micro>
-		</revision>
-		<display-name>Android Emulator</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-3"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Aug 12 11:14:28 2020.-->
-				<complete>
-					<size>283455885</size>
-					<checksum>1ef789966a8d0ec1b1ae560cd89b41c7cefc19b2</checksum>
-					<url>emulator-darwin-6755297.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-				<host-bits>64</host-bits>
-			</archive>
-			<archive>
-				<!--Built on: Wed Aug 12 11:14:18 2020.-->
-				<complete>
-					<size>255267937</size>
-					<checksum>b20bda74ec9656028d9c249bd58512450d71c2b8</checksum>
-					<url>emulator-linux-6755297.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-				<host-bits>64</host-bits>
-			</archive>
-			<archive>
-				<!--Built on: Wed Aug 12 11:14:38 2020.-->
-				<complete>
-					<size>250472403</size>
-					<checksum>fc6d87c659c29173f75135e793a83e60686bf255</checksum>
-					<url>emulator-windows-6755297.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
