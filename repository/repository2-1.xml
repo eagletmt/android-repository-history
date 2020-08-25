@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-08-21 15:55:58.233289 with ADRT.-->
+	<!--Generated on 2020-08-24 16:02:38.761301 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5931,7 +5931,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16, kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689-->
+		<!--Generated from:kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a, kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
