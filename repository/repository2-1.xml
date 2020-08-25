@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-08-17 19:45:54.164452 with ADRT.-->
+	<!--Generated on 2020-08-21 15:55:58.233289 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5930,6 +5930,47 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="cmake;3.18.1">
+		<!--Generated from:kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16, kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>3</major>
+			<minor>18</minor>
+			<micro>1</micro>
+		</revision>
+		<display-name>CMake 3.18.1</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Aug  5 15:38:34 2020.-->
+				<complete>
+					<size>18512268</size>
+					<checksum>8bd60e9bcef0a0c4e5bd2d976f1a2ba9430d34ca</checksum>
+					<url>641221ec500b79c04fc41891effcf28f79d6d467.cmake-3.18.1-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Aug  5 15:38:33 2020.-->
+				<complete>
+					<size>21003589</size>
+					<checksum>d892f2829f70e387351830b46c5e72140130f6a2</checksum>
+					<url>cmake-3.18.1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Aug  5 15:38:36 2020.-->
+				<complete>
+					<size>14673852</size>
+					<checksum>9ac75a0391cb270acf568fb534778abd00c12f13</checksum>
+					<url>f292b2b8eea187947c12dcd0c278bcc28cda251f.cmake-3.18.1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="cmake;3.6.4111459">
 		<!--Generated from:ab bid:4111459 branch:aosp-cmake-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -6136,6 +6177,53 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>32</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="emulator">
+		<!--Generated from:ab bid:6769834 branch:aosp-emu-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>30</major>
+			<minor>1</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android Emulator</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Aug 17 15:21:19 2020.-->
+				<complete>
+					<size>283497565</size>
+					<checksum>0bf4a1e891e5f4aa5e1d8e016de51382a7a56484</checksum>
+					<url>emulator-darwin-6769834.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Aug 17 15:21:06 2020.-->
+				<complete>
+					<size>255313301</size>
+					<checksum>e274ab8ded13fb54cd4ad53b665be0f46b8f6955</checksum>
+					<url>emulator-linux-6769834.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Aug 17 15:21:34 2020.-->
+				<complete>
+					<size>252026896</size>
+					<checksum>15a285dbf61f5da886fed4e44918dde904e96128</checksum>
+					<url>emulator-windows-6769834.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
