@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-08-28 11:54:48.366299 with ADRT.-->
+	<!--Generated on 2020-09-05 11:35:58.782953 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1087,6 +1087,29 @@ June 2014.</license>
 					<url>android-1.1_r1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="sources;android-30">
+		<!--Generated from bid:6720564, branch:git_rvc-release-->
+		<type-details xsi:type="sdk:sourceDetailsType">
+			<api-level>30</api-level>
+			<codename></codename>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Sources for Android 30</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Sep  3 15:50:28 2020.-->
+				<complete>
+					<size>43263073</size>
+					<checksum>e4c000fb3afb32380609ddcad91f5d6495eeccb1</checksum>
+					<url>sources-30_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -5931,7 +5954,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16, kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a-->
+		<!--Generated from:kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16, kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689, kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6181,12 +6204,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6783220 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6800617 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>1</minor>
-			<micro>1</micro>
+			<micro>2</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6196,31 +6219,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 24 15:26:00 2020.-->
+				<!--Built on: Mon Aug 31 09:45:23 2020.-->
 				<complete>
-					<size>282373814</size>
-					<checksum>1c9c9454f233658cf3bcd447fc2f2adb457a0f87</checksum>
-					<url>emulator-darwin-6783220.zip</url>
+					<size>282467392</size>
+					<checksum>d645ad96e5c31c952087606b3cba4caa52d04086</checksum>
+					<url>emulator-darwin-6800617.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Aug 24 15:25:49 2020.-->
+				<!--Built on: Mon Aug 31 09:45:12 2020.-->
 				<complete>
-					<size>254162774</size>
-					<checksum>5049b001f509cd3fc2dec973bd535a285ef78684</checksum>
-					<url>emulator-linux-6783220.zip</url>
+					<size>254240988</size>
+					<checksum>62ec80e3bf1132a0e675b74caca9a7d1b9c29c3f</checksum>
+					<url>emulator-linux-6800617.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Aug 24 15:26:10 2020.-->
+				<!--Built on: Mon Aug 31 09:45:32 2020.-->
 				<complete>
-					<size>251649241</size>
-					<checksum>3bf5c9de96dd6220354d16ef0e99d73aec991b19</checksum>
-					<url>emulator-windows-6783220.zip</url>
+					<size>251730742</size>
+					<checksum>fc59e1d93d2b640e9bcbda9afb2390ba3911f966</checksum>
+					<url>emulator-windows-6800617.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
