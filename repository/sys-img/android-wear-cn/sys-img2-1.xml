@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-09-25 10:31:33.504550 with ADRT.-->
+	<!--Generated on 2020-10-13 09:09:24.411858 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -718,7 +718,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jun  9 14:45:55 2018.-->
+				<!--Built on: Sat Jun  9 06:45:55 2018.-->
 				<complete>
 					<size>321079964</size>
 					<checksum>02d7bc86df054d1e89fe5856b3af1d2c142cab41</checksum>
@@ -758,7 +758,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun  3 13:10:30 2018.-->
+				<!--Built on: Sun Jun  3 05:10:30 2018.-->
 				<complete>
 					<size>338352786</size>
 					<checksum>73eab14c7cf2f6941e1fee61e0038ead7a2c7f4d</checksum>
@@ -798,7 +798,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun 10 17:41:22 2018.-->
+				<!--Built on: Sun Jun 10 09:41:22 2018.-->
 				<complete>
 					<size>340481762</size>
 					<checksum>fdc8a313f889a2d6522de1fbc00ee9e13547d096</checksum>
@@ -826,36 +826,6 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-28;android-wear-cn;x86">
-		<!--Generated from bid:5049978, branch:git_pi-wear-dr-shiner-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>China version of Wear OS</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>3</major>
-		</revision>
-		<display-name>China version of Wear OS Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Oct  5 19:21:27 2018.-->
-				<complete>
-					<size>391261772</size>
-					<checksum>2099d87709c5e064273925dbf2cf1fd081bf0262</checksum>
-					<url>x86-28_r03.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;android-wear-cn;x86">
 		<!--Generated from bid:6811175, branch:git_pi-wear-hmr1-dr-sdk-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
@@ -873,25 +843,15 @@ January 16, 2019</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 11 09:56:45 2020.-->
+				<!--Built on: Fri Sep 11 01:56:45 2020.-->
 				<complete>
 					<size>531979464</size>
 					<checksum>cd9a54893ba58fc71041808ba8b8393f808be584</checksum>
 					<url>x86-28_r04.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>278558409</size>
-						<checksum>ed984da6c78defe50182ca2a20f535cbfa441e99</checksum>
-						<url>sys-img-5049978-sdk_gwear_sw_x86-sdk-6811175-sdk_gwear_sw_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>

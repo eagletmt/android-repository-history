@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-09-16 12:17:42.246657 with ADRT.-->
+	<!--Generated on 2020-10-13 09:09:44.673009 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -733,6 +733,46 @@ January 16, 2019</license>
 					<size>859616969</size>
 					<checksum>a1f224245056ddaa89651e379efbde7357b15046</checksum>
 					<url>x86-28_r05.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-29;android-automotive-playstore;x86">
+		<!--Generated from bid:6842591, branch:qt-car-release-playstore-x86-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>29</api-level>
+			<tag>
+				<id>android-automotive-playstore</id>
+				<display>Automotive with Play Store</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Automotive with Play Store Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>29</major>
+					<minor>0</minor>
+					<micro>2</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Sep 25 15:46:32 2020.-->
+				<complete>
+					<size>923839106</size>
+					<checksum>8fb2624c63c34a01c27dd8085277b2a5fb8d7fbc</checksum>
+					<url>x86-29_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
