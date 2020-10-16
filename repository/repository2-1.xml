@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-10-13 09:08:34.046716 with ADRT.-->
+	<!--Generated on 2020-10-15 21:34:18.000486 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5994,7 +5994,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689, kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16-->
+		<!--Generated from:kokoro bid:82f83f3a-9b62-4573-8934-c02475fc6689, kokoro bid:d33d2d52-b057-4060-9899-7c7a576b0c16, kokoro bid:fd7fbad8-87e8-4d98-888c-15fee8d3078a-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6325,12 +6325,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:6885378 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:6899157 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>2</minor>
-			<micro>2</micro>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6340,31 +6340,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  5 21:15:34 2020.-->
+				<!--Built on: Mon Oct 12 10:36:12 2020.-->
 				<complete>
-					<size>283080560</size>
-					<checksum>b76dc2451ebd25616ef30151635f2028c8a2f61c</checksum>
-					<url>emulator-darwin-6885378.zip</url>
+					<size>292405738</size>
+					<checksum>a50c57aa961f7568df895772e41e4f0d27507185</checksum>
+					<url>emulator-darwin-6899157.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Oct  5 21:15:23 2020.-->
+				<!--Built on: Mon Oct 12 10:36:01 2020.-->
 				<complete>
-					<size>254721680</size>
-					<checksum>ff3af65091c8b72f492c7d3902c202b77157493f</checksum>
-					<url>emulator-linux-6885378.zip</url>
+					<size>262139399</size>
+					<checksum>6cfb156e9943fd9d7e5ef34efc792c8e403d629a</checksum>
+					<url>emulator-linux-6899157.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Oct  5 21:15:44 2020.-->
+				<!--Built on: Mon Oct 12 10:36:22 2020.-->
 				<complete>
-					<size>252053200</size>
-					<checksum>94cec208bfc8d229bfd81f73bd63b4f51f7d6941</checksum>
-					<url>emulator-windows-6885378.zip</url>
+					<size>258521336</size>
+					<checksum>01d5b3c5b9954e7d8efbcf332c8e2e66e7c1384d</checksum>
+					<url>emulator-windows-6899157.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
