@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-10-13 09:09:34.973764 with ADRT.-->
+	<!--Generated on 2020-10-20 14:18:42.535981 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2327,7 +2327,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86">
-		<!--Generated from bid:6823625, branch:git_rvc-emu-release-->
+		<!--Generated from bid:6903271, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2341,10 +2341,10 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>8</major>
+			<major>9</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
@@ -2358,17 +2358,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 10 12:58:02 2020.-->
+				<!--Built on: Thu Oct 15 12:36:51 2020.-->
 				<complete>
-					<size>1218287943</size>
-					<checksum>34ec18c973d40df93c889532745075275757751d</checksum>
-					<url>x86-30_r08.zip</url>
+					<size>1238302606</size>
+					<checksum>3092c40c1be82392ad5d1a719a384361f12a7cd6</checksum>
+					<url>x86-30_r09.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86_64">
-		<!--Generated from bid:6823625, branch:git_rvc-emu-release-->
+		<!--Generated from bid:6903271, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2382,10 +2382,10 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>8</major>
+			<major>9</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
-		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
@@ -2399,11 +2399,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 10 12:59:20 2020.-->
+				<!--Built on: Thu Oct 15 12:38:03 2020.-->
 				<complete>
-					<size>1411407112</size>
-					<checksum>36544d422070255bf9b507bad98233728dee9f16</checksum>
-					<url>x86_64-30_r08.zip</url>
+					<size>1434970254</size>
+					<checksum>dd7298f52b226e5045f55352b704330a1b61c6a2</checksum>
+					<url>x86_64-30_r09.zip</url>
 				</complete>
 			</archive>
 		</archives>
