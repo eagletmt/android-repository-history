@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-10-20 14:18:24.394845 with ADRT.-->
+	<!--Generated on 2020-12-04 15:40:10.869547 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1226,7 +1226,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-15;default;x86">
-		<!--Generated from bid:3876239, branch:ics-mr1-emu-release-x86-->
+		<!--Generated from bid:4000000, branch:ics-mr1-emu-release-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>15</api-level>
 			<tag>
@@ -1236,7 +1236,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>7</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1246,27 +1246,27 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 11:37:54 2019.-->
+				<!--Built on: Thu Nov 12 18:13:24 2020.-->
 				<complete>
-					<size>115699956</size>
-					<checksum>c387e0efed2cdc610e5944eea67b7b692d03760c</checksum>
-					<url>x86-15_r05.zip</url>
+					<size>116030933</size>
+					<checksum>61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
+					<url>x86-15_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>4</major>
+							<major>5</major>
 						</based-on>
-						<size>7419360</size>
-						<checksum>10af8b30f81ba241d84bbc6a450851e05b981196</checksum>
-						<url>sys-img-3462039-sdk_x86-sdk-3876239-sdk_x86-sdk-patch.jar</url>
+						<size>7200</size>
+						<checksum>c1cb3fbbc8f1e2ebb2cbbf53c96a0a4dde1b603f</checksum>
+						<url>sys-img-3876239-sdk_x86-sdk-4000000-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-16;default;x86">
-		<!--Generated from bid:4875369, branch:git_jb-emu-release-->
+		<!--Generated from bid:5000000, branch:git_jb-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>16</api-level>
 			<tag>
@@ -1276,7 +1276,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1286,37 +1286,41 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 12:08:43 2019.-->
+				<!--Built on: Fri Nov 13 14:59:19 2020.-->
 				<complete>
-					<size>134926152</size>
-					<checksum>bf1bf8c5591346118d2235da1ad20e7be8a3e9cd</checksum>
-					<url>x86-16_r06.zip</url>
+					<size>135305313</size>
+					<checksum>ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
+					<url>x86-16_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
 							<major>5</major>
 						</based-on>
-						<size>12289283</size>
-						<checksum>03a0b6e82b1b24d18d3d5a40dc50165814ca5cf7</checksum>
-						<url>sys-img-3462064-sdk_x86-sdk-4875369-sdk_x86-sdk-patch.jar</url>
+						<size>13115619</size>
+						<checksum>9fee3b833d9468f2d286903015d534356970a0f7</checksum>
+						<url>sys-img-3462064-sdk_x86-sdk-5000000-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-17;default;x86">
-		<!--Generated from bid:4875371, branch:git_jb-mr1.1-emu-release-->
+		<!--Generated from bid:5000002, branch:git_jb-mr1.1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>17</api-level>
 			<tag>
 				<id>default</id>
-				<display></display>
+				<display>Google APIs</display>
 			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>7</major>
 		</revision>
 		<display-name>Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1326,20 +1330,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 17 16:30:45 2018.-->
+				<!--Built on: Fri Nov 13 15:55:30 2020.-->
 				<complete>
-					<size>143278662</size>
-					<checksum>03c6d022ab2dcbbcf655d78ba5ccb0431cadcaec</checksum>
-					<url>x86-17_r04.zip</url>
+					<size>194811128</size>
+					<checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
+					<url>x86-17_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>3</major>
+							<major>4</major>
 						</based-on>
-						<size>12526628</size>
-						<checksum>48438ef537d4bc3a2dd892925982eeda64b787ed</checksum>
-						<url>sys-img-3453820-sdk_x86-sdk-4875371-sdk_x86-sdk-patch.jar</url>
+						<size>54685883</size>
+						<checksum>fa3b7aa19ea3c6b6803befc1d5a40fab8cfb7665</checksum>
+						<url>sys-img-4875371-sdk_x86-sdk-5000002-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>

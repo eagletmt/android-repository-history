@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-10-20 14:18:42.535981 with ADRT.-->
+	<!--Generated on 2020-12-04 15:40:26.346640 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -786,7 +786,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-15;google_apis;x86">
-		<!--Generated from bid:3876239, branch:ics-mr1-emu-release-google-apis-x86-->
+		<!--Generated from bid:4000000, branch:ics-mr1-emu-release-google-apis-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>15</api-level>
 			<tag>
@@ -800,7 +800,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -810,20 +810,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 12:41:34 2019.-->
+				<!--Built on: Fri Nov 13 16:06:45 2020.-->
 				<complete>
-					<size>163317978</size>
-					<checksum>a7deb32c12396b6c4fd60ad14a62e19f8bdcae20</checksum>
-					<url>x86-15_r06.zip</url>
+					<size>163325511</size>
+					<checksum>5ef2c5481f5bb8789c0b5224d46fb2e13602a450</checksum>
+					<url>x86-15_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>5</major>
+							<major>6</major>
 						</based-on>
-						<size>5379933</size>
-						<checksum>42273023b505d5c616af0a12bc275464448954bf</checksum>
-						<url>sys-img-3644290-google_sdk_x86-sdk_addon-3876239-google_sdk_x86-sdk_addon-patch.jar</url>
+						<size>3722555</size>
+						<checksum>f31a43516d17d5584f5b07c32fe8910085765121</checksum>
+						<url>sys-img-3876239-google_sdk_x86-sdk_addon-4000000-google_sdk_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -918,7 +918,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-16;google_apis;x86">
-		<!--Generated from bid:4875369, branch:jb-emu-release-google-apis-x86-->
+		<!--Generated from bid:5000000, branch:jb-emu-release-google-apis-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>16</api-level>
 			<tag>
@@ -932,7 +932,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -942,20 +942,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 12:44:21 2019.-->
+				<!--Built on: Fri Nov 13 16:07:59 2020.-->
 				<complete>
-					<size>186388811</size>
-					<checksum>b57adef2f43dd176b8c02c980c16a796021b2071</checksum>
-					<url>x86-16_r06.zip</url>
+					<size>186372521</size>
+					<checksum>246903c75f5aa3db7fb58cac877f2201fbbfd94a</checksum>
+					<url>x86-16_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>5</major>
+							<major>6</major>
 						</based-on>
-						<size>1550272</size>
-						<checksum>2c8875974bfa9c367590014279907a6f626f2c84</checksum>
-						<url>sys-img-3876218-google_sdk_x86-sdk_addon-4875369-google_sdk_x86-sdk_addon-patch.jar</url>
+						<size>4116616</size>
+						<checksum>92ff4f79ae1ae7fda8e3a2fc8cbf2a888d667c39</checksum>
+						<url>sys-img-4875369-google_sdk_x86-sdk_addon-5000000-google_sdk_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
@@ -1006,7 +1006,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-17;google_apis;x86">
-		<!--Generated from bid:4875371, branch:git_jb-mr1.1-emu-release-->
+		<!--Generated from bid:5000002, branch:git_jb-mr1.1-emu-google-apis-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>17</api-level>
 			<tag>
@@ -1020,7 +1020,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1030,20 +1030,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 17 16:41:15 2018.-->
+				<!--Built on: Fri Nov 13 16:54:00 2020.-->
 				<complete>
-					<size>194816808</size>
-					<checksum>7864c34faf0402b8923d8c6e609a5339f74cc8d6</checksum>
-					<url>x86-17_r06.zip</url>
+					<size>194811128</size>
+					<checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
+					<url>x86-17_r07.zip</url>
 				</complete>
 				<patches>
 					<patch>
 						<based-on>
-							<major>5</major>
+							<major>6</major>
 						</based-on>
-						<size>12485418</size>
-						<checksum>1feba0035c89ded9ed8bf5cd6bea0b076734f7b1</checksum>
-						<url>sys-img-3093082-google_sdk_x86-sdk_addon-4875371-google_sdk_x86-sdk_addon-patch.jar</url>
+						<size>5581685</size>
+						<checksum>23a470f480762f99ccab0b22f742145442618845</checksum>
+						<url>sys-img-4875371-google_sdk_x86-sdk_addon-5000002-google_sdk_x86-sdk_addon-patch.jar</url>
 					</patch>
 				</patches>
 			</archive>
