@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-12-16 14:36:02.015054 with ADRT.-->
+	<!--Generated on 2020-12-17 09:12:14.395514 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2122,13 +2122,13 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-28;google_ndk;x86">
-		<!--Generated from bid:6736742, branch:pi-emu-release-->
+	<remotePackage path="system-images;android-28;google_apis;x86">
+		<!--Generated from bid:6736742, branch:pi-emu-release-google-apis-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>28</api-level>
 			<tag>
-				<id>google_ndk</id>
-				<display>Google X86_ARM</display>
+				<id>google_apis</id>
+				<display>Google APIs</display>
 			</tag>
 			<vendor>
 				<id>google</id>
@@ -2137,9 +2137,9 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>10</major>
+			<major>12</major>
 		</revision>
-		<display-name>Google X86_ARM Intel x86 Atom System Image</display-name>
+		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
@@ -2154,22 +2154,12 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 17 11:23:06 2020.-->
+				<!--Built on: Wed Dec 16 20:33:27 2020.-->
 				<complete>
-					<size>926772388</size>
-					<checksum>bd754cfc97d56f4a8a158012fc686a1a30f222ec</checksum>
-					<url>x86-28_r10.zip</url>
+					<size>994434707</size>
+					<checksum>e0541ac9b783ab91a00054e133bda340a2b9c757</checksum>
+					<url>x86-28_r12.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>10</major>
-						</based-on>
-						<size>105378425</size>
-						<checksum>7add1fb7ea20b2d98ddacf90c8c904d3a621a003</checksum>
-						<url>sys-img-6446634-sdk_gphone_x86_arm-userdebug-6736742-sdk_gphone_x86_arm-userdebug-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
