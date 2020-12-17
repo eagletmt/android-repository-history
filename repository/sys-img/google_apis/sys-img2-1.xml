@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-12-04 15:40:26.346640 with ADRT.-->
+	<!--Generated on 2020-12-16 14:36:02.015054 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2404,6 +2404,47 @@ January 16, 2019</license>
 					<size>1434970254</size>
 					<checksum>dd7298f52b226e5045f55352b704330a1b61c6a2</checksum>
 					<url>x86_64-30_r09.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-30;google_apis;arm64-v8a">
+		<!--Generated from bid:7036879, branch:git_rvc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>30</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>10</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>0</minor>
+					<micro>4</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Dec 16 12:20:47 2020.-->
+				<complete>
+					<size>1220707553</size>
+					<checksum>3a726e07b49caa88d60d92a91365cd51ca32af87</checksum>
+					<url>arm64-v8a-30_r10.zip</url>
 				</complete>
 			</archive>
 		</archives>
