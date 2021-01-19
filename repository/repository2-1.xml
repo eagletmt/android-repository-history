@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-01-05 16:57:06.266165 with ADRT.-->
+	<!--Generated on 2021-01-16 21:18:27.328797 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6271,46 +6271,46 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="skiaparser;1">
-		<!--Generated from:ab bid:6923996 branch:git_studio-master-dev-->
+		<!--Generated from:ab bid:7083912 branch:git_studio-4.2-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Layout Inspector image server for API 29-30</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 22 20:16:46 2020.-->
+				<!--Built on: Fri Jan 15 10:26:41 2021.-->
 				<complete>
-					<size>6234850</size>
-					<checksum>b4ac0f553c2b582fd4e1896f46e2021b9da9d19b</checksum>
-					<url>skiaparser-6923996-linux.zip</url>
+					<size>6323164</size>
+					<checksum>78af2cd3e4168af80c16d7686536baa318e10cc4</checksum>
+					<url>skiaparser-7083912-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Oct 22 20:16:49 2020.-->
+				<!--Built on: Fri Jan 15 10:26:42 2021.-->
 				<complete>
-					<size>6297430</size>
-					<checksum>6d4bafe363b8536c9c3da51fac6f4b16c5685359</checksum>
-					<url>skiaparser-6923996-mac.zip</url>
+					<size>6561072</size>
+					<checksum>73aa4e3b52177cf7d4cf956a74311e0097987bb4</checksum>
+					<url>skiaparser-7083912-mac.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Oct 22 20:16:51 2020.-->
+				<!--Built on: Fri Jan 15 10:26:44 2021.-->
 				<complete>
-					<size>6008442</size>
-					<checksum>2aafef23d600d05467e645cd1420e8c7e5a5dad3</checksum>
-					<url>skiaparser-6923996-win.zip</url>
+					<size>6059180</size>
+					<checksum>28dde025a70a0f4819cf195c1cb6e0e2b4bf4514</checksum>
+					<url>skiaparser-7083912-win.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6641,12 +6641,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7044843 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:7075546 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>4</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6656,31 +6656,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Dec 21 13:35:43 2020.-->
+				<!--Built on: Mon Jan 11 17:15:04 2021.-->
 				<complete>
-					<size>298282311</size>
-					<checksum>f66a50d172d6feb7600c91d1474384a229a2852c</checksum>
-					<url>emulator-darwin-7044843.zip</url>
+					<size>298362778</size>
+					<checksum>c2ccac200c850664b8685eb97cf63a33add215a4</checksum>
+					<url>emulator-darwin-7075546.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Dec 21 13:35:32 2020.-->
+				<!--Built on: Mon Jan 11 17:14:54 2021.-->
 				<complete>
-					<size>266753087</size>
-					<checksum>1ca0b8a75f7b866c5f6112836e15bf0f30a1f834</checksum>
-					<url>emulator-linux-7044843.zip</url>
+					<size>266809791</size>
+					<checksum>e54f692d4cb410bf49e1bcf079fd115a552d3e47</checksum>
+					<url>emulator-linux-7075546.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Dec 21 13:35:54 2020.-->
+				<!--Built on: Mon Jan 11 17:15:15 2021.-->
 				<complete>
-					<size>321551474</size>
-					<checksum>a84ba7909c0c5354724b441b080e52dd338e8cfd</checksum>
-					<url>emulator-windows-7044843.zip</url>
+					<size>321635710</size>
+					<checksum>56c880e56c854097947491f445f5aebb2880e5c4</checksum>
+					<url>emulator-windows-7075546.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
