@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-01-25 10:56:19.536384 with ADRT.-->
+	<!--Generated on 2021-01-27 12:27:14.335076 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1576,6 +1576,53 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="ndk;21.4.7075529">
+		<!--Generated from bid:7075529, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>4</minor>
+			<micro>7075529</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.4.7075529</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:03 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum>3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:47 2021.-->
+				<complete>
+					<size>1190670072</size>
+					<checksum>c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9</checksum>
+					<url>android-ndk-r21e-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:52:22 2021.-->
+				<complete>
+					<size>1109665123</size>
+					<checksum>fc44fea8bb3f5a6789821f40f41dce2d2cd5dc30</checksum>
+					<url>android-ndk-r21e-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="ndk;21.3.6528147">
 		<!--Generated from bid:6528147, branch:aosp-ndk-release-r21-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -2560,6 +2607,53 @@ June 2014.</license>
 					<size>1080588810</size>
 					<checksum>ef38999c0e3c96124acffab6971ad2054a433b91</checksum>
 					<url>android-ndk-r22-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7075529, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>4</minor>
+			<micro>7075529</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:03 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum>3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:47 2021.-->
+				<complete>
+					<size>1190670072</size>
+					<checksum>c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9</checksum>
+					<url>android-ndk-r21e-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:52:22 2021.-->
+				<complete>
+					<size>1109665123</size>
+					<checksum>fc44fea8bb3f5a6789821f40f41dce2d2cd5dc30</checksum>
+					<url>android-ndk-r21e-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -6310,7 +6404,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
