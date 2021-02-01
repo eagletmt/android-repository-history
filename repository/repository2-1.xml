@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-01-27 12:27:14.335076 with ADRT.-->
+	<!--Generated on 2021-01-29 21:35:53.297393 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6404,7 +6404,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6412,8 +6412,8 @@ June 2014.</license>
 			<micro>1</micro>
 		</revision>
 		<display-name>CMake 3.18.1</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-3"/>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
 				<!--Built on: Tue Oct 27 14:25:10 2020.-->
@@ -6735,12 +6735,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7088696 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:7104519 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>4</minor>
-			<micro>2</micro>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -6750,31 +6750,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jan 19 09:05:50 2021.-->
+				<!--Built on: Tue Jan 26 18:49:52 2021.-->
 				<complete>
-					<size>294652095</size>
-					<checksum>a03b5a13271963b19f6591d7d7ee4701efab7333</checksum>
-					<url>emulator-darwin-7088696.zip</url>
+					<size>294963269</size>
+					<checksum>f0659eb6b327ecb4503945fea45de68c5e369218</checksum>
+					<url>emulator-darwin-7104519.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jan 19 09:05:37 2021.-->
+				<!--Built on: Tue Jan 26 18:49:41 2021.-->
 				<complete>
-					<size>266979370</size>
-					<checksum>aeb3d9f756544667dee64507ef89e34e721cc20f</checksum>
-					<url>emulator-linux-7088696.zip</url>
+					<size>267134391</size>
+					<checksum>8fbb9c2926144a27789b486ad971d23db4056a9f</checksum>
+					<url>emulator-linux-7104519.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jan 19 09:06:02 2021.-->
+				<!--Built on: Tue Jan 26 18:50:03 2021.-->
 				<complete>
-					<size>321704584</size>
-					<checksum>4e11dd85abd1844969e835ef32e5ad799f45d11e</checksum>
-					<url>emulator-windows-7088696.zip</url>
+					<size>321882578</size>
+					<checksum>9e9ad1ee9c4b6b71231e893f502f1f0e63004858</checksum>
+					<url>emulator-windows-7104519.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
