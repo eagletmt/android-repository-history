@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-09-11 13:47:34.489086 with ADRT.-->
+	<!--Generated on 2021-02-17 19:39:33.847932 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2100,51 +2100,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					<checksum>4fb5344e34e8faab4db18af07dace44c50db26a7</checksum>
 					<url>simulator_r01.zip</url>
 				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="extras;google;auto">
-		<!--Generated from p4 cl:107062527-->
-		<type-details xsi:type="addon:extraDetailsType">
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-		</type-details>
-		<revision>
-			<major>1</major>
-			<minor>1</minor>
-		</revision>
-		<display-name>Android Auto Desktop Head Unit emulator</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu May  7 10:06:53 2020.-->
-				<complete>
-					<size>1346009</size>
-					<checksum>202a6e1b3009a0eb815f8c672d2d5b3717de6169</checksum>
-					<url>desktop-head-unit-linux_r01.1.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu May  7 10:07:00 2020.-->
-				<complete>
-					<size>2375533</size>
-					<checksum>8179cbb3914493ebc5eb65b731cba061582f2e84</checksum>
-					<url>desktop-head-unit-macosx_r01.1.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu May  7 10:07:06 2020.-->
-				<complete>
-					<size>2691901</size>
-					<checksum>99c4a7172d73673552119347bc24c58b47da177b</checksum>
-					<url>desktop-head-unit-windows_r01.1.zip</url>
-				</complete>
-				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
