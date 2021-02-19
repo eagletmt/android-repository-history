@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-02-17 19:38:38.963040 with ADRT.-->
+	<!--Generated on 2021-02-18 17:21:29.222053 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6606,6 +6606,50 @@ June 2014.</license>
 					<url>cmake-3.18.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="cmake;3.6.4111459">
+		<!--Generated from:ab bid:4111459 branch:aosp-cmake-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>3</major>
+			<minor>6</minor>
+			<micro>4111459</micro>
+		</revision>
+		<display-name>CMake 3.6.4111459</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Feb 18 15:38:54 2021.-->
+				<complete>
+					<size>12295830</size>
+					<checksum>c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
+					<url>cmake-3.6.4111459-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb 18 15:39:00 2021.-->
+				<complete>
+					<size>13980243</size>
+					<checksum>71c539b9c33f0943e9ad6251fea0b161c0b70782</checksum>
+					<url>cmake-3.6.4111459-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb 18 15:39:08 2021.-->
+				<complete>
+					<size>10428915</size>
+					<checksum>4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
+					<url>cmake-3.6.4111459-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
