@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-03-04 19:06:09.469205 with ADRT.-->
+	<!--Generated on 2021-03-16 14:37:05.076519 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6568,6 +6568,45 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="skiaparser;2">
+		<!--Generated from:ab bid:7181128 branch:git_studio-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Layout Inspector image server for API S</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  2 21:25:02 2021.-->
+				<complete>
+					<size>6748416</size>
+					<checksum>ead1efe7d873ddab869e1c6159ab742308bc11e2</checksum>
+					<url>skiaparser-7181128-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 21:25:04 2021.-->
+				<complete>
+					<size>7386344</size>
+					<checksum>38afadaf00ebdb3fc574cc645a2f71624bc8f620</checksum>
+					<url>skiaparser-7181128-mac.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 21:25:05 2021.-->
+				<complete>
+					<size>6522536</size>
+					<checksum>22b590d85b66ed03ed651cb58cd35cc90e797945</checksum>
+					<url>skiaparser-7181128-win.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
 		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -6867,12 +6906,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7140946 branch:aosp-emu-30-release-->
+		<!--Generated from:ab bid:7196367 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
-			<minor>4</minor>
-			<micro>5</micro>
+			<minor>5</minor>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -6882,31 +6921,31 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 12 12:47:10 2021.-->
+				<!--Built on: Tue Mar  9 16:29:14 2021.-->
 				<complete>
-					<size>295073103</size>
-					<checksum>9a9f3c367af5363fb1a5f0558974012c286c6925</checksum>
-					<url>emulator-darwin_x64-7140946.zip</url>
+					<size>300450053</size>
+					<checksum>f3ca933402d9860c27ac630f77e4083d07b74346</checksum>
+					<url>emulator-darwin_x64-7196367.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Feb 12 12:46:58 2021.-->
+				<!--Built on: Tue Mar  9 16:29:02 2021.-->
 				<complete>
-					<size>267213845</size>
-					<checksum>30f15e8129a122f7d7e902068413e6c4ee2d7b14</checksum>
-					<url>emulator-linux_x64-7140946.zip</url>
+					<size>268353650</size>
+					<checksum>2fba78886b22834cb8d76f0704653f7a3784b9b1</checksum>
+					<url>emulator-linux_x64-7196367.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Feb 12 12:47:20 2021.-->
+				<!--Built on: Tue Mar  9 16:29:28 2021.-->
 				<complete>
-					<size>323030753</size>
-					<checksum>bfce04382b4b3572c3ef0ffd3e393c109a2e60a6</checksum>
-					<url>emulator-windows_x64-7140946.zip</url>
+					<size>324343421</size>
+					<checksum>63c7039df108246045d2acb25bee18256d9377bd</checksum>
+					<url>emulator-windows_x64-7196367.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
