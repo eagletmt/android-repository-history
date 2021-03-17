@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-02-17 10:57:53.423642 with ADRT.-->
+	<!--Generated on 2021-03-16 14:59:46.801111 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2399,7 +2399,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-S;google_apis;x86_64">
-		<!--Generated from bid:7145137, branch:git_sc-preview1-release-->
+		<!--Generated from bid:7198443, branch:git_sc-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<codename>S</codename>
@@ -2414,7 +2414,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2423,19 +2423,19 @@ January 16, 2019</license>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
-					<minor>0</minor>
-					<micro>4</micro>
+					<minor>5</minor>
+					<micro>3</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Feb 14 23:07:03 2021.-->
+				<!--Built on: Wed Mar 10 21:22:18 2021.-->
 				<complete>
-					<size>1370741220</size>
-					<checksum>a7c2dbfb6a1067e471461166dad99ba28f5be273</checksum>
-					<url>x86_64-S_r01.zip</url>
+					<size>1397680692</size>
+					<checksum>cd3e9b4ac57087215f4a57adfe637ad8e93aed52</checksum>
+					<url>x86_64-S_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2482,7 +2482,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-S;google_apis;arm64-v8a">
-		<!--Generated from bid:7145137, branch:git_sc-preview1-release-->
+		<!--Generated from bid:7198443, branch:git_sc-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<codename>S</codename>
@@ -2497,7 +2497,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2506,19 +2506,19 @@ January 16, 2019</license>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
-					<minor>0</minor>
-					<micro>4</micro>
+					<minor>5</minor>
+					<micro>3</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Feb 14 23:08:26 2021.-->
+				<!--Built on: Wed Mar 10 21:23:41 2021.-->
 				<complete>
-					<size>1326744395</size>
-					<checksum>763f3f9956f4e9acc40779ee991402fcf7355c37</checksum>
-					<url>arm64-v8a-S_r01.zip</url>
+					<size>1349774500</size>
+					<checksum>c30d44eb67430d48ed2f2e84ee8fa4d80a180348</checksum>
+					<url>arm64-v8a-S_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
