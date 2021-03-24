@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-03-18 21:11:39.482961 with ADRT.-->
+	<!--Generated on 2021-03-24 12:04:48.694627 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1601,6 +1601,53 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="ndk;22.1.7171670">
+		<!--Generated from bid:7171670, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>1</minor>
+			<micro>7171670</micro>
+		</revision>
+		<display-name>NDK (Side by side) 22.1.7171670</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:12 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum>dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:46 2021.-->
+				<complete>
+					<size>1148198368</size>
+					<checksum>9ece64c7f19763dd67320d512794969930fce9dc</checksum>
+					<url>android-ndk-r22b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:21:42 2021.-->
+				<complete>
+					<size>1082301775</size>
+					<checksum>96ba1a049303cf6bf3ee84cfd64d6bcd43486a50</checksum>
+					<url>android-ndk-r22b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="ndk;22.0.7026061">
 		<!--Generated from bid:7026061, branch:aosp-ndk-release-r22-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -2728,6 +2775,53 @@ June 2014.</license>
 					<size>749304589</size>
 					<checksum>c056900896129d3dd4eb953a53a8961d9853aa20</checksum>
 					<url>android-ndk-r23-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7171670, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>1</minor>
+			<micro>7171670</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:12 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum>dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:46 2021.-->
+				<complete>
+					<size>1148198368</size>
+					<checksum>9ece64c7f19763dd67320d512794969930fce9dc</checksum>
+					<url>android-ndk-r22b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:21:42 2021.-->
+				<complete>
+					<size>1082301775</size>
+					<checksum>96ba1a049303cf6bf3ee84cfd64d6bcd43486a50</checksum>
+					<url>android-ndk-r22b-windows-x86_64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
