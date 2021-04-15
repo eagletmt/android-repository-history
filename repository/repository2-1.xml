@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-04-09 15:03:07.152398 with ADRT.-->
+	<!--Generated on 2021-04-14 20:18:13.714008 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7008,41 +7008,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:7187441 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:7242960 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>0</minor>
-			<micro>1</micro>
+			<micro>2</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar  5 14:29:19 2021.-->
+				<!--Built on: Tue Mar 30 09:38:35 2021.-->
 				<complete>
-					<size>13421165</size>
-					<checksum>fbea160699471205b65c6a7a4a7f3d5d55f3ccf0</checksum>
-					<url>d027ce0f9f214a4bd575a73786b44d8ccf7e7516.platform-tools_r31.0.1-darwin.zip</url>
+					<size>13829393</size>
+					<checksum>78937049851e1db90317612c6b831759f56fc86d</checksum>
+					<url>42b081e1e068bb936179551684cdcb30315e245c.platform-tools_r31.0.2-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar  5 14:29:16 2021.-->
+				<!--Built on: Tue Mar 30 09:38:31 2021.-->
 				<complete>
-					<size>13476900</size>
-					<checksum>35ed511710c1cb613947d429da028e80bcb10dcf</checksum>
-					<url>platform-tools_r31.0.1-linux.zip</url>
+					<size>13876419</size>
+					<checksum>ff02a9d8c6fa9687e1207fc0c4b84033925d452d</checksum>
+					<url>platform-tools_r31.0.2-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar  5 14:29:18 2021.-->
+				<!--Built on: Tue Mar 30 09:38:33 2021.-->
 				<complete>
-					<size>12221814</size>
-					<checksum>535aceccd31eb6d7dc1d695a18ea140e865b9cea</checksum>
-					<url>platform-tools_r31.0.1-windows.zip</url>
+					<size>12537668</size>
+					<checksum>9cc0f642a66706a978214395b85c8e8228c24f2f</checksum>
+					<url>platform-tools_r31.0.2-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
