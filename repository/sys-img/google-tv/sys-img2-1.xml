@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-05-05 15:43:34.103510 with ADRT.-->
+	<!--Generated on 2021-05-06 09:47:06.539109 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -697,160 +697,39 @@ January 16, 2019</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="system-images;android-25;android-wear-cn;armeabi-v7a">
-		<!--Generated from bid:4460961, branch:partner-feldspar-le-release-->
+	<remotePackage path="system-images;android-30;google-tv;x86">
+		<!--Generated from bid:7267500, branch:git_rvc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
+			<api-level>30</api-level>
 			<tag>
-				<id>android-wear</id>
-				<display>China version of Android Wear</display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>China version of Android Wear ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Jun  9 06:45:55 2018.-->
-				<complete>
-					<size>321079964</size>
-					<checksum>02d7bc86df054d1e89fe5856b3af1d2c142cab41</checksum>
-					<url>armeabi-v7a-25_r04.zip</url>
-				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>1377903</size>
-						<checksum>0432f9e036b89c9a4969328d463433bb408fdad0</checksum>
-						<url>sys-img-4192450-sdk_google_aw_sw_armv7-sdk-4460961-sdk_google_aw_sw_armv7-sdk-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-25;android-wear-cn;x86">
-		<!--Generated from bid:4460961, branch:partner-feldspar-le-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>China version of Android Wear</display>
+				<id>google-tv</id>
+				<display>Google TV</display>
 			</tag>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>3</major>
 		</revision>
-		<display-name>China version of Android Wear Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<display-name>Google TV Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>6</micro>
+				</min-revision>
+			</dependency>
 		</dependencies>
-		<channelRef ref="channel-0"/>
+		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun  3 05:10:30 2018.-->
+				<!--Built on: Thu Apr  8 05:08:07 2021.-->
 				<complete>
-					<size>338352786</size>
-					<checksum>73eab14c7cf2f6941e1fee61e0038ead7a2c7f4d</checksum>
-					<url>x86-25_r04.zip</url>
-				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>1936829</size>
-						<checksum>1cefafc999f3a1860875208bf9468ed433504800</checksum>
-						<url>sys-img-4192450-sdk_google_aw_sw_x86-sdk-4460961-sdk_google_aw_sw_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-26;android-wear-cn;x86">
-		<!--Generated from bid:4560627, branch:git_oc-wear-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>26</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>China version of Android Wear</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>China version of Android Wear Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sun Jun 10 09:41:22 2018.-->
-				<complete>
-					<size>340481762</size>
-					<checksum>fdc8a313f889a2d6522de1fbc00ee9e13547d096</checksum>
-					<url>x86-26_r04.zip</url>
-				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>2</major>
-						</based-on>
-						<size>86943328</size>
-						<checksum>49a9c26276f4d257547648dfe041dd5f90388ade</checksum>
-						<url>sys-img-4322534-sdk_gwear_sw_x86-sdk-4560627-sdk_gwear_sw_x86-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>86993537</size>
-						<checksum>fe665ef62d8da48c33abc4d894ab387e4984c077</checksum>
-						<url>sys-img-4460987-sdk_gwear_sw_x86-sdk-4560627-sdk_gwear_sw_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;android-wear-cn;x86">
-		<!--Generated from bid:7077051, branch:git_pi-wear-hmr2-dr-sdk-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>China version of Wear OS</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>China version of Wear OS Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Jan 12 06:52:37 2021.-->
-				<complete>
-					<size>534535046</size>
-					<checksum>16fb1d13fba2ded0bc27a561ee57256824db39ee</checksum>
-					<url>x86-28_r05.zip</url>
+					<size>664931188</size>
+					<checksum>789d93aab51ce3ee1f9fbdf32640bab9d0ffdb87</checksum>
+					<url>x86-30_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

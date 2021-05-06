@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-04-28 15:26:43.820927 with ADRT.-->
+	<!--Generated on 2021-05-06 09:46:01.024034 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6852,7 +6852,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6905,7 +6905,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 18 15:38:54 2021.-->
+				<!--Built on: Mon Apr 26 13:54:13 2021.-->
 				<complete>
 					<size>12295830</size>
 					<checksum>c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
@@ -6915,7 +6915,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 18 15:39:00 2021.-->
+				<!--Built on: Mon Apr 26 13:54:18 2021.-->
 				<complete>
 					<size>13980243</size>
 					<checksum>71c539b9c33f0943e9ad6251fea0b161c0b70782</checksum>
@@ -6925,7 +6925,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 18 15:39:08 2021.-->
+				<!--Built on: Mon Apr 26 13:54:22 2021.-->
 				<complete>
 					<size>10428915</size>
 					<checksum>4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
@@ -6949,7 +6949,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb  8 18:54:59 2021.-->
+				<!--Built on: Mon Apr 26 14:07:36 2021.-->
 				<complete>
 					<size>13447295</size>
 					<checksum>f227a85cb53dcb927ac52a5a717f647c4a29bf3b</checksum>
@@ -6959,7 +6959,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb  8 18:54:57 2021.-->
+				<!--Built on: Mon Apr 26 14:07:39 2021.-->
 				<complete>
 					<size>14275684</size>
 					<checksum>439e8799bf59f724f104bf62784b2985f1bfe561</checksum>
@@ -6969,7 +6969,7 @@ June 2014.</license>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb  8 18:55:00 2021.-->
+				<!--Built on: Mon Apr 26 14:07:42 2021.-->
 				<complete>
 					<size>11899659</size>
 					<checksum>0a75b9c5bf558dc31caad7241a44515064656486</checksum>

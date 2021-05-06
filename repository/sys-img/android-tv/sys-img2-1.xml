@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-04-20 15:21:53.631056 with ADRT.-->
+	<!--Generated on 2021-05-06 09:47:05.601214 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1085,6 +1085,43 @@ January 16, 2019</license>
 					<size>590809630</size>
 					<checksum>736c2f6c79493b5ee4ca0d2531a25c9eb7f9c7ab</checksum>
 					<url>x86-29_r03.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-30;android-tv;x86">
+		<!--Generated from bid:7267500, branch:git_rvc-tv-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>30</api-level>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>3</major>
+		</revision>
+		<display-name>Android TV Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>6</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Apr  8 04:18:08 2021.-->
+				<complete>
+					<size>608102224</size>
+					<checksum>65ef55423c0d5b1ee695be8e225da2fe7d39a87d</checksum>
+					<url>x86-30_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
