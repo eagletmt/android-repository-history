@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-05-10 10:49:53.483520 with ADRT.-->
+	<!--Generated on 2021-05-18 09:05:05.274322 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,25 +300,25 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-S">
-		<!--Generated from bid:7282474, branch:git_sc-preview3-release-->
+		<!--Generated from bid:7333779, branch:git_sc-beta1-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>30</api-level>
 			<codename>S</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android SDK Platform S</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 14 17:56:56 2021.-->
+				<!--Built on: Tue May  4 17:27:08 2021.-->
 				<complete>
-					<size>56206479</size>
-					<checksum>3aee3ad760dc7becf657d6421629fe360215f92e</checksum>
-					<url>platform-S_r03.zip</url>
+					<size>56258008</size>
+					<checksum>45fc02639af736a2ab586e3fdacbbe5e499f0f1b</checksum>
+					<url>platform-S_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1502,6 +1502,54 @@ June 2014.</license>
 					<checksum>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</checksum>
 					<url>sources-14_r01.zip</url>
 				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;23.0.7344513">
+		<!--Generated from bid:7344513, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7344513</micro>
+			<preview>4</preview>
+		</revision>
+		<display-name>NDK (Side by side) 23.0.7344513</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri May  7 15:09:15 2021.-->
+				<complete>
+					<size>694920487</size>
+					<checksum>a8fedcf0dd3b3a340e68684a5a2308154a952039</checksum>
+					<url>android-ndk-r23-beta4-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri May  7 15:09:40 2021.-->
+				<complete>
+					<size>724510864</size>
+					<checksum>5f44bc1789042358a73c15e0ef732ea729cf47cc</checksum>
+					<url>android-ndk-r23-beta4-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri May  7 15:08:19 2021.-->
+				<complete>
+					<size>785615074</size>
+					<checksum>4492af1296d07c0c65ce42f10ecac06c3c307b94</checksum>
+					<url>android-ndk-r23-beta4-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -2734,6 +2782,54 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7344513, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7344513</micro>
+			<preview>4</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri May  7 15:09:15 2021.-->
+				<complete>
+					<size>694920487</size>
+					<checksum>a8fedcf0dd3b3a340e68684a5a2308154a952039</checksum>
+					<url>android-ndk-r23-beta4-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri May  7 15:09:40 2021.-->
+				<complete>
+					<size>724510864</size>
+					<checksum>5f44bc1789042358a73c15e0ef732ea729cf47cc</checksum>
+					<url>android-ndk-r23-beta4-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Fri May  7 15:08:19 2021.-->
+				<complete>
+					<size>785615074</size>
+					<checksum>4492af1296d07c0c65ce42f10ecac06c3c307b94</checksum>
+					<url>android-ndk-r23-beta4-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
 		<!--Generated from bid:7272597, branch:ndk-r23-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -3961,16 +4057,16 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;31.0.0-rc3">
-		<!--Generated from bid:7282474, branch:git_sc-preview3-release-->
+	<remotePackage path="build-tools;31.0.0-rc4">
+		<!--Generated from bid:7333779, branch:git_sc-beta1-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>0</minor>
 			<micro>0</micro>
-			<preview>3</preview>
+			<preview>4</preview>
 		</revision>
-		<display-name>Android SDK Build-Tools 31-rc3</display-name>
+		<display-name>Android SDK Build-Tools 31-rc4</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="tools"/>
@@ -3978,29 +4074,29 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 14 17:56:37 2021.-->
+				<!--Built on: Tue May  4 17:26:56 2021.-->
 				<complete>
-					<size>53224980</size>
-					<checksum>e75dfb7a975809ba0ca0d25c2b82f7fd56444a4b</checksum>
-					<url>012061446cfd98341585d0d07401d0bd1a4c30f6.build-tools_r31-rc3-macosx.zip</url>
+					<size>53524017</size>
+					<checksum>48cdf02dd950b90ea0162518fc384a7547ce526d</checksum>
+					<url>6c0022965ad43e2d665e79ba9bfc7ffa2e690c59.build-tools_r31-rc4-macosx.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 14 17:56:34 2021.-->
+				<!--Built on: Tue May  4 17:26:53 2021.-->
 				<complete>
-					<size>57592553</size>
-					<checksum>9d9ce209353c9046abe16285d58ef893c4b42221</checksum>
-					<url>41966dc138d44a3e3797b92fb68bf70552011d5d.build-tools_r31-rc3-windows.zip</url>
+					<size>57623094</size>
+					<checksum>0db811c8027da480b79fbee65789f66f139d427c</checksum>
+					<url>9dfa3a4186430447f71c6cee7b3fb5ebcec72cef.build-tools_r31-rc4-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Apr 14 17:56:40 2021.-->
+				<!--Built on: Tue May  4 17:26:59 2021.-->
 				<complete>
-					<size>54724181</size>
-					<checksum>6859f11348d3984afbfcc74984802bd2e31cc0e2</checksum>
-					<url>build-tools_r31-rc3-linux.zip</url>
+					<size>54746061</size>
+					<checksum>42db9edee2eccdee8a204c49460f577523036063</checksum>
+					<url>build-tools_r31-rc4-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
