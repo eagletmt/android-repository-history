@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-06-22 22:40:17.806801 with ADRT.-->
+	<!--Generated on 2021-07-13 13:03:07.329179 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1404,11 +1404,10 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-S;google_apis_playstore;x86_64">
-		<!--Generated from bid:7465093, branch:sc-beta2-release-x86_64-playstore-->
+	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
+		<!--Generated from bid:7533405, branch:sc-beta3-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<codename>S</codename>
+			<api-level>31</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1420,7 +1419,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1437,21 +1436,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun 16 22:27:30 2021.-->
+				<!--Built on: Thu Jul  8 22:02:08 2021.-->
 				<complete>
-					<size>1418544762</size>
-					<checksum>92b61c0b33de4b48a023d9b45574db322480b365</checksum>
-					<url>x86_64-S_r05-windows.zip</url>
+					<size>1415099736</size>
+					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
+					<url>x86_64-31_r06-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-S;google_apis_playstore;x86_64">
-		<!--Generated from bid:7465093, branch:sc-beta2-release-x86_64-playstore-->
+	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
+		<!--Generated from bid:7533405, branch:sc-beta3-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<codename>S</codename>
+			<api-level>31</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1463,7 +1461,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1480,20 +1478,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun 16 22:29:57 2021.-->
+				<!--Built on: Thu Jul  8 22:03:51 2021.-->
 				<complete>
-					<size>1418544762</size>
-					<checksum>92b61c0b33de4b48a023d9b45574db322480b365</checksum>
-					<url>x86_64-S_r05-darwin.zip</url>
+					<size>1415099736</size>
+					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
+					<url>x86_64-31_r06-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jun 16 22:28:45 2021.-->
+				<!--Built on: Thu Jul  8 22:03:01 2021.-->
 				<complete>
-					<size>1418544762</size>
-					<checksum>92b61c0b33de4b48a023d9b45574db322480b365</checksum>
-					<url>x86_64-S_r05-linux.zip</url>
+					<size>1415099736</size>
+					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
+					<url>x86_64-31_r06-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
@@ -1550,11 +1548,10 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-S;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:7465093, branch:sc-beta2-release-arm64-playstore-->
+	<remotePackage path="system-images;android-31;google_apis_playstore;arm64-v8a">
+		<!--Generated from bid:7533405, branch:sc-beta3-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<codename>S</codename>
+			<api-level>31</api-level>
 			<tag>
 				<id>google_apis_playstore</id>
 				<display>Google Play</display>
@@ -1566,7 +1563,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1583,20 +1580,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun 16 22:38:00 2021.-->
+				<!--Built on: Thu Jul  8 22:07:57 2021.-->
 				<complete>
-					<size>1374704473</size>
-					<checksum>6d9b4d3c98c7c1506693bdf94928cc48791b04cb</checksum>
-					<url>arm64-v8a-S_r05-darwin.zip</url>
+					<size>1393942517</size>
+					<checksum>ee27cce0941c44fada6e36e67ca3638a614f3941</checksum>
+					<url>arm64-v8a-31_r06-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jun 16 22:36:13 2021.-->
+				<!--Built on: Thu Jul  8 22:07:08 2021.-->
 				<complete>
-					<size>1374704473</size>
-					<checksum>6d9b4d3c98c7c1506693bdf94928cc48791b04cb</checksum>
-					<url>arm64-v8a-S_r05-linux.zip</url>
+					<size>1393942517</size>
+					<checksum>ee27cce0941c44fada6e36e67ca3638a614f3941</checksum>
+					<url>arm64-v8a-31_r06-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
