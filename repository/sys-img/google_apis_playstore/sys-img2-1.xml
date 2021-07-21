@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-07-13 13:03:07.329179 with ADRT.-->
+	<!--Generated on 2021-07-19 21:51:37.181252 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -722,7 +722,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun  5 11:16:11 2018.-->
+				<!--Built on: Tue Jun  5 18:16:11 2018.-->
 				<complete>
 					<size>812724041</size>
 					<checksum>b52e9593ffdde65c1a0970256a32e8967c89cc22</checksum>
@@ -782,7 +782,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 11 09:03:55 2018.-->
+				<!--Built on: Mon Jun 11 16:03:55 2018.-->
 				<complete>
 					<size>972461719</size>
 					<checksum>6f6668954f7fd52f896fe7528aa122028c9b026c</checksum>
@@ -823,7 +823,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 17 15:22:52 2018.-->
+				<!--Built on: Thu May 17 22:22:52 2018.-->
 				<complete>
 					<size>769390078</size>
 					<checksum>2c8bee7b97a309f099941532e63c42a7d4a06e19</checksum>
@@ -890,7 +890,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 17 18:55:50 2018.-->
+				<!--Built on: Fri May 18 01:55:50 2018.-->
 				<complete>
 					<size>758636016</size>
 					<checksum>eb5a944ceb691ca0648d0a6f0d93893a47223b5d</checksum>
@@ -941,7 +941,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 09:59:21 2018.-->
+				<!--Built on: Mon Nov 12 17:59:21 2018.-->
 				<complete>
 					<size>906607514</size>
 					<checksum>5381f9d52a3bf1967c9c92a25b20012cd68764c8</checksum>
@@ -982,7 +982,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 19 14:00:47 2019.-->
+				<!--Built on: Thu Sep 19 21:00:47 2019.-->
 				<complete>
 					<size>918028186</size>
 					<checksum>97d9d4f4a2afa8b0f5d52e90748e19c10406ca93</checksum>
@@ -1023,7 +1023,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 10:08:51 2018.-->
+				<!--Built on: Mon Nov 12 18:08:51 2018.-->
 				<complete>
 					<size>1037659724</size>
 					<checksum>a767da996fdea7a1f5632a9206fa5c009d6e580c</checksum>
@@ -1064,7 +1064,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 15:58:37 2019.-->
+				<!--Built on: Thu Sep 26 22:58:37 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1106,7 +1106,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 15:59:23 2019.-->
+				<!--Built on: Thu Sep 26 22:59:23 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1115,7 +1115,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Sep 26 16:00:03 2019.-->
+				<!--Built on: Thu Sep 26 23:00:03 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum>1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1157,7 +1157,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 10:53:27 2019.-->
+				<!--Built on: Mon Sep 30 17:53:27 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1199,7 +1199,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 10:55:09 2019.-->
+				<!--Built on: Mon Sep 30 17:55:09 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1208,7 +1208,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Sep 30 10:54:18 2019.-->
+				<!--Built on: Mon Sep 30 17:54:18 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum>94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1250,7 +1250,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 15 12:40:28 2020.-->
+				<!--Built on: Thu Oct 15 19:40:28 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum>13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1292,7 +1292,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 15 12:41:08 2020.-->
+				<!--Built on: Thu Oct 15 19:41:08 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum>13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1301,7 +1301,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Oct 15 12:41:45 2020.-->
+				<!--Built on: Thu Oct 15 19:41:45 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum>13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1343,7 +1343,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Dec 26 10:55:57 2020.-->
+				<!--Built on: Sat Dec 26 18:55:57 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum>ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1385,7 +1385,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Dec 26 10:57:48 2020.-->
+				<!--Built on: Sat Dec 26 18:57:48 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum>ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1394,7 +1394,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Sat Dec 26 10:56:54 2020.-->
+				<!--Built on: Sat Dec 26 18:56:54 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum>ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1436,7 +1436,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul  8 22:02:08 2021.-->
+				<!--Built on: Fri Jul  9 05:02:08 2021.-->
 				<complete>
 					<size>1415099736</size>
 					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
@@ -1478,7 +1478,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul  8 22:03:51 2021.-->
+				<!--Built on: Fri Jul  9 05:03:51 2021.-->
 				<complete>
 					<size>1415099736</size>
 					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
@@ -1487,7 +1487,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul  8 22:03:01 2021.-->
+				<!--Built on: Fri Jul  9 05:03:01 2021.-->
 				<complete>
 					<size>1415099736</size>
 					<checksum>0c8add64b540cd998c80252e5acf4d1186a256a6</checksum>
@@ -1529,7 +1529,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec 16 12:26:09 2020.-->
+				<!--Built on: Wed Dec 16 20:26:09 2020.-->
 				<complete>
 					<size>1207055010</size>
 					<checksum>38dc28908c1784a15fbaf64dd8f8d58279d9ce75</checksum>
@@ -1538,7 +1538,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Dec 16 12:25:29 2020.-->
+				<!--Built on: Wed Dec 16 20:25:29 2020.-->
 				<complete>
 					<size>1207055010</size>
 					<checksum>38dc28908c1784a15fbaf64dd8f8d58279d9ce75</checksum>
@@ -1580,7 +1580,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul  8 22:07:57 2021.-->
+				<!--Built on: Fri Jul  9 05:07:57 2021.-->
 				<complete>
 					<size>1393942517</size>
 					<checksum>ee27cce0941c44fada6e36e67ca3638a614f3941</checksum>
@@ -1589,7 +1589,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul  8 22:07:08 2021.-->
+				<!--Built on: Fri Jul  9 05:07:08 2021.-->
 				<complete>
 					<size>1393942517</size>
 					<checksum>ee27cce0941c44fada6e36e67ca3638a614f3941</checksum>
