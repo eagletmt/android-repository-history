@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-07-22 16:22:24.609246 with ADRT.-->
+	<!--Generated on 2021-07-27 15:11:02.198785 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6947,7 +6947,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7116,41 +7116,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;auto">
-		<!--Generated from:p4 cl:333418427-->
+		<!--Generated from:p4 cl:386264962-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>2</major>
 			<minor>0</minor>
-			<preview>1</preview>
+			<preview>2</preview>
 		</revision>
 		<display-name>Android Auto Desktop Head Unit Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 23 18:45:13 2020.-->
+				<!--Built on: Thu Jul 22 11:31:11 2021.-->
 				<complete>
-					<size>4527281</size>
-					<checksum>b480489e604371301da10731a793b234b01b8f42</checksum>
-					<url>desktop-head-unit-linux_r02.0.rc1.zip</url>
+					<size>6947111</size>
+					<checksum>dbb771c2be299fd88ca05d8b0e381c369a7f7009</checksum>
+					<url>desktop-head-unit-linux_r02.0.rc2.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Sep 23 18:45:14 2020.-->
+				<!--Built on: Thu Jul 22 11:31:13 2021.-->
 				<complete>
-					<size>5592023</size>
-					<checksum>3adaf99d06eaeeb31f7bdbb62ae841e740bfc156</checksum>
-					<url>desktop-head-unit-macosx_r02.0.rc1.zip</url>
+					<size>8593497</size>
+					<checksum>ec1f68f9acc234f8493f4ba24954d1d45291b736</checksum>
+					<url>desktop-head-unit-macosx_r02.0.rc2.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Sep 23 18:45:15 2020.-->
+				<!--Built on: Thu Jul 22 11:31:14 2021.-->
 				<complete>
-					<size>5703857</size>
-					<checksum>e07788ed91d8e6dd3374f77da1cf78afb2664cc0</checksum>
-					<url>desktop-head-unit-windows_r02.0.rc1.zip</url>
+					<size>7130894</size>
+					<checksum>471ae94176512f859580e6ac9e8b8f5010632c78</checksum>
+					<url>desktop-head-unit-windows_r02.0.rc2.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7247,41 +7247,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:7242960 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:7562133 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>0</minor>
-			<micro>2</micro>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 30 09:38:35 2021.-->
+				<!--Built on: Mon Jul 19 14:26:38 2021.-->
 				<complete>
-					<size>13829393</size>
-					<checksum>78937049851e1db90317612c6b831759f56fc86d</checksum>
-					<url>42b081e1e068bb936179551684cdcb30315e245c.platform-tools_r31.0.2-darwin.zip</url>
+					<size>13227985</size>
+					<checksum>15f6f7e97b35994d538a0fc5147ad5fb502ba03d</checksum>
+					<url>e8b2b4cbe47c728c1e54c5f524440b52d4e1a33c.platform-tools_r31.0.3-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 30 09:38:31 2021.-->
+				<!--Built on: Mon Jul 19 14:26:34 2021.-->
 				<complete>
-					<size>13876419</size>
-					<checksum>ff02a9d8c6fa9687e1207fc0c4b84033925d452d</checksum>
-					<url>platform-tools_r31.0.2-linux.zip</url>
+					<size>13302579</size>
+					<checksum>f09581347ed39978abb3a99c6bb286de6adc98ef</checksum>
+					<url>platform-tools_r31.0.3-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 30 09:38:33 2021.-->
+				<!--Built on: Mon Jul 19 14:26:37 2021.-->
 				<complete>
-					<size>12537668</size>
-					<checksum>9cc0f642a66706a978214395b85c8e8228c24f2f</checksum>
-					<url>platform-tools_r31.0.2-windows.zip</url>
+					<size>11912013</size>
+					<checksum>26bc02bbd920e8ed461ae526cc4c69d773b72395</checksum>
+					<url>platform-tools_r31.0.3-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
