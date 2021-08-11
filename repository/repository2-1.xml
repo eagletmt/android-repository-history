@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-08-03 09:25:53.104806 with ADRT.-->
+	<!--Generated on 2021-08-10 15:41:06.811640 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6905,7 +6905,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7109,6 +7109,50 @@ June 2014.</license>
 					<size>7130894</size>
 					<checksum>471ae94176512f859580e6ac9e8b8f5010632c78</checksum>
 					<url>desktop-head-unit-windows_r02.0.rc2.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;23.0.7599858">
+		<!--Generated from:ab bid:7599858 branch:aosp-ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7599858</micro>
+		</revision>
+		<display-name>NDK (Side by side) 23.0.7599858</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Aug  2 14:27:34 2021.-->
+				<complete>
+					<size>691981924</size>
+					<checksum>c19f4a29e03689ea31bebe77f2d0a256d8e16925</checksum>
+					<url>android-ndk-r23-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Mon Aug  2 14:26:29 2021.-->
+				<complete>
+					<size>721667870</size>
+					<checksum>9bad35f442caeda747780ba1dd92f2d98609d9cd</checksum>
+					<url>android-ndk-r23-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Mon Aug  2 14:27:01 2021.-->
+				<complete>
+					<size>782684423</size>
+					<checksum>14af52e23af9f7a9e7576a17e1814701192745be</checksum>
+					<url>android-ndk-r23-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>

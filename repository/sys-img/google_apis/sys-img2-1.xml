@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-07-19 21:51:36.050785 with ADRT.-->
+	<!--Generated on 2021-08-10 15:43:44.984506 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -722,7 +722,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:40:01 2019.-->
+				<!--Built on: Thu Feb 21 12:40:01 2019.-->
 				<complete>
 					<size>110706432</size>
 					<checksum>970abf3a2a9937a43576afd9bb56e4a8191947f8</checksum>
@@ -766,7 +766,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:40:44 2019.-->
+				<!--Built on: Thu Feb 21 12:40:44 2019.-->
 				<complete>
 					<size>118634346</size>
 					<checksum>070a9552e3d358d8e72e8b2042e539e2b7a1b035</checksum>
@@ -810,7 +810,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Nov 14 00:06:45 2020.-->
+				<!--Built on: Fri Nov 13 16:06:45 2020.-->
 				<complete>
 					<size>163325511</size>
 					<checksum>5ef2c5481f5bb8789c0b5224d46fb2e13602a450</checksum>
@@ -854,7 +854,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:42:19 2019.-->
+				<!--Built on: Thu Feb 21 12:42:19 2019.-->
 				<complete>
 					<size>148773442</size>
 					<checksum>6deb76cf34760a6037cb18d89772c9e986d07497</checksum>
@@ -898,7 +898,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:43:20 2019.-->
+				<!--Built on: Thu Feb 21 12:43:20 2019.-->
 				<complete>
 					<size>168845378</size>
 					<checksum>5a5ff097680c6dae473c8719296ce6d7b70edb2d</checksum>
@@ -942,7 +942,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Nov 14 00:07:59 2020.-->
+				<!--Built on: Fri Nov 13 16:07:59 2020.-->
 				<complete>
 					<size>186372521</size>
 					<checksum>246903c75f5aa3db7fb58cac877f2201fbbfd94a</checksum>
@@ -986,7 +986,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:45:26 2019.-->
+				<!--Built on: Thu Feb 21 12:45:26 2019.-->
 				<complete>
 					<size>174631794</size>
 					<checksum>a59f26cb5707da97e869a27d87b83477204ac594</checksum>
@@ -1030,7 +1030,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Nov 14 00:54:00 2020.-->
+				<!--Built on: Fri Nov 13 16:54:00 2020.-->
 				<complete>
 					<size>194811128</size>
 					<checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
@@ -1074,7 +1074,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:46:21 2019.-->
+				<!--Built on: Thu Feb 21 12:46:21 2019.-->
 				<complete>
 					<size>179015960</size>
 					<checksum>7faaccabbcc5f08e410436d3f63eea42521ea974</checksum>
@@ -1118,7 +1118,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 21 20:47:40 2019.-->
+				<!--Built on: Thu Feb 21 12:47:40 2019.-->
 				<complete>
 					<size>199963568</size>
 					<checksum>dd674d719cad61602702be4b3d98edccfbfea53e</checksum>
@@ -1162,7 +1162,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Aug 14 04:32:26 2020.-->
+				<!--Built on: Thu Aug 13 21:32:26 2020.-->
 				<complete>
 					<size>297020632</size>
 					<checksum>67528907f6f4479112f63097f4657dad10783f5a</checksum>
@@ -1206,7 +1206,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Aug 14 04:33:18 2020.-->
+				<!--Built on: Thu Aug 13 21:33:18 2020.-->
 				<complete>
 					<size>245902018</size>
 					<checksum>053741c7ef72c7d41394b8a09a1b86238c59c741</checksum>
@@ -1250,7 +1250,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 25 00:13:08 2020.-->
+				<!--Built on: Fri Jul 24 17:13:08 2020.-->
 				<complete>
 					<size>319430034</size>
 					<checksum>c6c1d774cec79e6e71c2a24c96d0c45c043d752c</checksum>
@@ -1294,7 +1294,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 25 00:14:23 2020.-->
+				<!--Built on: Fri Jul 24 17:14:23 2020.-->
 				<complete>
 					<size>415495987</size>
 					<checksum>e98ba60a0fc88d9a81a768e62db5850b6610baa4</checksum>
@@ -1338,7 +1338,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 25 00:15:39 2020.-->
+				<!--Built on: Fri Jul 24 17:15:39 2020.-->
 				<complete>
 					<size>290282953</size>
 					<checksum>7aa0a1971365de1dc7989720c643121087026564</checksum>
@@ -1382,7 +1382,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 25 00:16:54 2020.-->
+				<!--Built on: Fri Jul 24 17:16:54 2020.-->
 				<complete>
 					<size>421293384</size>
 					<checksum>859ca1d8dcdaaf931effda3f06af95a3740b60d9</checksum>
@@ -1426,7 +1426,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Jul 25 00:18:20 2020.-->
+				<!--Built on: Fri Jul 24 17:18:20 2020.-->
 				<complete>
 					<size>394864140</size>
 					<checksum>6a61dd66ec8ac8e678cc19c1331047dade07509f</checksum>
@@ -1470,7 +1470,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 05:22:15 2020.-->
+				<!--Built on: Sun Jul 26 22:22:15 2020.-->
 				<complete>
 					<size>579197399</size>
 					<checksum>f99714383c5459d747ac7cdd8043419c6adafe60</checksum>
@@ -1514,7 +1514,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 05:23:42 2020.-->
+				<!--Built on: Sun Jul 26 22:23:42 2020.-->
 				<complete>
 					<size>499428151</size>
 					<checksum>c1d91dfcbaa9f1a6b9698893ce995b2771cd6a16</checksum>
@@ -1558,7 +1558,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 05:25:08 2020.-->
+				<!--Built on: Sun Jul 26 22:25:08 2020.-->
 				<complete>
 					<size>667471680</size>
 					<checksum>4d80dd38edb565641b3b34e713fe0ec6d1d77698</checksum>
@@ -1602,7 +1602,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 05:26:41 2020.-->
+				<!--Built on: Sun Jul 26 22:26:41 2020.-->
 				<complete>
 					<size>468621931</size>
 					<checksum>d03ac51742e9d7eea559cbef4f44d18d1fc9c92d</checksum>
@@ -1646,7 +1646,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 05:28:23 2020.-->
+				<!--Built on: Sun Jul 26 22:28:23 2020.-->
 				<complete>
 					<size>889204295</size>
 					<checksum>74505c33546fb9f6722fb7aa8fc1472777b924ff</checksum>
@@ -1690,7 +1690,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 16:51:21 2020.-->
+				<!--Built on: Mon Jul 27 09:51:21 2020.-->
 				<complete>
 					<size>1119800108</size>
 					<checksum>46d09c0723b77ddba00f2281099a2c44a88ac971</checksum>
@@ -1730,7 +1730,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 16:53:39 2020.-->
+				<!--Built on: Mon Jul 27 09:53:39 2020.-->
 				<complete>
 					<size>782997866</size>
 					<checksum>e22c47afd06398b35f2705ca2e7fa85323351568</checksum>
@@ -1774,7 +1774,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 16:55:33 2020.-->
+				<!--Built on: Mon Jul 27 09:55:33 2020.-->
 				<complete>
 					<size>1058251660</size>
 					<checksum>dbb21f5d464a8d5f012bf3cac1c173496c666330</checksum>
@@ -1818,7 +1818,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 16:57:53 2020.-->
+				<!--Built on: Mon Jul 27 09:57:53 2020.-->
 				<complete>
 					<size>1013657090</size>
 					<checksum>93872600c58521c8a67dc44c8e17cff4def009f3</checksum>
@@ -1862,7 +1862,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 17:00:20 2020.-->
+				<!--Built on: Mon Jul 27 10:00:20 2020.-->
 				<complete>
 					<size>1298264628</size>
 					<checksum>0da7b5bca8ff5deff45b942f61f081e038271ba6</checksum>
@@ -1906,7 +1906,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 17:02:48 2020.-->
+				<!--Built on: Mon Jul 27 10:02:48 2020.-->
 				<complete>
 					<size>952973150</size>
 					<checksum>a6f7c491e3bb937523dddfa287e07d785934e8a1</checksum>
@@ -1950,7 +1950,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 17:04:55 2020.-->
+				<!--Built on: Mon Jul 27 10:04:55 2020.-->
 				<complete>
 					<size>1113746103</size>
 					<checksum>e6887911237bd2a3bee6a3c7e57857269dcf8368</checksum>
@@ -2001,7 +2001,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 17 18:16:19 2020.-->
+				<!--Built on: Mon Aug 17 11:16:19 2020.-->
 				<complete>
 					<size>805108564</size>
 					<checksum>edac36ae459ebc974aac4b51b67b7356fa099f5b</checksum>
@@ -2052,7 +2052,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 17 18:18:38 2020.-->
+				<!--Built on: Mon Aug 17 11:18:38 2020.-->
 				<complete>
 					<size>980740438</size>
 					<checksum>0eb13cc91cf164b617eaf85e4030289cb18189de</checksum>
@@ -2103,7 +2103,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 17 18:20:54 2020.-->
+				<!--Built on: Mon Aug 17 11:20:54 2020.-->
 				<complete>
 					<size>807298593</size>
 					<checksum>0a130cad4f6d42c305a61265dc6c738e9e2b45c4</checksum>
@@ -2154,7 +2154,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Dec 17 04:33:27 2020.-->
+				<!--Built on: Wed Dec 16 20:33:27 2020.-->
 				<complete>
 					<size>994434707</size>
 					<checksum>e0541ac9b783ab91a00054e133bda340a2b9c757</checksum>
@@ -2195,7 +2195,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug 17 18:25:34 2020.-->
+				<!--Built on: Mon Aug 17 11:25:34 2020.-->
 				<complete>
 					<size>1102721597</size>
 					<checksum>1d93bd994e29c4e9bbe71fd9c278addc5418cbee</checksum>
@@ -2215,7 +2215,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-29;google_apis;x86">
-		<!--Generated from bid:6695061, branch:git_qt-emu-release-->
+		<!--Generated from bid:7603624, branch:git_qt-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<tag>
@@ -2229,44 +2229,33 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
+					<major>30</major>
+					<minor>8</minor>
+					<micro>2</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 17:17:25 2020.-->
+				<!--Built on: Mon Aug  2 17:57:35 2021.-->
 				<complete>
-					<size>1132884706</size>
-					<checksum>02483aaa07b442e741280658bf66f05eb9b2de09</checksum>
-					<url>x86-29_r11.zip</url>
+					<size>1133056400</size>
+					<checksum>8dc45a7406b922116f2121f6826868c2e7087389</checksum>
+					<url>x86-29_r12.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>10</major>
-						</based-on>
-						<size>93763107</size>
-						<checksum>f81ad2929333b193a14ccd390f7e88d532a814fe</checksum>
-						<url>sys-img-6362371-sdk_gphone_x86-userdebug-6695061-sdk_gphone_x86-userdebug-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-29;google_apis;x86_64">
-		<!--Generated from bid:6695061, branch:git_qt-emu-release-->
+		<!--Generated from bid:7603624, branch:git_qt-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>29</api-level>
 			<tag>
@@ -2280,44 +2269,33 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
+					<major>30</major>
+					<minor>8</minor>
+					<micro>2</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 27 17:20:04 2020.-->
+				<!--Built on: Mon Aug  2 17:58:50 2021.-->
 				<complete>
-					<size>1312975506</size>
-					<checksum>7fa3c51ce56b600f60709a571346fd0243f5a030</checksum>
-					<url>x86_64-29_r11.zip</url>
+					<size>1313280930</size>
+					<checksum>8392b93dc05c380bb0e6b2375ba318c14b263b37</checksum>
+					<url>x86_64-29_r12.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>10</major>
-						</based-on>
-						<size>105702008</size>
-						<checksum>856a37fdc4d692dfe52e79236814465efd9fe983</checksum>
-						<url>sys-img-6362371-sdk_gphone_x86_64-userdebug-6695061-sdk_gphone_x86_64-userdebug-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86">
-		<!--Generated from bid:6903271, branch:git_rvc-emu-release-->
+		<!--Generated from bid:7193139, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2331,7 +2309,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2348,11 +2326,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 15 19:36:51 2020.-->
+				<!--Built on: Tue Mar  9 11:45:30 2021.-->
 				<complete>
-					<size>1238302606</size>
-					<checksum>3092c40c1be82392ad5d1a719a384361f12a7cd6</checksum>
-					<url>x86-30_r09.zip</url>
+					<size>650472769</size>
+					<checksum>a23869f790fd42dddc83c47be1d1827fbebb7869</checksum>
+					<url>x86-30_r10.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2389,7 +2367,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Dec 29 16:45:31 2020.-->
+				<!--Built on: Tue Dec 29 08:45:31 2020.-->
 				<complete>
 					<size>1435165443</size>
 					<checksum>c93dcb38a47861d756ce679d8777a60468deee04</checksum>
@@ -2399,7 +2377,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;x86_64">
-		<!--Generated from bid:7533405, branch:git_sc-beta3-release-->
+		<!--Generated from bid:7608474, branch:git_sc-beta4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2430,17 +2408,57 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul  9 04:56:23 2021.-->
+				<!--Built on: Thu Aug  5 17:53:12 2021.-->
 				<complete>
-					<size>1449954662</size>
-					<checksum>3d6e6cb37cba8a64a10f38251aa5529e33fa4d24</checksum>
+					<size>1471234054</size>
+					<checksum>d8c5fb820e2ddbed5c20c42755e7b818eec739cb</checksum>
 					<url>x86_64-31_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-29;google_apis;arm64-v8a">
+		<!--Generated from bid:7603624, branch:git_rvc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>29</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>12</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>8</minor>
+					<micro>2</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Aug  2 11:37:53 2021.-->
+				<complete>
+					<size>1169015927</size>
+					<checksum>e5938d570019150135c3bdf39442d103ea8aca86</checksum>
+					<url>arm64-v8a-29_r12.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;arm64-v8a">
-		<!--Generated from bid:7036879, branch:git_rvc-emu-release-->
+		<!--Generated from bid:7602718, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2454,34 +2472,33 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>10</major>
+			<major>11</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
-					<minor>0</minor>
-					<micro>4</micro>
+					<minor>8</minor>
+					<micro>0</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec 16 20:20:47 2020.-->
+				<!--Built on: Mon Aug  2 09:40:33 2021.-->
 				<complete>
-					<size>1220707553</size>
-					<checksum>3a726e07b49caa88d60d92a91365cd51ca32af87</checksum>
-					<url>arm64-v8a-30_r10.zip</url>
+					<size>1244095258</size>
+					<checksum>14393e29f2b1021d4bfece3a1cb29af745e95dac</checksum>
+					<url>arm64-v8a-30_r11.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;arm64-v8a">
-		<!--Generated from bid:7533405, branch:git_sc-beta3-release-->
+		<!--Generated from bid:7608474, branch:git_sc-beta4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2512,10 +2529,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul  9 04:57:38 2021.-->
+				<!--Built on: Thu Aug  5 17:54:15 2021.-->
 				<complete>
-					<size>1409924496</size>
-					<checksum>ffba190d79d2dd9c6887ecddc6659f917edb6c78</checksum>
+					<size>1433196122</size>
+					<checksum>904b6e64e9b3239c801ed2030e66a93c91bedfe4</checksum>
 					<url>arm64-v8a-31_r06.zip</url>
 				</complete>
 			</archive>
