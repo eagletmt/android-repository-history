@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-08-11 09:32:19.234062 with ADRT.-->
+	<!--Generated on 2021-08-12 21:15:33.980177 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6905,7 +6905,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7290,12 +7290,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7587338 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:7600983 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>8</minor>
-			<micro>3</micro>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -7305,31 +7305,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jul 27 13:29:39 2021.-->
+				<!--Built on: Wed Aug  4 12:58:07 2021.-->
 				<complete>
-					<size>315344679</size>
-					<checksum>a69110d961fd2890bfb5324c741fc24a98c3c407</checksum>
-					<url>emulator-darwin_x64-7587338.zip</url>
+					<size>315292647</size>
+					<checksum>9811a649c516153681471f897a02398947640045</checksum>
+					<url>emulator-darwin_x64-7600983.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jul 27 13:29:29 2021.-->
+				<!--Built on: Wed Aug  4 12:58:03 2021.-->
 				<complete>
-					<size>277568944</size>
-					<checksum>358456432db403a84f07d7b4f439ca9b4f78916b</checksum>
-					<url>emulator-linux_x64-7587338.zip</url>
+					<size>277522999</size>
+					<checksum>140f833321684f7696e4b9012636c45eaa5b6a4a</checksum>
+					<url>emulator-linux_x64-7600983.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jul 27 13:29:49 2021.-->
+				<!--Built on: Wed Aug  4 12:58:11 2021.-->
 				<complete>
-					<size>325623231</size>
-					<checksum>6512cacca52c4816ddad13849dc538ac564bab4a</checksum>
-					<url>emulator-windows_x64-7587338.zip</url>
+					<size>326723360</size>
+					<checksum>c26170db8aba1bbfcfe63481e95a90bc7b2ff129</checksum>
+					<url>emulator-windows_x64-7600983.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -7337,12 +7337,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7491168 branch:emu-master-dev-->
+		<!--Generated from:ab bid:7600983 branch:emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
-			<minor>7</minor>
-			<micro>5</micro>
+			<minor>8</minor>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -7352,21 +7352,21 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun 24 21:41:25 2021.-->
+				<!--Built on: Wed Aug  4 12:58:16 2021.-->
 				<complete>
-					<size>272395239</size>
-					<checksum>a9672ba48ce13f0fcd4a28e0d23b43dca06ea8fd</checksum>
-					<url>emulator-linux_x64-7491168.zip</url>
+					<size>277522999</size>
+					<checksum>140f833321684f7696e4b9012636c45eaa5b6a4a</checksum>
+					<url>emulator-linux_x64-7600983.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jun 24 21:41:35 2021.-->
+				<!--Built on: Wed Aug  4 12:58:19 2021.-->
 				<complete>
-					<size>324417353</size>
-					<checksum>e7bad8eca7e9320c1bae7816e2a438e499894459</checksum>
-					<url>emulator-windows_x64-7491168.zip</url>
+					<size>326723360</size>
+					<checksum>c26170db8aba1bbfcfe63481e95a90bc7b2ff129</checksum>
+					<url>emulator-windows_x64-7600983.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -7374,12 +7374,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7491168 branch:emu-master-dev-->
+		<!--Generated from:ab bid:7600983 branch:emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
-			<minor>7</minor>
-			<micro>5</micro>
+			<minor>8</minor>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -7389,11 +7389,11 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun 30 09:13:48 2021.-->
+				<!--Built on: Wed Aug  4 12:58:24 2021.-->
 				<complete>
-					<size>309085962</size>
-					<checksum>06a2acbf677c46ba33f194fcd06cb465c050382b</checksum>
-					<url>emulator-darwin_x64-7491168.zip</url>
+					<size>315292647</size>
+					<checksum>9811a649c516153681471f897a02398947640045</checksum>
+					<url>emulator-darwin_x64-7600983.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
