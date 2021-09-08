@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-08-10 15:43:59.425133 with ADRT.-->
+	<!--Generated on 2021-09-07 18:03:52.014465 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1405,7 +1405,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
-		<!--Generated from bid:7608474, branch:sc-beta4-release-x86_64-playstore-->
+		<!--Generated from bid:7673742, branch:sc-beta5-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1419,7 +1419,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>8</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1436,18 +1436,18 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug  5 17:58:14 2021.-->
+				<!--Built on: Thu Aug 26 00:15:38 2021.-->
 				<complete>
-					<size>1433583169</size>
-					<checksum>6450e33574aba4746682cfa72edd4e89947fed38</checksum>
-					<url>x86_64-31_r06-windows.zip</url>
+					<size>1439905711</size>
+					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<url>x86_64-31_r08-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
-		<!--Generated from bid:7608474, branch:sc-beta4-release-x86_64-playstore-->
+		<!--Generated from bid:7673742, branch:sc-beta5-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1461,7 +1461,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>8</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1478,20 +1478,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug  5 17:58:45 2021.-->
+				<!--Built on: Thu Aug 26 00:16:08 2021.-->
 				<complete>
-					<size>1433583169</size>
-					<checksum>6450e33574aba4746682cfa72edd4e89947fed38</checksum>
-					<url>x86_64-31_r06-darwin.zip</url>
+					<size>1439905711</size>
+					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<url>x86_64-31_r08-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug  5 17:58:31 2021.-->
+				<!--Built on: Thu Aug 26 00:15:54 2021.-->
 				<complete>
-					<size>1433583169</size>
-					<checksum>6450e33574aba4746682cfa72edd4e89947fed38</checksum>
-					<url>x86_64-31_r06-linux.zip</url>
+					<size>1439905711</size>
+					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<url>x86_64-31_r08-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
@@ -1598,7 +1598,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:7608474, branch:sc-beta4-release-arm64-playstore-->
+		<!--Generated from bid:7673742, branch:sc-beta5-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1612,7 +1612,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>8</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1629,20 +1629,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug  5 18:01:35 2021.-->
+				<!--Built on: Thu Aug 26 00:18:48 2021.-->
 				<complete>
-					<size>1394878415</size>
-					<checksum>bef2699f7fd74fe0c4106a8898833074de72984d</checksum>
-					<url>arm64-v8a-31_r06-darwin.zip</url>
+					<size>1401830949</size>
+					<checksum>22404345ea7c039d0de8e45e228c102df0557cc9</checksum>
+					<url>arm64-v8a-31_r08-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug  5 18:01:22 2021.-->
+				<!--Built on: Thu Aug 26 00:18:35 2021.-->
 				<complete>
-					<size>1394878415</size>
-					<checksum>bef2699f7fd74fe0c4106a8898833074de72984d</checksum>
-					<url>arm64-v8a-31_r06-linux.zip</url>
+					<size>1401830949</size>
+					<checksum>22404345ea7c039d0de8e45e228c102df0557cc9</checksum>
+					<url>arm64-v8a-31_r08-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
