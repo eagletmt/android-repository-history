@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-10-01 17:55:26.072765 with ADRT.-->
+	<!--Generated on 2021-10-18 20:54:22.331887 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -735,7 +735,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google-tv;x86">
-		<!--Generated from bid:7591858, branch:git_sc-beta4-tv-release-->
+		<!--Generated from bid:7758850, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -748,7 +748,7 @@ January 16, 2019</license>
 			<major>3</major>
 		</revision>
 		<display-name>Google TV Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
@@ -759,13 +759,13 @@ January 16, 2019</license>
 				</min-revision>
 			</dependency>
 		</dependencies>
-		<channelRef ref="channel-3"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 29 01:33:22 2021.-->
+				<!--Built on: Thu Sep 23 02:24:24 2021.-->
 				<complete>
-					<size>788929362</size>
-					<checksum>0405592847ff3f69a697dc3bde429ae9d5da622f</checksum>
+					<size>776774302</size>
+					<checksum>80f1f8f13e4c3503f4ffb19e2db6e724588f5871</checksum>
 					<url>x86-31_r03.zip</url>
 				</complete>
 			</archive>

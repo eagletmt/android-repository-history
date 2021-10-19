@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-10-01 17:55:45.029656 with ADRT.-->
+	<!--Generated on 2021-10-18 20:54:39.064795 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2336,7 +2336,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86_64">
-		<!--Generated from bid:7054069, branch:git_rvc-emu-release-->
+		<!--Generated from bid:7800151, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2350,7 +2350,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>10</major>
+			<major>11</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2359,25 +2359,25 @@ January 16, 2019</license>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
-					<minor>0</minor>
-					<micro>4</micro>
+					<minor>8</minor>
+					<micro>0</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Dec 29 08:45:31 2020.-->
+				<!--Built on: Wed Oct  6 19:15:59 2021.-->
 				<complete>
-					<size>1435165443</size>
-					<checksum>c93dcb38a47861d756ce679d8777a60468deee04</checksum>
-					<url>x86_64-30_r10.zip</url>
+					<size>1438274971</size>
+					<checksum>8ec579d5fe31804dd80132f1678655bfc015609b</checksum>
+					<url>x86_64-30_r11.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;x86_64">
-		<!--Generated from bid:7673742, branch:git_sc-beta5-release-->
+		<!--Generated from bid:7818354, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2408,10 +2408,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 26 00:11:44 2021.-->
+				<!--Built on: Wed Oct 13 16:46:37 2021.-->
 				<complete>
-					<size>1475512390</size>
-					<checksum>641758042b0af6ada30ef09cf3d832ea29bc1d09</checksum>
+					<size>1456918187</size>
+					<checksum>889c38014bd0235ff5cf3f1fc9789de3fc6984ec</checksum>
 					<url>x86_64-31_r08.zip</url>
 				</complete>
 			</archive>
@@ -2498,7 +2498,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;arm64-v8a">
-		<!--Generated from bid:7673742, branch:git_sc-beta5-release-->
+		<!--Generated from bid:7818354, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2529,10 +2529,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 26 00:12:35 2021.-->
+				<!--Built on: Wed Oct 13 16:47:23 2021.-->
 				<complete>
-					<size>1438262345</size>
-					<checksum>c532cd960c1bd035dc835d6e750f77226e19a937</checksum>
+					<size>1416225486</size>
+					<checksum>ce4174b08fb42a9ab96ff7f019beb1432d48d4e6</checksum>
 					<url>arm64-v8a-31_r08.zip</url>
 				</complete>
 			</archive>

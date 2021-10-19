@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-10-01 17:55:59.600045 with ADRT.-->
+	<!--Generated on 2021-10-18 20:54:54.359316 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1405,7 +1405,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
-		<!--Generated from bid:7673742, branch:sc-beta5-release-x86_64-playstore-->
+		<!--Generated from bid:7818354, branch:sc-emu-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1436,10 +1436,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 26 00:15:38 2021.-->
+				<!--Built on: Wed Oct 13 16:50:58 2021.-->
 				<complete>
-					<size>1439905711</size>
-					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<size>1421848480</size>
+					<checksum>f5b2daa09b48de21a3acbbbe1c6b6c55c0cafe21</checksum>
 					<url>x86_64-31_r08-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -1447,7 +1447,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;x86_64">
-		<!--Generated from bid:7673742, branch:sc-beta5-release-x86_64-playstore-->
+		<!--Generated from bid:7818354, branch:sc-emu-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1478,19 +1478,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 26 00:16:08 2021.-->
+				<!--Built on: Wed Oct 13 16:51:28 2021.-->
 				<complete>
-					<size>1439905711</size>
-					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<size>1421848480</size>
+					<checksum>f5b2daa09b48de21a3acbbbe1c6b6c55c0cafe21</checksum>
 					<url>x86_64-31_r08-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug 26 00:15:54 2021.-->
+				<!--Built on: Wed Oct 13 16:51:14 2021.-->
 				<complete>
-					<size>1439905711</size>
-					<checksum>5ca172ecca7f5e88890554fb15862632753187c2</checksum>
+					<size>1421848480</size>
+					<checksum>f5b2daa09b48de21a3acbbbe1c6b6c55c0cafe21</checksum>
 					<url>x86_64-31_r08-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
@@ -1598,7 +1598,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:7673742, branch:sc-beta5-release-arm64-playstore-->
+		<!--Generated from bid:7818354, branch:sc-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1629,19 +1629,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 26 00:18:48 2021.-->
+				<!--Built on: Wed Oct 13 16:54:24 2021.-->
 				<complete>
-					<size>1401830949</size>
-					<checksum>22404345ea7c039d0de8e45e228c102df0557cc9</checksum>
+					<size>1380469455</size>
+					<checksum>5aa08958a434cac7a0648054db64e5da953017e0</checksum>
 					<url>arm64-v8a-31_r08-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug 26 00:18:35 2021.-->
+				<!--Built on: Wed Oct 13 16:54:11 2021.-->
 				<complete>
-					<size>1401830949</size>
-					<checksum>22404345ea7c039d0de8e45e228c102df0557cc9</checksum>
+					<size>1380469455</size>
+					<checksum>5aa08958a434cac7a0648054db64e5da953017e0</checksum>
 					<url>arm64-v8a-31_r08-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
