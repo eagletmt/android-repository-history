@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-10-18 20:54:54.359316 with ADRT.-->
+	<!--Generated on 2021-10-26 18:24:01.608344 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1497,6 +1497,101 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-Sv2;google_apis_playstore;x86_64">
+		<!--Generated from bid:7816532, branch:sc-v2-preview1-release-x86_64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<codename>Sv2</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>7</minor>
+					<micro>3</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Oct 15 21:37:25 2021.-->
+				<complete>
+					<size>1439247108</size>
+					<checksum>a77774181d5db79122fbea7d985078d321f827a0</checksum>
+					<url>x86_64-Sv2_r01-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Sv2;google_apis_playstore;x86_64">
+		<!--Generated from bid:7816532, branch:sc-v2-preview1-release-x86_64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<codename>Sv2</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>7</minor>
+					<micro>3</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Oct 15 21:37:55 2021.-->
+				<complete>
+					<size>1439247108</size>
+					<checksum>a77774181d5db79122fbea7d985078d321f827a0</checksum>
+					<url>x86_64-Sv2_r01-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Oct 15 21:37:41 2021.-->
+				<complete>
+					<size>1439247108</size>
+					<checksum>a77774181d5db79122fbea7d985078d321f827a0</checksum>
+					<url>x86_64-Sv2_r01-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-29;google_apis_playstore;arm64-v8a">
 		<!--Generated from bid:7603624, branch:qt-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -1643,6 +1738,58 @@ January 16, 2019</license>
 					<size>1380469455</size>
 					<checksum>5aa08958a434cac7a0648054db64e5da953017e0</checksum>
 					<url>arm64-v8a-31_r08-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Sv2;google_apis_playstore;arm64-v8a">
+		<!--Generated from bid:7816532, branch:sc-v2-preview1-release-arm64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<codename>Sv2</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>7</minor>
+					<micro>3</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Oct 15 21:41:30 2021.-->
+				<complete>
+					<size>1397164027</size>
+					<checksum>ce455d4dc79101c04dbea1e004d14717d3d10058</checksum>
+					<url>arm64-v8a-Sv2_r01-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Oct 15 21:41:16 2021.-->
+				<complete>
+					<size>1397164027</size>
+					<checksum>ce455d4dc79101c04dbea1e004d14717d3d10058</checksum>
+					<url>arm64-v8a-Sv2_r01-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
