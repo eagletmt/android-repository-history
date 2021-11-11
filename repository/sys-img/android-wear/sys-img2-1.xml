@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-11-02 19:03:05.948791 with ADRT.-->
+	<!--Generated on 2021-11-11 13:43:05.038604 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -718,7 +718,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:56:37 2018.-->
+				<!--Built on: Fri Jul 27 15:56:37 2018.-->
 				<complete>
 					<size>377841195</size>
 					<checksum>76d3568a4e08023047af7d13025a35c9bf1d7e5c</checksum>
@@ -766,7 +766,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:56:38 2018.-->
+				<!--Built on: Fri Jul 27 15:56:38 2018.-->
 				<complete>
 					<size>397826706</size>
 					<checksum>693fce7b487a65491a4e88e9f740959688c9dbe6</checksum>
@@ -814,7 +814,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  6 13:13:48 2018.-->
+				<!--Built on: Wed Jun  6 20:13:48 2018.-->
 				<complete>
 					<size>370311037</size>
 					<checksum>fbffa91b936ca18fcc1e0bab2b52a8b0835cbb1c</checksum>
@@ -862,7 +862,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May  5 02:06:32 2021.-->
+				<!--Built on: Wed May  5 09:06:32 2021.-->
 				<complete>
 					<size>564539182</size>
 					<checksum>942eb040cb915f0a9a4b4ff97c17a4db9733c1a4</checksum>
@@ -889,44 +889,14 @@ January 16, 2019</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Oct 15 02:32:16 2021.-->
+				<!--Built on: Fri Oct 15 09:32:16 2021.-->
 				<complete>
 					<size>742238435</size>
 					<checksum>f5cb72c4d55ca62ff04d58d981be967e17aac8be</checksum>
 					<url>x86-30_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-30;android-wear;x86">
-		<!--Generated from bid:7755042, branch:git_rvc-wear-dr-sdk-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>Wear OS - Preview</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Wear OS - Preview Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Sep 22 06:47:19 2021.-->
-				<complete>
-					<size>769721772</size>
-					<checksum>eced2718f4eddd0c04f48ddb4c9ab72a2aa8adb6</checksum>
-					<url>x86-30_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
