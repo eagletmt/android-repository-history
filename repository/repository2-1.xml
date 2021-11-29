@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-11-15 10:19:04.500395 with ADRT.-->
+	<!--Generated on 2021-11-29 09:03:43.845117 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6997,7 +6997,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7471,12 +7471,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7904455 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:7920983 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>1</minor>
-			<micro>3</micro>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -7486,31 +7486,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Nov 11 09:15:17 2021.-->
+				<!--Built on: Tue Nov 23 16:04:41 2021.-->
 				<complete>
-					<size>311742958</size>
-					<checksum>c91cbbd24f590869c47f6e4133aa352bee789ba6</checksum>
-					<url>emulator-darwin_x64-7904455.zip</url>
+					<size>313552497</size>
+					<checksum>c9f00a785ae2b07363ee77b550c0cbde94fbd1f8</checksum>
+					<url>emulator-darwin_x64-7920983.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Nov 11 09:15:14 2021.-->
+				<!--Built on: Tue Nov 23 16:04:36 2021.-->
 				<complete>
-					<size>275969711</size>
-					<checksum>8bfc9b1e26c892ec78a18f6674d1f7a5ea0ccaf9</checksum>
-					<url>emulator-linux_x64-7904455.zip</url>
+					<size>276082791</size>
+					<checksum>fa3cc18914be8d89ee65e0428bc08efd9a8d9cce</checksum>
+					<url>emulator-linux_x64-7920983.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Nov 11 09:15:21 2021.-->
+				<!--Built on: Tue Nov 23 16:04:45 2021.-->
 				<complete>
-					<size>328821562</size>
-					<checksum>ec3d710265436c7cc5edac69bc1c90a25241838b</checksum>
-					<url>emulator-windows_x64-7904455.zip</url>
+					<size>345121497</size>
+					<checksum>d273603bfb87b95f2da69f7f56c8062b546893ef</checksum>
+					<url>emulator-windows_x64-7920983.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -7518,12 +7518,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7820599 branch:emu-master-dev-->
+		<!--Generated from:ab bid:7920983 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>30</major>
-			<minor>9</minor>
-			<micro>5</micro>
+			<major>31</major>
+			<minor>1</minor>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -7533,21 +7533,21 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 14 16:29:46 2021.-->
+				<!--Built on: Tue Nov 23 16:04:50 2021.-->
 				<complete>
-					<size>276384247</size>
-					<checksum>5995d9b4e51f8710db16c4131f0cb6238cf1b414</checksum>
-					<url>emulator-linux_x64-7820599.zip</url>
+					<size>276082791</size>
+					<checksum>fa3cc18914be8d89ee65e0428bc08efd9a8d9cce</checksum>
+					<url>emulator-linux_x64-7920983.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Oct 14 16:29:51 2021.-->
+				<!--Built on: Tue Nov 23 16:04:54 2021.-->
 				<complete>
-					<size>325804363</size>
-					<checksum>be3ef72a108c15b4d0cf2d2ae94bc875fe6f9a3d</checksum>
-					<url>emulator-windows_x64-7820599.zip</url>
+					<size>345121497</size>
+					<checksum>d273603bfb87b95f2da69f7f56c8062b546893ef</checksum>
+					<url>emulator-windows_x64-7920983.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -7555,12 +7555,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7820599 branch:emu-master-dev-->
+		<!--Generated from:ab bid:7920983 branch:aosp-emu-master-dev-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>30</major>
-			<minor>9</minor>
-			<micro>5</micro>
+			<major>31</major>
+			<minor>1</minor>
+			<micro>4</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -7570,11 +7570,11 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 14 16:30:00 2021.-->
+				<!--Built on: Tue Nov 23 16:04:59 2021.-->
 				<complete>
-					<size>312342475</size>
-					<checksum>07f24270141b6b3341f89dd0703296ad1c539029</checksum>
-					<url>emulator-darwin_x64-7820599.zip</url>
+					<size>313552497</size>
+					<checksum>c9f00a785ae2b07363ee77b550c0cbde94fbd1f8</checksum>
+					<url>emulator-darwin_x64-7920983.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
