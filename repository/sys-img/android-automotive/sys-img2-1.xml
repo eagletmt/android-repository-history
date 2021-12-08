@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-12-03 11:09:55.275267 with ADRT.-->
+	<!--Generated on 2021-12-07 17:29:00.116384 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -697,6 +697,46 @@ January 16, 2019</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
+	<remotePackage path="system-images;android-30;android-automotive-playstore;x86_64">
+		<!--Generated from bid:7417002, branch:rvc-car-release-x86_64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>30</api-level>
+			<tag>
+				<id>android-automotive-playstore</id>
+				<display>Automotive with Play Store</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Automotive with Play Store Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>29</major>
+					<minor>0</minor>
+					<micro>2</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jun  7 19:27:18 2021.-->
+				<complete>
+					<size>1141147744</size>
+					<checksum>44390252940cfb57471226d5250a97ad02a01acb</checksum>
+					<url>x86_64-30_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-28;android-automotive-playstore;x86">
 		<!--Generated from bid:6637954, branch:pi-car-release-playstore-x86-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -778,7 +818,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;android-automotive-playstore;x86_64">
-		<!--Generated from bid:7417002, branch:rvc-car-release-x86_64-playstore-->
+		<!--Generated from bid:7845493, branch:rvc-car-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -792,7 +832,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Automotive with Play Store Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -808,11 +848,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun  7 19:27:18 2021.-->
+				<!--Built on: Wed Nov 10 16:01:59 2021.-->
 				<complete>
-					<size>1141147744</size>
-					<checksum>44390252940cfb57471226d5250a97ad02a01acb</checksum>
-					<url>x86_64-30_r01.zip</url>
+					<size>1150126964</size>
+					<checksum>5144ccc6aed8ad4fb0862dc199b15c6a840173ce</checksum>
+					<url>x86_64-30_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
