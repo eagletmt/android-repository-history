@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-12-07 17:28:29.215564 with ADRT.-->
+	<!--Generated on 2021-12-10 16:02:07.558870 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1587,6 +1587,46 @@ January 16, 2019</license>
 					<url>x86_64-32_r02-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-28;google_apis_playstore;arm64-v8a">
+		<!--Generated from bid:7985424, branch:pi-emu-release-arm64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>28</api-level>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google ARM64-V8a Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google ARM64-V8a Play ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>31</major>
+					<minor>1</minor>
+					<micro>1</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Dec  9 14:35:21 2021.-->
+				<complete>
+					<size>835797733</size>
+					<checksum>8901ad796ada9d40272c429427ba628de6919281</checksum>
+					<url>arm64-v8a-28_r01.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
