@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-12-16 11:51:45.710252 with ADRT.-->
+	<!--Generated on 2021-12-16 18:17:16.739729 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -872,7 +872,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;android-wear;x86">
-		<!--Generated from bid:8005986, branch:git_rvc-wear-dr-sdk-release-->
+		<!--Generated from bid:8008904, branch:git_rvc-wear-dr-sdk-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -882,7 +882,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 		</revision>
 		<display-name>Wear OS 3 - Preview Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -892,11 +892,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Dec 16 02:01:53 2021.-->
+				<!--Built on: Thu Dec 16 18:17:16 2021.-->
 				<complete>
-					<size>739158554</size>
-					<checksum>8d1bfdcd6afe0387fc971013b6ed9ec8565881a0</checksum>
-					<url>x86-30_r07.zip</url>
+					<size>739158116</size>
+					<checksum>74e1eeb2b2b53e6f76f2dc98f34f77f10a9c1eab</checksum>
+					<url>x86-30_r08.zip</url>
 				</complete>
 			</archive>
 		</archives>
