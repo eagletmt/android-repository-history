@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-01-05 14:59:39.577306 with ADRT.-->
+	<!--Generated on 2022-01-12 10:02:00.367369 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -859,7 +859,7 @@ January 16, 2019</license>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 		</dependencies>
-		<channelRef ref="channel-1"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
 				<!--Built on: Thu Dec  2 11:46:08 2021.-->
@@ -867,36 +867,6 @@ January 16, 2019</license>
 					<size>679556805</size>
 					<checksum>950f51a48b363db26e9350d44ed1adbdbb587823</checksum>
 					<url>x86-28_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;android-wear;x86">
-		<!--Generated from bid:7336036, branch:git_pi-wear-hmr2-dr-sdk-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>Wear OS</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>Wear OS Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed May  5 10:06:32 2021.-->
-				<complete>
-					<size>564539182</size>
-					<checksum>942eb040cb915f0a9a4b4ff97c17a4db9733c1a4</checksum>
-					<url>x86-28_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
