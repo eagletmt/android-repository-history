@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-01-04 15:14:01.523929 with ADRT.-->
+	<!--Generated on 2022-01-11 21:07:40.200282 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1498,7 +1498,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis_playstore;x86_64">
-		<!--Generated from bid:7934767, branch:sc-v2-beta1-release-x86_64-playstore-->
+		<!--Generated from bid:8015633, branch:sc-v2-beta2-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -1512,7 +1512,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1529,18 +1529,18 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Nov 30 15:15:17 2021.-->
+				<!--Built on: Wed Dec 29 10:17:33 2021.-->
 				<complete>
-					<size>1433048770</size>
-					<checksum>73646d612fe288984ff4bab5ba0bef57bad59d68</checksum>
-					<url>x86_64-32_r02-windows.zip</url>
+					<size>1437465460</size>
+					<checksum>734f2fde664518688a402ad8198b10cf093c5871</checksum>
+					<url>x86_64-32_r03-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis_playstore;x86_64">
-		<!--Generated from bid:7934767, branch:sc-v2-beta1-release-x86_64-playstore-->
+		<!--Generated from bid:8015633, branch:sc-v2-beta2-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -1554,7 +1554,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1571,20 +1571,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Nov 30 15:15:47 2021.-->
+				<!--Built on: Wed Dec 29 10:18:03 2021.-->
 				<complete>
-					<size>1433048770</size>
-					<checksum>73646d612fe288984ff4bab5ba0bef57bad59d68</checksum>
-					<url>x86_64-32_r02-darwin.zip</url>
+					<size>1437465460</size>
+					<checksum>734f2fde664518688a402ad8198b10cf093c5871</checksum>
+					<url>x86_64-32_r03-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Nov 30 15:15:33 2021.-->
+				<!--Built on: Wed Dec 29 10:17:49 2021.-->
 				<complete>
-					<size>1433048770</size>
-					<checksum>73646d612fe288984ff4bab5ba0bef57bad59d68</checksum>
-					<url>x86_64-32_r02-linux.zip</url>
+					<size>1437465460</size>
+					<checksum>734f2fde664518688a402ad8198b10cf093c5871</checksum>
+					<url>x86_64-32_r03-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
@@ -1782,7 +1782,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:7934767, branch:sc-v2-beta1-release-arm64-playstore-->
+		<!--Generated from bid:8015633, branch:sc-v2-beta2-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -1796,7 +1796,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1813,20 +1813,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Nov 30 15:18:15 2021.-->
+				<!--Built on: Wed Dec 29 10:21:53 2021.-->
 				<complete>
-					<size>1389603417</size>
-					<checksum>c8ace5eb70832d25b3e061780ff2ec8dd45635f5</checksum>
-					<url>arm64-v8a-32_r02-darwin.zip</url>
+					<size>1393496124</size>
+					<checksum>a03c886495ad5a3c3929fb0fc122c8ded743eef0</checksum>
+					<url>arm64-v8a-32_r03-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Nov 30 15:18:02 2021.-->
+				<!--Built on: Wed Dec 29 10:21:40 2021.-->
 				<complete>
-					<size>1389603417</size>
-					<checksum>c8ace5eb70832d25b3e061780ff2ec8dd45635f5</checksum>
-					<url>arm64-v8a-32_r02-linux.zip</url>
+					<size>1393496124</size>
+					<checksum>a03c886495ad5a3c3929fb0fc122c8ded743eef0</checksum>
+					<url>arm64-v8a-32_r03-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
