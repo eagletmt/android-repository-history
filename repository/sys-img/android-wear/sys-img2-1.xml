@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-02-14 15:12:00.323918 with ADRT.-->
+	<!--Generated on 2022-02-14 17:59:25.892346 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -718,7 +718,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 16:56:37 2018.-->
+				<!--Built on: Fri Jul 27 15:56:37 2018.-->
 				<complete>
 					<size>377841195</size>
 					<checksum>76d3568a4e08023047af7d13025a35c9bf1d7e5c</checksum>
@@ -766,7 +766,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 16:56:38 2018.-->
+				<!--Built on: Fri Jul 27 15:56:38 2018.-->
 				<complete>
 					<size>397826706</size>
 					<checksum>693fce7b487a65491a4e88e9f740959688c9dbe6</checksum>
@@ -814,7 +814,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  6 21:13:48 2018.-->
+				<!--Built on: Wed Jun  6 20:13:48 2018.-->
 				<complete>
 					<size>370311037</size>
 					<checksum>fbffa91b936ca18fcc1e0bab2b52a8b0835cbb1c</checksum>
@@ -897,66 +897,6 @@ January 16, 2019</license>
 					<size>746601351</size>
 					<checksum>c8a02892fd56a6934716a765d3316c99e9cf16e1</checksum>
 					<url>x86-30_r09.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-30;android-wear;x86">
-		<!--Generated from bid:8175913, branch:git_rvc-wear-imr2-dr-sdk-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>Wear OS 3 - Preview</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>10</major>
-		</revision>
-		<display-name>Wear OS 3 - Preview Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-1"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Feb 14 09:44:23 2022.-->
-				<complete>
-					<size>774568904</size>
-					<checksum>429a6e600b8e2c584805313ac2b47556dcf9be23</checksum>
-					<url>x86-30_r10.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-30;android-wear;arm64-v8a">
-		<!--Generated from bid:8175913, branch:git_rvc-wear-imr2-dr-sdk-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<tag>
-				<id>android-wear</id>
-				<display>Wear OS 3 - Preview</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>10</major>
-		</revision>
-		<display-name>Wear OS 3 - Preview ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
-		<channelRef ref="channel-1"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Feb 14 08:57:33 2022.-->
-				<complete>
-					<size>686649460</size>
-					<checksum>ed8aab1eee59c9ad747e1c4999a13270ff94d0bd</checksum>
-					<url>arm64-v8a-30_r10.zip</url>
 				</complete>
 			</archive>
 		</archives>
