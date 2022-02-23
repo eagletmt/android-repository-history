@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-02-14 19:33:52.000967 with ADRT.-->
+	<!--Generated on 2022-02-22 20:52:09.370644 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1721,7 +1721,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:7818354, branch:sc-emu-release-arm64-playstore-->
+		<!--Generated from bid:8151367, branch:sc-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1735,7 +1735,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>8</major>
+			<major>9</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1743,29 +1743,29 @@ January 16, 2019</license>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
+					<major>31</major>
+					<minor>2</minor>
+					<micro>7</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Oct 13 23:54:24 2021.-->
+				<!--Built on: Sat Feb  5 19:17:59 2022.-->
 				<complete>
-					<size>1380469455</size>
-					<checksum>5aa08958a434cac7a0648054db64e5da953017e0</checksum>
-					<url>arm64-v8a-31_r08-darwin.zip</url>
+					<size>1468377491</size>
+					<checksum>8a1fa9a050a3894fb65c785d6b536e182be30e7f</checksum>
+					<url>arm64-v8a-31_r09-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Oct 13 23:54:11 2021.-->
+				<!--Built on: Sat Feb  5 19:17:53 2022.-->
 				<complete>
-					<size>1380469455</size>
-					<checksum>5aa08958a434cac7a0648054db64e5da953017e0</checksum>
-					<url>arm64-v8a-31_r08-linux.zip</url>
+					<size>1468377491</size>
+					<checksum>8a1fa9a050a3894fb65c785d6b536e182be30e7f</checksum>
+					<url>arm64-v8a-31_r09-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>

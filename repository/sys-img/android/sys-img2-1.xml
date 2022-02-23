@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-02-14 19:32:58.460026 with ADRT.-->
+	<!--Generated on 2022-02-22 20:51:17.839019 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1222,7 +1222,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;default;arm64-v8a">
-		<!--Generated from bid:7752726, branch:git_sc-emu-release-->
+		<!--Generated from bid:8151367, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1232,27 +1232,27 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="emulator">
 				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
+					<major>31</major>
+					<minor>2</minor>
+					<micro>7</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 22 00:49:36 2021.-->
+				<!--Built on: Sat Feb  5 19:13:15 2022.-->
 				<complete>
-					<size>636979726</size>
-					<checksum>3c94d9fb1838b032d943846516d93f779f135102</checksum>
-					<url>arm64-v8a-31_r02.zip</url>
+					<size>635362972</size>
+					<checksum>aeaba3a4a7ce793046b3ef0d435f3c1eb4a9242c</checksum>
+					<url>arm64-v8a-31_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2312,7 +2312,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;default;x86_64">
-		<!--Generated from bid:7752726, branch:git_sc-emu-release-->
+		<!--Generated from bid:8151367, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2322,27 +2322,27 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="emulator">
 				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
+					<major>31</major>
+					<minor>2</minor>
+					<micro>7</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 22 00:25:39 2021.-->
+				<!--Built on: Sat Feb  5 19:13:31 2022.-->
 				<complete>
-					<size>658758319</size>
-					<checksum>051d76aeac8830b824295c7d401a796058a52b50</checksum>
-					<url>x86_64-31_r02.zip</url>
+					<size>657169834</size>
+					<checksum>22bcd2a5e3872528d7d47880d3ea96e721431824</checksum>
+					<url>x86_64-31_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

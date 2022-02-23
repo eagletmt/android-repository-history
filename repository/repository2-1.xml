@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-02-15 22:04:02.833191 with ADRT.-->
+	<!--Generated on 2022-02-22 20:50:02.069823 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7150,7 +7150,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7191,7 +7191,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7759,10 +7759,10 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:8006631 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:8141338 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>32</major>
+			<major>33</major>
 			<minor>0</minor>
 			<micro>0</micro>
 		</revision>
@@ -7771,41 +7771,41 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Dec 21 23:26:59 2021.-->
+				<!--Built on: Wed Feb  2 20:55:36 2022.-->
 				<complete>
-					<size>19439685</size>
-					<checksum>1e38a4d569f06c9f870e791ce021114d8a693002</checksum>
-					<url>platform-tools_r32.0.0-darwin.zip</url>
+					<size>19377269</size>
+					<checksum>7b679842bb5d5b082cd431c31b0ba4f23c645524</checksum>
+					<url>platform-tools_r33.0.0-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Dec 21 23:26:58 2021.-->
+				<!--Built on: Wed Feb  2 20:55:33 2022.-->
 				<complete>
-					<size>13544738</size>
-					<checksum>67ad18f3a2a6716d957b9ce630ea5e564171838a</checksum>
-					<url>platform-tools_r32.0.0-linux.zip</url>
+					<size>13600680</size>
+					<checksum>fe07ebd9eb60646f0651e120d69303f2e9969904</checksum>
+					<url>platform-tools_r33.0.0-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Dec 21 23:26:59 2021.-->
+				<!--Built on: Wed Feb  2 20:55:34 2022.-->
 				<complete>
-					<size>12033552</size>
-					<checksum>ad2dffd5500ae3ac1ed7c3340e4cdd1025446cd7</checksum>
-					<url>platform-tools_r32.0.0-windows.zip</url>
+					<size>12481999</size>
+					<checksum>29161ca2a4912435dde44ca7f8b96eae270e6f9d</checksum>
+					<url>platform-tools_r33.0.0-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:8165682 branch:aosp-emu-31-release-->
+		<!--Generated from:ab bid:8187648 branch:aosp-emu-31-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>3</minor>
-			<micro>2</micro>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -7815,31 +7815,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 10 02:55:28 2022.-->
+				<!--Built on: Wed Feb 16 17:20:23 2022.-->
 				<complete>
-					<size>333301118</size>
-					<checksum>6e1a7d4cc48011078747c79180b891217906b857</checksum>
-					<url>emulator-darwin_x64-8165682.zip</url>
+					<size>333482421</size>
+					<checksum>d5af32f09428411d0979a5f83dc4b65a247cab88</checksum>
+					<url>emulator-darwin_x64-8187648.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 10 02:55:26 2022.-->
+				<!--Built on: Wed Feb 16 17:20:21 2022.-->
 				<complete>
-					<size>284417937</size>
-					<checksum>9ea1a3ed6204ac51dd7c346fa77b835cb725cd70</checksum>
-					<url>emulator-linux_x64-8165682.zip</url>
+					<size>284520485</size>
+					<checksum>a58cdb36e9a53ba32476aa601f6f05f0243125ee</checksum>
+					<url>emulator-linux_x64-8187648.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 10 02:55:30 2022.-->
+				<!--Built on: Wed Feb 16 17:20:26 2022.-->
 				<complete>
-					<size>354467092</size>
-					<checksum>7b96c68bb3df0ec28d22f52455e027557b4efcfa</checksum>
-					<url>emulator-windows_x64-8165682.zip</url>
+					<size>354588032</size>
+					<checksum>3d0cb6647606d1f7386445f2b0833a87b43f4e3c</checksum>
+					<url>emulator-windows_x64-8187648.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
