@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-02-22 20:52:47.899344 with ADRT.-->
+	<!--Generated on 2022-03-08 09:38:25.226609 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -728,11 +728,51 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 21 22:37:57 2021.-->
+				<!--Built on: Tue Sep 21 15:37:57 2021.-->
 				<complete>
 					<size>437672031</size>
 					<checksum>ee28efbcf5b1fce3de69f0f6ef232ca1356b1131</checksum>
 					<url>x86-30_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-31;aosp_atd;x86_64">
+		<!--Generated from bid:8023802, branch:git_sc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>aosp_atd</id>
+				<display>AOSP ATD</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>AOSP ATD Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>30</major>
+					<minor>9</minor>
+					<micro>2</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 24 16:26:40 2022.-->
+				<complete>
+					<size>549430716</size>
+					<checksum>c429b6c5e6931ca7ef8774fcdd43d2eee0147094</checksum>
+					<url>x86_64-31_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -768,7 +808,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 21 22:38:15 2021.-->
+				<!--Built on: Tue Sep 21 15:38:15 2021.-->
 				<complete>
 					<size>449730589</size>
 					<checksum>cb04853f7b6023cdeb7b56aa1f685b0656f467f9</checksum>
