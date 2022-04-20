@@ -182,6 +182,10 @@ func save(baseUrl string, filename string) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	if resp.StatusCode == 404 {
+		log.Printf("Unable to get %s: status=%d: ignoring", url, resp.StatusCode)
+		return "", nil
+	}
 	if resp.StatusCode != 200 {
 		log.Fatalf("Unable to get %s: status=%d", url, resp.StatusCode)
 	}
