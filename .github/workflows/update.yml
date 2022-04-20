@@ -3,10 +3,9 @@ name: update
 on:
   schedule:
   - cron: '0 * * * *'
-  # Enable on: push when debug
-  # push:
-  #   branches:
-  #   - master
+  push:
+    branches:
+    - master
 
 jobs:
   build:
