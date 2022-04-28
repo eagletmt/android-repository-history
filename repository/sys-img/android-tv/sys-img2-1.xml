@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-04-25 16:54:28.429424 with ADRT.-->
+	<!--Generated on 2022-04-27 15:29:38.214722 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1127,7 +1127,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;android-tv;x86">
-		<!--Generated from bid:7758850, branch:git_sc-tv-emu-release-->
+		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1154,11 +1154,124 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 23 02:23:33 2021.-->
+				<!--Built on: Tue Apr 26 11:43:05 2022.-->
 				<complete>
-					<size>715251033</size>
-					<checksum>4bda37bc671674a08e1acf644423698d993abd92</checksum>
+					<size>714046528</size>
+					<checksum>bbb9988eaa8e8e6a6ade11f75bfe9dbd36578123</checksum>
 					<url>x86-31_r03.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-31;android-tv;arm64-v8a">
+		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>3</major>
+		</revision>
+		<display-name>Android TV ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>6</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Apr 26 12:23:33 2022.-->
+				<complete>
+					<size>796743615</size>
+					<checksum>07d28b52f9748270e851e9031647f6741296d1a7</checksum>
+					<url>arm64-v8a-31_r03.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Tiramisu;android-tv;x86">
+		<!--Generated from bid:8501324, branch:git_tm-betas-tv-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>32</api-level>
+			<codename>Tiramisu</codename>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>x86</abi>
+		</type-details>
+		<revision>
+			<major>3</major>
+		</revision>
+		<display-name>Android TV Intel x86 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>6</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Apr 26 12:24:37 2022.-->
+				<complete>
+					<size>829070808</size>
+					<checksum>8afad0c15a406edf7fcf2393100969bb88ea5049</checksum>
+					<url>x86-Tiramisu_r03.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-Tiramisu;android-tv;arm64-v8a">
+		<!--Generated from bid:8501324, branch:git_tm-betas-tv-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>32</api-level>
+			<codename>Tiramisu</codename>
+			<tag>
+				<id>android-tv</id>
+				<display>Android TV</display>
+			</tag>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>3</major>
+		</revision>
+		<display-name>Android TV ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>28</major>
+					<minor>1</minor>
+					<micro>6</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Apr 26 12:25:25 2022.-->
+				<complete>
+					<size>835847914</size>
+					<checksum>23376a664673fba0325b2581d44577b70859f22e</checksum>
+					<url>arm64-v8a-Tiramisu_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
