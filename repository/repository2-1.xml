@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-05-10 16:28:20.628341 with ADRT.-->
+	<!--Generated on 2022-05-11 12:38:05.857425 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6786,6 +6786,46 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="cmdline-tools;7.0">
+		<!--Generated from:ab bid:8512546 branch:git_studio-chipmunk-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>7</major>
+			<minor>0</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May 10 19:12:18 2022.-->
+				<complete>
+					<size>114168525</size>
+					<checksum>5e7bf2dd563d34917d32f3c5920a85562a795c93</checksum>
+					<url>commandlinetools-linux-8512546_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 10 19:12:20 2022.-->
+				<complete>
+					<size>114168511</size>
+					<checksum>9a663c49dbd3709fc2b7d49db2814b383d811b4a</checksum>
+					<url>commandlinetools-mac-8512546_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 10 19:12:22 2022.-->
+				<complete>
+					<size>114147385</size>
+					<checksum>1bdd32ac4b9fffea04f5bc341108e8b4fea6f32c</checksum>
+					<url>commandlinetools-win-8512546_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="cmdline-tools;6.0">
 		<!--Generated from:ab bid:8092744 branch:git_studio-2021.1-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -6987,10 +7027,10 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:8092744 branch:git_studio-2021.1-release-->
+		<!--Generated from:ab bid:8512546 branch:git_studio-chipmunk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 			<minor>0</minor>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -6998,29 +7038,29 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jan 24 14:46:40 2022.-->
+				<!--Built on: Tue May 10 19:12:25 2022.-->
 				<complete>
-					<size>119650630</size>
-					<checksum>8d47ab9a90caa60ce8a95d7e384ec64633bc13b4</checksum>
-					<url>commandlinetools-linux-8092744_latest.zip</url>
+					<size>114168525</size>
+					<checksum>5e7bf2dd563d34917d32f3c5920a85562a795c93</checksum>
+					<url>commandlinetools-linux-8512546_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Jan 24 14:46:42 2022.-->
+				<!--Built on: Tue May 10 19:12:26 2022.-->
 				<complete>
-					<size>119650616</size>
-					<checksum>bbd306940256ccb698edae47a56fb8da36d63e0b</checksum>
-					<url>commandlinetools-mac-8092744_latest.zip</url>
+					<size>114168511</size>
+					<checksum>9a663c49dbd3709fc2b7d49db2814b383d811b4a</checksum>
+					<url>commandlinetools-mac-8512546_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Jan 24 14:46:44 2022.-->
+				<!--Built on: Tue May 10 19:12:28 2022.-->
 				<complete>
-					<size>119629490</size>
-					<checksum>3098050fb2bdc7cc8a07bdef4dd13035f9f78d2a</checksum>
-					<url>commandlinetools-win-8092744_latest.zip</url>
+					<size>114147385</size>
+					<checksum>1bdd32ac4b9fffea04f5bc341108e8b4fea6f32c</checksum>
+					<url>commandlinetools-win-8512546_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7265,7 +7305,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7473,6 +7513,51 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;25.0.8528842">
+		<!--Generated from:ab bid:8528842 branch:ndk-r25-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>25</major>
+			<minor>0</minor>
+			<micro>8528842</micro>
+			<preview>4</preview>
+		</revision>
+		<display-name>NDK (Side by side) 25.0.8528842</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May  3 00:34:32 2022.-->
+				<complete>
+					<size>716633626</size>
+					<checksum>d7f344ecc68518a8178d15b1b80e27bc5c69f00d</checksum>
+					<url>android-ndk-r25-beta4-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue May  3 00:34:04 2022.-->
+				<complete>
+					<size>531018178</size>
+					<checksum>d13f688fd286709f0d950c75119ec9fcad8a47ff</checksum>
+					<url>android-ndk-r25-beta4-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue May  3 00:34:16 2022.-->
+				<complete>
+					<size>464031742</size>
+					<checksum>668b063c7c535c4f8be52c84acebb5779935203b</checksum>
+					<url>android-ndk-r25-beta4-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
