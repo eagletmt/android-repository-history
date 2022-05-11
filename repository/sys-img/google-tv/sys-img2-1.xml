@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-04-27 17:52:24.321147 with ADRT.-->
+	<!--Generated on 2022-05-10 16:31:15.036782 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -809,7 +809,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Tiramisu;google-tv;x86">
-		<!--Generated from bid:8501324, branch:git_tm-betas-tv-release-->
+		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<codename>Tiramisu</codename>
@@ -837,17 +837,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 12:28:11 2022.-->
+				<!--Built on: Mon May  9 07:21:00 2022.-->
 				<complete>
-					<size>894005484</size>
-					<checksum>5adb26e16108a5c757b3fedf264eecdf1087b58a</checksum>
+					<size>897877071</size>
+					<checksum>22090dae2b3444836b6b64597d85d0e0f91a3027</checksum>
 					<url>x86-Tiramisu_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-Tiramisu;google-tv;arm64-v8a">
-		<!--Generated from bid:8501324, branch:git_tm-betas-tv-release-->
+		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<codename>Tiramisu</codename>
@@ -875,10 +875,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 12:29:00 2022.-->
+				<!--Built on: Mon May  9 07:21:46 2022.-->
 				<complete>
-					<size>855361764</size>
-					<checksum>b02b5eca2d1be3d7e6f58d3a59dcd4c1e6c1fc44</checksum>
+					<size>859799426</size>
+					<checksum>d302c7c120b5bddfd7e195f93e3352c9d5836bd9</checksum>
 					<url>arm64-v8a-Tiramisu_r03.zip</url>
 				</complete>
 			</archive>

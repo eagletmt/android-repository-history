@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-05-04 11:26:59.143678 with ADRT.-->
+	<!--Generated on 2022-05-10 16:28:20.628341 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -324,25 +324,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-Tiramisu">
-		<!--Generated from bid:8441002, branch:git_tm-betas-release-->
+		<!--Generated from bid:8522353, branch:git_tm-beta2-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>32</api-level>
 			<codename>Tiramisu</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android SDK Platform Tiramisu</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 12 21:53:58 2022.-->
+				<!--Built on: Sun May  1 23:48:36 2022.-->
 				<complete>
-					<size>67380454</size>
-					<checksum>f66409856100bfc031265b8098585fe753799d1a</checksum>
-					<url>platform-Tiramisu_r03.zip</url>
+					<size>67442718</size>
+					<checksum>9f7cbab795af821e7194ab80531e8717e6e42664</checksum>
+					<url>platform-Tiramisu_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -4175,43 +4175,43 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="build-tools;33.0.0-rc3">
-		<!--Generated from bid:8441002, branch:git_tm-betas-release-->
+	<remotePackage path="build-tools;33.0.0-rc4">
+		<!--Generated from bid:8522353, branch:git_tm-beta2-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>33</major>
 			<minor>0</minor>
 			<micro>0</micro>
-			<preview>3</preview>
+			<preview>4</preview>
 		</revision>
-		<display-name>Android SDK Build-Tools 33-rc3</display-name>
+		<display-name>Android SDK Build-Tools 33-rc4</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 12 21:53:49 2022.-->
+				<!--Built on: Sun May  1 23:48:25 2022.-->
 				<complete>
-					<size>57933732</size>
-					<checksum>1d170d4ac16de0802c57cbd627b380bd91836ed0</checksum>
-					<url>build-tools_r33-rc3-linux.zip</url>
+					<size>57948730</size>
+					<checksum>c399be07b912b62ade3a5ccf6c450c84e3cb7718</checksum>
+					<url>build-tools_r33-rc4-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Apr 12 21:53:48 2022.-->
+				<!--Built on: Sun May  1 23:48:23 2022.-->
 				<complete>
-					<size>59985737</size>
-					<checksum>8472c65ea5aa73d3946c76afb9470bf1e97c7f8f</checksum>
-					<url>build-tools_r33-rc3-macosx.zip</url>
+					<size>59959143</size>
+					<checksum>63c2ec6a84fe0c42b9f43a8d29139c26f7078fce</checksum>
+					<url>build-tools_r33-rc4-macosx.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Apr 12 21:53:46 2022.-->
+				<!--Built on: Sun May  1 23:48:21 2022.-->
 				<complete>
-					<size>55616581</size>
-					<checksum>89acd042f3d74ea8fcdddbe74028255b3ba1e1dd</checksum>
-					<url>build-tools_r33-rc3-windows.zip</url>
+					<size>55627787</size>
+					<checksum>351c93bf81060372e05711ac010e0e12ba6bea69</checksum>
+					<url>build-tools_r33-rc4-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7224,7 +7224,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7265,7 +7265,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
