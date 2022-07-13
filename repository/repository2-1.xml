@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-06-15 13:05:29.802152 with ADRT.-->
+	<!--Generated on 2022-07-12 20:40:56.147743 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -324,25 +324,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-33">
-		<!--Generated from bid:8678579, branch:git_tm-beta3-release-->
+		<!--Generated from bid:8808248, branch:git_tm-beta4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>33</api-level>
 			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android SDK Platform 33</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun  5 20:18:28 2022.-->
+				<!--Built on: Thu Jul  7 23:41:18 2022.-->
 				<complete>
-					<size>67324871</size>
-					<checksum>298f5800e37f3c089ab0eb58d4f6aef4058b689b</checksum>
-					<url>platform-33_r01.zip</url>
+					<size>67334130</size>
+					<checksum>eef99bd4617e80da85187a183eba356d787100d9</checksum>
+					<url>platform-33_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -7263,7 +7263,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7304,7 +7304,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7512,6 +7512,50 @@ June 2014.</license>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;25.0.8775105">
+		<!--Generated from:ab bid:8775105 branch:aosp-ndk-r25-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>25</major>
+			<minor>0</minor>
+			<micro>8775105</micro>
+		</revision>
+		<display-name>NDK (Side by side) 25.0.8775105</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jun 27 20:58:50 2022.-->
+				<complete>
+					<size>716557039</size>
+					<checksum>8c54514c62f635dbbc161e30e21f16bcd22526df</checksum>
+					<url>android-ndk-r25-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jun 27 20:58:46 2022.-->
+				<complete>
+					<size>530938532</size>
+					<checksum>9fce956edb6abd5aca42acf6bbfb21a90a67f75b</checksum>
+					<url>android-ndk-r25-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jun 27 20:58:48 2022.-->
+				<complete>
+					<size>467387858</size>
+					<checksum>1da93e7da5803dd8ef47e9283ec2c7b98d34b8da</checksum>
+					<url>android-ndk-r25-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>

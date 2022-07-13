@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-06-15 13:10:09.434468 with ADRT.-->
+	<!--Generated on 2022-07-12 20:44:16.981316 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1925,6 +1925,68 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-21;google_apis;arm64-v8a">
+		<!--Generated from bid:8789838, branch:git_lmp-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>21</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>32</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jul  1 18:27:53 2022.-->
+				<complete>
+					<size>297671829</size>
+					<checksum>bad07917816ba029ddb09ce0836e4aac4a460d4d</checksum>
+					<url>arm64-v8a-21_r32.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-22;google_apis;arm64-v8a">
+		<!--Generated from bid:8789835, branch:git_mnc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>22</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>26</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jul  1 18:28:05 2022.-->
+				<complete>
+					<size>382307460</size>
+					<checksum>fd62e99e278f337fd58cadd37bf4f4c1998c8297</checksum>
+					<url>arm64-v8a-22_r26.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-23;google_apis;arm64-v8a">
 		<!--Generated from bid:8690019, branch:git_mnc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -2466,6 +2528,47 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-31;google_apis;x86_64">
+		<!--Generated from bid:8789670, branch:git_sc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>10</major>
+		</revision>
+		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>31</major>
+					<minor>2</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jul  7 23:50:22 2022.-->
+				<complete>
+					<size>1458128304</size>
+					<checksum>32ab0f5b81d3926ab6a4a6a1e61db3f67b8f008f</checksum>
+					<url>x86_64-31_r10.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis;x86_64">
 		<!--Generated from bid:8015633, branch:git_sc-v2-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -2508,7 +2611,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;google_apis;x86_64">
-		<!--Generated from bid:8678579, branch:git_tm-beta3-release-->
+		<!--Generated from bid:8808248, branch:git_tm-beta4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -2522,7 +2625,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2539,11 +2642,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun  5 20:38:31 2022.-->
+				<!--Built on: Thu Jul  7 23:51:21 2022.-->
 				<complete>
-					<size>1525478875</size>
-					<checksum>e3b39d68cc046711e2f64c3b26a2d8123a0aaa1f</checksum>
-					<url>x86_64-33_r05.zip</url>
+					<size>1509937763</size>
+					<checksum>2fa46da6000b44790e0cccbba5282b20f7dff7a6</checksum>
+					<url>x86_64-33_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2789,6 +2892,47 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-31;google_apis;arm64-v8a">
+		<!--Generated from bid:8789670, branch:git_sc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>10</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>31</major>
+					<minor>2</minor>
+					<micro>7</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jul  7 23:52:27 2022.-->
+				<complete>
+					<size>1415899601</size>
+					<checksum>afdec4698b61bfbcf8471eff418951d7183c7b55</checksum>
+					<url>arm64-v8a-31_r10.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis;arm64-v8a">
 		<!--Generated from bid:8015633, branch:git_sc-v2-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -2831,7 +2975,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;google_apis;arm64-v8a">
-		<!--Generated from bid:8678579, branch:git_tm-beta3-release-->
+		<!--Generated from bid:8808248, branch:git_tm-beta4-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -2845,7 +2989,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>6</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2862,11 +3006,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Jun  5 20:39:19 2022.-->
+				<!--Built on: Thu Jul  7 23:53:22 2022.-->
 				<complete>
-					<size>1527066473</size>
-					<checksum>af84982b7058811aeb0951f98431f87bc371c872</checksum>
-					<url>arm64-v8a-33_r05.zip</url>
+					<size>1512403787</size>
+					<checksum>f27c4a5619a7a57cf4a5b9aa40ac757578667e60</checksum>
+					<url>arm64-v8a-33_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
