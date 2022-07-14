@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-07-12 20:40:56.147743 with ADRT.-->
+	<!--Generated on 2022-07-13 17:30:42.863704 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,25 +300,25 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-TiramisuPrivacySandbox">
-		<!--Generated from bid:8714102, branch:git_tm-rubidium-alpha3-release-->
+		<!--Generated from bid:8822697, branch:git_tm-rubidium-alpha4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>33</api-level>
 			<codename>TiramisuPrivacySandbox</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>6</major>
 		</revision>
 		<display-name>Android SDK Platform TiramisuPrivacySandbox</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 13 16:21:03 2022.-->
+				<!--Built on: Wed Jul 13 15:36:59 2022.-->
 				<complete>
-					<size>67918949</size>
-					<checksum>8dd74a564f71c8381f5230682c5da291d230cc81</checksum>
-					<url>platform-TiramisuPrivacySandbox_r03.zip</url>
+					<size>67959951</size>
+					<checksum>384f8171acb9e409332463f4f1b33c868267679c</checksum>
+					<url>platform-TiramisuPrivacySandbox_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -7304,7 +7304,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
