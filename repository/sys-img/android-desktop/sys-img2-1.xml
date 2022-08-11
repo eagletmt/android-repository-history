@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-07-29 15:24:48.671885 with ADRT.-->
+	<!--Generated on 2022-08-10 14:48:38.668637 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -698,7 +698,7 @@ January 16, 2019</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="system-images;android-32;android-desktop;x86_64">
-		<!--Generated from bid:8850406, branch:git_sc-v2-pc-emu-release-->
+		<!--Generated from bid:8916668, branch:git_sc-v2-pc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -712,7 +712,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Desktop Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -729,17 +729,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 25 13:43:01 2022.-->
+				<!--Built on: Wed Aug 10 11:59:43 2022.-->
 				<complete>
-					<size>1505280083</size>
-					<checksum>d44efea2bc0bf076c90a453ca1e2e963cdcc6bde</checksum>
-					<url>x86_64-32_r02.zip</url>
+					<size>1510794577</size>
+					<checksum>f2de3c6de49f5e9685fc291b13bbaee9cab8b6fe</checksum>
+					<url>x86_64-32_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;android-desktop;arm64-v8a">
-		<!--Generated from bid:8850406, branch:git_sc-v2-pc-emu-release-->
+		<!--Generated from bid:8916668, branch:git_sc-v2-pc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -753,7 +753,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Desktop ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -770,11 +770,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 25 13:43:44 2022.-->
+				<!--Built on: Wed Aug 10 12:00:38 2022.-->
 				<complete>
-					<size>1511034615</size>
-					<checksum>3f92524768aa85a2a159d4b6d5cd567647842800</checksum>
-					<url>arm64-v8a-32_r02.zip</url>
+					<size>1516571807</size>
+					<checksum>c12050de2b50cada5cc04e9ee74461c91dbf80df</checksum>
+					<url>arm64-v8a-32_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
