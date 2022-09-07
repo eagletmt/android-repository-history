@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-08-23 18:18:29.977133 with ADRT.-->
+	<!--Generated on 2022-09-06 18:18:18.918830 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1580,7 +1580,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-TiramisuPrivacySandbox;google_apis_playstore;x86_64">
-		<!--Generated from bid:8861361, branch:tm-rubidium-alpha4-release-x86_64-playstore-->
+		<!--Generated from bid:9024390, branch:tm-rubidium-alpha4-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>TiramisuPrivacySandbox</codename>
@@ -1595,7 +1595,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1612,11 +1612,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 25 13:36:38 2022.-->
+				<!--Built on: Mon Sep  5 16:55:22 2022.-->
 				<complete>
-					<size>1503713982</size>
-					<checksum>8144d792072a8d18b8f63ef0bdc22c0f2907f32a</checksum>
-					<url>x86_64-TiramisuPrivacySandbox_r06.zip</url>
+					<size>1490778365</size>
+					<checksum>6d144da87b73823fa26308f8d97a2f978383aec0</checksum>
+					<url>x86_64-TiramisuPrivacySandbox_r07.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1915,7 +1915,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-TiramisuPrivacySandbox;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:8861361, branch:tm-rubidium-alpha4-release-arm64-playstore-->
+		<!--Generated from bid:9024390, branch:tm-rubidium-alpha4-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>TiramisuPrivacySandbox</codename>
@@ -1930,7 +1930,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1947,20 +1947,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jul 25 13:40:32 2022.-->
+				<!--Built on: Mon Sep  5 17:02:11 2022.-->
 				<complete>
-					<size>1499393335</size>
-					<checksum>493f2729817865ee558733552694110a522442a4</checksum>
-					<url>arm64-v8a-TiramisuPrivacySandbox_r06-darwin.zip</url>
+					<size>1486936711</size>
+					<checksum>b790fa8e7930e1fa817067dd02f0b2a22df3c03c</checksum>
+					<url>arm64-v8a-TiramisuPrivacySandbox_r07-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Jul 25 13:40:18 2022.-->
+				<!--Built on: Mon Sep  5 17:01:56 2022.-->
 				<complete>
-					<size>1499393335</size>
-					<checksum>493f2729817865ee558733552694110a522442a4</checksum>
-					<url>arm64-v8a-TiramisuPrivacySandbox_r06-linux.zip</url>
+					<size>1486936711</size>
+					<checksum>b790fa8e7930e1fa817067dd02f0b2a22df3c03c</checksum>
+					<url>arm64-v8a-TiramisuPrivacySandbox_r07-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
