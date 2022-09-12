@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-09-08 14:26:39.062507 with ADRT.-->
+	<!--Generated on 2022-09-09 06:43:43.808305 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -725,7 +725,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr  8 05:08:07 2021.-->
+				<!--Built on: Thu Apr  8 12:08:07 2021.-->
 				<complete>
 					<size>664931188</size>
 					<checksum>789d93aab51ce3ee1f9fbdf32640bab9d0ffdb87</checksum>
@@ -762,7 +762,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 12:26:31 2022.-->
+				<!--Built on: Tue Apr 26 19:26:31 2022.-->
 				<complete>
 					<size>778279363</size>
 					<checksum>1946e817673299411b9701f907fc10a25777d976</checksum>
@@ -799,7 +799,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 12:27:22 2022.-->
+				<!--Built on: Tue Apr 26 19:27:22 2022.-->
 				<complete>
 					<size>816718173</size>
 					<checksum>34d17322022c10fbfb3666e48d177f8e7bb73ac8</checksum>
@@ -837,7 +837,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 07:21:00 2022.-->
+				<!--Built on: Mon May  9 14:21:00 2022.-->
 				<complete>
 					<size>897877071</size>
 					<checksum>22090dae2b3444836b6b64597d85d0e0f91a3027</checksum>
@@ -875,7 +875,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 07:21:46 2022.-->
+				<!--Built on: Mon May  9 14:21:46 2022.-->
 				<complete>
 					<size>859799426</size>
 					<checksum>d302c7c120b5bddfd7e195f93e3352c9d5836bd9</checksum>
