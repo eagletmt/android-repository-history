@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-09-09 06:43:12.586386 with ADRT.-->
+	<!--Generated on 2022-09-23 01:13:58.167855 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2492,42 +2492,6 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;default;x86_64">
-		<!--Generated from bid:8151367, branch:git_sc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>31</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>3</major>
-		</revision>
-		<display-name>Intel x86 Atom_64 System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>2</minor>
-					<micro>7</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Feb  5 19:13:31 2022.-->
-				<complete>
-					<size>657169834</size>
-					<checksum>22bcd2a5e3872528d7d47880d3ea96e721431824</checksum>
-					<url>x86_64-31_r03.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-31;default;x86_64">
 		<!--Generated from bid:8752307, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
@@ -2538,7 +2502,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Intel x86 Atom_64 System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
