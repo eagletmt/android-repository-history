@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-10-10 18:15:51.378171 with ADRT.-->
+	<!--Generated on 2022-10-14 00:19:40.709740 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7286,7 +7286,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -8209,12 +8209,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:9112098 branch:aosp-emu-32-release-->
+		<!--Generated from:ab bid:9144714 branch:aosp-emu-32-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>32</major>
 			<minor>1</minor>
-			<micro>2</micro>
+			<micro>3</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -8224,31 +8224,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 27 22:49:04 2022.-->
+				<!--Built on: Thu Oct  6 16:40:01 2022.-->
 				<complete>
-					<size>309383561</size>
-					<checksum>4d2ca9ba9acfdf27ef4261cbf278ee217815860a</checksum>
-					<url>emulator-darwin_x64-9112098.zip</url>
+					<size>309384635</size>
+					<checksum>b4e9da5782fb62c850e015e2ce504ee6daa171a4</checksum>
+					<url>emulator-darwin_x64-9144714.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Sep 27 22:49:02 2022.-->
+				<!--Built on: Thu Oct  6 16:39:58 2022.-->
 				<complete>
-					<size>270228530</size>
-					<checksum>dde6abe118c31088c0a8d3fef9ae03d601a2b3a8</checksum>
-					<url>emulator-linux_x64-9112098.zip</url>
+					<size>270230014</size>
+					<checksum>41486ce1a1f62854260fbeb3aaef34babe893e4e</checksum>
+					<url>emulator-linux_x64-9144714.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Sep 27 22:49:07 2022.-->
+				<!--Built on: Thu Oct  6 16:40:06 2022.-->
 				<complete>
-					<size>333071031</size>
-					<checksum>7aef2f6a05a3dc3470f9d96a2d76943161ec028a</checksum>
-					<url>emulator-windows_x64-9112098.zip</url>
+					<size>333070130</size>
+					<checksum>a8516bbeab3f1f54323b3a14bc67a1bd33f22953</checksum>
+					<url>emulator-windows_x64-9144714.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
