@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-11-09 07:38:45.815088 with ADRT.-->
+	<!--Generated on 2022-11-09 21:41:23.616031 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -6808,6 +6808,46 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="cmdline-tools;8.0">
+		<!--Generated from:ab bid:9123335 branch:git_studio-dolphin-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>8</major>
+			<minor>0</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Sep 30 19:55:13 2022.-->
+				<complete>
+					<size>120916547</size>
+					<checksum>09b65ebc5aa9c5011fec9416d22711ce7ffc2260</checksum>
+					<url>commandlinetools-linux-9123335_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Sep 30 19:55:14 2022.-->
+				<complete>
+					<size>120916533</size>
+					<checksum>089eedfc62371040f9e027835d5114178fc0e658</checksum>
+					<url>commandlinetools-mac-9123335_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Fri Sep 30 19:55:15 2022.-->
+				<complete>
+					<size>120895407</size>
+					<checksum>d1511ce5b61e5988b3de4b83062f0a570671074f</checksum>
+					<url>commandlinetools-win-9123335_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="cmdline-tools;7.0">
 		<!--Generated from:ab bid:8512546 branch:git_studio-chipmunk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -7049,10 +7089,10 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:8512546 branch:git_studio-chipmunk-release-->
+		<!--Generated from:ab bid:9123335 branch:git_studio-dolphin-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 			<minor>0</minor>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -7060,29 +7100,29 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 11 02:12:25 2022.-->
+				<!--Built on: Fri Sep 30 19:55:20 2022.-->
 				<complete>
-					<size>114168525</size>
-					<checksum>5e7bf2dd563d34917d32f3c5920a85562a795c93</checksum>
-					<url>commandlinetools-linux-8512546_latest.zip</url>
+					<size>120916547</size>
+					<checksum>09b65ebc5aa9c5011fec9416d22711ce7ffc2260</checksum>
+					<url>commandlinetools-linux-9123335_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 11 02:12:26 2022.-->
+				<!--Built on: Fri Sep 30 19:55:21 2022.-->
 				<complete>
-					<size>114168511</size>
-					<checksum>9a663c49dbd3709fc2b7d49db2814b383d811b4a</checksum>
-					<url>commandlinetools-mac-8512546_latest.zip</url>
+					<size>120916533</size>
+					<checksum>089eedfc62371040f9e027835d5114178fc0e658</checksum>
+					<url>commandlinetools-mac-9123335_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed May 11 02:12:28 2022.-->
+				<!--Built on: Fri Sep 30 19:55:22 2022.-->
 				<complete>
-					<size>114147385</size>
-					<checksum>1bdd32ac4b9fffea04f5bc341108e8b4fea6f32c</checksum>
-					<url>commandlinetools-win-8512546_latest.zip</url>
+					<size>120895407</size>
+					<checksum>d1511ce5b61e5988b3de4b83062f0a570671074f</checksum>
+					<url>commandlinetools-win-9123335_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7286,7 +7326,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7327,7 +7367,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
