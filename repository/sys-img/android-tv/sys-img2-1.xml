@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-11-29 17:45:57.173689 with ADRT.-->
+	<!--Generated on 2022-12-01 09:34:43.242622 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -715,7 +715,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 26 23:02:25 2018.-->
+				<!--Built on: Thu Jul 26 16:02:25 2018.-->
 				<complete>
 					<size>268946785</size>
 					<checksum>2f8a1988188d6abfd6c6395baeb4471a034dc1e8</checksum>
@@ -742,7 +742,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 26 23:02:18 2018.-->
+				<!--Built on: Thu Jul 26 16:02:18 2018.-->
 				<complete>
 					<size>249428246</size>
 					<checksum>b63e28a47f11b639dd94981a458b7abfa89ac331</checksum>
@@ -769,7 +769,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 03:47:41 2018.-->
+				<!--Built on: Thu Jul 26 20:47:41 2018.-->
 				<complete>
 					<size>293118949</size>
 					<checksum>c78efd5a155622eb490be9d326f5783993375c35</checksum>
@@ -799,7 +799,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:15:19 2020.-->
+				<!--Built on: Fri Jul 24 16:15:19 2020.-->
 				<complete>
 					<size>340921232</size>
 					<checksum>094575ec634a662115a7a4c2b63d1743dfbca43c</checksum>
@@ -836,7 +836,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun May 27 01:17:01 2018.-->
+				<!--Built on: Sat May 26 18:17:01 2018.-->
 				<complete>
 					<size>304269268</size>
 					<checksum>bd84678ae8caf71d584f5210e866b2807e7b4b52</checksum>
@@ -866,7 +866,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:16:37 2020.-->
+				<!--Built on: Fri Jul 24 16:16:37 2020.-->
 				<complete>
 					<size>398227164</size>
 					<checksum>ef7890e565f4e3544fd23613b437d4418fb10f99</checksum>
@@ -906,7 +906,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:18:11 2020.-->
+				<!--Built on: Fri Jul 24 16:18:11 2020.-->
 				<complete>
 					<size>438201093</size>
 					<checksum>faae592bc991001b1880a8198d729b25855cc34b</checksum>
@@ -953,7 +953,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:33:04 2020.-->
+				<!--Built on: Fri Jul 24 16:33:04 2020.-->
 				<complete>
 					<size>401675862</size>
 					<checksum>f908b3c81a03513a756c17a197faecfc91e437df</checksum>
@@ -993,7 +993,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:34:17 2020.-->
+				<!--Built on: Fri Jul 24 16:34:17 2020.-->
 				<complete>
 					<size>410757280</size>
 					<checksum>b7d2a9349cdb1da9dafbd42de7378f6f1933d193</checksum>
@@ -1033,7 +1033,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 23:35:30 2020.-->
+				<!--Built on: Fri Jul 24 16:35:30 2020.-->
 				<complete>
 					<size>475216948</size>
 					<checksum>4c13edca32c1abb899a0702fe6972087712bcb78</checksum>
@@ -1080,7 +1080,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Aug 14 07:15:38 2020.-->
+				<!--Built on: Fri Aug 14 00:15:38 2020.-->
 				<complete>
 					<size>590809630</size>
 					<checksum>736c2f6c79493b5ee4ca0d2531a25c9eb7f9c7ab</checksum>
@@ -1090,7 +1090,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;android-tv;x86">
-		<!--Generated from bid:7267500, branch:git_rvc-tv-emu-release-->
+		<!--Generated from bid:9351025, branch:git_rvc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -1100,7 +1100,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1117,17 +1117,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr  8 11:18:08 2021.-->
+				<!--Built on: Wed Nov 30 03:09:21 2022.-->
 				<complete>
-					<size>608102224</size>
-					<checksum>65ef55423c0d5b1ee695be8e225da2fe7d39a87d</checksum>
-					<url>x86-30_r03.zip</url>
+					<size>699304963</size>
+					<checksum>f4151d2390fc015ddb2a7715bea9bc69a5ee0b4e</checksum>
+					<url>x86-30_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;android-tv;x86">
-		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
+		<!--Generated from bid:9351024, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1137,7 +1137,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1154,17 +1154,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 18:43:05 2022.-->
+				<!--Built on: Wed Nov 30 03:10:02 2022.-->
 				<complete>
-					<size>714046528</size>
-					<checksum>bbb9988eaa8e8e6a6ade11f75bfe9dbd36578123</checksum>
-					<url>x86-31_r03.zip</url>
+					<size>772250386</size>
+					<checksum>8c0b848019afade7f2a8ddb5c361178f63ec86ca</checksum>
+					<url>x86-31_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;android-tv;arm64-v8a">
-		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
+		<!--Generated from bid:9351024, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -1174,7 +1174,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1191,20 +1191,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 19:23:33 2022.-->
+				<!--Built on: Wed Nov 30 03:10:45 2022.-->
 				<complete>
-					<size>796743615</size>
-					<checksum>07d28b52f9748270e851e9031647f6741296d1a7</checksum>
-					<url>arm64-v8a-31_r03.zip</url>
+					<size>763104604</size>
+					<checksum>e8cec4080464d516e3f863d943c24055155f29bf</checksum>
+					<url>arm64-v8a-31_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Tiramisu;android-tv;x86">
-		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
+	<remotePackage path="system-images;android-33;android-tv;x86">
+		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<codename>Tiramisu</codename>
+			<api-level>33</api-level>
 			<tag>
 				<id>android-tv</id>
 				<display>Android TV</display>
@@ -1212,7 +1211,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1229,20 +1228,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 14:19:29 2022.-->
+				<!--Built on: Wed Nov 30 03:11:24 2022.-->
 				<complete>
-					<size>832895525</size>
-					<checksum>547a24d9dec83e11486ef4ea45848d9fa99f35c2</checksum>
-					<url>x86-Tiramisu_r03.zip</url>
+					<size>817267440</size>
+					<checksum>60c76322c63d3fa9f2f49429407f4ec8e9f23c79</checksum>
+					<url>x86-33_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Tiramisu;android-tv;arm64-v8a">
-		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
+	<remotePackage path="system-images;android-33;android-tv;arm64-v8a">
+		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<codename>Tiramisu</codename>
+			<api-level>33</api-level>
 			<tag>
 				<id>android-tv</id>
 				<display>Android TV</display>
@@ -1250,7 +1248,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1267,11 +1265,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 14:20:17 2022.-->
+				<!--Built on: Wed Nov 30 03:12:06 2022.-->
 				<complete>
-					<size>840304267</size>
-					<checksum>4b70bed5ffb28162cdde7852e0597d957910270d</checksum>
-					<url>arm64-v8a-Tiramisu_r03.zip</url>
+					<size>827356141</size>
+					<checksum>6e7d8a75f8662dfac087adbc548df24b6b910111</checksum>
+					<url>arm64-v8a-33_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>

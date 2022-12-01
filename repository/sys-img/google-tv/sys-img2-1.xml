@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-11-29 17:46:13.554775 with ADRT.-->
+	<!--Generated on 2022-12-01 09:35:08.707427 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -698,7 +698,7 @@ January 16, 2019</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="system-images;android-30;google-tv;x86">
-		<!--Generated from bid:7267500, branch:git_rvc-tv-emu-release-->
+		<!--Generated from bid:9351025, branch:git_rvc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -708,7 +708,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -725,17 +725,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Apr  8 12:08:07 2021.-->
+				<!--Built on: Wed Nov 30 03:13:09 2022.-->
 				<complete>
-					<size>664931188</size>
-					<checksum>789d93aab51ce3ee1f9fbdf32640bab9d0ffdb87</checksum>
-					<url>x86-30_r03.zip</url>
+					<size>752931854</size>
+					<checksum>01fe86407a8d2da53c18c56e062eff9caa11127f</checksum>
+					<url>x86-30_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google-tv;x86">
-		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
+		<!--Generated from bid:9351024, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -745,7 +745,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -762,17 +762,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 19:26:31 2022.-->
+				<!--Built on: Wed Nov 30 03:13:52 2022.-->
 				<complete>
-					<size>778279363</size>
-					<checksum>1946e817673299411b9701f907fc10a25777d976</checksum>
-					<url>x86-31_r03.zip</url>
+					<size>839302867</size>
+					<checksum>892128874dbf38837dfd5f938bf717d54d5a8994</checksum>
+					<url>x86-31_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google-tv;arm64-v8a">
-		<!--Generated from bid:8501234, branch:git_sc-tv-emu-release-->
+		<!--Generated from bid:9351024, branch:git_sc-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -782,7 +782,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -799,20 +799,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Apr 26 19:27:22 2022.-->
+				<!--Built on: Wed Nov 30 03:14:22 2022.-->
 				<complete>
-					<size>816718173</size>
-					<checksum>34d17322022c10fbfb3666e48d177f8e7bb73ac8</checksum>
-					<url>arm64-v8a-31_r03.zip</url>
+					<size>782862628</size>
+					<checksum>ca4a27b23f532ac390f5a861362c8338b6061cb7</checksum>
+					<url>arm64-v8a-31_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Tiramisu;google-tv;x86">
-		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
+	<remotePackage path="system-images;android-33;google-tv;x86">
+		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<codename>Tiramisu</codename>
+			<api-level>33</api-level>
 			<tag>
 				<id>google-tv</id>
 				<display>Google TV</display>
@@ -820,7 +819,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -837,20 +836,19 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 14:21:00 2022.-->
+				<!--Built on: Wed Nov 30 03:15:01 2022.-->
 				<complete>
-					<size>897877071</size>
-					<checksum>22090dae2b3444836b6b64597d85d0e0f91a3027</checksum>
-					<url>x86-Tiramisu_r03.zip</url>
+					<size>878617139</size>
+					<checksum>a73511fdf67560324ed93992bf54f46eb4ea4723</checksum>
+					<url>x86-33_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-Tiramisu;google-tv;arm64-v8a">
-		<!--Generated from bid:8554128, branch:git_tm-beta2-tv-release-->
+	<remotePackage path="system-images;android-33;google-tv;arm64-v8a">
+		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<codename>Tiramisu</codename>
+			<api-level>33</api-level>
 			<tag>
 				<id>google-tv</id>
 				<display>Google TV</display>
@@ -858,7 +856,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -875,11 +873,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon May  9 14:21:46 2022.-->
+				<!--Built on: Wed Nov 30 03:15:43 2022.-->
 				<complete>
-					<size>859799426</size>
-					<checksum>d302c7c120b5bddfd7e195f93e3352c9d5836bd9</checksum>
-					<url>arm64-v8a-Tiramisu_r03.zip</url>
+					<size>886022044</size>
+					<checksum>59fde68cb3b65b2d3f1b6df144f0e9046acbbacf</checksum>
+					<url>arm64-v8a-33_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
