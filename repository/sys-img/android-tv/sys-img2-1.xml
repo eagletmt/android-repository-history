@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-12-01 09:34:43.242622 with ADRT.-->
+	<!--Generated on 2022-12-12 11:29:10.690134 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1201,7 +1201,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-tv;x86">
-		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
+		<!--Generated from bid:9379539, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -1211,7 +1211,7 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1228,17 +1228,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 30 03:11:24 2022.-->
+				<!--Built on: Wed Dec  7 06:46:31 2022.-->
 				<complete>
-					<size>817267440</size>
-					<checksum>60c76322c63d3fa9f2f49429407f4ec8e9f23c79</checksum>
-					<url>x86-33_r04.zip</url>
+					<size>817908695</size>
+					<checksum>ec3fe6a450ed6aa5fec2703fca68648e7813094f</checksum>
+					<url>x86-33_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-tv;arm64-v8a">
-		<!--Generated from bid:9351023, branch:git_tm-tv-emu-release-->
+		<!--Generated from bid:9379539, branch:git_tm-tv-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -1248,7 +1248,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1265,11 +1265,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 30 03:12:06 2022.-->
+				<!--Built on: Wed Dec  7 06:47:12 2022.-->
 				<complete>
-					<size>827356141</size>
-					<checksum>6e7d8a75f8662dfac087adbc548df24b6b910111</checksum>
-					<url>arm64-v8a-33_r04.zip</url>
+					<size>828027584</size>
+					<checksum>41b75155961eb506b492e60e8fba590ad7baa02c</checksum>
+					<url>arm64-v8a-33_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
