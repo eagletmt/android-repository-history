@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-12-13 18:35:13.842832 with ADRT.-->
+	<!--Generated on 2023-01-03 19:11:05.677661 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2131,7 +2131,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 		</archives>
 	</remotePackage>
 	<remotePackage path="extras;google;Android_Emulator_Hypervisor_Driver">
-		<!--Generated from p4 cl:423147724-->
+		<!--Generated from p4 cl:489022941-->
 		<type-details xsi:type="addon:extraDetailsType">
 			<vendor>
 				<id>google</id>
@@ -2143,16 +2143,44 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			<minor>8</minor>
 			<micro>0</micro>
 		</revision>
-		<display-name>Android Emulator Hypervisor Driver for AMD Processors (installer)</display-name>
+		<display-name>Android Emulator Hypervisor Driver for AMD Processors (installer: Deprecated)</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jan 21 19:00:25 2022.-->
+				<!--Built on: Tue Dec 13 17:30:26 2022.-->
 				<complete>
-					<size>166975</size>
-					<checksum>7be9c46e3bbf4ab107fa614e426f925584ce310b</checksum>
+					<size>166974</size>
+					<checksum>8dce54354ea589d840bab4f5cd71382c26fccb62</checksum>
 					<url>gvm-windows_v1_8_0.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="extras;google;Android_Emulator_Hypervisor_Driver">
+		<!--Generated from p4 cl:494260115-->
+		<type-details xsi:type="addon:extraDetailsType">
+			<vendor>
+				<id>google</id>
+				<display>Google LLC.</display>
+			</vendor>
+		</type-details>
+		<revision>
+			<major>2</major>
+			<minor>0</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android Emulator Hypervisor Driver (installer)</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Dec  9 22:28:37 2022.-->
+				<complete>
+					<size>168741</size>
+					<checksum>1a4ef9875cb0adfe5500632ad7140027cfb080d9</checksum>
+					<url>gvm-windows_v2_0_0.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
