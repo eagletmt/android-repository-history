@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-01-31 14:45:35.277419 with ADRT.-->
+	<!--Generated on 2023-02-07 19:30:34.424768 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -299,6 +299,30 @@ June 2014.</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
+	<remotePackage path="platforms;android-UpsideDownCake">
+		<!--Generated from bid:9548348, branch:git_udc-preview1-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>33</api-level>
+			<codename>UpsideDownCake</codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Android SDK Platform UpsideDownCake</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Feb  7 12:25:09 2023.-->
+				<complete>
+					<size>68248613</size>
+					<checksum>1782f55836be88058b7c9a65e2a4440be6a5dc7b</checksum>
+					<url>platform-UpsideDownCake_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="platforms;android-33">
 		<!--Generated from bid:9453911, branch:git_tm-sdk-ext4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
@@ -4222,6 +4246,89 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="build-tools;34.0.0-rc1">
+		<!--Generated from bid:9548348, branch:git_udc-preview1-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>34</major>
+			<minor>0</minor>
+			<micro>0</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>Android SDK Build-Tools 34-rc1</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Feb  7 12:19:18 2023.-->
+				<complete>
+					<size>60468599</size>
+					<checksum>fec0a16d0c2fab6576fd58f6aa2e69a561ab1128</checksum>
+					<url>build-tools_r34-rc1-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Feb  7 12:19:09 2023.-->
+				<complete>
+					<size>62640488</size>
+					<checksum>1e3847d449ce6124ffbf528db601f3dfab25e77e</checksum>
+					<url>build-tools_r34-rc1-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue Feb  7 12:19:02 2023.-->
+				<complete>
+					<size>57791540</size>
+					<checksum>73dca92f84827749882bd0ac501c4befdf3ab878</checksum>
+					<url>build-tools_r34-rc1-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="build-tools;33.0.2">
+		<!--Generated from bid:9420752, branch:git_tm-beta3-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>33</major>
+			<minor>0</minor>
+			<micro>2</micro>
+		</revision>
+		<display-name>Android SDK Build-Tools 33.0.2</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Jan 25 17:41:44 2023.-->
+				<complete>
+					<size>56003588</size>
+					<checksum>9def17c815f46ac09024ebb674466d39d039255c</checksum>
+					<url>build-tools_r33.0.2-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Jan 25 17:41:38 2023.-->
+				<complete>
+					<size>60013768</size>
+					<checksum>482fd9244332cb3e7435f229a22552459b68b3ff</checksum>
+					<url>build-tools_r33.0.2-macosx.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Wed Jan 25 17:41:32 2023.-->
+				<complete>
+					<size>55630250</size>
+					<checksum>1f33813c884a039f242b386e9127d3a96915066f</checksum>
+					<url>build-tools_r33.0.2-windows.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="build-tools;33.0.1">
 		<!--Generated from bid:9306103, branch:git_tm-beta3-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
@@ -7472,7 +7579,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -8535,12 +8642,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:9456632 branch:aosp-emu-31-release-->
+		<!--Generated from:ab bid:9536276 branch:aosp-emu-32-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>31</major>
-			<minor>3</minor>
-			<micro>15</micro>
+			<major>32</major>
+			<minor>1</minor>
+			<micro>11</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -8550,21 +8657,21 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan  5 12:56:57 2023.-->
+				<!--Built on: Sun Jan 29 22:50:08 2023.-->
 				<complete>
-					<size>293822919</size>
-					<checksum>6e956d2af3a6b8ebdbd546cdfd969b1827117f70</checksum>
-					<url>emulator-linux_x64-9456632.zip</url>
+					<size>270158949</size>
+					<checksum>7926c9cea85761dd62f6f81b66262aa3c91f17c1</checksum>
+					<url>emulator-linux_x64-9536276.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jan  5 12:56:59 2023.-->
+				<!--Built on: Sun Jan 29 22:50:13 2023.-->
 				<complete>
-					<size>381125680</size>
-					<checksum>33d2faf35780b96af02e484fb40a3e9c46b4745f</checksum>
-					<url>emulator-windows_x64-9456632.zip</url>
+					<size>333000964</size>
+					<checksum>a2f7250cea00b898e80f7e43e965483f1c620c0c</checksum>
+					<url>emulator-windows_x64-9536276.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -8572,12 +8679,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:9456632 branch:aosp-emu-31-release-->
+		<!--Generated from:ab bid:9536276 branch:aosp-emu-32-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>31</major>
-			<minor>3</minor>
-			<micro>15</micro>
+			<major>32</major>
+			<minor>1</minor>
+			<micro>11</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -8587,11 +8694,11 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan  5 12:57:11 2023.-->
+				<!--Built on: Sun Jan 29 22:50:31 2023.-->
 				<complete>
-					<size>347315642</size>
-					<checksum>026247d982d25e615dc37c450219a2c7cafb1237</checksum>
-					<url>emulator-darwin_x64-9456632.zip</url>
+					<size>309325960</size>
+					<checksum>c1e480b1c30174a7b200b59bf52bdfd504f8ba43</checksum>
+					<url>emulator-darwin_x64-9536276.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
