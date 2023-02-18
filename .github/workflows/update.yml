@@ -44,8 +44,7 @@ jobs:
     - name: Update repository
       run: |
         chmod +x update
-        cd android-repository-history
-        ../update
+        ./update
     - name: Publish
       env:
         TZ: Asia/Tokyo
