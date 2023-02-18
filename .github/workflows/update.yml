@@ -15,7 +15,7 @@ jobs:
     - uses: actions/setup-go@v3
     - uses: actions/checkout@v3
     - run: go build -v .
-    -uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v3
       with:
         name: update
         path: android-repository-history
