@@ -40,10 +40,11 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: update
+        path: android-repository-history
     - name: Update repository
       run: |
-        chmod +x update/android-repository-history
-        update/android-repository-history
+        chmod +x android-repository-history
+        ./android-repository-history
     - name: Publish
       env:
         TZ: Asia/Tokyo
