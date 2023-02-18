@@ -43,8 +43,9 @@ jobs:
         path: update
     - name: Update repository
       run: |
-        chmod +x update
-        ./update
+        ls -lR update
+        chmod +x update/android-repository-history
+        update/android-repository-history
     - name: Publish
       env:
         TZ: Asia/Tokyo
