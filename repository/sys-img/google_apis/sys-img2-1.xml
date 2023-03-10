@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-03-08 17:15:55.165304 with ADRT.-->
+	<!--Generated on 2023-03-09 12:23:26.065392 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2611,7 +2611,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis;x86_64">
-		<!--Generated from bid:9649234, branch:git_udc-preview2-release-->
+		<!--Generated from bid:9663077, branch:git_udc-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -2643,10 +2643,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  1 17:03:48 2023.-->
+				<!--Built on: Wed Mar  8 03:34:18 2023.-->
 				<complete>
-					<size>1495246825</size>
-					<checksum>3d78bcd25ad26d6bd0f2687fcd5ac8b68e1eac5a</checksum>
+					<size>1478371877</size>
+					<checksum>e53594c3f0a91bdeeffb5a6105e0f4f99a7b5be3</checksum>
 					<url>x86_64-UpsideDownCake_r02.zip</url>
 				</complete>
 			</archive>
@@ -3017,7 +3017,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis;arm64-v8a">
-		<!--Generated from bid:9649234, branch:git_udc-preview2-release-->
+		<!--Generated from bid:9663077, branch:git_udc-preview2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -3049,10 +3049,10 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  1 17:06:45 2023.-->
+				<!--Built on: Wed Mar  8 03:39:06 2023.-->
 				<complete>
-					<size>1553487265</size>
-					<checksum>f8bc13b077efc6d9c22c1975ef829f4fe9a79e52</checksum>
+					<size>1536573892</size>
+					<checksum>7d1b9a68ba1f48e9e7f1126052b89dae304221fe</checksum>
 					<url>arm64-v8a-UpsideDownCake_r02.zip</url>
 				</complete>
 			</archive>

@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-03-08 17:09:51.084422 with ADRT.-->
+	<!--Generated on 2023-03-09 12:17:23.397746 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,7 +300,7 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-UpsideDownCake">
-		<!--Generated from bid:9649234, branch:git_udc-preview2-release-->
+		<!--Generated from bid:9663077, branch:git_udc-preview2-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -314,10 +314,10 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 24 14:21:54 2023.-->
+				<!--Built on: Wed Mar  8 03:24:55 2023.-->
 				<complete>
-					<size>62980659</size>
-					<checksum>d4643c1e84a6f3ff634533b8ff5449a0ab18e6e5</checksum>
+					<size>62981102</size>
+					<checksum>124da1e127e3dde3fdbdb27f693d047ccb3cc0fb</checksum>
 					<url>platform-UpsideDownCake_r02.zip</url>
 				</complete>
 			</archive>
@@ -4271,7 +4271,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="build-tools;34.0.0-rc2">
-		<!--Generated from bid:9649234, branch:git_udc-preview2-release-->
+		<!--Generated from bid:9663077, branch:git_udc-preview2-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>34</major>
@@ -4284,28 +4284,28 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Feb 24 14:21:34 2023.-->
+				<!--Built on: Wed Mar  8 03:24:35 2023.-->
 				<complete>
-					<size>60835778</size>
-					<checksum>0c0a92fe32525f0481973b631f528086b0962028</checksum>
+					<size>60835777</size>
+					<checksum>bce35f1524d2ea5f6326809dc7accff0ee2fe370</checksum>
 					<url>build-tools_r34-rc2-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Feb 24 14:21:28 2023.-->
+				<!--Built on: Wed Mar  8 03:24:29 2023.-->
 				<complete>
-					<size>63005164</size>
-					<checksum>3dd9aee08699e02e6ce9d56c1f94487f0688e045</checksum>
+					<size>63005203</size>
+					<checksum>c47d9c9d040567b1b62eefc1a6306b5acebe3a76</checksum>
 					<url>build-tools_r34-rc2-macosx.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Fri Feb 24 14:21:21 2023.-->
+				<!--Built on: Wed Mar  8 03:24:23 2023.-->
 				<complete>
-					<size>58246215</size>
-					<checksum>6f78c88e65a6e55f672110ab1e357be78262dc27</checksum>
+					<size>58246192</size>
+					<checksum>60c51d073ac760fdec647b9fecf086d1a35f7841</checksum>
 					<url>build-tools_r34-rc2-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -8695,41 +8695,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platform-tools">
-		<!--Generated from:ab bid:9570255 branch:aosp-sdk-release-->
+		<!--Generated from:ab bid:9680074 branch:aosp-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>34</major>
 			<minor>0</minor>
-			<micro>0</micro>
+			<micro>1</micro>
 		</revision>
 		<display-name>Android SDK Platform-Tools</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb  7 12:24:52 2023.-->
+				<!--Built on: Fri Mar  3 10:18:58 2023.-->
 				<complete>
-					<size>11214982</size>
-					<checksum>6bc1eb39437ae223e085d2cc6945d51d58d93bb0</checksum>
-					<url>platform-tools_r34.0.0-darwin.zip</url>
+					<size>11234201</size>
+					<checksum>e48d52653385e2a1ace5ccfa65fcc2e48acd690f</checksum>
+					<url>platform-tools_r34.0.1-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb  7 12:24:48 2023.-->
+				<!--Built on: Fri Mar  3 10:18:54 2023.-->
 				<complete>
-					<size>6384379</size>
-					<checksum>86bb6c1ff4ad8af8c5bb93acabd76926b6388826</checksum>
-					<url>platform-tools_r34.0.0-linux.zip</url>
+					<size>6395397</size>
+					<checksum>784446b1626e9a7e79aff08189acd04e24c8bd77</checksum>
+					<url>platform-tools_r34.0.1-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb  7 12:24:50 2023.-->
+				<!--Built on: Fri Mar  3 10:18:56 2023.-->
 				<complete>
-					<size>6125378</size>
-					<checksum>a79d9ec5943a7ef015bdbb2ca825c7da842836df</checksum>
-					<url>platform-tools_r34.0.0-windows.zip</url>
+					<size>6133145</size>
+					<checksum>db8a17c4780136216c4f2e7ebd005171b6ccb982</checksum>
+					<url>platform-tools_r34.0.1-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
