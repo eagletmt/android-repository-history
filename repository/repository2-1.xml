@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-03-23 18:25:18.845652 with ADRT.-->
+	<!--Generated on 2023-03-28 00:47:55.325805 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7687,46 +7687,49 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="skiaparser;3">
-		<!--Generated from:ab bid:8339467 branch:git_studio-main-->
+		<!--Generated from:ab bid:9810586 branch:git_studio-main-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
-		<display-name>Layout Inspector image server for API 31 and T</display-name>
+		<display-name>Layout Inspector image server for API 31-34</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 22 21:10:35 2022.-->
+				<!--Built on: Fri Mar 24 15:04:26 2023.-->
 				<complete>
-					<size>7014665</size>
-					<checksum>72be6f7630b28e02449a8bbadff7589688f3c3d6</checksum>
-					<url>skiaparser-8339467-linux.zip</url>
+					<size>6728126</size>
+					<checksum>f75f2349ffcb791c1dc162cd37664e2e4677f43f</checksum>
+					<url>skiaparser-9810586-linux-x64.zip</url>
 				</complete>
 				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 22 21:10:36 2022.-->
+				<!--Built on: Fri Mar 24 15:04:27 2023.-->
 				<complete>
-					<size>17231541</size>
-					<checksum>53c688b0d2458bcead273791745fb27efa3b58ce</checksum>
-					<url>skiaparser-8339467-mac.zip</url>
+					<size>7846286</size>
+					<checksum>b919c89a191bddff79393003ce3fea74cf2b86df</checksum>
+					<url>skiaparser-9810586-mac-x64.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 22 21:10:38 2022.-->
+				<!--Built on: Fri Mar 24 15:04:30 2023.-->
 				<complete>
-					<size>10174177</size>
-					<checksum>8d08dc7c56531092f1704a24b3457bd0455a4be1</checksum>
-					<url>skiaparser-8339467-win.zip</url>
+					<size>7336670</size>
+					<checksum>e9998ee98d012cf998ca7f6a771c111f380fac3f</checksum>
+					<url>skiaparser-9810586-win-x64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7767,7 +7770,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
