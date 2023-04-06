@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-03-28 00:47:55.325805 with ADRT.-->
+	<!--Generated on 2023-04-05 22:48:44.081677 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7687,41 +7687,41 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="skiaparser;3">
-		<!--Generated from:ab bid:9810586 branch:git_studio-main-->
+		<!--Generated from:ab bid:9858946 branch:git_studio-main-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Layout Inspector image server for API 31-34</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 24 15:04:26 2023.-->
+				<!--Built on: Fri Mar 31 15:33:03 2023.-->
 				<complete>
 					<size>6728126</size>
-					<checksum>f75f2349ffcb791c1dc162cd37664e2e4677f43f</checksum>
-					<url>skiaparser-9810586-linux-x64.zip</url>
+					<checksum>7fea0f8b5abaaa73b35e7703e54b641d0e60bba1</checksum>
+					<url>skiaparser-9858946-linux-x64.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar 24 15:04:27 2023.-->
+				<!--Built on: Fri Mar 31 15:33:04 2023.-->
 				<complete>
 					<size>7846286</size>
-					<checksum>b919c89a191bddff79393003ce3fea74cf2b86df</checksum>
-					<url>skiaparser-9810586-mac-x64.zip</url>
+					<checksum>d08e3a0dab58ad944c837e331f5b2088a7b683eb</checksum>
+					<url>skiaparser-9858946-mac-x64.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Fri Mar 24 15:04:30 2023.-->
+				<!--Built on: Fri Mar 31 15:33:05 2023.-->
 				<complete>
 					<size>7336670</size>
-					<checksum>e9998ee98d012cf998ca7f6a771c111f380fac3f</checksum>
-					<url>skiaparser-9810586-win-x64.zip</url>
+					<checksum>316c255048f2164a8a3e57692b5b232d2db0963f</checksum>
+					<url>skiaparser-9858946-win-x64.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -7770,7 +7770,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
