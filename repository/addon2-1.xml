@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/01" xmlns:sdk="http://schemas.android.com/repository/android/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-03-23 18:32:03.202934 with ADRT.-->
+	<!--Generated on 2023-04-18 18:49:06.045340 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2171,12 +2171,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 			<minor>0</minor>
 			<micro>0</micro>
 		</revision>
-		<display-name>Android Emulator Hypervisor Driver (installer)</display-name>
+		<display-name>Android Emulator hypervisor driver (installer)</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Dec  9 22:28:37 2022.-->
+				<!--Built on: Fri Mar 24 16:24:42 2023.-->
 				<complete>
 					<size>168741</size>
 					<checksum>1a4ef9875cb0adfe5500632ad7140027cfb080d9</checksum>
