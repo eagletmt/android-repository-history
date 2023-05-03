@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-04-26 21:35:10.983405 with ADRT.-->
+	<!--Generated on 2023-05-03 20:44:37.844410 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1240,7 +1240,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-26;default;arm64-v8a">
-		<!--Generated from bid:8357227, branch:git_oc-emu-release-->
+		<!--Generated from bid:10042266, branch:git_oc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>26</api-level>
 			<tag>
@@ -1250,7 +1250,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1266,17 +1266,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 25 21:33:16 2022.-->
+				<!--Built on: Mon May  1 18:23:23 2023.-->
 				<complete>
-					<size>328910124</size>
-					<checksum>c3199baf49790fc65f90f7ce734435d5778f6a30</checksum>
-					<url>arm64-v8a-26_r01.zip</url>
+					<size>330014927</size>
+					<checksum>12353141d08dd302fbebc03872f0e1ca7357c55f</checksum>
+					<url>arm64-v8a-26_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-27;default;arm64-v8a">
-		<!--Generated from bid:8352955, branch:git_oc-mr1-emu-release-->
+		<!--Generated from bid:10042287, branch:git_oc-mr1-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>27</api-level>
 			<tag>
@@ -1286,7 +1286,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1302,11 +1302,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 25 04:44:05 2022.-->
+				<!--Built on: Mon May  1 18:24:36 2023.-->
 				<complete>
-					<size>331796092</size>
-					<checksum>cb01199edae33ce375c6d8e08aea08911ff0d583</checksum>
-					<url>arm64-v8a-27_r01.zip</url>
+					<size>332173536</size>
+					<checksum>e014473ac510cc9d8e9b412826332923277fa827</checksum>
+					<url>arm64-v8a-27_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
