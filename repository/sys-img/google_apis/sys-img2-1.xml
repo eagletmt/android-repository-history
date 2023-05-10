@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-05-03 20:45:22.618337 with ADRT.-->
+	<!--Generated on 2023-05-09 23:15:31.422960 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2437,7 +2437,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86_64">
-		<!--Generated from bid:7800151, branch:git_rvc-emu-release-->
+		<!--Generated from bid:10067904, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2451,10 +2451,10 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
@@ -2468,17 +2468,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct  7 02:15:59 2021.-->
+				<!--Built on: Thu May  4 17:01:27 2023.-->
 				<complete>
-					<size>1438274971</size>
-					<checksum>8ec579d5fe31804dd80132f1678655bfc015609b</checksum>
-					<url>x86_64-30_r11.zip</url>
+					<size>1438275289</size>
+					<checksum>efb07cd6268d93d7e2be88883bc9249a00b378b3</checksum>
+					<url>x86_64-30_r12.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;x86_64">
-		<!--Generated from bid:9534912, branch:git_sc-emu-release-->
+		<!--Generated from bid:10064458, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2492,7 +2492,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>12</major>
+			<major>13</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2509,27 +2509,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb  7 17:46:17 2023.-->
+				<!--Built on: Fri May  5 16:49:39 2023.-->
 				<complete>
-					<size>1470788066</size>
-					<checksum>c8fc2b6b4952f55180dbc3a7ec70330f389bed97</checksum>
-					<url>x86_64-31_r12.zip</url>
+					<size>1470788213</size>
+					<checksum>93d3bb0fc37e5cb144eabb0158a98b988d4bb31c</checksum>
+					<url>x86_64-31_r13.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>11</major>
-						</based-on>
-						<size>105629299</size>
-						<checksum>f415cd3586737f13e9bd58232b4abf24b5246751</checksum>
-						<url>sys-img-9309864-sdk_gphone64_x86_64-userdebug-9534912-sdk_gphone64_x86_64-userdebug-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis;x86_64">
-		<!--Generated from bid:9681055, branch:git_sc-v2-emu-release-->
+		<!--Generated from bid:10056955, branch:git_sc-v2-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<tag>
@@ -2543,7 +2533,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>7</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2560,11 +2550,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar  2 21:11:53 2023.-->
+				<!--Built on: Thu May  4 06:24:41 2023.-->
 				<complete>
-					<size>1511072307</size>
-					<checksum>5a7f27af48e1108e220f45e7b53f165b011b686d</checksum>
-					<url>x86_64-32_r06.zip</url>
+					<size>1511072885</size>
+					<checksum>4b7fb40deefc6e7b5721774ce8f46310c2b434ca</checksum>
+					<url>x86_64-32_r07.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2611,7 +2601,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis;x86_64">
-		<!--Generated from bid:9834182, branch:git_udc-beta1-release-->
+		<!--Generated from bid:10043902, branch:git_udc-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -2626,7 +2616,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2643,11 +2633,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 30 01:18:55 2023.-->
+				<!--Built on: Tue May  2 03:47:02 2023.-->
 				<complete>
-					<size>1504588176</size>
-					<checksum>940b199e95f10bb0bfc521ca258861d66e27e593</checksum>
-					<url>x86_64-UpsideDownCake_r03.zip</url>
+					<size>1491492723</size>
+					<checksum>15a514144f57865a84abbd6df8e6897c80bb8b88</checksum>
+					<url>x86_64-UpsideDownCake_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -3017,7 +3007,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis;arm64-v8a">
-		<!--Generated from bid:9834182, branch:git_udc-beta1-release-->
+		<!--Generated from bid:10043902, branch:git_udc-beta2-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -3032,7 +3022,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>3</major>
+			<major>4</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -3049,11 +3039,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar 30 01:23:52 2023.-->
+				<!--Built on: Tue May  2 03:51:53 2023.-->
 				<complete>
-					<size>1563928571</size>
-					<checksum>31d54a56e73a1bdc000fc821a0ffccd68e2ecb02</checksum>
-					<url>arm64-v8a-UpsideDownCake_r03.zip</url>
+					<size>1549237055</size>
+					<checksum>2335c0cf2c76cb1883a6d6ee38e6fff99989596f</checksum>
+					<url>arm64-v8a-UpsideDownCake_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>

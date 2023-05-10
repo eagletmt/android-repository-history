@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-05-03 20:44:37.844410 with ADRT.-->
+	<!--Generated on 2023-05-09 23:14:02.666635 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2456,7 +2456,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;default;x86_64">
-		<!--Generated from bid:7758210, branch:git_rvc-emu-release-->
+		<!--Generated from bid:10067904, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2466,7 +2466,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>10</major>
+			<major>11</major>
 		</revision>
 		<display-name>Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2482,17 +2482,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 23 15:06:19 2021.-->
+				<!--Built on: Thu May  4 17:00:37 2023.-->
 				<complete>
-					<size>676379913</size>
-					<checksum>e08119b65d2c188ef69f127028eb4c8cc632cd8f</checksum>
-					<url>x86_64-30_r10.zip</url>
+					<size>676379777</size>
+					<checksum>5e4de3946d46f88856c35efcc4d797b381456347</checksum>
+					<url>x86_64-30_r11.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;default;x86_64">
-		<!--Generated from bid:8752307, branch:git_sc-emu-release-->
+		<!--Generated from bid:10064458, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2502,7 +2502,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2518,11 +2518,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun 28 09:07:00 2022.-->
+				<!--Built on: Fri May  5 16:48:48 2023.-->
 				<complete>
-					<size>657244568</size>
-					<checksum>1200d6983af477fd6439f11cc5cabf9866bc4a16</checksum>
-					<url>x86_64-31_r03.zip</url>
+					<size>657246510</size>
+					<checksum>58bff3cb182c79bbfe3980fe77b87b51b9f7ad71</checksum>
+					<url>x86_64-31_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
