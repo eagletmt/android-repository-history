@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-05-23 18:11:25.253425 with ADRT.-->
+	<!--Generated on 2023-05-25 01:22:28.868928 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1745,6 +1745,48 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;x86_64">
+		<!--Generated from bid:10115423, branch:udc-rubidium-alpha8-release-x86_64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>33</api-level>
+			<codename>UpsideDownCakePrivacySandbox</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May 16 14:10:54 2023.-->
+				<complete>
+					<size>1464123578</size>
+					<checksum>687378b8490f67bbb9b081fdf50c3c86f7f6a6bb</checksum>
+					<url>x86_64-UpsideDownCakePrivacySandbox_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-28;google_apis_playstore;arm64-v8a">
 		<!--Generated from bid:9767327, branch:pi-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -2239,6 +2281,58 @@ January 16, 2019</license>
 					<size>1513459071</size>
 					<checksum>b9f7a7d25450e2385a8334af688ab862fc723dba</checksum>
 					<url>arm64-v8a-UpsideDownCake_r04-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;arm64-v8a">
+		<!--Generated from bid:10115423, branch:udc-rubidium-alpha8-release-arm64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>33</api-level>
+			<codename>UpsideDownCakePrivacySandbox</codename>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May 16 14:13:18 2023.-->
+				<complete>
+					<size>1513441966</size>
+					<checksum>a312b771639410ede98d101e21f0d113201d2cc4</checksum>
+					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r01-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 16 14:13:08 2023.-->
+				<complete>
+					<size>1513441966</size>
+					<checksum>a312b771639410ede98d101e21f0d113201d2cc4</checksum>
+					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r01-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
