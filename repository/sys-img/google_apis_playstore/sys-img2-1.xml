@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-05-25 01:22:28.868928 with ADRT.-->
+	<!--Generated on 2023-05-25 16:22:22.800732 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1704,7 +1704,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis_playstore;x86_64">
-		<!--Generated from bid:10043902, branch:udc-beta2-release-x86_64-playstore-->
+		<!--Generated from bid:10170211, branch:udc-beta2-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -1719,7 +1719,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1736,11 +1736,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  2 15:26:19 2023.-->
+				<!--Built on: Tue May 23 22:50:47 2023.-->
 				<complete>
-					<size>1464098477</size>
-					<checksum>4647cbb1877cca1394b1a4fff52c644e6220d07a</checksum>
-					<url>x86_64-UpsideDownCake_r04.zip</url>
+					<size>1464133359</size>
+					<checksum>a6e9745715acad2c01a45bdb6eb10a7d98920f23</checksum>
+					<url>x86_64-UpsideDownCake_r05.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2235,7 +2235,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCake;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:10043902, branch:udc-beta2-release-arm64-playstore-->
+		<!--Generated from bid:10170211, branch:udc-beta2-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<codename>UpsideDownCake</codename>
@@ -2250,7 +2250,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>4</major>
+			<major>5</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2267,20 +2267,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  2 15:28:47 2023.-->
+				<!--Built on: Tue May 23 23:01:00 2023.-->
 				<complete>
-					<size>1513459071</size>
-					<checksum>b9f7a7d25450e2385a8334af688ab862fc723dba</checksum>
-					<url>arm64-v8a-UpsideDownCake_r04-darwin.zip</url>
+					<size>1513469372</size>
+					<checksum>35088e4804083a27ccb6ee05cc93977afd209059</checksum>
+					<url>arm64-v8a-UpsideDownCake_r05-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue May  2 15:28:38 2023.-->
+				<!--Built on: Tue May 23 22:58:48 2023.-->
 				<complete>
-					<size>1513459071</size>
-					<checksum>b9f7a7d25450e2385a8334af688ab862fc723dba</checksum>
-					<url>arm64-v8a-UpsideDownCake_r04-linux.zip</url>
+					<size>1513469372</size>
+					<checksum>35088e4804083a27ccb6ee05cc93977afd209059</checksum>
+					<url>arm64-v8a-UpsideDownCake_r05-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
