@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-06-07 00:55:50.620100 with ADRT.-->
+	<!--Generated on 2023-06-08 14:28:41.521115 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -343,6 +343,30 @@ June 2014.</license>
 					<size>63180660</size>
 					<checksum>618f593e7d30c1c9ff530d1bf2fec155d47d43e0</checksum>
 					<url>platform-34-ext7_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="platforms;android-UpsideDownCake">
+		<!--Generated from bid:10043902, branch:git_udc-beta2-release-->
+		<type-details xsi:type="sdk:platformDetailsType">
+			<api-level>33</api-level>
+			<codename>UpsideDownCake</codename>
+			<layoutlib api="15"/>
+		</type-details>
+		<revision>
+			<major>4</major>
+		</revision>
+		<display-name>Android SDK Platform UpsideDownCake</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon May  1 20:19:41 2023.-->
+				<complete>
+					<size>63483782</size>
+					<checksum>a0fe6b17b8ea26c72f4a1feb0234aab6b20fd4be</checksum>
+					<url>platform-UpsideDownCake_r04.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -7919,7 +7943,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
