@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-07-21 00:24:58.832347 with ADRT.-->
+	<!--Generated on 2023-07-29 00:14:00.053567 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7177,83 +7177,163 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="cmdline-tools;11.0-alpha07">
-		<!--Generated from:ab bid:9644228 branch:git_studio-main-->
+	<remotePackage path="cmdline-tools;12.0-alpha15">
+		<!--Generated from:ab bid:10572941 branch:git_studio-hedgehog-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 			<minor>0</minor>
-			<preview>07</preview>
+			<preview>15</preview>
 		</revision>
 		<display-name>Android SDK Command-line Tools</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:29 2023.-->
+				<!--Built on: Thu Jul 27 23:58:22 2023.-->
 				<complete>
-					<size>147822296</size>
-					<checksum>c43e4fb8567c4625e8daf4cee0a5490f826a5442</checksum>
-					<url>commandlinetools-linux-9644228_latest.zip</url>
+					<size>153543827</size>
+					<checksum>9f67d98e686616bf92122b03051f02f695b11415</checksum>
+					<url>commandlinetools-linux-10572941_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:30 2023.-->
+				<!--Built on: Thu Jul 27 23:58:23 2023.-->
 				<complete>
-					<size>147822280</size>
-					<checksum>2c97234849128cb75b0691cf652ab098707c610c</checksum>
-					<url>commandlinetools-mac-9644228_latest.zip</url>
+					<size>153543811</size>
+					<checksum>feac1c4ad5e78e506cb55216181f3c5b58219e90</checksum>
+					<url>commandlinetools-mac-10572941_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:31 2023.-->
+				<!--Built on: Thu Jul 27 23:58:25 2023.-->
 				<complete>
-					<size>147798151</size>
-					<checksum>2bfc8fad022acce100a5b0583def1ca5bc56eff1</checksum>
-					<url>commandlinetools-win-9644228_latest.zip</url>
+					<size>153519682</size>
+					<checksum>4956c615fa087f5a716ffde76684085366c5a5bf</checksum>
+					<url>commandlinetools-win-10572941_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="cmdline-tools;10.0-beta04">
-		<!--Generated from:ab bid:9645777 branch:git_studio-flamingo-release-->
+	<remotePackage path="cmdline-tools;11.0-rc01">
+		<!--Generated from:ab bid:10320515 branch:git_studio-giraffe-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>10</major>
+			<major>11</major>
 			<minor>0</minor>
-			<preview>04</preview>
+			<preview>01</preview>
 		</revision>
 		<display-name>Android SDK Command-line Tools</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:49 2023.-->
+				<!--Built on: Thu Jul 27 06:00:25 2023.-->
 				<complete>
-					<size>138718717</size>
-					<checksum>fe41906d2ce82df4cde74fe258e0ccdb283de60a</checksum>
-					<url>commandlinetools-linux-9645777_latest.zip</url>
+					<size>148831286</size>
+					<checksum>26048ffc9a0b0b6ef0fe491e3796486d2387f043</checksum>
+					<url>commandlinetools-linux-10320515_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:51 2023.-->
+				<!--Built on: Thu Jul 27 06:00:26 2023.-->
 				<complete>
-					<size>138718701</size>
-					<checksum>021540982a843ae2c9b4e0a5c2034b29681b4f70</checksum>
-					<url>commandlinetools-mac-9645777_latest.zip</url>
+					<size>148831270</size>
+					<checksum>8cf501a4efbcc3be6bc15a48ad17fcda8bf03116</checksum>
+					<url>commandlinetools-mac-10320515_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:52 2023.-->
+				<!--Built on: Thu Jul 27 06:00:27 2023.-->
 				<complete>
-					<size>138694572</size>
-					<checksum>9c3877a2926c1e73af981964b0f4381a6d68fb21</checksum>
-					<url>commandlinetools-win-9645777_latest.zip</url>
+					<size>148807141</size>
+					<checksum>fe8694f50bf5b132c0c92f4a695f51aac71c8f27</checksum>
+					<url>commandlinetools-win-10320515_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="cmdline-tools;11.0">
+		<!--Generated from:ab bid:10406996 branch:git_studio-giraffe-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>11</major>
+			<minor>0</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jul 27 06:00:42 2023.-->
+				<complete>
+					<size>148832188</size>
+					<checksum>87b485c7283cba69e41c10f05bf832d2fd691552</checksum>
+					<url>commandlinetools-linux-10406996_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jul 27 06:00:43 2023.-->
+				<complete>
+					<size>148832172</size>
+					<checksum>4b831e6a978ce9170fc49a8010e2ece4be790c73</checksum>
+					<url>commandlinetools-mac-10406996_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jul 27 06:00:44 2023.-->
+				<complete>
+					<size>148808043</size>
+					<checksum>9b0082db87cf1738866f80160f497b8a53e149a3</checksum>
+					<url>commandlinetools-win-10406996_latest.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="cmdline-tools;10.0">
+		<!--Generated from:ab bid:9862592 branch:git_studio-flamingo-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>10</major>
+			<minor>0</minor>
+		</revision>
+		<display-name>Android SDK Command-line Tools</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Jul 27 06:00:58 2023.-->
+				<complete>
+					<size>138733165</size>
+					<checksum>a787f0c35d3970f2ad634f7d91a2e7bc49e2c7f5</checksum>
+					<url>commandlinetools-linux-9862592_latest.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jul 27 06:00:59 2023.-->
+				<complete>
+					<size>138733149</size>
+					<checksum>2a0c97c8d9b11f9a64be0a7058bcdbf1aaab9910</checksum>
+					<url>commandlinetools-mac-9862592_latest.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Thu Jul 27 06:01:00 2023.-->
+				<complete>
+					<size>138709020</size>
+					<checksum>5a03c5ce16f4c99ffe7bded82798b01b07a79bc0</checksum>
+					<url>commandlinetools-win-9862592_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7580,10 +7660,10 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:9477386 branch:git_studio-ee-release-->
+		<!--Generated from:ab bid:10406996 branch:git_studio-giraffe-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>9</major>
+			<major>11</major>
 			<minor>0</minor>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -7591,111 +7671,111 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jan 17 19:49:44 2023.-->
+				<!--Built on: Thu Jul 27 06:01:06 2023.-->
 				<complete>
-					<size>133507477</size>
-					<checksum>7f92d6e0783a6d73ade5396fe4cfcb58544ef14b</checksum>
-					<url>commandlinetools-linux-9477386_latest.zip</url>
+					<size>148832188</size>
+					<checksum>87b485c7283cba69e41c10f05bf832d2fd691552</checksum>
+					<url>commandlinetools-linux-10406996_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jan 17 19:49:45 2023.-->
+				<!--Built on: Thu Jul 27 06:01:07 2023.-->
 				<complete>
-					<size>133507463</size>
-					<checksum>587441bc37d957857c1f654726eb7e04ee9ca3e0</checksum>
-					<url>commandlinetools-mac-9477386_latest.zip</url>
+					<size>148832172</size>
+					<checksum>4b831e6a978ce9170fc49a8010e2ece4be790c73</checksum>
+					<url>commandlinetools-mac-10406996_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jan 17 19:49:45 2023.-->
+				<!--Built on: Thu Jul 27 06:01:07 2023.-->
 				<complete>
-					<size>133486337</size>
-					<checksum>f8cd24223fee3b4cff857c9435caa72be0d08b70</checksum>
-					<url>commandlinetools-win-9477386_latest.zip</url>
+					<size>148808043</size>
+					<checksum>9b0082db87cf1738866f80160f497b8a53e149a3</checksum>
+					<url>commandlinetools-win-10406996_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:9645777 branch:git_studio-flamingo-release-->
+		<!--Generated from:ab bid:10320515 branch:git_studio-giraffe-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>10</major>
+			<major>11</major>
 			<minor>0</minor>
-			<preview>04</preview>
+			<preview>01</preview>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:58 2023.-->
+				<!--Built on: Thu Jul 27 06:01:12 2023.-->
 				<complete>
-					<size>138718717</size>
-					<checksum>fe41906d2ce82df4cde74fe258e0ccdb283de60a</checksum>
-					<url>commandlinetools-linux-9645777_latest.zip</url>
+					<size>148831286</size>
+					<checksum>26048ffc9a0b0b6ef0fe491e3796486d2387f043</checksum>
+					<url>commandlinetools-linux-10320515_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:33:59 2023.-->
+				<!--Built on: Thu Jul 27 06:01:13 2023.-->
 				<complete>
-					<size>138718701</size>
-					<checksum>021540982a843ae2c9b4e0a5c2034b29681b4f70</checksum>
-					<url>commandlinetools-mac-9645777_latest.zip</url>
+					<size>148831270</size>
+					<checksum>8cf501a4efbcc3be6bc15a48ad17fcda8bf03116</checksum>
+					<url>commandlinetools-mac-10320515_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:34:00 2023.-->
+				<!--Built on: Thu Jul 27 06:01:14 2023.-->
 				<complete>
-					<size>138694572</size>
-					<checksum>9c3877a2926c1e73af981964b0f4381a6d68fb21</checksum>
-					<url>commandlinetools-win-9645777_latest.zip</url>
+					<size>148807141</size>
+					<checksum>fe8694f50bf5b132c0c92f4a695f51aac71c8f27</checksum>
+					<url>commandlinetools-win-10320515_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:9644228 branch:git_studio-main-->
+		<!--Generated from:ab bid:10572941 branch:git_studio-hedgehog-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 			<minor>0</minor>
-			<preview>07</preview>
+			<preview>15</preview>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Feb 28 05:34:06 2023.-->
+				<!--Built on: Thu Jul 27 23:58:32 2023.-->
 				<complete>
-					<size>147822296</size>
-					<checksum>c43e4fb8567c4625e8daf4cee0a5490f826a5442</checksum>
-					<url>commandlinetools-linux-9644228_latest.zip</url>
+					<size>153543827</size>
+					<checksum>9f67d98e686616bf92122b03051f02f695b11415</checksum>
+					<url>commandlinetools-linux-10572941_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:34:07 2023.-->
+				<!--Built on: Thu Jul 27 23:58:33 2023.-->
 				<complete>
-					<size>147822280</size>
-					<checksum>2c97234849128cb75b0691cf652ab098707c610c</checksum>
-					<url>commandlinetools-mac-9644228_latest.zip</url>
+					<size>153543811</size>
+					<checksum>feac1c4ad5e78e506cb55216181f3c5b58219e90</checksum>
+					<url>commandlinetools-mac-10572941_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Feb 28 05:34:08 2023.-->
+				<!--Built on: Thu Jul 27 23:58:34 2023.-->
 				<complete>
-					<size>147798151</size>
-					<checksum>2bfc8fad022acce100a5b0583def1ca5bc56eff1</checksum>
-					<url>commandlinetools-win-9644228_latest.zip</url>
+					<size>153519682</size>
+					<checksum>4956c615fa087f5a716ffde76684085366c5a5bf</checksum>
+					<url>commandlinetools-win-10572941_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7902,7 +7982,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -7943,7 +8023,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
