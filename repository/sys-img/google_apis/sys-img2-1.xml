@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-07-21 00:34:46.367682 with ADRT.-->
+	<!--Generated on 2023-08-08 05:44:55.571532 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2478,7 +2478,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-31;google_apis;x86_64">
-		<!--Generated from bid:10064458, branch:git_sc-emu-release-->
+		<!--Generated from bid:10564458, branch:git_sc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>31</api-level>
 			<tag>
@@ -2492,7 +2492,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>13</major>
+			<major>14</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2509,11 +2509,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May  5 16:49:39 2023.-->
+				<!--Built on: Wed Jul 26 23:33:35 2023.-->
 				<complete>
-					<size>1470788213</size>
-					<checksum>93d3bb0fc37e5cb144eabb0158a98b988d4bb31c</checksum>
-					<url>x86_64-31_r13.zip</url>
+					<size>1470822277</size>
+					<checksum>9aedd3e85cad7a479146f6858f4a94840c2a3f29</checksum>
+					<url>x86_64-31_r14.zip</url>
 				</complete>
 			</archive>
 		</archives>
