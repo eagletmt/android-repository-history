@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-08-14 14:41:03.039359 with ADRT.-->
+	<!--Generated on 2023-08-15 17:31:34.342547 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -300,49 +300,49 @@ June 2014.</license>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
 	<remotePackage path="platforms;android-UpsideDownCakePrivacySandbox">
-		<!--Generated from bid:10115423, branch:git_udc-rubidium-alpha8-release-->
+		<!--Generated from bid:10628788, branch:git_udc-rubidium-dp9-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
-			<api-level>33</api-level>
+			<api-level>34</api-level>
 			<codename>UpsideDownCakePrivacySandbox</codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android SDK Platform UpsideDownCakePrivacySandbox</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat May 13 17:41:34 2023.-->
+				<!--Built on: Thu Aug 10 18:15:56 2023.-->
 				<complete>
-					<size>63911495</size>
-					<checksum>e8d6d1516e2ac0feb0e0ec20bcfb2fce483b961e</checksum>
-					<url>platform-UpsideDownCakePrivacySandbox_r01.zip</url>
+					<size>63995218</size>
+					<checksum>5701983e5660f11930e2da0ee28cb53426fd4933</checksum>
+					<url>platform-UpsideDownCakePrivacySandbox_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-34">
-		<!--Generated from bid:10229193, branch:git_udc-beta3-release-->
+		<!--Generated from bid:10591329, branch:git_udc-beta3-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>34</api-level>
 			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Android SDK Platform 34</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun  1 15:40:14 2023.-->
+				<!--Built on: Wed Aug  2 00:49:18 2023.-->
 				<complete>
-					<size>63180660</size>
-					<checksum>618f593e7d30c1c9ff530d1bf2fec155d47d43e0</checksum>
-					<url>platform-34-ext7_r01.zip</url>
+					<size>63180079</size>
+					<checksum>f09b07da8aea238a81b71d6fedb815e13aa13e58</checksum>
+					<url>platform-34-ext7_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -444,25 +444,25 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="platforms;android-33">
-		<!--Generated from bid:8808248, branch:git_tm-beta4-release-->
+		<!--Generated from bid:10595410, branch:git_tm-beta4-release-->
 		<type-details xsi:type="sdk:platformDetailsType">
 			<api-level>33</api-level>
 			<codename></codename>
 			<layoutlib api="15"/>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Android SDK Platform 33</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul  7 23:41:18 2022.-->
+				<!--Built on: Wed Aug  2 00:49:33 2023.-->
 				<complete>
-					<size>67334130</size>
-					<checksum>eef99bd4617e80da85187a183eba356d787100d9</checksum>
-					<url>platform-33_r02.zip</url>
+					<size>67334237</size>
+					<checksum>394bc86d8d3452aa4d419b67743025a6fb2cd9d0</checksum>
+					<url>platform-33-ext3_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -8005,7 +8005,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.22.1">
-		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip-->
+		<!--Generated from:cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/windows_release/3/20211215-131021/cmake-windows-3.22.1-2669b740-21e9-4d31-99f2-25f047c33f53-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/darwin_release/3/20211215-131219/cmake-darwin-3.22.1-610fb8e3-5633-41a6-b50b-ed5819f55cd6-for-studio.zip, cloud storage complete_src:/bigstore/ndk-kokoro-release-artifacts/prod/ndk/cmake/linux_release/3/20211215-131017/cmake-linux-3.22.1-5826e278-fe23-46d2-98c8-f977cf104d17-for-studio.zip-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -8046,7 +8046,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
