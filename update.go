@@ -69,7 +69,7 @@ func main() {
 		wg.Done()
 	}()
 	go func() {
-		updateAddons3(baseUrl)
+		updateAddons(baseUrl)
 		wg.Done()
 	}()
 	go func() {
@@ -113,32 +113,42 @@ func updateAddons2(baseUrl string) {
 	wg.Wait()
 }
 
-func updateAddons3(baseUrl string) {
-	filepath, err := save(baseUrl, "addons_list-3.xml")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	file, err := os.Open(filepath)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-	siteList := SiteList3{}
-	if err := xml.NewDecoder(file).Decode(&siteList); err != nil {
-		log.Fatal(err)
-	}
-
+func updateAddons(baseUrl string) {
 	var wg sync.WaitGroup
-	wg.Add(len(siteList.Sites))
-	for _, site := range siteList.Sites {
-		go func(site Site3) {
-			_, err := save(baseUrl, site.Url)
+	// addons_list versions are listed here as XML schema definition.
+	// https://android.googlesource.com/platform/tools/base/+/refs/heads/mirror-goog-studio-main/sdklib/src/main/resources/xsd/sources/
+	versions := []uint{3, 4, 5}
+	wg.Add(len(versions))
+	for _, version := range versions {
+		go func(version uint) {
+			filename := fmt.Sprintf("addons_list-%d.xml", version)
+			filepath, err := save(baseUrl, filename)
 			if err != nil {
 				log.Fatal(err)
 			}
+
+			file, err := os.Open(filepath)
+			if err != nil {
+				log.Fatal(err)
+			}
+			defer file.Close()
+			siteList := SiteList3{}
+			if err := xml.NewDecoder(file).Decode(&siteList); err != nil {
+				log.Fatal(err)
+			}
+
+			wg.Add(len(siteList.Sites))
+			for _, site := range siteList.Sites {
+				go func(site Site3) {
+					_, err := save(baseUrl, site.Url)
+					if err != nil {
+						log.Fatal(err)
+					}
+					wg.Done()
+				}(site)
+			}
 			wg.Done()
-		}(site)
+		}(version)
 	}
 	wg.Wait()
 }
