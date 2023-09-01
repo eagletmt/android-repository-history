@@ -161,7 +161,9 @@ func updateRepository(baseUrl string) {
 
 func updateRepository2(baseUrl string) {
 	var wg sync.WaitGroup
-	versions := []uint{1}
+	// repository2 versions are listed here as XML schema definition.
+	// https://android.googlesource.com/platform/tools/base/+/refs/heads/mirror-goog-studio-main/sdklib/src/main/resources/xsd/
+	versions := []uint{1, 2, 3}
 	wg.Add(len(versions))
 	for _, version := range versions {
 		go func(version uint) {
