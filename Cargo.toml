@@ -1,0 +1,16 @@
+[package]
+name = "android-repository-history"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1", features = ["backtrace"] }
+bytes = "1"
+quick-xml = { version = "0.30", features = ["serialize"] }
+reqwest = { version = "0.11", default-features = false, features = ["rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs"] }
