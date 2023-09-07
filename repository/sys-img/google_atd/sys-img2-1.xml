@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-08-29 22:14:34.407704 with ADRT.-->
+	<!--Generated on 2023-09-06 14:11:32.091296 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -728,7 +728,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 21 22:38:39 2021.-->
+				<!--Built on: Tue Sep 21 15:38:39 2021.-->
 				<complete>
 					<size>499621587</size>
 					<checksum>851978eaeda43c45cacb965765aa4513ed596042</checksum>
@@ -768,7 +768,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May 17 03:02:19 2023.-->
+				<!--Built on: Tue May 16 20:02:19 2023.-->
 				<complete>
 					<size>643900062</size>
 					<checksum>b3137c9ad0e3dfea315f53c8a81c5b480591732d</checksum>
@@ -808,7 +808,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun 22 20:58:56 2023.-->
+				<!--Built on: Thu Jun 22 13:58:56 2023.-->
 				<complete>
 					<size>653599363</size>
 					<checksum>feb32019317f4b71396db03d22e0f6a833f4e6fb</checksum>
@@ -848,7 +848,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Mar 20 22:48:39 2023.-->
+				<!--Built on: Mon Mar 20 15:48:39 2023.-->
 				<complete>
 					<size>658450453</size>
 					<checksum>564c125422890641a915a28f3ffa3395fc2cc934</checksum>
@@ -888,7 +888,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 10 05:42:04 2023.-->
+				<!--Built on: Thu Mar  9 21:42:04 2023.-->
 				<complete>
 					<size>669001499</size>
 					<checksum>8f8b5235dd1e268ae3b36afdd7365f5bc7316fe1</checksum>
@@ -928,7 +928,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Sep 21 22:38:57 2021.-->
+				<!--Built on: Tue Sep 21 15:38:57 2021.-->
 				<complete>
 					<size>514918609</size>
 					<checksum>c57a86a4ef6fc164f2be4d939ca3f9f053f8e96a</checksum>
@@ -968,7 +968,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jun 22 21:00:53 2023.-->
+				<!--Built on: Thu Jun 22 14:00:53 2023.-->
 				<complete>
 					<size>624157269</size>
 					<checksum>4002677e4d7874bf0951795ec730dc1272a5b95b</checksum>
@@ -1008,7 +1008,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Mar 20 22:50:37 2023.-->
+				<!--Built on: Mon Mar 20 15:50:37 2023.-->
 				<complete>
 					<size>627805626</size>
 					<checksum>6eda61798c381a7a02d690b58004f5aa86d8994b</checksum>
@@ -1048,7 +1048,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Mar 10 05:46:03 2023.-->
+				<!--Built on: Thu Mar  9 21:46:03 2023.-->
 				<complete>
 					<size>641563926</size>
 					<checksum>8e7d330ee18fa631232214b7a7e8c80f68b8afb7</checksum>
