@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-03 18:32:52.385551 with ADRT.-->
+	<!--Generated on 2023-10-04 08:37:00.519395 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -938,20 +938,20 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-wear;x86_64">
-		<!--Generated from bid:10092963, branch:git_tm-wear-kr1-dr-sdk-release-->
+		<!--Generated from bid:10882814, branch:git_tm-wear-kr3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<base-extension>true</base-extension>
 			<tag>
 				<id>android-wear</id>
-				<display>Wear OS 4 - Preview</display>
+				<display>Wear OS 4</display>
 			</tag>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
-		<display-name>Wear OS 4 - Preview Intel x86_64 Atom System Image</display-name>
+		<display-name>Wear OS 4 Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
@@ -959,30 +959,30 @@ January 16, 2019</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  9 15:17:30 2023.-->
+				<!--Built on: Fri Sep 29 21:20:09 2023.-->
 				<complete>
-					<size>1013350511</size>
-					<checksum type="sha1">91f88f49e9484a86f18600fbfdfd281619b5ce79</checksum>
-					<url>x86_64-33_r02.zip</url>
+					<size>1100218729</size>
+					<checksum type="sha1">94de5073c7078126614d8b7510aa4adde4327dd5</checksum>
+					<url>x86_64-33_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-wear;arm64-v8a">
-		<!--Generated from bid:10092963, branch:git_tm-wear-kr1-dr-sdk-release-->
+		<!--Generated from bid:10882814, branch:git_tm-wear-kr3-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<base-extension>true</base-extension>
 			<tag>
 				<id>android-wear</id>
-				<display>Wear OS 4 - Preview</display>
+				<display>Wear OS 4</display>
 			</tag>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
-		<display-name>Wear OS 4 - Preview ARM 64 v8a System Image</display-name>
+		<display-name>Wear OS 4 ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
 			<dependency path="patcher;v4"/>
@@ -990,11 +990,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue May  9 15:19:26 2023.-->
+				<!--Built on: Fri Sep 29 21:20:42 2023.-->
 				<complete>
-					<size>976844607</size>
-					<checksum type="sha1">d1d540281261cf23895004a18705b62a53928fe6</checksum>
-					<url>arm64-v8a-33_r02.zip</url>
+					<size>1063091901</size>
+					<checksum type="sha1">949a8b23b3abb217ad2f710bbffe58d4b81dd8db</checksum>
+					<url>arm64-v8a-33_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
