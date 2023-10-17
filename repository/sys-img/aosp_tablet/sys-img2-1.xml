@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-16 20:54:26.513943 with ADRT.-->
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--Generated on 2023-10-16 20:54:26.622307 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -697,254 +697,74 @@ January 16, 2019</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="system-images;android-32;android-desktop;x86_64">
-		<!--Generated from bid:9122189, branch:git_sc-v2-pc-emu-release-->
+	<remotePackage path="system-images;android-34;aosp_tablet;x86_64">
+		<!--Generated from bid:10921827, branch:git_udc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<base-extension>true</base-extension>
+			<api-level>34</api-level>
 			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
+				<id>aosp_tablet</id>
+				<display>AOSP Tablet</display>
 			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>5</major>
+			<major>1</major>
 		</revision>
-		<display-name>Desktop Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
+		<display-name>AOSP Tablet Intel x86_64 Atom System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Oct  4 16:51:05 2022.-->
-				<complete>
-					<size>1510796167</size>
-					<checksum type="sha1">be2a7c38588450c603c56eec3554d7d481090d72</checksum>
-					<url>x86_64-32_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-32;android-desktop;arm64-v8a">
-		<!--Generated from bid:9122189, branch:git_sc-v2-pc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<base-extension>true</base-extension>
-			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Desktop ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-arm-dbt-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="emulator">
-				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Oct  4 16:51:59 2022.-->
-				<complete>
-					<size>1516573017</size>
-					<checksum type="sha1">6af1a81e05e863b658c41fc80f71bf800eddfbd0</checksum>
-					<url>arm64-v8a-32_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-32;android-desktop;x86_64">
-		<!--Generated from bid:9493768, branch:git_sc-v2-pc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<base-extension>true</base-extension>
-			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>Desktop Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="emulator">
-				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
+					<major>29</major>
+					<minor>1</minor>
+					<micro>11</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 01:24:39 2023.-->
+				<!--Built on: Mon Oct  9 20:56:50 2023.-->
 				<complete>
-					<size>1510795436</size>
-					<checksum type="sha1">267d86b8b94a8ec5324b75e4b8a71e954ddedec7</checksum>
-					<url>x86_64-32_r06.zip</url>
+					<size>694949815</size>
+					<checksum>a66b86462ab22e9c2aa70b2548ec39dcff4c76fc</checksum>
+					<url>x86_64-34_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="system-images;android-32;android-desktop;arm64-v8a">
-		<!--Generated from bid:9493768, branch:git_sc-v2-pc-emu-release-->
+	<remotePackage path="system-images;android-34;aosp_tablet;arm64-v8a">
+		<!--Generated from bid:10921827, branch:git_udc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<base-extension>true</base-extension>
+			<api-level>34</api-level>
 			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
+				<id>aosp_tablet</id>
+				<display>AOSP Tablet</display>
 			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>6</major>
+			<major>1</major>
 		</revision>
-		<display-name>Desktop ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<display-name>AOSP Tablet ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
+					<major>29</major>
+					<minor>1</minor>
+					<micro>11</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 01:29:23 2023.-->
+				<!--Built on: Mon Oct  9 20:57:09 2023.-->
 				<complete>
-					<size>1516574141</size>
-					<checksum type="sha1">b003887d4ad98955e3fe23e822ca925383fa68b3</checksum>
-					<url>arm64-v8a-32_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-33;android-desktop;x86_64">
-		<!--Generated from bid:10930158, branch:git_tm-pc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>33</api-level>
-			<base-extension>true</base-extension>
-			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>Desktop Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="emulator">
-				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Oct 11 15:34:42 2023.-->
-				<complete>
-					<size>1636929828</size>
-					<checksum type="sha1">23046586869c49e8219a668ae7d6e573c992351b</checksum>
-					<url>x86_64-33_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-33;android-desktop;arm64-v8a">
-		<!--Generated from bid:10930158, branch:git_tm-pc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>33</api-level>
-			<base-extension>true</base-extension>
-			<tag>
-				<id>android-desktop</id>
-				<display>Desktop</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>Desktop ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-arm-dbt-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-			<dependency path="emulator">
-				<min-revision>
-					<major>30</major>
-					<minor>7</minor>
-					<micro>3</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Oct 11 15:39:49 2023.-->
-				<complete>
-					<size>1624428304</size>
-					<checksum type="sha1">82945b15007dab51b93d619f76a2cae48433d7be</checksum>
-					<url>arm64-v8a-33_r02.zip</url>
+					<size>679524835</size>
+					<checksum>fd1dc10eb09a787973722970a1e39a37cbfe9f5e</checksum>
+					<url>arm64-v8a-34_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>

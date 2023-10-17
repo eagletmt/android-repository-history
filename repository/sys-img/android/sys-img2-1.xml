@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-04 15:29:59.948547 with ADRT.-->
+	<!--Generated on 2023-10-16 20:52:28.768871 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1474,7 +1474,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;default;arm64-v8a">
-		<!--Generated from bid:10278734, branch:git_tm-emu-release-->
+		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -1484,7 +1484,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1500,17 +1500,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 18 13:59:58 2023.-->
+				<!--Built on: Thu Oct 12 12:38:19 2023.-->
 				<complete>
-					<size>672342096</size>
-					<checksum>34de2d779809958cdfbc8a2be850fba16751ced0</checksum>
-					<url>arm64-v8a-33_r01.zip</url>
+					<size>672331372</size>
+					<checksum>69883e92b77f8705af135ee86e1d87589f8f113e</checksum>
+					<url>arm64-v8a-33_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;default;arm64-v8a">
-		<!--Generated from bid:10866155, branch:git_udc-emu-release-->
+		<!--Generated from bid:10921827, branch:git_udc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -1520,7 +1520,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -1536,11 +1536,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 27 09:53:25 2023.-->
+				<!--Built on: Mon Oct  9 20:49:16 2023.-->
 				<complete>
-					<size>705098774</size>
-					<checksum>adb28e334b4778735ce752943be7d3373f59c39c</checksum>
-					<url>arm64-v8a-34_r01.zip</url>
+					<size>705123892</size>
+					<checksum>ab83da3f827ee72df97ebeedd296d16f616edb38</checksum>
+					<url>arm64-v8a-34_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2672,7 +2672,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;default;x86_64">
-		<!--Generated from bid:10278734, branch:git_tm-emu-release-->
+		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -2682,7 +2682,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2698,17 +2698,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 18 14:00:18 2023.-->
+				<!--Built on: Thu Oct 12 12:38:45 2023.-->
 				<complete>
-					<size>694002200</size>
-					<checksum>9c0d440737e76145804059347a1e014e0c530e28</checksum>
-					<url>x86_64-33_r01.zip</url>
+					<size>694005732</size>
+					<checksum>d4698590184a21fe1e8754284130ad3006b5fc79</checksum>
+					<url>x86_64-33_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;default;x86_64">
-		<!--Generated from bid:10866155, branch:git_udc-emu-release-->
+		<!--Generated from bid:10921827, branch:git_udc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -2718,7 +2718,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -2734,11 +2734,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 27 09:53:47 2023.-->
+				<!--Built on: Mon Oct  9 20:49:36 2023.-->
 				<complete>
-					<size>720716571</size>
-					<checksum>da2fc1e01150142f7152eea33f36df6fe5917e15</checksum>
-					<url>x86_64-34_r01.zip</url>
+					<size>720744990</size>
+					<checksum>f5fe4d75eb589f5f876232422aefbc30f18a8ee7</checksum>
+					<url>x86_64-34_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>

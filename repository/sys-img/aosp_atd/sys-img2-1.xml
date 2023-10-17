@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-04 15:42:18.919312 with ADRT.-->
+	<!--Generated on 2023-10-16 20:54:25.156426 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -858,7 +858,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;aosp_atd;x86_64">
-		<!--Generated from bid:9219351, branch:git_tm-emu-release-->
+		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -872,7 +872,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>AOSP ATD Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -888,11 +888,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar  9 21:13:45 2023.-->
+				<!--Built on: Thu Oct 12 13:57:16 2023.-->
 				<complete>
-					<size>582087470</size>
-					<checksum>321a05d74b22151ff5c5152a39e9e09c93f7d102</checksum>
-					<url>x86_64-33_r01.zip</url>
+					<size>582115034</size>
+					<checksum>6f0b094b55617719294a080bc08816b4e8cb270a</checksum>
+					<url>x86_64-33_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1018,7 +1018,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;aosp_atd;arm64-v8a">
-		<!--Generated from bid:9302419, branch:git_tm-emu-release-->
+		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<tag>
@@ -1032,7 +1032,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>1</major>
+			<major>2</major>
 		</revision>
 		<display-name>AOSP ATD ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1048,11 +1048,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Mar  9 21:39:43 2023.-->
+				<!--Built on: Thu Oct 12 13:57:36 2023.-->
 				<complete>
-					<size>559228332</size>
-					<checksum>3b9bc83d8da4423488e6f5616f2a7a3bb1666559</checksum>
-					<url>arm64-v8a-33_r01.zip</url>
+					<size>559254461</size>
+					<checksum>1169bf57193024fca76f1c52470b2aab3be7d566</checksum>
+					<url>arm64-v8a-33_r02.zip</url>
 				</complete>
 			</archive>
 		</archives>

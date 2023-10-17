@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-04 15:41:34.171991 with ADRT.-->
+	<!--Generated on 2023-10-16 20:53:58.373840 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1704,7 +1704,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;google_apis_playstore;x86_64">
-		<!--Generated from bid:10866155, branch:udc-emu-release-x86_64-playstore-->
+		<!--Generated from bid:10921827, branch:udc-emu-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -1718,7 +1718,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1735,11 +1735,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 27 10:28:39 2023.-->
+				<!--Built on: Mon Oct  9 20:53:45 2023.-->
 				<complete>
-					<size>1510737444</size>
-					<checksum type="sha1">39506b27666582d577763003341e485083cb5e08</checksum>
-					<url>x86_64-34_r09.zip</url>
+					<size>1510773206</size>
+					<checksum type="sha1">eab92e17f24e3c19d4eb86e36fdda43805851255</checksum>
+					<url>x86_64-34_r10.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -1782,6 +1782,47 @@ January 16, 2019</license>
 					<size>1514888929</size>
 					<checksum type="sha1">c43caa79b262f6baea715f7174e614fb6ebd0922</checksum>
 					<url>x86_64-UpsideDownCakePrivacySandbox_r02.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-34;google_apis_playstore;x86_64">
+		<!--Generated from bid:10864030, branch:udc-sdk-ext8-release-x86_64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>34</api-level>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Oct  9 21:53:32 2023.-->
+				<complete>
+					<size>1502940011</size>
+					<checksum type="sha1">4704341d617f13997d52b74da8c1641a2b796681</checksum>
+					<url>x86_64-34_r06.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2234,7 +2275,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:10866155, branch:udc-emu-release-arm64-playstore-->
+		<!--Generated from bid:10921827, branch:udc-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -2248,7 +2289,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>9</major>
+			<major>10</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2265,20 +2306,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Sep 27 10:31:15 2023.-->
+				<!--Built on: Mon Oct  9 20:56:06 2023.-->
 				<complete>
-					<size>1548894980</size>
-					<checksum type="sha1">79f061e9388cac80172a195ae61f6b370adc984a</checksum>
-					<url>arm64-v8a-34_r09-darwin.zip</url>
+					<size>1548915108</size>
+					<checksum type="sha1">eddfc3bb89e9390928e46134cae6c249059834f1</checksum>
+					<url>arm64-v8a-34_r10-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Sep 27 10:31:07 2023.-->
+				<!--Built on: Mon Oct  9 20:56:00 2023.-->
 				<complete>
-					<size>1548894980</size>
-					<checksum type="sha1">79f061e9388cac80172a195ae61f6b370adc984a</checksum>
-					<url>arm64-v8a-34_r09-linux.zip</url>
+					<size>1548915108</size>
+					<checksum type="sha1">eddfc3bb89e9390928e46134cae6c249059834f1</checksum>
+					<url>arm64-v8a-34_r10-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
@@ -2331,6 +2372,57 @@ January 16, 2019</license>
 					<size>1553125173</size>
 					<checksum type="sha1">e6aabf922aa936365236aa1ad5525a453ea7351e</checksum>
 					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r02-linux.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-34;google_apis_playstore;arm64-v8a">
+		<!--Generated from bid:10864030, branch:udc-sdk-ext8-release-arm64-playstore-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>34</api-level>
+			<tag>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google Play ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Oct  9 22:03:29 2023.-->
+				<complete>
+					<size>1563791983</size>
+					<checksum type="sha1">4bc4fd4a2cba586c9e3e36325c1a74244802a04a</checksum>
+					<url>arm64-v8a-34_r06-darwin.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+			</archive>
+			<archive>
+				<!--Built on: Mon Oct  9 22:01:13 2023.-->
+				<complete>
+					<size>1563791983</size>
+					<checksum type="sha1">4bc4fd4a2cba586c9e3e36325c1a74244802a04a</checksum>
+					<url>arm64-v8a-34_r06-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
