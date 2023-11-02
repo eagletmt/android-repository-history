@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-26 14:13:32.051301 with ADRT.-->
+	<!--Generated on 2023-11-02 16:32:56.443999 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -716,7 +716,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 26 16:02:25 2018.-->
+				<!--Built on: Thu Jul 26 23:02:25 2018.-->
 				<complete>
 					<size>268946785</size>
 					<checksum type="sha1">2f8a1988188d6abfd6c6395baeb4471a034dc1e8</checksum>
@@ -744,7 +744,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 26 16:02:18 2018.-->
+				<!--Built on: Thu Jul 26 23:02:18 2018.-->
 				<complete>
 					<size>249428246</size>
 					<checksum type="sha1">b63e28a47f11b639dd94981a458b7abfa89ac331</checksum>
@@ -772,7 +772,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 26 20:47:41 2018.-->
+				<!--Built on: Fri Jul 27 03:47:41 2018.-->
 				<complete>
 					<size>293118949</size>
 					<checksum type="sha1">c78efd5a155622eb490be9d326f5783993375c35</checksum>
@@ -797,28 +797,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:15:19 2020.-->
+				<!--Built on: Fri Jul 24 23:15:19 2020.-->
 				<complete>
 					<size>340921232</size>
 					<checksum type="sha1">094575ec634a662115a7a4c2b63d1743dfbca43c</checksum>
 					<url>x86-23_r21.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>19</major>
-						</based-on>
-						<size>52073290</size>
-						<checksum type="sha1">60a47d2f9fed55307598a289753683afe96e021d</checksum>
-						<url>sys-img-5525988-sdk_google_atv_x86-sdk-6695544-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -841,7 +828,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat May 26 18:17:01 2018.-->
+				<!--Built on: Sun May 27 01:17:01 2018.-->
 				<complete>
 					<size>304269268</size>
 					<checksum type="sha1">bd84678ae8caf71d584f5210e866b2807e7b4b52</checksum>
@@ -866,28 +853,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:16:37 2020.-->
+				<!--Built on: Fri Jul 24 23:16:37 2020.-->
 				<complete>
 					<size>398227164</size>
 					<checksum type="sha1">ef7890e565f4e3544fd23613b437d4418fb10f99</checksum>
 					<url>x86-24_r22.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>21</major>
-						</based-on>
-						<size>54884760</size>
-						<checksum type="sha1">6dc406e691720dbe4461888c26f673ca017aef4f</checksum>
-						<url>sys-img-6357834-sdk_google_atv_x86-sdk-6696031-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -907,28 +881,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:18:11 2020.-->
+				<!--Built on: Fri Jul 24 23:18:11 2020.-->
 				<complete>
 					<size>438201093</size>
 					<checksum type="sha1">faae592bc991001b1880a8198d729b25855cc34b</checksum>
 					<url>x86-25_r16.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>15</major>
-						</based-on>
-						<size>65399387</size>
-						<checksum type="sha1">7f28ae98f3308d91fb699533aec3d83f7c90849b</checksum>
-						<url>sys-img-6361101-sdk_google_atv_x86-sdk-6695155-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -949,7 +910,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>26</major>
@@ -961,22 +921,12 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:33:04 2020.-->
+				<!--Built on: Fri Jul 24 23:33:04 2020.-->
 				<complete>
 					<size>401675862</size>
 					<checksum type="sha1">f908b3c81a03513a756c17a197faecfc91e437df</checksum>
 					<url>x86-26_r14.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>13</major>
-						</based-on>
-						<size>31891785</size>
-						<checksum type="sha1">0804f3d1e75825fdcdbe04bf940c204c89a29bb6</checksum>
-						<url>sys-img-6353490-sdk_google_atv_x86-sdk-6695156-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -996,28 +946,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:34:17 2020.-->
+				<!--Built on: Fri Jul 24 23:34:17 2020.-->
 				<complete>
 					<size>410757280</size>
 					<checksum type="sha1">b7d2a9349cdb1da9dafbd42de7378f6f1933d193</checksum>
 					<url>x86-27_r09.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>8</major>
-						</based-on>
-						<size>27818840</size>
-						<checksum type="sha1">683f0b0aef180bb7571f62898364cafc438bcbed</checksum>
-						<url>sys-img-6353491-sdk_google_atv_x86-sdk-6695058-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -1037,28 +974,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 24 16:35:30 2020.-->
+				<!--Built on: Fri Jul 24 23:35:30 2020.-->
 				<complete>
 					<size>475216948</size>
 					<checksum type="sha1">4c13edca32c1abb899a0702fe6972087712bcb78</checksum>
 					<url>x86-28_r10.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>9</major>
-						</based-on>
-						<size>27061611</size>
-						<checksum type="sha1">a191f71635c9100fea0969fe14c9503e687e5c4e</checksum>
-						<url>sys-img-6353492-sdk_google_atv_x86-sdk-6695059-sdk_google_atv_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -1079,7 +1003,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1091,7 +1014,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Aug 14 00:15:38 2020.-->
+				<!--Built on: Fri Aug 14 07:15:38 2020.-->
 				<complete>
 					<size>590809630</size>
 					<checksum type="sha1">736c2f6c79493b5ee4ca0d2531a25c9eb7f9c7ab</checksum>
@@ -1117,7 +1040,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1129,7 +1051,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 30 03:09:21 2022.-->
+				<!--Built on: Wed Nov 30 11:09:21 2022.-->
 				<complete>
 					<size>699304963</size>
 					<checksum type="sha1">f4151d2390fc015ddb2a7715bea9bc69a5ee0b4e</checksum>
@@ -1155,7 +1077,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1167,7 +1088,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 30 03:10:02 2022.-->
+				<!--Built on: Wed Nov 30 11:10:02 2022.-->
 				<complete>
 					<size>772250386</size>
 					<checksum type="sha1">8c0b848019afade7f2a8ddb5c361178f63ec86ca</checksum>
@@ -1193,7 +1114,6 @@ January 16, 2019</license>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1205,7 +1125,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 30 03:10:45 2022.-->
+				<!--Built on: Wed Nov 30 11:10:45 2022.-->
 				<complete>
 					<size>763104604</size>
 					<checksum type="sha1">e8cec4080464d516e3f863d943c24055155f29bf</checksum>
@@ -1231,7 +1151,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1243,7 +1162,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec  7 06:46:31 2022.-->
+				<!--Built on: Wed Dec  7 14:46:31 2022.-->
 				<complete>
 					<size>817908695</size>
 					<checksum type="sha1">ec3fe6a450ed6aa5fec2703fca68648e7813094f</checksum>
@@ -1269,7 +1188,6 @@ January 16, 2019</license>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1281,7 +1199,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec  7 06:47:12 2022.-->
+				<!--Built on: Wed Dec  7 14:47:12 2022.-->
 				<complete>
 					<size>828027584</size>
 					<checksum type="sha1">41b75155961eb506b492e60e8fba590ad7baa02c</checksum>
@@ -1307,7 +1225,6 @@ January 16, 2019</license>
 		<display-name>Android TV Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1319,7 +1236,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug  3 01:26:46 2023.-->
+				<!--Built on: Thu Aug  3 08:26:46 2023.-->
 				<complete>
 					<size>880214246</size>
 					<checksum type="sha1">3be0ccf9611c7125e9c43083ae3ca6abba5f45b7</checksum>
@@ -1345,7 +1262,6 @@ January 16, 2019</license>
 		<display-name>Android TV ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1357,7 +1273,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug  3 01:27:32 2023.-->
+				<!--Built on: Thu Aug  3 08:27:32 2023.-->
 				<complete>
 					<size>883278287</size>
 					<checksum type="sha1">81b98fc5c3521a3a872667851c7f6bf61dfcdd5a</checksum>

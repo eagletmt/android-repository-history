@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-26 14:19:16.881570 with ADRT.-->
+	<!--Generated on 2023-11-02 16:34:18.535465 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -716,44 +716,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jun  5 11:16:11 2018.-->
+				<!--Built on: Tue Jun  5 18:16:11 2018.-->
 				<complete>
 					<size>812724041</size>
 					<checksum type="sha1">b52e9593ffdde65c1a0970256a32e8967c89cc22</checksum>
 					<url>x86-24_r19.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>12</major>
-						</based-on>
-						<size>114867010</size>
-						<checksum type="sha1">3459dd8a4ed42435a728ac75bdcf32d4f8b9114e</checksum>
-						<url>sys-img-3830816-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>13</major>
-						</based-on>
-						<size>103478246</size>
-						<checksum type="sha1">0db53cc9aef97f32dddd329791525f8992b508f1</checksum>
-						<url>sys-img-4013928-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>16</major>
-						</based-on>
-						<size>95038884</size>
-						<checksum type="sha1">13a280d6c93b5e9d79034f31192104ab31ff6c4a</checksum>
-						<url>sys-img-4290868-sdk_google_phone_x86-user-4409132-sdk_google_phone_x86-user-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -776,13 +747,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Jun 11 09:03:55 2018.-->
+				<!--Built on: Mon Jun 11 16:03:55 2018.-->
 				<complete>
 					<size>972461719</size>
 					<checksum type="sha1">6f6668954f7fd52f896fe7528aa122028c9b026c</checksum>
@@ -811,7 +779,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>26</major>
@@ -823,38 +790,12 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 17 15:22:52 2018.-->
+				<!--Built on: Thu May 17 22:22:52 2018.-->
 				<complete>
 					<size>769390078</size>
 					<checksum type="sha1">2c8bee7b97a309f099941532e63c42a7d4a06e19</checksum>
 					<url>x86-26_r07.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>3</major>
-						</based-on>
-						<size>339528314</size>
-						<checksum type="sha1">5a479cc6b36fb6e801f659375c3e558dde1eb1f0</checksum>
-						<url>sys-img-3991286-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>4</major>
-						</based-on>
-						<size>270302979</size>
-						<checksum type="sha1">9d8cda1c34d1f60ee5bf4d37b0e8246d6b69fa05</checksum>
-						<url>sys-img-4074420-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>5</major>
-						</based-on>
-						<size>142889514</size>
-						<checksum type="sha1">7395828f9de6697df49c432f61a7f48a3b8b036b</checksum>
-						<url>sys-img-4205617-sdk_gphone_x86-user-4456315-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -878,7 +819,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>26</major>
@@ -890,22 +830,12 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu May 17 18:55:50 2018.-->
+				<!--Built on: Fri May 18 01:55:50 2018.-->
 				<complete>
 					<size>758636016</size>
 					<checksum type="sha1">eb5a944ceb691ca0648d0a6f0d93893a47223b5d</checksum>
 					<url>x86-27_r03.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>2</major>
-						</based-on>
-						<size>59920144</size>
-						<checksum type="sha1">980faad3654eac3a29e166127ec4231431505840</checksum>
-						<url>sys-img-4458339-sdk_gphone_x86-user-4586646-sdk_gphone_x86-user-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -929,7 +859,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>27</major>
@@ -941,7 +870,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 09:59:21 2018.-->
+				<!--Built on: Mon Nov 12 17:59:21 2018.-->
 				<complete>
 					<size>906607514</size>
 					<checksum type="sha1">5381f9d52a3bf1967c9c92a25b20012cd68764c8</checksum>
@@ -970,7 +899,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>29</major>
@@ -982,7 +910,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 19 14:00:47 2019.-->
+				<!--Built on: Thu Sep 19 21:00:47 2019.-->
 				<complete>
 					<size>918028186</size>
 					<checksum type="sha1">97d9d4f4a2afa8b0f5d52e90748e19c10406ca93</checksum>
@@ -1011,7 +939,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>27</major>
@@ -1023,7 +950,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 12 10:08:51 2018.-->
+				<!--Built on: Mon Nov 12 18:08:51 2018.-->
 				<complete>
 					<size>1037659724</size>
 					<checksum type="sha1">a767da996fdea7a1f5632a9206fa5c009d6e580c</checksum>
@@ -1052,7 +979,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1064,7 +990,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 15:58:37 2019.-->
+				<!--Built on: Thu Sep 26 22:58:37 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum type="sha1">1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1094,7 +1020,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1106,7 +1031,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Sep 26 15:59:23 2019.-->
+				<!--Built on: Thu Sep 26 22:59:23 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum type="sha1">1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1115,7 +1040,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Sep 26 16:00:03 2019.-->
+				<!--Built on: Thu Sep 26 23:00:03 2019.-->
 				<complete>
 					<size>1153916727</size>
 					<checksum type="sha1">1c45e690e9ee6a44f40549e9fb68d3fd52ba4970</checksum>
@@ -1145,7 +1070,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1157,7 +1081,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 10:53:27 2019.-->
+				<!--Built on: Mon Sep 30 17:53:27 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum type="sha1">94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1187,7 +1111,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>28</major>
@@ -1199,7 +1122,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Sep 30 10:55:09 2019.-->
+				<!--Built on: Mon Sep 30 17:55:09 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum type="sha1">94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1208,7 +1131,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Sep 30 10:54:18 2019.-->
+				<!--Built on: Mon Sep 30 17:54:18 2019.-->
 				<complete>
 					<size>1322004798</size>
 					<checksum type="sha1">94835980b4a6eaeeb41936d7fb1381698e48433a</checksum>
@@ -1238,7 +1161,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1250,7 +1172,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 15 12:40:28 2020.-->
+				<!--Built on: Thu Oct 15 19:40:28 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum type="sha1">13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1280,7 +1202,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1292,7 +1213,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Oct 15 12:41:08 2020.-->
+				<!--Built on: Thu Oct 15 19:41:08 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum type="sha1">13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1301,7 +1222,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Oct 15 12:41:45 2020.-->
+				<!--Built on: Thu Oct 15 19:41:45 2020.-->
 				<complete>
 					<size>1229340756</size>
 					<checksum type="sha1">13c100b62983d64db53cef3d70fea789d89f3232</checksum>
@@ -1331,7 +1252,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1343,7 +1263,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Dec 26 10:55:57 2020.-->
+				<!--Built on: Sat Dec 26 18:55:57 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum type="sha1">ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1373,7 +1293,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1385,7 +1304,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Dec 26 10:57:48 2020.-->
+				<!--Built on: Sat Dec 26 18:57:48 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum type="sha1">ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1394,7 +1313,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Sat Dec 26 10:56:54 2020.-->
+				<!--Built on: Sat Dec 26 18:56:54 2020.-->
 				<complete>
 					<size>1404405641</size>
 					<checksum type="sha1">ead1babced6bdfaa8e641faeb6ed115ca603c4a9</checksum>
@@ -1424,7 +1343,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1436,7 +1354,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 13 15:52:49 2022.-->
+				<!--Built on: Thu Jan 13 23:52:49 2022.-->
 				<complete>
 					<size>1423631458</size>
 					<checksum type="sha1">a80de967f445b3cf71803425f4e4b21b36e11d66</checksum>
@@ -1465,7 +1383,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1477,7 +1394,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec 29 10:17:33 2021.-->
+				<!--Built on: Wed Dec 29 18:17:33 2021.-->
 				<complete>
 					<size>1437465460</size>
 					<checksum type="sha1">734f2fde664518688a402ad8198b10cf093c5871</checksum>
@@ -1507,7 +1424,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1519,7 +1435,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec 29 10:18:03 2021.-->
+				<!--Built on: Wed Dec 29 18:18:03 2021.-->
 				<complete>
 					<size>1437465460</size>
 					<checksum type="sha1">734f2fde664518688a402ad8198b10cf093c5871</checksum>
@@ -1528,7 +1444,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Dec 29 10:17:49 2021.-->
+				<!--Built on: Wed Dec 29 18:17:49 2021.-->
 				<complete>
 					<size>1437465460</size>
 					<checksum type="sha1">734f2fde664518688a402ad8198b10cf093c5871</checksum>
@@ -1558,7 +1474,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1570,7 +1485,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sun Nov 13 14:25:25 2022.-->
+				<!--Built on: Sun Nov 13 22:25:25 2022.-->
 				<complete>
 					<size>1481773028</size>
 					<checksum type="sha1">b7491eecf45556bd96f7b7a80c020b18a8a7df0d</checksum>
@@ -1600,7 +1515,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1612,7 +1526,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jan 24 17:32:10 2023.-->
+				<!--Built on: Wed Jan 25 01:32:10 2023.-->
 				<complete>
 					<size>1492912127</size>
 					<checksum type="sha1">4893f6e62413e97e2bad5f183319d65d3947a375</checksum>
@@ -1641,7 +1555,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1653,7 +1566,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jan  4 13:12:27 2023.-->
+				<!--Built on: Wed Jan  4 21:12:27 2023.-->
 				<complete>
 					<size>1479525531</size>
 					<checksum type="sha1">0db4201201a4b8ea1339fb5bd720d25455849100</checksum>
@@ -1682,7 +1595,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -1694,7 +1606,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 23 14:43:52 2023.-->
+				<!--Built on: Thu Feb 23 22:43:52 2023.-->
 				<complete>
 					<size>1479931636</size>
 					<checksum type="sha1">e80584a2c9f8ba863a3fa961efc6d8866650f2eb</checksum>
@@ -1723,7 +1635,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -1735,7 +1646,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  9 20:53:45 2023.-->
+				<!--Built on: Tue Oct 10 03:53:45 2023.-->
 				<complete>
 					<size>1510773206</size>
 					<checksum type="sha1">eab92e17f24e3c19d4eb86e36fdda43805851255</checksum>
@@ -1765,7 +1676,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -1777,7 +1687,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 10 18:29:46 2023.-->
+				<!--Built on: Fri Aug 11 01:29:46 2023.-->
 				<complete>
 					<size>1514888929</size>
 					<checksum type="sha1">c43caa79b262f6baea715f7174e614fb6ebd0922</checksum>
@@ -1806,7 +1716,6 @@ January 16, 2019</license>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -1818,7 +1727,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  9 21:53:32 2023.-->
+				<!--Built on: Tue Oct 10 04:53:32 2023.-->
 				<complete>
 					<size>1502940011</size>
 					<checksum type="sha1">4704341d617f13997d52b74da8c1641a2b796681</checksum>
@@ -1858,7 +1767,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar 22 16:06:41 2023.-->
+				<!--Built on: Wed Mar 22 23:06:41 2023.-->
 				<complete>
 					<size>836861962</size>
 					<checksum type="sha1">205a4720befd41be99fcdfb2550fa1680e9a2e18</checksum>
@@ -1898,7 +1807,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug  2 11:46:36 2021.-->
+				<!--Built on: Mon Aug  2 18:46:36 2021.-->
 				<complete>
 					<size>1242979582</size>
 					<checksum type="sha1">47705387b8fbbfe87e3679d272c29f7064defba8</checksum>
@@ -1907,7 +1816,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Aug  2 11:45:48 2021.-->
+				<!--Built on: Mon Aug  2 18:45:48 2021.-->
 				<complete>
 					<size>1242979582</size>
 					<checksum type="sha1">47705387b8fbbfe87e3679d272c29f7064defba8</checksum>
@@ -1948,7 +1857,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Aug  2 14:59:31 2021.-->
+				<!--Built on: Mon Aug  2 21:59:31 2021.-->
 				<complete>
 					<size>1308440072</size>
 					<checksum type="sha1">7208c0b72b51adb561595e62891763d7322964a0</checksum>
@@ -1957,7 +1866,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Aug  2 14:58:44 2021.-->
+				<!--Built on: Mon Aug  2 21:58:44 2021.-->
 				<complete>
 					<size>1308440072</size>
 					<checksum type="sha1">7208c0b72b51adb561595e62891763d7322964a0</checksum>
@@ -1987,7 +1896,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>31</major>
@@ -1999,7 +1907,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Sat Feb  5 11:17:59 2022.-->
+				<!--Built on: Sat Feb  5 19:17:59 2022.-->
 				<complete>
 					<size>1468377491</size>
 					<checksum type="sha1">8a1fa9a050a3894fb65c785d6b536e182be30e7f</checksum>
@@ -2008,7 +1916,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Sat Feb  5 11:17:53 2022.-->
+				<!--Built on: Sat Feb  5 19:17:53 2022.-->
 				<complete>
 					<size>1468377491</size>
 					<checksum type="sha1">8a1fa9a050a3894fb65c785d6b536e182be30e7f</checksum>
@@ -2038,7 +1946,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -2050,7 +1957,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Dec 29 10:21:53 2021.-->
+				<!--Built on: Wed Dec 29 18:21:53 2021.-->
 				<complete>
 					<size>1393496124</size>
 					<checksum type="sha1">a03c886495ad5a3c3929fb0fc122c8ded743eef0</checksum>
@@ -2059,7 +1966,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Dec 29 10:21:40 2021.-->
+				<!--Built on: Wed Dec 29 18:21:40 2021.-->
 				<complete>
 					<size>1393496124</size>
 					<checksum type="sha1">a03c886495ad5a3c3929fb0fc122c8ded743eef0</checksum>
@@ -2089,7 +1996,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -2101,7 +2007,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov 21 13:36:43 2022.-->
+				<!--Built on: Mon Nov 21 21:36:43 2022.-->
 				<complete>
 					<size>1582091204</size>
 					<checksum type="sha1">831cfe87d12eb5dd9d107ca2dfb203d52ca7b217</checksum>
@@ -2110,7 +2016,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov 21 13:36:29 2022.-->
+				<!--Built on: Mon Nov 21 21:36:29 2022.-->
 				<complete>
 					<size>1582091204</size>
 					<checksum type="sha1">831cfe87d12eb5dd9d107ca2dfb203d52ca7b217</checksum>
@@ -2141,7 +2047,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -2153,7 +2058,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Jan 24 17:43:10 2023.-->
+				<!--Built on: Wed Jan 25 01:43:10 2023.-->
 				<complete>
 					<size>1592946784</size>
 					<checksum type="sha1">d4cb5f1b985cb9f6ee093a00a910c5afc1bb0912</checksum>
@@ -2162,7 +2067,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Jan 24 17:40:51 2023.-->
+				<!--Built on: Wed Jan 25 01:40:51 2023.-->
 				<complete>
 					<size>1592946784</size>
 					<checksum type="sha1">d4cb5f1b985cb9f6ee093a00a910c5afc1bb0912</checksum>
@@ -2192,7 +2097,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -2204,7 +2108,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jan  4 13:23:24 2023.-->
+				<!--Built on: Wed Jan  4 21:23:24 2023.-->
 				<complete>
 					<size>1474557980</size>
 					<checksum type="sha1">26e68d896f560d9abfa293dd7499bc020d3b38ba</checksum>
@@ -2213,7 +2117,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Wed Jan  4 13:21:15 2023.-->
+				<!--Built on: Wed Jan  4 21:21:15 2023.-->
 				<complete>
 					<size>1474557980</size>
 					<checksum type="sha1">26e68d896f560d9abfa293dd7499bc020d3b38ba</checksum>
@@ -2243,7 +2147,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
@@ -2255,7 +2158,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 23 14:48:21 2023.-->
+				<!--Built on: Thu Feb 23 22:48:21 2023.-->
 				<complete>
 					<size>1475820733</size>
 					<checksum type="sha1">51169278b759ce1f347a235497729bf5b558ecb2</checksum>
@@ -2264,7 +2167,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 23 14:46:06 2023.-->
+				<!--Built on: Thu Feb 23 22:46:06 2023.-->
 				<complete>
 					<size>1475820733</size>
 					<checksum type="sha1">51169278b759ce1f347a235497729bf5b558ecb2</checksum>
@@ -2294,7 +2197,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -2306,7 +2208,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  9 20:56:06 2023.-->
+				<!--Built on: Tue Oct 10 03:56:06 2023.-->
 				<complete>
 					<size>1548915108</size>
 					<checksum type="sha1">eddfc3bb89e9390928e46134cae6c249059834f1</checksum>
@@ -2315,7 +2217,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Oct  9 20:56:00 2023.-->
+				<!--Built on: Tue Oct 10 03:56:00 2023.-->
 				<complete>
 					<size>1548915108</size>
 					<checksum type="sha1">eddfc3bb89e9390928e46134cae6c249059834f1</checksum>
@@ -2346,7 +2248,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -2358,7 +2259,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 10 18:40:31 2023.-->
+				<!--Built on: Fri Aug 11 01:40:31 2023.-->
 				<complete>
 					<size>1553125173</size>
 					<checksum type="sha1">e6aabf922aa936365236aa1ad5525a453ea7351e</checksum>
@@ -2367,7 +2268,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug 10 18:38:15 2023.-->
+				<!--Built on: Fri Aug 11 01:38:15 2023.-->
 				<complete>
 					<size>1553125173</size>
 					<checksum type="sha1">e6aabf922aa936365236aa1ad5525a453ea7351e</checksum>
@@ -2397,7 +2298,6 @@ January 16, 2019</license>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
-			<dependency path="patcher;v4"/>
 			<dependency path="emulator">
 				<min-revision>
 					<major>32</major>
@@ -2409,7 +2309,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Oct  9 22:03:29 2023.-->
+				<!--Built on: Tue Oct 10 05:03:29 2023.-->
 				<complete>
 					<size>1563791983</size>
 					<checksum type="sha1">4bc4fd4a2cba586c9e3e36325c1a74244802a04a</checksum>
@@ -2418,7 +2318,7 @@ January 16, 2019</license>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Oct  9 22:01:13 2023.-->
+				<!--Built on: Tue Oct 10 05:01:13 2023.-->
 				<complete>
 					<size>1563791983</size>
 					<checksum type="sha1">4bc4fd4a2cba586c9e3e36325c1a74244802a04a</checksum>

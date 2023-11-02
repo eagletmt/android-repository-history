@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-10-26 14:13:37.219224 with ADRT.-->
+	<!--Generated on 2023-11-02 16:32:56.736430 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -712,36 +712,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android Wear ARM EABI v7a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:56:37 2018.-->
+				<!--Built on: Fri Jul 27 15:56:37 2018.-->
 				<complete>
 					<size>377841195</size>
 					<checksum>76d3568a4e08023047af7d13025a35c9bf1d7e5c</checksum>
 					<url>armeabi-v7a-25_r03.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>1</major>
-						</based-on>
-						<size>113880209</size>
-						<checksum>4fe1403e23b12269ef49135ccaa2cf636d3aefcc</checksum>
-						<url>sys-img-3563089-sdk_google_aw_armv7-sdk-3746635-sdk_google_aw_armv7-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-						</based-on>
-						<size>24116590</size>
-						<checksum>f77336ea1b69f376a1d772f02b7b590cdfb5bec9</checksum>
-						<url>sys-img-3702837-sdk_google_aw_armv7-sdk-3746635-sdk_google_aw_armv7-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -760,36 +739,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android Wear Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 08:56:38 2018.-->
+				<!--Built on: Fri Jul 27 15:56:38 2018.-->
 				<complete>
 					<size>397826706</size>
 					<checksum>693fce7b487a65491a4e88e9f740959688c9dbe6</checksum>
 					<url>x86-25_r03.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>1</major>
-						</based-on>
-						<size>122234046</size>
-						<checksum>a17bc97d62a626ebc6740569fe0b16388fd1747f</checksum>
-						<url>sys-img-3563089-sdk_google_aw_x86-sdk-3746635-sdk_google_aw_x86-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-						</based-on>
-						<size>27631209</size>
-						<checksum>a4b902b1f911609c286efd387c5a869916ea806a</checksum>
-						<url>sys-img-3702837-sdk_google_aw_x86-sdk-3746635-sdk_google_aw_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -808,36 +766,15 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Android Wear Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  6 13:13:48 2018.-->
+				<!--Built on: Wed Jun  6 20:13:48 2018.-->
 				<complete>
 					<size>370311037</size>
 					<checksum>fbffa91b936ca18fcc1e0bab2b52a8b0835cbb1c</checksum>
 					<url>x86-26_r04.zip</url>
 				</complete>
-				<patches>
-					<patch>
-						<based-on>
-							<major>1</major>
-						</based-on>
-						<size>155266923</size>
-						<checksum>8b09dc10fa731017633bd892d008aad6d6f4d823</checksum>
-						<url>sys-img-4073471-sdk_google_aw_x86-sdk-4560627-sdk_gwear_x86-sdk-patch.jar</url>
-					</patch>
-					<patch>
-						<based-on>
-							<major>2</major>
-						</based-on>
-						<size>108599804</size>
-						<checksum>58a52b9e19b024d1e845c86ae922a324443d7230</checksum>
-						<url>sys-img-4322534-sdk_gwear_x86-sdk-4560627-sdk_gwear_x86-sdk-patch.jar</url>
-					</patch>
-				</patches>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -856,13 +793,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Wear OS Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  2 03:10:00 2022.-->
+				<!--Built on: Wed Mar  2 11:10:00 2022.-->
 				<complete>
 					<size>682327945</size>
 					<checksum>3dd75066e95327baf8991915a043e53e06a2cfb5</checksum>
@@ -886,13 +820,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Wear OS 3 Intel x86 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 13 08:19:00 2023.-->
+				<!--Built on: Thu Jul 13 15:19:00 2023.-->
 				<complete>
 					<size>901929440</size>
 					<checksum>73a96614a2ddcf586e4c659c436d2360bc25badc</checksum>
@@ -916,13 +847,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Wear OS 3 ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 13 08:19:26 2023.-->
+				<!--Built on: Thu Jul 13 15:19:26 2023.-->
 				<complete>
 					<size>827418923</size>
 					<checksum>56c0c2550580f2ba1b33009c77db017dbcb3d470</checksum>
@@ -946,13 +874,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Wear OS 4 Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 29 14:20:09 2023.-->
+				<!--Built on: Fri Sep 29 21:20:09 2023.-->
 				<complete>
 					<size>1100218729</size>
 					<checksum>94de5073c7078126614d8b7510aa4adde4327dd5</checksum>
@@ -976,13 +901,10 @@ January 16, 2019</license>
 		</revision>
 		<display-name>Wear OS 4 ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="patcher;v4"/>
-		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 29 14:20:42 2023.-->
+				<!--Built on: Fri Sep 29 21:20:42 2023.-->
 				<complete>
 					<size>1063091901</size>
 					<checksum>949a8b23b3abb217ad2f710bbffe58d4b81dd8db</checksum>
