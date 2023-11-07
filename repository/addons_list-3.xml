@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <common:site-list xmlns:common="http://schemas.android.com/repository/android/sites-common/1" xmlns:sdk="http://schemas.android.com/sdk/android/addons-list/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-11-02 16:31:01.909321 with ADRT.-->
+	<!--Generated on 2023-11-07 20:28:48.562068 with ADRT.-->
 	<site xsi:type="sdk:sysImgSiteType">
 		<displayName>Android System Images</displayName>
 		<url>sys-img/android/sys-img2-1.xml</url>
@@ -59,18 +59,6 @@
 	<site xsi:type="sdk:sysImgSiteType">
 		<displayName>Google API with Playstore System Images</displayName>
 		<url>sys-img/google_apis_playstore/sys-img2-1.xml</url>
-	</site>
-	<site xsi:type="sdk:sysImgSiteType">
-		<displayName>Tablet Google API System Images</displayName>
-		<url>sys-img/google_apis_tablet/sys-img2-1.xml</url>
-	</site>
-	<site xsi:type="sdk:sysImgSiteType">
-		<displayName>Tablet AOSP System Images</displayName>
-		<url>sys-img/aosp_tablet/sys-img2-1.xml</url>
-	</site>
-	<site xsi:type="sdk:sysImgSiteType">
-		<displayName>Tablet Google API with Playstore System Images</displayName>
-		<url>sys-img/google_playstore_tablet/sys-img2-1.xml</url>
 	</site>
 	<site xsi:type="sdk:addonSiteType">
 		<displayName>Google Inc.</displayName>

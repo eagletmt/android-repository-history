@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-11-02 16:34:48.749876 with ADRT.-->
+	<!--Generated on 2023-11-07 20:31:05.939223 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -704,8 +704,12 @@ January 16, 2019</license>
 			<extension-level>7</extension-level>
 			<base-extension>true</base-extension>
 			<tag>
-				<id>google_playstore_tablet</id>
-				<display>Tablet Google Play</display>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<tag>
+				<id>tablet</id>
+				<display>Tablet</display>
 			</tag>
 			<vendor>
 				<id>google</id>
@@ -716,7 +720,7 @@ January 16, 2019</license>
 		<revision>
 			<major>1</major>
 		</revision>
-		<display-name>Tablet Google Play Intel x86_64 Atom System Image</display-name>
+		<display-name>Google Play Tablet Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="emulator">
@@ -746,8 +750,12 @@ January 16, 2019</license>
 			<extension-level>7</extension-level>
 			<base-extension>true</base-extension>
 			<tag>
-				<id>google_playstore_tablet</id>
-				<display>Tablet Google Play</display>
+				<id>google_apis_playstore</id>
+				<display>Google Play</display>
+			</tag>
+			<tag>
+				<id>tablet</id>
+				<display>Tablet</display>
 			</tag>
 			<vendor>
 				<id>google</id>
@@ -758,7 +766,7 @@ January 16, 2019</license>
 		<revision>
 			<major>1</major>
 		</revision>
-		<display-name>Tablet Google Play ARM 64 v8a System Image</display-name>
+		<display-name>Google Play Tablet ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<dependencies>
 			<dependency path="emulator">
