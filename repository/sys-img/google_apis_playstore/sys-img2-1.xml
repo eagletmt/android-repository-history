@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-12-14 15:55:53.158539 with ADRT.-->
+	<!--Generated on 2023-12-18 12:04:52.586771 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1656,7 +1656,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;x86_64">
-		<!--Generated from bid:10628788, branch:udc-rubidium-dp9-release-x86_64-playstore-->
+		<!--Generated from bid:11164158, branch:udc-rubidium-dp9-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<codename>UpsideDownCakePrivacySandbox</codename>
@@ -1671,7 +1671,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -1687,11 +1687,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 10 18:29:46 2023.-->
+				<!--Built on: Thu Dec  7 18:20:40 2023.-->
 				<complete>
-					<size>1514888929</size>
-					<checksum>c43caa79b262f6baea715f7174e614fb6ebd0922</checksum>
-					<url>x86_64-UpsideDownCakePrivacySandbox_r02.zip</url>
+					<size>1510877347</size>
+					<checksum>f9b885d496787374be0c8be23eb7b69594c751a5</checksum>
+					<url>x86_64-UpsideDownCakePrivacySandbox_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2268,7 +2268,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:10628788, branch:udc-rubidium-dp9-release-arm64-playstore-->
+		<!--Generated from bid:11164158, branch:udc-rubidium-dp9-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<codename>UpsideDownCakePrivacySandbox</codename>
@@ -2283,7 +2283,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2299,20 +2299,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Aug 10 18:40:31 2023.-->
+				<!--Built on: Thu Dec  7 18:38:46 2023.-->
 				<complete>
-					<size>1553125173</size>
-					<checksum>e6aabf922aa936365236aa1ad5525a453ea7351e</checksum>
-					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r02-darwin.zip</url>
+					<size>1548724067</size>
+					<checksum>90ccfc150180d529bc96ddc7d4a32249303ebd7f</checksum>
+					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r03-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Aug 10 18:38:15 2023.-->
+				<!--Built on: Thu Dec  7 18:36:31 2023.-->
 				<complete>
-					<size>1553125173</size>
-					<checksum>e6aabf922aa936365236aa1ad5525a453ea7351e</checksum>
-					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r02-linux.zip</url>
+					<size>1548724067</size>
+					<checksum>90ccfc150180d529bc96ddc7d4a32249303ebd7f</checksum>
+					<url>arm64-v8a-UpsideDownCakePrivacySandbox_r03-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
