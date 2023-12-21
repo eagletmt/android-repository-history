@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-12-18 12:05:45.686694 with ADRT.-->
+	<!--Generated on 2023-12-21 00:29:59.537910 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -728,7 +728,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Oct  4 16:51:05 2022.-->
+				<!--Built on: Tue Oct  4 23:51:05 2022.-->
 				<complete>
 					<size>1510796167</size>
 					<checksum>be2a7c38588450c603c56eec3554d7d481090d72</checksum>
@@ -768,7 +768,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Oct  4 16:51:59 2022.-->
+				<!--Built on: Tue Oct  4 23:51:59 2022.-->
 				<complete>
 					<size>1516573017</size>
 					<checksum>6af1a81e05e863b658c41fc80f71bf800eddfbd0</checksum>
@@ -808,7 +808,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 01:24:39 2023.-->
+				<!--Built on: Thu Jan 19 09:24:39 2023.-->
 				<complete>
 					<size>1510795436</size>
 					<checksum>267d86b8b94a8ec5324b75e4b8a71e954ddedec7</checksum>
@@ -848,7 +848,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 01:29:23 2023.-->
+				<!--Built on: Thu Jan 19 09:29:23 2023.-->
 				<complete>
 					<size>1516574141</size>
 					<checksum>b003887d4ad98955e3fe23e822ca925383fa68b3</checksum>
@@ -888,7 +888,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Oct 11 15:34:42 2023.-->
+				<!--Built on: Wed Oct 11 22:34:42 2023.-->
 				<complete>
 					<size>1636929828</size>
 					<checksum>23046586869c49e8219a668ae7d6e573c992351b</checksum>
@@ -928,7 +928,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Oct 11 15:39:49 2023.-->
+				<!--Built on: Wed Oct 11 22:39:49 2023.-->
 				<complete>
 					<size>1624428304</size>
 					<checksum>82945b15007dab51b93d619f76a2cae48433d7be</checksum>
