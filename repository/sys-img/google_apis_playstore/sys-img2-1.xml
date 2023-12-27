@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-12-21 00:29:57.867705 with ADRT.-->
+	<!--Generated on 2023-12-26 22:19:31.406847 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1616,7 +1616,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;google_apis_playstore;x86_64">
-		<!--Generated from bid:11036701, branch:udc-emu-release-x86_64-playstore-->
+		<!--Generated from bid:11228894, branch:udc-emu-release-x86_64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -1630,7 +1630,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google Play Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1646,11 +1646,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 21:35:59 2023.-->
+				<!--Built on: Mon Dec 18 21:06:27 2023.-->
 				<complete>
-					<size>1510759243</size>
-					<checksum>951df5e2b6778031ad49e7610544163bfd371e54</checksum>
-					<url>x86_64-34_r11.zip</url>
+					<size>1510777069</size>
+					<checksum>69b9bd756ba0359d1cbec5e1d1e00f5de6e3f9ef</checksum>
+					<url>x86_64-34_r12.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2218,7 +2218,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-34;google_apis_playstore;arm64-v8a">
-		<!--Generated from bid:11036701, branch:udc-emu-release-arm64-playstore-->
+		<!--Generated from bid:11228894, branch:udc-emu-release-arm64-playstore-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>34</api-level>
 			<tag>
@@ -2232,7 +2232,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google Play ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2248,20 +2248,20 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Nov  6 21:38:41 2023.-->
+				<!--Built on: Mon Dec 18 21:08:20 2023.-->
 				<complete>
 					<size>1548933558</size>
-					<checksum>4b8d864bf5987d260982bc8968e9cb647a1b6660</checksum>
-					<url>arm64-v8a-34_r11-darwin.zip</url>
+					<checksum>a0c851eb264e9955407269733e062f0ec1c94503</checksum>
+					<url>arm64-v8a-34_r12-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Mon Nov  6 21:38:37 2023.-->
+				<!--Built on: Mon Dec 18 21:08:13 2023.-->
 				<complete>
 					<size>1548933558</size>
-					<checksum>4b8d864bf5987d260982bc8968e9cb647a1b6660</checksum>
-					<url>arm64-v8a-34_r11-linux.zip</url>
+					<checksum>a0c851eb264e9955407269733e062f0ec1c94503</checksum>
+					<url>arm64-v8a-34_r12-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
