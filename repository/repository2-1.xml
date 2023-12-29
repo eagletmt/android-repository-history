@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-12-26 22:18:57.002712 with ADRT.-->
+	<!--Generated on 2023-12-28 20:52:37.657787 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7078,83 +7078,41 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="cmdline-tools;12.0-alpha15">
-		<!--Generated from:ab bid:10572941 branch:git_studio-hedgehog-release-->
+	<remotePackage path="cmdline-tools;12.0">
+		<!--Generated from:ab bid:11076708 branch:git_studio-hedgehog-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>12</major>
 			<minor>0</minor>
-			<preview>15</preview>
 		</revision>
 		<display-name>Android SDK Command-line Tools</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-3"/>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 27 23:58:22 2023.-->
+				<!--Built on: Thu Dec  7 00:47:58 2023.-->
 				<complete>
-					<size>153543827</size>
-					<checksum>9f67d98e686616bf92122b03051f02f695b11415</checksum>
-					<url>commandlinetools-linux-10572941_latest.zip</url>
+					<size>153607504</size>
+					<checksum>d313adb7aedccf6cf0cfca51ec180f0059f5f8f8</checksum>
+					<url>commandlinetools-linux-11076708_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul 27 23:58:23 2023.-->
+				<!--Built on: Thu Dec  7 00:48:00 2023.-->
 				<complete>
-					<size>153543811</size>
-					<checksum>feac1c4ad5e78e506cb55216181f3c5b58219e90</checksum>
-					<url>commandlinetools-mac-10572941_latest.zip</url>
+					<size>153607488</size>
+					<checksum>37fb7dd41005b3b4ca6ea48ac27074b6fc4e3236</checksum>
+					<url>commandlinetools-mac-11076708_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul 27 23:58:25 2023.-->
+				<!--Built on: Thu Dec  7 00:48:02 2023.-->
 				<complete>
-					<size>153519682</size>
-					<checksum>4956c615fa087f5a716ffde76684085366c5a5bf</checksum>
-					<url>commandlinetools-win-10572941_latest.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="cmdline-tools;11.0-rc01">
-		<!--Generated from:ab bid:10320515 branch:git_studio-giraffe-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>11</major>
-			<minor>0</minor>
-			<preview>01</preview>
-		</revision>
-		<display-name>Android SDK Command-line Tools</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-1"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jul 27 06:00:25 2023.-->
-				<complete>
-					<size>148831286</size>
-					<checksum>26048ffc9a0b0b6ef0fe491e3796486d2387f043</checksum>
-					<url>commandlinetools-linux-10320515_latest.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 06:00:26 2023.-->
-				<complete>
-					<size>148831270</size>
-					<checksum>8cf501a4efbcc3be6bc15a48ad17fcda8bf03116</checksum>
-					<url>commandlinetools-mac-10320515_latest.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 06:00:27 2023.-->
-				<complete>
-					<size>148807141</size>
-					<checksum>fe8694f50bf5b132c0c92f4a695f51aac71c8f27</checksum>
-					<url>commandlinetools-win-10320515_latest.zip</url>
+					<size>153583359</size>
+					<checksum>3d2917302740f476999a091bc5558837c7a863c5</checksum>
+					<url>commandlinetools-win-11076708_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7561,10 +7519,10 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:10406996 branch:git_studio-giraffe-release-->
+		<!--Generated from:ab bid:11076708 branch:git_studio-hedgehog-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
-			<major>11</major>
+			<major>12</major>
 			<minor>0</minor>
 		</revision>
 		<display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -7572,111 +7530,29 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 27 06:01:06 2023.-->
+				<!--Built on: Thu Dec  7 00:48:11 2023.-->
 				<complete>
-					<size>148832188</size>
-					<checksum>87b485c7283cba69e41c10f05bf832d2fd691552</checksum>
-					<url>commandlinetools-linux-10406996_latest.zip</url>
+					<size>153607504</size>
+					<checksum>d313adb7aedccf6cf0cfca51ec180f0059f5f8f8</checksum>
+					<url>commandlinetools-linux-11076708_latest.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul 27 06:01:07 2023.-->
+				<!--Built on: Thu Dec  7 00:48:14 2023.-->
 				<complete>
-					<size>148832172</size>
-					<checksum>4b831e6a978ce9170fc49a8010e2ece4be790c73</checksum>
-					<url>commandlinetools-mac-10406996_latest.zip</url>
+					<size>153607488</size>
+					<checksum>37fb7dd41005b3b4ca6ea48ac27074b6fc4e3236</checksum>
+					<url>commandlinetools-mac-11076708_latest.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Thu Jul 27 06:01:07 2023.-->
+				<!--Built on: Thu Dec  7 00:48:17 2023.-->
 				<complete>
-					<size>148808043</size>
-					<checksum>9b0082db87cf1738866f80160f497b8a53e149a3</checksum>
-					<url>commandlinetools-win-10406996_latest.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:10320515 branch:git_studio-giraffe-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>11</major>
-			<minor>0</minor>
-			<preview>01</preview>
-		</revision>
-		<display-name>Android SDK Command-line Tools (latest)</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-1"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jul 27 06:01:12 2023.-->
-				<complete>
-					<size>148831286</size>
-					<checksum>26048ffc9a0b0b6ef0fe491e3796486d2387f043</checksum>
-					<url>commandlinetools-linux-10320515_latest.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 06:01:13 2023.-->
-				<complete>
-					<size>148831270</size>
-					<checksum>8cf501a4efbcc3be6bc15a48ad17fcda8bf03116</checksum>
-					<url>commandlinetools-mac-10320515_latest.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 06:01:14 2023.-->
-				<complete>
-					<size>148807141</size>
-					<checksum>fe8694f50bf5b132c0c92f4a695f51aac71c8f27</checksum>
-					<url>commandlinetools-win-10320515_latest.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="cmdline-tools;latest">
-		<!--Generated from:ab bid:10572941 branch:git_studio-hedgehog-release-->
-		<type-details xsi:type="generic:genericDetailsType"/>
-		<revision>
-			<major>12</major>
-			<minor>0</minor>
-			<preview>15</preview>
-		</revision>
-		<display-name>Android SDK Command-line Tools (latest)</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-3"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jul 27 23:58:32 2023.-->
-				<complete>
-					<size>153543827</size>
-					<checksum>9f67d98e686616bf92122b03051f02f695b11415</checksum>
-					<url>commandlinetools-linux-10572941_latest.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 23:58:33 2023.-->
-				<complete>
-					<size>153543811</size>
-					<checksum>feac1c4ad5e78e506cb55216181f3c5b58219e90</checksum>
-					<url>commandlinetools-mac-10572941_latest.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Thu Jul 27 23:58:34 2023.-->
-				<complete>
-					<size>153519682</size>
-					<checksum>4956c615fa087f5a716ffde76684085366c5a5bf</checksum>
-					<url>commandlinetools-win-10572941_latest.zip</url>
+					<size>153583359</size>
+					<checksum>3d2917302740f476999a091bc5558837c7a863c5</checksum>
+					<url>commandlinetools-win-11076708_latest.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 			</archive>
@@ -7924,7 +7800,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -9099,33 +8975,33 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:11150993 branch:aosp-emu-33-release-->
+		<!--Generated from:ab bid:11237101 branch:aosp-emu-33-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>33</major>
 			<minor>1</minor>
-			<micro>23</micro>
+			<micro>24</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 29 22:53:44 2023.-->
+				<!--Built on: Tue Dec 19 22:15:05 2023.-->
 				<complete>
-					<size>252619831</size>
-					<checksum>3057fe68d6ea23f43b059ded9274463e05e29eaa</checksum>
-					<url>emulator-linux_x64-11150993.zip</url>
+					<size>247516525</size>
+					<checksum>0fd36dd5a7be6ee8770776a95c2933541d9243f3</checksum>
+					<url>emulator-linux_x64-11237101.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-bits>64</host-bits>
 			</archive>
 			<archive>
-				<!--Built on: Wed Nov 29 22:53:49 2023.-->
+				<!--Built on: Tue Dec 19 22:15:07 2023.-->
 				<complete>
-					<size>366436090</size>
-					<checksum>5d9ba3074a13270c4f5668bc077578fa591e2ba3</checksum>
-					<url>emulator-windows_x64-11150993.zip</url>
+					<size>361338481</size>
+					<checksum>2d110fccc4d21439450a5825cd16064cc16710f8</checksum>
+					<url>emulator-windows_x64-11237101.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-bits>64</host-bits>
@@ -9133,23 +9009,23 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:11150993 branch:aosp-emu-33-release-->
+		<!--Generated from:ab bid:11237101 branch:aosp-emu-33-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>33</major>
 			<minor>1</minor>
-			<micro>23</micro>
+			<micro>24</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Nov 29 22:53:59 2023.-->
+				<!--Built on: Tue Dec 19 22:15:16 2023.-->
 				<complete>
-					<size>323936029</size>
-					<checksum>4d11dfe128810a51ce4aebb03fc1aede63b8e2fb</checksum>
-					<url>emulator-darwin_x64-11150993.zip</url>
+					<size>317369570</size>
+					<checksum>639b572ac8fdce45b96e3b5ebfd32bfbce1814ef</checksum>
+					<url>emulator-darwin_x64-11237101.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-bits>64</host-bits>
