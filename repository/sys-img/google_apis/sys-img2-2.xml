@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2023-12-28 20:55:54.164420 with ADRT.-->
+	<!--Generated on 2024-01-09 06:32:10.972429 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1997,7 +1997,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-30;google_apis;x86">
-		<!--Generated from bid:7193139, branch:git_rvc-emu-release-->
+		<!--Generated from bid:10067904, branch:git_rvc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>30</api-level>
 			<tag>
@@ -2011,27 +2011,27 @@ January 16, 2019</license>
 			<abi>x86</abi>
 		</type-details>
 		<revision>
-			<major>10</major>
+			<major>12</major>
 		</revision>
 		<display-name>Google APIs Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
 		<dependencies>
 			<dependency path="emulator">
 				<min-revision>
 					<major>30</major>
-					<minor>0</minor>
-					<micro>4</micro>
+					<minor>8</minor>
+					<micro>0</micro>
 				</min-revision>
 			</dependency>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar  9 19:45:30 2021.-->
+				<!--Built on: Fri Jan  5 19:03:11 2024.-->
 				<complete>
-					<size>650472769</size>
-					<checksum type="sha1">a23869f790fd42dddc83c47be1d1827fbebb7869</checksum>
-					<url>x86-30_r10.zip</url>
+					<size>1240622989</size>
+					<checksum type="sha1">c1d3209b861461e9c37273710bc4140ce2ae6056</checksum>
+					<url>x86-30_r12.zip</url>
 				</complete>
 			</archive>
 		</archives>
