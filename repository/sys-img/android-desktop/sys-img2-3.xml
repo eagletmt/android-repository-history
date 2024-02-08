@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2024-02-06 20:50:42.642632 with ADRT.-->
+	<!--Generated on 2024-02-08 13:40:01.216297 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -729,7 +729,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Oct  4 23:51:05 2022.-->
+				<!--Built on: Tue Oct  4 16:51:05 2022.-->
 				<complete>
 					<size>1510796167</size>
 					<checksum type="sha1">be2a7c38588450c603c56eec3554d7d481090d72</checksum>
@@ -770,7 +770,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Oct  4 23:51:59 2022.-->
+				<!--Built on: Tue Oct  4 16:51:59 2022.-->
 				<complete>
 					<size>1516573017</size>
 					<checksum type="sha1">6af1a81e05e863b658c41fc80f71bf800eddfbd0</checksum>
@@ -811,7 +811,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 09:24:39 2023.-->
+				<!--Built on: Thu Jan 19 01:24:39 2023.-->
 				<complete>
 					<size>1510795436</size>
 					<checksum type="sha1">267d86b8b94a8ec5324b75e4b8a71e954ddedec7</checksum>
@@ -852,7 +852,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jan 19 09:29:23 2023.-->
+				<!--Built on: Thu Jan 19 01:29:23 2023.-->
 				<complete>
 					<size>1516574141</size>
 					<checksum type="sha1">b003887d4ad98955e3fe23e822ca925383fa68b3</checksum>
@@ -862,7 +862,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-desktop;x86_64">
-		<!--Generated from bid:10930158, branch:git_tm-pc-emu-release-->
+		<!--Generated from bid:11217414, branch:git_tm-pc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<base-extension>true</base-extension>
@@ -877,7 +877,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Desktop Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -893,17 +893,17 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Oct 11 22:34:42 2023.-->
+				<!--Built on: Thu Jan 11 14:25:14 2024.-->
 				<complete>
-					<size>1636929828</size>
-					<checksum type="sha1">23046586869c49e8219a668ae7d6e573c992351b</checksum>
-					<url>x86_64-33_r02.zip</url>
+					<size>1636926232</size>
+					<checksum type="sha1">bd377a75ffa2e07ee942847791188c23ff376f2f</checksum>
+					<url>x86_64-33_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-33;android-desktop;arm64-v8a">
-		<!--Generated from bid:10930158, branch:git_tm-pc-emu-release-->
+		<!--Generated from bid:11217414, branch:git_tm-pc-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>33</api-level>
 			<base-extension>true</base-extension>
@@ -918,7 +918,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>2</major>
+			<major>3</major>
 		</revision>
 		<display-name>Desktop ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -934,11 +934,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Oct 11 22:39:49 2023.-->
+				<!--Built on: Thu Jan 11 14:30:18 2024.-->
 				<complete>
-					<size>1624428304</size>
-					<checksum type="sha1">82945b15007dab51b93d619f76a2cae48433d7be</checksum>
-					<url>arm64-v8a-33_r02.zip</url>
+					<size>1624434113</size>
+					<checksum type="sha1">04daca06562219b805020dec8a61c7627d4d4787</checksum>
+					<url>arm64-v8a-33_r03.zip</url>
 				</complete>
 			</archive>
 		</archives>

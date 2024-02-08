@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2024-02-06 20:49:06.348207 with ADRT.-->
+	<!--Generated on 2024-02-08 13:39:08.482806 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -716,7 +716,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 15:56:37 2018.-->
+				<!--Built on: Fri Jul 27 08:56:37 2018.-->
 				<complete>
 					<size>377841195</size>
 					<checksum type="sha1">76d3568a4e08023047af7d13025a35c9bf1d7e5c</checksum>
@@ -744,7 +744,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Jul 27 15:56:38 2018.-->
+				<!--Built on: Fri Jul 27 08:56:38 2018.-->
 				<complete>
 					<size>397826706</size>
 					<checksum type="sha1">693fce7b487a65491a4e88e9f740959688c9dbe6</checksum>
@@ -772,7 +772,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Jun  6 20:13:48 2018.-->
+				<!--Built on: Wed Jun  6 13:13:48 2018.-->
 				<complete>
 					<size>370311037</size>
 					<checksum type="sha1">fbffa91b936ca18fcc1e0bab2b52a8b0835cbb1c</checksum>
@@ -800,7 +800,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  2 11:10:00 2022.-->
+				<!--Built on: Wed Mar  2 03:10:00 2022.-->
 				<complete>
 					<size>682327945</size>
 					<checksum type="sha1">3dd75066e95327baf8991915a043e53e06a2cfb5</checksum>
@@ -828,7 +828,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 13 15:19:00 2023.-->
+				<!--Built on: Thu Jul 13 08:19:00 2023.-->
 				<complete>
 					<size>901929440</size>
 					<checksum type="sha1">73a96614a2ddcf586e4c659c436d2360bc25badc</checksum>
@@ -856,7 +856,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Jul 13 15:19:26 2023.-->
+				<!--Built on: Thu Jul 13 08:19:26 2023.-->
 				<complete>
 					<size>827418923</size>
 					<checksum type="sha1">56c0c2550580f2ba1b33009c77db017dbcb3d470</checksum>
@@ -884,7 +884,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 29 21:20:09 2023.-->
+				<!--Built on: Fri Sep 29 14:20:09 2023.-->
 				<complete>
 					<size>1100218729</size>
 					<checksum type="sha1">94de5073c7078126614d8b7510aa4adde4327dd5</checksum>
@@ -912,7 +912,7 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri Sep 29 21:20:42 2023.-->
+				<!--Built on: Fri Sep 29 14:20:42 2023.-->
 				<complete>
 					<size>1063091901</size>
 					<checksum type="sha1">949a8b23b3abb217ad2f710bbffe58d4b81dd8db</checksum>
