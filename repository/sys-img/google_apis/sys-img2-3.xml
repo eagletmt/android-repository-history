@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2024-02-08 16:39:39.728955 with ADRT.-->
+	<!--Generated on 2024-02-15 19:02:13.977152 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -2160,7 +2160,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis;x86_64">
-		<!--Generated from bid:10056955, branch:git_sc-v2-emu-release-->
+		<!--Generated from bid:11418786, branch:git_sc-v2-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<base-extension>true</base-extension>
@@ -2175,7 +2175,7 @@ January 16, 2019</license>
 			<abi>x86_64</abi>
 		</type-details>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 		</revision>
 		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -2191,11 +2191,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed May  3 23:24:41 2023.-->
+				<!--Built on: Fri Feb  9 08:52:18 2024.-->
 				<complete>
-					<size>1511072885</size>
-					<checksum type="sha1">4b7fb40deefc6e7b5721774ce8f46310c2b434ca</checksum>
-					<url>x86_64-32_r07.zip</url>
+					<size>1538792859</size>
+					<checksum type="sha1">1b52794699c6889a2fd155bf235b67a592eb8f1d</checksum>
+					<url>x86_64-32_r08.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2279,6 +2279,49 @@ January 16, 2019</license>
 					<size>1541568922</size>
 					<checksum type="sha1">3392de02e09144d61e3a789c0f17ce447b70b191</checksum>
 					<url>x86_64-34_r12.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-VanillaIceCream;google_apis;x86_64">
+		<!--Generated from bid:11431403, branch:git_24Q3-beta-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>34</api-level>
+			<codename>VanillaIceCream</codename>
+			<extension-level>11</extension-level>
+			<base-extension>true</base-extension>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs Intel x86_64 Atom System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Feb  9 16:53:30 2024.-->
+				<complete>
+					<size>1614679640</size>
+					<checksum type="sha1">633e1303d2f609f0db20c7223f87b6bce1adbfda</checksum>
+					<url>x86_64-VanillaIceCream_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2530,7 +2573,7 @@ January 16, 2019</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="system-images;android-32;google_apis;arm64-v8a">
-		<!--Generated from bid:10734261, branch:git_sc-v2-emu-release-->
+		<!--Generated from bid:11418786, branch:git_sc-v2-emu-release-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
 			<api-level>32</api-level>
 			<base-extension>true</base-extension>
@@ -2545,7 +2588,7 @@ January 16, 2019</license>
 			<abi>arm64-v8a</abi>
 		</type-details>
 		<revision>
-			<major>7</major>
+			<major>8</major>
 		</revision>
 		<display-name>Google APIs ARM 64 v8a System Image</display-name>
 		<uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2561,11 +2604,11 @@ January 16, 2019</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Aug 29 19:55:04 2023.-->
+				<!--Built on: Fri Feb  9 08:52:57 2024.-->
 				<complete>
-					<size>1536995307</size>
-					<checksum type="sha1">9e97d7ecd5b6cb9d9141bcbaaec134820ac569e1</checksum>
-					<url>arm64-v8a-32_r06.zip</url>
+					<size>1569899980</size>
+					<checksum type="sha1">7940d3d7357e35b6f720c2bba1159d185bdb2fd5</checksum>
+					<url>arm64-v8a-32_r08.zip</url>
 				</complete>
 			</archive>
 		</archives>
@@ -2733,6 +2776,49 @@ January 16, 2019</license>
 					<size>1588261149</size>
 					<checksum type="sha1">0981c5416516d609b1df5f29d3781c99d9fe061c</checksum>
 					<url>arm64-v8a-34_r12.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-VanillaIceCream;google_apis;arm64-v8a">
+		<!--Generated from bid:11431403, branch:git_24Q3-beta-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>34</api-level>
+			<codename>VanillaIceCream</codename>
+			<extension-level>11</extension-level>
+			<base-extension>true</base-extension>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-arm-dbt-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>32</major>
+					<minor>1</minor>
+					<micro>8</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Feb  9 16:58:34 2024.-->
+				<complete>
+					<size>1617830903</size>
+					<checksum type="sha1">e8e0080a5cd44b33e2ef84ace958461bd7e068b5</checksum>
+					<url>arm64-v8a-VanillaIceCream_r01.zip</url>
 				</complete>
 			</archive>
 		</archives>
