@@ -1,19 +1,33 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ * Copyright (C) 2009 The Android Open Source Project
+ *
+ * Licensed under the Apache License, version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2024-02-23 22:41:41.236075 with ADRT.-->
-	<license id="android-sdk-license" type="text">Terms and Conditions
+  <license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
 
 1. Introduction
 
-1.1 The Android Software Development Kit (referred to in the License Agreement as the &quot;SDK&quot; and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+1.1 The Android Software Development Kit (referred to in the License Agreement as the "SDK" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
 
-1.2 &quot;Android&quot; means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
 
-1.3 A &quot;compatible implementation&quot; means any Android device that (i) complies with the Android Compatibility Definition document, which can be found at the Android compatibility website (http://source.android.com/compatibility) and which may be updated from time to time; and (ii) successfully passes the Android Compatibility Test Suite (CTS).
+1.3 A "compatible implementation" means any Android device that (i) complies with the Android Compatibility Definition document, which can be found at the Android compatibility website (http://source.android.com/compatibility) and which may be updated from time to time; and (ii) successfully passes the Android Compatibility Test Suite (CTS).
 
-1.4 &quot;Google&quot; means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+1.4 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
 
 
 2. Accepting the License Agreement
@@ -33,7 +47,7 @@ This is the Android Software Development Kit License Agreement
 
 3.2 You may not use this SDK to develop applications for other platforms (including non-compatible implementations of Android) or to develop another SDK. You are of course free to develop applications for other platforms, including non-compatible implementations of Android, provided that this SDK is not used for that purpose.
 
-3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. &quot;Intellectual Property Rights&quot; means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
 
 3.4 You may not use the SDK for any purpose not expressly permitted by the License Agreement.  Except to the extent required by applicable third party licenses, you may not copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK.
 
@@ -106,7 +120,7 @@ This is the Android Software Development Kit License Agreement
 
 10. DISCLAIMER OF WARRANTIES
 
-10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
 
 10.2 YOUR USE OF THE SDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
 
@@ -145,19 +159,20 @@ This is the Android Software Development Kit License Agreement
 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
 
 
-January 16, 2019</license>
-	<license id="android-sdk-preview-license" type="text">To get started with the Android SDK Preview, you must agree to the following terms and conditions.
+January 16, 2019
+</license>
+  <license id="android-sdk-preview-license" type="text">To get started with the Android SDK Preview, you must agree to the following terms and conditions.
 As described below, please note that this is a preview version of the Android SDK, subject to change, that you use at your own risk.  The Android SDK Preview is not a stable release, and may contain errors and defects that can result in serious damage to your computer systems, devices and data.
 
-This is the Android SDK Preview License Agreement (the &quot;License Agreement&quot;).
+This is the Android SDK Preview License Agreement (the "License Agreement").
 
 1. Introduction
 
 1.1 The Android SDK Preview (referred to in the License Agreement as the “Preview” and specifically including the Android system files, packaged APIs, and Preview library files, if and when they are made available) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the Preview.
 
-1.2 &quot;Android&quot; means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
 
-1.3 &quot;Google&quot; means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+1.3 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
 
 2. Accepting the License Agreement
 
@@ -173,7 +188,7 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 3.1 Subject to the terms of the License Agreement, Google grants you a royalty-free, non-assignable, non-exclusive, non-sublicensable, limited, revocable license to use the Preview, personally or internally within your company or organization, solely to develop applications to run on the Android platform.
 
-3.2 You agree that Google or third parties owns all legal right, title and interest in and to the Preview, including any Intellectual Property Rights that subsist in the Preview. &quot;Intellectual Property Rights&quot; means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+3.2 You agree that Google or third parties owns all legal right, title and interest in and to the Preview, including any Intellectual Property Rights that subsist in the Preview. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
 
 3.3 You may not use the Preview for any purpose not expressly permitted by the License Agreement. Except to the extent required by applicable third party licenses, you may not: (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the Preview or any part of the Preview; or (b) load any part of the Preview onto a mobile handset or any other hardware device except a personal computer, combine any part of the Preview with other software, or distribute any software or device incorporating a part of the Preview.
 
@@ -245,7 +260,7 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 10. DISCLAIMERS
 
-10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE PREVIEW IS AT YOUR SOLE RISK AND THAT THE PREVIEW IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE PREVIEW IS AT YOUR SOLE RISK AND THAT THE PREVIEW IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
 
 10.2 YOUR USE OF THE PREVIEW AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE PREVIEW IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE. WITHOUT LIMITING THE FOREGOING, YOU UNDERSTAND THAT THE PREVIEW IS NOT A STABLE RELEASE AND MAY CONTAIN ERRORS, DEFECTS AND SECURITY VULNERABILITIES THAT CAN RESULT IN SIGNIFICANT DAMAGE, INCLUDING THE COMPLETE, IRRECOVERABLE LOSS OF USE OF YOUR COMPUTER SYSTEM OR OTHER DEVICE.
 
@@ -279,14 +294,15 @@ This is the Android SDK Preview License Agreement (the &quot;License Agreement&q
 
 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
 
-June 2014.</license>
-	<license id="intel-android-sysimage-license" type="text">Intel Corporation Internal Evaluation License Agreement for x86 Android* System Images for Android Software Development Kit (SDK)
-This Internal Evaluation License Agreement (this &quot;Agreement&quot;) is entered into by and between Intel and you (as an individual developer or a legal entity -- identified below as Recipient). Intel shall provide the Evaluation Software to Recipient as described in accordance with the Internal Evaluation License Terms and Conditions.
+June 2014.
+</license>
+  <license id="intel-android-sysimage-license" type="text">Intel Corporation Internal Evaluation License Agreement for x86 Android* System Images for Android Software Development Kit (SDK)
+This Internal Evaluation License Agreement (this "Agreement") is entered into by and between Intel and you (as an individual developer or a legal entity -- identified below as Recipient). Intel shall provide the Evaluation Software to Recipient as described in accordance with the Internal Evaluation License Terms and Conditions.
 
 Definitions.
 These terms shall have the following meanings:
 
-&quot;Intel&quot; or &quot;INTEL&quot;
+"Intel" or "INTEL"
 Intel Corporation
 With an Address of:
 2200 Mission College Blvd.
@@ -295,27 +311,27 @@ Office of the General Counsel
 Mail Stop: RNB-4-51
 Attn: Software and Services Group Legal
 
-&quot;Evaluation Software&quot;
+"Evaluation Software"
 The x86 Android* emulator system images for Android  Software Development Kit (SDK), as provided by Intel.
 
 INTERNAL EVALUATION LICENSE TERMS AND CONDITIONS
 
 1. DEFINITIONS.
 
-1.1 Additional Defined Terms. &quot;Agreement&quot;, &quot;Evaluation Software&quot;,  &quot;Intel&quot;, &quot;Non-disclosure Agreement&quot;, &quot;Recipient&quot;, and &quot;Effective Date&quot; shall have the meanings ascribed to them on the signature page(s) of this Agreement.
+1.1 Additional Defined Terms. "Agreement", "Evaluation Software",  "Intel", "Non-disclosure Agreement", "Recipient", and "Effective Date" shall have the meanings ascribed to them on the signature page(s) of this Agreement.
 
 1.2 Evaluation Materials means, collectively, the Evaluation Software (in source and/or object code form) and documentation (including, without limitation, any design documents, specifications and other related materials) related to the Evaluation Software.
 
-1.3 &quot;Open Source Software&quot; means any software that requires as a condition of use, modification and/or distribution of such software that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form; or (b) be licensed by the user to third parties for the purpose of making and/or distributing derivative works; or (c) be redistributable at no charge. Open Source Software includes, without limitation, software licensed or distributed under any of the following licenses or distribution models, or licenses or distribution models substantially similar to any of the following: (a) GNUs General Public License (GPL) or Lesser/Library GPL (LGPL), (b) the Artistic License (e.g., PERL), (c) the Mozilla Public License, (d) the Netscape Public License, (e) the Sun Community Source License (SCSL), (f) the Sun Industry Source License (SISL), (g) the Apache Software license and (h) the Common Public License (CPL).
+1.3 "Open Source Software" means any software that requires as a condition of use, modification and/or distribution of such software that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form; or (b) be licensed by the user to third parties for the purpose of making and/or distributing derivative works; or (c) be redistributable at no charge. Open Source Software includes, without limitation, software licensed or distributed under any of the following licenses or distribution models, or licenses or distribution models substantially similar to any of the following: (a) GNUs General Public License (GPL) or Lesser/Library GPL (LGPL), (b) the Artistic License (e.g., PERL), (c) the Mozilla Public License, (d) the Netscape Public License, (e) the Sun Community Source License (SCSL), (f) the Sun Industry Source License (SISL), (g) the Apache Software license and (h) the Common Public License (CPL).
 
-1.4 &quot;Pre-Release Materials&quot; means &quot;alpha&quot; or &quot;beta&quot; designated pre-release features, which may not be fully functional, which Intel may substantially modify in producing any production version of the Evaluation Materials and/or is still under development by Intel and/or Intels suppliers.
+1.4 "Pre-Release Materials" means "alpha" or "beta" designated pre-release features, which may not be fully functional, which Intel may substantially modify in producing any production version of the Evaluation Materials and/or is still under development by Intel and/or Intels suppliers.
 
 2. PURPOSE. Intel desires to provide the Evaluation Materials to Recipient solely for Recipient's internal evaluation of the Evaluation Software and other Intel products, to evaluate the desirability of cooperating with Intel in developing products based on the Evaluation Software and/or to advise Intel as to possible modifications to the Evaluation Software. Recipient may not disclose, distribute or make commercial use of the Evaluation Materials or any modifications to the Evaluation Materials.
 THE EVALUATION MATERIALS ARE PROVIDED FOR EVALUATION PURPOSES ONLY AND MAY NOT BE DISTRIBUTED BY RECIPIENT OR INCORPORATED INTO RECIPIENTS PRODUCTS OR SOFTWARE. PLEASE CONTACT AN INTEL SALES REPRESENTATIVE TO LEARN ABOUT THE AVAILABILITY AND COST OF A COMMERICAL VERSION OF THE EVALUATION SOFTWARE.
 
 3. TITLE. Title to the Evaluation Materials remains with Intel or its suppliers. Recipient shall not mortgage, pledge or encumber the Evaluation Materials in any way. Recipient shall return all Evaluation Materials, keeping no copies, upon termination or expiration of this Agreement.
 
-4. LICENSE. Intel grants Recipient a royalty-free, personal, nontransferable, nonexclusive license under its copyrights to use the Evaluation Software only for the purposes described in paragraph 2 above. Unless otherwise communicated in writing by Intel to Recipient, to the extent the Evaluation Software is provided in more than one delivery or release (each, a &quot;Release&quot;) the license grant in this Section 4 and the Evaluation Period shall apply to each Release. Recipient may not make modifications to the Evaluation Software. Recipient shall not disassemble, reverse-engineer, or decompile any software not provided to Recipient in source code form.
+4. LICENSE. Intel grants Recipient a royalty-free, personal, nontransferable, nonexclusive license under its copyrights to use the Evaluation Software only for the purposes described in paragraph 2 above. Unless otherwise communicated in writing by Intel to Recipient, to the extent the Evaluation Software is provided in more than one delivery or release (each, a "Release") the license grant in this Section 4 and the Evaluation Period shall apply to each Release. Recipient may not make modifications to the Evaluation Software. Recipient shall not disassemble, reverse-engineer, or decompile any software not provided to Recipient in source code form.
 EXCEPT AS PROVIDED HEREIN, NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY OTHER INTELLECTUAL PROPERTY RIGHTS IS GRANTED TO THE RECIPIENT.
 
 5. NO OBLIGATION. Recipient shall have no duty to purchase or license any product from Intel. Intel and its suppliers shall have no obligation to provide support for, or develop a non-evaluation version of, the Evaluation Software or to license any version of it.
@@ -336,18 +352,20 @@ EXCEPT AS PROVIDED HEREIN, NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR 
 
 10.3 Assignment. Recipient may not delegate, assign or transfer this Agreement, the license granted or any of Recipients rights or duties hereunder, expressly, by implication, by operation of law, by way of merger (regardless of whether Recipient is the surviving entity) or acquisition, or otherwise and any attempt to do so, without Intels express prior written consent, shall be null and void. Intel may assign this Agreement, and its rights and obligations hereunder, in its sole discretion.
 
-10.4 Entire Agreement. This Agreement constitutes the entire agreement between Recipient and Intel and supersedes in their entirety any and all oral or written agreements previously existing between Recipient and Intel with respect to the subject matter hereof. This Agreement supersedes any and all &quot;click-to-accept&quot; or shrink-wrapped licenses, in hard-copy or electronic form, embedded in or included with the Evaluation Materials. This Agreement may only be amended or supplemented by a writing that refers explicitly to this Agreement and that is signed by duly authorized representatives of Recipient and Intel. Without limiting the foregoing, terms and conditions on any purchase orders or similar materials submitted by Recipient to Intel, and any terms contained in Intels standard acknowledgment form that are in conflict with these terms, shall be of no force or effect.
+10.4 Entire Agreement. This Agreement constitutes the entire agreement between Recipient and Intel and supersedes in their entirety any and all oral or written agreements previously existing between Recipient and Intel with respect to the subject matter hereof. This Agreement supersedes any and all "click-to-accept" or shrink-wrapped licenses, in hard-copy or electronic form, embedded in or included with the Evaluation Materials. This Agreement may only be amended or supplemented by a writing that refers explicitly to this Agreement and that is signed by duly authorized representatives of Recipient and Intel. Without limiting the foregoing, terms and conditions on any purchase orders or similar materials submitted by Recipient to Intel, and any terms contained in Intels standard acknowledgment form that are in conflict with these terms, shall be of no force or effect.
 
 10.5 Severability. In the event that any provision of this Agreement shall be unenforceable or invalid under any applicable law or be so held by applicable court decision, such unenforceability or invalidity shall not render this Agreement unenforceable or invalid as a whole, and, in such event, such provision shall be changed and interpreted so as to best accomplish the objectives of such unenforceable or invalid provision within the limits of applicable law or applicable court decisions.
 
-10.6 Export Regulations / Export Control. Recipient shall not export, either directly or indirectly, any product, service or technical data or system incorporating the Evaluation Materials without first obtaining any required license or other approval from the U.S. Department of Commerce or any other agency or department of the United States Government. In the event any product is exported from the United States or re-exported from a foreign destination by Recipient, Recipient shall ensure that the distribution and export/re-export or import of the product is in compliance with all laws, regulations, orders, or other restrictions of the U.S. Export Administration Regulations and the appropriate foreign government. Recipient agrees that neither it nor any of its subsidiaries will export/re-export any technical data, process, product, or service, directly or indirectly, to any country for which the United States government or any agency thereof or the foreign government from where it is shipping requires an export license, or other governmental approval, without first obtaining such license or approval. Recipient also agrees to implement measures to ensure that foreign national employees are authorized to receive any information controlled by U.S. export control laws. An export is &quot;deemed&quot; to take place when information is released to a foreign national wherever located.
+10.6 Export Regulations / Export Control. Recipient shall not export, either directly or indirectly, any product, service or technical data or system incorporating the Evaluation Materials without first obtaining any required license or other approval from the U.S. Department of Commerce or any other agency or department of the United States Government. In the event any product is exported from the United States or re-exported from a foreign destination by Recipient, Recipient shall ensure that the distribution and export/re-export or import of the product is in compliance with all laws, regulations, orders, or other restrictions of the U.S. Export Administration Regulations and the appropriate foreign government. Recipient agrees that neither it nor any of its subsidiaries will export/re-export any technical data, process, product, or service, directly or indirectly, to any country for which the United States government or any agency thereof or the foreign government from where it is shipping requires an export license, or other governmental approval, without first obtaining such license or approval. Recipient also agrees to implement measures to ensure that foreign national employees are authorized to receive any information controlled by U.S. export control laws. An export is "deemed" to take place when information is released to a foreign national wherever located.
 
 10.7 Special Terms for Pre-Release Materials. If so indicated in the description of the Evaluation Software, the Evaluation Software may contain Pre-Release Materials. Recipient hereby understands, acknowledges and agrees that: (i) Pre-Release Materials may not be fully tested and may contain bugs or errors; (ii) Pre-Release materials are not suitable for commercial release in their current state; (iii) regulatory approvals for Pre-Release Materials (such as UL or FCC) have not been obtained, and Pre-Release Materials may therefore not be certified for use in certain countries or environments and (iv) Intel can provide no assurance that it will ever produce or make generally available a production version of the Pre-Release Materials . Intel is not under any obligation to develop and/or release or offer for sale or license a final product based upon the Pre-Release Materials and may unilaterally elect to abandon the Pre-Release Materials or any such development platform at any time and without any obligation or liability whatsoever to Recipient or any other person.
 
 10.8 Open Source Software. In the event Open Source software is included with Evaluation Software, such Open Source software is licensed pursuant to the applicable Open Source software license agreement identified in the Open Source software comments in the applicable source code file(s) and/or file header provided with Evaluation Software. Additional detail may be provided (where applicable) in the accompanying on-line documentation. With respect to the Open Source software, nothing in this Agreement limits any rights under, or grants rights that supersede, the terms of any applicable Open Source software license agreement.
-ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED POSSIBLY WITH FAULTS</license>
-	<license id="mips-android-sysimage-license" type="text">MIPS Technologies, Inc. (“MIPS”) Internal Evaluation License Agreement for MIPS Android™ System Images for Android Software Development Kit (SDK):
-This Internal Evaluation License Agreement (this &quot;Agreement&quot;) is entered into by and between MIPS and you (as an individual developer or a legal entity -- identified below as “Recipient”). MIPS shall make the Evaluation Software available to Recipient as described in accordance with the terms and conditions set forth below.
+ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED POSSIBLY WITH FAULTS
+
+</license>
+  <license id="mips-android-sysimage-license" type="text">MIPS Technologies, Inc. (“MIPS”) Internal Evaluation License Agreement for MIPS Android™ System Images for Android Software Development Kit (SDK):
+This Internal Evaluation License Agreement (this "Agreement") is entered into by and between MIPS and you (as an individual developer or a legal entity -- identified below as “Recipient”). MIPS shall make the Evaluation Software available to Recipient as described in accordance with the terms and conditions set forth below.
 
 By clicking on the “Accept” button, downloading, installing, or otherwise using the Evaluation Materials (defined below), you agree to be bound by the terms of this Agreement effective as of the date you click “Accept” (the “Effective Date”), and if doing so on behalf of an entity, you represent that you are authorized to bind the entity to the terms and conditions of this Agreement. If you do not agree to be bound by the terms and conditions of this Agreement, do not download, install, or use the Evaluation Materials.
 
@@ -357,7 +375,7 @@ By clicking on the “Accept” button, downloading, installing, or otherwise us
 
 1.2 “Evaluation Software” shall mean MIPS Android™ emulator system images for Android Software Development Kit (SDK), as made available to Recipient.
 
-1.3 “Evaluation Materials&quot; means, collectively, the Evaluation Software (in source and/or object code form) and documentation (including, without limitation, any design documents, specifications, reference manuals, and other related materials) related to the Evaluation Software as made available to Recipient.
+1.3 “Evaluation Materials" means, collectively, the Evaluation Software (in source and/or object code form) and documentation (including, without limitation, any design documents, specifications, reference manuals, and other related materials) related to the Evaluation Software as made available to Recipient.
 
 1.4 “Open Source Software” means any software that requires (as a condition of use, modification and/or distribution of such software) that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form; or (b) be licensed by the user to third parties for the purpose of making and/or distributing derivative works; or (c) be redistributable at no charge. Open Source Software includes, without limitation, software licensed or distributed under any of the following licenses or distribution models, or licenses or distribution models substantially similar to any of the following: (a) GNU’s General Public License (GPL) or Lesser/Library GPL (LGPL), (b) the Artistic License (e.g., PERL), (c) the Mozilla Public License, (d) the Netscape Public License, (e) the Sun Community Source License (SCSL), (f) the Sun Industry Source License (SISL), (g) the Apache Software license and (h) the Common Public License (CPL).
 
@@ -396,7 +414,7 @@ EXCEPT AS PROVIDED HEREIN, NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR 
 
 10.5 Severability. In the event that any provision of this Agreement is finally adjudicated to be unenforceable or invalid under any applicable law, such unenforceability or invalidity shall not render this Agreement unenforceable or invalid as a whole, and, in such event, such unenforceable or invalid provision shall be interpreted so as to best accomplish the objectives of such provision within the limits of applicable law or applicable court decisions.
 
-10.6 Export Regulations / Export Control. Recipient shall not export, either directly or indirectly, any product, service or technical data or system incorporating the Evaluation Materials without first obtaining any required license or other necessary approval from the U.S. Department of Commerce or any other governing agency or department of the United States Government. In the event any product is exported from the United States or re-exported from a foreign destination by Recipient, Recipient shall ensure that the distribution and export/re-export or import of the product is in compliance with all applicable laws, regulations, orders, or other restrictions of the U.S. Export Administration Regulations and the appropriate foreign government. Recipient agrees that neither it nor any of its subsidiaries will export/re-export any technical data, process, product, or service, directly or indirectly, to any country for which the United States government or any agency thereof or the foreign government from where it is shipping requires an export license, or other governmental approval, without first obtaining such license or approval. Recipient also agrees to implement measures to ensure that foreign national employees are authorized to receive any information controlled by U.S. export control laws. An export is &quot;deemed&quot; to take place when information is released to a foreign national wherever located.
+10.6 Export Regulations / Export Control. Recipient shall not export, either directly or indirectly, any product, service or technical data or system incorporating the Evaluation Materials without first obtaining any required license or other necessary approval from the U.S. Department of Commerce or any other governing agency or department of the United States Government. In the event any product is exported from the United States or re-exported from a foreign destination by Recipient, Recipient shall ensure that the distribution and export/re-export or import of the product is in compliance with all applicable laws, regulations, orders, or other restrictions of the U.S. Export Administration Regulations and the appropriate foreign government. Recipient agrees that neither it nor any of its subsidiaries will export/re-export any technical data, process, product, or service, directly or indirectly, to any country for which the United States government or any agency thereof or the foreign government from where it is shipping requires an export license, or other governmental approval, without first obtaining such license or approval. Recipient also agrees to implement measures to ensure that foreign national employees are authorized to receive any information controlled by U.S. export control laws. An export is "deemed" to take place when information is released to a foreign national wherever located.
 
 10.7 Special Terms for Pre-Release Materials. If so indicated in the description of the Evaluation Software, the Evaluation Software may contain Pre-Release Materials. Recipient hereby understands, acknowledges and agrees that: (i) Pre-Release Materials may not be fully tested and may contain bugs or errors; (ii) Pre-Release materials are not suitable for commercial release in their current state; (iii) regulatory approvals for Pre-Release Materials (such as UL or FCC) have not been obtained, and Pre-Release Materials may therefore not be certified for use in certain countries or environments or may not be suitable for certain applications and (iv) MIPS can provide no assurance that it will ever produce or make generally available a production version of the Pre-Release Materials . MIPS is not under any obligation to develop and/or release or offer for sale or license a final product based upon the Pre-Release Materials and may unilaterally elect to abandon the Pre-Release Materials or any such development platform at any time and without any obligation or liability whatsoever to Recipient or any other person.
 
@@ -404,15 +422,15 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED “AS IS�
 
 10.8 Open Source Software. In the event Open Source software is included with Evaluation Software, such Open Source software is licensed pursuant to the applicable Open Source software license agreement identified in the Open Source software comments in the applicable source code file(s) and/or file header as indicated in the Evaluation Software. Additional detail may be available (where applicable) in the accompanying on-line documentation. With respect to the Open Source software, nothing in this Agreement limits any rights under, or grants rights that supersede, the terms of any applicable Open Source software license agreement.
 </license>
-	<license id="android-googletv-license" type="text">Terms and Conditions
+  <license id="android-googletv-license" type="text">Terms and Conditions
 
 This is the Google TV Add-on for the Android Software Development Kit License Agreement.
 
 1. Introduction
 
-1.1 The Google TV Add-on for the Android Software Development Kit (referred to in this License Agreement as the &quot;Google TV Add-on&quot; and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Google in relation to your use of the Google TV Add-on.
+1.1 The Google TV Add-on for the Android Software Development Kit (referred to in this License Agreement as the "Google TV Add-on" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Google in relation to your use of the Google TV Add-on.
 
-1.2 &quot;Google&quot; means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+1.2 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
 
 2. Accepting this License Agreement
 
@@ -432,7 +450,7 @@ This is the Google TV Add-on for the Android Software Development Kit License Ag
 
 3.1 Subject to the terms of this License Agreement, Google grants you a limited, worldwide, royalty-free, non- assignable and non-exclusive license to use the Google TV Add-on solely to develop applications to run on the Google TV platform.
 
-3.2 You agree that Google or third parties own all legal right, title and interest in and to the Google TV Add-on, including any Intellectual Property Rights that subsist in the Google TV Add-on. &quot;Intellectual Property Rights&quot; means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+3.2 You agree that Google or third parties own all legal right, title and interest in and to the Google TV Add-on, including any Intellectual Property Rights that subsist in the Google TV Add-on. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
 
 3.3 Except to the extent required by applicable third party licenses, you may not copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the Google TV Add-on or any part of the Google TV Add-on. Except to the extent required by applicable third party licenses, you may not load any part of the Google TV Add-on onto a mobile handset, television, or any other hardware device except a personal computer, combine any part of the Google TV Add-on with other software, or distribute any software or device incorporating a part of the Google TV Add-on.
 
@@ -510,7 +528,7 @@ This is the Google TV Add-on for the Android Software Development Kit License Ag
 
 10. DISCLAIMER OF WARRANTIES
 
-10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE GOOGLE TV ADD-ON IS AT YOUR SOLE RISK AND THAT THE GOOGLE TV ADD-ON IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE GOOGLE TV ADD-ON IS AT YOUR SOLE RISK AND THAT THE GOOGLE TV ADD-ON IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
 
 10.2 YOUR USE OF THE GOOGLE TV ADD-ON AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE GOOGLE TV ADD-ON IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
 
@@ -545,20 +563,21 @@ This is the Google TV Add-on for the Android Software Development Kit License Ag
 14.7 This License Agreement, and your relationship with Google under this License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from this License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
 
 
-August 15, 2011</license>
-	<license id="android-sdk-arm-dbt-license" type="text">Terms and Conditions
+August 15, 2011
+</license>
+  <license id="android-sdk-arm-dbt-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
 
 1. Introduction
 
-1.1 The Android Software Development Kit (referred to in the License Agreement as the &quot;SDK&quot; and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+1.1 The Android Software Development Kit (referred to in the License Agreement as the "SDK" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
 
-1.2 &quot;Android&quot; means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
 
-1.3 A &quot;compatible implementation&quot; means any Android device that (i) complies with the Android Compatibility Definition document, which can be found at the Android compatibility website (http://source.android.com/compatibility) and which may be updated from time to time; and (ii) successfully passes the Android Compatibility Test Suite (CTS).
+1.3 A "compatible implementation" means any Android device that (i) complies with the Android Compatibility Definition document, which can be found at the Android compatibility website (http://source.android.com/compatibility) and which may be updated from time to time; and (ii) successfully passes the Android Compatibility Test Suite (CTS).
 
-1.4 &quot;Google&quot; means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+1.4 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
 
 
 2. Accepting the License Agreement
@@ -578,7 +597,7 @@ This is the Android Software Development Kit License Agreement
 
 3.2 You may not use this SDK to develop applications for other platforms (including non-compatible implementations of Android) or to develop another SDK. You are of course free to develop applications for other platforms, including non-compatible implementations of Android, provided that this SDK is not used for that purpose.
 
-3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. &quot;Intellectual Property Rights&quot; means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
 
 3.4 You may not use the SDK for any purpose not expressly permitted by the License Agreement.  Except to the extent required by applicable third party licenses, you may not copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK.
 
@@ -653,7 +672,7 @@ This is the Android Software Development Kit License Agreement
 
 10. DISCLAIMER OF WARRANTIES
 
-10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
 
 10.2 YOUR USE OF THE SDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
 
@@ -692,1745 +711,1628 @@ This is the Android Software Development Kit License Agreement
 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
 
 
-January 16, 2019</license>
-	<channel id="channel-0">stable</channel>
-	<channel id="channel-1">beta</channel>
-	<channel id="channel-2">dev</channel>
-	<channel id="channel-3">canary</channel>
-	<remotePackage path="system-images;android-10;default;armeabi-v7a">
-		<!--Generated from bid:3644351, branch:gb-emu-release-arm-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>10</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:04:09 2019.-->
-				<complete>
-					<size>67927049</size>
-					<checksum>8537616a7add47cce24c60f18bc2429e3dc90ae3</checksum>
-					<url>armeabi-v7a-10_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-14;default;armeabi-v7a">
-		<!--Generated from bid:229537, branch:git_ics-mr0-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>14</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 03:46:32 2018.-->
-				<complete>
-					<size>99621822</size>
-					<checksum>d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
-					<url>sysimg_armv7a-14_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-15;default;armeabi-v7a">
-		<!--Generated from bid:3876239, branch:ics-mr1-emu-release-arm-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>15</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:04:44 2019.-->
-				<complete>
-					<size>102452069</size>
-					<checksum>03d7ed95a9d3b107e3f2e5b166d017ea12529e70</checksum>
-					<url>armeabi-v7a-15_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-16;default;armeabi-v7a">
-		<!--Generated from bid:4875369, branch:jb-emu-release-arm-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>16</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:05:27 2019.-->
-				<complete>
-					<size>118646340</size>
-					<checksum>69b944b0d5a18c8563fa80d7d229af64890f724e</checksum>
-					<url>armeabi-v7a-16_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-17;default;armeabi-v7a">
-		<!--Generated from bid:4875371, branch:jb-mr1.1-emu-release-arm-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>17</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:05:56 2019.-->
-				<complete>
-					<size>124437041</size>
-					<checksum>a18a3fd0958ec4ef52507f58e414fc5c7dfd59d6</checksum>
-					<url>armeabi-v7a-17_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-18;default;armeabi-v7a">
-		<!--Generated from bid:3876170, branch:jb-mr2-emu-release-arm-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>18</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:06:37 2019.-->
-				<complete>
-					<size>130590545</size>
-					<checksum>580b583720f7de671040d5917c8c9db0c7aa03fd</checksum>
-					<url>armeabi-v7a-18_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-19;default;armeabi-v7a">
-		<!--Generated from bid:3462041, branch:git_klp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>19</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 15:53:25 2018.-->
-				<complete>
-					<size>159871567</size>
-					<checksum>d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
-					<url>armeabi-v7a-19_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-21;default;armeabi-v7a">
-		<!--Generated from bid:3079185, branch:git_lmp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>21</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 15:50:26 2018.-->
-				<complete>
-					<size>187163871</size>
-					<checksum>8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
-					<url>armeabi-v7a-21_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-22;default;armeabi-v7a">
-		<!--Generated from bid:3079158, branch:git_lmp_mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>22</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 15:50:08 2018.-->
-				<complete>
-					<size>194596267</size>
-					<checksum>2114ec015dbf3a16cbcb4f63e8a84a1b206a07a1</checksum>
-					<url>armeabi-v7a-22_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-23;default;armeabi-v7a">
-		<!--Generated from bid:3079352, branch:git_mnc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>23</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 15:50:36 2018.-->
-				<complete>
-					<size>238333358</size>
-					<checksum>7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
-					<url>armeabi-v7a-23_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-24;default;armeabi-v7a">
-		<!--Generated from bid:3245079, branch:git_nyc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>24</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>armeabi-v7a</abi>
-		</type-details>
-		<revision>
-			<major>7</major>
-		</revision>
-		<display-name>ARM EABI v7a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jul 27 15:51:39 2018.-->
-				<complete>
-					<size>283677512</size>
-					<checksum>3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
-					<url>armeabi-v7a-24_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-21;default;arm64-v8a">
-		<!--Generated from bid:8789838, branch:git_lmp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>21</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Jul  2 01:26:43 2022.-->
-				<complete>
-					<size>211426314</size>
-					<checksum>c4375f1b4b4cd21a8617660e25f621cedcbd8332</checksum>
-					<url>arm64-v8a-21_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-22;default;arm64-v8a">
-		<!--Generated from bid:8789835, branch:git_lmp-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>22</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Jul  2 01:26:52 2022.-->
-				<complete>
-					<size>219124634</size>
-					<checksum>703e27a9a4fb7a6e763cb7d713b89e5249a8fc99</checksum>
-					<url>arm64-v8a-22_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-23;default;arm64-v8a">
-		<!--Generated from bid:8690019, branch:git_mnc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>23</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>7</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Jun  7 13:56:56 2022.-->
-				<complete>
-					<size>253807785</size>
-					<checksum>ac18f3bd717e02804eee585e029f5dbc1a2616bf</checksum>
-					<url>arm64-v8a-23_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-24;default;arm64-v8a">
-		<!--Generated from bid:8695085, branch:git_nyc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>24</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>9</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Jun  8 11:58:45 2022.-->
-				<complete>
-					<size>305854153</size>
-					<checksum>e88ebdf4533efa0370603ee4ab0e7834e0cc364f</checksum>
-					<url>arm64-v8a-24_r09.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-25;default;arm64-v8a">
-		<!--Generated from bid:8695018, branch:git_nyc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Jun  8 11:58:53 2022.-->
-				<complete>
-					<size>308416103</size>
-					<checksum>b39d359623323a1b4906c071dec396040016ea73</checksum>
-					<url>arm64-v8a-25_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-26;default;arm64-v8a">
-		<!--Generated from bid:10042266, branch:git_oc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>26</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>1</minor>
-					<micro>1</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon May  1 18:23:23 2023.-->
-				<complete>
-					<size>330014927</size>
-					<checksum>12353141d08dd302fbebc03872f0e1ca7357c55f</checksum>
-					<url>arm64-v8a-26_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-27;default;arm64-v8a">
-		<!--Generated from bid:10042287, branch:git_oc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>1</minor>
-					<micro>1</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon May  1 18:24:36 2023.-->
-				<complete>
-					<size>332173536</size>
-					<checksum>e014473ac510cc9d8e9b412826332923277fa827</checksum>
-					<url>arm64-v8a-27_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;default;arm64-v8a">
-		<!--Generated from bid:9767327, branch:git_pi-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>1</minor>
-					<micro>1</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Mar 22 23:55:55 2023.-->
-				<complete>
-					<size>426760297</size>
-					<checksum>e209114dd0dfc2f4e0d328f5fd7367fec39ee1bd</checksum>
-					<url>arm64-v8a-28_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-29;default;arm64-v8a">
-		<!--Generated from bid:7910984, branch:git_qt-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Nov 12 20:02:42 2021.-->
-				<complete>
-					<size>498049256</size>
-					<checksum>fa0d67d7430fcc84b2fe2508ea81e92ac644e264</checksum>
-					<url>arm64-v8a-29_r08.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-30;default;arm64-v8a">
-		<!--Generated from bid:10160917, branch:git_rvc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu May 18 16:56:15 2023.-->
-				<complete>
-					<size>548363615</size>
-					<checksum>e96298145a5e0bfd6da4816f51b06c520d8dba72</checksum>
-					<url>arm64-v8a-30_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-31;default;arm64-v8a">
-		<!--Generated from bid:8752307, branch:git_sc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>31</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>2</minor>
-					<micro>7</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Jun 28 09:01:59 2022.-->
-				<complete>
-					<size>635481190</size>
-					<checksum>1052df2d0afc8fe57138db19d5ebd82d10c607da</checksum>
-					<url>arm64-v8a-31_r03.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-32;default;arm64-v8a">
-		<!--Generated from bid:11418786, branch:git_sc-v2-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Feb  9 16:50:02 2024.-->
-				<complete>
-					<size>643262633</size>
-					<checksum>c57d92a4131590b2a3b62f2a728766aa6bbec57f</checksum>
-					<url>arm64-v8a-32_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-33;default;arm64-v8a">
-		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>33</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Oct 12 19:38:19 2023.-->
-				<complete>
-					<size>672331372</size>
-					<checksum>69883e92b77f8705af135ee86e1d87589f8f113e</checksum>
-					<url>arm64-v8a-33_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-34;default;arm64-v8a">
-		<!--Generated from bid:11228894, branch:git_udc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>34</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>arm64-v8a</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>ARM 64 v8a System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Dec 18 00:36:05 2023.-->
-				<complete>
-					<size>705115396</size>
-					<checksum>d9f2011131919abe952814e041f16f317242c3fa</checksum>
-					<url>arm64-v8a-34_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-16;default;mips">
-		<!--Generated from bid:1741836, branch:git_jb-dev-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>16</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>mips</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>MIPS System Image</display-name>
-		<uses-license ref="mips-android-sysimage-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jul 26 23:01:28 2018.-->
-				<complete>
-					<size>122482530</size>
-					<checksum>67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
-					<url>sysimg_mips-16_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-17;default;mips">
-		<!--Generated from bid:1742939, branch:git_jb-mr1.1-dev-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>17</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>mips</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>MIPS System Image</display-name>
-		<uses-license ref="mips-android-sysimage-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jul 26 23:01:38 2018.-->
-				<complete>
-					<size>131781761</size>
-					<checksum>f0c6e153bd584c29e51b5c9723cfbf30f996a05d</checksum>
-					<url>sysimg_mips-17_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-10;default;x86">
-		<!--Generated from bid:3644351, branch:gb-emu-release-x86-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>10</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:07:12 2019.-->
-				<complete>
-					<size>75386095</size>
-					<checksum>a166d5ccbb165e1dd5464fbfeec30a61f77790d8</checksum>
-					<url>x86-10_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-15;default;x86">
-		<!--Generated from bid:4000000, branch:ics-mr1-emu-release-x86-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>15</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>7</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Nov 13 02:13:24 2020.-->
-				<complete>
-					<size>116030933</size>
-					<checksum>61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
-					<url>x86-15_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-16;default;x86">
-		<!--Generated from bid:5000000, branch:git_jb-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>16</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>7</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Nov 13 22:59:19 2020.-->
-				<complete>
-					<size>135305313</size>
-					<checksum>ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
-					<url>x86-16_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-17;default;x86">
-		<!--Generated from bid:5000002, branch:git_jb-mr1.1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>17</api-level>
-			<tag>
-				<id>default</id>
-				<display>Google APIs</display>
-			</tag>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>7</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Nov 13 23:55:30 2020.-->
-				<complete>
-					<size>194811128</size>
-					<checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
-					<url>x86-17_r07.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-18;default;x86">
-		<!--Generated from bid:3876170, branch:jb-mr2-emu-release-x86-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>18</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Feb 21 20:08:54 2019.-->
-				<complete>
-					<size>150097655</size>
-					<checksum>7a4ced4d9b0ab48047825491b4072dc2eb9b610e</checksum>
-					<url>x86-18_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-19;default;x86">
-		<!--Generated from bid:4174703, branch:git_klp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>19</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Jun 14 01:42:22 2018.-->
-				<complete>
-					<size>185886274</size>
-					<checksum>2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
-					<url>x86-19_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-21;default;x86">
-		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>21</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue May 22 10:41:51 2018.-->
-				<complete>
-					<size>208212529</size>
-					<checksum>00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
-					<url>x86-21_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-22;default;x86">
-		<!--Generated from bid:4174727, branch:git_lmp-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>22</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sun May 20 07:45:19 2018.-->
-				<complete>
-					<size>214268954</size>
-					<checksum>e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
-					<url>x86-22_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-23;default;x86">
-		<!--Generated from bid:4174734, branch:git_mnc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>23</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>10</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Jun  6 05:05:27 2018.-->
-				<complete>
-					<size>260804863</size>
-					<checksum>f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
-					<url>x86-23_r10.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-24;default;x86">
-		<!--Generated from bid:4174735, branch:git_nyc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>24</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue May 22 17:30:01 2018.-->
-				<complete>
-					<size>313489224</size>
-					<checksum>c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
-					<url>x86-24_r08.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-25;default;x86">
-		<!--Generated from bid:4931657, branch:git_nyc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:04:45 2018.-->
-				<complete>
-					<size>316695942</size>
-					<checksum>78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
-					<url>x86-25_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-26;default;x86">
-		<!--Generated from bid:4931640, branch:git_oc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>26</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:05:14 2018.-->
-				<complete>
-					<size>350195807</size>
-					<checksum>e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
-					<url>x86-26_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-27;default;x86">
-		<!--Generated from bid:4931629, branch:git_oc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:05:43 2018.-->
-				<complete>
-					<size>360984187</size>
-					<checksum>4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
-					<url>x86-27_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;default;x86">
-		<!--Generated from bid:4923214, branch:git_pi-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Aug  1 00:43:13 2018.-->
-				<complete>
-					<size>437320152</size>
-					<checksum>ce03c42d80c0fc6dc47f6455dbee7aa275d02780</checksum>
-					<url>x86-28_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-29;default;x86">
-		<!--Generated from bid:7663313, branch:git_qt-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Aug 21 16:29:32 2021.-->
-				<complete>
-					<size>516543600</size>
-					<checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-					<url>x86-29_r08-windows.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-29;default;x86">
-		<!--Generated from bid:7663313, branch:git_qt-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Aug 21 16:29:46 2021.-->
-				<complete>
-					<size>516543600</size>
-					<checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-					<url>x86-29_r08-darwin.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Sat Aug 21 16:29:43 2021.-->
-				<complete>
-					<size>516543600</size>
-					<checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-					<url>x86-29_r08-linux.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-21;default;x86_64">
-		<!--Generated from bid:4174711, branch:git_lmp-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>21</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Jun  6 11:05:38 2018.-->
-				<complete>
-					<size>292623982</size>
-					<checksum>9078a095825a69e5e215713f0866c83cef65a342</checksum>
-					<url>x86_64-21_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-22;default;x86_64">
-		<!--Generated from bid:4174727, branch:git_lmp-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>22</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>6</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sun May 27 08:45:29 2018.-->
-				<complete>
-					<size>299976630</size>
-					<checksum>5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
-					<url>x86_64-22_r06.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-23;default;x86_64">
-		<!--Generated from bid:4174734, branch:git_mnc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>23</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>10</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Jun 12 12:59:42 2018.-->
-				<complete>
-					<size>365009313</size>
-					<checksum>7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
-					<url>x86_64-23_r10.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-24;default;x86_64">
-		<!--Generated from bid:4174735, branch:git_nyc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>24</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Jun 16 12:29:19 2018.-->
-				<complete>
-					<size>419261998</size>
-					<checksum>f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
-					<url>x86_64-24_r08.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-25;default;x86_64">
-		<!--Generated from bid:4931657, branch:git_nyc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>25</api-level>
-			<tag>
-				<id>default</id>
-				<display></display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:06:13 2018.-->
-				<complete>
-					<size>422702097</size>
-					<checksum>7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
-					<url>x86_64-25_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-26;default;x86_64">
-		<!--Generated from bid:4931640, branch:git_oc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>26</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:06:52 2018.-->
-				<complete>
-					<size>474178332</size>
-					<checksum>432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
-					<url>x86_64-26_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-27;default;x86_64">
-		<!--Generated from bid:4931629, branch:git_oc-mr1-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>27</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Aug  7 21:07:35 2018.-->
-				<complete>
-					<size>491675204</size>
-					<checksum>2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
-					<url>x86_64-27_r01.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-28;default;x86_64">
-		<!--Generated from bid:4923214, branch:git_pi-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>28</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-preview-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Wed Aug  1 00:43:48 2018.-->
-				<complete>
-					<size>564792723</size>
-					<checksum>d47a85c8f4e9fd57df97814ad8884eeb0f3a0ef0</checksum>
-					<url>x86_64-28_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-29;default;x86_64">
-		<!--Generated from bid:7663313, branch:git_qt-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Aug 21 16:30:01 2021.-->
-				<complete>
-					<size>689676765</size>
-					<checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-					<url>x86_64-29_r08-windows.zip</url>
-				</complete>
-				<host-os>windows</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-29;default;x86_64">
-		<!--Generated from bid:7663313, branch:git_qt-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>29</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>8</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>28</major>
-					<minor>1</minor>
-					<micro>9</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Aug 21 16:30:16 2021.-->
-				<complete>
-					<size>689676765</size>
-					<checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-					<url>x86_64-29_r08-darwin.zip</url>
-				</complete>
-				<host-os>macosx</host-os>
-			</archive>
-			<archive>
-				<!--Built on: Sat Aug 21 16:30:12 2021.-->
-				<complete>
-					<size>689676765</size>
-					<checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-					<url>x86_64-29_r08-linux.zip</url>
-				</complete>
-				<host-os>linux</host-os>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-30;default;x86_64">
-		<!--Generated from bid:10067904, branch:git_rvc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>30</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>11</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu May  4 17:00:37 2023.-->
-				<complete>
-					<size>676379777</size>
-					<checksum>5e4de3946d46f88856c35efcc4d797b381456347</checksum>
-					<url>x86_64-30_r11.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-31;default;x86_64">
-		<!--Generated from bid:10064458, branch:git_sc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>31</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>5</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>31</major>
-					<minor>2</minor>
-					<micro>7</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri May  5 16:48:48 2023.-->
-				<complete>
-					<size>657246510</size>
-					<checksum>58bff3cb182c79bbfe3980fe77b87b51b9f7ad71</checksum>
-					<url>x86_64-31_r05.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-32;default;x86_64">
-		<!--Generated from bid:11418786, branch:git_sc-v2-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>32</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Feb  9 16:50:19 2024.-->
-				<complete>
-					<size>667541890</size>
-					<checksum>238452e27d6854d153b6ed119fa783189598eac4</checksum>
-					<url>x86_64-32_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-33;default;x86_64">
-		<!--Generated from bid:10940250, branch:git_tm-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>33</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>2</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Thu Oct 12 19:38:45 2023.-->
-				<complete>
-					<size>694005732</size>
-					<checksum>d4698590184a21fe1e8754284130ad3006b5fc79</checksum>
-					<url>x86_64-33_r02.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="system-images;android-34;default;x86_64">
-		<!--Generated from bid:11228894, branch:git_udc-emu-release-->
-		<type-details xsi:type="sys-img:sysImgDetailsType">
-			<api-level>34</api-level>
-			<tag>
-				<id>default</id>
-				<display>Default Android System Image</display>
-			</tag>
-			<abi>x86_64</abi>
-		</type-details>
-		<revision>
-			<major>4</major>
-		</revision>
-		<display-name>Intel x86_64 Atom System Image</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<dependencies>
-			<dependency path="emulator">
-				<min-revision>
-					<major>29</major>
-					<minor>1</minor>
-					<micro>11</micro>
-				</min-revision>
-			</dependency>
-		</dependencies>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Mon Dec 18 00:36:28 2023.-->
-				<complete>
-					<size>720747116</size>
-					<checksum>5f6a249f9bc3b1b4c459b13ce2eb646c9680bed1</checksum>
-					<url>x86_64-34_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
+January 16, 2019
+</license>
+  <channel id="channel-0">stable</channel>
+  <channel id="channel-1">beta</channel>
+  <channel id="channel-2">dev</channel>
+  <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-10;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>10</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>67927049</size>
+          <checksum>8537616a7add47cce24c60f18bc2429e3dc90ae3</checksum>
+          <url>armeabi-v7a-10_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-14;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>14</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>99621822</size>
+          <checksum>d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
+          <url>sysimg_armv7a-14_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-15;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>15</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>102452069</size>
+          <checksum>03d7ed95a9d3b107e3f2e5b166d017ea12529e70</checksum>
+          <url>armeabi-v7a-15_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-16;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>16</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>118646340</size>
+          <checksum>69b944b0d5a18c8563fa80d7d229af64890f724e</checksum>
+          <url>armeabi-v7a-16_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-17;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>17</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>124437041</size>
+          <checksum>a18a3fd0958ec4ef52507f58e414fc5c7dfd59d6</checksum>
+          <url>armeabi-v7a-17_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-18;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>18</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>130590545</size>
+          <checksum>580b583720f7de671040d5917c8c9db0c7aa03fd</checksum>
+          <url>armeabi-v7a-18_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-19;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>19</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>159871567</size>
+          <checksum>d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
+          <url>armeabi-v7a-19_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-21;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>21</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>187163871</size>
+          <checksum>8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
+          <url>armeabi-v7a-21_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-22;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>22</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>194596267</size>
+          <checksum>2114ec015dbf3a16cbcb4f63e8a84a1b206a07a1</checksum>
+          <url>armeabi-v7a-22_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-23;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>23</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>238333358</size>
+          <checksum>7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
+          <url>armeabi-v7a-23_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-24;default;armeabi-v7a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>24</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>armeabi-v7a</abi>
+    </type-details>
+    <revision>
+      <major>7</major>
+    </revision>
+    <display-name>ARM EABI v7a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>283677512</size>
+          <checksum>3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
+          <url>armeabi-v7a-24_r07.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-21;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>21</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>211426314</size>
+          <checksum>c4375f1b4b4cd21a8617660e25f621cedcbd8332</checksum>
+          <url>arm64-v8a-21_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-22;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>22</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>219124634</size>
+          <checksum>703e27a9a4fb7a6e763cb7d713b89e5249a8fc99</checksum>
+          <url>arm64-v8a-22_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-23;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>23</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>7</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>253807785</size>
+          <checksum>ac18f3bd717e02804eee585e029f5dbc1a2616bf</checksum>
+          <url>arm64-v8a-23_r07.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-24;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>24</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>9</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>305854153</size>
+          <checksum>e88ebdf4533efa0370603ee4ab0e7834e0cc364f</checksum>
+          <url>arm64-v8a-24_r09.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-25;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>25</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>308416103</size>
+          <checksum>b39d359623323a1b4906c071dec396040016ea73</checksum>
+          <url>arm64-v8a-25_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-26;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>26</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>31</major>
+          <minor>1</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>330014927</size>
+          <checksum>12353141d08dd302fbebc03872f0e1ca7357c55f</checksum>
+          <url>arm64-v8a-26_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-27;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>27</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>31</major>
+          <minor>1</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>332173536</size>
+          <checksum>e014473ac510cc9d8e9b412826332923277fa827</checksum>
+          <url>arm64-v8a-27_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-28;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>28</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>31</major>
+          <minor>1</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>426760297</size>
+          <checksum>e209114dd0dfc2f4e0d328f5fd7367fec39ee1bd</checksum>
+          <url>arm64-v8a-28_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-29;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>29</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>498049256</size>
+          <checksum>fa0d67d7430fcc84b2fe2508ea81e92ac644e264</checksum>
+          <url>arm64-v8a-29_r08.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-30;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>30</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>548363615</size>
+          <checksum>e96298145a5e0bfd6da4816f51b06c520d8dba72</checksum>
+          <url>arm64-v8a-30_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-31;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>31</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>31</major>
+          <minor>2</minor>
+          <micro>7</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>635481190</size>
+          <checksum>1052df2d0afc8fe57138db19d5ebd82d10c607da</checksum>
+          <url>arm64-v8a-31_r03.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-32;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>643262633</size>
+          <checksum>c57d92a4131590b2a3b62f2a728766aa6bbec57f</checksum>
+          <url>arm64-v8a-32_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-33;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>33</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>672331372</size>
+          <checksum>69883e92b77f8705af135ee86e1d87589f8f113e</checksum>
+          <url>arm64-v8a-33_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>705115396</size>
+          <checksum>d9f2011131919abe952814e041f16f317242c3fa</checksum>
+          <url>arm64-v8a-34_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-16;default;mips">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>16</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>mips</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>MIPS System Image</display-name>
+    <uses-license ref="mips-android-sysimage-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>122482530</size>
+          <checksum>67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
+          <url>sysimg_mips-16_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-17;default;mips">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>17</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>mips</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>MIPS System Image</display-name>
+    <uses-license ref="mips-android-sysimage-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>131781761</size>
+          <checksum>f0c6e153bd584c29e51b5c9723cfbf30f996a05d</checksum>
+          <url>sysimg_mips-17_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-10;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>10</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>75386095</size>
+          <checksum>a166d5ccbb165e1dd5464fbfeec30a61f77790d8</checksum>
+          <url>x86-10_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-15;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>15</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>7</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>116030933</size>
+          <checksum>61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
+          <url>x86-15_r07.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-16;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>16</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>7</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>135305313</size>
+          <checksum>ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
+          <url>x86-16_r07.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-17;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>17</api-level>
+      <tag>
+        <id>default</id>
+        <display>Google APIs</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>7</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>194811128</size>
+          <checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
+          <url>x86-17_r07.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-18;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>18</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>150097655</size>
+          <checksum>7a4ced4d9b0ab48047825491b4072dc2eb9b610e</checksum>
+          <url>x86-18_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-19;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>19</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>185886274</size>
+          <checksum>2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
+          <url>x86-19_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-21;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>21</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>208212529</size>
+          <checksum>00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
+          <url>x86-21_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-22;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>22</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>214268954</size>
+          <checksum>e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
+          <url>x86-22_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-23;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>23</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>10</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>260804863</size>
+          <checksum>f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
+          <url>x86-23_r10.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-24;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>24</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>313489224</size>
+          <checksum>c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
+          <url>x86-24_r08.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-25;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>25</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>316695942</size>
+          <checksum>78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
+          <url>x86-25_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-26;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>26</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>350195807</size>
+          <checksum>e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
+          <url>x86-26_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-27;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>27</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>360984187</size>
+          <checksum>4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
+          <url>x86-27_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-28;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>28</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>437320152</size>
+          <checksum>ce03c42d80c0fc6dc47f6455dbee7aa275d02780</checksum>
+          <url>x86-28_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-29;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>29</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>516543600</size>
+          <checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
+          <url>x86-29_r08-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-29;default;x86">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>29</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>516543600</size>
+          <checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
+          <url>x86-29_r08-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>516543600</size>
+          <checksum>cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
+          <url>x86-29_r08-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-21;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>21</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>292623982</size>
+          <checksum>9078a095825a69e5e215713f0866c83cef65a342</checksum>
+          <url>x86_64-21_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-22;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>22</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>299976630</size>
+          <checksum>5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
+          <url>x86_64-22_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-23;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>23</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>10</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>365009313</size>
+          <checksum>7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
+          <url>x86_64-23_r10.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-24;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>24</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>419261998</size>
+          <checksum>f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
+          <url>x86_64-24_r08.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-25;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>25</api-level>
+      <tag>
+        <id>default</id>
+        <display></display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>422702097</size>
+          <checksum>7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
+          <url>x86_64-25_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-26;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>26</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>474178332</size>
+          <checksum>432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
+          <url>x86_64-26_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-27;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>27</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>491675204</size>
+          <checksum>2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
+          <url>x86_64-27_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-28;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>28</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>564792723</size>
+          <checksum>d47a85c8f4e9fd57df97814ad8884eeb0f3a0ef0</checksum>
+          <url>x86_64-28_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-29;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>29</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>689676765</size>
+          <checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
+          <url>x86_64-29_r08-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-29;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>29</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>8</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>689676765</size>
+          <checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
+          <url>x86_64-29_r08-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>689676765</size>
+          <checksum>e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
+          <url>x86_64-29_r08-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-30;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>30</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>11</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>676379777</size>
+          <checksum>5e4de3946d46f88856c35efcc4d797b381456347</checksum>
+          <url>x86_64-30_r11.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-31;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>31</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>31</major>
+          <minor>2</minor>
+          <micro>7</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>657246510</size>
+          <checksum>58bff3cb182c79bbfe3980fe77b87b51b9f7ad71</checksum>
+          <url>x86_64-31_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-32;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>667541890</size>
+          <checksum>238452e27d6854d153b6ed119fa783189598eac4</checksum>
+          <url>x86_64-32_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-33;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>33</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>694005732</size>
+          <checksum>d4698590184a21fe1e8754284130ad3006b5fc79</checksum>
+          <url>x86_64-33_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>29</major>
+          <minor>1</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>720747116</size>
+          <checksum>5f6a249f9bc3b1b4c459b13ce2eb646c9680bed1</checksum>
+          <url>x86_64-34_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
 </sys-img:sdk-sys-img>
