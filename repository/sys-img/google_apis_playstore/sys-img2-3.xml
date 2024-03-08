@@ -1781,33 +1781,20 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1580418344</size>
-          <checksum type="sha1">5c5364c3be6d1635fa756ce6f4bce6e6a31af3a8</checksum>
-          <url>x86_64-VanillaIceCream_r01.zip</url>
+          <size>1579543535</size>
+          <checksum type="sha1">b1f90659a0b4cffa15eecd56f33aec0c5d7a1cf7</checksum>
+          <url>x86_64-VanillaIceCream_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2445,43 +2432,21 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1577159319</size>
-          <checksum type="sha1">7f40eec9487f3c4ededf1fded7a2f0defd2fcf5a</checksum>
-          <url>arm64-v8a-VanillaIceCream_r01-darwin.zip</url>
+          <size>1577553460</size>
+          <checksum type="sha1">57cf93118b17ffd5e5083a9915faa078dbb5d465</checksum>
+          <url>arm64-v8a-VanillaIceCream_r02.zip</url>
         </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1577159319</size>
-          <checksum type="sha1">7f40eec9487f3c4ededf1fded7a2f0defd2fcf5a</checksum>
-          <url>arm64-v8a-VanillaIceCream_r01-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
       </archive>
     </archives>
   </remotePackage>
