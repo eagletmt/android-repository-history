@@ -717,6 +717,56 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-34-ext10;google_apis_playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1549122970</size>
+          <checksum>7be9b22ec2a9068d93b2544620b50dc45d90822c</checksum>
+          <url>arm64-v8a-34-ext10_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34-ext10;google_apis_playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1511011632</size>
+          <checksum>076750c612cb1a47c22db8d06f3fa3c3b79e9c0f</checksum>
+          <url>x86_64-34-ext10_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34-ext8;google_apis_playstore;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>
