@@ -1794,19 +1794,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       </vendor>
     </type-details>
     <revision>
-      <major>1</major>
-      <minor>8</minor>
+      <major>2</major>
+      <minor>2</minor>
       <micro>0</micro>
     </revision>
-    <display-name>Android Emulator Hypervisor Driver for AMD Processors (installer: Deprecated)</display-name>
+    <display-name>Android Emulator hypervisor driver (installer)</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>166974</size>
-          <checksum>8dce54354ea589d840bab4f5cd71382c26fccb62</checksum>
-          <url>gvm-windows_v1_8_0.zip</url>
+          <size>175928</size>
+          <checksum>b3f53739d1395b19276195466a2fcf95d86a031e</checksum>
+          <url>gvm-windows_v2.2.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
