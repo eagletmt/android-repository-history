@@ -1887,7 +1887,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1895,9 +1895,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1673530237</size>
-          <checksum type="sha1">3bfcf04fc5476d65588fbfc51798a9bbc94b5e19</checksum>
-          <url>x86_64-VanillaIceCream_r03.zip</url>
+          <size>1680537338</size>
+          <checksum type="sha1">18bd5c412d988525e701b3b52164d8bb34afadaf</checksum>
+          <url>x86_64-VanillaIceCream_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2495,7 +2495,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2503,9 +2503,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1863404889</size>
-          <checksum type="sha1">d0b5b5d7a7df6df55aa41b49460936ecf72625d1</checksum>
-          <url>arm64-v8a-VanillaIceCream_r03.zip</url>
+          <size>1871799537</size>
+          <checksum type="sha1">31dfbef133bedd67f2bd3025c3f0f963dfd8b1b0</checksum>
+          <url>arm64-v8a-VanillaIceCream_r04.zip</url>
         </complete>
       </archive>
     </archives>

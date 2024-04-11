@@ -304,12 +304,12 @@ June 2014.
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>34</api-level>
       <codename>VanillaIceCream</codename>
-      <extension-level>11</extension-level>
+      <extension-level>12</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Android SDK Platform VanillaIceCream</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -317,9 +317,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>64097940</size>
-          <checksum type="sha1">b95f5a8a2bb908f8d13b6f874ab622e194c5aa20</checksum>
-          <url>platform-VanillaIceCream_r02.zip</url>
+          <size>64294582</size>
+          <checksum type="sha1">1009e006483a4448a6175720e4fe687ac5ef05fb</checksum>
+          <url>platform-VanillaIceCream_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -5227,6 +5227,44 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;35.0.0-rc3">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>35</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>3</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 35-rc3</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>62746687</size>
+          <checksum type="sha1">25a13fd75a525385d77864f5470db9c1c48b5a40</checksum>
+          <url>build-tools_r35-rc3_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59812048</size>
+          <checksum type="sha1">f04f402d7d92edc14502e7b94034d1a1695ac12e</checksum>
+          <url>build-tools_r35-rc3_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>78263822</size>
+          <checksum type="sha1">f0d2a565d3634d2fd7a22838eafad792e8538c0a</checksum>
+          <url>build-tools_r35-rc3_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
