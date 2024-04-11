@@ -1693,33 +1693,20 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1510777069</size>
-          <checksum type="sha1">69b9bd756ba0359d1cbec5e1d1e00f5de6e3f9ef</checksum>
-          <url>x86_64-34_r12.zip</url>
+          <size>1510771316</size>
+          <checksum type="sha1">1ef589a67ff8cd160dfbf918223be3c557611cc8</checksum>
+          <url>x86_64-34_r13.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2287,43 +2274,21 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1548933558</size>
-          <checksum type="sha1">a0c851eb264e9955407269733e062f0ec1c94503</checksum>
-          <url>arm64-v8a-34_r12-darwin.zip</url>
+          <size>1548931766</size>
+          <checksum type="sha1">3055999a8ac2da3a39443547e45a11a9df89cc6a</checksum>
+          <url>arm64-v8a-34_r13.zip</url>
         </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1548933558</size>
-          <checksum type="sha1">a0c851eb264e9955407269733e062f0ec1c94503</checksum>
-          <url>arm64-v8a-34_r12-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
       </archive>
     </archives>
   </remotePackage>

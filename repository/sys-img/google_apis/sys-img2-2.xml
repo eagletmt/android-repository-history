@@ -2133,33 +2133,20 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1541568922</size>
-          <checksum type="sha1">3392de02e09144d61e3a789c0f17ce447b70b191</checksum>
-          <url>x86_64-34_r12.zip</url>
+          <size>1541568622</size>
+          <checksum type="sha1">d46ada772a9f10a4bbb28b80746468773691f3c2</checksum>
+          <url>x86_64-34_r13.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2579,33 +2566,20 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1588261149</size>
-          <checksum type="sha1">0981c5416516d609b1df5f29d3781c99d9fe061c</checksum>
-          <url>arm64-v8a-34_r12.zip</url>
+          <size>1588260961</size>
+          <checksum type="sha1">b237e8721add1344762b2a2e0d0e979c85b24eca</checksum>
+          <url>arm64-v8a-34_r13.zip</url>
         </complete>
       </archive>
     </archives>
