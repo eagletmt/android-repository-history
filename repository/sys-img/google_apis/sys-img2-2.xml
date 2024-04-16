@@ -2133,6 +2133,10 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -2159,6 +2163,10 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -2566,6 +2574,10 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
@@ -2592,6 +2604,10 @@ January 16, 2019
         <id>google_apis</id>
         <display>Google APIs</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>

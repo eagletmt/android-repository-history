@@ -726,6 +726,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
@@ -753,6 +757,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -780,6 +788,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
@@ -807,6 +819,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -834,6 +850,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
@@ -861,6 +881,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -1781,6 +1805,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -1930,6 +1958,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>x86_64</abi>
     </type-details>
     <revision>
@@ -2383,6 +2415,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
@@ -2559,6 +2595,10 @@ January 16, 2019
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
