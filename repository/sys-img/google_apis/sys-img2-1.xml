@@ -2351,26 +2351,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>13</major>
+      <major>14</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>8</minor>
-          <micro>0</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1244307632</size>
-          <checksum>c3575404189a32f1d77ef0f080a09b8697ebb14b</checksum>
-          <url>arm64-v8a-30_r13.zip</url>
+          <size>1244324920</size>
+          <checksum>65e91e62f6a9a094098d6c9c31c2e59101e2ca59</checksum>
+          <url>arm64-v8a-30_r14.zip</url>
         </complete>
       </archive>
     </archives>
