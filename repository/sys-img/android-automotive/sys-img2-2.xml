@@ -912,7 +912,7 @@ January 16, 2019
       <api-level>33</api-level>
       <tag>
         <id>android-automotive</id>
-        <display>Automotive with Google APIs</display>
+        <display>Android Automotive with Google APIs</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -921,17 +921,26 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>2</major>
     </revision>
     <display-name>Android Automotive with Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>3</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1319250664</size>
-          <checksum type="sha1">318b2de8fa40d2f623c3e8434b204b2ff6026835</checksum>
-          <url>x86_64-33_r03.zip</url>
+          <size>1295741665</size>
+          <checksum type="sha1">406c4fee3f93d060933bc39ce717af28aa9eb6e9</checksum>
+          <url>x86_64-33_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -941,7 +950,7 @@ January 16, 2019
       <api-level>33</api-level>
       <tag>
         <id>android-automotive</id>
-        <display>Automotive with Google APIs</display>
+        <display>Android Automotive with Google APIs</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -950,17 +959,26 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>2</major>
     </revision>
     <display-name>Android Automotive with Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>3</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1293786992</size>
-          <checksum type="sha1">d73301d912ba23df9191fcba3cfbf1dde18154e4</checksum>
-          <url>arm64-v8a-33_r03.zip</url>
+          <size>1270683391</size>
+          <checksum type="sha1">d265102d7ad22a0ade6f6ef607fc3b47c05bac23</checksum>
+          <url>arm64-v8a-33_r02.zip</url>
         </complete>
       </archive>
     </archives>
