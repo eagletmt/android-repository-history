@@ -897,26 +897,17 @@ January 16, 2019
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google TV Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>950849792</size>
-          <checksum>c6262658067d808b726b38d3d46325ac51546228</checksum>
-          <url>x86-34_r02.zip</url>
+          <size>871139565</size>
+          <checksum>277568ce3312a7e84f49cde8252e7bdce18faedf</checksum>
+          <url>x86-34_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -931,26 +922,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google TV ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>944976810</size>
-          <checksum>6e13c97b0e0204f5b17d69ed451b9adb7a7ac33c</checksum>
-          <url>arm64-v8a-34_r02.zip</url>
+          <size>869585766</size>
+          <checksum>a5ecfa06ee6e4b5d5262d47dffb84136ce1645d1</checksum>
+          <url>arm64-v8a-34_r03.zip</url>
         </complete>
       </archive>
     </archives>

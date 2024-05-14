@@ -1190,26 +1190,17 @@ January 16, 2019
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Android TV Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>880214246</size>
-          <checksum type="sha1">3be0ccf9611c7125e9c43083ae3ca6abba5f45b7</checksum>
-          <url>x86-34_r02.zip</url>
+          <size>809947873</size>
+          <checksum type="sha1">8de1dcb502b0b4080e6f363828db64e609b3aa2a</checksum>
+          <url>x86-34_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1224,26 +1215,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Android TV ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>883278287</size>
-          <checksum type="sha1">81b98fc5c3521a3a872667851c7f6bf61dfcdd5a</checksum>
-          <url>arm64-v8a-34_r02.zip</url>
+          <size>815200224</size>
+          <checksum type="sha1">a31d0d8326f2c82787f95dd387614274082a96a0</checksum>
+          <url>arm64-v8a-34_r03.zip</url>
         </complete>
       </archive>
     </archives>
