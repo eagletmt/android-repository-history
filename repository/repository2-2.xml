@@ -307,7 +307,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Android SDK Platform VanillaIceCream</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -315,9 +315,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>64294582</size>
-          <checksum type="sha1">1009e006483a4448a6175720e4fe687ac5ef05fb</checksum>
-          <url>platform-VanillaIceCream_r03.zip</url>
+          <size>64462100</size>
+          <checksum type="sha1">593df928592daf8e8b904a1680f54be715b32e98</checksum>
+          <url>platform-VanillaIceCream_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -5189,6 +5189,44 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;35.0.0-rc4">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>35</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>4</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 35-rc4</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>61882448</size>
+          <checksum type="sha1">08049ed693a2ba9bf6b9fa0edec897abac9f85ed</checksum>
+          <url>build-tools_r35-rc4_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59901374</size>
+          <checksum type="sha1">e08195bf5ce51105aca15f9eba758fceeb7b4b5d</checksum>
+          <url>build-tools_r35-rc4_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>76832786</size>
+          <checksum type="sha1">d9ce6ae1b0d720d7c2abd6510843c881f9d65188</checksum>
+          <url>build-tools_r35-rc4_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
