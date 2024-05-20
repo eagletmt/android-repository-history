@@ -883,26 +883,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Desktop Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1636926232</size>
-          <checksum type="sha1">bd377a75ffa2e07ee942847791188c23ff376f2f</checksum>
-          <url>x86_64-33_r03.zip</url>
+          <size>1636930563</size>
+          <checksum type="sha1">5ff1609ce69ba1a6e40db5fc2ff3c032f88dc582</checksum>
+          <url>x86_64-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -921,26 +912,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Desktop ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1624434113</size>
-          <checksum type="sha1">04daca06562219b805020dec8a61c7627d4d4787</checksum>
-          <url>arm64-v8a-33_r03.zip</url>
+          <size>1624409886</size>
+          <checksum type="sha1">110986d18d03184a3a6d0960f0d873e5238ae065</checksum>
+          <url>arm64-v8a-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
