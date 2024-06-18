@@ -300,6 +300,29 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-35">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>35</api-level>
+      <extension-level>13</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 35</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64281654</size>
+          <checksum type="sha1">c84ed39cecaeec13bc06c67639fcf86734013d98</checksum>
+          <url>platform-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-VanillaIceCream">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>34</api-level>
@@ -5303,6 +5326,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;35.0.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>35</major>
+      <minor>0</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android SDK Build-Tools 35</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>61958799</size>
+          <checksum type="sha1">2cfaa0bbb2336e9ec18ed3ecea84fa2e2af607bc</checksum>
+          <url>build-tools_r35_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59878107</size>
+          <checksum type="sha1">af059bb67cf7786f45ee0db85e2d24985df1b4b6</checksum>
+          <url>build-tools_r35_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>76857898</size>
+          <checksum type="sha1">93ab8ce91230e067b5add4bfa79919c52b27f072</checksum>
+          <url>build-tools_r35_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
