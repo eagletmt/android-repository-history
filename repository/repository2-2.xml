@@ -1329,6 +1329,24 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="sources;android-35">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 35</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>48616636</size>
+          <checksum type="sha1">c2770115a5f5ad787c8b298b93687a27eebb85b9</checksum>
+          <url>source-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="sources;android-34">
     <type-details xsi:type="sdk:sourceDetailsType">
       <api-level>34</api-level>
