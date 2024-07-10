@@ -8836,27 +8836,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>292744415</size>
-          <checksum>211cf68bf1d5d2b98b74c4bd7913df3953425ce0</checksum>
-          <url>emulator-linux_x64-12037872.zip</url>
+          <size>292750827</size>
+          <checksum>fe7a96bf6fbe7b026555dd7f76b713f22a07ec8b</checksum>
+          <url>emulator-linux_x64-12038310.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>387377762</size>
-          <checksum>0b9d627aec3280c3462b80a078f981815d01811c</checksum>
-          <url>emulator-darwin_x64-12037872.zip</url>
+          <size>387388734</size>
+          <checksum>8da9494f5a08c2a04f50aeef543fd32ca8424f12</checksum>
+          <url>emulator-darwin_x64-12038310.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>412389879</size>
-          <checksum>0a4447faf11df8c6b118ff021e6725d064eca3f9</checksum>
-          <url>emulator-windows_x64-12037872.zip</url>
+          <size>412503831</size>
+          <checksum>76a5cbca04dc11bc04421e30392e78ab3b744d33</checksum>
+          <url>emulator-windows_x64-12038310.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
