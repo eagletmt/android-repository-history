@@ -1330,7 +1330,10 @@ June 2014.
     </archives>
   </remotePackage>
   <remotePackage path="sources;android-35">
-    <type-details xsi:type="generic:genericDetailsType"/>
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>35</api-level>
+      <codename></codename>
+    </type-details>
     <revision>
       <major>1</major>
     </revision>
