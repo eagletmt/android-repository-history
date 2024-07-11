@@ -1384,7 +1384,7 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="sources;android-35-ext13">
+  <remotePackage path="sources;android-35">
     <type-details xsi:type="sdk:sourceDetailsType">
       <api-level>35</api-level>
       <codename></codename>
