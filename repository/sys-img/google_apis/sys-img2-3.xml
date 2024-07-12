@@ -717,6 +717,76 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-35;google_apis_ps16k;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <extension-level>13</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>Page Size 16KB</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google APIs Experimental 16k Page Size ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1502619353</size>
+          <checksum type="sha1">0d0426c8182a210d01ba1050af92cb6fa4eb32d9</checksum>
+          <url>arm64-v8a-ps16k-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;google_apis_ps16k;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <extension-level>13</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>Page Size 16KB</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google APIs Experimental 16k Page Size Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1443492199</size>
+          <checksum type="sha1">291e3b25d9240cb10dca49438b652799bfd6f630</checksum>
+          <url>x86_64-ps16k-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-35;google_apis;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>35</api-level>
@@ -2281,26 +2351,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>15</major>
+      <major>16</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1545118291</size>
-          <checksum type="sha1">966eadeb61cd888a79477851e51349eed103e5c8</checksum>
-          <url>x86_64-33_r15.zip</url>
+          <size>1697603005</size>
+          <checksum type="sha1">a18ba5146f8a10e6f3c1d45df4a8d22c68306ee3</checksum>
+          <url>x86_64-33_r16.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2539,7 +2600,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>14</major>
+      <major>15</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2547,9 +2608,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1244324920</size>
-          <checksum type="sha1">65e91e62f6a9a094098d6c9c31c2e59101e2ca59</checksum>
-          <url>arm64-v8a-30_r14.zip</url>
+          <size>1244324539</size>
+          <checksum type="sha1">ce9385c2876f93ad6602a04f9a3bcab7633fc703</checksum>
+          <url>arm64-v8a-30_r15.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2727,26 +2788,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>15</major>
+      <major>16</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1629980162</size>
-          <checksum type="sha1">9e314318536875458eaf68d02d411c59a386ab59</checksum>
-          <url>arm64-v8a-33_r15.zip</url>
+          <size>1751160645</size>
+          <checksum type="sha1">8143bc8b517db20f1f34dd5d93a021b131d73720</checksum>
+          <url>arm64-v8a-33_r16.zip</url>
         </complete>
       </archive>
     </archives>
