@@ -1791,6 +1791,43 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="ndk;27.0.12077973">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>27</major>
+      <minor>0</minor>
+      <micro>12077973</micro>
+    </revision>
+    <display-name>NDK (Side by side) 27.0.12077973</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>663957918</size>
+          <checksum>5e5cd517bdb98d7e0faf2c494a3041291e71bdcc</checksum>
+          <url>android-ndk-r27-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>836135405</size>
+          <checksum>1a4a8c39c018430ff170657fc1673d895f5e4570</checksum>
+          <url>android-ndk-r27-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>781482169</size>
+          <checksum>0ea2756e6815356831bda3af358cce4cdb6a981e</checksum>
+          <url>android-ndk-r27-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="ndk;27.0.11902837">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
