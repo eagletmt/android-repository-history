@@ -735,7 +735,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play Experimental 16k Page Size ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -743,9 +743,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1557179566</size>
-          <checksum type="sha1">7f098f8342f96d210d4e2de5e59c4fa044a2c845</checksum>
-          <url>arm64-v8a-playstore-ps16k-35_r01.zip</url>
+          <size>1577849060</size>
+          <checksum type="sha1">5778fb1f34d4f2e2dea9864efff5ed630fb7415c</checksum>
+          <url>arm64-v8a-playstore-ps16k-35_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -768,7 +768,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play Experimental 16k Page Size Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -776,9 +776,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1502861540</size>
-          <checksum type="sha1">687548786a9179b5936088c6b4d99f29536df610</checksum>
-          <url>x86_64-playstore-ps16k-35_r01.zip</url>
+          <size>1504843197</size>
+          <checksum type="sha1">1fc8d724268b3a4cb4e2b0706b5eaccbb6c589e8</checksum>
+          <url>x86_64-playstore-ps16k-35_r03.zip</url>
         </complete>
       </archive>
     </archives>
