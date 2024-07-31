@@ -721,8 +721,8 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>35</api-level>
       <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -733,7 +733,7 @@ January 16, 2019
     <revision>
       <major>3</major>
     </revision>
-    <display-name>Google APIs Experimental 16k Page Size ARM 64 v8a System Image</display-name>
+    <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <channelRef ref="channel-0"/>
     <archives>
@@ -750,8 +750,8 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>35</api-level>
       <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -762,7 +762,7 @@ January 16, 2019
     <revision>
       <major>3</major>
     </revision>
-    <display-name>Google APIs Experimental 16k Page Size Intel x86_64 Atom System Image</display-name>
+    <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
@@ -838,8 +838,8 @@ January 16, 2019
       <api-level>34</api-level>
       <codename>VanillaIceCream</codename>
       <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -850,7 +850,7 @@ January 16, 2019
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Google APIs Experimental 16k Page Size ARM 64 v8a System Image</display-name>
+    <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <channelRef ref="channel-0"/>
     <archives>
@@ -868,8 +868,8 @@ January 16, 2019
       <api-level>34</api-level>
       <codename>VanillaIceCream</codename>
       <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -880,7 +880,7 @@ January 16, 2019
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Google APIs Experimental 16k Page Size Intel x86_64 Atom System Image</display-name>
+    <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
