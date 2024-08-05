@@ -9272,7 +9272,7 @@ June 2014.
     <revision>
       <major>35</major>
       <minor>0</minor>
-      <micro>1</micro>
+      <micro>2</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -9280,25 +9280,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>7035310</size>
-          <checksum type="sha1">959bf20c19ab1c82861ae4a7e7fdb293f4f1fe75</checksum>
-          <url>platform-tools_r35.0.1-linux.zip</url>
+          <size>7472902</size>
+          <checksum type="sha1">f6406982a79d67e40b1ca3cb9e5e2cc783c0f232</checksum>
+          <url>platform-tools_r35.0.2-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>12476293</size>
-          <checksum type="sha1">a54ebb00559f3e4582d8e06fc04bab7ce0a2a6c2</checksum>
-          <url>platform-tools_r35.0.1-darwin.zip</url>
+          <size>13335867</size>
+          <checksum type="sha1">f6b3158097ca0e9d6fe2024b790ac68af3f2faf2</checksum>
+          <url>platform-tools_r35.0.2-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>6551888</size>
-          <checksum type="sha1">bef587e13dda79457631574b5ee93c0c596b592f</checksum>
-          <url>platform-tools_r35.0.1-win.zip</url>
+          <size>6700829</size>
+          <checksum type="sha1">6d204cdff21bce8a39c1d2367084e6174f854c2c</checksum>
+          <url>platform-tools_r35.0.2-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>

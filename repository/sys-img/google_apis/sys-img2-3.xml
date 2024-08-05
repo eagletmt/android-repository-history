@@ -2195,26 +2195,17 @@ January 16, 2019
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>16</major>
     </revision>
     <display-name>Google APIs Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>8</minor>
-          <micro>0</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1240622989</size>
-          <checksum type="sha1">c1d3209b861461e9c37273710bc4140ce2ae6056</checksum>
-          <url>x86-30_r12.zip</url>
+          <size>1240551553</size>
+          <checksum type="sha1">a58447e540a8581394dd04ee419c6771d62723d8</checksum>
+          <url>x86-30_r16.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2234,26 +2225,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>16</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>8</minor>
-          <micro>0</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1438275289</size>
-          <checksum type="sha1">efb07cd6268d93d7e2be88883bc9249a00b378b3</checksum>
-          <url>x86_64-30_r12.zip</url>
+          <size>1438186618</size>
+          <checksum type="sha1">6ae21030eaadc041078444d3798e4b399f3e787d</checksum>
+          <url>x86_64-30_r16.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2382,7 +2364,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>13</major>
+      <major>14</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -2390,9 +2372,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1541568622</size>
-          <checksum type="sha1">d46ada772a9f10a4bbb28b80746468773691f3c2</checksum>
-          <url>x86_64-34_r13.zip</url>
+          <size>1563721130</size>
+          <checksum type="sha1">e0f6c9a0691aa27bd597d0deb1bcfdc943ac8ca7</checksum>
+          <url>x86_64-34_r14.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2600,7 +2582,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>15</major>
+      <major>16</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2608,9 +2590,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1244324539</size>
-          <checksum type="sha1">ce9385c2876f93ad6602a04f9a3bcab7633fc703</checksum>
-          <url>arm64-v8a-30_r15.zip</url>
+          <size>1244324730</size>
+          <checksum type="sha1">0e66987d6b4db2e278af83d453ce5d74a7e6ced3</checksum>
+          <url>arm64-v8a-30_r16.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2819,7 +2801,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>13</major>
+      <major>14</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -2827,9 +2809,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1588260961</size>
-          <checksum type="sha1">b237e8721add1344762b2a2e0d0e979c85b24eca</checksum>
-          <url>arm64-v8a-34_r13.zip</url>
+          <size>1610393229</size>
+          <checksum type="sha1">2fe8b46d419a3400e30f31b0152b241b50c8b99f</checksum>
+          <url>arm64-v8a-34_r14.zip</url>
         </complete>
       </archive>
     </archives>
