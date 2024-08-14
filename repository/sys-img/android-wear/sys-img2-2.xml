@@ -722,14 +722,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview ARM 64 v8a System Image</display-name>
+    <display-name>Wear OS 5 ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
@@ -747,14 +747,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>x86_64</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview Intel x86_64 Atom System Image</display-name>
+    <display-name>Wear OS 5 Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
@@ -772,14 +772,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview ARM 64 v8a System Image</display-name>
+    <display-name>Wear OS 5 ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-1"/>
     <archives>
@@ -797,14 +797,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>x86_64</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview Intel x86_64 Atom System Image</display-name>
+    <display-name>Wear OS 5 Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-1"/>
     <archives>
@@ -822,14 +822,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview ARM 64 v8a System Image</display-name>
+    <display-name>Wear OS 5 ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
     <channelRef ref="channel-3"/>
     <archives>
@@ -847,14 +847,14 @@ January 16, 2019
       <api-level>34</api-level>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 5 - Preview</display>
+        <display>Wear OS 5</display>
       </tag>
       <abi>x86_64</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 5 - Preview Intel x86_64 Atom System Image</display-name>
+    <display-name>Wear OS 5 Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
     <channelRef ref="channel-3"/>
     <archives>
