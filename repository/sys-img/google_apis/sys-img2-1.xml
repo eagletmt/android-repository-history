@@ -789,7 +789,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>8</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -797,9 +797,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1766503283</size>
-          <checksum>4bb0111ce3e386f40337c652c0230524d97a05ae</checksum>
-          <url>arm64-v8a-35_r07.zip</url>
+          <size>1776920399</size>
+          <checksum>50b337d09eff0540022d24e5097f6df29407e7c1</checksum>
+          <url>arm64-v8a-35_r08.zip</url>
         </complete>
       </archive>
     </archives>
@@ -818,7 +818,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>8</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -826,9 +826,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1689421014</size>
-          <checksum>febd4186e0d234d60fecd50a37aaabf07bac6605</checksum>
-          <url>x86_64-35_r07.zip</url>
+          <size>1736662833</size>
+          <checksum>d79169884cabc6680cb29d32c2112ad46c858c1b</checksum>
+          <url>x86_64-35_r08.zip</url>
         </complete>
       </archive>
     </archives>
