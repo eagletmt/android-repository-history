@@ -912,7 +912,11 @@ January 16, 2019
       <api-level>33</api-level>
       <tag>
         <id>android-automotive</id>
-        <display>Automotive with Google APIs</display>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -921,17 +925,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
-    <display-name>Android Automotive with Google APIs Intel x86_64 Atom System Image</display-name>
+    <display-name>Android Automotive with Google APIs x86_64 System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1319250664</size>
-          <checksum type="sha1">318b2de8fa40d2f623c3e8434b204b2ff6026835</checksum>
-          <url>x86_64-33_r03.zip</url>
+          <size>1336031457</size>
+          <checksum type="sha1">f23487d919389c9c5bf1882c030830de31ed0a21</checksum>
+          <url>x86_64-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -941,7 +945,11 @@ January 16, 2019
       <api-level>33</api-level>
       <tag>
         <id>android-automotive</id>
-        <display>Automotive with Google APIs</display>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
       </tag>
       <vendor>
         <id>google</id>
@@ -950,17 +958,17 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
-    <display-name>Android Automotive with Google APIs ARM 64 v8a System Image</display-name>
+    <display-name>Android Automotive with Google APIs arm64-v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1293786992</size>
-          <checksum type="sha1">d73301d912ba23df9191fcba3cfbf1dde18154e4</checksum>
-          <url>arm64-v8a-33_r03.zip</url>
+          <size>1314179288</size>
+          <checksum type="sha1">ca95328e871a6ec613fffc410b2e81ca7c7c2c95</checksum>
+          <url>arm64-v8a-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
