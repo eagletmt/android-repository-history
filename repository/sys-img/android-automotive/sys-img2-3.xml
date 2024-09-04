@@ -717,6 +717,76 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-34-ext9;android-automotive;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34x</api-level>
+      <extension-level>9</extension-level>
+      <base-extension>false</base-extension>
+      <tag>
+        <id>android-automotive</id>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android Automotive with Google APIs arm64-v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1326114560</size>
+          <checksum type="sha1">1a9d45ed3491e6c16eb79a05fbf55ff0e509aa7b</checksum>
+          <url>arm64-v8a-34-ext9_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34-ext9;android-automotive;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34x</api-level>
+      <extension-level>9</extension-level>
+      <base-extension>false</base-extension>
+      <tag>
+        <id>android-automotive</id>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android Automotive with Google APIs x86_64 System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1318098949</size>
+          <checksum type="sha1">48e88bc804d9e6e98ed424b2536dd78d98e2551b</checksum>
+          <url>x86_64-34-ext9_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34-ext9;android-automotive-playstore;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34x</api-level>
