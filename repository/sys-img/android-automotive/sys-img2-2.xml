@@ -809,9 +809,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1395553946</size>
-          <checksum type="sha1">007ef44ac7339cb73e6fdff38b9ded7065bbdc12</checksum>
-          <url>arm64-v8a-34-ext9_r01.zip</url>
+          <size>1395553944</size>
+          <checksum type="sha1">054003123325c34b838bf45e6e35087b3eed3969</checksum>
+          <url>arm64-v8a-34-ext9_playstore_r01.zip</url>
         </complete>
       </archive>
     </archives>
@@ -842,9 +842,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1397219862</size>
-          <checksum type="sha1">879323c64be136f29f55d8df1e2e2048b7569220</checksum>
-          <url>x86_64-34-ext9_r01.zip</url>
+          <size>1397219859</size>
+          <checksum type="sha1">a99b513736975f4a9a85fffb2059f0022c52061d</checksum>
+          <url>x86_64-34-ext9_playstore_r01.zip</url>
         </complete>
       </archive>
     </archives>
