@@ -717,6 +717,72 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-35;google_apis_tablet;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>tablet</id>
+        <display>Tablet</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google APIs Tablet ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1987633069</size>
+          <checksum type="sha1">ed7d5e0dc9e754510697fe1ebe28feda04e23a67</checksum>
+          <url>arm64-v8a-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;google_apis_tablet;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>tablet</id>
+        <display>Tablet</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google APIs Tablet Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1852659776</size>
+          <checksum type="sha1">60e776cf32855dd091348157c6a7de0112a6b449</checksum>
+          <url>x86_64-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34;google_apis_tablet;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>
