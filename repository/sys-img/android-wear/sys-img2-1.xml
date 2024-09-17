@@ -717,6 +717,56 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-33;android-wear;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>33</api-level>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 4</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Wear OS 4 ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1063145250</size>
+          <checksum>9ef3b7a4fd76e7633e4b0616e535d9c5806140ce</checksum>
+          <url>arm64-v8a-33_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-33;android-wear;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>33</api-level>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 4</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Wear OS 4 Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1100277497</size>
+          <checksum>250b8682cc0a4430c8963f2927a097296856fe22</checksum>
+          <url>x86_64-33_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34;android-wear;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>
@@ -1077,7 +1127,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Wear OS 4 Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1085,9 +1135,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1100218729</size>
-          <checksum>94de5073c7078126614d8b7510aa4adde4327dd5</checksum>
-          <url>x86_64-33_r03.zip</url>
+          <size>1100277497</size>
+          <checksum>250b8682cc0a4430c8963f2927a097296856fe22</checksum>
+          <url>x86_64-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1102,7 +1152,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Wear OS 4 ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1110,9 +1160,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1063091901</size>
-          <checksum>949a8b23b3abb217ad2f710bbffe58d4b81dd8db</checksum>
-          <url>arm64-v8a-33_r03.zip</url>
+          <size>1063145250</size>
+          <checksum>9ef3b7a4fd76e7633e4b0616e535d9c5806140ce</checksum>
+          <url>arm64-v8a-33_r04.zip</url>
         </complete>
       </archive>
     </archives>
