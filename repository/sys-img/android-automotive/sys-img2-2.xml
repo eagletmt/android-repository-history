@@ -717,6 +717,72 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-32;android-automotive-playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <tag>
+        <id>android-automotive-playstore</id>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Android Automotive with Google Play arm64-v8a System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1039230643</size>
+          <checksum type="sha1">bf93e7e5142c446a215de93f389127f2ac9faf19</checksum>
+          <url>arm64-v8a-32_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-32;android-automotive-playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <tag>
+        <id>android-automotive-playstore</id>
+        <display>Automotive</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Android Automotive with Google Play x86_64 System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1068790902</size>
+          <checksum type="sha1">20d773a3c4f7757188e0d8359d2f396bc4f06d42</checksum>
+          <url>x86_64-32_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34-ext9;android-automotive;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>
