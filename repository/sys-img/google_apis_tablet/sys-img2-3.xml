@@ -741,7 +741,7 @@ January 16, 2019
     </revision>
     <display-name>Google APIs Tablet ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -776,7 +776,7 @@ January 16, 2019
     </revision>
     <display-name>Google APIs Tablet Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -820,7 +820,7 @@ January 16, 2019
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -864,7 +864,7 @@ January 16, 2019
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>

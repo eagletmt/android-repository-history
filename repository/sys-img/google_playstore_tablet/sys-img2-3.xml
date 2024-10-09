@@ -750,7 +750,7 @@ January 16, 2019
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -794,7 +794,7 @@ January 16, 2019
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>

@@ -2613,7 +2613,7 @@ June 2014.
     </revision>
     <display-name>NDK (Side by side) 21.1.6363665</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -2663,7 +2663,7 @@ June 2014.
     </revision>
     <display-name>NDK (Side by side) 21.1.6273396</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -2713,7 +2713,7 @@ June 2014.
     </revision>
     <display-name>NDK (Side by side) 21.1.6210238</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -4691,7 +4691,7 @@ June 2014.
     </revision>
     <display-name>NDK</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -4741,7 +4741,7 @@ June 2014.
     </revision>
     <display-name>NDK</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -4791,7 +4791,7 @@ June 2014.
     </revision>
     <display-name>NDK</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -8350,7 +8350,7 @@ June 2014.
     </revision>
     <display-name>Android SDK Command-line Tools</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -8893,7 +8893,7 @@ June 2014.
     </revision>
     <display-name>Android SDK Command-line Tools (latest)</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
@@ -9107,6 +9107,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="cmake;3.30.5">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>3</major>
+      <minor>30</minor>
+      <micro>5</micro>
+    </revision>
+    <display-name>CMake 3.30.5</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>29566687</size>
+          <checksum type="sha1">c999a37fa18cb3e24dc003386cffe1d86add91b5</checksum>
+          <url>cmake-3.30.5-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>41485176</size>
+          <checksum type="sha1">3a7d78b52bdb455d9f041b1e521fc3e0dcbaef29</checksum>
+          <url>cmake-3.30.5-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>19898983</size>
+          <checksum type="sha1">308c94365edb2760f38eef8f745e313e36908a18</checksum>
+          <url>cmake-3.30.5-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>
@@ -9498,7 +9535,7 @@ June 2014.
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-3"/>
+    <channelRef ref="channel-2"/>
     <archives>
       <archive>
         <complete>
