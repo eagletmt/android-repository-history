@@ -1795,26 +1795,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>9</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1481773028</size>
-          <checksum>b7491eecf45556bd96f7b7a80c020b18a8a7df0d</checksum>
-          <url>x86_64-33_r07.zip</url>
+          <size>1670173438</size>
+          <checksum>2ce85ed6dcabd321442059c1267cc5376e22e046</checksum>
+          <url>x86_64-33_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1896,7 +1887,7 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-33;google_apis_playstore;x86_64">
+  <remotePackage path="system-images;android-33-ext5;google_apis_playstore;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>33</api-level>
       <tag>
@@ -1910,26 +1901,17 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
+    <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1479931636</size>
-          <checksum>e80584a2c9f8ba863a3fa961efc6d8866650f2eb</checksum>
-          <url>x86_64-33_r01_ext05.zip</url>
+          <size>1668794037</size>
+          <checksum>b74ad29a35dab4ac19e9b2a5cf3ccd0d1952b97d</checksum>
+          <url>x86_64-33-ext5_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2348,36 +2330,18 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>9</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1582091204</size>
-          <checksum>831cfe87d12eb5dd9d107ca2dfb203d52ca7b217</checksum>
-          <url>arm64-v8a-33_r07-darwin.zip</url>
+          <size>1713468508</size>
+          <checksum>97b81c9eb787667e53d5ae9de428284e4f230259</checksum>
+          <url>arm64-v8a-33_r09.zip</url>
         </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1582091204</size>
-          <checksum>831cfe87d12eb5dd9d107ca2dfb203d52ca7b217</checksum>
-          <url>arm64-v8a-33_r07-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
       </archive>
     </archives>
   </remotePackage>
@@ -2476,7 +2440,7 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-33;google_apis_playstore;arm64-v8a">
+  <remotePackage path="system-images;android-33-ext5;google_apis_playstore;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>33</api-level>
       <tag>
@@ -2490,36 +2454,18 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1475820733</size>
-          <checksum>51169278b759ce1f347a235497729bf5b558ecb2</checksum>
-          <url>arm64-v8a-33_r01-darwin_ext05.zip</url>
+          <size>1712020800</size>
+          <checksum>e6adbdead6a9282fdb2bd471691bb13c9208dfdd</checksum>
+          <url>arm64-v8a-33-ext5_r02.zip</url>
         </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1475820733</size>
-          <checksum>51169278b759ce1f347a235497729bf5b558ecb2</checksum>
-          <url>arm64-v8a-33_r01-linux_ext05.zip</url>
-        </complete>
-        <host-os>linux</host-os>
       </archive>
     </archives>
   </remotePackage>
