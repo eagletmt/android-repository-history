@@ -717,6 +717,60 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-35;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <extension-level>13</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>769099654</size>
+          <checksum type="sha1">2026a06409db630b56711afdbffb457c1dbaed49</checksum>
+          <url>arm64-v8a-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <extension-level>13</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>782404023</size>
+          <checksum type="sha1">2d857d170c0d1b827149565da34b3383e5306f7f</checksum>
+          <url>x86_64-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-10;default;armeabi-v7a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>10</api-level>
