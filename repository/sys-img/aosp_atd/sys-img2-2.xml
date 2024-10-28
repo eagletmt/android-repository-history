@@ -717,6 +717,64 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-35;aosp_atd;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>aosp_atd</id>
+        <display>AOSP ATD</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>AOSP ATD ARM 64 System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>677007078</size>
+          <checksum type="sha1">19feee66a81448df6c612ddbdc3088c82d86b3cf</checksum>
+          <url>arm64-v8a-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;aosp_atd;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>aosp_atd</id>
+        <display>AOSP ATD</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>AOSP ATD Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>690340274</size>
+          <checksum type="sha1">e150a7d402da4248f2901989dc856a9caf42a35d</checksum>
+          <url>x86_64-35_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-30;aosp_atd;x86">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>30</api-level>
