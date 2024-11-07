@@ -9187,47 +9187,84 @@ June 2014.
   <remotePackage path="skiaparser;3">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
-    <display-name>Layout Inspector image server for API 31-35</display-name>
+    <display-name>Layout Inspector image server for API 31-36</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>6433967</size>
-          <checksum type="sha1">caafe27824ceb1c69691766984ab287354104b50</checksum>
-          <url>skiaparser-11591181-linux-x64.zip</url>
+          <size>9059335</size>
+          <checksum type="sha1">f1f9acd490c2a94402fa5fc0a548f529acab91b1</checksum>
+          <url>skiaparser-12616120-linux-x64.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2933536</size>
-          <checksum type="sha1">8043d8f669fec8a3785f95c3e22a7b753cc70c3d</checksum>
-          <url>skiaparser-11591181-darwin-x64.zip</url>
+          <size>2932763</size>
+          <checksum type="sha1">d320af2c33979fce796d436e6e68351a9d1a02d2</checksum>
+          <url>skiaparser-12616120-darwin-x64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2510998</size>
-          <checksum type="sha1">df11c2cdc02202db4f1d769db528da263694d0d7</checksum>
-          <url>skiaparser-11591181-darwin-aarch64.zip</url>
+          <size>2598750</size>
+          <checksum type="sha1">b40c1615bacc6b8c27563c2f5dd8d1a856f20c50</checksum>
+          <url>skiaparser-12616120-darwin-aarch64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2920006</size>
-          <checksum type="sha1">b1b2ca27aa2f2783dda3a7d73bb4f039513a9500</checksum>
-          <url>skiaparser-11591181-win-x64.zip</url>
+          <size>2952673</size>
+          <checksum type="sha1">afd28844313af84f7245cef5d5be8d9a9de848e1</checksum>
+          <url>skiaparser-12616120-win-x64.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="cmake;3.31.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>3</major>
+      <minor>31</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>CMake 3.31.0</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>30452943</size>
+          <checksum type="sha1">13b9505857aa3bbfc1d80ec6b587e3ba2d2929f3</checksum>
+          <url>cmake-3.31.0-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>42747441</size>
+          <checksum type="sha1">d20697c5eb256dff2d29d52440e9cfe0f973538f</checksum>
+          <url>cmake-3.31.0-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>20441934</size>
+          <checksum type="sha1">39fa0e1898861bdef2da13f7b19ad0d0be5dac83</checksum>
+          <url>cmake-3.31.0-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>
