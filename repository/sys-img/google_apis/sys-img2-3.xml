@@ -849,78 +849,6 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis_ps16k;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <extension-level>12</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1392391828</size>
-          <checksum type="sha1">167fc0f1baae778d3382a7ec4a463a1bfbc3253c</checksum>
-          <url>arm64-v8a-ps16k-VanillaIceCream_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis_ps16k;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <extension-level>12</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1332306731</size>
-          <checksum type="sha1">4a48eab34ea526f9a4cd60948ed7e6698b3e5cfd</checksum>
-          <url>x86_64-ps16k-VanillaIceCream_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="system-images;android-10;google_apis;armeabi-v7a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>10</api-level>
@@ -2379,38 +2307,6 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <extension-level>12</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1682110854</size>
-          <checksum type="sha1">2efa686b5a420f3b9cb30e45a1e0e78a10a5fba8</checksum>
-          <url>x86_64-VanillaIceCream_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="system-images;android-28;google_apis;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>28</api-level>
@@ -2812,38 +2708,6 @@ January 16, 2019
           <size>1610393229</size>
           <checksum type="sha1">2fe8b46d419a3400e30f31b0152b241b50c8b99f</checksum>
           <url>arm64-v8a-34_r14.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <extension-level>12</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Google APIs ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1737853248</size>
-          <checksum type="sha1">896dec0aaae40954e2da30527f0763f292511217</checksum>
-          <url>arm64-v8a-VanillaIceCream_r05.zip</url>
         </complete>
       </archive>
     </archives>

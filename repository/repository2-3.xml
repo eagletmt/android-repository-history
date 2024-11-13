@@ -323,30 +323,6 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-VanillaIceCream">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <extension-level>12</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Android SDK Platform VanillaIceCream</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>64462100</size>
-          <checksum type="sha1">593df928592daf8e8b904a1680f54be715b32e98</checksum>
-          <url>platform-VanillaIceCream_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-34-ext12">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>34x</api-level>
@@ -9688,8 +9664,8 @@ June 2014.
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
       <major>35</major>
-      <minor>3</minor>
-      <micro>8</micro>
+      <minor>4</minor>
+      <micro>1</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -9697,36 +9673,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>303563871</size>
-          <checksum type="sha1">7d897bf4448b71e1487ac2aa9b9a39b16d2226ec</checksum>
-          <url>emulator-linux_x64-12565761.zip</url>
+          <size>304166648</size>
+          <checksum type="sha1">78b032087f09843f461b4fa16628abdbd17699b0</checksum>
+          <url>emulator-linux_x64-12623485.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>400743353</size>
-          <checksum type="sha1">283e9396c238781a17a06ad284cf2618d9d0d33b</checksum>
-          <url>emulator-darwin_x64-12565761.zip</url>
+          <size>401498442</size>
+          <checksum type="sha1">eb0c6d730993b0362febbf11dbfcd2663deb977c</checksum>
+          <url>emulator-darwin_x64-12623485.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>319551569</size>
-          <checksum type="sha1">98d0c5e3b224835ab5904526cedd121f5cae7084</checksum>
-          <url>emulator-darwin_aarch64-12565761.zip</url>
+          <size>320237026</size>
+          <checksum type="sha1">e1d9ff3fa90eced881debb79dd76eecbf4949d14</checksum>
+          <url>emulator-darwin_aarch64-12623485.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>426335192</size>
-          <checksum type="sha1">b388718b139cf2f49b9ac9a2a27775552244b4e8</checksum>
-          <url>emulator-windows_x64-12565761.zip</url>
+          <size>426925475</size>
+          <checksum type="sha1">06abda8da7b3b85d6e611c856037f200c9ea3bce</checksum>
+          <url>emulator-windows_x64-12623485.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>

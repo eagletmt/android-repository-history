@@ -2068,36 +2068,6 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1704139494</size>
-          <checksum type="sha1">0d4c047003eaa8c78698f9aea0708e71b0895248</checksum>
-          <url>x86_64-VanillaIceCream_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="system-images;android-28;google_apis_playstore;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>28</api-level>
@@ -2645,36 +2615,6 @@ January 16, 2019
           <url>arm64-v8a-34-ext10_r01-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-VanillaIceCream;google_apis_playstore;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>VanillaIceCream</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Google Play ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1745670932</size>
-          <checksum type="sha1">41c8b6df52b60c76881fa5f819363678f9ef096c</checksum>
-          <url>arm64-v8a-VanillaIceCream_r05.zip</url>
-        </complete>
       </archive>
     </archives>
   </remotePackage>
