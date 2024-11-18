@@ -717,6 +717,64 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-35-ext14;google_apis_playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1792701637</size>
+          <checksum>7bb14cbc01abf408d7fd43ff0257aa08e001f5c1</checksum>
+          <url>arm64-v8a-35-ext14_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35-ext14;google_apis_playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1765757430</size>
+          <checksum>b9ef84a27cac20209aae77277ae34151a724d43f</checksum>
+          <url>x86_64-35-ext14_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-35;google_apis_playstore_ps16k;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>35</api-level>

@@ -300,6 +300,29 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-35-ext14">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>35x</api-level>
+      <extension-level>14</extension-level>
+      <base-extension>false</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 35-ext14</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64330898</size>
+          <checksum type="sha1">c0e5b5511562fc8b8a61b3b3f17f6ffa811e4971</checksum>
+          <url>platform-35-ext14_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-35">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>35</api-level>
