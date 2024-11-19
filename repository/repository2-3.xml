@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-Baklava">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>35</api-level>
+      <codename>Baklava</codename>
+      <extension-level>15</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform Baklava</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64794569</size>
+          <checksum type="sha1">9d420d47c1f4958e8ac40c7a1d09d8e23f776a42</checksum>
+          <url>platform-Baklava_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-35-ext14">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>35x</api-level>
@@ -5544,6 +5568,44 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;36.0.0-rc1">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>36</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>1</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 36-rc1</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>62558889</size>
+          <checksum type="sha1">b0a48cef38ee02e2170e6eeb769956c46b8a294b</checksum>
+          <url>build-tools_r36-rc1_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>57851822</size>
+          <checksum type="sha1">dfa48ceb8bd185891a11cd8babcc3782abca35e3</checksum>
+          <url>build-tools_r36-rc1_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>78312030</size>
+          <checksum type="sha1">7a1149c9a0603a831396b7f522505b4357d80744</checksum>
+          <url>build-tools_r36-rc1_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
