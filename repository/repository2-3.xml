@@ -1941,6 +1941,44 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="ndk;28.0.12674087">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>28</major>
+      <minor>0</minor>
+      <micro>12674087</micro>
+      <preview>2</preview>
+    </revision>
+    <display-name>NDK (Side by side) 28.0.12674087</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>721452166</size>
+          <checksum type="sha1">4b901eeb50a76ba521e4eb1e611cb43658b54440</checksum>
+          <url>android-ndk-r28-beta2-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>946868930</size>
+          <checksum type="sha1">1b702451e4cae82eb1d5449bc03875b248a47dc6</checksum>
+          <url>android-ndk-r28-beta2-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>746919470</size>
+          <checksum type="sha1">410a9863a8c2559bd4bb1f29517ea525c41859ab</checksum>
+          <url>android-ndk-r28-beta2-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="ndk;27.2.12479018">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
