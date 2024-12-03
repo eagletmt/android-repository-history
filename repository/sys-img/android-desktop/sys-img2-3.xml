@@ -736,6 +736,15 @@ January 16, 2019
     </revision>
     <display-name>Desktop ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>19</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -766,6 +775,15 @@ January 16, 2019
     </revision>
     <display-name>Desktop Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>19</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -952,6 +970,15 @@ January 16, 2019
     </revision>
     <display-name>Desktop Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -982,6 +1009,15 @@ January 16, 2019
     </revision>
     <display-name>Desktop ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>

@@ -736,6 +736,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -766,6 +775,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -796,6 +814,15 @@ January 16, 2019
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -826,6 +853,15 @@ January 16, 2019
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -855,6 +891,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -884,6 +929,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -913,6 +967,15 @@ January 16, 2019
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -942,6 +1005,15 @@ January 16, 2019
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -971,6 +1043,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1000,6 +1081,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>33</major>
+          <minor>1</minor>
+          <micro>24</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1029,6 +1119,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1058,6 +1157,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1087,6 +1195,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1116,6 +1233,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1145,6 +1271,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1174,6 +1309,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1203,6 +1347,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1232,6 +1385,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -1977,6 +2139,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -2083,6 +2254,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -2112,6 +2292,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>34</major>
+          <minor>2</minor>
+          <micro>16</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -2482,6 +2671,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -2606,6 +2804,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -2635,6 +2842,15 @@ January 16, 2019
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>34</major>
+          <minor>2</minor>
+          <micro>16</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>

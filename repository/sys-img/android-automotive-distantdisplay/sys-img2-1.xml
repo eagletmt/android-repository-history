@@ -735,6 +735,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google Play arm64-v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -764,6 +773,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google Play x86_64 System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -793,6 +811,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google Play arm64-v8a System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-2"/>
     <archives>
       <archive>
@@ -822,6 +849,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google Play x86_64 System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>1</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-2"/>
     <archives>
       <archive>
@@ -851,6 +887,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google APIs arm64-v8a System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>3</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-2"/>
     <archives>
       <archive>
@@ -880,6 +925,15 @@ January 16, 2019
     </revision>
     <display-name>Automotive Distant Display with Google APIs x86_64 System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>3</minor>
+          <micro>1</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-2"/>
     <archives>
       <archive>

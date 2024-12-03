@@ -736,6 +736,15 @@ January 16, 2019
     </revision>
     <display-name>AOSP ATD ARM 64 System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>9</minor>
+          <micro>2</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -766,6 +775,15 @@ January 16, 2019
     </revision>
     <display-name>AOSP ATD Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>9</minor>
+          <micro>2</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>

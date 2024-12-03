@@ -901,6 +901,15 @@ January 16, 2019
     </revision>
     <display-name>Google TV Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>6</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -926,6 +935,15 @@ January 16, 2019
     </revision>
     <display-name>Google TV ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>28</major>
+          <minor>1</minor>
+          <micro>6</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>

@@ -6170,9 +6170,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 30.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6210,9 +6207,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 30.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6250,9 +6244,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 30.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6290,9 +6281,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 30</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6330,9 +6318,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6370,9 +6355,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6410,9 +6392,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6450,9 +6429,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6491,9 +6467,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29-rc3</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6532,9 +6505,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29-rc2</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6573,9 +6543,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 29-rc1</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6613,9 +6580,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6653,9 +6617,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6693,9 +6654,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6733,9 +6691,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6774,9 +6729,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28-rc2</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6815,9 +6767,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 28-rc1</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6855,9 +6804,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 27.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6895,9 +6841,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 27.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6935,9 +6878,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 27.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -6975,9 +6915,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 27</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7015,9 +6952,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 26.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7055,9 +6989,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 26.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7095,9 +7026,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 26.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7135,9 +7063,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 26</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7175,9 +7100,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 25.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7215,9 +7137,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 25.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7255,9 +7174,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 25.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7295,9 +7211,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 25</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7335,9 +7248,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 24.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7375,9 +7285,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 24.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7415,9 +7322,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 24.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7455,9 +7359,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 24</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7495,9 +7396,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 23.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7535,9 +7433,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 23.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7575,9 +7470,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 23.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7615,9 +7507,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 23</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7655,9 +7544,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 22.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7695,9 +7581,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 22</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7735,9 +7618,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21.1.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7775,9 +7655,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21.1.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7815,9 +7692,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7855,9 +7729,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7895,9 +7766,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7935,9 +7803,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 21</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -7975,9 +7840,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 20</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8015,9 +7877,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 19.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8055,9 +7914,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 19.0.3</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8095,9 +7951,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 19.0.2</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8135,9 +7988,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 19.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8175,9 +8025,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 19</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8215,9 +8062,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 18.1.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8255,9 +8099,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 18.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8295,9 +8136,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 18.0.1</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -8335,9 +8173,6 @@ June 2014.
     </revision>
     <display-name>Android SDK Build-Tools 17</display-name>
     <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="tools"/>
-    </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
       <archive>
@@ -9855,11 +9690,6 @@ June 2014.
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator"/>
-      <dependency path="platform-tools">
-        <min-revision>
-          <major>20</major>
-        </min-revision>
-      </dependency>
     </dependencies>
     <channelRef ref="channel-0"/>
     <archives>
