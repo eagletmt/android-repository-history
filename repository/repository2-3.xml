@@ -9165,6 +9165,43 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="cmake;3.31.1">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>3</major>
+      <minor>31</minor>
+      <micro>1</micro>
+    </revision>
+    <display-name>CMake 3.31.1</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>30474570</size>
+          <checksum type="sha1">477e6cd2d8094d2653464a60869aa15e0d79a24f</checksum>
+          <url>cmake-3.31.1-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>42781652</size>
+          <checksum type="sha1">11b79b8908377bdd038aac0625e7d8aa32aed503</checksum>
+          <url>cmake-3.31.1-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>20462685</size>
+          <checksum type="sha1">3a8f1f1b33e0ed2a639b6e709ab15806648979c9</checksum>
+          <url>cmake-3.31.1-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="cmake;3.31.0">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
