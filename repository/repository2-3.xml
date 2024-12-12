@@ -464,30 +464,6 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-UpsideDownCakePrivacySandbox">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>34</api-level>
-      <codename>UpsideDownCakePrivacySandbox</codename>
-      <extension-level>7</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>3</major>
-    </revision>
-    <display-name>Android SDK Platform UpsideDownCakePrivacySandbox</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>64049813</size>
-          <checksum type="sha1">693beff31fe890c670efe34498c761ebe425ac8f</checksum>
-          <url>platform-UpsideDownCakePrivacySandbox_r03.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-34">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>34</api-level>
@@ -604,30 +580,6 @@ June 2014.
           <size>67564453</size>
           <checksum type="sha1">422f50033523c5f934f38df520699080b59bbc7e</checksum>
           <url>platform-33-ext4_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platforms;android-TiramisuPrivacySandbox">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>33</api-level>
-      <codename>TiramisuPrivacySandbox</codename>
-      <extension-level>3</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>9</major>
-    </revision>
-    <display-name>Android SDK Platform TiramisuPrivacySandbox</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67663071</size>
-          <checksum type="sha1">6bc5e85cd2ea54df4dae036ff20fb0e889a6835e</checksum>
-          <url>platform-TiramisuPrivacySandbox_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -9660,7 +9612,7 @@ June 2014.
     <revision>
       <major>35</major>
       <minor>4</minor>
-      <micro>3</micro>
+      <micro>4</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -9668,36 +9620,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>304129800</size>
-          <checksum type="sha1">8b5b471fe24d51e09d3c839f652b8b99eb40d99e</checksum>
-          <url>emulator-linux_x64-12694320.zip</url>
+          <size>304401056</size>
+          <checksum type="sha1">1b8b5847989a3c4c00251ee1ce6a8637f347057e</checksum>
+          <url>emulator-linux_x64-12745630.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>401477139</size>
-          <checksum type="sha1">bfe9bc34919de018d3403b9250c72d2fb95f29cc</checksum>
-          <url>emulator-darwin_x64-12694320.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>320188300</size>
-          <checksum type="sha1">87b84d4f79c51e8c8f79577b6dddc7ac7a4ce0d2</checksum>
-          <url>emulator-darwin_aarch64-12694320.zip</url>
+          <size>320398384</size>
+          <checksum type="sha1">aa0030fde87572f5304e0fcda34a5e8409739821</checksum>
+          <url>emulator-darwin_aarch64-12745630.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>426875453</size>
-          <checksum type="sha1">5c47a4124282eaed69f6a39fb975988fcb84544f</checksum>
-          <url>emulator-windows_x64-12694320.zip</url>
+          <size>401886550</size>
+          <checksum type="sha1">1d1e7a4e041673c3e34a4e3f4b15e704c0dbb25d</checksum>
+          <url>emulator-darwin_x64-12745630.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>425795911</size>
+          <checksum type="sha1">4a333c2dcff1e3b6cd9b47546ef992bdf2caff20</checksum>
+          <url>emulator-windows_x64-12745630.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>

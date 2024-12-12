@@ -2293,45 +2293,6 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-TiramisuPrivacySandbox;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>33</api-level>
-      <codename>TiramisuPrivacySandbox</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>9</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1492912127</size>
-          <checksum>4893f6e62413e97e2bad5f183319d65d3947a375</checksum>
-          <url>x86_64-TiramisuPrivacySandbox_r09.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="system-images;android-33;google_apis_playstore;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>33</api-level>
@@ -2442,45 +2403,6 @@ January 16, 2019
           <size>1510752654</size>
           <checksum>01d32617fd1937e540faf8731d70cf50e35af854</checksum>
           <url>x86_64-34_r14.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>UpsideDownCakePrivacySandbox</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>3</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1510877347</size>
-          <checksum>f9b885d496787374be0c8be23eb7b69594c751a5</checksum>
-          <url>x86_64-UpsideDownCakePrivacySandbox_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2825,54 +2747,6 @@ January 16, 2019
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-TiramisuPrivacySandbox;google_apis_playstore;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>33</api-level>
-      <codename>TiramisuPrivacySandbox</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>9</major>
-    </revision>
-    <display-name>Google Play ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1592946784</size>
-          <checksum>d4cb5f1b985cb9f6ee093a00a910c5afc1bb0912</checksum>
-          <url>arm64-v8a-TiramisuPrivacySandbox_r09-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1592946784</size>
-          <checksum>d4cb5f1b985cb9f6ee093a00a910c5afc1bb0912</checksum>
-          <url>arm64-v8a-TiramisuPrivacySandbox_r09-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="system-images;android-33;google_apis_playstore;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>33</api-level>
@@ -2993,54 +2867,6 @@ January 16, 2019
           <checksum>c307c3301dc52635ebc78b943c39b3c377856ebc</checksum>
           <url>arm64-v8a-34_r14.zip</url>
         </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-UpsideDownCakePrivacySandbox;google_apis_playstore;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <codename>UpsideDownCakePrivacySandbox</codename>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>3</major>
-    </revision>
-    <display-name>Google Play ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>32</major>
-          <minor>1</minor>
-          <micro>8</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1548724067</size>
-          <checksum>90ccfc150180d529bc96ddc7d4a32249303ebd7f</checksum>
-          <url>arm64-v8a-UpsideDownCakePrivacySandbox_r03-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>1548724067</size>
-          <checksum>90ccfc150180d529bc96ddc7d4a32249303ebd7f</checksum>
-          <url>arm64-v8a-UpsideDownCakePrivacySandbox_r03-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
       </archive>
     </archives>
   </remotePackage>

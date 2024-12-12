@@ -851,6 +851,91 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-34;google-xr;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>android-xr</id>
+        <display>XR</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>3</major>
+    </revision>
+    <display-name>Google Play XR ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>4</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1375906856</size>
+          <checksum>a287600baaacdff8f9f173c5f8f44d087dab98ee</checksum>
+          <url>xr-arm64-v8a-playstore-34_r03.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34;google-xr;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <tag>
+        <id>android-xr</id>
+        <display>XR</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>3</major>
+    </revision>
+    <display-name>Google Play XR Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>4</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1396596865</size>
+          <checksum>b2f4d9a6bf816812c82d4f4bcc6ae7c2652a2bf9</checksum>
+          <url>xr-x86_64-playstore-34_r03-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>1365291851</size>
+          <checksum>5acd94a737b731a0813a382396c91b9b63b54e3f</checksum>
+          <url>xr-x86_64-playstore-34_r03-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-30;google-tv;x86">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>30</api-level>
