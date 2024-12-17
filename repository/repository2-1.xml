@@ -349,7 +349,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Android SDK Platform 35</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -357,9 +357,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>64281654</size>
-          <checksum>c84ed39cecaeec13bc06c67639fcf86734013d98</checksum>
-          <url>platform-35_r01.zip</url>
+          <size>64281656</size>
+          <checksum>2a0b06a1c89b52a3d70ce5d40554b094c1c1d0ac</checksum>
+          <url>platform-35_r02.zip</url>
         </complete>
       </archive>
     </archives>

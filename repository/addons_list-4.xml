@@ -79,6 +79,10 @@
     <displayName>Tablet Google API with Playstore System Images</displayName>
     <url>sys-img/google_playstore_tablet/sys-img2-2.xml</url>
   </site>
+  <site xsi:type="sdk:sysImgSiteType">
+    <displayName>Google XR System Images</displayName>
+    <url>sys-img/google_xr/sys-img2-2.xml</url>
+  </site>
   <site xsi:type="sdk:addonSiteType">
     <displayName>Google Inc.</displayName>
     <url>addon2-2.xml</url>
