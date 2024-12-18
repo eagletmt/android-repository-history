@@ -868,7 +868,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -885,9 +885,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1782752009</size>
-          <checksum type="sha1">40b4cb4dda8206b8c9a1752584daf571fafeb6a1</checksum>
-          <url>arm64-v8a-Baklava_r01.zip</url>
+          <size>1799156187</size>
+          <checksum type="sha1">54fc058ccd85c5405337e8f361f89c11f465b4d1</checksum>
+          <url>arm64-v8a-Baklava_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -909,7 +909,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -926,9 +926,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1782988220</size>
-          <checksum type="sha1">6604cd7012bb1e0c3f3adf4afb2e8f6bab0d7a1a</checksum>
-          <url>x86_64-Baklava_r01.zip</url>
+          <size>1805192778</size>
+          <checksum type="sha1">ed7b04f319a147880cba6d0a9b6443d88cce5125</checksum>
+          <url>x86_64-Baklava_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -954,7 +954,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -971,9 +971,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1540827852</size>
-          <checksum type="sha1">f9a98f1816d2404828eef07c9807fed685282bec</checksum>
-          <url>arm64-v8a-ps16k-Baklava_r01.zip</url>
+          <size>1557040716</size>
+          <checksum type="sha1">475eed8f6f3d316d8e2db2de265a2a65fcd2fc9d</checksum>
+          <url>arm64-v8a-ps16k-Baklava_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -999,7 +999,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1016,9 +1016,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1495989866</size>
-          <checksum type="sha1">1a979ad1e03f53dd7063bd68ee719aa7f20ae0c6</checksum>
-          <url>x86_64-ps16k-Baklava_r01.zip</url>
+          <size>1515558256</size>
+          <checksum type="sha1">d40bcdc1fa3a55de93d8a8b73dd839877f28c355</checksum>
+          <url>x86_64-ps16k-Baklava_r02.zip</url>
         </complete>
       </archive>
     </archives>

@@ -307,7 +307,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>3</major>
     </revision>
     <display-name>Android SDK Platform Baklava</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -315,9 +315,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>64794569</size>
-          <checksum type="sha1">9d420d47c1f4958e8ac40c7a1d09d8e23f776a42</checksum>
-          <url>platform-Baklava_r01.zip</url>
+          <size>65112008</size>
+          <checksum type="sha1">3777c33a9afbc463362bb37db647bf2edc7ce546</checksum>
+          <url>platform-Baklava_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -5476,6 +5476,44 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;36.0.0-rc3">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>36</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>3</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 36-rc3</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>62577193</size>
+          <checksum type="sha1">af37c3b9c58d62b885c80c5f3968106a22c37495</checksum>
+          <url>build-tools_r36-rc3_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>57872335</size>
+          <checksum type="sha1">acac220c05062b6ea56ab4c9561a544d15223150</checksum>
+          <url>build-tools_r36-rc3_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>78345346</size>
+          <checksum type="sha1">ae832d578f78dceca3c536479a58ca69c109dbaf</checksum>
+          <url>build-tools_r36-rc3_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
