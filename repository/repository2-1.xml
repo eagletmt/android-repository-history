@@ -5083,6 +5083,43 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="build-tools;35.0.1">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>35</major>
+      <minor>0</minor>
+      <micro>1</micro>
+    </revision>
+    <display-name>Android SDK Build-Tools 35.0.1</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>61959297</size>
+          <checksum>e009a9b188cfeb1d2b4c318ab5cb4f1ddc368861</checksum>
+          <url>build-tools_r35.0.1_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59876477</size>
+          <checksum>1cbfa5564b62504a1111352edda35914cf723a20</checksum>
+          <url>build-tools_r35.0.1_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>76857925</size>
+          <checksum>f4dda6855ddf1ea1a51ee3ab6587104bd0c1d727</checksum>
+          <url>build-tools_r35.0.1_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="build-tools;36.0.0-rc3">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>

@@ -1043,7 +1043,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1060,9 +1060,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1533392763</size>
-          <checksum type="sha1">3e2ebaf7539f4f31bf374cd28e31f63ddd42b26e</checksum>
-          <url>arm64-v8a-ps16k-35_r04.zip</url>
+          <size>1535142331</size>
+          <checksum type="sha1">435176cf71f4b67d7f97b996272d6c26fa37f1a2</checksum>
+          <url>arm64-v8a-ps16k-35_r05.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1087,7 +1087,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1104,9 +1104,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1447463840</size>
-          <checksum type="sha1">44ce5b958a1dc80d3ca9cade1e62350f1470902c</checksum>
-          <url>x86_64-ps16k-35_r04.zip</url>
+          <size>1450701070</size>
+          <checksum type="sha1">33efe7306d7dd116c052b91a75b98736b6e152f0</checksum>
+          <url>x86_64-ps16k-35_r05.zip</url>
         </complete>
       </archive>
     </archives>
