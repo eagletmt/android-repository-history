@@ -866,16 +866,16 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>33</major>
-          <minor>1</minor>
-          <micro>24</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -883,9 +883,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1818414496</size>
-          <checksum>e803defc03701d89a19dbe1a221d47e851ea7907</checksum>
-          <url>arm64-v8a-Baklava_r02.zip</url>
+          <size>1825799645</size>
+          <checksum>029e0b3732aba5a4cb97621b84f5edea9b71775b</checksum>
+          <url>arm64-v8a-Baklava_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -905,16 +905,16 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>33</major>
-          <minor>1</minor>
-          <micro>24</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -922,9 +922,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1839538496</size>
-          <checksum>e874f6f5accbf33fb0c881a68f98a27ff424abcf</checksum>
-          <url>x86_64-Baklava_r02.zip</url>
+          <size>1848004792</size>
+          <checksum>4fd21b8fa1b92c8f9a9f7838ffab55a1c344aa0a</checksum>
+          <url>x86_64-Baklava_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -944,16 +944,16 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>33</major>
-          <minor>1</minor>
-          <micro>24</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -961,9 +961,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1618721784</size>
-          <checksum>880597c0189a08d5294d0c331d0d767f12a8e831</checksum>
-          <url>arm64-v8a-playstore-ps16k-Baklava_r02.zip</url>
+          <size>1623140308</size>
+          <checksum>9ed66f7ad190fedf5b20989a3914501234fbeff2</checksum>
+          <url>arm64-v8a-playstore-ps16k-Baklava_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -983,16 +983,16 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>33</major>
-          <minor>1</minor>
-          <micro>24</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1000,9 +1000,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1583610741</size>
-          <checksum>b7f681a5fcc567c5994f48f8f069f3663e6b3405</checksum>
-          <url>x86_64-playstore-ps16k-Baklava_r02.zip</url>
+          <size>1588410201</size>
+          <checksum>8242bdada27c1db6209d8b2fa68bd86d7b3ee3b9</checksum>
+          <url>x86_64-playstore-ps16k-Baklava_r03.zip</url>
         </complete>
       </archive>
     </archives>
