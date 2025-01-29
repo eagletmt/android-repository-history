@@ -1038,8 +1038,8 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1535142331</size>
-          <checksum>435176cf71f4b67d7f97b996272d6c26fa37f1a2</checksum>
+          <size>1778788352</size>
+          <checksum>9d834fe640beff22d25025a8028b98ab4366be4d</checksum>
           <url>arm64-v8a-ps16k-35_r05.zip</url>
         </complete>
       </archive>
@@ -1076,8 +1076,8 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1450701070</size>
-          <checksum>33efe7306d7dd116c052b91a75b98736b6e152f0</checksum>
+          <size>1696342085</size>
+          <checksum>d709cf26b375abecfbbf5803afd20749ddfa2865</checksum>
           <url>x86_64-ps16k-35_r05.zip</url>
         </complete>
       </archive>
@@ -1097,7 +1097,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1114,9 +1114,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1776920399</size>
-          <checksum>50b337d09eff0540022d24e5097f6df29407e7c1</checksum>
-          <url>arm64-v8a-35_r08.zip</url>
+          <size>1778933980</size>
+          <checksum>16f5bceca236b2737008977c4aaf826e46a8de7d</checksum>
+          <url>arm64-v8a-35_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1135,7 +1135,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1152,9 +1152,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1736662833</size>
-          <checksum>d79169884cabc6680cb29d32c2112ad46c858c1b</checksum>
-          <url>x86_64-35_r08.zip</url>
+          <size>1738815903</size>
+          <checksum>0103e6dab21290c4b9d16550a3ce99476f884eef</checksum>
+          <url>x86_64-35_r09.zip</url>
         </complete>
       </archive>
     </archives>

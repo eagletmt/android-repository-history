@@ -363,8 +363,8 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>64281656</size>
-          <checksum type="sha1">2a0b06a1c89b52a3d70ce5d40554b094c1c1d0ac</checksum>
+          <size>64273788</size>
+          <checksum type="sha1">0bb560a90a7a2cbd0dd8348224d518b638fe7949</checksum>
           <url>platform-35_r02.zip</url>
         </complete>
       </archive>
