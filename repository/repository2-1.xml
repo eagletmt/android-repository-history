@@ -8857,7 +8857,7 @@ June 2014.
   <remotePackage path="skiaparser;3">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Layout Inspector image server for API 31-36</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -8865,27 +8865,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>9059335</size>
-          <checksum>f1f9acd490c2a94402fa5fc0a548f529acab91b1</checksum>
-          <url>skiaparser-12616120-linux-x64.zip</url>
+          <size>9057863</size>
+          <checksum>0c0ba1581ecba105bd59b95c251f8a16a73e9555</checksum>
+          <url>skiaparser-12972467-linux-x64.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>2932763</size>
-          <checksum>d320af2c33979fce796d436e6e68351a9d1a02d2</checksum>
-          <url>skiaparser-12616120-darwin-x64.zip</url>
+          <size>2933880</size>
+          <checksum>7fa586b1b677db7f0af7104bb8b273bae1f05567</checksum>
+          <url>skiaparser-12972467-darwin-x64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>2952673</size>
-          <checksum>afd28844313af84f7245cef5d5be8d9a9de848e1</checksum>
-          <url>skiaparser-12616120-win-x64.zip</url>
+          <size>2953603</size>
+          <checksum>6d65481e813ea9fa6447d8575b40f728bc252cd3</checksum>
+          <url>skiaparser-12972467-win-x64.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
