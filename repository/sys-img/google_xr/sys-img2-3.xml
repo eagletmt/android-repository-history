@@ -851,4 +851,101 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-34;google-xr;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <extension-level>7</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-xr</id>
+        <display>XR</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Google Play XR ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>4</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1489223147</size>
+          <checksum type="sha1">3ef7800026c62ab04fff6f1a12af57902c88b8e6</checksum>
+          <url>xr-arm64-v8a-playstore-34_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34;google-xr;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <extension-level>7</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-xr</id>
+        <display>XR</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Google Play XR Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>4</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1510422354</size>
+          <checksum type="sha1">8d21a5d2afa0d0902578fe886c2abf6139c01436</checksum>
+          <url>xr-x86_64-playstore-34_r04-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>1477434970</size>
+          <checksum type="sha1">900fb6f084ddb3951a3f1c80410a9f453f68e520</checksum>
+          <url>xr-x86_64-playstore-34_r04-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
 </sys-img:sdk-sys-img>
