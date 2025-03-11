@@ -75,8 +75,4 @@
     <displayName>Glass Development Kit, Google Inc.</displayName>
     <url>glass/addon2-1.xml</url>
   </site>
-  <site xsi:type="sdk:addonSiteType">
-    <displayName>Intel HAXM</displayName>
-    <url>extras/intel/addon2-1.xml</url>
-  </site>
 </common:site-list>

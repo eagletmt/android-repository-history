@@ -9329,7 +9329,7 @@ June 2014.
   <remotePackage path="skiaparser;3">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Layout Inspector image server for API 31-36</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -9337,36 +9337,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>9057863</size>
-          <checksum type="sha1">0c0ba1581ecba105bd59b95c251f8a16a73e9555</checksum>
-          <url>skiaparser-12972467-linux-x64.zip</url>
+          <size>9075303</size>
+          <checksum type="sha1">bb1f92866924dc64e035516d36866f6d851c5f6d</checksum>
+          <url>skiaparser-13188227-linux-x64.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2933880</size>
-          <checksum type="sha1">7fa586b1b677db7f0af7104bb8b273bae1f05567</checksum>
-          <url>skiaparser-12972467-darwin-x64.zip</url>
+          <size>2939258</size>
+          <checksum type="sha1">a4a0037269a48d8eca8cdb8bc289e7b35b829b45</checksum>
+          <url>skiaparser-13188227-darwin-x64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2598977</size>
-          <checksum type="sha1">b4c308feff96c9ef112dd8959ee9d1e78c12d89b</checksum>
-          <url>skiaparser-12972467-darwin-aarch64.zip</url>
+          <size>2601969</size>
+          <checksum type="sha1">44c55cb986abfb8d5dc2293db3a625b8d81dc1f6</checksum>
+          <url>skiaparser-13188227-darwin-aarch64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>2953603</size>
-          <checksum type="sha1">6d65481e813ea9fa6447d8575b40f728bc252cd3</checksum>
-          <url>skiaparser-12972467-win-x64.zip</url>
+          <size>2956517</size>
+          <checksum type="sha1">9c47bdff5f0bb8947426d766d28b35a6f3bba988</checksum>
+          <url>skiaparser-13188227-win-x64.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
