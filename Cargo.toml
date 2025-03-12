@@ -1,7 +1,7 @@
 [package]
 name = "android-repository-history"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 publish = false
 license = "MIT"
 
@@ -10,7 +10,7 @@ license = "MIT"
 [dependencies]
 anyhow = { version = "1", features = ["backtrace"] }
 bytes = "1"
-quick-xml = { version = "0.30", features = ["serialize"] }
-reqwest = { version = "0.11", default-features = false, features = ["rustls-tls"] }
+quick-xml = { version = "0.37", features = ["serialize"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs"] }
