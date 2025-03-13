@@ -300,6 +300,27 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-36">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>36</api-level>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 36</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>65749783</size>
+          <checksum>feed7041652a3744582bb233506013969dbadb46</checksum>
+          <url>platform-36_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-Baklava">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>35</api-level>
@@ -1346,6 +1367,26 @@ June 2014.
           <url>android-1.1_r1-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="sources;android-36">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>36</api-level>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 36</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>51345538</size>
+          <checksum>57b6cbc3acff91f6b1bc56f4083c9446052a9851</checksum>
+          <url>source-36_r01.zip</url>
+        </complete>
       </archive>
     </archives>
   </remotePackage>
@@ -5193,6 +5234,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;36.0.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>36</major>
+      <minor>0</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android SDK Build-Tools 36</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>63737259</size>
+          <checksum>b0b6376977657e8ad9b969bacf4093601da2c6fb</checksum>
+          <url>build-tools_r36_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>58699878</size>
+          <checksum>f16ccffd34de8790dede813a6c7d8e2c11a27b50</checksum>
+          <url>build-tools_r36_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>79121749</size>
+          <checksum>199ae0047ee61e842f8ee0c6d3918e44fb9a1f83</checksum>
+          <url>build-tools_r36_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
