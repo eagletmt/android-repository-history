@@ -869,6 +869,90 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google APIs Tablet ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1989651719</size>
+          <checksum type="sha1">0327e3d23df805efaf9f7eeac270d614f11eb441</checksum>
+          <url>arm64-v8a-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;google_apis_tablet;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>tablet</id>
+        <display>Tablet</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google APIs Tablet Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>32</major>
+          <minor>1</minor>
+          <micro>8</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1854890407</size>
+          <checksum type="sha1">985f2e6569374d50a54774d770c2bafba1f9f855</checksum>
+          <url>x86_64-35_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-35;google_apis_tablet;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>35</api-level>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>tablet</id>
+        <display>Tablet</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
       <major>1</major>
     </revision>
     <display-name>Google APIs Tablet ARM 64 v8a System Image</display-name>
