@@ -2492,7 +2492,7 @@ January 16, 2019
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google APIs Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -2509,9 +2509,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1133056400</size>
-          <checksum type="sha1">8dc45a7406b922116f2121f6826868c2e7087389</checksum>
-          <url>x86-29_r12.zip</url>
+          <size>1136013362</size>
+          <checksum type="sha1">7eb6ddbea82b94978f7c708fe09a05d8b977f9e9</checksum>
+          <url>x86-29_r13.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2530,7 +2530,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>12</major>
+      <major>13</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -2547,9 +2547,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1313280930</size>
-          <checksum type="sha1">8392b93dc05c380bb0e6b2375ba318c14b263b37</checksum>
-          <url>x86_64-29_r12.zip</url>
+          <size>1314706136</size>
+          <checksum type="sha1">50c2953ab13f312ed797a961577ee74a911d087d</checksum>
+          <url>x86_64-29_r13.zip</url>
         </complete>
       </archive>
     </archives>
@@ -2927,8 +2927,8 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1170272392</size>
-          <checksum type="sha1">5ef4888ce47a24a9e96e45418f9fd26f1c8e0f13</checksum>
+          <size>1170273162</size>
+          <checksum type="sha1">f96b1ee677f1bd2ddcff0b93485e9c65db2e6160</checksum>
           <url>arm64-v8a-29_r13.zip</url>
         </complete>
       </archive>
