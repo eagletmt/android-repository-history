@@ -10162,6 +10162,43 @@ June 2014.
   <remotePackage path="platform-tools">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
+      <major>36</major>
+      <minor>0</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android SDK Platform-Tools</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>7904253</size>
+          <checksum type="sha1">ddb0cd76d952d9a1f4c8a32e4ec0e73d7a8bebb8</checksum>
+          <url>platform-tools_r36.0.0-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>14186209</size>
+          <checksum type="sha1">48ebbd2fc67d894d7fd7b21679a7c8eb3fed9b28</checksum>
+          <url>platform-tools_r36.0.0-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>7138793</size>
+          <checksum type="sha1">342b69dcbab46c9d3b802d7e21b95a91c8c9b3ff</checksum>
+          <url>platform-tools_r36.0.0-win.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="platform-tools">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
       <major>35</major>
       <minor>0</minor>
       <micro>2</micro>
