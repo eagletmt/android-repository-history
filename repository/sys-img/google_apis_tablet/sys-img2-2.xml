@@ -886,8 +886,8 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1989651719</size>
-          <checksum type="sha1">0327e3d23df805efaf9f7eeac270d614f11eb441</checksum>
+          <size>1989651356</size>
+          <checksum type="sha1">ee76689835d867058ecce51e6634635675c83482</checksum>
           <url>arm64-v8a-35_r02.zip</url>
         </complete>
       </archive>
@@ -928,8 +928,8 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1854890407</size>
-          <checksum type="sha1">985f2e6569374d50a54774d770c2bafba1f9f855</checksum>
+          <size>1854884879</size>
+          <checksum type="sha1">4f497f7a4ed5965b162ab6a33b8f99e4d4163154</checksum>
           <url>x86_64-35_r02.zip</url>
         </complete>
       </archive>
