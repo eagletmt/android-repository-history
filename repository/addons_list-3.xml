@@ -28,10 +28,6 @@
     <url>sys-img/android-automotive-distantdisplay/sys-img2-1.xml</url>
   </site>
   <site xsi:type="sdk:sysImgSiteType">
-    <displayName>Android Automotive multi-window System Images</displayName>
-    <url>sys-img/android-automotive-multiwindow/sys-img2-1.xml</url>
-  </site>
-  <site xsi:type="sdk:sysImgSiteType">
     <displayName>Android Wear System Images</displayName>
     <url>sys-img/android-wear/sys-img2-1.xml</url>
   </site>
