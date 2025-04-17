@@ -327,7 +327,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Android SDK Platform 36</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -335,9 +335,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>65749783</size>
-          <checksum type="sha1">feed7041652a3744582bb233506013969dbadb46</checksum>
-          <url>platform-36_r01.zip</url>
+          <size>65878410</size>
+          <checksum type="sha1">2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576</checksum>
+          <url>platform-36_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1404,8 +1404,8 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>51345538</size>
-          <checksum type="sha1">57b6cbc3acff91f6b1bc56f4083c9446052a9851</checksum>
+          <size>51654722</size>
+          <checksum type="sha1">cbd2cf0e67abf996c4ad6cf6955c3a781d75852a</checksum>
           <url>source-36_r01.zip</url>
         </complete>
       </archive>
