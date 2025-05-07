@@ -858,7 +858,7 @@ January 16, 2019
       <base-extension>true</base-extension>
       <tag>
         <id>android-xr</id>
-        <display>XR</display>
+        <display>Android XR</display>
       </tag>
       <tag>
         <id>google_apis_playstore</id>
@@ -871,7 +871,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Google Play XR ARM 64 v8a System Image</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -879,8 +879,8 @@ January 16, 2019
       <dependency path="emulator">
         <min-revision>
           <major>35</major>
-          <minor>4</minor>
-          <micro>4</micro>
+          <minor>6</minor>
+          <micro>7</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -888,9 +888,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1489223147</size>
-          <checksum type="sha1">3ef7800026c62ab04fff6f1a12af57902c88b8e6</checksum>
-          <url>xr-arm64-v8a-playstore-34_r04.zip</url>
+          <size>1536402531</size>
+          <checksum type="sha1">d488c8da3f3edaf149c5fd9a34c7e8a304fbac10</checksum>
+          <url>xr-arm64-v8a-playstore-34_r05.zip</url>
         </complete>
       </archive>
     </archives>
@@ -902,7 +902,7 @@ January 16, 2019
       <base-extension>true</base-extension>
       <tag>
         <id>android-xr</id>
-        <display>XR</display>
+        <display>Android XR</display>
       </tag>
       <tag>
         <id>google_apis_playstore</id>
@@ -915,7 +915,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Google Play XR Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -923,8 +923,8 @@ January 16, 2019
       <dependency path="emulator">
         <min-revision>
           <major>35</major>
-          <minor>4</minor>
-          <micro>4</micro>
+          <minor>6</minor>
+          <micro>7</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -932,17 +932,17 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1510422354</size>
-          <checksum type="sha1">8d21a5d2afa0d0902578fe886c2abf6139c01436</checksum>
-          <url>xr-x86_64-playstore-34_r04-linux.zip</url>
+          <size>1604051121</size>
+          <checksum type="sha1">3a97a73db799e2caf5adcb79628c4ac176848d3c</checksum>
+          <url>xr-x86_64-playstore-34_r05-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>1477434970</size>
-          <checksum type="sha1">900fb6f084ddb3951a3f1c80410a9f453f68e520</checksum>
-          <url>xr-x86_64-playstore-34_r04-windows.zip</url>
+          <size>1569404783</size>
+          <checksum type="sha1">2750df5b023e31af92016c5bc6c6d020b309149c</checksum>
+          <url>xr-x86_64-playstore-34_r05-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
