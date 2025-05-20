@@ -851,6 +851,60 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;signed;android-36;android-wear;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36</api-level>
+      <extension-level>17</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 6.0 - Preview</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Wear OS 6.0 - Preview ARM 64 v8a System Image (signed)</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1139080003</size>
+          <checksum type="sha1">53f3fa2adea692b7eabf698d59fdc34d36ff08e4</checksum>
+          <url>arm64-v8a-36_signed_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;signed;android-36;android-wear;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36</api-level>
+      <extension-level>17</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 6.0 - Preview</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Wear OS 6.0 - Preview Intel x86_64 Atom System Image (signed)</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1116094453</size>
+          <checksum type="sha1">7ae6c4e1c614a649f75ccb653769ccd8cdb30e4a</checksum>
+          <url>x86_64-36_signed_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-35-ext15;android-wear;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>35x</api-level>
