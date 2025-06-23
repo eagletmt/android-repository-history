@@ -10223,9 +10223,9 @@ June 2014.
   <remotePackage path="platform-tools">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>35</major>
+      <major>36</major>
       <minor>0</minor>
-      <micro>2</micro>
+      <micro>0</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -10233,25 +10233,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>7472902</size>
-          <checksum type="sha1">f6406982a79d67e40b1ca3cb9e5e2cc783c0f232</checksum>
-          <url>platform-tools_r35.0.2-linux.zip</url>
+          <size>7904253</size>
+          <checksum type="sha1">ddb0cd76d952d9a1f4c8a32e4ec0e73d7a8bebb8</checksum>
+          <url>platform-tools_r36.0.0-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>13335867</size>
-          <checksum type="sha1">f6b3158097ca0e9d6fe2024b790ac68af3f2faf2</checksum>
-          <url>platform-tools_r35.0.2-darwin.zip</url>
+          <size>14186137</size>
+          <checksum type="sha1">69ffc978ad66667c6b2eb7979a09f5af20f83aaa</checksum>
+          <url>platform-tools_r36.0.0-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>6700829</size>
-          <checksum type="sha1">6d204cdff21bce8a39c1d2367084e6174f854c2c</checksum>
-          <url>platform-tools_r35.0.2-win.zip</url>
+          <size>7138784</size>
+          <checksum type="sha1">18bb505f9fbfbdf1e44fca4d794e74e01b63d30e</checksum>
+          <url>platform-tools_r36.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
