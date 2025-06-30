@@ -1797,7 +1797,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       <minor>9</minor>
       <micro>0</micro>
     </revision>
-    <display-name>Google Play Instant Development SDK</display-name>
+    <display-name>Google Play Instant Development SDK (Deprecated)</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
     <archives>
