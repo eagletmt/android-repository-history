@@ -10390,16 +10390,16 @@ June 2014.
       </archive>
       <archive>
         <complete>
-          <size>14186209</size>
-          <checksum type="sha1">48ebbd2fc67d894d7fd7b21679a7c8eb3fed9b28</checksum>
+          <size>14186137</size>
+          <checksum type="sha1">69ffc978ad66667c6b2eb7979a09f5af20f83aaa</checksum>
           <url>platform-tools_r36.0.0-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>7138793</size>
-          <checksum type="sha1">342b69dcbab46c9d3b802d7e21b95a91c8c9b3ff</checksum>
+          <size>7138784</size>
+          <checksum type="sha1">18bb505f9fbfbdf1e44fca4d794e74e01b63d30e</checksum>
           <url>platform-tools_r36.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>
