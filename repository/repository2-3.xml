@@ -9791,6 +9791,43 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="cmake;4.0.3">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>4</major>
+      <minor>0</minor>
+      <micro>3</micro>
+    </revision>
+    <display-name>CMake 4.0.3</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>30911219</size>
+          <checksum type="sha1">595002f48fca924c9dcf7b3274277026024b7887</checksum>
+          <url>cmake-4.0.3-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>43161272</size>
+          <checksum type="sha1">11cd1bd2b921d5bc262b7d502403f185dd6001a4</checksum>
+          <url>cmake-4.0.3-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>20622355</size>
+          <checksum type="sha1">edaff2f1c48e57f28c9a03945165b6a54b60aa15</checksum>
+          <url>cmake-4.0.3-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="cmake;4.0.2">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
