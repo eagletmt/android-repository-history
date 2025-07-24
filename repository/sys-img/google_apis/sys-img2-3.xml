@@ -935,7 +935,7 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>18</extension-level>
+      <extension-level>19</extension-level>
       <base-extension>true</base-extension>
       <tag>
         <id>page_size_16kb</id>
@@ -952,7 +952,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -969,9 +969,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1908304324</size>
-          <checksum type="sha1">d1f8ab85d9f04179e5f770d0309c2d3021434904</checksum>
-          <url>arm64-v8a-ps16k-36.0-CANARY_r01.zip</url>
+          <size>1910595923</size>
+          <checksum type="sha1">96fc0d72970a059865c19cd51e2913d3b829454e</checksum>
+          <url>arm64-v8a-ps16k-36.0-CANARY_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -980,7 +980,7 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>18</extension-level>
+      <extension-level>19</extension-level>
       <base-extension>true</base-extension>
       <tag>
         <id>page_size_16kb</id>
@@ -997,7 +997,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -1014,9 +1014,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1892841506</size>
-          <checksum type="sha1">0e6e405d42073ba0d1438071f6c27baf6e177acf</checksum>
-          <url>x86_64-ps16k-36.0-CANARY_r01.zip</url>
+          <size>1893341970</size>
+          <checksum type="sha1">1410d9026ba4df730444ee99d5ecd2fbf6b9221f</checksum>
+          <url>x86_64-ps16k-36.0-CANARY_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1025,7 +1025,7 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>18</extension-level>
+      <extension-level>19</extension-level>
       <base-extension>true</base-extension>
       <tag>
         <id>google_apis</id>
@@ -1038,7 +1038,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1055,9 +1055,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1908228327</size>
-          <checksum type="sha1">1c376aa9bea6bef1754cdb63e710526e0dcf3323</checksum>
-          <url>arm64-v8a-36.0-CANARY_r01.zip</url>
+          <size>1910594067</size>
+          <checksum type="sha1">d1f856a0a3b4034787b77c3f10e3e7fd75fa9531</checksum>
+          <url>arm64-v8a-36.0-CANARY_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1066,7 +1066,7 @@ January 16, 2019
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>18</extension-level>
+      <extension-level>19</extension-level>
       <base-extension>true</base-extension>
       <tag>
         <id>google_apis</id>
@@ -1079,7 +1079,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -1096,9 +1096,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1941388560</size>
-          <checksum type="sha1">ff9d551d0e7b809289e2dd5d0295fb3b331db5d8</checksum>
-          <url>x86_64-36.0-CANARY_r01.zip</url>
+          <size>1942528271</size>
+          <checksum type="sha1">06999469c59997683bbf08b6e4406ac8e4b61858</checksum>
+          <url>x86_64-36.0-CANARY_r02.zip</url>
         </complete>
       </archive>
     </archives>
