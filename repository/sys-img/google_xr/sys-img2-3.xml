@@ -1065,7 +1065,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Google Play XR ARM 64 v8a System Image</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1082,9 +1082,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1536402531</size>
-          <checksum type="sha1">d488c8da3f3edaf149c5fd9a34c7e8a304fbac10</checksum>
-          <url>xr-arm64-v8a-playstore-34_r05.zip</url>
+          <size>1608552462</size>
+          <checksum type="sha1">7d75df934b2f2583f9cb42eb8dfd5753fa494537</checksum>
+          <url>xr-arm64-v8a-playstore-34_r06.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1109,7 +1109,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Google Play XR Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1126,17 +1126,17 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1604051121</size>
-          <checksum type="sha1">3a97a73db799e2caf5adcb79628c4ac176848d3c</checksum>
-          <url>xr-x86_64-playstore-34_r05-linux.zip</url>
+          <size>1697934921</size>
+          <checksum type="sha1">1385f38a73c4f0cd50b50a1e2b266c1f4f0d1c3e</checksum>
+          <url>xr-x86_64-playstore-34_r06-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>1569404783</size>
-          <checksum type="sha1">2750df5b023e31af92016c5bc6c6d020b309149c</checksum>
-          <url>xr-x86_64-playstore-34_r05-windows.zip</url>
+          <size>1660774009</size>
+          <checksum type="sha1">f17450de6364248ee47cdee8fd80766f05f74c2d</checksum>
+          <url>xr-x86_64-playstore-34_r06-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
