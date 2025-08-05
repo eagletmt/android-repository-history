@@ -308,6 +308,27 @@ June 2014.
     <revision>
       <major>1</major>
     </revision>
+    <display-name>Android SDK Platform 36-ext19</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>66057671</size>
+          <checksum>52e240c229cf2ad561ee262ebdfff266e180c585</checksum>
+          <url>platform-36-ext19_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="platforms;android-36">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>36</api-level>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
     <display-name>Android SDK Platform 36-ext18</display-name>
     <uses-license ref="android-sdk-license"/>
     <channelRef ref="channel-0"/>
@@ -9939,7 +9960,7 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>0</minor>
-      <micro>0</micro>
+      <micro>1</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -9947,25 +9968,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>7904253</size>
-          <checksum>ddb0cd76d952d9a1f4c8a32e4ec0e73d7a8bebb8</checksum>
-          <url>platform-tools_r36.0.0-linux.zip</url>
+          <size>8128518</size>
+          <checksum>5ea5ed0ce3734d4f7dfed7f91eeda090101c3411</checksum>
+          <url>platform-tools_r36.0.1-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>14186137</size>
-          <checksum>69ffc978ad66667c6b2eb7979a09f5af20f83aaa</checksum>
-          <url>platform-tools_r36.0.0-darwin.zip</url>
+          <size>14597016</size>
+          <checksum>96dd111d89fb1e6c8f3a78781102dad7366fe9cc</checksum>
+          <url>platform-tools_r36.0.1-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>7138784</size>
-          <checksum>18bb505f9fbfbdf1e44fca4d794e74e01b63d30e</checksum>
-          <url>platform-tools_r36.0.0-win.zip</url>
+          <size>7316031</size>
+          <checksum>0a700d028bca11fbf5be6fc2187e9a8820f2d942</checksum>
+          <url>platform-tools_r36.0.1-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
