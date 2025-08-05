@@ -1257,7 +1257,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1265,8 +1265,8 @@ January 16, 2019
       <dependency path="emulator">
         <min-revision>
           <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
+          <minor>4</minor>
+          <micro>9</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1274,9 +1274,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1874450592</size>
-          <checksum type="sha1">b4de516b43b508947d04484732351d9a36fee33f</checksum>
-          <url>arm64-v8a-36_r06.zip</url>
+          <size>1886527965</size>
+          <checksum type="sha1">5b91ef80a5eb60d7b7167528db259c2a12d20e9c</checksum>
+          <url>arm64-v8a-36_r07.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1295,7 +1295,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1303,8 +1303,8 @@ January 16, 2019
       <dependency path="emulator">
         <min-revision>
           <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
+          <minor>4</minor>
+          <micro>9</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1312,9 +1312,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1912630049</size>
-          <checksum type="sha1">398e02989fb3c274dd2d99541cf71255de538651</checksum>
-          <url>x86_64-36_r06.zip</url>
+          <size>1924689206</size>
+          <checksum type="sha1">16fa3c441d29fde6c9eea2f766eecf77032d68b4</checksum>
+          <url>x86_64-36_r07.zip</url>
         </complete>
       </archive>
     </archives>
