@@ -1959,6 +1959,44 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="ndk;29.0.14033849">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>29</major>
+      <minor>0</minor>
+      <micro>14033849</micro>
+      <preview>4</preview>
+    </revision>
+    <display-name>NDK (Side by side) 29.0.14033849</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>783674133</size>
+          <checksum>ecba553458e222a7c9b24945a3690e80a4730104</checksum>
+          <url>android-ndk-r29-beta4-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>1049644109</size>
+          <checksum>7e9dce149b885efa43760830edd52f347d2e954c</checksum>
+          <url>android-ndk-r29-beta4-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>833962952</size>
+          <checksum>c99b0f02915cd47ba1b64f4ab3f0daf02281a9c7</checksum>
+          <url>android-ndk-r29-beta4-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="ndk;29.0.13846066">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
