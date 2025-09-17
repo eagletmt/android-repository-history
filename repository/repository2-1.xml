@@ -428,28 +428,6 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-Baklava">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>35</api-level>
-      <codename>Baklava</codename>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Android SDK Platform Baklava</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>65604289</size>
-          <checksum>9dcd49009a005b0bdce2384cad0d9ca0fe74f1ce</checksum>
-          <url>platform-Baklava_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-35">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>35</api-level>
@@ -5566,6 +5544,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;36.1.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>36</major>
+      <minor>1</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android SDK Build-Tools 36.1</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64195204</size>
+          <checksum>936a0d6bd5ae3e2118a7567dddbc95ff67ed46e9</checksum>
+          <url>build-tools_r36.1_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59366211</size>
+          <checksum>95f048ae758dad90617975fe3f787f038b03338c</checksum>
+          <url>build-tools_r36.1_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>80527175</size>
+          <checksum>d365b05ca1810ca92b428b92717865ad4188b5e1</checksum>
+          <url>build-tools_r36.1_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>

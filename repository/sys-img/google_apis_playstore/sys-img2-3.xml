@@ -851,6 +851,174 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-36.1;google_apis_playstore_ps16k;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2017121646</size>
+          <checksum type="sha1">fd7faf08bef691a89c6770f8d6965b23cf960ee7</checksum>
+          <url>arm64-v8a-playstore-ps16k-36.1_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-36.1;google_apis_playstore_ps16k;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2009997930</size>
+          <checksum type="sha1">41c208d5c4cc0100589999abca73814e78e951db</checksum>
+          <url>x86_64-playstore-ps16k-36.1_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-36.1;google_apis_playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1960800700</size>
+          <checksum type="sha1">e829404c284fa09105b89e66e3aceeb1fac9a60c</checksum>
+          <url>arm64-v8a-36.1_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-36.1;google_apis_playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2008752086</size>
+          <checksum type="sha1">6c0cacff6e3e3021dedd8f80cd302d09dba354e3</checksum>
+          <url>x86_64-36.1_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-36.0-Baklava;google_apis_playstore_ps16k;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.0</api-level>
@@ -1599,178 +1767,6 @@ January 16, 2019
           <size>1937396599</size>
           <checksum type="sha1">3814a7b029c3b8aa0a9c8f110459f412a20882e7</checksum>
           <url>x86_64-playstore-ps16k-36_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-Baklava;google_apis_playstore;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>35</api-level>
-      <codename>Baklava</codename>
-      <extension-level>16</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Google Play ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1832396476</size>
-          <checksum type="sha1">a04a36068b98b2fee3dea444425c4e38e6431876</checksum>
-          <url>arm64-v8a-Baklava_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-Baklava;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>35</api-level>
-      <codename>Baklava</codename>
-      <extension-level>16</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1856730222</size>
-          <checksum type="sha1">1b274676d5920772015689ce480763caf6c72cd7</checksum>
-          <url>x86_64-Baklava_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-Baklava;google_apis_playstore_ps16k;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>35</api-level>
-      <codename>Baklava</codename>
-      <extension-level>16</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google APIs PlayStore</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1890722992</size>
-          <checksum type="sha1">fc3cf2d62ae0705ee0411d59e15fcb9d5e062f61</checksum>
-          <url>arm64-v8a-playstore-ps16k-Baklava_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-Baklava;google_apis_playstore_ps16k;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>35</api-level>
-      <codename>Baklava</codename>
-      <extension-level>16</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google APIs PlayStore</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>2</minor>
-          <micro>10</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1862515759</size>
-          <checksum type="sha1">10a84e0c1cbc56d6cd1cf6de17890603a88de395</checksum>
-          <url>x86_64-playstore-ps16k-Baklava_r04.zip</url>
         </complete>
       </archive>
     </archives>
