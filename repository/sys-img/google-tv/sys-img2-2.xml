@@ -861,7 +861,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google TV ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -878,9 +878,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1003386205</size>
-          <checksum type="sha1">03280b174bd0e68d29ee5a5538333b670c564460</checksum>
-          <url>arm64-v8a-36_r01.zip</url>
+          <size>991243383</size>
+          <checksum type="sha1">79bc6e557aed25ce4da8927ebb93403c2182c1bd</checksum>
+          <url>arm64-v8a-36_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -895,7 +895,7 @@ January 16, 2019
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google TV Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -912,9 +912,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>979893654</size>
-          <checksum type="sha1">662b4bfe7bf90e0f3d283ce3d4e7dac5604d6354</checksum>
-          <url>x86-36_r01.zip</url>
+          <size>972042874</size>
+          <checksum type="sha1">6898910094f8b495a4a6f0aaf6a050e843d03a23</checksum>
+          <url>x86-36_r02.zip</url>
         </complete>
       </archive>
     </archives>
