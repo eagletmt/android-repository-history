@@ -1127,7 +1127,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1144,9 +1144,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1960800700</size>
-          <checksum type="sha1">e829404c284fa09105b89e66e3aceeb1fac9a60c</checksum>
-          <url>arm64-v8a-36.1_r02.zip</url>
+          <size>1955944487</size>
+          <checksum type="sha1">240c7164dd250be3c096dd62801e96f7b144bc2f</checksum>
+          <url>arm64-v8a-36.1_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1167,7 +1167,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1184,9 +1184,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>2008752086</size>
-          <checksum type="sha1">6c0cacff6e3e3021dedd8f80cd302d09dba354e3</checksum>
-          <url>x86_64-36.1_r02.zip</url>
+          <size>1998865059</size>
+          <checksum type="sha1">4931dd84c74db66b29c934b313d407faf3298921</checksum>
+          <url>x86_64-36.1_r03.zip</url>
         </complete>
       </archive>
     </archives>
