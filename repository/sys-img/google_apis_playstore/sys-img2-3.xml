@@ -872,6 +872,178 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2021304907</size>
+          <checksum type="sha1">84a34fe00ba9a6b56f24879a77fa3747bc836c77</checksum>
+          <url>arm64-v8a-playstore-ps16k-CANARY_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-CANARY;google_apis_playstore_ps16k;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CANARY</codename>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2013881118</size>
+          <checksum type="sha1">d9be5322e1f38ea59c4c0cc120e4a38603834db5</checksum>
+          <url>x86_64-playstore-ps16k-CANARY_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-CANARY;google_apis_playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CANARY</codename>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1967190519</size>
+          <checksum type="sha1">f4b79d5bbca68d146d35b389b317f027946af05c</checksum>
+          <url>arm64-v8a-CANARY_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-CANARY;google_apis_playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CANARY</codename>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>5</major>
+    </revision>
+    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2015875479</size>
+          <checksum type="sha1">668b717ce2212e7fa2adafa49eab1c6d99a52bae</checksum>
+          <url>x86_64-CANARY_r05.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-CANARY;google_apis_playstore_ps16k;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CANARY</codename>
+      <extension-level>20</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
       <major>4</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
