@@ -872,7 +872,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -889,9 +889,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>2021304907</size>
-          <checksum type="sha1">84a34fe00ba9a6b56f24879a77fa3747bc836c77</checksum>
-          <url>arm64-v8a-playstore-ps16k-CANARY_r05.zip</url>
+          <size>2032114156</size>
+          <checksum type="sha1">db808a8c3572f27ea3d4897d3b6a26c07c256b74</checksum>
+          <url>arm64-v8a-playstore-ps16k-CANARY_r06.zip</url>
         </complete>
       </archive>
     </archives>
@@ -917,7 +917,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -934,9 +934,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>2013881118</size>
-          <checksum type="sha1">d9be5322e1f38ea59c4c0cc120e4a38603834db5</checksum>
-          <url>x86_64-playstore-ps16k-CANARY_r05.zip</url>
+          <size>2028666689</size>
+          <checksum type="sha1">19bfa814a283749e6deb5246afffabeb63928f23</checksum>
+          <url>x86_64-playstore-ps16k-CANARY_r06.zip</url>
         </complete>
       </archive>
     </archives>

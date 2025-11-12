@@ -872,7 +872,7 @@ January 16, 2019
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -889,9 +889,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1943294163</size>
-          <checksum type="sha1">e349d3db67248eab048d8ea7ba3e3c01ab80e04d</checksum>
-          <url>arm64-v8a-ps16k-CANARY_r05.zip</url>
+          <size>1951176811</size>
+          <checksum type="sha1">e1c9502b8cdbbe61123075cf37cba2517e06a3ae</checksum>
+          <url>arm64-v8a-ps16k-CANARY_r06.zip</url>
         </complete>
       </archive>
     </archives>
@@ -917,7 +917,7 @@ January 16, 2019
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>5</major>
+      <major>6</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -934,9 +934,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>1926090597</size>
-          <checksum type="sha1">91bb3185ad8b0c322605ae97905ae6aa5aff12c9</checksum>
-          <url>x86_64-ps16k-CANARY_r05.zip</url>
+          <size>1937836219</size>
+          <checksum type="sha1">413e06949a1942351bac512a9f287219d8f8ac66</checksum>
+          <url>x86_64-ps16k-CANARY_r06.zip</url>
         </complete>
       </archive>
     </archives>
