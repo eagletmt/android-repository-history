@@ -980,6 +980,91 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-36;ai-glasses;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36</api-level>
+      <tag>
+        <id>ai-glasses</id>
+        <display>AI Glasses</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>AI Glasses ARM 64 v8a System Image (Developer Preview)</display-name>
+    <uses-license ref="microxr-sysimage-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>4</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>766799783</size>
+          <checksum type="sha1">2e09dc13b1dbe69499fff3e9226bc54479ea55c6</checksum>
+          <url>microxr-arm64-v8a-36_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-36;ai-glasses;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36</api-level>
+      <tag>
+        <id>ai-glasses</id>
+        <display>AI Glasses</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>AI Glasses Intel x86_64 Atom System Image (Developer Preview)</display-name>
+    <uses-license ref="microxr-sysimage-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>4</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>802577689</size>
+          <checksum type="sha1">1609077bfaf9b94e0ce37d0d58f2c05d82e7bde8</checksum>
+          <url>microxr-x86_64-36_r02-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>783374311</size>
+          <checksum type="sha1">626b42c610b54aff3c9b7222e57d6cb85c419c20</checksum>
+          <url>microxr-x86_64-36_r02-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34;google-xr;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>

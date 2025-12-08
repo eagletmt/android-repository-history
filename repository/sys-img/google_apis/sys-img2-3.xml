@@ -1001,7 +1001,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1018,9 +1018,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1951176811</size>
-          <checksum type="sha1">e1c9502b8cdbbe61123075cf37cba2517e06a3ae</checksum>
-          <url>arm64-v8a-ps16k-CANARY_r06.zip</url>
+          <size>2121881783</size>
+          <checksum type="sha1">024623acfda144834c441ee4ff1cf87d612a170a</checksum>
+          <url>arm64-v8a-ps16k-CANARY_r07.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1046,7 +1046,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1063,9 +1063,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1937836219</size>
-          <checksum type="sha1">413e06949a1942351bac512a9f287219d8f8ac66</checksum>
-          <url>x86_64-ps16k-CANARY_r06.zip</url>
+          <size>2111913614</size>
+          <checksum type="sha1">a5e308e4ef40a098af9b202a3d621dc0dbe2f9d4</checksum>
+          <url>x86_64-ps16k-CANARY_r07.zip</url>
         </complete>
       </archive>
     </archives>
