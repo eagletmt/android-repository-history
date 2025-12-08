@@ -980,6 +980,111 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-34;android-xr-preview-playstore;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <extension-level>7</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-xr</id>
+        <display>Android XR</display>
+      </tag>
+      <tag>
+        <id>android-xr-ost</id>
+        <display>XR OST Supported</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google Play XR Preview API ARM 64 v8a System Image (Developer Preview)</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>6</minor>
+          <micro>7</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1674198623</size>
+          <checksum type="sha1">6465262ec04abf29f7ae0edcedd6efda7e48b3a3</checksum>
+          <url>xr-preview-arm64-v8a-playstore-34_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-34;android-xr-preview-playstore;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>34</api-level>
+      <extension-level>7</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-xr</id>
+        <display>Android XR</display>
+      </tag>
+      <tag>
+        <id>android-xr-ost</id>
+        <display>XR OST Supported</display>
+      </tag>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google Play</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Google Play XR Preview API Intel x86_64 Atom System Image (Developer Preview)</display-name>
+    <uses-license ref="android-googlexr-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>6</minor>
+          <micro>7</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1764307841</size>
+          <checksum type="sha1">a9ceb3beed0dc299be19e43b948a7b1411064099</checksum>
+          <url>xr-preview-x86_64-playstore-34_r01-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>1725052997</size>
+          <checksum type="sha1">8a647064be42d875128da124cee7cc548ed6dfc6</checksum>
+          <url>xr-preview-x86_64-playstore-34_r01-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-36;ai-glasses;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36</api-level>
