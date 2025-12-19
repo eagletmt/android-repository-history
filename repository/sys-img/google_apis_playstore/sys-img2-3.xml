@@ -1436,7 +1436,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1453,9 +1453,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1955944487</size>
-          <checksum type="sha1">240c7164dd250be3c096dd62801e96f7b144bc2f</checksum>
-          <url>arm64-v8a-36.1_r03.zip</url>
+          <size>1958370801</size>
+          <checksum type="sha1">193d86bad80d9ff79fe4272304f3193e7c097e1e</checksum>
+          <url>arm64-v8a-36.1_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1476,7 +1476,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1493,9 +1493,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1998865059</size>
-          <checksum type="sha1">4931dd84c74db66b29c934b313d407faf3298921</checksum>
-          <url>x86_64-36.1_r03.zip</url>
+          <size>2001299692</size>
+          <checksum type="sha1">ab58abb8dbbc8a00c9437c30c210e8b6a5286795</checksum>
+          <url>x86_64-36.1_r04.zip</url>
         </complete>
       </archive>
     </archives>
