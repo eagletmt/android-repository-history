@@ -10643,8 +10643,8 @@ June 2014.
       <micro>2</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
@@ -10667,43 +10667,6 @@ June 2014.
           <size>7708640</size>
           <checksum type="sha1">970632ccb7a364767d64d9eec3d143f5d2adcc3c</checksum>
           <url>platform-tools_r36.0.2-win.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platform-tools">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>36</major>
-      <minor>0</minor>
-      <micro>0</micro>
-    </revision>
-    <display-name>Android SDK Platform-Tools</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>7904253</size>
-          <checksum type="sha1">ddb0cd76d952d9a1f4c8a32e4ec0e73d7a8bebb8</checksum>
-          <url>platform-tools_r36.0.0-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>14186137</size>
-          <checksum type="sha1">69ffc978ad66667c6b2eb7979a09f5af20f83aaa</checksum>
-          <url>platform-tools_r36.0.0-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>7138784</size>
-          <checksum type="sha1">18bb505f9fbfbdf1e44fca4d794e74e01b63d30e</checksum>
-          <url>platform-tools_r36.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
