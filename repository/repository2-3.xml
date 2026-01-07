@@ -304,12 +304,12 @@ June 2014.
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>36.1</api-level>
       <codename>CANARY</codename>
-      <extension-level>20</extension-level>
+      <extension-level>21</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>8</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -317,9 +317,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66550615</size>
-          <checksum type="sha1">26594b5886e0970aa09f2f56439cec0d6ccb2feb</checksum>
-          <url>platform-CANARY_r07.zip</url>
+          <size>66646409</size>
+          <checksum type="sha1">2067a055076b8bc84f8a45ece01fbffd1c07032a</checksum>
+          <url>platform-CANARY_r08.zip</url>
         </complete>
       </archive>
     </archives>
