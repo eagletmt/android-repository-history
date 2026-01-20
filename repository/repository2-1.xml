@@ -8503,6 +8503,42 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="cmdline-tools;20.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>20</major>
+      <minor>0</minor>
+    </revision>
+    <display-name>Android SDK Command-line Tools</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>172789259</size>
+          <checksum>48833c34b761c10cb20bcd16582129395d121b27</checksum>
+          <url>commandlinetools-linux-14742923_latest.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>150703968</size>
+          <checksum>cc27cca4b84bfdbc7df17e3d0a01d0c640d8ee71</checksum>
+          <url>commandlinetools-mac-14742923_latest.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>150532528</size>
+          <checksum>16b3f45ddb3d85ea6bbe6a1c0b47146daf0db450</checksum>
+          <url>commandlinetools-win-14742923_latest.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="cmdline-tools;19.0">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -9194,7 +9230,7 @@ June 2014.
   <remotePackage path="cmdline-tools;latest">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>19</major>
+      <major>20</major>
       <minor>0</minor>
     </revision>
     <display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -9203,99 +9239,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>164760899</size>
-          <checksum>5fdcc763663eefb86a5b8879697aa6088b041e70</checksum>
-          <url>commandlinetools-linux-13114758_latest.zip</url>
+          <size>172789259</size>
+          <checksum>48833c34b761c10cb20bcd16582129395d121b27</checksum>
+          <url>commandlinetools-linux-14742923_latest.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>143250852</size>
-          <checksum>c3e06a1959762e89167d1cbaa988605f6f7c1d24</checksum>
-          <url>commandlinetools-mac-13114758_latest.zip</url>
+          <size>150703968</size>
+          <checksum>cc27cca4b84bfdbc7df17e3d0a01d0c640d8ee71</checksum>
+          <url>commandlinetools-mac-14742923_latest.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>143040480</size>
-          <checksum>54a582f3bf73e04253602f2d1c80bd5868aac115</checksum>
-          <url>commandlinetools-win-13114758_latest.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="cmdline-tools;latest">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>13</major>
-      <minor>0</minor>
-      <preview>01</preview>
-    </revision>
-    <display-name>Android SDK Command-line Tools (latest)</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-1"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>157028144</size>
-          <checksum>8d8f5c9ccc8746afed262b39c419be3d4e856124</checksum>
-          <url>commandlinetools-linux-11379558_latest.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>157028128</size>
-          <checksum>c7f71dd662115aa2d370508f190e2df6e83884cc</checksum>
-          <url>commandlinetools-mac-11379558_latest.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>157003999</size>
-          <checksum>87247876f2c9a7dcf8885e6feb1e5481adccd0e5</checksum>
-          <url>commandlinetools-win-11379558_latest.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="cmdline-tools;latest">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>14</major>
-      <minor>0</minor>
-      <preview>01</preview>
-    </revision>
-    <display-name>Android SDK Command-line Tools (latest)</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>160503024</size>
-          <checksum>46a5d7efd0db68c737c9f7f3a79aa915363f8ced</checksum>
-          <url>commandlinetools-linux-11391160_latest.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>160503004</size>
-          <checksum>2b9006f2755f97f27473a079f973252f012a8301</checksum>
-          <url>commandlinetools-mac-11391160_latest.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>160472813</size>
-          <checksum>1e7c4acead6a4aabd9b753ffd98e116d59f7547e</checksum>
-          <url>commandlinetools-win-11391160_latest.zip</url>
+          <size>150532528</size>
+          <checksum>16b3f45ddb3d85ea6bbe6a1c0b47146daf0db450</checksum>
+          <url>commandlinetools-win-14742923_latest.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
