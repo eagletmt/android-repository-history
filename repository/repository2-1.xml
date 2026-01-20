@@ -10236,7 +10236,7 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>4</minor>
-      <micro>6</micro>
+      <micro>7</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10244,27 +10244,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>328400896</size>
-          <checksum>526e6248e81d190ca20633f364a7bec335e5c5c1</checksum>
-          <url>emulator-linux_x64-14690940.zip</url>
+          <size>328560727</size>
+          <checksum>152e0021e58a5513744448ac5f1316cc5ceb059d</checksum>
+          <url>emulator-linux_x64-14724230.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>457854753</size>
-          <checksum>e9c19e8af6c8bf7f048b952f8c0e92272f2c702c</checksum>
-          <url>emulator-darwin_x64-14690940.zip</url>
+          <size>457902877</size>
+          <checksum>d8860b303a2cbc492585966de5fe31d3e0aee332</checksum>
+          <url>emulator-darwin_x64-14724230.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>425663494</size>
-          <checksum>c4d545ee31d230b350ff26870bd7a5557dc7b014</checksum>
-          <url>emulator-windows_x64-14690940.zip</url>
+          <size>425709081</size>
+          <checksum>fa367a0ff0ce4e9737c3628967dbc115d16f2716</checksum>
+          <url>emulator-windows_x64-14724230.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
