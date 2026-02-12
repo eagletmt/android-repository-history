@@ -309,7 +309,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -317,9 +317,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66646409</size>
-          <checksum type="sha1">2067a055076b8bc84f8a45ece01fbffd1c07032a</checksum>
-          <url>platform-CANARY_r08.zip</url>
+          <size>66842057</size>
+          <checksum type="sha1">756112dd034ba5c1fbc995a472fb17d196c21a59</checksum>
+          <url>platform-CANARY_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -413,30 +413,6 @@ June 2014.
           <size>66044874</size>
           <checksum type="sha1">33a7af9f531f6ce67b3ec357f619e69aa0a95c8a</checksum>
           <url>platform-36-ext18_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platforms;android-CANARY">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CANARY</codename>
-      <extension-level>20</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Android SDK Platform CANARY</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>66388262</size>
-          <checksum type="sha1">a8201ba194c5241bf6e80d9c21f981e502f5d69c</checksum>
-          <url>platform-CANARY_r04.zip</url>
         </complete>
       </archive>
     </archives>

@@ -1005,7 +1005,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1022,9 +1022,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2149676497</size>
-          <checksum type="sha1">69bc46142530e3bdc6840a2c6817e1b61264d427</checksum>
-          <url>arm64-v8a-ps16k-CANARY_r08.zip</url>
+          <size>2122247944</size>
+          <checksum type="sha1">576c5dce07662f392418b7f633d040b18dc00f02</checksum>
+          <url>arm64-v8a-ps16k-CANARY_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1054,7 +1054,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1071,9 +1071,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2140349287</size>
-          <checksum type="sha1">9b8e4de9b6fb5927d7846a3e8aff99c2f094c651</checksum>
-          <url>x86_64-ps16k-CANARY_r08.zip</url>
+          <size>2112991471</size>
+          <checksum type="sha1">f214045486997d7ea9af40e3893f9c757c7959fa</checksum>
+          <url>x86_64-ps16k-CANARY_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1099,7 +1099,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1116,9 +1116,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2149686675</size>
-          <checksum type="sha1">62c088dcaa932e672965ca7afb7d52fc0d055b09</checksum>
-          <url>arm64-v8a-CANARY_r08.zip</url>
+          <size>2122250911</size>
+          <checksum type="sha1">ac62ee9e165221211070fddef98c3c054816d2ae</checksum>
+          <url>arm64-v8a-CANARY_r09.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1144,7 +1144,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>8</major>
+      <major>9</major>
     </revision>
     <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1161,181 +1161,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2195379201</size>
-          <checksum type="sha1">fdeef6c32def084feedebc1246afe33748221434</checksum>
-          <url>x86_64-CANARY_r08.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-CANARY;google_apis_ps16k;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CANARY</codename>
-      <extension-level>20</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis</id>
-        <display> Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>4</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>2121881783</size>
-          <checksum type="sha1">024623acfda144834c441ee4ff1cf87d612a170a</checksum>
-          <url>arm64-v8a-ps16k-CANARY_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-CANARY;google_apis_ps16k;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CANARY</codename>
-      <extension-level>20</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>page_size_16kb</id>
-        <display>16 KB Page Size</display>
-      </tag>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>4</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>2111913614</size>
-          <checksum type="sha1">a5e308e4ef40a098af9b202a3d621dc0dbe2f9d4</checksum>
-          <url>x86_64-ps16k-CANARY_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-CANARY;google_apis;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CANARY</codename>
-      <extension-level>20</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Google APIs ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>4</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1929125038</size>
-          <checksum type="sha1">1f700152c4ca43ef3c40e8f3a9f480bbcf42d93f</checksum>
-          <url>arm64-v8a-CANARY_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-CANARY;google_apis;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CANARY</codename>
-      <extension-level>20</extension-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Google APIs Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>35</major>
-          <minor>4</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>1968148072</size>
-          <checksum type="sha1">1918d8134a17cb83ecfef6e3431de4a9597847fb</checksum>
-          <url>x86_64-CANARY_r04.zip</url>
+          <size>2153477672</size>
+          <checksum type="sha1">57bfbe0313fc83c6a791c9a64aba7640797ffb9f</checksum>
+          <url>x86_64-CANARY_r09.zip</url>
         </complete>
       </archive>
     </archives>
