@@ -980,6 +980,104 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-CinnamonBun;google_apis_playstore_ps16k;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CinnamonBun</codename>
+      <extension-level>21</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>Page Size 16KB</display>
+      </tag>
+      <tag>
+        <id>ai_glasses_compatible</id>
+        <display>AI Glasses Compatible</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2167680503</size>
+          <checksum type="sha1">6dfbbfb468b625744a4faa120c354aaf50628a31</checksum>
+          <url>arm64-v8a-playstore-ps16k-CinnamonBun_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-CinnamonBun;google_apis_playstore_ps16k;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36.1</api-level>
+      <codename>CinnamonBun</codename>
+      <extension-level>21</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis_playstore</id>
+        <display>Google APIs PlayStore</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>Page Size 16KB</display>
+      </tag>
+      <tag>
+        <id>ai_glasses_compatible</id>
+        <display>AI Glasses Compatible</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>4</minor>
+          <micro>9</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2166176874</size>
+          <checksum type="sha1">3c7255c0ed2745ce4f516d1bd06b9abf135a670c</checksum>
+          <url>x86_64-playstore-ps16k-CinnamonBun_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-CANARY;google_apis_playstore_ps16k;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.1</api-level>
