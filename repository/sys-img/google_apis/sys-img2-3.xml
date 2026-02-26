@@ -1005,7 +1005,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
@@ -1022,9 +1022,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2080379969</size>
-          <checksum type="sha1">b28a651cd6aa265e270fb185b4c2085fae957aaf</checksum>
-          <url>arm64-v8a-ps16k-CinnamonBun_r01.zip</url>
+          <size>2083840044</size>
+          <checksum type="sha1">f86850ed7f5f6f8833ead78c6eec75eeb23ddea4</checksum>
+          <url>arm64-v8a-ps16k-CinnamonBun_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1054,7 +1054,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Pre-Release 16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1071,9 +1071,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2067910306</size>
-          <checksum type="sha1">003a4b1194e31a4ff991ffa4c31e719b4a8c86b9</checksum>
-          <url>x86_64-ps16k-CinnamonBun_r01.zip</url>
+          <size>2073828390</size>
+          <checksum type="sha1">99f81267df3c5c0d978609a5b2b286034bd93d3e</checksum>
+          <url>x86_64-ps16k-CinnamonBun_r02.zip</url>
         </complete>
       </archive>
     </archives>

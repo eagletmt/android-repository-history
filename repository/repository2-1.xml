@@ -5562,6 +5562,44 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="build-tools;37.0.0-rc2">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>2</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 37-rc2</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64585510</size>
+          <checksum>3ffc47b1aefa6b7c457e0d84958a804ba5b8fc83</checksum>
+          <url>build-tools_r37-rc2_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59571314</size>
+          <checksum>c76a22fee5b2f04b355ecd13e84abd594f83841f</checksum>
+          <url>build-tools_r37-rc2_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>80361572</size>
+          <checksum>88c354b73d57df160d59b5935e2716bbb570c60e</checksum>
+          <url>build-tools_r37-rc2_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="build-tools;37.0.0-rc1">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>

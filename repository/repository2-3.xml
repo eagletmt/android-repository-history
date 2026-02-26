@@ -309,7 +309,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Android SDK Platform CinnamonBun</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -317,9 +317,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66723294</size>
-          <checksum type="sha1">9a7fed1823fff259835bf91a5c31af6f29d74718</checksum>
-          <url>platform-CinnamonBun_r01.zip</url>
+          <size>67069204</size>
+          <checksum type="sha1">fc958eeaf4d3075d3f0eb8108df883baba9bb419</checksum>
+          <url>platform-CinnamonBun_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -6140,6 +6140,44 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;37.0.0-rc2">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>0</minor>
+      <micro>0</micro>
+      <preview>2</preview>
+    </revision>
+    <display-name>Android SDK Build-Tools 37-rc2</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>64585510</size>
+          <checksum type="sha1">3ffc47b1aefa6b7c457e0d84958a804ba5b8fc83</checksum>
+          <url>build-tools_r37-rc2_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>59571314</size>
+          <checksum type="sha1">c76a22fee5b2f04b355ecd13e84abd594f83841f</checksum>
+          <url>build-tools_r37-rc2_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>80361572</size>
+          <checksum type="sha1">88c354b73d57df160d59b5935e2716bbb570c60e</checksum>
+          <url>build-tools_r37-rc2_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
