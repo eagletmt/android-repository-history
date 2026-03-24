@@ -10311,6 +10311,46 @@ June 2014.
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
       <major>36</major>
+      <minor>6</minor>
+      <micro>1</micro>
+    </revision>
+    <display-name>Android Emulator</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>346532294</size>
+          <checksum>75f9bfce0d802d014b4a8bd7b43d5927e4146d03</checksum>
+          <url>emulator-linux_x64-15071280.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>462534448</size>
+          <checksum>f6943f72a00a3dd349d8623b73ec70575f7d2e81</checksum>
+          <url>emulator-darwin_x64-15071280.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>421841275</size>
+          <checksum>b0b2b1289e81e515ad1066fc30af9b963d5bc381</checksum>
+          <url>emulator-windows_x64-15071280.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="emulator">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>36</major>
       <minor>5</minor>
       <micro>9</micro>
     </revision>
