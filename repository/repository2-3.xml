@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-37.0">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.0</api-level>
+      <codename></codename>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 37.0</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>67204348</size>
+          <checksum type="sha1">1a9a8c2e2a5ab8cd95f2eded7d9da037e62fbc6f</checksum>
+          <url>platform-37.0_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-CinnamonBun">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>36.1</api-level>
@@ -6178,6 +6202,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build-tools;37.0.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>0</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android SDK Build-Tools 37</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>66135704</size>
+          <checksum type="sha1">70954e99f4c3d9d46ee70fa32624672fe7cd6ebe</checksum>
+          <url>build-tools_r37_linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>61077164</size>
+          <checksum type="sha1">e9c97e26b5b5678002e9d3fed632c841ae62d99f</checksum>
+          <url>build-tools_r37_windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>81933386</size>
+          <checksum type="sha1">eb080751b2b2028eb3604f571027d6f7b3c46321</checksum>
+          <url>build-tools_r37_macosx.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
       </archive>
     </archives>
   </remotePackage>
