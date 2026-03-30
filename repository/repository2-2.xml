@@ -10790,7 +10790,7 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>6</minor>
-      <micro>1</micro>
+      <micro>2</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10798,36 +10798,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>346532294</size>
-          <checksum type="sha1">75f9bfce0d802d014b4a8bd7b43d5927e4146d03</checksum>
-          <url>emulator-linux_x64-15071280.zip</url>
+          <size>346489008</size>
+          <checksum type="sha1">dd54bbe318cb070b2f8de3de3ee347de13eab611</checksum>
+          <url>emulator-linux_x64-15098414.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>462534448</size>
-          <checksum type="sha1">f6943f72a00a3dd349d8623b73ec70575f7d2e81</checksum>
-          <url>emulator-darwin_x64-15071280.zip</url>
+          <size>462238423</size>
+          <checksum type="sha1">c6b41397c64a05d9cc3b8a0432dbe2a14acd3a8f</checksum>
+          <url>emulator-darwin_x64-15098414.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>396164671</size>
-          <checksum type="sha1">a87531e90ec66c27e3437fc5cc869ade0f17d097</checksum>
-          <url>emulator-darwin_aarch64-15071280.zip</url>
+          <size>395994578</size>
+          <checksum type="sha1">08d485c88de5770f4f36bd06de5d2fc36bbc2620</checksum>
+          <url>emulator-darwin_aarch64-15098414.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>421841275</size>
-          <checksum type="sha1">b0b2b1289e81e515ad1066fc30af9b963d5bc381</checksum>
-          <url>emulator-windows_x64-15071280.zip</url>
+          <size>428574271</size>
+          <checksum type="sha1">f4666edf8e729236ab32221d5a5cad23ee051610</checksum>
+          <url>emulator-windows_x64-15098414.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
