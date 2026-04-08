@@ -357,7 +357,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>9</major>
+      <major>10</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -365,9 +365,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66842057</size>
-          <checksum type="sha1">756112dd034ba5c1fbc995a472fb17d196c21a59</checksum>
-          <url>platform-CANARY_r09.zip</url>
+          <size>67144025</size>
+          <checksum type="sha1">c302ae12b604acd942e31568f32917fe3141750c</checksum>
+          <url>platform-CANARY_r10.zip</url>
         </complete>
       </archive>
     </archives>
