@@ -1384,46 +1384,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="add-ons;addon-google_apis-google-23">
-    <type-details xsi:type="addon:addonDetailsType">
-      <api-level>23</api-level>
-      <codename></codename>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <tag>
-        <id>google_apis</id>
-        <display>Google APIs</display>
-      </tag>
-      <libraries>
-        <library name="com.google.android.maps" localJarPath="maps.jar">
-          <description>API for Google Maps</description>
-        </library>
-        <library name="com.android.future.usb.accessory" localJarPath="usb.jar">
-          <description>API for USB Accessories</description>
-        </library>
-        <library name="com.google.android.media.effects" localJarPath="effects.jar">
-          <description>Collection of video effects</description>
-        </library>
-      </libraries>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Google APIs</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>179900</size>
-          <checksum>04c5cc1a7c88967250ebba9561d81e24104167db</checksum>
-          <url>google_apis-23_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage obsolete="true" path="add-ons;addon-google_tv_addon-google-12">
     <type-details xsi:type="addon:addonDetailsType">
       <api-level>12</api-level>

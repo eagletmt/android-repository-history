@@ -2241,33 +2241,6 @@ This is the microXR Emulator System Image SDK License Agreement
         </complete>
         <host-os>windows</host-os>
       </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
       <archive>
         <complete>
           <size>516543600</size>
@@ -2519,33 +2492,6 @@ This is the microXR Emulator System Image SDK License Agreement
         </complete>
         <host-os>windows</host-os>
       </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
       <archive>
         <complete>
           <size>689676765</size>

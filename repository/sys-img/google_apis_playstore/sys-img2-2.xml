@@ -2691,37 +2691,6 @@ This is the microXR Emulator System Image SDK License Agreement
         </complete>
         <host-os>windows</host-os>
       </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-30;google_apis_playstore;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>30</api-level>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>9</major>
-    </revision>
-    <display-name>Google Play Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>0</minor>
-          <micro>4</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
       <archive>
         <complete>
           <size>1229340756</size>
@@ -2777,37 +2746,6 @@ This is the microXR Emulator System Image SDK License Agreement
         </complete>
         <host-os>windows</host-os>
       </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-30;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>30</api-level>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>10</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-arm-dbt-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>0</minor>
-          <micro>4</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
       <archive>
         <complete>
           <size>1404405641</size>
@@ -2901,37 +2839,6 @@ This is the microXR Emulator System Image SDK License Agreement
         </complete>
         <host-os>windows</host-os>
       </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-32;google_apis_playstore;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>32</api-level>
-      <tag>
-        <id>google_apis_playstore</id>
-        <display>Google Play</display>
-      </tag>
-      <vendor>
-        <id>google</id>
-        <display>Google Inc.</display>
-      </vendor>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Google Play Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>30</major>
-          <minor>7</minor>
-          <micro>3</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
       <archive>
         <complete>
           <size>1503885352</size>

@@ -1593,6 +1593,29 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="sources;android-37.0">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>37.0</api-level>
+      <codename></codename>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 37.0</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>52760617</size>
+          <checksum type="sha1">5dc25b723b23edfcb9604bc2917acdea265fd6fb</checksum>
+          <url>source-37.0_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="sources;android-36.1">
     <type-details xsi:type="sdk:sourceDetailsType">
       <api-level>36.1</api-level>
