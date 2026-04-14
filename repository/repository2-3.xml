@@ -350,14 +350,14 @@ June 2014.
   </remotePackage>
   <remotePackage path="platforms;android-CANARY">
     <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.1</api-level>
+      <api-level>37.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>21</extension-level>
+      <extension-level>22</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>10</major>
+      <major>11</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -365,9 +365,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67144025</size>
-          <checksum type="sha1">c302ae12b604acd942e31568f32917fe3141750c</checksum>
-          <url>platform-CANARY_r10.zip</url>
+          <size>57118318</size>
+          <checksum type="sha1">ed3b7cc69b5e8e66cbed77d1e4dda6629bbabf4b</checksum>
+          <url>platform-CANARY_r11.zip</url>
         </complete>
       </archive>
     </archives>
