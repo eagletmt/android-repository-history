@@ -324,30 +324,6 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-CinnamonBun">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36.1</api-level>
-      <codename>CinnamonBun</codename>
-      <extension-level>21</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>Android SDK Platform CinnamonBun</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67069204</size>
-          <checksum type="sha1">fc958eeaf4d3075d3f0eb8108df883baba9bb419</checksum>
-          <url>platform-CinnamonBun_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-CANARY">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.0</api-level>
@@ -11001,16 +10977,16 @@ June 2014.
       </archive>
       <archive>
         <complete>
-          <size>16442198</size>
-          <checksum type="sha1">ff8facde137e57994112672a0d0f411a3ca7b201</checksum>
+          <size>16442240</size>
+          <checksum type="sha1">8c4c926d0ca192376b2a04b0318484724319e67c</checksum>
           <url>platform-tools_r37.0.0-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>8092184</size>
-          <checksum type="sha1">8a8351438a9bde81726129214940e0275f7949c7</checksum>
+          <size>8092164</size>
+          <checksum type="sha1">f29bfb58d0d6f9a57d7dbcba6cc259f9ca6f58f1</checksum>
           <url>platform-tools_r37.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>

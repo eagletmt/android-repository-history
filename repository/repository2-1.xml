@@ -10328,16 +10328,16 @@ June 2014.
       </archive>
       <archive>
         <complete>
-          <size>16442198</size>
-          <checksum>ff8facde137e57994112672a0d0f411a3ca7b201</checksum>
+          <size>16442240</size>
+          <checksum>8c4c926d0ca192376b2a04b0318484724319e67c</checksum>
           <url>platform-tools_r37.0.0-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>8092184</size>
-          <checksum>8a8351438a9bde81726129214940e0275f7949c7</checksum>
+          <size>8092164</size>
+          <checksum>f29bfb58d0d6f9a57d7dbcba6cc259f9ca6f58f1</checksum>
           <url>platform-tools_r37.0.0-win.zip</url>
         </complete>
         <host-os>windows</host-os>
