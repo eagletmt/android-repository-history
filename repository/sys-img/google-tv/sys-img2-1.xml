@@ -980,6 +980,40 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-36;google-tv;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>36</api-level>
+      <tag>
+        <id>google-tv</id>
+        <display>Google TV</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>Google TV Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1010386331</size>
+          <checksum>a2dce29124eeb4f3611efcfb23260dd6b40abd0d</checksum>
+          <url>x86_64-36_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-36;google-tv-ps16k;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36</api-level>
@@ -1058,16 +1092,16 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google TV ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1075,9 +1109,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>992170896</size>
-          <checksum>01c42b0eaf6940c6737015f403b3a5ffd33fbcff</checksum>
-          <url>arm64-v8a-36_r03.zip</url>
+          <size>995232986</size>
+          <checksum>f15626ee05ccd1bcf48c4e38b05c50020170223f</checksum>
+          <url>arm64-v8a-36_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1092,16 +1126,16 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google TV Intel x86 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>6</micro>
+          <major>35</major>
+          <minor>2</minor>
+          <micro>10</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1109,9 +1143,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>973364515</size>
-          <checksum>4b1b4c2c0e267f25d2840c949536c06ba40dd7c5</checksum>
-          <url>x86-36_r03.zip</url>
+          <size>986806652</size>
+          <checksum>1918446659ae797e50b1f565421a77aff97e1b4b</checksum>
+          <url>x86-36_r04.zip</url>
         </complete>
       </archive>
     </archives>
