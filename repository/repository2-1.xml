@@ -10424,6 +10424,26 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="build;templates">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>1</minor>
+      <micro>0</micro>
+    </revision>
+    <display-name>Android Project Templates</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>98951</size>
+          <checksum>126fdb3e284f850fd617ba89ddae918620a73e0f</checksum>
+          <url>templates-sdk-package-15429553.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage obsolete="true" path="tools">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
