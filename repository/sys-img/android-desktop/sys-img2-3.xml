@@ -980,6 +980,94 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-37.0;android-desktop;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-desktop</id>
+        <display>Desktop</display>
+      </tag>
+      <tag>
+        <id>aosp</id>
+        <display>AOSP</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>AOSP Desktop (Preview) ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>5</minor>
+          <micro>10</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>874151154</size>
+          <checksum type="sha1">c7eddda155c76f07954e3812701d911079eb8f6d</checksum>
+          <url>arm64-v8a-37.0_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-37.0;android-desktop;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-desktop</id>
+        <display>Desktop</display>
+      </tag>
+      <tag>
+        <id>aosp</id>
+        <display>AOSP</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>AOSP Desktop (Preview) Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>5</minor>
+          <micro>10</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>929489149</size>
+          <checksum type="sha1">a56c5e2d88a0136bfa4df406157d26a6d418732f</checksum>
+          <url>x86_64-37.0_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-34;android-desktop;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>34</api-level>
