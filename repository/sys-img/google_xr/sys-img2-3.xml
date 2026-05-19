@@ -1206,16 +1206,16 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play XR Preview API ARM 64 v8a System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>35</major>
+          <major>36</major>
           <minor>6</minor>
-          <micro>7</micro>
+          <micro>2</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1223,9 +1223,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1674198623</size>
-          <checksum type="sha1">6465262ec04abf29f7ae0edcedd6efda7e48b3a3</checksum>
-          <url>xr-preview-arm64-v8a-playstore-34_r01.zip</url>
+          <size>1631174889</size>
+          <checksum type="sha1">dc952f4e6f609446cee04433354377efc1afcc7e</checksum>
+          <url>xr-preview-arm64-v8a-playstore-34_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1254,16 +1254,16 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Google Play XR Preview API Intel x86_64 Atom System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>35</major>
+          <major>36</major>
           <minor>6</minor>
-          <micro>7</micro>
+          <micro>2</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1271,17 +1271,17 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1764307841</size>
-          <checksum type="sha1">a9ceb3beed0dc299be19e43b948a7b1411064099</checksum>
-          <url>xr-preview-x86_64-playstore-34_r01-linux.zip</url>
+          <size>1778990008</size>
+          <checksum type="sha1">de69fd9a908c622ede16b3ba3356ba7cc539987f</checksum>
+          <url>xr-preview-x86_64-playstore-34_r02-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>1725052997</size>
-          <checksum type="sha1">8a647064be42d875128da124cee7cc548ed6dfc6</checksum>
-          <url>xr-preview-x86_64-playstore-34_r01-windows.zip</url>
+          <size>1738993792</size>
+          <checksum type="sha1">21621c6e83b1c19ea339c930cf38f9a6ef1091a5</checksum>
+          <url>xr-preview-x86_64-playstore-34_r02-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
