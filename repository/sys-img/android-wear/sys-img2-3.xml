@@ -980,6 +980,60 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-37.0;android-wear-signed;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 7.0 - Preview</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Wear OS 7.0 - Preview ARM 64 v8a System Image (signed)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1256631526</size>
+          <checksum type="sha1">08d0809c491cc76c1b5058bc00f3ba50fae15f24</checksum>
+          <url>arm64-v8a-37.0_signed_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-37.0;android-wear-signed;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-wear</id>
+        <display>Wear OS 7.0 - Preview</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Wear OS 7.0 - Preview Intel x86_64 Atom System Image (signed)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1284186525</size>
+          <checksum type="sha1">64f6853e0c366b37463a200266bce8a33786e50b</checksum>
+          <url>x86_64-37.0_signed_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-36.1;android-wear-signed;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36.1</api-level>
