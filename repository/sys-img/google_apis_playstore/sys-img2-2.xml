@@ -1001,7 +1001,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <display-name>16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1044,7 +1044,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <display-name>16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1317,7 +1317,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>3</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <display-name>16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1360,7 +1360,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>3</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <display-name>16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1632,7 +1632,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>7</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <display-name>16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1674,7 +1674,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>7</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <display-name>16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1792,7 +1792,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>5</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
+    <display-name>16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1834,7 +1834,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>5</major>
     </revision>
-    <display-name>Pre-Release 16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
+    <display-name>16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
