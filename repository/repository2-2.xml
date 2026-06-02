@@ -10790,7 +10790,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>1</micro>
+      <micro>2</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10798,36 +10798,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>347224810</size>
-          <checksum type="sha1">6b0a44b0683e9bcdb565b5ea7c32bc6b675fb8fa</checksum>
-          <url>emulator-linux_x64-15469576.zip</url>
+          <size>347618707</size>
+          <checksum type="sha1">e1a50b5fa26c771fbb18c747944907aa67b1ca96</checksum>
+          <url>emulator-linux_x64-15513348.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>462141310</size>
-          <checksum type="sha1">aa6c648f510d1d5cfc8d1f5471ff972b094e652d</checksum>
-          <url>emulator-darwin_x64-15469576.zip</url>
+          <size>462567414</size>
+          <checksum type="sha1">2ffa9109d7ab2014a22704ae82444e55401ea829</checksum>
+          <url>emulator-darwin_x64-15513348.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>396647974</size>
-          <checksum type="sha1">70d7299111db1ba9ddc01832f4bf92981aa6d778</checksum>
-          <url>emulator-darwin_aarch64-15469576.zip</url>
+          <size>396951355</size>
+          <checksum type="sha1">cd3a21cb3018f7c70c0f3587a827ed36e9b055f3</checksum>
+          <url>emulator-darwin_aarch64-15513348.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>429306689</size>
-          <checksum type="sha1">edcc131234f98077f37c613bdf1bf3f44aca5e68</checksum>
-          <url>emulator-windows_x64-15469576.zip</url>
+          <size>429551646</size>
+          <checksum type="sha1">560880168862a4278494cb5d183374ddae50e135</checksum>
+          <url>emulator-windows_x64-15513348.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
@@ -10839,55 +10839,6 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>6</minor>
-      <micro>10</micro>
-    </revision>
-    <display-name>Android Emulator</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-1"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>331231524</size>
-          <checksum type="sha1">bcc03e73a10c39babfaa549c1998d7d5ab1b1c27</checksum>
-          <url>emulator-linux_x64-15452618.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>448833126</size>
-          <checksum type="sha1">ba4d8435c7a79c8e986595a092cdffbcfc7ebe03</checksum>
-          <url>emulator-darwin_x64-15452618.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>383909060</size>
-          <checksum type="sha1">3069c253975de0e5bdf18d8936e45bf018e375f9</checksum>
-          <url>emulator-darwin_aarch64-15452618.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-        <host-arch>aarch64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>418510542</size>
-          <checksum type="sha1">34c7d7811242931ed5f32819f59ab2ca9e53b9cf</checksum>
-          <url>emulator-windows_x64-15452618.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="emulator">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>36</major>
-      <minor>5</minor>
       <micro>11</micro>
     </revision>
     <display-name>Android Emulator</display-name>
@@ -10896,36 +10847,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>331545207</size>
-          <checksum type="sha1">a6d99c53669d2eb750b6949adb85668fbd7355fe</checksum>
-          <url>emulator-linux_x64-15261927.zip</url>
+          <size>331232577</size>
+          <checksum type="sha1">f8d8b83cf21a04966326eb1378bacda255f63b93</checksum>
+          <url>emulator-linux_x64-15507667.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>449816006</size>
-          <checksum type="sha1">f7ed5a0413c492c11fcffcf19f2024787d6bac9b</checksum>
-          <url>emulator-darwin_x64-15261927.zip</url>
+          <size>448835510</size>
+          <checksum type="sha1">0a0c9409692d73d31c860e50f6ae59a74211afe7</checksum>
+          <url>emulator-darwin_x64-15507667.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>384547861</size>
-          <checksum type="sha1">0d33a553d860410f9b05801c11e1779a40fa1ea5</checksum>
-          <url>emulator-darwin_aarch64-15261927.zip</url>
+          <size>383903546</size>
+          <checksum type="sha1">45328141bb585e096a5bebf870ff351e140bcda3</checksum>
+          <url>emulator-darwin_aarch64-15507667.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>418625872</size>
-          <checksum type="sha1">384b7fe8dccdc8c11f0596be4589adf44528c6e5</checksum>
-          <url>emulator-windows_x64-15261927.zip</url>
+          <size>418510366</size>
+          <checksum type="sha1">d5f07a99221c6e528a4942887dc36ada7d1602f8</checksum>
+          <url>emulator-windows_x64-15507667.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
