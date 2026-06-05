@@ -357,7 +357,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Android SDK Platform 37.0</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -365,9 +365,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67204348</size>
-          <checksum type="sha1">1a9a8c2e2a5ab8cd95f2eded7d9da037e62fbc6f</checksum>
-          <url>platform-37.0_r01.zip</url>
+          <size>67281901</size>
+          <checksum type="sha1">ed8ebf7f8822a4de5686d427f237d2fa30ff7410</checksum>
+          <url>platform-37.0_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1625,7 +1625,7 @@ June 2014.
       <base-extension>true</base-extension>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Sources for Android 37.0</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1633,9 +1633,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>52760617</size>
-          <checksum type="sha1">5dc25b723b23edfcb9604bc2917acdea265fd6fb</checksum>
-          <url>source-37.0_r01.zip</url>
+          <size>52891611</size>
+          <checksum type="sha1">759b8d2ef7e3ee01bb1ddc7d524cb26ec90dc928</checksum>
+          <url>source-37.0_r02.zip</url>
         </complete>
       </archive>
     </archives>
