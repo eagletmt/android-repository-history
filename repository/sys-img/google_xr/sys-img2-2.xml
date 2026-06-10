@@ -1289,7 +1289,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>AI Glasses ARM 64 v8a System Image (Developer Preview)</display-name>
     <uses-license ref="microxr-sysimage-license"/>
@@ -1306,9 +1306,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>827881358</size>
-          <checksum type="sha1">7c78bf785daeb03471daf1be9be39133c8c4de06</checksum>
-          <url>microxr-arm64-v8a-36_r04.zip</url>
+          <size>1812621563</size>
+          <checksum type="sha1">46320e8242d498a1a9567debee90fed8738cfc0f</checksum>
+          <url>microxr-arm64-v8a-36_r05.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1327,7 +1327,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>AI Glasses Intel x86_64 Atom System Image (Developer Preview)</display-name>
     <uses-license ref="microxr-sysimage-license"/>
@@ -1344,17 +1344,17 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>802227229</size>
-          <checksum type="sha1">1bb60a88854e3575a78f8dc8827748d935ea4c1d</checksum>
-          <url>microxr-x86_64-36_r04-linux.zip</url>
+          <size>1789368143</size>
+          <checksum type="sha1">c9fbbe41d639708a18b4172f510683076138289c</checksum>
+          <url>microxr-x86_64-36_r05-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>785438665</size>
-          <checksum type="sha1">1746ffec7d95f82b1c8911f6d01d377f7d069f5e</checksum>
-          <url>microxr-x86_64-36_r04-windows.zip</url>
+          <size>1772892358</size>
+          <checksum type="sha1">97fb0824ca62a2c55eaf396f8a07809cae2d6172</checksum>
+          <url>microxr-x86_64-36_r05-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
