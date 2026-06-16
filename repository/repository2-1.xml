@@ -8654,6 +8654,42 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="cmdline-tools;21.0">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>21</major>
+      <minor>0</minor>
+    </revision>
+    <display-name>Android SDK Command-line Tools</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>174244366</size>
+          <checksum>63523a02a975a81102238566f2a16c057d52301e</checksum>
+          <url>commandlinetools-linux-15641748_latest.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>152127646</size>
+          <checksum>b62a5d8cf63ded173b47be867be4ee058ceda6df</checksum>
+          <url>commandlinetools-mac-15641748_latest.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>151965705</size>
+          <checksum>2bea1388b8a248040a340a08ca0638138633f687</checksum>
+          <url>commandlinetools-win-15641748_latest.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="cmdline-tools;20.0">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -9381,7 +9417,7 @@ June 2014.
   <remotePackage path="cmdline-tools;latest">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>20</major>
+      <major>21</major>
       <minor>0</minor>
     </revision>
     <display-name>Android SDK Command-line Tools (latest)</display-name>
@@ -9390,25 +9426,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>172789259</size>
-          <checksum>48833c34b761c10cb20bcd16582129395d121b27</checksum>
-          <url>commandlinetools-linux-14742923_latest.zip</url>
+          <size>174244366</size>
+          <checksum>63523a02a975a81102238566f2a16c057d52301e</checksum>
+          <url>commandlinetools-linux-15641748_latest.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>150703968</size>
-          <checksum>cc27cca4b84bfdbc7df17e3d0a01d0c640d8ee71</checksum>
-          <url>commandlinetools-mac-14742923_latest.zip</url>
+          <size>152127646</size>
+          <checksum>b62a5d8cf63ded173b47be867be4ee058ceda6df</checksum>
+          <url>commandlinetools-mac-15641748_latest.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>150532528</size>
-          <checksum>16b3f45ddb3d85ea6bbe6a1c0b47146daf0db450</checksum>
-          <url>commandlinetools-win-14742923_latest.zip</url>
+          <size>151965705</size>
+          <checksum>2bea1388b8a248040a340a08ca0638138633f687</checksum>
+          <url>commandlinetools-win-15641748_latest.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
