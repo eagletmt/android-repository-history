@@ -300,28 +300,6 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
-  <remotePackage path="platforms;android-Baklava">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>36</api-level>
-      <codename>Baklava</codename>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Android SDK Platform Baklava-ext19</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>66332697</size>
-          <checksum>7842268e95c0538a9d59ab813f39a5ee69bdbb86</checksum>
-          <url>platform-36.0-Baklava-ext19_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-36">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>36</api-level>
@@ -10385,7 +10363,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>4</micro>
+      <micro>5</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10393,27 +10371,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>347758159</size>
-          <checksum>8f37a1a82059a06e6f32f5297886f86422dcf923</checksum>
-          <url>emulator-linux_x64-15622418.zip</url>
+          <size>351182180</size>
+          <checksum>fa92841f38e8ddaaca31f6c0c1b4ae086f977858</checksum>
+          <url>emulator-linux_x64-15679343.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>462727723</size>
-          <checksum>3902bb279786362a36ddccd40a28ff30879dab5c</checksum>
-          <url>emulator-darwin_x64-15622418.zip</url>
+          <size>466373075</size>
+          <checksum>8b665632485057104033f7b7fa75e823ea318d90</checksum>
+          <url>emulator-darwin_x64-15679343.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>429846199</size>
-          <checksum>90d9866afd1f216c9245165953bd9fb8ef0d82e2</checksum>
-          <url>emulator-windows_x64-15622418.zip</url>
+          <size>439197981</size>
+          <checksum>86eadba7508cfff786e624f0fc3e736143c0d95f</checksum>
+          <url>emulator-windows_x64-15679343.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
