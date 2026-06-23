@@ -333,7 +333,7 @@ June 2014.
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>5</major>
     </revision>
     <display-name>Android SDK Platform CinnamonBun</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -341,9 +341,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67477798</size>
-          <checksum type="sha1">185c1c48b6b9abd402200cb3d9629b4323e1c4fc</checksum>
-          <url>platform-CinnamonBun_r04.zip</url>
+          <size>67558105</size>
+          <checksum type="sha1">e2b204742c79147f694281af9e30fa8d8b7e96eb</checksum>
+          <url>platform-CinnamonBun_r05.zip</url>
         </complete>
       </archive>
     </archives>
