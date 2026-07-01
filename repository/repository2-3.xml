@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-37.1">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.1</api-level>
+      <codename></codename>
+      <extension-level>23</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 37.1</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>67500655</size>
+          <checksum type="sha1">62aeba1ec09c2b1fdf888e79549daf678fa0d75f</checksum>
+          <url>platform-37.1_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-CinnamonBun-ext23">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.0x</api-level>
@@ -1590,6 +1614,29 @@ June 2014.
           <url>android-1.1_r1-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="sources;android-37.1">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>37.1</api-level>
+      <codename></codename>
+      <extension-level>23</extension-level>
+      <base-extension>true</base-extension>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 37.1</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>53339267</size>
+          <checksum type="sha1">d1bb191997a96b334526470f630fcb74a80abd7c</checksum>
+          <url>source-37.1_r01.zip</url>
+        </complete>
       </archive>
     </archives>
   </remotePackage>
