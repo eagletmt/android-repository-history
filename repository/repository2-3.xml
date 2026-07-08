@@ -2194,6 +2194,44 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="ndk;30.0.15729638">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>30</major>
+      <minor>0</minor>
+      <micro>15729638</micro>
+      <preview>2</preview>
+    </revision>
+    <display-name>NDK (Side by side) 30.0.15729638</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>737229785</size>
+          <checksum type="sha1">069427047d18cc6e44369cd7b8e711bfc2c7a3b5</checksum>
+          <url>android-ndk-r30-beta2-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>973958817</size>
+          <checksum type="sha1">8742eb5075240884f74ed29ccd99d7a1f6852a6b</checksum>
+          <url>android-ndk-r30-beta2-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>727029070</size>
+          <checksum type="sha1">5b5e308db4cfd7a51f5524f464dedec20682b5ed</checksum>
+          <url>android-ndk-r30-beta2-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="ndk;30.0.14904198">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -11060,6 +11098,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="platform-tools">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>0</minor>
+      <micro>1</micro>
+    </revision>
+    <display-name>Android SDK Platform-Tools</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>9054187</size>
+          <checksum type="sha1">477254aa5f903c15cf51001717bdf347fb6b53e0</checksum>
+          <url>platform-tools_r37.0.1-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>16110598</size>
+          <checksum type="sha1">a5d4918c3ccf58e1ca443d106411fe0ff8a6b83f</checksum>
+          <url>platform-tools_r37.0.1-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>8044994</size>
+          <checksum type="sha1">10f2ef5325bc5705d48d38a0aa900c7babda24fa</checksum>
+          <url>platform-tools_r37.0.1-win.zip</url>
+        </complete>
+        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>
