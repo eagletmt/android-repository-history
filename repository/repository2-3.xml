@@ -324,54 +324,6 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="platforms;android-CinnamonBun-ext23">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>37.0x</api-level>
-      <codename>CinnamonBun</codename>
-      <extension-level>23</extension-level>
-      <base-extension>false</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>3</major>
-    </revision>
-    <display-name>Android SDK Platform CinnamonBun-ext23</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67431801</size>
-          <checksum type="sha1">41e650dcf701655a1a76974c7a5b64f592d2cc1c</checksum>
-          <url>platform-CinnamonBun-ext23_r03.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platforms;android-CinnamonBun">
-    <type-details xsi:type="sdk:platformDetailsType">
-      <api-level>37.0</api-level>
-      <codename>CinnamonBun</codename>
-      <extension-level>22</extension-level>
-      <base-extension>true</base-extension>
-      <layoutlib api="15"/>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Android SDK Platform CinnamonBun</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67558105</size>
-          <checksum type="sha1">e2b204742c79147f694281af9e30fa8d8b7e96eb</checksum>
-          <url>platform-CinnamonBun_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
   <remotePackage path="platforms;android-37.0">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.0</api-level>
@@ -11236,44 +11188,44 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>8</micro>
+      <micro>9</micro>
     </revision>
     <display-name>Android Emulator</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-1"/>
     <archives>
       <archive>
         <complete>
-          <size>346588470</size>
-          <checksum type="sha1">3f2fb7b31bcca8b54ef752aaac32e66fe703d65a</checksum>
-          <url>emulator-linux_x64-15828024.zip</url>
+          <size>334374637</size>
+          <checksum type="sha1">779cca98b9fae3543d80511ac42adb9d0274bbd0</checksum>
+          <url>emulator-linux_x64-15834520.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>477619789</size>
-          <checksum type="sha1">a30f53e21032f908f3c0eb7adb48788210f44ac5</checksum>
-          <url>emulator-darwin_x64-15828024.zip</url>
+          <size>465773255</size>
+          <checksum type="sha1">1ad4e9b2844f636790807dad59b8eca499216506</checksum>
+          <url>emulator-darwin_x64-15834520.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>405528405</size>
-          <checksum type="sha1">406f7d6eaa9a30d6fc96a507ca8499edd81ede22</checksum>
-          <url>emulator-darwin_aarch64-15828024.zip</url>
+          <size>394552801</size>
+          <checksum type="sha1">3a4080432a4252083c8c6d366b99169d4e5d5dc6</checksum>
+          <url>emulator-darwin_aarch64-15834520.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>453211385</size>
-          <checksum type="sha1">ca808899920a1d2e4d0fce81d1d42968da67e486</checksum>
-          <url>emulator-windows_x64-15828024.zip</url>
+          <size>441924890</size>
+          <checksum type="sha1">83a44f454d6838acc3cb7da9904540c69ab5b5b0</checksum>
+          <url>emulator-windows_x64-15834520.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
