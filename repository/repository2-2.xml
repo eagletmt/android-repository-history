@@ -10934,6 +10934,55 @@ June 2014.
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
       <major>37</major>
+      <minor>2</minor>
+      <micro>1</micro>
+    </revision>
+    <display-name>Android Emulator</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>346539649</size>
+          <checksum type="sha1">1c39ceb4bca042b973344d252a051189d367ab83</checksum>
+          <url>emulator-linux_x64-15875889.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>477610243</size>
+          <checksum type="sha1">92a0e64420eb712b5ccaef526894478455dee4aa</checksum>
+          <url>emulator-darwin_x64-15875889.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>405538040</size>
+          <checksum type="sha1">b959066bf27e9262d74ee81d33fd1a9f6bc9c72c</checksum>
+          <url>emulator-darwin_aarch64-15875889.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>aarch64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>453554579</size>
+          <checksum type="sha1">467df0f9c597df052991d8e22c422749bb354a43</checksum>
+          <url>emulator-windows_x64-15875889.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="emulator">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
       <minor>1</minor>
       <micro>9</micro>
     </revision>
