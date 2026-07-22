@@ -10471,6 +10471,70 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="emulators;latest">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>1</micro>
+      <preview>15885905</preview>
+    </revision>
+    <display-name>Android Emulator (Preview) (latest)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>501232237</size>
+          <checksum>aa279c7f75f76c376146aea7735fdf4166943ca9</checksum>
+          <url>emulator_linux_x64-15885905.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>274238564</size>
+          <checksum>a9129e2aa5bd4df3877e634dcddbe5a414c72c5c</checksum>
+          <url>emulator_windows_x64-15885905.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="emulators;15885905">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>1</micro>
+      <preview>15885905</preview>
+    </revision>
+    <display-name>Android Emulator (Preview)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>501232237</size>
+          <checksum>aa279c7f75f76c376146aea7735fdf4166943ca9</checksum>
+          <url>emulator_linux_x64-15885905.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>274238564</size>
+          <checksum>a9129e2aa5bd4df3877e634dcddbe5a414c72c5c</checksum>
+          <url>emulator_windows_x64-15885905.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="emulator">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
