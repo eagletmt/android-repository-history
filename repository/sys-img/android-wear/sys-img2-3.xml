@@ -987,21 +987,21 @@ This is the microXR Emulator System Image SDK License Agreement
       <base-extension>true</base-extension>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 7.0 - Preview</display>
+        <display>Wear OS 7.0</display>
       </tag>
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 7.0 - Preview ARM 64 v8a System Image (signed)</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <display-name>Wear OS 7.0 ARM 64 v8a System Image (signed)</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1256631526</size>
-          <checksum type="sha1">08d0809c491cc76c1b5058bc00f3ba50fae15f24</checksum>
+          <size>1256637255</size>
+          <checksum type="sha1">a74d43edd784a46ceaf04c4aaceab4bbd5961118</checksum>
           <url>arm64-v8a-37.0_signed_r01.zip</url>
         </complete>
       </archive>
@@ -1014,21 +1014,21 @@ This is the microXR Emulator System Image SDK License Agreement
       <base-extension>true</base-extension>
       <tag>
         <id>android-wear</id>
-        <display>Wear OS 7.0 - Preview</display>
+        <display>Wear OS 7.0</display>
       </tag>
       <abi>x86_64</abi>
     </type-details>
     <revision>
       <major>1</major>
     </revision>
-    <display-name>Wear OS 7.0 - Preview Intel x86_64 Atom System Image (signed)</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <display-name>Wear OS 7.0 Intel x86_64 Atom System Image (signed)</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1284186525</size>
-          <checksum type="sha1">64f6853e0c366b37463a200266bce8a33786e50b</checksum>
+          <size>1284185897</size>
+          <checksum type="sha1">2838029c692df14784a0f0a3b509e187fd5eac2c</checksum>
           <url>x86_64-37.0_signed_r01.zip</url>
         </complete>
       </archive>
