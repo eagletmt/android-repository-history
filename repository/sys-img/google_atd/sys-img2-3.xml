@@ -1009,7 +1009,7 @@ This is the microXR Emulator System Image SDK License Agreement
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-2"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
@@ -1039,7 +1039,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <major>1</major>
     </revision>
     <display-name>Google APIs ATD Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
+    <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
@@ -1049,7 +1049,7 @@ This is the microXR Emulator System Image SDK License Agreement
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-2"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
