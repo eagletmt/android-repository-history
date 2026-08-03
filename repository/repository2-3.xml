@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-37.2-beta2">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.1</api-level>
+      <codename>DEV</codename>
+      <extension-level>23</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>2</major>
+    </revision>
+    <display-name>Android SDK Platform 37.2-beta2</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>67757684</size>
+          <checksum type="sha1">e27443b95492f41c4ef8fea7ec69f6fd6c662204</checksum>
+          <url>platform-37.2-beta2_r02.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-37.2-beta1">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.1</api-level>
