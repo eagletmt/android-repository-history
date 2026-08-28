@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-37.2">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.2</api-level>
+      <codename></codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 37.2</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>68056472</size>
+          <checksum type="sha1">4bec12a02162ff6852df50b5fcf8ee762b050966</checksum>
+          <url>platform-37.2_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-37.2-beta3">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.1</api-level>
@@ -1638,6 +1662,29 @@ June 2014.
           <url>android-1.1_r1-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="sources;android-37.2">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>37.2</api-level>
+      <codename></codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 37.2</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>54168823</size>
+          <checksum type="sha1">e17cbd52887605a077121571b49ec3730ed0534e</checksum>
+          <url>source-37.2_r01.zip</url>
+        </complete>
       </archive>
     </archives>
   </remotePackage>

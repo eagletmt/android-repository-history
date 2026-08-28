@@ -980,6 +980,94 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-37.2;google_apis_ps16k;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.2</api-level>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>16 KB Page Size Google APIs ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>5</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2345230125</size>
+          <checksum type="sha1">9d6cdad931188b078e340c283f97b781f9e93c4a</checksum>
+          <url>arm64-v8a-ps16k-37.2_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-37.2;google_apis_ps16k;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.2</api-level>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>google_apis</id>
+        <display>Google APIs</display>
+      </tag>
+      <tag>
+        <id>page_size_16kb</id>
+        <display>16 KB Page Size</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>4</major>
+    </revision>
+    <display-name>16 KB Page Size Google APIs Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>5</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>2423363618</size>
+          <checksum type="sha1">ed8e066aa4b0c680a6acdd93133aa7988d77dca1</checksum>
+          <url>x86_64-ps16k-37.2_r04.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-37.2-beta3;google_apis_ps16k;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>37.1</api-level>
