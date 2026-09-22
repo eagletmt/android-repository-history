@@ -10546,6 +10546,46 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="emulators;16373346">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>1</minor>
+      <micro>3</micro>
+    </revision>
+    <display-name>Android Emulator (Preview)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>6</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>507717130</size>
+          <checksum>8010cd7cf4220b14fafbd5b0fb3904564594f9fa</checksum>
+          <url>emulator_linux_x64-16373346.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>286416689</size>
+          <checksum>3a26aa55c372d9bd74ebfa8ad9c39d377da03a83</checksum>
+          <url>emulator_windows_x64-16373346.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="emulator">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -10671,7 +10711,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>2</micro>
+      <micro>3</micro>
     </revision>
     <display-name>Android Emulator (Preview) (latest)</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10688,18 +10728,18 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>519739418</size>
-          <checksum>7dfd1a95ce66f950b78bb1b7c7edd48a9cb28f54</checksum>
-          <url>emulator_linux_x64-16173978.zip</url>
+          <size>507717130</size>
+          <checksum>8010cd7cf4220b14fafbd5b0fb3904564594f9fa</checksum>
+          <url>emulator_linux_x64-16373346.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>286084841</size>
-          <checksum>b69bfb9315c068b7451772014cc4d0cb7590e9d5</checksum>
-          <url>emulator_windows_x64-16173978.zip</url>
+          <size>286416689</size>
+          <checksum>3a26aa55c372d9bd74ebfa8ad9c39d377da03a83</checksum>
+          <url>emulator_windows_x64-16373346.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
