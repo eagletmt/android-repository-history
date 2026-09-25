@@ -10826,6 +10826,47 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="build;lightbuild;0.0.20-alpha02">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>20</micro>
+      <preview>02</preview>
+    </revision>
+    <display-name>Lightbuild</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>93153007</size>
+          <checksum>75ce2f260cc3daca21660e31f386ab0420a08966</checksum>
+          <url>lume-daemon-linux_x64-16426721.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>90947250</size>
+          <checksum>a1b43a341e954dc699684bc491c90ea4cd5800be</checksum>
+          <url>lume-daemon-darwin_x64-16426721.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>90692669</size>
+          <checksum>77d23eed621098e69b342bd87a9837c833463a9f</checksum>
+          <url>lume-daemon-windows_x64-16426721.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="build;lightbuild;0.0.20-alpha01">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
