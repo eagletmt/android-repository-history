@@ -998,7 +998,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Android Automotive with Google APIs arm64-v8a System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1015,9 +1015,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1423204133</size>
-          <checksum type="sha1">57954251f8067926f90e87b8f7bfaaebb14804c0</checksum>
-          <url>arm64-v8a-35-ext15_r03.zip</url>
+          <size>1363609651</size>
+          <checksum type="sha1">c09e314f49e53b23721147480db60de7dd903399</checksum>
+          <url>arm64-v8a-35-ext15_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1040,7 +1040,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Android Automotive with Google APIs x86_64 System Image</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -1057,9 +1057,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1461955988</size>
-          <checksum type="sha1">608cbbc33005fb4a13ad041c8a0e76f3033ac0f5</checksum>
-          <url>x86_64-35-ext15_r03.zip</url>
+          <size>1402295681</size>
+          <checksum type="sha1">0ddb2dd3cf225407000c32e5d73a3f3529c6e94c</checksum>
+          <url>x86_64-35-ext15_r04.zip</url>
         </complete>
       </archive>
     </archives>
