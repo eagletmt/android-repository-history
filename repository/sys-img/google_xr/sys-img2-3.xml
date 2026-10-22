@@ -1206,7 +1206,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play XR Preview API v4 ARM 64 v8a System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1223,9 +1223,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1631174870</size>
-          <checksum type="sha1">160292be06e7557a549b9d4504267f4ca8e4de8e</checksum>
-          <url>xr-preview-arm64-v8a-playstore-34_r03.zip</url>
+          <size>1711653288</size>
+          <checksum type="sha1">3edb22c1e7fe70ff50358d8f1ce7b42b5fd88279</checksum>
+          <url>xr-preview-arm64-v8a-playstore-34_r04.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1254,7 +1254,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>3</major>
+      <major>4</major>
     </revision>
     <display-name>Google Play XR Preview API v4 Intel x86_64 Atom System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1271,17 +1271,17 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>1778990355</size>
-          <checksum type="sha1">d2e1aec8bf48ac53ec5e417396e95e9b3788e96e</checksum>
-          <url>xr-preview-x86_64-playstore-34_r03-linux.zip</url>
+          <size>1802162465</size>
+          <checksum type="sha1">3dbfce005f5142aae8a850b32b1e1c03b1ec670a</checksum>
+          <url>xr-preview-x86_64-playstore-34_r04-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>1739008382</size>
-          <checksum type="sha1">ccdefe4a7b19e660a051e3799a3fc8df1dfb516d</checksum>
-          <url>xr-preview-x86_64-playstore-34_r03-windows.zip</url>
+          <size>1761433435</size>
+          <checksum type="sha1">113b99b364f2f33d87751e8c993260ca52d7cea6</checksum>
+          <url>xr-preview-x86_64-playstore-34_r04-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
@@ -1305,7 +1305,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>6</major>
     </revision>
-    <display-name>AI Glasses ARM 64 v8a System Image (Developer Preview)</display-name>
+    <display-name>Intelligent Eyewear ARM 64 v8a System Image (Developer Preview)</display-name>
     <uses-license ref="microxr-sysimage-license"/>
     <dependencies>
       <dependency path="emulator">
@@ -1345,7 +1345,7 @@ This is the microXR Emulator System Image SDK License Agreement
     <revision>
       <major>6</major>
     </revision>
-    <display-name>AI Glasses Intel x86_64 Atom System Image (Developer Preview)</display-name>
+    <display-name>Intelligent Eyewear Intel x86_64 Atom System Image (Developer Preview)</display-name>
     <uses-license ref="microxr-sysimage-license"/>
     <dependencies>
       <dependency path="emulator">
