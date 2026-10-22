@@ -980,6 +980,78 @@ This is the microXR Emulator System Image SDK License Agreement
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="system-images;android-37.0;default;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>37</major>
+          <minor>2</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>865756849</size>
+          <checksum type="sha1">f94cb780748169b5944b7c2e5c0693e5077ec8c4</checksum>
+          <url>arm64-v8a-37.0_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-37.0;default;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>37.0</api-level>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>default</id>
+        <display>Default Android System Image</display>
+      </tag>
+      <abi>x86_64</abi>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>37</major>
+          <minor>2</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>907680404</size>
+          <checksum type="sha1">8842a57a6b146423debb46c1496a9c0986aa1b9e</checksum>
+          <url>x86_64-37.0_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="system-images;android-36;default;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>36</api-level>

@@ -1453,10 +1453,6 @@ This is the microXR Emulator System Image SDK License Agreement
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <tag>
-        <id>ai_glasses_compatible</id>
-        <display>AI Glasses Compatible</display>
-      </tag>
       <vendor>
         <id>google</id>
         <display>Google Inc.</display>
@@ -1464,15 +1460,15 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>8</major>
     </revision>
     <display-name>Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>36</major>
-          <minor>5</minor>
+          <major>37</major>
+          <minor>2</minor>
           <micro>11</micro>
         </min-revision>
       </dependency>
@@ -1481,9 +1477,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2257751510</size>
-          <checksum type="sha1">642cf494464b4d1d4d37fa50630fe153599be3fb</checksum>
-          <url>arm64-v8a-37.0_r06.zip</url>
+          <size>2166618231</size>
+          <checksum type="sha1">ac251e27178d78cffb0b7ee577d79643491a89a6</checksum>
+          <url>arm64-v8a-37.0_r08.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1497,10 +1493,6 @@ This is the microXR Emulator System Image SDK License Agreement
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
-      <tag>
-        <id>ai_glasses_compatible</id>
-        <display>AI Glasses Compatible</display>
-      </tag>
       <vendor>
         <id>google</id>
         <display>Google Inc.</display>
@@ -1508,15 +1500,15 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>6</major>
+      <major>8</major>
     </revision>
     <display-name>Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>36</major>
-          <minor>5</minor>
+          <major>37</major>
+          <minor>2</minor>
           <micro>11</micro>
         </min-revision>
       </dependency>
@@ -1525,9 +1517,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2326241523</size>
-          <checksum type="sha1">6950c614f07592b18d21a6e3e65d40a9aa1c3635</checksum>
-          <url>x86_64-37.0_r06.zip</url>
+          <size>2233472201</size>
+          <checksum type="sha1">7ba53fe131fad2cfc3de2b88e32fde5c529fc9c7</checksum>
+          <url>x86_64-37.0_r08.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1730,15 +1722,15 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>8</major>
     </revision>
     <display-name>16 KB Page Size Google Play ARM 64 v8a System Image</display-name>
     <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>36</major>
-          <minor>6</minor>
+          <major>37</major>
+          <minor>2</minor>
           <micro>11</micro>
         </min-revision>
       </dependency>
@@ -1747,9 +1739,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2215923493</size>
-          <checksum type="sha1">069f7d13a78bc96034bc0d4e490dbb804c658e0a</checksum>
-          <url>arm64-v8a-playstore-ps16k-37.0_r07.zip</url>
+          <size>2215914441</size>
+          <checksum type="sha1">fd7cc5f4a3b1921038fb2149120369387db6d33d</checksum>
+          <url>arm64-v8a-playstore-ps16k-37.0_r08.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1774,15 +1766,15 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>7</major>
+      <major>8</major>
     </revision>
     <display-name>16 KB Page Size Google Play Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>36</major>
-          <minor>6</minor>
+          <major>37</major>
+          <minor>2</minor>
           <micro>11</micro>
         </min-revision>
       </dependency>
@@ -1791,9 +1783,9 @@ This is the microXR Emulator System Image SDK License Agreement
     <archives>
       <archive>
         <complete>
-          <size>2217434979</size>
-          <checksum type="sha1">ef188725fe9e63a05f9543e53ab4bb3230d40db4</checksum>
-          <url>x86_64-playstore-ps16k-37.0_r07.zip</url>
+          <size>2217428432</size>
+          <checksum type="sha1">c4045d6728f08a6e9593e7b281f11494efde3cb3</checksum>
+          <url>x86_64-playstore-ps16k-37.0_r08.zip</url>
         </complete>
       </archive>
     </archives>
