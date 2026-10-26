@@ -11406,6 +11406,55 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="build;lightbuild;0.0.30">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>30</micro>
+    </revision>
+    <display-name>Lightbuild</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>131543753</size>
+          <checksum type="sha1">110c0ee6b9d1f12227230b99c7901f5a1f2860c8</checksum>
+          <url>lume-daemon-linux_x64-16707469.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>127063891</size>
+          <checksum type="sha1">222855058bc4b69d9a2789af4b7bd80dcaa68905</checksum>
+          <url>lume-daemon-darwin_x64-16707469.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>125295161</size>
+          <checksum type="sha1">be6f46c95e2c5d9e54ce62f3cdfa1231f6cd3d1d</checksum>
+          <url>lume-daemon-darwin_aarch64-16707469.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-arch>aarch64</host-arch>
+      </archive>
+      <archive>
+        <complete>
+          <size>126033799</size>
+          <checksum type="sha1">0939b82ca369349e042529dc61695c5c85a51a93</checksum>
+          <url>lume-daemon-windows_x64-16707469.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="build;lightbuild;0.0.20-alpha02">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
