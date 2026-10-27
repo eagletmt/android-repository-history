@@ -11074,7 +11074,7 @@ June 2014.
     <revision>
       <major>0</major>
       <minor>1</minor>
-      <micro>2</micro>
+      <micro>3</micro>
     </revision>
     <display-name>Android Project Templates</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -11082,9 +11082,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>303341</size>
-          <checksum>38dfae1b4ed8f61ef976fbb83987f55d48480836</checksum>
-          <url>templates-sdk-package-16716255.zip</url>
+          <size>302064</size>
+          <checksum>4aa3ad1d16f8af53ed2bd1653f2b578ae3fb7384</checksum>
+          <url>templates-sdk-package-16732273.zip</url>
         </complete>
       </archive>
     </archives>
