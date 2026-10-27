@@ -1087,10 +1087,6 @@ This is the microXR Emulator System Image SDK License Agreement
         <display>Android XR</display>
       </tag>
       <tag>
-        <id>android-xr-ost</id>
-        <display>XR OST Supported</display>
-      </tag>
-      <tag>
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
@@ -1101,7 +1097,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play XR API v3 ARM 64 v8a System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1114,13 +1110,13 @@ This is the microXR Emulator System Image SDK License Agreement
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-2"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1564406971</size>
-          <checksum type="sha1">b628e55a2c9fb4444a4e0164dbca15dab00a7ee3</checksum>
-          <url>xr-v3-arm64-v8a-playstore-34_r02.zip</url>
+          <size>1564406101</size>
+          <checksum type="sha1">3a839c1915b83067e0086fe690b52fc70a92c208</checksum>
+          <url>xr-v3-arm64-v8a-playstore-34_r03.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1135,10 +1131,6 @@ This is the microXR Emulator System Image SDK License Agreement
         <display>Android XR</display>
       </tag>
       <tag>
-        <id>android-xr-ost</id>
-        <display>XR OST Supported</display>
-      </tag>
-      <tag>
         <id>google_apis_playstore</id>
         <display>Google Play</display>
       </tag>
@@ -1149,7 +1141,7 @@ This is the microXR Emulator System Image SDK License Agreement
       <abi>x86_64</abi>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
     <display-name>Google Play XR API v3 Intel x86_64 Atom System Image (Developer Preview)</display-name>
     <uses-license ref="android-googlexr-license"/>
@@ -1162,21 +1154,21 @@ This is the microXR Emulator System Image SDK License Agreement
         </min-revision>
       </dependency>
     </dependencies>
-    <channelRef ref="channel-2"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
-          <size>1653780343</size>
-          <checksum type="sha1">093c06158d0d581676af603fa215c91f9f39ff42</checksum>
-          <url>xr-v3-x86_64-playstore-34_r02-linux.zip</url>
+          <size>1653780042</size>
+          <checksum type="sha1">1ce13cf16364e6b0379ccf936120a54fc9faaa70</checksum>
+          <url>xr-v3-x86_64-playstore-34_r03-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>1616887099</size>
-          <checksum type="sha1">96bff6234fa0bd4d2fba5ca9d13936300e4dddd1</checksum>
-          <url>xr-v3-x86_64-playstore-34_r02-windows.zip</url>
+          <size>1616887508</size>
+          <checksum type="sha1">1b4b453a2c2c75b0547e54e5d63b87dd56d115b4</checksum>
+          <url>xr-v3-x86_64-playstore-34_r03-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
