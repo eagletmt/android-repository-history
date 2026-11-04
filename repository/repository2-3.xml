@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-canary-20261104">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.2</api-level>
+      <codename>CANARY</codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>18</major>
+    </revision>
+    <display-name>Android SDK Platform canary-20261104</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>69985126</size>
+          <checksum type="sha1">ef36a4735e1ec29aa1e3ee42580d1913b7092c1b</checksum>
+          <url>platform-canary-20261104_r18.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-canary-20261007">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.2</api-level>
