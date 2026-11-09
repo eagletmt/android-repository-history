@@ -10514,43 +10514,6 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>0</minor>
-      <micro>2</micro>
-    </revision>
-    <display-name>Android SDK Platform-Tools</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>9541228</size>
-          <checksum>736a08af10515674e40d8b754fe87390d698da2b</checksum>
-          <url>platform-tools_r37.0.2-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>16516152</size>
-          <checksum>6f86aa58ba42dd4bfe27477f3f11c09edc3ebe3f</checksum>
-          <url>platform-tools_r37.0.2-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>8239125</size>
-          <checksum>d7ee482b3874f1e0d6d5dca135f6bd58f5716db0</checksum>
-          <url>platform-tools_r37.0.2-win.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platform-tools">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>37</major>
-      <minor>0</minor>
       <micro>1</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
