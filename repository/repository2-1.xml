@@ -10517,8 +10517,8 @@ June 2014.
       <micro>3</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
     <archives>
       <archive>
         <complete>
@@ -10530,54 +10530,17 @@ June 2014.
       </archive>
       <archive>
         <complete>
-          <size>16597640</size>
-          <checksum>eca4effbe35f4968139b051bbb16753302a3c33c</checksum>
+          <size>16597626</size>
+          <checksum>d48920e2650321710b4d15d3acd9e277d59cd55b</checksum>
           <url>platform-tools_r37.0.3-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>8188595</size>
-          <checksum>b3fde5239ad89229d5a9178375b81c9887a24172</checksum>
+          <size>8188601</size>
+          <checksum>7fea85bc18d0480bc81d3603952d666f49496e5a</checksum>
           <url>platform-tools_r37.0.3-win.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="platform-tools">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>37</major>
-      <minor>0</minor>
-      <micro>1</micro>
-    </revision>
-    <display-name>Android SDK Platform-Tools</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>9054187</size>
-          <checksum>477254aa5f903c15cf51001717bdf347fb6b53e0</checksum>
-          <url>platform-tools_r37.0.1-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>16110554</size>
-          <checksum>6ae73f4de6452dc57e62ec02b68eed92a4c21661</checksum>
-          <url>platform-tools_r37.0.1-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>8044989</size>
-          <checksum>e03e78b1d80b396f1c3358e31251cb31740e1110</checksum>
-          <url>platform-tools_r37.0.1-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
